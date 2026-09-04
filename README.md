@@ -1,179 +1,131 @@
 # PPL Study
 
-A framework-free PHP 8.1+ study application for the Czech PPL(A) theoretical syllabus. The application provides an invitation-only learning environment with four-choice study cards, automatic scoring, randomized drills, subject paper drills, search, browser-local progress, learner profiles, and administrator management.
+A framework-free PHP 8.1+ study application for the Czech PPL(A) theoretical syllabus. It provides an invitation-only learning environment with source-exact four-choice study cards, automatic scoring, drills, search, browser-local progress, learner profiles, and administrator management.
 
-**Current version:** 0.3.1
+**Current version:** 0.1.0
 
 **Deployment target:** ordinary PHP shared hosting with MySQL or MariaDB. The runtime uses native PHP, PDO, JavaScript, and Apache routing.
 
-## What ships in 0.3.1
+## First release
 
-- 880 study cards in 9 PPL(A) subjects
-- four answer choices on every bundled study card
-- source trace, correct result, explanation, warning, and source-page metadata
-- attachment code and official attachment link where applicable
-- public dashboard with subject counts and examination-paper metadata
-- authenticated random single-card study mode
-- authenticated custom and timed paper drills
-- authenticated question-bank search
-- browser-local automatic scoring, stars, and progress tracking
-- invitation-only learner accounts created by administrators
-- learner and administrator roles in one account model
-- administrator-issued one-time login passwords
-- mandatory permanent-password setup after the first login
-- account activation/deactivation, role assignment, and password reset from Admin
-- administrator card editing, import, settings, audit log, and System Health
-- transactional, versioned JSON question-bank importer
-- deterministic database migrations
-- three-screen shared-hosting installer
-- emergency administrator recovery protected by a deployment-specific setup key
-- offline PDF-to-JSON regeneration and study-choice generation scripts
-- architecture, code map, database, testing, release, and contributor documentation
-- MySQL/MariaDB-compatible System Health metadata inspection with native PDO prepares
+Version 0.1.0 is the first public release. Earlier development milestones were commits, not published versions.
+
+The release includes:
+
+- 896 active questions in all nine PPL(A) subjects
+- exact source wording and four answer choices in published order
+- the source-derived correct answer as the authoritative answer
+- curated principle, memory-aid, and operational-context explanations
+- project-owned SVG study redraws for attachment-dependent questions
+- authenticated learning and quiz modes, custom drills, timed subject papers, search, scoring, stars, and browser-local progress
+- invitation-only learner accounts and administrator-managed access
+- transactional question-bank import, deterministic migrations, audit logging, and System Health
+- shared-hosting installation and deployment tooling
 
 ## Access model
 
-The root dashboard and source-information page are publicly readable. Study-card content is served only to authenticated accounts with completed permanent-password setup.
+The subject dashboard and source-information page are public. Study-card content is available only to active authenticated accounts that have completed permanent-password setup.
 
-Administrators create every learner account in **Admin > Uživatelé**. Account creation accepts a username, display name, role, and temporary password. The temporary password authorizes exactly one successful login. That login immediately marks the temporary credential as consumed and routes the learner to permanent-password setup. A lost session during this step is recovered by an administrator assigning a fresh temporary password.
+Administrators create all accounts. A temporary password authorizes one successful login and then forces permanent-password setup. Administrators can manage roles, activation, display names, and password resets. The application prevents the current administrator from demoting or disabling their own account and preserves at least one active administrator.
 
-Administrators can promote another account to the Administrator role, deactivate accounts, reactivate accounts, and issue a fresh temporary password. The application protects the active administrator from disabling or demoting the account currently used for administration and preserves at least one active administrator.
+## Question and source model
 
-## Study-choice model
+Every question contains four choices and exactly one correct answer. All nine subjects use source-exact active question sets, producing these subject counts:
 
-Each card contains four answer choices. The source-derived correct result remains the scoring authority. The other choices are generated study distractors based on the same bank, answer structure, nearby topics, numeric units, and deterministic value variants. Administrators can replace any generated set directly on the card-edit screen.
+`97 / 58 / 129 / 87 / 99 / 60 / 101 / 128 / 137`
 
-The bundled data represents the study compilation supplied for this project. For actual flight operations, current regulations, AIP, NOTAM, AFM/POH, and ATS instructions take precedence.
+The integrated bank contains 896 questions. Source-derived correct answers remain authoritative; generated or curated study content is separate and editable project data.
+
+Source-exact JSON lives in `data/source-exact/`, explanation overlays in `data/curation/`, and source metadata in `data/source-manifest.json`. Official source PDFs are not part of the repository or deployment archive. An administrator may associate locally supplied PDFs through **Admin > Zdroje**; protected documents are served only through authenticated application routes.
+
+For flight operations, current regulations, AIP, NOTAM, AFM/POH, and ATS instructions take precedence.
 
 ## Requirements
 
 Server:
 
 - PHP 8.1 or newer
-- `pdo_mysql`
-- `json`
-- `mbstring`
-- MySQL 5.7+ or MariaDB 10.4+ recommended
-- Apache with `mod_rewrite` recommended for pretty URLs
-- write access to project root during installation and to `cache/`
+- PDO MySQL, JSON, and mbstring extensions
+- MySQL 5.7+ or MariaDB 10.4+
+- Apache with `mod_rewrite` recommended
+- write access to the project root during installation, `cache/`, and `data/source-documents/`
 
-Offline question-bank regeneration additionally uses:
+Offline question-bank regeneration additionally requires Python 3.10+ and Poppler `pdftotext`.
 
-- Python 3.10+
-- Poppler `pdftotext`
+## Installation
 
-## Installation on shared hosting
-
-1. Create an empty MySQL or MariaDB database and database user in the hosting control panel.
-2. Upload the complete project into the document root of the chosen subdomain.
+1. Create an empty MySQL or MariaDB database and user.
+2. Upload the release archive to the chosen document root.
 3. Open `https://your-subdomain.example/install.php`.
-4. Step 1 verifies the environment and database connection.
-5. Step 2 creates the initial administrator with a permanent password, runs migrations, validates/imports the bundled 880-card bank, writes `config.php`, and creates `cache/installed.lock`.
-6. Step 3 links to `/admin`.
+4. Verify the environment and database connection.
+5. Create the initial administrator. The installer runs all four migrations, imports the bundled 896-question bank, writes `config.php`, and creates `cache/installed.lock`.
+6. Continue to `/admin`, review System Health, and create learner accounts.
 
-The hosting control panel owns database/database-user creation. The installer consumes those credentials and configures the application schema.
+`config.php` contains deployment secrets and is generated locally. Never commit or overwrite it during deployment. `reset.php` requires the deployment-specific `setup_key` for emergency administrator recovery.
 
-### URL rewriting
+## Main routes
 
-The root `.htaccess` serves existing static assets directly and rewrites application routes to `index.php`. The internal router also understands `?page=...` identifiers for hosting environments that use fallback routing.
+| Route | Access and function |
+| --- | --- |
+| `/` | public subject dashboard |
+| `/about` | public source and examination information |
+| `/login` | learner/administrator login |
+| `/account` | authenticated profile |
+| `/account/password` | required first-login setup and password change |
+| `/study` | authenticated study setup |
+| `/question/{sequence}` | authenticated learning or quiz card |
+| `/drill` | authenticated custom or timed paper drill |
+| `/search` | authenticated question-bank search |
+| `/api/quiz` | authenticated first-party drill API |
+| `/admin` | administrator dashboard |
+| `/admin/users` | account management |
+| `/admin/questions` | question list and editor |
+| `/admin/sources` | protected source-document association |
+| `/admin/import` | bundled or uploaded JSON import |
+| `/admin/settings` | application settings |
+| `/admin/diagnostics` | System Health and migrations |
 
-### Configuration
+## Question-bank maintenance
 
-`config.php` is generated by the installer and contains deployment credentials and secrets. `config.example.php` documents the supported shape.
+Regenerate the bank offline; never parse PDFs during installation or normal requests:
 
-The installer also creates a random `setup_key`. `reset.php` uses this key for emergency administrator recovery.
+```bash
+python3 scripts/build_question_bank.py /outside/project/source.pdf data/question-bank.json
+python3 scripts/apply_curation.py data/question-bank.json
+php scripts/validate_question_bank.php
+```
 
-## Updating an existing 0.2.0 installation
+The importer validates the complete payload before starting its transaction. Subject counts and continuous `sequence_no` values are invariants.
 
-1. Upload the 0.3.0 affected application files while preserving the live `config.php` and runtime `cache/` data.
-2. Existing administrator sessions and logins remain compatible long enough to reach **Admin > System Health**.
-3. Run the pending `202609030003_user_accounts` migration.
-4. Open **Admin > Uživatelé** and create learner accounts.
-5. Verify public access in a signed-out browser and authenticated study access in a learner account.
+## Release packaging
 
-The migration expands the existing `users` table. Existing administrators stay active administrators with their current permanent password.
-
-## Windows deployment packaging
-
-`deploy.bat` is a thin wrapper around `scripts/deploy.ps1`. Local ZIP mode preserves project-relative directory paths and excludes `config.php`, runtime cache, generated ZIP files, and tooling caches.
-
-Double-click `deploy.bat` for the interactive workflow, or run:
+On Windows:
 
 ```bat
 deploy.bat -Mode local -DeployFolder deploy -MakeZipDeploy true
 ```
 
-## Public and account routes
-
-| Route | Function |
-| --- | --- |
-| `/` | public subject dashboard |
-| `/about` | source and examination structure |
-| `/login` | learner/administrator login |
-| `/account` | authenticated profile |
-| `/account/password` | mandatory first-login setup and later password change |
-| `/study` | authenticated study-mode setup |
-| `/question/{sequence}` | authenticated individual study card |
-| `/drill` | authenticated custom and paper drill |
-| `/search` | authenticated question-bank search |
-| `/api/quiz` | authenticated first-party drill JSON endpoint |
-
-Legacy `/admin/login` and `/admin/logout` routes continue to resolve through the shared authentication controller.
-
-## Administrator routes
-
-| Route | Function |
-| --- | --- |
-| `/admin` | dashboard |
-| `/admin/users` | user list |
-| `/admin/users/new` | create learner or administrator |
-| `/admin/user/{id}` | role, active state, and temporary-password management |
-| `/admin/questions` | filtered question list |
-| `/admin/question/{sequence}` | card editor |
-| `/admin/import` | bundled or uploaded JSON import |
-| `/admin/settings` | public text and defaults |
-| `/admin/diagnostics` | System Health and pending migrations |
-
-## Question-bank updates
-
-Regenerate JSON offline:
+On Unix-like systems:
 
 ```bash
-python3 scripts/build_question_bank.py path/to/PPL_compilation.pdf data/question-bank.json
-php scripts/validate_question_bank.php
+bash deploy.sh
 ```
 
-After uploading a new valid JSON bank, use **Admin > Import**. The importer validates the complete payload before starting the transaction. Subject counts and `sequence_no` continuity are treated as invariants.
+The package is named `PPL-Study-0.1.0-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
 
-## Validation before deployment
-
-Run:
+Before release, run:
 
 ```bash
 bash scripts/check_syntax.sh
 php scripts/validate_question_bank.php
 ```
 
-For full acceptance testing, follow `TESTING.md` against a disposable MySQL or MariaDB database.
+Then complete the fresh-install and administrator acceptance cases in `TESTING.md` against a disposable MySQL or MariaDB database.
 
-## Architecture
+## Architecture and licensing
 
-The project uses explicit module ownership:
+Root entry points stay thin; bootstrap owns runtime assembly and routing; controllers handle HTTP concerns; services own domain and SQL logic; views render HTML; migrations are append-only; and configuration defaults are centralized.
 
-- root entry points stay thin
-- bootstrap owns runtime assembly and routing
-- controllers handle HTTP concerns
-- services own domain and database logic
-- views render HTML
-- migrations are explicit PHP files containing SQL statements
-- configuration defaults are centralized
-- bundled data is a versioned artifact independent of database schema
-- documentation describes module ownership and mutation boundaries
+See `ARCHITECTURE.md`, `CODEMAP.md`, `DATABASE.md`, and `TESTING.md`.
 
-See `ARCHITECTURE.md` and `CODEMAP.md` before making structural changes.
-
-## Licensing
-
-Application code is MIT licensed. See `LICENSE`.
-
-The bundled question-bank data has its own provenance and usage notes in `data/README.md`.
+Application code is MIT licensed. The source-derived data has separate provenance and usage notes in `data/README.md`; the project owner is responsible for confirming redistribution rights.

@@ -95,20 +95,24 @@ Do not infer question-bank compatibility solely from application version. Valida
 
 ## 5. Question-bank invariants
 
-The bundled version 3.0 compilation is represented by these hard invariants:
+The current bundled bank is represented by these hard invariants:
 
 - 9 subjects
-- 880 study cards
-- sequence numbers form the exact contiguous range 1..880
+- 896 current questions
+- sequence numbers form the exact contiguous range 1..896
+- subjects 1 through 6 contain all 97, 58, 129, 87, 99, and 60 active published source questions with exact wording and answer order; Letové zásady source question 8 is recorded as retired
 - each question belongs to one declared subject
 - each subject count equals `expected_cards`
 - every card has `source_trace`, `prompt`, `answer`, `choices`, and `explanation`
 - every card has exactly four unique choices
 - the source-derived `answer` appears exactly once among the four choices
 - source question IDs are stored as JSON to permit merged cards
-- attachment references are metadata, not downloaded assets
+- attachment references are metadata; local image attachments can also render inline in question and drill views
+- curation state and wording fidelity are explicit per-question fields
+- structured explanation sections are stored as JSON
+- source-document identity and source PDF page are tracked independently from the compilation page
 
-Study distractors are generated offline by project tooling and stored explicitly in the question bank. Administrators may replace generated choices without changing the source-derived correct answer contract.
+Source-exact subjects preserve the published answer order. Subjects awaiting exact-source processing use explicit generated study choices until their source replacement is added.
 
 ## 6. Authentication and mutation security
 
@@ -130,7 +134,7 @@ Authentication uses one shared session model for learners and administrators.
 - login failures are recorded in the legacy `admin_login_attempts` throttle table
 - `reset.php` is outside normal authentication and requires the random `setup_key` from `config.php`
 
-The application preserves compatibility with the pre-0.3.0 administrator schema long enough for an existing administrator to sign in and run migration `202609030003_user_accounts` from System Health.
+The authentication layer tolerates the legacy administrator schema while migration 202609030003_user_accounts is pending, allowing System Health to complete the schema.
 
 ## 7. Import transaction boundary
 
@@ -191,3 +195,43 @@ Likely additions can fit without architectural rewrite:
 - multi-language study card content
 
 These remain future extension points.
+
+
+## 11. Sequential curation
+
+Question curation proceeds by `sequence_no` from 1 upward. Two independent fields keep progress unambiguous:
+
+- `curation_status`: `draft`, `explained`, `verified`
+- `wording_status`: `study_wording`, `source_exact`
+
+`verified` requires `source_exact`. This prevents a rich explanation from being mistaken for source-fidelity verification.
+
+Hand-curated content lives in `data/curation/*.json`. Active overlays are explicitly ordered by `data/curation/manifest.json`. `scripts/build_question_bank.py` regenerates the base bank from the supplied compilation, applies source-exact subject replacements, then applies the curation overlays. All nine subjects are currently source-exact. This keeps question-generation logic separate from manual curation.
+
+## 12. Source documents
+
+`data/source-manifest.json` identifies source PDFs by stable `source_key`. Administrator-supplied PDFs are stored in `data/source-documents/`, a path denied to direct HTTP access. The application serves a local PDF only through `/source/{source_key}` after user authentication.
+
+Production never downloads a source PDF automatically. Source PDFs stay outside version control and release packages; administrators can associate locally supplied documents with manifest entries through the protected workflow.
+
+## 13. Subject 7 exact-source layer
+
+`data/source-exact/07-provedeni-planovani.json` replaces the compact subject-7 compilation cards with all 101 published source questions from the supplied official PDF. `data/curation/07-provedeni-planovani.json` adds the project explanation layer by stable source-question ID.
+
+The replacement preserves the subject cardinality at 101 questions. Attachment-dependent questions reference local study redraws under public/assets/attachments/; an optional locally supplied PDF can be associated through the protected source-document workflow.
+
+## 14. Subjects 8 and 9 exact-source completion
+
+`data/source-exact/08-obecne-znalosti.json` contains all 128 published **Obecné znalosti o letadle** questions. `data/source-exact/09-navigace.json` contains all 137 published **Navigace** questions.
+
+The Navigation replacement expands two compact compilation records back to their original source granularity:
+
+- source questions 15, 16, and 17 are three separate time/longitude questions;
+- source questions 73 and 76 are separate numeric and verbal wind-correction questions.
+
+After the subject 9 replacement, the integrated bank contains 896 active questions and exactly matches the active-source cardinality recorded by the compilation. Every active question has `wording_status = source_exact` and `curation_status = verified`.
+
+Source PDFs remain outside the repository and release package. Attachment-dependent questions use local project-owned study redraws under public/assets/attachments/.
+
+Client-local learning progress uses the pplStudyProgressV7 namespace in the first release.
+

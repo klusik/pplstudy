@@ -19,6 +19,7 @@ zip -qr "$OUT" . \
   -x 'cache/*' \
   -x 'deploy/*' \
   -x '*.zip' \
+  -x '*.pdf' \
   -x '.git/*' \
   -x '.DS_Store' \
   -x '__pycache__/*' \

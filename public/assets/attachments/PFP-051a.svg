@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" aria-labelledby="t d">
+  <title id="t">PFP-051a Výřez letového plánu</title>
+  <desc id="d">Studijní podklad PFP-051a.</desc>
+  <rect width="1000" height="440" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="380" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Výřez letového plánu</text>
+<rect x="50" y="115" width="180" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="140.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Pole</text>
+<rect x="230" y="115" width="250" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="355.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Zápis</text>
+<rect x="480" y="115" width="470" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="715.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Význam</text>
+<rect x="50" y="165" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="140.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">8</text>
+<rect x="230" y="165" width="250" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="355.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">V</text>
+<rect x="480" y="165" width="470" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="715.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">VFR</text>
+<rect x="50" y="223" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="140.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">18</text>
+<rect x="230" y="223" width="250" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="355.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">RMK/NIGHT</text>
+<rect x="480" y="223" width="470" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="715.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">let v noci</text>
+<text x="60" y="323" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Kombinace polí identifikuje noční let podle pravidel VFR.</text>
+  <text x="500.0" y="418" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

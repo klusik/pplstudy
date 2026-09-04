@@ -74,7 +74,7 @@ if (Test-Path -LiteralPath $metadataPath) {
 
 $excludeTopLevelDirs = @('.git', 'cache', 'deploy')
 $excludeDirNamesAnywhere = @('__pycache__', '.pytest_cache')
-$excludeFiles = @('config.php', '.env', '.DS_Store', '*.log', '*.tmp', '*.pyc', '*.zip')
+$excludeFiles = @('config.php', '.env', '.DS_Store', '*.log', '*.tmp', '*.pyc', '*.zip', '*.pdf')
 
 function Get-DeployRelativePath($Path) {
     $fullPath = [System.IO.Path]::GetFullPath($Path)

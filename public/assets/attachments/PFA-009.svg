@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t d">
+  <title id="t">PFA-009 studijní schéma bodů proudění na profilu</title>
+  <desc id="d">Profil s proudnicemi. Bod 1 je stagnační bod na náběžné hraně, bod 3 přechod laminární mezní vrstvy na turbulentní a bod 4 odtržení proudu.</desc>
+  <rect width="900" height="500" fill="#fff"/>
+  <g stroke="#8aa0af" stroke-width="3" fill="none">
+    <path d="M45 180 C170 180 180 165 250 140 C430 80 620 105 840 165"/>
+    <path d="M45 230 C160 230 190 215 250 190 C430 145 620 160 840 220"/>
+    <path d="M45 280 C170 280 190 300 250 320 C430 355 620 335 840 285"/>
+  </g>
+  <path d="M200 250 C330 130 610 145 790 240 C600 320 340 330 200 250 Z" fill="#e8eef3" stroke="#17384f" stroke-width="4"/>
+  <circle cx="202" cy="250" r="10" fill="#9a4f55"/><text x="165" y="240" font-family="system-ui,sans-serif" font-size="34" font-weight="700">1</text>
+  <circle cx="455" cy="160" r="10" fill="#9a4f55"/><text x="445" y="125" font-family="system-ui,sans-serif" font-size="34" font-weight="700">3</text>
+  <circle cx="675" cy="190" r="10" fill="#9a4f55"/><text x="690" y="180" font-family="system-ui,sans-serif" font-size="34" font-weight="700">4</text>
+  <path d="M455 160 C520 150 590 160 675 190" fill="none" stroke="#d38d2c" stroke-width="8" stroke-dasharray="4 5"/>
+  <path d="M675 190 C730 160 780 140 840 145" fill="none" stroke="#d38d2c" stroke-width="5" stroke-dasharray="10 8"/>
+  <text x="300" y="462" font-family="system-ui,sans-serif" font-size="18" fill="#465b6b">Studijní překreslení přílohy PFA-009</text>
+</svg>

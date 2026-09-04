@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="t d">
+  <title id="t">PFA-010 studijní schéma geometrie profilu</title>
+  <desc id="d">Profil křídla se zvýrazněnou hloubkou profilu označenou číslem 2 a střední čárou profilu označenou číslem 3.</desc>
+  <rect width="900" height="480" fill="#fff"/>
+  <path d="M120 250 C260 120 560 130 780 235 C570 325 290 330 120 250 Z" fill="#e8eef3" stroke="#17384f" stroke-width="4"/>
+  <line x1="120" y1="250" x2="780" y2="235" stroke="#666" stroke-width="3" stroke-dasharray="10 8"/>
+  <path d="M120 250 C300 205 550 205 780 235" fill="none" stroke="#9a4f55" stroke-width="5"/>
+  <line x1="120" y1="380" x2="780" y2="380" stroke="#17384f" stroke-width="4"/>
+  <path d="M120 380 l20 -10 v20 z M780 380 l-20 -10 v20 z" fill="#17384f"/>
+  <text x="440" y="425" font-family="system-ui,sans-serif" font-size="34" font-weight="700" fill="#17384f">2</text>
+  <line x1="520" y1="190" x2="460" y2="215" stroke="#9a4f55" stroke-width="3"/>
+  <text x="530" y="185" font-family="system-ui,sans-serif" font-size="34" font-weight="700" fill="#9a4f55">3</text>
+  <text x="315" y="458" font-family="system-ui,sans-serif" font-size="18" fill="#465b6b">Studijní překreslení přílohy PFA-010</text>
+</svg>

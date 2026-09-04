@@ -30,6 +30,9 @@ try {
     fwrite(STDOUT, 'Questions: ' . $summary['questions'] . "\n");
     fwrite(STDOUT, 'Attachment references: ' . $summary['attachments'] . "\n");
     fwrite(STDOUT, 'Generated choice sets: ' . $summary['generated_choices'] . "\n");
+    fwrite(STDOUT, 'Explained questions: ' . ($summary['explained'] ?? 0) . "\n");
+    fwrite(STDOUT, 'Verified questions: ' . ($summary['verified'] ?? 0) . "\n");
+    fwrite(STDOUT, 'Source-exact questions: ' . ($summary['source_exact'] ?? 0) . "\n");
     foreach ($summary['counts_by_subject'] as $subjectId => $count) {
         fwrite(STDOUT, 'Subject ' . $subjectId . ': ' . $count . "\n");
     }

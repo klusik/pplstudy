@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">OPR-001 studijní schéma průletu mikroburstem</title>
+  <desc id="d">Schéma typického průletu mikroburstem po vzletu. Bod 1 zachycuje nárůst protivětru, bod 2 sestupný proud s poklesem stoupavosti a bod 3 zadní vítr s poklesem rychlosti letu.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <line x1="70" y1="510" x2="930" y2="510" stroke="#5f6b73" stroke-width="5"/>
+  <text x="70" y="555" font-family="system-ui,sans-serif" font-size="22" fill="#334955">dráha / zemský povrch</text>
+
+  <g fill="none" stroke="#386c8e" stroke-width="8" stroke-linecap="round">
+    <path d="M500 95 C500 170 500 235 500 335"/>
+    <path d="M500 335 C430 365 350 395 240 410"/>
+    <path d="M500 335 C570 365 650 395 760 410"/>
+  </g>
+  <g fill="#386c8e">
+    <path d="M500 350 l-18 -36 h36 z"/>
+    <path d="M225 410 l38 -18 -7 41 z"/>
+    <path d="M775 410 l-38 -18 7 41 z"/>
+  </g>
+  <text x="415" y="70" font-family="system-ui,sans-serif" font-size="26" font-weight="700" fill="#17384f">mikroburst</text>
+  <text x="535" y="220" font-family="system-ui,sans-serif" font-size="21" fill="#17384f">silný sestupný proud</text>
+
+  <path d="M120 440 C280 405 410 365 520 350 C655 335 780 360 900 410" fill="none" stroke="#9a4f55" stroke-width="5" stroke-dasharray="12 9"/>
+  <g font-family="system-ui,sans-serif" text-anchor="middle">
+    <circle cx="290" cy="397" r="34" fill="#fff" stroke="#17384f" stroke-width="4"/>
+    <text x="290" y="407" font-size="30" font-weight="700" fill="#17384f">1</text>
+    <circle cx="500" cy="350" r="34" fill="#fff" stroke="#17384f" stroke-width="4"/>
+    <text x="500" y="360" font-size="30" font-weight="700" fill="#17384f">2</text>
+    <circle cx="735" cy="365" r="34" fill="#fff" stroke="#17384f" stroke-width="4"/>
+    <text x="735" y="375" font-size="30" font-weight="700" fill="#17384f">3</text>
+  </g>
+
+  <g font-family="system-ui,sans-serif" font-size="20" fill="#334955">
+    <text x="145" y="315">nárůst čelní složky</text>
+    <text x="145" y="342">IAS má tendenci růst</text>
+    <text x="400" y="455">downdraft</text>
+    <text x="400" y="482">pokles stoupavosti</text>
+    <text x="690" y="285">zadní složka</text>
+    <text x="690" y="312">pokles IAS</text>
+  </g>
+
+  <g stroke="#334955" stroke-width="4" fill="none">
+    <path d="M170 370 H310"/>
+    <path d="M310 370 l-18 -10 m18 10 l-18 10"/>
+    <path d="M835 385 H690"/>
+    <path d="M690 385 l18 -10 m-18 10 l18 10"/>
+  </g>
+
+  <text x="302" y="592" font-family="system-ui,sans-serif" font-size="18" fill="#465b6b">Studijní překreslení principu přílohy OPR-001</text>
+</svg>

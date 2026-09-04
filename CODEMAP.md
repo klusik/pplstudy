@@ -31,7 +31,8 @@
 
 | File | Ownership |
 | --- | --- |
-| `app/services/question_bank.php` | subjects, questions, search, admin editing |
+| `app/services/question_bank.php` | subjects, questions, search, admin editing, curation state |
+| `app/services/source_documents.php` | source manifest, protected PDF storage, upload metadata |
 | `app/services/quiz.php` | random custom drills and paper drills |
 | `app/services/importer.php` | question-bank load, validation, import |
 | `app/services/app_settings.php` | editable application settings |
@@ -59,6 +60,7 @@ Admin:
 - `app/controllers/admin_dashboard.php`
 - `app/controllers/admin_users.php`
 - `app/controllers/admin_questions.php`
+- `app/controllers/admin_sources.php`
 - `app/controllers/admin_import.php`
 - `app/controllers/admin_settings.php`
 - `app/controllers/admin_diagnostics.php`
@@ -80,7 +82,13 @@ Admin:
 
 | Path | Ownership |
 | --- | --- |
-| `data/question-bank.json` | versioned source-derived bank distributed with release |
+| `data/question-bank.json` | versioned study bank distributed with release |
+| `data/curation/*.json` | hand-curated question overlays |
+| `data/curation/manifest.json` | explicit active-overlay order; legacy overlay files can remain without being applied |
+| `data/source-exact/` | exact source-question replacements keyed by subject and official source question |
+| `public/assets/attachments/` | locally bundled study diagrams used by attachment questions, including HPL, MET, PFA, OPR, PFP, and CAP697 study redraws |
+| `data/source-manifest.json` | stable source-document metadata |
+| `data/source-documents/` | protected administrator-associated source PDFs; PDF files are not versioned or released |
 | `data/README.md` | provenance and data licensing boundary |
 | `database/migrations/*.php` | deterministic schema changes |
 
@@ -96,8 +104,9 @@ Admin:
 
 | File | Ownership |
 | --- | --- |
-| `scripts/build_question_bank.py` | offline compilation PDF parser plus generated study-choice enrichment |
+| `scripts/build_question_bank.py` | offline compilation parser followed by source-exact subject replacement and curation |
 | `scripts/generate_study_choices.py` | deterministic four-choice study distractor generator |
+| `scripts/apply_curation.py` | source-exact subject replacement, global renumbering, and stable source-keyed curation |
 | `scripts/validate_question_bank.php` | bank invariants without database |
 | `scripts/check_syntax.sh` | PHP syntax and JSON validation |
 | `deploy.bat` / `scripts/deploy.ps1` | Windows local/FTP deployment workflow with path-safe ZIP packaging |
@@ -112,3 +121,12 @@ Admin:
 - New runtime limit: `app/configuration_defaults.php`, optionally installer/config docs.
 - New question source compilation: regenerate JSON offline, validate, inspect diff, import.
 - New client-local learning behavior: `public/assets/app.js`, no PHP persistence unless intentionally changing the product boundary.
+
+## Exact-source data ownership
+
+- `data/source-exact/01-*.json` through `09-*.json`: exact active source-question sets for all nine PPL(A) subjects.
+- `data/curation/01-*.json` through `09-*.json`: source-keyed explanation overlays for the same source questions.
+- `data/source-documents/*-official.pdf`: authenticated local copies of the directly supplied official subject PDFs.
+- `data/source-manifest.json`: stable source keys, official URLs, version labels, local filenames, and SHA-256 hashes.
+- `public/assets/attachments/*.svg`: local project-owned study redraws used by source attachment questions.
+- `scripts/apply_curation.py`: exact-subject replacement, restoration of merged source questions, global renumbering, and final curation overlay application.

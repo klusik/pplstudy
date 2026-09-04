@@ -1,0 +1,1598 @@
+{
+  "schema_version": 1,
+  "subject_id": 5,
+  "source_key": "subject-05-official-questions",
+  "source_title": "Letové zásady – letoun",
+  "source_version": "1.3, 12.08.2025",
+  "source_sha256": "50839b3a314b8627ddd19035bb3b15b29284c0c1ad7e04cd7aa55ded7ab33967",
+  "source_filename": "05-letove-zasady-official.pdf",
+  "retired_source_question_ids": [
+    8
+  ],
+  "questions": [
+    {
+      "source_question_id": 1,
+      "title": "Sloty a kritický úhel náběhu",
+      "prompt": "Zařízení na náběžné hraně křídla, např. sloty, v porovnání s klapkami na odtokové hraně křídla:",
+      "choices": [
+        "vytvářejí menší odpor a umožňují dosáhnout větší kritický úhel náběhu",
+        "zvětšují zakřivení profilu a umožňují dosáhnout menší kritický úhel náběhu",
+        "zmenšují kritický úhel náběhu při dané rychlosti",
+        "umožňují dosáhnout vyšší rychlosti při vzletu a přistání"
+      ],
+      "answer": "vytvářejí menší odpor a umožňují dosáhnout větší kritický úhel náběhu",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "title": "Podélná stabilita kolem příčné osy",
+      "prompt": "Stabilita letu podél příčné osy letadla je zajištěna:",
+      "choices": [
+        "stabilizátorem",
+        "směrovým kormidlem",
+        "křidélky",
+        "vztlakovými klapkami"
+      ],
+      "answer": "stabilizátorem",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "title": "Překročení VNE",
+      "prompt": "Let rychlostí vyšší než maximální nepřekročitelnou rychlostí (vNE) může mít za následek:",
+      "choices": [
+        "flutter a mechanické poškození křídla",
+        "snížený odpor a zvětšené síly v řízení",
+        "zvětšený poměr vztlaku k odporu a větší klouzavost",
+        "příliš velký celkový tlak způsobující závadu rychloměru"
+      ],
+      "answer": "flutter a mechanické poškození křídla",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "title": "Námraza na vrtuli",
+      "prompt": "Co způsobí námraza na vrtuli?",
+      "choices": [
+        "snížený výkon, pokles otáček",
+        "snížený výkon, nárůst otáček",
+        "zvýšený výkon, pokles otáček",
+        "zvýšený výkon, nárůst otáček"
+      ],
+      "answer": "snížený výkon, pokles otáček",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 5,
+      "title": "Síly při ustáleném stoupání",
+      "prompt": "Jaká další síla ve směru odporu mající za následek zvýšení požadovaného výkonu působí při ustáleném stoupání letadla?",
+      "choices": [
+        "složka tíhy působící proti směru letu",
+        "složka vztlaku působící po směru letu",
+        "složka tahu působící proti směru letu",
+        "vertikální složky tíhy"
+      ],
+      "answer": "složka tíhy působící proti směru letu",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "title": "Směr působení statického tlaku",
+      "prompt": "Statický tlak v plynech působí:",
+      "choices": [
+        "všemi směry",
+        "pouze ve směru proudění",
+        "pouze ve směru celkového tlaku",
+        "pouze vertikálně na směr proudění"
+      ],
+      "answer": "všemi směry",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 7,
+      "title": "Bernoulliho rovnice",
+      "prompt": "Bernoulliho rovnice pro nestlačitelné kapaliny bez tření praví:",
+      "choices": [
+        "celkový tlak = dynamický tlak – statický tlak",
+        "statický tlak = celkový tlak + dynamický tlak",
+        "dynamický tlak = celkový tlak + statický tak",
+        "celkový tlak = dynamický tlak + statický tlak"
+      ],
+      "answer": "celkový tlak = dynamický tlak + statický tlak",
+      "correct_choice_index": 3,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "title": "Aerodynamický střed",
+      "prompt": "Lze předpokládat, že všechny aerodynamické síly působí na těleso v jednom bodu, který se nazývá:",
+      "choices": [
+        "těžiště",
+        "aerodynamický střed",
+        "bod vztlaku",
+        "bod přechodu"
+      ],
+      "answer": "aerodynamický střed",
+      "correct_choice_index": 1,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "title": "Síly v aerodynamickém středu",
+      "prompt": "Aerodynamický střed je teoretický bod profilu, ve kterém:",
+      "choices": [
+        "působí všechny aerodynamické síly",
+        "působí všechny hmotové síly",
+        "působí hmotové a aerodynamické síly",
+        "působí pouze výsledný odpor"
+      ],
+      "answer": "působí všechny aerodynamické síly",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "title": "Hloubka profilu",
+      "prompt": "Číslo (2) na obrázku představuje: Viz obr. (PFA-010)",
+      "choices": [
+        "úhel náběhu",
+        "střední čáru profilu",
+        "hloubku profilu",
+        "tloušťku profilu"
+      ],
+      "answer": "hloubku profilu",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "PFA-010",
+      "attachment_url": "/public/assets/attachments/PFA-010.svg"
+    },
+    {
+      "source_question_id": 12,
+      "title": "Střední čára profilu",
+      "prompt": "Číslo (3) na obrázku představuje: Viz obr. (PFA-010)",
+      "choices": [
+        "střední čáru profilu",
+        "tětivu profilu",
+        "hloubku profilu",
+        "tloušťku profilu"
+      ],
+      "answer": "střední čáru profilu",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "PFA-010",
+      "attachment_url": "/public/assets/attachments/PFA-010.svg"
+    },
+    {
+      "source_question_id": 13,
+      "title": "Definice úhlu náběhu",
+      "prompt": "Úhel náběhu je úhel mezi:",
+      "choices": [
+        "tětivou a směrem nabíhajícího proudu",
+        "tětivou a podélnou osou letadla",
+        "nenarušeným proudem vzduchu a podélnou osou letounu",
+        "křídlem a trupem letounu"
+      ],
+      "answer": "tětivou a směrem nabíhajícího proudu",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "title": "Štíhlost křídla",
+      "prompt": "Poměr rozpětí ku střední tětivě se nazývá:",
+      "choices": [
+        "úhel šípu",
+        "lichoběžníkový tvar",
+        "úhel zúžení",
+        "štíhlost křídla"
+      ],
+      "answer": "štíhlost křídla",
+      "correct_choice_index": 3,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "title": "Bod přechodu mezní vrstvy",
+      "prompt": "Jaký bod na profilu je znázorněn číslem (3)? Viz obr. (PFA-009)",
+      "choices": [
+        "bod přechodu",
+        "bod odtržení",
+        "stagnační bod",
+        "aerodynamický střed"
+      ],
+      "answer": "bod přechodu",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "PFA-009",
+      "attachment_url": "/public/assets/attachments/PFA-009.svg"
+    },
+    {
+      "source_question_id": 16,
+      "title": "Bod odtržení proudu",
+      "prompt": "Jaký bod na profilu je značen číslem (4)? Viz obr. (PFA-009)",
+      "choices": [
+        "bod přechodu",
+        "bod odtržení",
+        "stagnační bod",
+        "aerodynamický střed"
+      ],
+      "answer": "bod odtržení",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "PFA-009",
+      "attachment_url": "/public/assets/attachments/PFA-009.svg"
+    },
+    {
+      "source_question_id": 17,
+      "title": "Vznik koncových vírů",
+      "prompt": "Ve které fázi letu se začíná tvořit vír na konci křídla?",
+      "choices": [
+        "při nastavení vzletového režimu při rozjezdu",
+        "při vysunutí klapek do polohy na vzlet",
+        "jakmile se letadlo začne pohybovat",
+        "když při rotaci začne křídlo vytvářet vztlak"
+      ],
+      "answer": "když při rotaci začne křídlo vytvářet vztlak",
+      "correct_choice_index": 3,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "title": "Stagnační bod",
+      "prompt": "Jaký bod na profilu představuje číslo (1) na obrázku? Viz obr. (PFA-009)",
+      "choices": [
+        "bod přechodu",
+        "bod odtržení",
+        "stagnační bod",
+        "aerodynamický střed"
+      ],
+      "answer": "stagnační bod",
+      "correct_choice_index": 2,
+      "source_document_page": 4,
+      "attachment_code": "PFA-009",
+      "attachment_url": "/public/assets/attachments/PFA-009.svg"
+    },
+    {
+      "source_question_id": 19,
+      "title": "Proudění u stagnačního bodu",
+      "prompt": "Co se děje v okolí stagnačního bodu?",
+      "choices": [
+        "laminární mezní vrstva se mění na turbulentní",
+        "proudnice se rozdělují na ty nad a pod profilem",
+        "mezní vrstva se odtrhává od horní strany profilu",
+        "působí zde všechny aerodynamické síly"
+      ],
+      "answer": "proudnice se rozdělují na ty nad a pod profilem",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "title": "Rozložení tlaku na profilu",
+      "prompt": "Jaké je rozložení tlaku na profilu křídla vytvářejícího vztlak při kladném úhlu náběhu?",
+      "choices": [
+        "tlak pod profilem se nemění, nad profilem je podtlak",
+        "nad profilem je přetlak, pod profilem podtlak",
+        "nad profilem je podtlak pod profilem je přetlak",
+        "tlak nad profilem se nemění, pod profilem je přetlak"
+      ],
+      "answer": "nad profilem je podtlak pod profilem je přetlak",
+      "correct_choice_index": 2,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "title": "Pohyb působiště vztlaku",
+      "prompt": "Působiště vztlaku profilu s kladným prohnutím střední čáry:",
+      "choices": [
+        "při zvětšení úhlu náběhu se posune dopředu",
+        "jeho poloha nezávisí na úhlu náběhu",
+        "při zvětšení úhlu náběhu se posune dozadu",
+        "se nachází přibližně ve 25% tětivy, měřeno od odtokové hrany"
+      ],
+      "answer": "při zvětšení úhlu náběhu se posune dopředu",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "title": "Pohyb působiště vztlaku s AoA",
+      "prompt": "náběhu?",
+      "choices": [
+        "nejprve dopředu, pak dozadu",
+        "dozadu, dokud nebyl dosažen kritický úhel náběhu",
+        "dopředu, dokud nebyl dosažen kritický úhel náběhu",
+        "směrem ke konci křídla"
+      ],
+      "answer": "dopředu, dokud nebyl dosažen kritický úhel náběhu",
+      "correct_choice_index": 2,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 23,
+      "title": "Vztlak a úhel náběhu",
+      "prompt": "Který výrok o vztlaku a úhlu náběhu je pravdivý?",
+      "choices": [
+        "přílišné zvětšení úhlu náběhu může vést ke ztrátě vztlaku a odtržení proudu",
+        "zvětšení úhlu náběhu způsobí zmenšení indukovaného vztlaku",
+        "zmenšení úhlu náběhu způsobí zvětšení indukovaného odporu",
+        "příliš velký úhel náběhu může vést k exponenciálnímu nárůstu vztlaku"
+      ],
+      "answer": "přílišné zvětšení úhlu náběhu může vést ke ztrátě vztlaku a odtržení proudu",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "title": "Stagnační bod při zvětšení AoA",
+      "prompt": "Který výrok o proudění kolem profilu při zvětšení úhlu náběhu je správný?",
+      "choices": [
+        "stagnační bod se posune nahoru",
+        "stagnační bod se posune dolů",
+        "aerodynamický střed se posune dolů",
+        "aerodynamický střed se posune nahoru"
+      ],
+      "answer": "stagnační bod se posune dolů",
+      "correct_choice_index": 1,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "title": "Stagnační bod při zmenšení AoA",
+      "prompt": "Který výrok o proudění kolem profilu při zmenšení úhlu náběhu je pravdivý?",
+      "choices": [
+        "aerodynamický střed se posune dozadu",
+        "stagnační bod se posune dolů",
+        "stagnační bod zůstane na stejném místě",
+        "stagnační bod se posune nahoru"
+      ],
+      "answer": "stagnační bod se posune nahoru",
+      "correct_choice_index": 3,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 26,
+      "title": "Úhel náběhu na schématu",
+      "prompt": "Co znázorňuje úhel na obrázku? Viz obr. (PFA-003) DoF: směr nabíhajícího proudu",
+      "choices": [
+        "úhel zkroucení",
+        "úhel vztlaku",
+        "úhel inklinace",
+        "úhel náběhu"
+      ],
+      "answer": "úhel náběhu",
+      "correct_choice_index": 3,
+      "source_document_page": 6,
+      "attachment_code": "PFA-003",
+      "attachment_url": "/public/assets/attachments/PFA-003.svg"
+    },
+    {
+      "source_question_id": 27,
+      "title": "Geometrické zkroucení křídla",
+      "prompt": "Aby se zlepšily vlastnosti letadla při přetažení, je křídlo podél rozpětí zkrouceno, tj. mění se úhel nastavení podél rozpětí. To se nazývá:",
+      "choices": [
+        "geometrické zkroucení",
+        "šípovitý tvar",
+        "aerodynamické zkroucení",
+        "tvar do V"
+      ],
+      "answer": "geometrické zkroucení",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "title": "Výhoda zkroucení křídla",
+      "prompt": "Co popisuje výhodu zkroucení křídla?",
+      "choices": [
+        "křidélka jsou účinná i při velkých úhlech náběhu",
+        "křídlo je tužší při průhybu",
+        "křídlo je tužší při krutu",
+        "k odtržení proudu dochází nejdříve na koncích křídel"
+      ],
+      "answer": "křidélka jsou účinná i při velkých úhlech náběhu",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "title": "Příliš velký úhel náběhu",
+      "prompt": "Který výrok o úhlu náběhu je pravdivý?",
+      "choices": [
+        "zvětšení úhlu náběhu způsobí pokles vztlaku",
+        "úhel náběhu nemůže být záporný",
+        "po celou dobu letu je úhel náběhu konstantní",
+        "příliš velký úhel náběhu může způsobit ztrátu vztlaku"
+      ],
+      "answer": "příliš velký úhel náběhu může způsobit ztrátu vztlaku",
+      "correct_choice_index": 3,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "title": "Rychlost a škodlivý odpor",
+      "prompt": "Jak se přibližně změní škodlivý odpor, zvýší-li se rychlost nabíhajícího proudu vzduchu dvakrát?",
+      "choices": [
+        "zvětší se na dvojnásobek",
+        "zmenší se na polovinu",
+        "zvětší se na čtyřnásobek",
+        "zmenší se na čtvrtinu"
+      ],
+      "answer": "zvětší se na čtyřnásobek",
+      "correct_choice_index": 2,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "title": "Součinitel odporu",
+      "prompt": "Součinitel odporu:",
+      "choices": [
+        "nemůže být menší než určitá kladná minimální hodnota",
+        "může nabývat hodnot od nuly až do kladných hodnot blížících se nekonečnu",
+        "zvětšuje se s rostoucí rychlostí",
+        "je přímo úměrný součiniteli vztlaku"
+      ],
+      "answer": "nemůže být menší než určitá kladná minimální hodnota",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "title": "Vyrovnávání tlaků na konci křídla",
+      "prompt": "K vyrovnávání tlaků mezi horní a spodní části křídla dochází:",
+      "choices": [
+        "na náběžné hraně",
+        "na konci křídla",
+        "na odtokové hraně",
+        "u kořene křídla"
+      ],
+      "answer": "na konci křídla",
+      "correct_choice_index": 1,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "title": "Štíhlost a indukovaný odpor",
+      "prompt": "Při které z následujících situací dochází k působení velkého indukovaného odporu?",
+      "choices": [
+        "velká štíhlost křídla",
+        "lichoběžníkové křídlo",
+        "malá štíhlost křídla",
+        "malý součinitel vztlaku"
+      ],
+      "answer": "malá štíhlost křídla",
+      "correct_choice_index": 2,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "title": "Konce křídel a indukovaný odpor",
+      "prompt": "Které části letadla výrazně ovlivňují tvorbu indukovaného odporu?",
+      "choices": [
+        "vnější část křidélek",
+        "konce křídel",
+        "přední část trupu",
+        "spodní část podvozku"
+      ],
+      "answer": "konce křídel",
+      "correct_choice_index": 1,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "title": "Interferenční odpor",
+      "prompt": "Kde se vytváří interferenční odpor?",
+      "choices": [
+        "na křidélkách",
+        "na podvozku",
+        "u konce křídla",
+        "u kořene křídla"
+      ],
+      "answer": "u kořene křídla",
+      "correct_choice_index": 3,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "title": "Křivka indukovaného odporu",
+      "prompt": "Která křivka na obrázku představuje indukovaný odpor? Viz obr. (PFA-011)",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "1",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "PFA-011",
+      "attachment_url": "/public/assets/attachments/PFA-011.svg"
+    },
+    {
+      "source_question_id": 37,
+      "title": "Složky škodlivého odporu",
+      "prompt": "Tlakový odpor, interferenční odpor a třecí odpor náleží ke skupině:",
+      "choices": [
+        "indukovaný odpor",
+        "celkový odpor",
+        "škodlivý odpor",
+        "hlavní odpor"
+      ],
+      "answer": "škodlivý odpor",
+      "correct_choice_index": 2,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "title": "Indukovaný versus škodlivý odpor",
+      "prompt": "Který z uvedených druhů odporů NENÍ škodlivým odporem?",
+      "choices": [
+        "třecí",
+        "tvarový",
+        "interferenční",
+        "indukovaný"
+      ],
+      "answer": "indukovaný",
+      "correct_choice_index": 3,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "title": "Odpor a rychlost",
+      "prompt": "Jak se mění indukovaný a škodlivý odpor s narůstající rychlostí při horizontálním ustáleném letu?",
+      "choices": [
+        "indukovaný odpor se zmenšuje a škodlivý odpor se zvětšuje",
+        "indukovaný odpor se zvětšuje a škodlivý odpor se zvětšuje",
+        "indukovaný odpor se zvětšuje a škodlivý odpor se zmenšuje",
+        "indukovaný odpor se zmenšuje a škodlivý odpor se zmenšuje"
+      ],
+      "answer": "indukovaný odpor se zmenšuje a škodlivý odpor se zvětšuje",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "title": "Eliptické křídlo a indukovaný odpor",
+      "prompt": "Který z uvedených tvarů křídla má nejmenší indukovaný odpor?",
+      "choices": [
+        "elipsa",
+        "lichoběžník",
+        "obdélník",
+        "dvojitý lichoběžník"
+      ],
+      "answer": "elipsa",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "title": "Indukovaný odpor při snížení rychlosti",
+      "prompt": "Jaký účinek na indukovaný odpor má v ustáleném horizontálním letu snížení rychlosti?",
+      "choices": [
+        "indukovaný odpor se zvětší",
+        "indukovaný odpor se mírně zmenší",
+        "indukovaný odpor zůstane stejný",
+        "indukovaný odpor se skokem zmenší na velmi malou hodnotu"
+      ],
+      "answer": "indukovaný odpor se zvětší",
+      "correct_choice_index": 0,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "title": "Indukovaný odpor v horizontálním letu",
+      "prompt": "Který výrok o indukovaném odporu v horizontálním letu je pravdivý?",
+      "choices": [
+        "indukovaný odpor se zvětšuje s rostoucí rychlostí",
+        "indukovaný odpor se zmenšuje s rostoucí rychlostí",
+        "indukovaný odpor má minimální hodnotu při určité rychlosti a při nárůstu nebo poklesu rychlosti od této hodnoty se zvětšuje",
+        "indukovaný odpor má maximální hodnotu při určité rychlosti a při nárůstu nebo poklesu rychlosti od této hodnoty se zmenšuje"
+      ],
+      "answer": "indukovaný odpor se zmenšuje s rostoucí rychlostí",
+      "correct_choice_index": 1,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "title": "Minimum celkového odporu",
+      "prompt": "Za které z uvedených situací je celkový odpor minimální?",
+      "choices": [
+        "škodlivý odpor se rovná indukovanému",
+        "škodlivý odpor je dvakrát tak velký jako indukovaný",
+        "indukovaný odpor je dvakrát tak velký jako škodlivý",
+        "indukovaný odpor je menší než škodlivý"
+      ],
+      "answer": "škodlivý odpor se rovná indukovanému",
+      "correct_choice_index": 0,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "title": "Složky celkového odporu",
+      "prompt": "Z jakých druhů odporů se skládá celkový odpor?",
+      "choices": [
+        "indukovaný, tvarový a třecí",
+        "tvarový, třecí a interferenční",
+        "interferenční a škodlivý",
+        "indukovaný a škodlivý"
+      ],
+      "answer": "indukovaný a škodlivý",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "title": "Vztlak a odpor u pádové rychlosti",
+      "prompt": "Jak se mění vztlak a odpor při konstantním násobku 1, blíží-li se letadlo pádové rychlosti?",
+      "choices": [
+        "vztlak i odpor se zvětšují",
+        "vztlak i odpor se zmenšují",
+        "vztlak je stejný a odpor se zvětšuje",
+        "vztlak se zvětšuje a odpor se zmenšuje"
+      ],
+      "answer": "vztlak je stejný a odpor se zvětšuje",
+      "correct_choice_index": 2,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "title": "Zásah při přetažení",
+      "prompt": "Při přetažení je důležité:",
+      "choices": [
+        "zvětšit úhel náběhu a snížit rychlost",
+        "zvětšit úhel náběhu a zvýšit rychlost",
+        "zmenšit úhel náběhu a zvýšit rychlost",
+        "zmenšit úhel náběhu a snížit rychlost"
+      ],
+      "answer": "zmenšit úhel náběhu a zvýšit rychlost",
+      "correct_choice_index": 2,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "title": "Aerodynamika přetažení",
+      "prompt": "Při přetažení:",
+      "choices": [
+        "vztlak se zvětšuje a odpor zmenšuje",
+        "vztlak se zvětšuje a odpor zvětšuje",
+        "vztlak se zmenšuje a odpor zmenšuje",
+        "vztlak se zmenšuje a odpor zvětšuje"
+      ],
+      "answer": "vztlak se zmenšuje a odpor zvětšuje",
+      "correct_choice_index": 3,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "title": "Kritický úhel náběhu a rychlost",
+      "prompt": "Kritický úhel náběhu:",
+      "choices": [
+        "nezávisí na rychlosti",
+        "se zmenší, posune-li se těžiště dopředu",
+        "se zvětší, posune-li se těžiště dozadu",
+        "se mění s rostoucí tíhou"
+      ],
+      "answer": "nezávisí na rychlosti",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "title": "Faktory pádové rychlosti",
+      "prompt": "Co způsobí snížení pádové rychlosti vS (IAS)?",
+      "choices": [
+        "zmenšení tíhy",
+        "nižší hustota vzduchu",
+        "menší nadmořská výška",
+        "větší násobek"
+      ],
+      "answer": "zmenšení tíhy",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 50,
+      "title": "Aktivace varování před pádem",
+      "prompt": "Varování před pádem se aktivuje před dosažením:",
+      "choices": [
+        "vNE",
+        "vS",
+        "vR",
+        "vX"
+      ],
+      "answer": "vS",
+      "correct_choice_index": 1,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 51,
+      "title": "Stagnační bod a stall warning",
+      "prompt": "U letounů je obvykle varování před pádem aktivováno změnou:",
+      "choices": [
+        "polohy aerodynamického středu",
+        "polohy těžiště",
+        "polohy stagnačního bodu",
+        "polohy bodu přechodu"
+      ],
+      "answer": "polohy stagnačního bodu",
+      "correct_choice_index": 2,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "title": "Reakce na varování před pádem",
+      "prompt": "Jak má pilot reagovat, spustí-li varování před pádem?",
+      "choices": [
+        "zvětšit podélný sklon, snížit rychlost",
+        "přitáhnout výškovku, zvýšit výkon motoru",
+        "přitáhnout výškovku, snížit výkon motoru",
+        "povolit výškovku, zvýšit výkon motoru"
+      ],
+      "answer": "povolit výškovku, zvýšit výkon motoru",
+      "correct_choice_index": 3,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "title": "Vývrtka a křidélka",
+      "prompt": "Který výrok o vývrtce je pravdivý?",
+      "choices": [
+        "při vybírání mají být křidélka v neutrálu",
+        "během vývrtky rychlost neustále roste",
+        "nebezpečí pádu do vývrtky existuje pouze u velmi starých letadel",
+        "při vybírání musí být křidélka vychýlena proti rotaci"
+      ],
+      "answer": "při vybírání mají být křidélka v neutrálu",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "title": "Součinitel vztlaku při vysunutí klapek",
+      "prompt": "Jak se mění součinitel vztlaku při vysouvání vztlakových klapek, nemění-li se úhel náběhu a letadlo letí daleko před dosažením pádové rychlosti?",
+      "choices": [
+        "zvětšuje se",
+        "zmenšuje se",
+        "to nelze definovat",
+        "zůstává stejný"
+      ],
+      "answer": "zvětšuje se",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "title": "Klapky a prohnutí profilu",
+      "prompt": "Který z následujících vlivů způsobuje zvětšení vztlaku při vysouvání vztlakových klapek?",
+      "choices": [
+        "zmenšení tvarového odporu",
+        "zvětšení prohnutí profilu",
+        "zmenšení úhlu náběhu",
+        "zmenšení indukovaného odporu"
+      ],
+      "answer": "zvětšení prohnutí profilu",
+      "correct_choice_index": 1,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 56,
+      "title": "Klapky a síla na výškovce",
+      "prompt": "Co se může změnit vysunutím vztlakových klapek do polohy na přistání?",
+      "choices": [
+        "síla na výškovce",
+        "Otáčky motoru",
+        "poloha těžiště",
+        "kroutící moment motoru"
+      ],
+      "answer": "síla na výškovce",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 57,
+      "title": "Fowlerova klapka",
+      "prompt": "Jaký je princip Fowlerovy klapky?",
+      "choices": [
+        "zadní část křídla je vychýlena směrem dolů",
+        "při vysokých úhlech náběhu se vysunou části náběžných hran",
+        "klapka ve tvaru profilu je vychýlena dolů a zvětšuje plochu křídla",
+        "klapka ze spodní zadní části křídla je vychýlena směrem dolů"
+      ],
+      "answer": "klapka ve tvaru profilu je vychýlena dolů a zvětšuje plochu křídla",
+      "correct_choice_index": 2,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 58,
+      "title": "Vzletové klapky a rozjezd",
+      "prompt": "Při vzletu s klapkami vysunutými do vzletové polohy:",
+      "choices": [
+        "je zvýšená stoupavost",
+        "se zmenší odpor",
+        "je větší akcelerace letadla",
+        "se zkrátí rozjezd"
+      ],
+      "answer": "se zkrátí rozjezd",
+      "correct_choice_index": 3,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 59,
+      "title": "Klapky, vztlak a odpor",
+      "prompt": "Jak se mění součinitel vztlaku a odporu, jsou-li vztlakové klapky vysouvány?",
+      "choices": [
+        "součinitel vztlaku se zvětšuje, odporu se zvětšuje",
+        "Součinitel vztlaku se zvětšuje, odporu se zmenšuje",
+        "součinitel vztlaku se zmenšuje, odporu se zvětšuje",
+        "součinitel vztlaku se zmenšuje, odporu se zmenšuje"
+      ],
+      "answer": "součinitel vztlaku se zvětšuje, odporu se zvětšuje",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 60,
+      "title": "Laminární mezní vrstva",
+      "prompt": "Laminární mezní vrstva se na profilu nachází mezi:",
+      "choices": [
+        "bodem přechodu a bodem odtržení",
+        "stagnačním bodem a bodem přechodu",
+        "stagnačním bodem a aerodynamickým středem",
+        "bodem přechodu a aerodynamickým středem"
+      ],
+      "answer": "stagnačním bodem a bodem přechodu",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 61,
+      "title": "Laminární a turbulentní mezní vrstva",
+      "prompt": "Jaké druhy mezních vrstev jsou na profilu?",
+      "choices": [
+        "laminární po celé horní straně bez odtrženého proudu",
+        "turbulentní po celé horní straně s odtrženým proudem",
+        "turbulentní na předních částech profilu, laminární na zadních částech",
+        "laminární na předních částech profilu, turbulentní na zadních částech"
+      ],
+      "answer": "laminární na předních částech profilu, turbulentní na zadních částech",
+      "correct_choice_index": 3,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 62,
+      "title": "Vlastnosti turbulentní mezní vrstvy",
+      "prompt": "Jak se liší laminární mezní vrstva od turbulentní?",
+      "choices": [
+        "turbulentní může zůstat přilnutá na profilu i při vyšších úhlech náběhu",
+        "laminární je tenčí a způsobuje větší třecí odpor",
+        "turbulentní je tlustší a způsobuje menší třecí odpor",
+        "laminární vytváří vztlak, turbulentní vytváří odpor"
+      ],
+      "answer": "turbulentní může zůstat přilnutá na profilu i při vyšších úhlech náběhu",
+      "correct_choice_index": 0,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 63,
+      "title": "Příčná stabilita a vzepětí",
+      "prompt": "Co zajišťuje příčnou stabilitu letadla?",
+      "choices": [
+        "svislá ocasní plocha",
+        "výškovka",
+        "diferenciální výchylka křidélek",
+        "vzepětí křídla"
+      ],
+      "answer": "vzepětí křídla",
+      "correct_choice_index": 3,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 64,
+      "title": "Statická stabilita",
+      "prompt": "Jak lze popsat statickou stabilitu?",
+      "choices": [
+        "zůstane zachována výchylka způsobená vnějším zásahem",
+        "po výchylce způsobené vnějším zásahem se letadlo snaží vrátit do původní polohy",
+        "po výchylce způsobené vnějším zásahem se letadlo snaží výchylku ještě zvětšit",
+        "po výchylce způsobené vnějším zásahem je nutný zásah do řízení, aby se letadlo snažilo vrátit do původní polohy"
+      ],
+      "answer": "po výchylce způsobené vnějším zásahem se letadlo snaží vrátit do původní polohy",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 65,
+      "title": "Podélná stabilita a příčná osa",
+      "prompt": "Vůči které ose se udává podélná stabilita?",
+      "choices": [
+        "vertikální",
+        "podélné",
+        "příčné",
+        "vrtulové"
+      ],
+      "answer": "příčné",
+      "correct_choice_index": 2,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 66,
+      "title": "Těžiště a podélná stabilita",
+      "prompt": "Poloha těžiště silně ovlivňuje stabilitu kolem které osy?",
+      "choices": [
+        "podélné",
+        "vertikální",
+        "gravitační",
+        "příčné"
+      ],
+      "answer": "příčné",
+      "correct_choice_index": 3,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 67,
+      "title": "Směrová stabilita",
+      "prompt": "Co zajišťuje směrovou stabilitu letounu?",
+      "choices": [
+        "vzepětí křídla",
+        "svislá ocasní plocha",
+        "výškové kormidlo",
+        "diferenciální výchylky křidélek"
+      ],
+      "answer": "svislá ocasní plocha",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 68,
+      "title": "Bočení kolem svislé osy",
+      "prompt": "Pohyb kolem vertikální osy se nazývá:",
+      "choices": [
+        "bočení",
+        "skluz",
+        "klonění",
+        "klopení"
+      ],
+      "answer": "bočení",
+      "correct_choice_index": 0,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 69,
+      "title": "Klopení kolem příčné osy",
+      "prompt": "Pohyb kolem příčné osy se nazývá:",
+      "choices": [
+        "bočení",
+        "klopení",
+        "klonění",
+        "přetažení"
+      ],
+      "answer": "klopení",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 70,
+      "title": "Kritický úhel náběhu a hmotnost",
+      "prompt": "Kritický úhel náběhu:",
+      "choices": [
+        "je menší při zadní poloze těžiště",
+        "nezávisí na hmotnosti letadla",
+        "je větší při přední poloze těžiště",
+        "závisí na hmotnosti letadla"
+      ],
+      "answer": "nezávisí na hmotnosti letadla",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 71,
+      "title": "Úhel náběhu v ustáleném letu",
+      "prompt": "V přímočarém ustáleném letu s konstantním výkonem motoru je úhel náběhu:",
+      "choices": [
+        "větší než při stoupání",
+        "menší než při stoupání",
+        "větší než při vzletu",
+        "menší než při klesání"
+      ],
+      "answer": "menší než při stoupání",
+      "correct_choice_index": 1,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 72,
+      "title": "Vodorovná ocasní plocha",
+      "prompt": "Co zajišťuje vodorovná ocasní plocha?",
+      "choices": [
+        "stabilizuje letoun kolem podélné osy",
+        "stabilizuje letoun kolem vertikální osy",
+        "stabilizuje letoun kolem příčné osy",
+        "zahajuje pohyb kolem vertikální osy"
+      ],
+      "answer": "stabilizuje letoun kolem příčné osy",
+      "correct_choice_index": 2,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 73,
+      "title": "Výškovka při rotaci",
+      "prompt": "Pohyb výškovky při rotaci při vzletu:",
+      "choices": [
+        "musí být větší při přední než při zadní centráži",
+        "musí být větší při vyšších rychlostech rotace",
+        "musí být větší při zadní než při přední centráži",
+        "jeho velikost nezávisí na rychlosti rotace"
+      ],
+      "answer": "musí být větší při přední než při zadní centráži",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 74,
+      "title": "Výškovka a příčná osa",
+      "prompt": "Výškovka způsobuje pohyb letounu kolem:",
+      "choices": [
+        "svislé osy",
+        "příčné osy",
+        "podélné osy",
+        "výškovkové osy"
+      ],
+      "answer": "příčné osy",
+      "correct_choice_index": 1,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 75,
+      "title": "Poloha těžiště",
+      "prompt": "Co platí o těžišti letadla?",
+      "choices": [
+        "pouze správné naložení může zajistit správnou a bezpečnou polohu těžiště",
+        "těžiště lze posunout do správné polohy příslušnou výchylkou trimu výškovky",
+        "těžiště lze posunout do správné polohy příslušnou výchylkou trimu křidélek",
+        "polohu těžiště letadla lze stanovit jen za letu"
+      ],
+      "answer": "pouze správné naložení může zajistit správnou a bezpečnou polohu těžiště",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 76,
+      "title": "Směrovka a svislá osa",
+      "prompt": "Výchylka směrovky způsobuje pohyb letounu kolem:",
+      "choices": [
+        "svislé osy",
+        "příčné osy",
+        "podélné osy",
+        "směrovkové osy"
+      ],
+      "answer": "svislé osy",
+      "correct_choice_index": 0,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 77,
+      "title": "Směrovka vlevo",
+      "prompt": "Výchylka směrovky vlevo způsobí:",
+      "choices": [
+        "bočení letadla doprava",
+        "bočení letadla doleva",
+        "klopení letadla doleva",
+        "klopení letadla doprava"
+      ],
+      "answer": "bočení letadla doleva",
+      "correct_choice_index": 1,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 78,
+      "title": "Diferenciální křidélka",
+      "prompt": "Jaká je výhoda diferenciálních výchylek křidélek?",
+      "choices": [
+        "bočení proti příčnému sklonu je větší",
+        "zvýší se poměr součinitele odporu k součiniteli vztlaku",
+        "sníží se odpor křidélka vychýleného dolů a bočení vlivem klonění je menší",
+        "při výchylkách křidélek zůstává celkový vztlak konstantní"
+      ],
+      "answer": "sníží se odpor křidélka vychýleného dolů a bočení vlivem klonění je menší",
+      "correct_choice_index": 2,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 79,
+      "title": "Kompenzace nepříznivého bočení",
+      "prompt": "Čím se vyrovnává bočení proti klonění vyvolaném výchylkou křidélek?",
+      "choices": [
+        "trimem křidélek",
+        "diferenciální výchylkou křidélek",
+        "vzepětím křídla",
+        "plnou výchylkou křidélek"
+      ],
+      "answer": "diferenciální výchylkou křidélek",
+      "correct_choice_index": 1,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 80,
+      "title": "Účel diferenciálních křidélek",
+      "prompt": "Diferenciální výchylka křidélek se používá proto, aby:",
+      "choices": [
+        "snížila intenzitu turbulence v úplavu",
+        "zabránila přetažení letadla při malých úhlech náběhu",
+        "zmenšila bočení proti klonění",
+        "zvětšila klesavost"
+      ],
+      "answer": "zmenšila bočení proti klonění",
+      "correct_choice_index": 2,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 81,
+      "title": "Směr vztlakové síly",
+      "prompt": "Vztlaková síla působí směrem kolmo:",
+      "choices": [
+        "na podélnou osu letounu",
+        "k horizontální rovině",
+        "na vektor tahu pohonné jednotky",
+        "na nabíhající proud vzduchu"
+      ],
+      "answer": "na nabíhající proud vzduchu",
+      "correct_choice_index": 3,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 82,
+      "title": "Aerodynamické vyvážení směrovky",
+      "prompt": "Aerodynamické vyvážení směrovky:",
+      "choices": [
+        "zmenšuje krátkodobě síly v řízení",
+        "zmenšuje dlouhodobě síly na pedálech",
+        "snižuje pádovou rychlost",
+        "zvyšuje účinnost směrovky"
+      ],
+      "answer": "zmenšuje dlouhodobě síly na pedálech",
+      "correct_choice_index": 1,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 83,
+      "title": "Snížení sil v řízení",
+      "prompt": "Čím se dlouhodobě zmenšují síly v řízení?",
+      "choices": [
+        "diferenciálními výchylkami křidélek",
+        "aerodynamickým vyvážením řídících ploch",
+        "vířiči",
+        "ocasními plochami tvaru T"
+      ],
+      "answer": "aerodynamickým vyvážením řídících ploch",
+      "correct_choice_index": 1,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 84,
+      "title": "Hmotové vyvážení kormidel",
+      "prompt": "Jaký účel má hmotové vyvážení kormidel?",
+      "choices": [
+        "brání jejich kmitání",
+        "zmenšuje síly v řízení",
+        "zvětšuje síly v řízení",
+        "vyvažuje řízení tak, aby na něj bylo možno působit malou silou"
+      ],
+      "answer": "brání jejich kmitání",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 85,
+      "title": "Trim proti zvedání přídě",
+      "prompt": "Za letu s konstantním nastavením výkonu motoru má letadlo snahu neustále zvedat příď. Jak lze této snaze zabránit?",
+      "choices": [
+        "posunem těžiště dozadu",
+        "výchylkou výškovky nahoru",
+        "výchylkou trimu výškovky dolů",
+        "výchylkou trimu výškovky nahoru"
+      ],
+      "answer": "výchylkou trimu výškovky nahoru",
+      "correct_choice_index": 3,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 86,
+      "title": "Indikace trimu výškovky",
+      "prompt": "Trim výškovky je vychýlen nahoru. V jaké poloze je jeho indikátor?",
+      "choices": [
+        "neutrální",
+        "příčně vyváženo",
+        "těžký na ocas",
+        "těžký na hlavu"
+      ],
+      "answer": "těžký na hlavu",
+      "correct_choice_index": 3,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 87,
+      "title": "Plošné zatížení křídla",
+      "prompt": "Který poměr popisuje plošné zatížení křídla?",
+      "choices": [
+        "plocha křídla k hmotnosti",
+        "odpor k ploše křídla",
+        "odpor k hmotnosti",
+        "hmotnost k ploše křídla"
+      ],
+      "answer": "hmotnost k ploše křídla",
+      "correct_choice_index": 3,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 88,
+      "title": "Poryv a násobek zatížení",
+      "prompt": "Který faktor zvýší za letu násobek zatížení?",
+      "choices": [
+        "Vzestupný poryv vzduchu",
+        "větší hmotnost letounu",
+        "přední poloha těžiště",
+        "menší hustota vzduchu"
+      ],
+      "answer": "Vzestupný poryv vzduchu",
+      "correct_choice_index": 0,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 89,
+      "title": "Vrtule konstantních otáček",
+      "prompt": "Jaký výrok o vrtuli konstantních otáček je pravdivý?",
+      "choices": [
+        "udržuje konstantní rychlost letu",
+        "úhel nastavení listů se zvětšuje při větších rychlostech letu",
+        "otáčky vrtule se zmenšují při malých rychlostech letu",
+        "výkon motoru udržuje nastavené otáčky vrtule konstantní"
+      ],
+      "answer": "úhel nastavení listů se zvětšuje při větších rychlostech letu",
+      "correct_choice_index": 1,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 90,
+      "title": "Zkroucení vrtulového listu",
+      "prompt": "Zkroucení vrtulových listů zajišťuje:",
+      "choices": [
+        "přibližně stejné zatížení způsobené stejným efektivním úhlem náběhu po celé délce listu",
+        "největší možný úhel náběhu na konci listu",
+        "většina tahu se vytváří u kořene listu",
+        "většina tahu se vytváří na konci listu"
+      ],
+      "answer": "přibližně stejné zatížení způsobené stejným efektivním úhlem náběhu po celé délce listu",
+      "correct_choice_index": 0,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 91,
+      "title": "Mlýnkující vrtule",
+      "prompt": "Mlýnkující vrtule po vysazení motoru:",
+      "choices": [
+        "vytváří větší odpor než tah",
+        "nevytváří ani tah ani odpor",
+        "zlepšuje vlastnosti klouzavého letu",
+        "má větší úhel nastavení listů než v praporu"
+      ],
+      "answer": "vytváří větší odpor než tah",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 92,
+      "title": "Páka vrtule při klesání",
+      "prompt": "Při klesání konstantní rychlostí na volnoběhu pohne pilot pákou ovládání vrtule dozadu. Jak se to projeví na úhlu nastavení listů vrtule a úhlu klesání letadla?",
+      "choices": [
+        "listy se nastaví na větší úhel nastavení, úhel klesání se zmenší",
+        "listy se nastaví na větší úhel nastavení, úhel klesání se zvětší",
+        "listy se nastaví na menší úhel nastavení, úhel klesání se zmenší",
+        "listy se nastaví na menší úhel nastavení, úhel klesání se zvětší"
+      ],
+      "answer": "listy se nastaví na větší úhel nastavení, úhel klesání se zmenší",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 93,
+      "title": "Letový režim bodu 1",
+      "prompt": "Jaký režim letu označuje bod (1) na obrázku? Viz obr. (PFA-008)",
+      "choices": [
+        "minimální rychlost",
+        "maximální klouzavost",
+        "let na zádech",
+        "pád"
+      ],
+      "answer": "let na zádech",
+      "correct_choice_index": 2,
+      "source_document_page": 19,
+      "attachment_code": "PFA-008",
+      "attachment_url": "/public/assets/attachments/PFA-008.svg"
+    },
+    {
+      "source_question_id": 94,
+      "title": "Letový režim bodu 5",
+      "prompt": "Jaký režim letu označuje bod (5) na obrázku? Viz obr. (PFA-008)",
+      "choices": [
+        "minimální rychlost",
+        "maximální klouzavost",
+        "let na zádech",
+        "pád"
+      ],
+      "answer": "minimální rychlost",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "PFA-008",
+      "attachment_url": "/public/assets/attachments/PFA-008.svg"
+    },
+    {
+      "source_question_id": 95,
+      "title": "Standardní zatáčka a TAS",
+      "prompt": "Náklon v zatáčce o 360° za 2 minuty závisí na:",
+      "choices": [
+        "pravé vzdušné rychlosti",
+        "tíze letadla",
+        "násobku zatížení",
+        "větru"
+      ],
+      "answer": "pravé vzdušné rychlosti",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 96,
+      "title": "Násobek a pádová rychlost v zatáčce",
+      "prompt": "Jaký je vztah mezi násobkem (n) a pádovou rychlostí (vS) v koordinované zatáčce?",
+      "choices": [
+        "n je větší než 1, vS je větší než v rovném letu",
+        "n je větší než 1, vS je menší než v rovném letu",
+        "n je menší než 1, vS je menší než v rovném letu",
+        "n je menší než 1, vS je větší než v rovném letu"
+      ],
+      "answer": "n je větší než 1, vS je větší než v rovném letu",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 97,
+      "title": "Rovnováha sil v zatáčce",
+      "prompt": "Jak se změní rovnováha sil v zatáčce?",
+      "choices": [
+        "vztlak musí být větší, aby vyrovnal součet tíhy a odstředivé síly",
+        "vztlak musí být menší, aby vyrovnal menší součet sil v porovnání s přímým letem",
+        "vertikální složka vztlaku v zatáčce je odstředivá síla",
+        "výsledná dostředivá síla je součtem tíhy a odstředivé síly"
+      ],
+      "answer": "vztlak musí být větší, aby vyrovnal součet tíhy a odstředivé síly",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 98,
+      "title": "Koncové víry a indukovaný odpor",
+      "prompt": "Vyrovnávání tlaku mezi horní a spodní stranou křídla má za následek:",
+      "choices": [
+        "indukovaný odpor vytvářený víry na konci křídel",
+        "vztlak vytvářený víry na konci křídel",
+        "profilový odpor vytvářený víry na konci křídel",
+        "laminární proudění vytvářené víry na konci křídel"
+      ],
+      "answer": "indukovaný odpor vytvářený víry na konci křídel",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 99,
+      "title": "Přízemní efekt",
+      "prompt": "Jaký účinek má přízemní efekt?",
+      "choices": [
+        "nárůst vztlaku a pokles indukovaného odporu v blízkosti země",
+        "pokles vztlaku a pokles indukovaného odporu v blízkosti země",
+        "nárůst vztlaku a nárůst indukovaného odporu v blízkosti země",
+        "pokles vztlaku a nárůst indukovaného odporu v blízkosti země"
+      ],
+      "answer": "nárůst vztlaku a pokles indukovaného odporu v blízkosti země",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 100,
+      "title": "Vývrtka versus spirála",
+      "prompt": "Jaký je rozdíl mezi vývrtkou a spirálou?",
+      "choices": [
+        "vývrtka: odtržení proudu na vnitřním křídle, rychlost konstantní – spirála: není odtržení proudu, rychlost rychle narůstá",
+        "vývrtka: odtržení proudu na vnějším křídle, rychlost konstantní – spirála: odtržení není, rychlost rychle narůstá",
+        "vývrtka: odtržení proudu na vnitřním křídle, rychlost rychle narůstá – spirála: odtržení není, rychlost konstantní",
+        "vývrtka: odtržení proudu na vnějším křídle, rychlost rychle narůstá – spirála: odtržení není, rychlost konstantní"
+      ],
+      "answer": "vývrtka: odtržení proudu na vnitřním křídle, rychlost konstantní – spirála: není odtržení proudu, rychlost rychle narůstá",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

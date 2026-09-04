@@ -1,0 +1,2528 @@
+{
+  "schema_version": 2,
+  "key_model": "subject_source_question",
+  "questions": [
+    {
+      "subject_id": 1,
+      "source_question_id": 1,
+      "title": "Povinné doklady při mezinárodním letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation": "Jde o dokumenty prokazující identitu letadla, jeho letovou způsobilost a oprávnění posádky. EASA Form 1 je doklad používaný pro uvolnění výrobku, dílu nebo zařízení do provozu, nikoli běžný palubní doklad. Technický deník se v této konkrétní veřejné otázce mezi požadovanou kombinaci neřadí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při mezinárodním letu se kontroluje identita letadla, jeho letová způsobilost, provozní záznam letu a oprávnění členů posádky. Jednotlivé dokumenty proto patří do několika různých skupin a všechny musí být při předletové kontrole dohledatelné."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Drž si pořadí: rejstřík → CoA → ARC → palubní deník → doklady posádky. Je to krátký řetězec od identity letadla přes jeho technickou způsobilost až k posádce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se při přípravě zahraničního letu vyplatí projít palubní dokumentaci jako samostatný checklist. Tím se oddělí technické dokumenty letadla od osobních dokladů posádky a sníží se riziko, že některá položka zůstane na zemi."
+        }
+      ],
+      "warning": "Uč se názvy dokumentů, ne písmena odpovědí.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 2,
+      "title": "Vymezené vzdušné prostory",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation": "Omezený prostor (R) není absolutně uzavřený. Let v něm je možný za podmínek stanovených pro konkrétní prostor. Zakázaný prostor (P) je naopak určen pro zákaz letu a nebezpečný prostor (D) upozorňuje na činnost nebezpečnou pro letadla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Omezený prostor R je prostor, ve kterém je provoz letadel omezen podle konkrétně publikovaných podmínek. Rozhodující je vždy vertikální a horizontální rozsah, doba aktivace a podmínky vstupu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "P = prohibited, R = restricted, D = danger. U R si spoj písmeno s pravidly vstupu: let je možný tehdy, když pilot splní publikované podmínky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem nestačí znát pouze zakreslenou hranici prostoru. Pilot musí ověřit jeho aktivaci a podmínky v aktuálních leteckých informacích pro plánovanou dobu letu."
+        }
+      ],
+      "warning": "Rozlišuj P = prohibited, R = restricted, D = danger.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 3,
+      "title": "Publikace omezených prostorů",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation": "AIP je základní státní letecká informační publikace pro informace trvalého charakteru a dlouhodobé změny. NOTAM slouží zejména pro dočasné nebo časově citlivé změny; před letem je proto nutné kontrolovat obojí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "AIP je základní státní letecká informační publikace pro informace trvalého charakteru a dlouhodobé provozní podmínky. U omezeného prostoru v něm najdeš jeho publikovanou definici a pravidla použití."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "AIP drží stabilní strukturu vzdušného prostoru. NOTAM přináší časově omezené nebo aktuální změny. Při předletové přípravě se oba zdroje skládají dohromady."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování tratě si nejprve ověř publikovaný prostor v AIP a potom jeho aktuální stav v NOTAM. Tím získáš jak základní pravidla, tak informace platné pro konkrétní den a čas."
+        }
+      ],
+      "warning": "AIP a NOTAM se doplňují, nejde o vzájemné náhrady.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 4,
+      "title": "Právní závaznost pravidel EASA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation": "Příslušné „Parts“ jsou přílohami přímo použitelných evropských nařízení. Nečeká se na jejich individuální ratifikaci každým státem jako u mezinárodní smlouvy. Je ale nutné odlišovat samotné závazné požadavky od AMC a GM, které mají jinou právní povahu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Požadavky označované jako Part-FCL, Part-MED a další příslušné Parts jsou součástí právního rámce EU prostřednictvím příslušných nařízení a jejich příloh. Pro pilota mají praktický dopad přímo na licence, kvalifikace a zdravotní způsobilost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Part-FCL spoj s licencemi a kvalifikacemi, Part-MED se zdravotní způsobilostí. Oba názvy patří do evropského regulatorního rámce EASA."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při dohledávání konkrétního požadavku pracuj s aktuálním konsolidovaným zněním příslušného nařízení. AMC a GM pak pomáhají s přijatelnými způsoby plnění a výkladem požadavků."
+        }
+      ],
+      "warning": "Nezaměňuj závazná pravidla s AMC/GM a s ICAO Annexy.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 5,
+      "title": "Platnost osvědčení letové způsobilosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation": "CoA samo o sobě není průkaz s pravidelnou roční expirací. Způsobilost letadla se průběžně dokládá a kontroluje v systému continuing airworthiness, mimo jiné prostřednictvím ARC tam, kde se použije.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Osvědčení letové způsobilosti potvrzuje schválený status letadla a samo má časově neomezenou platnost při trvajícím splnění požadavků zachování letové způsobilosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "CoA = základní osvědčení letové způsobilosti. ARC = pravidelná kontrola zachování letové způsobilosti. U otázky na dobu platnosti CoA tedy mysli na dlouhodobý dokument podmíněný pokračujícím plněním požadavků."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot při předletové dokumentaci sleduje nejen existenci CoA, ale i aktuální stav dokumentů continuing airworthiness, protože skutečná možnost provozu závisí na celé dokumentační sadě."
+        }
+      ],
+      "warning": "Nezaměňuj CoA s ARC.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 6,
+      "title": "ARC",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation": "ARC potvrzuje výsledek kontroly zachování letové způsobilosti. Je to jiný dokument než samotné osvědčení letové způsobilosti a jiný než EASA Form 1.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ARC znamená Airworthiness Review Certificate, tedy osvědčení kontroly letové způsobilosti. Dokument potvrzuje výsledek pravidelného posouzení zachování letové způsobilosti letadla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Review je klíčové slovo: ARC zachycuje kontrolu zachování způsobilosti. CoA je základní osvědčení, ARC je navazující kontrolní dokument."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při kontrole dokumentace letadla se CoA a ARC čtou společně. Každý z nich popisuje jinou část statusu letové způsobilosti a dohromady dávají pilotovi jasnější obraz o použitelnosti letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 7,
+      "title": "Stát vydávající CoA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation": "Vazba je na stát registrace letadla, nikoli na stát výrobce, bydliště vlastníka nebo místo provedení konkrétní kontroly.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Osvědčení letové způsobilosti je navázáno na stát registrace letadla. Právě rejstřík určuje stát, který vykonává příslušnou odpovědnost za registraci a vydání tohoto osvědčení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív registrace, potom CoA. Když vidíš otázku „který stát“, hledej vazbu na rejstřík letadla."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "U letadla provozovaného v jiné zemi než v zemi vlastníka nebo výroby zůstává klíčovým referenčním bodem jeho stát registrace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 8,
+      "title": "Mezinárodní platnost průkazu ICAO",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation": "Smyslem ICAO standardů je mezinárodní kompatibilita licencí a kvalifikací. Pro konkrétní výkon práv v cizím státě však vždy rozhodují platné podmínky daného státu a případná validace či evropský režim.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilotní průkaz vydává konkrétní stát. ICAO stanovuje mezinárodní standardy licencování, které vytvářejí společný rámec pro uznávání průkazů mezi smluvními státy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ICAO vytváří společný standard, stát vydává konkrétní průkaz a cílový stát určuje podmínky, za kterých lze jeho práva použít na svém území."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování létání mimo běžný evropský licenční režim je vhodné předem ověřit požadavky cílového státu na validaci, převod nebo další oprávnění."
+        }
+      ],
+      "warning": "Pro zkoušku sleduj formulaci veřejné otázky; pro skutečný let ověř národní požadavky cílového státu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 9,
+      "title": "ICAO Annex 1",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation": "Annex 1 obsahuje mezinárodní standardy a doporučené postupy pro průkazy a odbornou způsobilost leteckého personálu. Pravidla létání jsou v Annexu 2, ATS v Annexu 11 a provoz letadel v Annexu 6.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ICAO Annex 1 se věnuje licencování a odborné způsobilosti leteckého personálu. Patří sem standardy pro pilotní průkazy a další kategorie leteckého personálu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Annex 1 = Personnel Licensing. Pro orientaci si drž několik sousedních čísel: Annex 2 pravidla létání, Annex 6 provoz letadel, Annex 11 letové provozní služby."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Annexy ICAO tvoří mezinárodní standardizační rámec. Evropské a národní předpisy na tento rámec navazují konkrétními právními požadavky použitelnými pro piloty a provozovatele."
+        }
+      ],
+      "warning": "Častá záměna je Annex 1 vs. 2, 6 a 11.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 10,
+      "title": "Platnost PPL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 3,
+      "explanation": "To neznamená, že lze létat bez dalších podmínek. Výkon práv závisí na platné třídní/typové kvalifikaci, zdravotní způsobilosti a splnění dalších požadavků. Časově se tedy obnovují zejména kvalifikace a medical, ne samotná licence.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Samotný průkaz PPL je vydáván bez pevné doby expirace. Praktický výkon jeho práv je navázán na další platné požadavky, zejména příslušnou třídní nebo typovou kvalifikaci a zdravotní způsobilost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Licence zůstává, oprávnění k létání se průběžně udržují. Při otázkách na platnost proto vždy rozlišuj samotný průkaz, kvalifikaci a medical."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje celý řetězec oprávnění: licence, příslušná kvalifikace, medical a další podmínky pro konkrétní druh letu. Doba platnosti jednotlivých článků se liší."
+        }
+      ],
+      "warning": "Licence a kvalifikace jsou dvě různé věci.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 11,
+      "title": "Minimální věk pro PPL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 3,
+      "explanation": "Part-FCL stanovuje pro vydání PPL minimální věk 17 let. Samostatný let ve výcviku může být za splnění podmínek možný dříve, proto se tato hodnota nesmí zaměnit s minimálním věkem pro první sólo.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro vydání PPL musí mít žadatel alespoň 17 let. Jde o podmínku pro vydání průkazu, nikoli o věk pro zahájení výcviku nebo první samostatný let."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "PPL = 17. První sólo ve výcviku = 16. Dvě různé hranice pro dvě různé události."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování výcviku se věk posuzuje spolu s dalšími podmínkami, například zdravotní způsobilostí a připraveností žáka. Samotné splnění věku ještě automaticky neznamená připravenost k samostatnému letu."
+        }
+      ],
+      "warning": "PPL: 17 let; první sólo ve výcviku: 16 let.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 12,
+      "title": "Noční kvalifikace, základní rozsah",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 3,
+      "explanation": "Požadavky kombinují celkovou noční zkušenost, výcvik s instruktorem, navigaci a samostatné okruhy. U zkoušky je potřeba znát celou kombinaci, protože distraktory mění jednotlivé počty hodin nebo přistání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výcvik pro noční létání kombinuje celkovou noční zkušenost, výcvik s instruktorem, navigační část a samostatné vzlety a přistání s úplným zastavením."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Drž si čtveřici 5-3-1-5: 5 h celkem, 3 h s instruktorem, 1 h navigace, 5 samostatných full-stop přistání."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Noční létání přidává nároky na prostorovou orientaci, práci s osvětlením, plánování a rozhodování. Proto výcvik není jen série okruhů, ale obsahuje i navigační let."
+        }
+      ],
+      "warning": "Hlídej 5 h celkem, 3 h dual, 1 h navigace a 5 solo full-stop.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 13,
+      "title": "Class 2 medical po 50. roce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 3,
+      "explanation": "U Class 2 se doba platnosti s věkem zkracuje. Veřejná otázka zkouší kategorii nad 50 let, pro kterou je platnost 12 měsíců.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Platnost osvědčení Class 2 se s věkem zkracuje. Pro pilota ve věku 62 let je v otázce správná platnost 12 měsíců."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U Class 2 vždy nejdřív přečti věk. Nad 50 let si pro tuto otázku spoj Class 2 s roční platností."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem nestačí mít medical fyzicky u sebe. Pilot musí ověřit, že je stále platný pro konkrétní den letu a pro práva, která chce vykonávat."
+        }
+      ],
+      "warning": "Vždy čti věk pilota; stejná třída medical má v jiném věku jinou platnost.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 14,
+      "title": "SEP land bez splněné zkušenosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 3,
+      "explanation": "Revalidace SEP může proběhnout splněním stanovené zkušenosti, nebo proficiency checkem. Pokud potřebná zkušenost splněna není, cesta přes examinátora je standardní řešení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Revalidace SEP může proběhnout podle požadované zkušenosti, nebo přezkoušením odborné způsobilosti. Pokud hodinové podmínky pro revalidaci podle zkušenosti splněné nejsou, řešením je proficiency check s examinátorem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Experience route a examiner route jsou dvě samostatné cesty. Když chybí požadovaná zkušenost, přecházíš na examinátora."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Datum expirace kvalifikace je dobré hlídat s předstihem. Pilot si tak může zvolit jednodušší revalidaci podle zkušenosti a nenechá situaci dojít do obnovy po propadnutí."
+        }
+      ],
+      "warning": "Nezaměňuj revalidation by experience s proficiency checkem.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 15,
+      "title": "Práva držitele PPL(A)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 4,
+      "explanation": "Správný výsledek je „působit jako velitel letadla při neobchodních letech bez úplaty a přijímat úplatu jako letový instruktor“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "PPL(A) umožňuje působit jako velitel nebo druhý pilot při neobchodních letech bez úplaty. Předpis současně umožňuje odměnu za určité činnosti, například při splnění podmínek pro instruktora nebo examinátora."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "PPL si spojuj s neobchodním létáním. Výjimky pro placenou instruktorskou činnost jsou navázané na další kvalifikaci a oprávnění."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při skutečném letu je potřeba oddělit práva samotné licence od práv konkrétní kvalifikace a od provozního charakteru letu. Odpovědnost pilota se neposuzuje jen podle toho, zda má PPL."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 16,
+      "title": "Minimální věk pro první samostatný let",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 4,
+      "explanation": "Minimální hodnota pro uvedenou podmínku je „16 let“. U limitů je důležité spojit číslo s přesnou podmínkou v zadání a nepřenášet hodnotu z podobného, ale jiného režimu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "První samostatný let žáka pilota může být proveden od 16 let, pokud jsou splněny ostatní výcvikové a zdravotní podmínky a instruktor žáka k letu uvolní."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Sólo = 16, vydání PPL = 17."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rozhodnutí instruktora k prvnímu sólu stojí na skutečné připravenosti žáka, zvládnutí nouzových postupů a podmínkách dne. Věk je pouze jedna z podmínek."
+        }
+      ],
+      "warning": "Hlídej směr nerovnosti a zda je hranice zahrnuta. Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 17,
+      "title": "SERA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 4,
+      "explanation": "Zkratka SERA má v leteckém kontextu význam „standardizovaná evropská pravidla létání“. U zkratek se uč přesný rozvoj i oblast použití; podobně znějící zkratka může patřit k úplně jiné službě nebo veličině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SERA je zkratka pro Standardised European Rules of the Air, tedy standardizovaná evropská pravidla létání. Tvoří společný rámec pravidel létání napříč evropským prostředím."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SERA = evropská pravidla létání. Písmeno R si spoj s Rules."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při VFR letu se SERA promítá do minim dohlednosti, pravidel přednosti, minimálních výšek, světelných signálů i dalších každodenních provozních rozhodnutí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 18,
+      "title": "TRA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 4,
+      "explanation": "Zkratka TRA má v leteckém kontextu význam „dočasně vyhrazený vzdušný prostor“. U zkratek se uč přesný rozvoj i oblast použití; podobně znějící zkratka může patřit k úplně jiné službě nebo veličině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "TRA znamená Temporary Reserved Area, tedy dočasně vyhrazený vzdušný prostor. Jeho aktivace a podmínky použití jsou časově a prostorově definované."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "T = temporary, R = reserved, A = area."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Trať přes oblast TRA se plánuje podle publikovaných horizontálních a vertikálních hranic a podle aktuální aktivace. Stav prostoru je součástí předletové přípravy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 19,
+      "title": "Vstup do RMZ",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 4,
+      "explanation": "Správný výsledek je „stále sledovat rádio a je-li to možné, navázat rádiové spojení“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "RMZ je prostor s povinným rádiovým spojením. Pilot v něm musí plnit publikované požadavky na poslech a komunikaci na určeném kmitočtu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "RMZ = Radio Mandatory Zone. R znamená rádio, takže první kontrola je správný kmitočet a schopnost spojení."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před vstupem do RMZ je praktické připravit si frekvenci, volací znak a základní hlášení předem. Tím se sníží pracovní zatížení těsně před hranicí prostoru."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 20,
+      "title": "Zvláštní let VFR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 5,
+      "explanation": "Správný výsledek je „viditelnost země“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zvláštní VFR je provoz v řízeném okrsku za podmínek stanovených pro SVFR. V této otázce je klíčovou podmínkou udržení viditelnosti země."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SVFR si spojuj s letem za viditelnosti země uvnitř řízeného prostředí a s povolením ATC."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "SVFR se používá jen v konkrétních podmínkách a nenahrazuje běžnou předletovou meteorologickou přípravu. Pilot musí průběžně posuzovat, zda podmínky stále umožňují bezpečný VFR let."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 21,
+      "title": "Vstup do TMZ",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 5,
+      "explanation": "Správný výsledek je „zapnout odpovídač sekundárního radaru a nastavit mód A a C nebo mód S“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "TMZ je prostor, ve kterém je povinné použít odpovídač sekundárního radaru v požadovaném režimu. Pro zobrazení tlakové hladiny se používá Mode C nebo Mode S."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "TMZ = Transponder Mandatory Zone. Před hranicí prostoru zkontroluj transponder, mód a případně přidělený kód."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi je vhodné mít odpovídač zapnutý a správně nastavený ještě před vstupem do TMZ. Mode S současně umožňuje další identifikační funkce podle vybavení letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 22,
+      "title": "TMZ",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 5,
+      "explanation": "Správný výsledek je „oblast s povinným odpovídačem sekundárního radaru“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "TMZ znamená Transponder Mandatory Zone, tedy oblast s povinným odpovídačem sekundárního radaru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "TMZ = transponder mandatory."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Publikované podmínky TMZ mohou obsahovat další požadavky. Před letem proto ověř konkrétní prostor v AIP a aktuálních leteckých informacích."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 23,
+      "title": "IFR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 5,
+      "explanation": "Zkratka IFR má v leteckém kontextu význam „pravidla pro let podle přístrojů“. U zkratek se uč přesný rozvoj i oblast použití; podobně znějící zkratka může patřit k úplně jiné službě nebo veličině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "IFR znamená Instrument Flight Rules, tedy pravidla pro let podle přístrojů. IFR popisuje pravidla vedení letu, nikoli samotný stav počasí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "IFR = Instrument Flight Rules. I = instruments."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "IFR let může probíhat i za výborného počasí. Rozhodující je režim letu a příslušná pravidla, povolení, vybavení a kvalifikace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 24,
+      "title": "Let podle VFR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 5,
+      "explanation": "Přesná definice v této otázce odpovídá formulaci „let je proveden podle pravidel letu za viditelnosti“. U definic je rozhodující rozlišovací znak pojmu, nikoli běžný jazykový dojem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Let se označuje jako let za viditelnosti tehdy, když je proveden podle pravidel letu za viditelnosti, tedy VFR."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "VFR je právní režim letu, ne jen popis toho, že pilot právě vidí zem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování VFR se kontrolují meteorologická minima, vzdušný prostor, požadavky na komunikaci a další podmínky. Dobrá dohlednost sama o sobě nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 25,
+      "title": "VMC",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 6,
+      "explanation": "Zkratka VMC má v leteckém kontextu význam „meteorologické podmínky pro let za viditelnosti“. U zkratek se uč přesný rozvoj i oblast použití; podobně znějící zkratka může patřit k úplně jiné službě nebo veličině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VMC znamená Visual Meteorological Conditions, tedy meteorologické podmínky pro let za viditelnosti. Jde o podmínky definované dohledností, vzdáleností od oblačnosti a dalšími relevantními limity."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "VFR = pravidla letu, VMC = meteorologické podmínky. Dvě podobné zkratky, ale jiný význam."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot může plánovat VFR pouze tehdy, když očekávané a skutečné podmínky odpovídají použitelným VMC minimům pro daný prostor a výšku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 26,
+      "title": "Protisměrný provoz",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 6,
+      "explanation": "Pro uvedenou geometrii nebo řízení vychází „obě mají uhnout doprava“. Nejprve si stanov referenční směr či osu a až potom aplikuj znaménko, úhel nebo směr pohybu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Když se dvě letadla přibližují čelně nebo téměř čelně a hrozí srážka, obě mění kurz doprava. Pravidlo je symetrické pro oba piloty."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Head-on = oba doprava."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vizuální vyhýbání funguje nejlépe při včasné a zřetelné změně kurzu. Malá nebo pozdní korekce může být pro druhého pilota obtížně rozpoznatelná."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 27,
+      "title": "Křižující se tratě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 6,
+      "explanation": "Správný výsledek je „letadlo letící zprava doleva má přednost“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při křižujících se tratích dává přednost letadlo, které má druhé letadlo po své pravé straně. Letadlo přilétající zprava má tedy přednost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pravá strana = přednost. Kdo vidí provoz napravo, ten ustupuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot, který dává přednost, musí provést manévr s dostatečnou rezervou a sledovat, zda se situace skutečně vyvíjí bezpečně."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 28,
+      "title": "Křižující se tratě ve třídě D",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 6,
+      "explanation": "Správný výsledek je „letoun letící zprava doleva má přednost, ten druhý se má vyhnout“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Základní pravidlo přednosti při křižujících se tratích se řídí vzájemnou geometrií provozu. Velikost nebo typ letadla samy o sobě toto pravidlo nemění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "B737 versus C152 není rozhodující. Rozhodující je, kdo je komu zprava."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "ATC ve třídě D poskytuje služby podle pravidel prostoru, ale pilot VFR stále sleduje provoz a plní pravidla vyhýbání, pokud situaci neřeší konkrétní instrukce řízení."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 29,
+      "title": "Minimální výšky letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 6,
+      "explanation": "Minimální hodnota pro uvedenou podmínku je „špatné meteorologické podmínky v blízkosti letiště“. U limitů je důležité spojit číslo s přesnou podmínkou v zadání a nepřenášet hodnotu z podobného, ale jiného režimu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Požadavky na minimální výšku chrání osoby, majetek a letadlo. Sestup pod předepsanou minimální výšku je přípustný jen v jasně stanovených situacích, například při vzletu nebo přistání, nikoli pouze kvůli nepříznivému počasí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Špatné počasí není oprávnění letět níž. Pokud počasí nutí pod bezpečnou výšku, správné rozhodnutí je změnit plán."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nízká oblačnost nebo dohlednost může vytvořit tlak na pokračování v malé výšce. To je typický bod pro včasné rozhodnutí o návratu, odklonu nebo přistání."
+        }
+      ],
+      "warning": "Zadání je negované: nejprve si zvýrazni slovo NENÍ/NEPLATÍ. Hlídej směr nerovnosti a zda je hranice zahrnuta.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 30,
+      "title": "Vyhýbání při čelním přiblížení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 7,
+      "explanation": "Pro uvedenou geometrii nebo řízení vychází „obě letadla mají uhnout doprava“. Nejprve si stanov referenční směr či osu a až potom aplikuj znaménko, úhel nebo směr pohybu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při čelním nebo téměř čelním přiblížení dvou letadel mění oba piloti kurz doprava. Tím vzniká společný a předvídatelný směr vyhýbání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čelně = doprava na obou stranách."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vyhýbací manévr má být zřetelný a provedený včas. Současně je nutné pokračovat ve vizuálním sledování druhého letadla až do bezpečného minutí."
+        }
+      ],
+      "warning": "Rozlišuj true/magnetic a track/heading; jde o dvě různé opravy.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 31,
+      "title": "VFR vzdálenost od oblačnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 7,
+      "explanation": "Standardní odstup 1 500 m horizontálně a 1 000 ft (300 m) vertikálně vytváří prostorovou rezervu vůči oblačnosti a provozu, který z ní může vystoupit. Nezaměňuj tento požadavek s minimální letovou dohledností.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V prostorech, kde se požaduje standardní odstup od oblačnosti, je minimum 1 500 m horizontálně a 1 000 ft (300 m) vertikálně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15 a 10: 1 500 m do strany, 1 000 ft nahoru nebo dolů."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odstup od oblačnosti vytváří rezervu vůči provozu, který může z oblaku vystoupit. Je to samostatná podmínka vedle požadované letové dohlednosti."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 32,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 7,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 33,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 7,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 34,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 7,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 35,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 8,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 36,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 8,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 37,
+      "title": "VFR odstup od oblačnosti ve třídě B",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 8,
+      "explanation": "Standardní odstup 1 500 m horizontálně a 1 000 ft (300 m) vertikálně vytváří prostorovou rezervu vůči oblačnosti a provozu, který z ní může vystoupit. Nezaměňuj tento požadavek s minimální letovou dohledností.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V této otázce se používá standardní odstup 1 500 m horizontálně a 300 m vertikálně, což odpovídá přibližně 1 000 ft."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1 500 m do strany, 300 m svisle."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém letu se pilot řídí aktuální klasifikací prostoru a publikovanými VMC minimy. Hodnoty je potřeba vztahovat ke konkrétní třídě a výškové vrstvě."
+        }
+      ],
+      "warning": "Hlídej směr nerovnosti a zda je hranice zahrnuta. Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 38,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 8,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 39,
+      "title": "VFR dohlednost a hranice FL100",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 8,
+      "explanation": "Veřejná sada zkouší stejnou hranici na několika výškách a třídách prostoru. Klíčová je hranice FL100: pod ní 5 km, od FL100 včetně 8 km. Samostatně se uč i požadovaný odstup od oblačnosti 1 500 m horizontálně a 1 000 ft (300 m) vertikálně tam, kde se tento odstup vyžaduje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro běžný VFR provoz je pod FL100 minimální letová dohlednost 5 km, zatímco ve FL100 a výše je 8 km. Rozhodující je přesná hranice FL100."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pod 100 = 5 km. Od 100 včetně = 8 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu blízko přechodové hranice kontroluj skutečnou letovou hladinu a podmínky prostoru. Vedle dohlednosti se samostatně posuzuje i odstup od oblačnosti."
+        }
+      ],
+      "warning": "Pozor na formulaci „pod FL100“ versus „FL100 a výše“. Hranice je inkluzivní směrem nahoru.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 40,
+      "title": "Výška základny význačné oblačnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 9,
+      "explanation": "Přesná definice v této otázce odpovídá formulaci „výška nad zemí základny nejnižší vrstvy oblačnosti pokrývající více než jednu polovinu oblohy pod 20000 ft“. U definic je rozhodující rozlišovací znak pojmu, nikoli běžný jazykový dojem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ceiling se vztahuje k základně nejnižší význačné vrstvy oblačnosti pokrývající více než polovinu oblohy, tedy typicky BKN nebo OVC, pod stanovenou výškovou hranicí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ceiling hledej u nejnižší vrstvy BKN nebo OVC, ne u každého jednotlivého oblaku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Ceiling je důležitý pro posouzení VFR podmínek, letištního provozu a přiblížení. Při čtení METAR vždy rozlišuj množství oblačnosti a výšku její základny."
+        }
+      ],
+      "warning": "Hlídej směr nerovnosti a zda je hranice zahrnuta. Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 41,
+      "title": "Zakročování, signál „následujte mě“",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 9,
+      "explanation": "Správný výsledek je „následujte mě“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mávání křídly zakročujícího letadla a následná mírná zatáčka je standardní vizuální signál, kterým zakročující letadlo vyzývá druhé letadlo, aby jej následovalo."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Wings rock, potom zatáčka = následujte mě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot, proti kterému je zakročováno, zachovává klid, sleduje signály a reaguje standardizovaným způsobem. Předvídatelná reakce je zásadní pro bezpečné pokračování situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 42,
+      "title": "Zakročování, povolení pokračovat",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 9,
+      "explanation": "Pro uvedenou geometrii nebo řízení vychází „můžete pokračovat v letu“. Nejprve si stanov referenční směr či osu a až potom aplikuj znaménko, úhel nebo směr pohybu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výrazný odlet zakročujícího letadla změnou kurzu o 90° nebo více bez překřížení dráhy druhého letadla znamená, že zakročované letadlo může pokračovat v letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Zakročující letadlo výrazně odchází stranou = můžete pokračovat."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při zakročování je potřeba rozpoznávat celé sekvence signálů, ne izolované jednotlivé pohyby. Pilot současně sleduje rádio a odpovídač podle použitelného postupu."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku. Rozlišuj true/magnetic a track/heading; jde o dvě různé opravy.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 43,
+      "title": "Přechod na standardní tlak",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 9,
+      "explanation": "QNH je tlak přepočtený na střední hladinu moře podle standardního postupu. Po nastavení QNH výškoměr na letišti přibližně ukazuje jeho nadmořskou výšku a za letu altitude vůči MSL.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při stoupání se z místního QNH přechází na standardní tlak 1013,25 hPa po průletu převodní výšky. Od této chvíle se vertikální poloha vyjadřuje jako letová hladina."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stoupám nad transition altitude = nastavím 1013."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správné nastavení výškoměru je kritické pro vertikální rozstup. Při přechodu na standardní tlak je vhodné nastavení výškoměru křížově ověřit s druhým přístrojem, pokud je k dispozici."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku. Nezaměňuj altitude, height a flight level ani jejich tlakové reference.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 44,
+      "title": "Nastavení výškoměru ve FL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 9,
+      "explanation": "Správný výsledek je „1013.25 hPa“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Letová hladina je definována vůči standardnímu tlaku 1013,25 hPa. Proto má být výškoměr při letu ve FL80 nastaven na tuto standardní hodnotu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "FL vždy znamená standard 1013,25."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při klesání se návrat na místní QNH provádí podle převodní hladiny a pokynů nebo publikovaných postupů, aby výškoměr znovu ukazoval altitude vůči střední hladině moře."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 45,
+      "title": "Účel půlkruhového pravidla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 10,
+      "explanation": "Účelem je „zabránit srážkám snížením pravděpodobnosti protisměrného provozu ve stejných výškách“. Při podobných otázkách si odděl prostředek od jeho účelu: zařízení nebo postup může mít více vedlejších efektů, ale test hledá hlavní provozní funkci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Půlkruhové pravidlo rozděluje cestovní hladiny podle směru letu tak, aby se snížila pravděpodobnost protisměrného provozu ve stejné výšce."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Směr letu určuje skupinu hladin. Cílem je vertikálně oddělit typický protisměrný provoz."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování cestovní výšky se zohledňuje magnetická trať a použitelná pravidla prostoru. Správná hladina je součástí základní prevence konfliktů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 46,
+      "title": "Módy odpovídače SSR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 10,
+      "explanation": "Správný výsledek je „A, C, S“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V běžném základním členění se setkáš s módy A, C a S. Mode A přenáší kód, Mode C přidává tlakovou výšku a Mode S umožňuje adresnější a rozsáhlejší výměnu dat."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "A = identifikační kód, C = altitude, S = selective."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem je vhodné ověřit správnou funkci odpovídače a encoderu výšky. Chybná tlaková výška může vytvářet nesprávný obraz provozu pro ATS a další systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 47,
+      "title": "SSR s tlakovou výškou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 10,
+      "explanation": "Pro uvedenou tlakovou situaci je správně „odpovídač módu C nebo S“. Rozhodující je referenční hladina a způsob redukce tlaku; podobné veličiny QNH, QFE, QFF a standardní tlak nejsou zaměnitelné.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Tlakovou hladinu umí vysílat odpovídač Mode C nebo Mode S. Mode A samotný poskytuje identifikační kód bez tlakové výšky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "C a S umějí altitude, samotné A ne."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správné vysílání tlakové výšky podporuje radarové zobrazení, varovné systémy a situační přehled ATS. Pilot by měl při předletové kontrole sledovat indikaci altitude reporting, pokud ji avionika nabízí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 48,
+      "title": "SSR 7600",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 10,
+      "explanation": "Kód 7600 je mezinárodně používaný SSR kód pro poruchu rádiového spojení. Je odlišný od 7500 pro protiprávní zásah a 7700 pro všeobecnou nouzi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kód 7600 je standardní SSR kód pro poruchu rádiového spojení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "75 hijack, 76 radio, 77 emergency."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení se kromě nastavení odpovídače pokračuje podle příslušných postupů pro daný druh letu a prostor. Pilot se pokouší spojení obnovit vhodnými dostupnými prostředky."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 49,
+      "title": "Porucha rádia, kód odpovídače",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 10,
+      "explanation": "Kód 7600 je mezinárodně používaný SSR kód pro poruchu rádiového spojení. Je odlišný od 7500 pro protiprávní zásah a 7700 pro všeobecnou nouzi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pokud při poruše rádia není vydán jiný pokyn, standardním kódem odpovídače je 7600."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radio failure = 7600."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nastavení kódu je pouze jedna část postupu. Pilot současně kontroluje frekvenci, zvolenou radiostanici, hlasitost, audio panel a podle situace zkouší alternativní frekvence nebo 121,5 MHz."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 50,
+      "title": "Nouze, kód odpovídače",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 11,
+      "explanation": "Kód 7700 signalizuje všeobecnou nouzi a upozorní radarové stanoviště na letadlo vyžadující přednostní pozornost. 7600 je porucha spojení, 7500 protiprávní zásah.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kód 7700 označuje všeobecnou nouzi a upozorňuje ATS na letadlo vyžadující okamžitou pozornost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "77 = emergency. 76 = radio. 75 = unlawful interference."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V nouzi pilot používá prostředky, které nejrychleji zvýší šanci na pomoc. Pokud je spojení funkční, kód odpovídače doplňuje tísňovou komunikaci a další nouzové postupy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 51,
+      "title": "Řízení letového provozu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 11,
+      "explanation": "Správný výsledek je „řízení letového provozu (ATC)“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ATC je služba řízení letového provozu, která vydává povolení a instrukce a v rozsahu své odpovědnosti organizuje provoz tak, aby se předcházelo srážkám a udržoval se uspořádaný tok."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ATC = řízení. FIS = informace. Rozlišuj službu, která řídí, a službu, která informuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot zůstává odpovědný za bezpečné provedení letu a plnění povolení. Pokud instrukci nelze bezpečně splnit, musí to řízení sdělit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 52,
+      "title": "TWR, APP a ACC",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 11,
+      "explanation": "Správný výsledek je „letištní služba řízení (TWR) přibližovací služba řízení (APP) oblastní služba řízení (ACC)“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Základní služby ATC zahrnují letištní službu řízení (TWR), přibližovací službu řízení (APP) a oblastní službu řízení (ACC). Každá pokrývá jinou fázi a oblast provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "TWR = letiště, APP = přílet a odlet, ACC = traťový oblastní provoz."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Během jednoho letu může pilot postupně přecházet mezi několika stanovišti. Správný readback frekvence a včasné přeladění udržují návaznost řízení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 53,
+      "title": "VFR ve třídě E",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 11,
+      "explanation": "Správný výsledek je „provozu VFR nejsou zajištěny rozstupy od žádného provozu“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ve třídě E se IFR provozu poskytují příslušné rozstupy, ale VFR provozu nejsou zajišťovány rozstupy od ostatního provozu. VFR pilot proto spoléhá na vlastní vizuální vyhýbání a dostupné provozní informace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Class E: IFR je řízené, VFR není separováno."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro VFR pilota je důležité aktivní sledování provozu, správné používání rádia a odpovídače a práce s informacemi FIS, pokud jsou dostupné."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 54,
+      "title": "Služby ve FIR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 11,
+      "explanation": "Správný výsledek je „letová informační služba (FIS) pohotovostní služba (ALR)“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V letové informační oblasti se poskytuje letová informační služba (FIS) a pohotovostní služba (ALR). FIR je základní oblast, ve které jsou tyto služby organizovány."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "FIR = FIS + alerting."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při VFR letu mimo řízený prostor může kontakt s FIS zvýšit situační přehled a usnadnit získání provozních nebo meteorologických informací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 55,
+      "title": "Spojení s FIS",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 12,
+      "explanation": "Správný výsledek je „rádiem“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilot může letovou informační službu využívat prostřednictvím rádiového spojení na příslušném publikovaném kmitočtu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "FIS v kokpitu prakticky znamená správnou frekvenci a rádio."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před navázáním spojení si připrav volací znak, polohu, výšku, trať a požadavek. Krátké a strukturované úvodní volání zvyšuje srozumitelnost."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 56,
+      "title": "Varování na turbulence v úplavu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 12,
+      "explanation": "Úplav vzniká s tvorbou vztlaku. Silné víry očekávej zejména za těžkým, čistým a pomalým letadlem; po vzniku klesají a mohou být unášeny bočním větrem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Turbulence v úplavu vzniká za letadlem vytvářejícím vztlak. U lehkého letadla za vyšší kategorií je důležité očekávat silné víry a respektovat varování na wake turbulence."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Těžké, čisté a pomalé letadlo vytváří typicky nejsilnější víry."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při vzletu a přistání sleduj bod rotace nebo dotyku předchozího letadla, směr větru a dobu od jeho průletu. Víry klesají a boční vítr je může posunout nad dráhu nebo pojezdovou plochu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 57,
+      "title": "Hlášení polohy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 12,
+      "explanation": "Správný výsledek je „OKABC, \"N\", 2500 ft“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hlášení polohy musí být jednoznačné a obsahovat údaje ve stanovené struktuře. V této otázce je správná kombinace volací značky, hlásného bodu a výšky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kdo jsem, kde jsem, v jaké výšce. To je základ každého polohového hlášení."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před vstupem na frekvenci si údaje připrav v pořadí, v jakém je budeš vysílat. Omezíš tím pauzy a snížíš riziko, že vynecháš kritický údaj."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 58,
+      "title": "AIREP",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 12,
+      "explanation": "Zkratka AIREP má v leteckém kontextu význam „hlášení z letadla“. U zkratek se uč přesný rozvoj i oblast použití; podobně znějící zkratka může patřit k úplně jiné službě nebo veličině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "AIREP je hlášení z letadla. Může obsahovat provozně nebo meteorologicky významné informace pozorované posádkou za letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "AIR + REP = aircraft report."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilotní hlášení může být cenné pro ostatní provoz, například při nečekané turbulenci, námraze nebo jiných podmínkách, které nejsou dobře zachycené v předpovědi."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 59,
+      "title": "AIP část GEN",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 12,
+      "explanation": "Správný výsledek je „mapové značky, seznam radionavigačních zařízení, časy východu a západu slunce, letištní poplatky, poplatky za služby řízení letového provozu“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Část GEN obsahuje všeobecné informace použitelné napříč leteckým provozem, například obecná pravidla, služby, tabulky, zkratky, některé seznamy zařízení a informace o poplatcích."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "GEN = general. Hledej zde všeobecné údaje, které nejsou navázané na konkrétní trať nebo letiště."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při práci s AIP je rychlá orientace v členění GEN, ENR a AD důležitější než memorování konkrétního čísla stránky. Pilot tak rychle najde správný typ informace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 60,
+      "title": "Členění AIP",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 13,
+      "explanation": "Správný výsledek je „GEN ENR AD“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Letecká informační příručka je členěna na tři hlavní části: GEN, ENR a AD. Toto členění odděluje všeobecné informace, traťové informace a letiště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "GEN = general, ENR = en-route, AD = aerodromes."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při předletové přípravě se běžně pracuje se všemi třemi částmi. GEN řeší rámec, ENR trasu a prostor a AD konkrétní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 61,
+      "title": "AIP část AD",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 13,
+      "explanation": "Správný výsledek je „obsah, seznam letišť s příslušnými mapami, přibližovací mapy, mapy pro pojíždění“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Část AD je zaměřena na letiště a obsahuje jejich publikované údaje a mapové podklady, včetně letištních, pojezdových a přibližovacích informací podle typu letiště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "AD = aerodrome. Když hledáš konkrétní letiště nebo jeho chartu, začni v AD."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před příletem na neznámé letiště je vhodné projít nejen základní údaje, ale také mapu letiště, pojezdové trasy, místní postupy a případná omezení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 62,
+      "title": "Čtení časů v NOTAM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 13,
+      "explanation": "VOR poskytuje magnetické radiály od stanice. CDI ukazuje odchylku od zvoleného kurzu; před interpretací vždy ověř TO/FROM a zda zvolený kurz odpovídá zamýšlenému letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pole B) udává začátek platnosti a pole C) konec platnosti NOTAM. Údaj 1305211400 znamená 21. května 2013 ve 14:00 UTC."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "B = begin, C = cease. Formát je YYMMDDhhmm."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při čtení NOTAM vždy zkontroluj časové pásmo a období platnosti. Samotný text E) dává smysl až ve spojení s tím, zda je NOTAM aktivní v čase plánovaného letu."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 63,
+      "title": "PIB",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 13,
+      "explanation": "Správný výsledek je „informací NOTAM významných pro provoz připravených před letem“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pre-flight Information Bulletin je předletový souhrn platných NOTAM informací významných pro konkrétní plánovaný provoz."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "PIB = praktický předletový výběr z NOTAM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "PIB je užitečný filtr, ale pilot musí zvolit správnou oblast, trasu a časové období. Příliš úzké filtrování může skrýt informaci důležitou pro odklon nebo náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 64,
+      "title": "Výška letiště nad mořem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 13,
+      "explanation": "Přesná definice v této otázce odpovídá formulaci „nejvyšší bod přistávací plochy“. U definic je rozhodující rozlišovací znak pojmu, nikoli běžný jazykový dojem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Aerodrome elevation je nadmořská výška nejvyššího bodu přistávací plochy. Jde o standardizovaný letištní údaj."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Elevation letiště = nejvyšší bod landing area."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Údaj se používá při práci s výškoměrem, výkonnostními výpočty a situačním přehledem. Pro konkrétní práh dráhy mohou být publikované samostatné elevace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 65,
+      "title": "Definice vzletové a přistávací dráhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 14,
+      "explanation": "Přesná definice v této otázce odpovídá formulaci „obdélníková plocha na pozemním letišti upravená pro přistání a vzlety letadel“. U definic je rozhodující rozlišovací znak pojmu, nikoli běžný jazykový dojem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Runway je vymezená obdélníková plocha na pozemním letišti upravená pro přistání a vzlety letadel."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Runway = obdélník určený pro take-off a landing."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rozlišení runway, taxiway a apron je základ pro správné čtení letištních map, značení a povolení při pozemním pohybu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 66,
+      "title": "Vyčkávací bod při pojíždění",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 14,
+      "explanation": "Správný výsledek je „vyčkávací bod při pojíždění je bod, ve kterém musí letadlo zastavit, dokud nedostane povolení pokračovat“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vyčkávací bod je stanovené místo, na kterém musí letadlo nebo vozidlo zastavit a vyčkat, dokud není oprávněno pokračovat."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Holding point = místo, kde skutečně držíš pozici."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vyčkávací body chrání dráhu a další citlivé oblasti. Při pojíždění je kritické sledovat značení, stop bary a přesnou formulaci povolení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 67,
+      "title": "Stav dráhy WET",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 14,
+      "explanation": "Správný výsledek je „povrch dráhy je nasycen, ale nejsou tam žádné významné louže nebo stojící voda“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V kontextu této otázky znamená WET, že povrch je mokrý nebo nasycený vodou, ale bez významných souvislých ploch stojící vody."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Wet = mokrý povrch, ne hlubší stojící voda."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stav dráhy ovlivňuje brzdění, délku přistání a rozhodování o vzletu. Pro skutečný provoz se používá aktuální runway condition report a data AFM nebo POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 68,
+      "title": "Stav dráhy DAMP",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 14,
+      "explanation": "Správný výsledek je „změna barvy povrchu kvůli vlhkosti“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "DAMP označuje povrch, na kterém je patrná změna barvy způsobená vlhkostí, bez charakteru plně mokré dráhy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Damp = vlhkost vidíš hlavně podle změny odstínu povrchu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "I malé množství vlhkosti může být provozně důležité při nízké teplotě. Pilot proto současně sleduje teplotu, možnost námrazy a publikovaný stav povrchu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 69,
+      "title": "Water patches",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 14,
+      "explanation": "Správný výsledek je „jsou vidět kaluže stojící vody“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Water patches popisují stav, kdy jsou na dráze patrné jednotlivé kaluže nebo plochy stojící vody."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Patches = lokální kaluže, nikoli jen barevně tmavší vlhkost."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stojící voda zvyšuje riziko ztráty účinnosti brzdění a aquaplaningu. Při rozhodování se používají aktuální provozní informace a výkonnostní data letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 70,
+      "title": "Označení ukazatele směru větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 15,
+      "explanation": "Pro uvedenou geometrii nebo řízení vychází „může být obklopen bílým kruhem“. Nejprve si stanov referenční směr či osu a až potom aplikuj znaménko, úhel nebo směr pohybu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ukazatel směru větru může být pro lepší viditelnost zvýrazněn kruhovým označením, v otázce bílým kruhem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Windsock plus kontrastní kruh = snadnější nalezení z výšky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při příletu poskytuje větrný rukáv okamžitou vizuální kontrolu směru a přibližné síly větru. Porovnej jej s informací z rádia nebo ATIS a sleduj případné rozdíly v nárazech."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 71,
+      "title": "Blikající červené světlo letadlu ve vzduchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 15,
+      "explanation": "Správný výsledek je „letiště není bezpečné, nepřistávejte“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blikající červené světlo směrem k letadlu ve vzduchu znamená, že letiště není bezpečné a pilot nemá přistávat."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ve vzduchu: flashing red = nepřistávat."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Světelné signály slouží například při poruše rádia. Pilot musí znát význam signálu bez možnosti požádat řídícího o slovní upřesnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 72,
+      "title": "Blikající zelené světlo letadlu ve vzduchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 15,
+      "explanation": "Správný výsledek je „vraťte se na přistání, je-li následován signálem stálým zeleným světlem“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blikající zelené světlo směrem k letadlu ve vzduchu znamená návrat k přistání, přičemž samotné povolení k přistání bude následovat stálým zeleným světlem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Flashing green = vrať se k přistání. Steady green = přistání povoleno."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při poruše spojení sleduj věž a očekávej další světelný signál. Jednotlivé barvy je potřeba chápat jako sekvenci instrukcí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 73,
+      "title": "Stálé zelené světlo letadlu ve vzduchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 15,
+      "explanation": "Správný výsledek je „přistání povoleno“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stálé zelené světlo směrem k letadlu ve vzduchu znamená povolení k přistání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Airborne + steady green = cleared to land."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před přistáním stále platí povinnost bezpečně vyhodnotit dráhu a provoz. Světelný signál nahrazuje komunikační instrukci, nikoli vlastní kontrolu bezpečnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 74,
+      "title": "Blikající bílé světlo letadlu na zemi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 15,
+      "explanation": "Správný výsledek je „vraťte se zpět na odbavovací plochu“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blikající bílé světlo směrem k letadlu na zemi znamená návrat do výchozího bodu na letišti, typicky zpět na odbavovací plochu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ground + flashing white = vrať se na apron."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě rádia během pojíždění je nutné minimalizovat pohyb a pečlivě sledovat věž, světelné signály a případné doprovodné vozidlo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 75,
+      "title": "Blikající červené světlo letadlu na zemi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 16,
+      "explanation": "Správný výsledek je „okamžitě pojíždějte mimo dráhu v použití“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blikající červené světlo směrem k letadlu na zemi znamená uvolnit dráhu v použití."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ground + flashing red = clear the runway."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pokud se letadlo nachází na dráze bez spojení, prioritou je bezpečné a jednoznačné uvolnění dráhy na vhodném místě a následné vyčkání na další instrukce."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 76,
+      "title": "Blikající zelené světlo letadlu na zemi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 16,
+      "explanation": "Správný výsledek je „pojíždění povoleno“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blikající zelené světlo směrem k letadlu na zemi znamená povolení k pojíždění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ground + flashing green = taxi."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot se i při světelném povolení řídí letištním značením a nikdy nevstupuje na dráhu bez příslušného signálu nebo povolení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 77,
+      "title": "Ukazatel směru přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 16,
+      "explanation": "Pro uvedenou geometrii nebo řízení vychází „T“. Nejprve si stanov referenční směr či osu a až potom aplikuj znaménko, úhel nebo směr pohybu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ukazatel směru přistání má tvar písmene T a vizuálně vyznačuje směr, který se používá pro přistání a vzlet podle místních podmínek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Landing direction indicator = T."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Na neřízeném letišti může být signální plocha cenným doplňkem k větrnému rukávu a rádiovým informacím. Pilot ji vyhodnocuje spolu s provozem v okruhu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 78,
+      "title": "Signální čtverec",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 16,
+      "explanation": "Účelem je „obsahuje zvláštní symboly označující vizuálně podmínky na letišti pro letící letadla“. Při podobných otázkách si odděl prostředek od jeho účelu: zařízení nebo postup může mít více vedlejších efektů, ale test hledá hlavní provozní funkci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Signální čtverec je vyznačená plocha, ve které jsou umístěny pozemní vizuální signály informující letící posádky o provozních podmínkách letiště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Signal square = místo, kde hledáš pozemní symboly."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před vstupem do okruhu neřízeného letiště může přelet nebo pozorování signální plochy doplnit informace o směru okruhu, provozu kluzáků nebo dalších zvláštnostech."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 79,
+      "title": "Potvrzení světelného signálu za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 16,
+      "explanation": "Správný výsledek je „zamáváním křídly (ve dne)“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilot může ve dne potvrdit přijetí světelného signálu zamáváním křídly."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ve dne: wings rock = rozumím signálu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Potvrzení dává řídícímu vizuální zpětnou vazbu, že pilot instrukci zaznamenal. V noci se používají jiné předepsané prostředky podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 80,
+      "title": "Stálé červené světlo letadlu na zemi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 17,
+      "explanation": "Správný výsledek je „zastavte“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stálé červené světlo směrem k letadlu na zemi znamená zastavit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ground + steady red = STOP."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Příkaz k zastavení má okamžitou prioritu. Pilot zůstane na místě a sleduje další signály, protože důvod může být provozní konflikt nebo ochrana dráhy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 81,
+      "title": "Označení dvou paralelních drah",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 17,
+      "explanation": "Správný výsledek je „levá dráha má příponu \"L\", pravá \"R\"“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dvě paralelní dráhy se stejným číselným označením rozlišují příponami L a R, tedy left a right."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "L = left, R = right."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přiblížení i pojíždění je nutné číst celé označení dráhy. Záměna paralelních drah může vést k vážnému konfliktu provozu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 82,
+      "title": "Barva dráhového značení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 17,
+      "explanation": "Správná barva nebo barevné označení je „bílá“. Barevné kódování v letectví je standardizované a přenáší provozní význam, proto je důležité učit se barvu společně s funkcí nebo limitem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní vodorovné značení vzletové a přistávací dráhy je bílé. Tím se vizuálně odlišuje od některých dalších letištních ploch a značení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Runway = bílá. Taxiway si v provozu spojuj hlavně se žlutým značením."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Barevné rozlišení je zásadní při pojíždění za horší dohlednosti i při rychlé orientaci z kokpitu. Pilot porovnává značení s letištní mapou."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 83,
+      "title": "Značení místa dotyku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 17,
+      "explanation": "Správný výsledek je „před nimi neprovádějte dotyk se zemí“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Symetrické podélné pruhy na obou stranách osy dráhy slouží jako vizuální reference pro oblast přistání. V kontextu otázky se dotyk nemá plánovat před tímto označením."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Symetrické bloky po stranách osy = vizuální reference touchdown zóny."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při stabilizovaném přiblížení se pilot nesnaží zachránit dlouhé nebo krátké přistání násilným dotažením na konkrétní barvu či značku. Značení pomáhá vyhodnotit, zda bod dotyku odpovídá plánované oblasti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 84,
+      "title": "Označení paralelních drah 06L/06R",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 17,
+      "explanation": "Správný výsledek je „06L a 06R“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Paralelní dráhy se stejným směrem dostávají stejné číslo a odlišují se písmeny L a R. Proto je správný pár 06L a 06R."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stejný heading, dvě dráhy = stejné číslo plus L/R."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při radiové komunikaci musí být přípona součástí readbacku. Samotné číslo 06 by na letišti s paralelními drahami nebylo dostatečně jednoznačné."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 85,
+      "title": "PAPI",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 18,
+      "explanation": "Správný výsledek je „vizuální zařízení poskytující informace, které pomáhají pilotovi dosáhnout a udržet správnou sestupovou rovinu při přiblížení k letišti“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "PAPI je vizuální sestupová soustava, která pomocí kombinace červených a bílých světel informuje pilota o poloze vůči správné sestupové rovině."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Dvě bílé a dvě červené = na sestupové rovině."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "PAPI je vizuální pomůcka. Pilot stále sleduje stabilitu přiblížení, rychlost, konfiguraci a překážky a používá PAPI podle publikovaných podmínek letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 86,
+      "title": "Letištní maják ABN",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 18,
+      "explanation": "Správný výsledek je „rotující maják umístěný na letišti a označující jeho polohu pilotům letadel za letu“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Aerodrome Beacon je světelný maják umístěný na letišti, který zvyšuje jeho rozpoznatelnost ze vzduchu, zejména v noci nebo za snížené dohlednosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ABN = beacon, tedy orientační maják letiště."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Maják pomáhá letiště najít, ale nenahrazuje navigaci, letištní mapu ani identifikaci správné dráhy. Před přistáním musí pilot letiště jednoznačně ověřit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 87,
+      "title": "Postranní dráhová návěstidla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 18,
+      "explanation": "Správný výsledek je „bílou“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Postranní dráhová návěstidla jsou v základním směru pohledu bílá a vymezují boční okraje použitelné dráhy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Runway edge lights = bílá."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V noci pomáhají udržet prostorovou orientaci vůči šířce a směru dráhy. Pilot současně sleduje osová, prahová a koncová světla podle vybavení letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 88,
+      "title": "Koncová dráhová návěstidla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 18,
+      "explanation": "Správný výsledek je „červenou“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Koncová návěstidla dráhy jsou červená směrem k letadlu na dráze a jasně označují její konec."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Runway end = red."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přistání v noci je rozpoznání konce dráhy důležité pro vyhodnocení zbývající délky. Červený konec se nesmí zaměnit s jinými letištními světly."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 89,
+      "title": "Příloha ALW-019, pojezdová dráha A",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 18,
+      "explanation": "Správný výsledek je „pojezdová dráha A“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Otázka ověřuje rozpoznání letištního znaku z přílohy ALW-019. Správný význam v použitém zdroji je pojezdová dráha A."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U letištních znaků vždy čti barvu, písmeno nebo číslo a kontext umístění. Samotný tvar bez přílohy nestačí."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při pojíždění se znaky čtou společně s vodorovným značením a letištní mapou. Přesná vizuální podoba bude v systému doplněna z ověřené zdrojové přílohy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku. Jde o přílohovou otázku; bez obrázku/grafu netipuj podle paměti umístění odpovědi.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 90,
+      "title": "Příloha ALW-020, použitelná délka dráhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 19,
+      "explanation": "Správný výsledek je „od této křižovatky je použitelná délka dráhy v daném směru 2500 m“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Otázka pracuje se znakem z přílohy ALW-020. V daném příkladu značka informuje, že od křižovatky je v uvedeném směru použitelná délka dráhy 2 500 m."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Číslo na znaku čti vždy ve vztahu ke směru a místu, kde je značka umístěná."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Informace o zbývající nebo použitelné délce je důležitá při intersection departure. Pilot musí současně ověřit, že dostupná délka vyhovuje výkonnostnímu výpočtu konkrétního letadla."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku. Jde o přílohovou otázku; bez obrázku/grafu netipuj podle paměti umístění odpovědi.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 91,
+      "title": "Příloha ALW-011, provoz kluzáků",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 19,
+      "explanation": "Správný výsledek je „probíhají lety kluzáků“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pozemní signál z přílohy ALW-011 informuje piloty, že na letišti probíhá provoz kluzáků."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U signální plochy hledej symboly, které mění očekávaný provoz v okruhu a na letišti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Provoz kluzáků znamená zvýšenou pozornost vůči aerovlekům, navijákovým lanům, odlišným profilům přiblížení a letadlům s omezenou možností opakovat přiblížení."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku. Jde o přílohovou otázku; bez obrázku/grafu netipuj podle paměti umístění odpovědi.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 92,
+      "title": "Příloha ALW-012, pravé okruhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 19,
+      "explanation": "Správný výsledek je „po vzletu a před přistáním je třeba provádět všechny zatáčky doprava“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pozemní značka z přílohy ALW-012 stanovuje, že po vzletu a před přistáním se zatáčky provádějí doprava, tedy používá se pravý směr okruhu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Směrový signál v signální ploše určuje stranu okruhu. V tomto případě doprava."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Směr letištního okruhu je potřeba ověřit před vstupem do něj. Pravý okruh může být použit kvůli překážkám, hluku, vzdušnému prostoru nebo místní organizaci provozu."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku. Jde o přílohovou otázku; bez obrázku/grafu netipuj podle paměti umístění odpovědi.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 93,
+      "title": "DETRESFA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 19,
+      "explanation": "Zkratka DETRESFA má v leteckém kontextu význam „údobí tísně“. U zkratek se uč přesný rozvoj i oblast použití; podobně znějící zkratka může patřit k úplně jiné službě nebo veličině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "DETRESFA označuje údobí tísně, tedy fázi, kdy existuje důvodná jistota, že letadlo a jeho osoby jsou ohroženy vážným a bezprostředním nebezpečím a potřebují okamžitou pomoc."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "INCERFA = nejistota, ALERFA = pohotovost, DETRESFA = tíseň."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fáze pomáhají ATS a pátracím a záchranným složkám stupňovat reakci podle závažnosti situace a dostupných informací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 94,
+      "title": "Poskytovatelé pátrání a záchrany",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 19,
+      "explanation": "Správný výsledek je „jak vojenské, tak civilní organizace“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pátrání a záchrana v letectví je koordinovaná činnost, na které se podle situace mohou podílet civilní i vojenské organizace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SAR není jedna jediná služba. Je to spolupráce více složek."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při skutečné události může být do zásahu zapojeno ATS, záchranné koordinační středisko, policie, hasiči, zdravotnická záchranná služba i vojenské prostředky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 95,
+      "title": "Potvrzení pozemního SAR signálu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 20,
+      "explanation": "Správný výsledek je „zamáváním křídel“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilot může ve dne potvrdit, že pozemní signál pátrání a záchrany pochopil, zamáváním křídly."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Wings rock = vizuální potvrzení."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při SAR letu musí být manévr jednoznačný a bezpečný. Pilot zároveň udržuje situační přehled, protože může operovat nízko nad terénem a v blízkosti dalších záchranných prostředků."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 96,
+      "title": "Kategorie bezpečnostních událostí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 20,
+      "explanation": "Správný výsledek je „incident, vážný incident, nehoda“. Otázka ověřuje přesnou právní definici, kompetenci nebo provozní podmínku. Pro řešení si nejprve pojmenuj veličinu nebo pravidlo, které se skutečně mění, a teprve potom vybírej výsledek; tím se vyhneš záměně podobných pojmů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z hlediska vyšetřování se rozlišují incident, vážný incident a nehoda. Kategorie odráží závažnost následků a okolností události."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Incident -> serious incident -> accident, od nižší k vyšší závažnosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná klasifikace určuje způsob hlášení a vyšetřování. Pilot by měl událost popsat věcně a bez snahy předem určovat její právní nebo bezpečnostní závěr."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 1,
+      "source_question_id": 97,
+      "title": "Účel vyšetřování leteckých nehod",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 20,
+      "explanation": "Účelem je „stanovit důvody a zpracovat bezpečnostní doporučení“. Při podobných otázkách si odděl prostředek od jeho účelu: zařízení nebo postup může mít více vedlejších efektů, ale test hledá hlavní provozní funkci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hlavním cílem bezpečnostního vyšetřování je zjistit příčiny a přispívající faktory a formulovat bezpečnostní doporučení, která pomohou předcházet opakování podobných událostí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vyšetřování míří k prevenci a bezpečnostním doporučením."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Kvalitní bezpečnostní systém odděluje zjišťování příčin a systémových faktorů od běžného hledání viníka. Výsledkem mají být konkrétní opatření zvyšující bezpečnost."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 29.12.2020."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">AGK-002 konfigurace křídla</title>
+  <desc id="d">Schéma malého vzpěrového hornoplošníku.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">AGK-002 konfigurace křídla</text>
+
+  <line x1="180" y1="260" x2="820" y2="260" stroke="#17384f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M330 345 Q500 310 675 345 L610 390 L365 390 Z" fill="#dce8ef" stroke="#17384f" stroke-width="5"/>
+  <line x1="390" y1="382" x2="305" y2="270" stroke="#4f6f82" stroke-width="8"/>
+  <line x1="610" y1="382" x2="695" y2="270" stroke="#4f6f82" stroke-width="8"/>
+  <circle cx="415" cy="410" r="28" fill="none" stroke="#17384f" stroke-width="7"/>
+  <circle cx="585" cy="410" r="28" fill="none" stroke="#17384f" stroke-width="7"/>
+  <text x="500" y="470" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" fill="#17384f">křídlo nad trupem + vzpěry</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

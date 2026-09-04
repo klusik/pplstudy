@@ -305,6 +305,8 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(22,100,151,.
 .choice-feedback.correct { color: var(--success); background: var(--success-soft); }
 .choice-feedback.wrong { color: var(--danger); background: var(--danger-soft); }
 .attachment-prompt { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin: 0 0 16px; padding: 12px 14px; border: 1px solid #cfdfe9; border-radius: 10px; background: #f4f9fc; }
+.question-attachment { margin: 0 0 18px; padding: 14px; border: 1px solid #d8e4eb; border-radius: 12px; background: #fff; text-align: center; }
+.question-attachment img { display: block; width: min(100%, 720px); height: auto; margin: 0 auto; }
 .question-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; margin-top: 24px; }
 .result-review { margin: 28px 0; }
 .result-review h3 { margin-bottom: 10px; }
@@ -340,4 +342,42 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(22,100,151,.
 @media (max-width: 760px) {
     .main-nav form { width: 100%; }
     .main-nav .nav-button { width: 100%; text-align: left; justify-content: flex-start; }
+}
+
+
+/* Sequential question curation and learning mode. */
+.mode-card .eyebrow { display: inline-block; margin-bottom: 6px; }
+.study-subject-picker { margin-top: 18px; }
+.study-subject-list { display: flex; flex-direction: column; }
+.study-subject-list > div { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 11px 0; border-bottom: 1px solid #edf2f6; }
+.study-subject-list > div:last-child { border-bottom: 0; }
+.study-subject-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.question-mode-badges { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 8px; }
+.learning-choice { cursor: default; }
+.learning-choice:hover { transform: none; }
+.learning-reveal-actions { display: flex; justify-content: flex-start; margin-top: 18px; }
+.learning-self-score { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; }
+.learning-self-score > span { color: var(--ink-soft); font-weight: 700; margin-right: 3px; }
+.learning-self-score .selected { box-shadow: 0 0 0 3px rgba(22, 100, 151, .15); }
+
+.explanation-sections { display: grid; gap: 12px; margin-top: 18px; }
+.explanation-sections .explanation-block { margin: 0; }
+.curation-state-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.explanation-section-editor { display: grid; gap: 14px; margin: 18px 0; padding: 18px; border: 1px solid var(--line); border-radius: var(--radius-small); }
+.explanation-section-editor legend { padding-inline: 8px; font-weight: 800; }
+
+.source-admin-list { display: grid; gap: 14px; }
+.source-admin-row { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(420px, 1.2fr); gap: 20px; align-items: center; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-small); background: #fbfdff; }
+.source-admin-meta { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.source-admin-meta small { color: var(--muted); overflow-wrap: anywhere; }
+.source-admin-actions { display: flex; align-items: center; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+.source-upload-form { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.source-upload-form input[type="file"] { max-width: 260px; font-size: 13px; }
+
+@media (max-width: 820px) {
+    .curation-state-grid { grid-template-columns: 1fr; }
+    .study-subject-list > div { align-items: flex-start; flex-direction: column; }
+    .source-admin-row { grid-template-columns: 1fr; }
+    .source-admin-actions { justify-content: flex-start; }
 }

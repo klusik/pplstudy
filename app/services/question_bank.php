@@ -75,12 +75,19 @@ function normalize_question_row(array $row): array
     $row['source_question_ids'] = is_array($decoded) ? array_values(array_map('intval', $decoded)) : [];
     $decodedChoices = json_decode((string) ($row['choices_json'] ?? '[]'), true);
     $row['choices'] = is_array($decodedChoices) ? array_values(array_map(static fn ($choice): string => trim((string) $choice), $decodedChoices)) : [];
+    $decodedSections = json_decode((string) ($row['explanation_sections_json'] ?? '[]'), true);
+    $row['explanation_sections'] = is_array($decodedSections) ? array_values(array_filter($decodedSections, static fn ($section): bool => is_array($section))) : [];
     $row['sequence_no'] = (int) $row['sequence_no'];
     $row['subject_id'] = (int) $row['subject_id'];
     $row['merged'] = !empty($row['merged']);
     $row['choices_generated'] = !empty($row['choices_generated']);
     $row['attachment_indexed'] = !empty($row['attachment_indexed']);
-    $row['source_page'] = $row['source_page'] !== null ? (int) $row['source_page'] : null;
+    $row['source_page'] = isset($row['source_page']) && $row['source_page'] !== null ? (int) $row['source_page'] : null;
+    $row['source_document_page'] = isset($row['source_document_page']) && $row['source_document_page'] !== null ? (int) $row['source_document_page'] : null;
+    $row['curation_status'] = trim((string) ($row['curation_status'] ?? 'draft')) ?: 'draft';
+    $row['wording_status'] = trim((string) ($row['wording_status'] ?? 'study_wording')) ?: 'study_wording';
+    $row['source_document_key'] = trim((string) ($row['source_document_key'] ?? ''));
+    $row['source_verified_at'] = (string) ($row['source_verified_at'] ?? '');
     $row['active'] = !empty($row['active']);
     return $row;
 }
@@ -192,7 +199,7 @@ function admin_question_page(string $query, ?int $subjectId, int $page): array
     $page = min($page, $maxPage);
     $offset = ($page - 1) * $pageSize;
 
-    $sql = 'SELECT q.sequence_no, q.subject_id, q.title, q.prompt, q.answer, q.attachment_code, q.active, s.name AS subject_name FROM questions q JOIN subjects s ON s.id = q.subject_id' . $whereSql . ' ORDER BY q.sequence_no LIMIT ' . $pageSize . ' OFFSET ' . $offset;
+    $sql = 'SELECT q.*, s.name AS subject_name FROM questions q JOIN subjects s ON s.id = q.subject_id' . $whereSql . ' ORDER BY q.sequence_no LIMIT ' . $pageSize . ' OFFSET ' . $offset;
     $stmt = db()->prepare($sql);
     $stmt->execute($params);
     return [
@@ -208,7 +215,29 @@ function admin_question_page(string $query, ?int $subjectId, int $page): array
 function update_question(int $sequence, array $values): bool
 {
     $choices = array_values(array_map(static fn ($choice): string => trim((string) $choice), is_array($values['choices'] ?? null) ? $values['choices'] : []));
-    $stmt = db()->prepare('UPDATE questions SET subject_id = ?, title = ?, source_trace = ?, prompt = ?, answer = ?, choices_json = ?, choices_generated = 0, explanation = ?, warning = ?, attachment_code = ?, attachment_url = ?, active = ?, updated_at = ? WHERE sequence_no = ?');
+    $sections = [];
+    foreach (is_array($values['explanation_sections'] ?? null) ? $values['explanation_sections'] : [] as $section) {
+        if (!is_array($section)) {
+            continue;
+        }
+        $heading = trim((string) ($section['heading'] ?? ''));
+        $body = trim((string) ($section['body'] ?? ''));
+        if ($heading !== '' && $body !== '') {
+            $sections[] = ['heading' => $heading, 'body' => $body];
+        }
+    }
+
+    $curationStatus = in_array((string) ($values['curation_status'] ?? ''), ['draft', 'explained', 'verified'], true)
+        ? (string) $values['curation_status']
+        : 'draft';
+    $wordingStatus = in_array((string) ($values['wording_status'] ?? ''), ['study_wording', 'source_exact'], true)
+        ? (string) $values['wording_status']
+        : 'study_wording';
+    $verifiedAt = $curationStatus === 'verified' && $wordingStatus === 'source_exact'
+        ? (trim((string) ($values['source_verified_at'] ?? '')) !== '' ? (string) $values['source_verified_at'] : now_sql())
+        : null;
+
+    $stmt = db()->prepare('UPDATE questions SET subject_id = ?, title = ?, source_trace = ?, prompt = ?, answer = ?, choices_json = ?, choices_generated = 0, curation_status = ?, wording_status = ?, explanation = ?, explanation_sections_json = ?, warning = ?, attachment_code = ?, attachment_url = ?, source_document_key = ?, source_document_page = ?, source_verified_at = ?, active = ?, updated_at = ? WHERE sequence_no = ?');
     $stmt->execute([
         (int) $values['subject_id'],
         trim((string) $values['title']) !== '' ? trim((string) $values['title']) : null,
@@ -216,10 +245,16 @@ function update_question(int $sequence, array $values): bool
         trim((string) $values['prompt']),
         trim((string) $values['answer']),
         json_encode($choices, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+        $curationStatus,
+        $wordingStatus,
         trim((string) $values['explanation']),
+        json_encode($sections, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
         trim((string) $values['warning']) !== '' ? trim((string) $values['warning']) : null,
         trim((string) $values['attachment_code']) !== '' ? trim((string) $values['attachment_code']) : null,
         trim((string) $values['attachment_url']) !== '' ? trim((string) $values['attachment_url']) : null,
+        trim((string) ($values['source_document_key'] ?? '')) !== '' ? trim((string) $values['source_document_key']) : null,
+        isset($values['source_document_page']) && (int) $values['source_document_page'] > 0 ? (int) $values['source_document_page'] : null,
+        $verifiedAt,
         !empty($values['active']) ? 1 : 0,
         now_sql(),
         $sequence,
@@ -231,10 +266,20 @@ function update_question(int $sequence, array $values): bool
 function question_bank_summary(): array
 {
     $generatedChoiceSets = 0;
+    $explained = 0;
+    $verified = 0;
+    $sourceExact = 0;
     try {
         $generatedChoiceSets = (int) db()->query('SELECT COUNT(*) FROM questions WHERE choices_generated = 1')->fetchColumn();
     } catch (\Throwable) {
         // Keep the dashboard available while an existing installation is waiting for migration 2.
+    }
+    try {
+        $explained = (int) db()->query("SELECT COUNT(*) FROM questions WHERE curation_status IN ('explained','verified')")->fetchColumn();
+        $verified = (int) db()->query("SELECT COUNT(*) FROM questions WHERE curation_status = 'verified'")->fetchColumn();
+        $sourceExact = (int) db()->query("SELECT COUNT(*) FROM questions WHERE wording_status = 'source_exact'")->fetchColumn();
+    } catch (\Throwable) {
+        // Keep the dashboard available while an existing installation is waiting for migration 4.
     }
 
     return [
@@ -245,5 +290,8 @@ function question_bank_summary(): array
         'attachments' => (int) db()->query("SELECT COUNT(*) FROM questions WHERE attachment_code IS NOT NULL AND attachment_code <> ''")->fetchColumn(),
         'merged_cards' => (int) db()->query('SELECT COUNT(*) FROM questions WHERE merged = 1')->fetchColumn(),
         'generated_choice_sets' => $generatedChoiceSets,
+        'explained_questions' => $explained,
+        'verified_questions' => $verified,
+        'source_exact_questions' => $sourceExact,
     ];
 }

@@ -63,12 +63,17 @@ function study_resolve_page(): string
         '/admin/users' => 'admin_users',
         '/admin/users/new' => 'admin_user_new',
         '/admin/questions' => 'admin_questions',
+        '/admin/sources' => 'admin_sources',
         '/admin/import' => 'admin_import',
         '/admin/settings' => 'admin_settings',
         '/admin/diagnostics' => 'admin_diagnostics',
     ];
     if (isset($static[$path])) {
         return $static[$path];
+    }
+    if (preg_match('#^/source/([a-z0-9_-]{1,120})$#', $path, $match) === 1) {
+        $_GET['source_key'] = $match[1];
+        return 'source_document_view';
     }
     if (preg_match('#^/question/(\d{1,5})$#', $path, $match) === 1) {
         $_GET['sequence'] = $match[1];

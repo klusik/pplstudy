@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">NAV-017 anténa radionavigačního přijímače</title>
+  <desc id="d">Schéma smyčkové a směrové antény používané radiokompasem ADF.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NAV-017 anténa radionavigačního přijímače</text>
+
+  <ellipse cx="430" cy="315" rx="145" ry="95" fill="none" stroke="#17384f" stroke-width="10"/>
+  <line x1="575" y1="315" x2="730" y2="315" stroke="#17384f" stroke-width="8"/>
+  <line x1="730" y1="270" x2="730" y2="360" stroke="#17384f" stroke-width="8"/>
+  <path d="M230 315 C170 250 170 380 230 315" fill="none" stroke="#3f83a8" stroke-width="7"/>
+  <path d="M770 315 C830 250 830 380 770 315" fill="none" stroke="#3f83a8" stroke-width="7"/>
+  <text x="500" y="470" text-anchor="middle" font-family="system-ui,sans-serif" font-size="23" fill="#17384f">loop + sense antenna, pásmo LF/MF</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

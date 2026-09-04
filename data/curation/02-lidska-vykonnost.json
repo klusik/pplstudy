@@ -1,0 +1,1456 @@
+{
+  "schema_version": 1,
+  "subject_id": 2,
+  "questions": [
+    {
+      "subject_id": 2,
+      "source_question_id": 1,
+      "title": "Lidská chyba a letecké nehody",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Lidský faktor zahrnuje rozhodování, vnímání, komunikaci, postupy i práci s pracovním zatížením. V letectví proto tvoří zásadní část prevence nehod.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Lidský faktor zahrnuje rozhodování, vnímání, komunikaci, postupy i práci s pracovním zatížením. V letectví proto tvoří zásadní část prevence nehod."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Při otázce na hlavní příčinu nehod hledej lidskou chybu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Checklisty, standardní postupy, CRM a dobrá příprava vytvářejí obranné vrstvy proti jednotlivým lidským omylům."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 2,
+      "title": "Model švýcarského sýra",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Model švýcarského sýra popisuje několik vrstev obrany. K události dochází, když se slabá místa více vrstev v konkrétní situaci seřadí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Model švýcarského sýra popisuje několik vrstev obrany. K události dochází, když se slabá místa více vrstev v konkrétní situaci seřadí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Sýr má více plátků a každá díra představuje slabinu. Řetězec chyb projde jen tehdy, když se díry potkají."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při rozboru incidentu se proto hledají technické, organizační i lidské příspěvky, nikoli pouze poslední viditelná chyba."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 3,
+      "title": "Podíl kyslíku v atmosféře",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Podíl kyslíku v suchém vzduchu zůstává s výškou přibližně 21 %. S výškou klesá celkový tlak a tím i parciální tlak kyslíku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Podíl kyslíku v suchém vzduchu zůstává s výškou přibližně 21 %. S výškou klesá celkový tlak a tím i parciální tlak kyslíku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Výška mění tlak, nikoli základní procentní zastoupení kyslíku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Hypoxie ve výšce vzniká kvůli nižšímu parciálnímu tlaku kyslíku, přestože jeho procento zůstává přibližně stejné."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 4,
+      "title": "Podíl dusíku v atmosféře",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Dusík tvoří přibližně 78 % atmosféry a je jejím největším objemovým podílem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dusík tvoří přibližně 78 % atmosféry a je jejím největším objemovým podílem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "78 dusík, 21 kyslík, zbytek přibližně 1 %."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tento poměr je základem pro pochopení parciálních tlaků, hypoxie a dekompresních jevů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 5,
+      "title": "Poloviční atmosférický tlak",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Atmosférický tlak klesá s výškou nelineárně. Přibližně v 18 000 ft je tlak zhruba poloviční proti hladině moře.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Atmosférický tlak klesá s výškou nelineárně. Přibližně v 18 000 ft je tlak zhruba poloviční proti hladině moře."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "18 tisíc stop = přibližně poloviční tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nižší tlak ve výšce ovlivňuje okysličení organismu, rozpínání plynů i výkon nepřetlakovaných letadel."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 6,
+      "title": "Ostatní plyny v atmosféře",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Vedle přibližně 78 % dusíku a 21 % kyslíku připadá přibližně 1 % na ostatní plyny.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vedle přibližně 78 % dusíku a 21 % kyslíku připadá přibližně 1 % na ostatní plyny."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "78 + 21 + 1 = 100."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro lidskou výkonnost je důležité rozlišovat procentní složení od parciálních tlaků jednotlivých plynů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 7,
+      "title": "Oxid uhelnatý a kouření",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Oxid uhelnatý se váže na hemoglobin výrazně silněji než kyslík. Kouření proto zvyšuje zatížení organismu CO už před letem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Oxid uhelnatý se váže na hemoglobin výrazně silněji než kyslík. Kouření proto zvyšuje zatížení organismu CO už před letem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "CO: kouření je zdroj přímo u člověka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Příznaky mohou připomínat únavu nebo nevolnost. V kokpitu je důležité vnímat souběh příznaků u více osob jako varovný signál."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 8,
+      "title": "Červený black-out",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Při výrazném záporném násobku je krev tlačena směrem k hlavě. To může vést k červenému vidění označovanému jako red-out.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při výrazném záporném násobku je krev tlačena směrem k hlavě. To může vést k červenému vidění označovanému jako red-out."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Záporné G tlačí krev k hlavě, proto červené vidění."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V běžném PPL provozu se výrazným záporným násobkům vyhýbá už kvůli fyziologickému zatížení a konstrukčním limitům letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 9,
+      "title": "Oxid uhelnatý a tepelný výměník",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "U pístových letadel může poškozený tepelný výměník nebo výfuková část topení propustit oxid uhelnatý do kabiny.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "U pístových letadel může poškozený tepelný výměník nebo výfuková část topení propustit oxid uhelnatý do kabiny."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "CO v letadle: mysli na výfuk a topení."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Detektor CO je užitečná doplňková ochrana. Při podezření je prioritou čerstvý vzduch, vypnutí zdroje topení podle POH a co nejrychlejší bezpečné ukončení letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 10,
+      "title": "Hyperventilace",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Hyperventilace nadměrně snižuje koncentraci CO₂ v krvi. Typické jsou brnění, křeče, závratě a poruchy vědomí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hyperventilace nadměrně snižuje koncentraci CO₂ v krvi. Typické jsou brnění, křeče, závratě a poruchy vědomí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hyperventilace = příliš mnoho ventilace, málo CO₂."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při nejistotě mezi hyperventilací a hypoxií je potřeba brát vážně možnost hypoxie a řídit se dostupným kyslíkovým vybavením a postupy letadla."
+        }
+      ],
+      "warning": "Otázka je formulovaná záporně. Při řešení si zvýrazni slovo NENÍ.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 11,
+      "title": "Příznaky výškové nemoci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Zmodrání rtů a konečků prstů odpovídá cyanóze, která může doprovázet nedostatečné okysličení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zmodrání rtů a konečků prstů odpovídá cyanóze, která může doprovázet nedostatečné okysličení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Modrání tkání spojuj s nedostatkem kyslíku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Hypoxie může současně zhoršit úsudek, takže pilot nemusí vlastní zhoršování stavu správně vyhodnotit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 12,
+      "title": "Zrak a výšková nemoc",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Zrak patří mezi funkce citlivé na pokles okysličení. Zhoršuje se zejména noční vidění a schopnost vnímat jemné detaily.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zrak patří mezi funkce citlivé na pokles okysličení. Zhoršuje se zejména noční vidění a schopnost vnímat jemné detaily."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hypoxie se brzy projeví na očích."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V noci se fyziologické rezervy zmenšují dříve než ve dne, takže výška může mít praktický dopad i před výraznými celkovými symptomy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 13,
+      "title": "Reakce organismu na pokles tlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Zdrojová otázka používá 7000 ft jako výšku, od které se obvykle začíná projevovat reakce organismu na klesající tlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zdrojová otázka používá 7000 ft jako výšku, od které se obvykle začíná projevovat reakce organismu na klesající tlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto otázku drž 7000 ft."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vnímavost je individuální a závisí na zdravotním stavu, únavě, kouření i době pobytu ve výšce."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 14,
+      "title": "Kompenzace nízkého atmosférického tlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Zdrojová otázka uvádí 12 000 ft jako spodní mez, nad kterou už kompenzační mechanismy organismu nestačí plně vyrovnat nízký tlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zdrojová otázka uvádí 12 000 ft jako spodní mez, nad kterou už kompenzační mechanismy organismu nestačí plně vyrovnat nízký tlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "12 000 ft = hranice úplné kompenzace v této otázce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro provozní použití se vždy řiď aktuálními pravidly pro použití kyslíku a provozními omezeními konkrétního letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 15,
+      "title": "Červené krvinky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Červené krvinky obsahují hemoglobin, který přenáší kyslík z plic do tkání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Červené krvinky obsahují hemoglobin, který přenáší kyslík z plic do tkání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Červené = hemoglobin = kyslík."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Schopnost krve přenášet kyslík je důvod, proč anémie nebo otrava CO mohou zhoršit toleranci výšky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 16,
+      "title": "Krevní destičky a srážlivost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Krevní destičky se podílejí na tvorbě krevní sraženiny a zastavení krvácení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Krevní destičky se podílejí na tvorbě krevní sraženiny a zastavení krvácení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Destičky zalepují poškození."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Otázka rozlišuje základní funkce krevních elementů: erytrocyty, leukocyty a destičky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 17,
+      "title": "Bílé krvinky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Bílé krvinky jsou součástí imunitní obrany organismu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bílé krvinky jsou součástí imunitní obrany organismu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Bílé krvinky = obrana."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro zkoušku je důležité nepřehazovat jejich funkci s přenosem kyslíku nebo srážlivostí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 18,
+      "title": "Funkce krevních destiček",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Krevní destičky jsou klíčové pro srážení krve.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Krevní destičky jsou klíčové pro srážení krve."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Destičky = sraženina."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Jde o stejný fyziologický princip jako v otázce 16, tentokrát formulovaný přímo jako funkce destiček."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 19,
+      "title": "Rizikové faktory výškové nemoci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "V rámci této otázky patří darování krve, kouření a menstruace mezi faktory spojené s horší tolerancí nedostatku kyslíku. Potápění se vztahuje především k riziku dekompresní nemoci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V rámci této otázky patří darování krve, kouření a menstruace mezi faktory spojené s horší tolerancí nedostatku kyslíku. Potápění se vztahuje především k riziku dekompresní nemoci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Výška a kyslík odděl od potápění a dusíku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po potápění řeší pilot především interval před letem kvůli dekompresní nemoci, což je jiný mechanismus než výšková hypoxie."
+        }
+      ],
+      "warning": "Otázka je formulovaná záporně. Potápění patří především k problematice dekompresní nemoci.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 20,
+      "title": "Anemická hypoxie",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Anemická hypoxie vzniká při snížené schopnosti krve přenášet kyslík. Oxid uhelnatý blokuje hemoglobin a přesně tento mechanismus vyvolává.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Anemická hypoxie vzniká při snížené schopnosti krve přenášet kyslík. Oxid uhelnatý blokuje hemoglobin a přesně tento mechanismus vyvolává."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Anemická = problém s přenosem krví."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Normální obsah kyslíku ve vzduchu sám o sobě nezaručí normální okysličení, pokud je hemoglobin obsazen CO."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 21,
+      "title": "Nepohodlí cestujícího za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Při nevolnosti cestujícího pomáhá klidný let, vhodné prostředí v kabině a omezení prudkých změn náklonu a zrychlení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při nevolnosti cestujícího pomáhá klidný let, vhodné prostředí v kabině a omezení prudkých změn náklonu a zrychlení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Komfort kabiny + jemné manévry."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot má současně udržet bezpečné řízení letu a sledovat, zda nejde o závažnější zdravotní problém."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 22,
+      "title": "Reflex",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Reflex je automatická, mimovolní reakce organismu na podnět receptoru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Reflex je automatická, mimovolní reakce organismu na podnět receptoru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Reflex proběhne bez vědomého rozhodnutí."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letectví se reflexní reakce mohou projevit například při překvapení nebo náhlém vestibulárním podnětu, a proto je důležitý výcvik standardních reakcí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 23,
+      "title": "Autonomní nervový systém",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Autonomní nervový systém řídí řadu mimovolních funkcí, například srdeční frekvenci, trávení a část regulace dýchání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Autonomní nervový systém řídí řadu mimovolních funkcí, například srdeční frekvenci, trávení a část regulace dýchání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Autonomní = automatické tělesné funkce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stres aktivuje autonomní reakce, takže fyziologie přímo ovlivňuje pracovní zatížení i rozhodování pilota."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 24,
+      "title": "Chyba paralaxy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Paralaxa vzniká, když pilot odečítá analogovou stupnici z úhlu místo kolmo proti značce nebo ručičce.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Paralaxa vzniká, když pilot odečítá analogovou stupnici z úhlu místo kolmo proti značce nebo ručičce."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Paralaxa = chyba úhlu pohledu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přesném odečtu analogového přístroje nastav pohled co nejvíce kolmo ke stupnici."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 25,
+      "title": "Sluneční brýle pilota",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Polarizované brýle mohou v některých kokpitech zhoršit čitelnost LCD displejů a měnit vzhled odlesků. Zdrojová otázka proto požaduje nepolarizované brýle.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Polarizované brýle mohou v některých kokpitech zhoršit čitelnost LCD displejů a měnit vzhled odlesků. Zdrojová otázka proto požaduje nepolarizované brýle."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kokpitové displeje: nepolarizované."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Kvalitní ochrana proti UV záření je samozřejmě prakticky žádoucí, ale v této otázce je rozlišovacím znakem polarizace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 26,
+      "title": "Barevné vidění",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Čípky v sítnici zajišťují barevné vidění a nejlépe fungují při dostatečném osvětlení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Čípky v sítnici zajišťují barevné vidění a nejlépe fungují při dostatečném osvětlení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čípky = barvy, tyčinky = šero."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Za tmy přebírají větší roli tyčinky, proto je noční barevné rozlišování slabší."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 27,
+      "title": "Eustachova trubice",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Eustachova trubice spojuje střední ucho s nosohltanem a umožňuje vyrovnávat tlak na obou stranách bubínku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Eustachova trubice spojuje střední ucho s nosohltanem a umožňuje vyrovnávat tlak na obou stranách bubínku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Eustachova trubice = tlakové spojení ucha s nosohltanem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při stoupání a klesání její průchodnost rozhoduje o tom, jak snadno se tlak vyrovná."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 28,
+      "title": "Vyrovnání tlaku ve středním uchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Ucpaná Eustachova trubice brání vyrovnání tlaku mezi středním uchem a okolím.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ucpaná Eustachova trubice brání vyrovnání tlaku mezi středním uchem a okolím."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ucpaná trubice = uvězněný tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rýma nebo zánět mohou výrazně zhoršit toleranci klesání, kdy je potřeba dostat vzduch do středního ucha proti rostoucímu okolnímu tlaku."
+        }
+      ],
+      "warning": "Otázka je formulovaná záporně. Rozhodující je průchodnost Eustachovy trubice.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 29,
+      "title": "Vestibulární klam po zatáčce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Po delší ustálené zatáčce vestibulární systém přestane vnímat konstantní rotaci. Po srovnání může vzniknout falešný pocit zatáčení opačným směrem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po delší ustálené zatáčce vestibulární systém přestane vnímat konstantní rotaci. Po srovnání může vzniknout falešný pocit zatáčení opačným směrem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Dlouhá zatáčka se „ztratí“, srovnání pak klame opačně."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V podmínkách bez spolehlivého horizontu mají přednost letové přístroje před tělesným pocitem."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 30,
+      "title": "Ztráta prostorové orientace",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Rovný přímý let konstantní rychlostí neposkytuje vestibulárnímu systému měnící se zrychlení, které by samo vytvářelo iluzorní pocit pohybu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rovný přímý let konstantní rychlostí neposkytuje vestibulárnímu systému měnící se zrychlení, které by samo vytvářelo iluzorní pocit pohybu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Bez změny pohybu nevzniká nový vestibulární podnět."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Alkohol, turbulence a pohyby hlavou při zatáčení naopak mohou prostorovou orientaci významně zhoršit."
+        }
+      ],
+      "warning": "Otázka je formulovaná záporně. Hledej situaci bez nového vestibulárního podnětu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 31,
+      "title": "Somatogravický klam při zrychlení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Při zrychlení v horizontálním letu může výslednice gravitačního a setrvačného zrychlení vyvolat pocit zaklonění a tedy stoupání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při zrychlení v horizontálním letu může výslednice gravitačního a setrvačného zrychlení vyvolat pocit zaklonění a tedy stoupání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Zrychlení dopředu může tělo číst jako nos nahoru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Somatogravický klam je významný hlavně bez vnějšího horizontu. Pilot se řídí přístroji a udržuje zamýšlenou letovou dráhu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 32,
+      "title": "Somatogravický klam při zpomalení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Při zpomalení může výslednice zrychlení vytvořit pocit sklopení přídě a tedy klesání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při zpomalení může výslednice zrychlení vytvořit pocit sklopení přídě a tedy klesání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Zpomalení může tělo číst jako nos dolů."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stejně jako u zrychlení je správnou referencí v omezené viditelnosti přístrojová indikace, nikoli tělesný pocit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 33,
+      "title": "Optický klam při dráze do kopce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Dráha stoupající do kopce může vytvořit dojem, že je letadlo vůči dráze výše, než ve skutečnosti je. Pilot pak může korigovat příliš nízko.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dráha stoupající do kopce může vytvořit dojem, že je letadlo vůči dráze výše, než ve skutečnosti je. Pilot pak může korigovat příliš nízko."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Upslope runway vytváří tendenci letět níže."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "PAPI/VASI, stabilizované parametry a známý profil přiblížení pomáhají optický klam odhalit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 34,
+      "title": "Důsledek dráhy se sklonem nahoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Stejný optický klam dráhy se sklonem nahoru může vést k nízkému přiblížení a následně ke krátkému dosednutí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stejný optický klam dráhy se sklonem nahoru může vést k nízkému přiblížení a následně ke krátkému dosednutí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Dráha do kopce = riziko krátkého přistání."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při neobvyklém sklonu dráhy je užitečné předem z briefingu znát její profil a vědomě držet standardní sestupovou rovinu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 35,
+      "title": "Coriolisova iluze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Pohyb hlavy v zatáčce současně stimuluje více polokruhových kanálků a může vyvolat výraznou Coriolisovu iluzi a závrať.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pohyb hlavy v zatáčce současně stimuluje více polokruhových kanálků a může vyvolat výraznou Coriolisovu iluzi a závrať."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hlava v zatáčce = silný vestibulární klam."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při letu podle přístrojů se prudkým pohybům hlavy v zatáčce vyhýbej a důležité úkony si připrav před manévrem."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 36,
+      "title": "Šedé vidění",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Při kladném násobku se krev přesouvá směrem od hlavy. Snížené prokrvení sítnice může nejprve způsobit šedé vidění a při vyšším zatížení black-out.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při kladném násobku se krev přesouvá směrem od hlavy. Snížené prokrvení sítnice může nejprve způsobit šedé vidění a při vyšším zatížení black-out."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kladné G: grey-out až black-out."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fyziologické limity jsou dalším důvodem, proč manévry musí zůstat v provozních a konstrukčních mezích letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 37,
+      "title": "Interpretace optických podnětů",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Optický klam vzniká především tím, že mozek interpretuje dostupné vizuální podněty podle očekávání a zkušenosti, někdy nesprávně.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Optický klam vzniká především tím, že mozek interpretuje dostupné vizuální podněty podle očekávání a zkušenosti, někdy nesprávně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Oči dodají obraz, mozek mu přidá význam."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Známé iluze se zvládají předem připravenou technikou, standardními parametry a křížovou kontrolou dalších zdrojů informace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 38,
+      "title": "Odbourávání alkoholu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Zdrojová otázka používá průměrný pokles hladiny alkoholu v krvi 0,0001 za hodinu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zdrojová otázka používá průměrný pokles hladiny alkoholu v krvi 0,0001 za hodinu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro test si drž hodnotu 0,0001 za hodinu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Metabolismus alkoholu se mezi lidmi liší. Pro rozhodnutí o způsobilosti k letu se nepoužívá výpočet z průměrné rychlosti odbourávání."
+        }
+      ],
+      "warning": "Pro skutečné rozhodnutí o způsobilosti k letu nepoužívej průměrnou rychlost odbourávání alkoholu jako kalkulačku „kdy už můžu letět“.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 39,
+      "title": "Rizikový faktor diabetu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Nadváha patří mezi významné rizikové faktory diabetu 2. typu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nadváha patří mezi významné rizikové faktory diabetu 2. typu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Diabetes 2. typu: mysli na metabolické rizikové faktory včetně nadváhy."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zdravotní způsobilost pilota se posuzuje podle platných medicínských požadavků, nikoli podle jediné rizikové položky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 40,
+      "title": "Dekompresní nemoc a potápění",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Po přístrojovém potápění může zůstat v tkáních zvýšené množství rozpuštěného dusíku. Pokles tlaku při následném letu zvyšuje riziko tvorby bublinek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po přístrojovém potápění může zůstat v tkáních zvýšené množství rozpuštěného dusíku. Pokles tlaku při následném letu zvyšuje riziko tvorby bublinek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Potápění + výška = dekompresní riziko."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem po potápění se dodržuje doporučený povrchový interval podle druhu ponoru a použitelné letecko-medicínské guidance."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 41,
+      "title": "Kapacita krátkodobé paměti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Zdrojový model krátkodobé paměti pracuje s kapacitou přibližně 7 ± 2 položky a dobou 10 až 20 sekund.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zdrojový model krátkodobé paměti pracuje s kapacitou přibližně 7 ± 2 položky a dobou 10 až 20 sekund."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "7 ± 2 položky, 10 až 20 sekund."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V kokpitu se omezená pracovní paměť kompenzuje checklisty, zápisem údajů a standardní strukturou komunikace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 42,
+      "title": "Doba krátkodobé paměti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "V této databázi se pro krátkodobé uchování informace používá přibližně 10 až 20 sekund.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V této databázi se pro krátkodobé uchování informace používá přibližně 10 až 20 sekund."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Krátkodobá paměť: 10 až 20 sekund."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pokud je údaj důležitý pro pozdější fázi letu, je bezpečnější jej zapsat nebo uložit do příslušného systému než spoléhat na paměť."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 43,
+      "title": "Skrytá chyba",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Skrytá neboli latentní chyba může zůstat v systému dlouho bez povšimnutí a projevit se až v kombinaci s dalšími podmínkami.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Skrytá neboli latentní chyba může zůstat v systému dlouho bez povšimnutí a projevit se až v kombinaci s dalšími podmínkami."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Latentní = skrytá a čekající."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Typickým cílem bezpečnostního systému je takové podmínky odhalit dříve, než se spojí s aktivní chybou v provozu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 44,
+      "title": "Potvrzovací snaha",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Potvrzovací snaha vede člověka k preferování informací, které podporují jeho současnou hypotézu, a k podceňování údajů, které jí odporují.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Potvrzovací snaha vede člověka k preferování informací, které podporují jeho současnou hypotézu, a k podceňování údajů, které jí odporují."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Confirmation bias: hledám to, co mi potvrzuje můj plán."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Praktickou obranou je aktivně hledat důvody, proč může být vlastní předpoklad chybný, a používat nezávislé kontroly."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 45,
+      "title": "Situační povědomí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Situační povědomí znamená průběžně vnímat relevantní prvky situace, chápat jejich význam a odhadovat další vývoj.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Situační povědomí znamená průběžně vnímat relevantní prvky situace, chápat jejich význam a odhadovat další vývoj."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Co se děje, proč se to děje, co bude následovat."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Dobré situační povědomí propojuje polohu, provoz, počasí, stav letadla, energii letu a plán dalšího kroku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 46,
+      "title": "Standardizovaná radiotelefonní frazeologie",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Standardní radiotelefonní frazeologie dává vysílajícímu i přijímajícímu společný „kód“, tedy předem dohodnutý význam slov a struktur.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní radiotelefonní frazeologie dává vysílajícímu i přijímajícímu společný „kód“, tedy předem dohodnutý význam slov a struktur."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stejný kód = stejná standardní frazeologie."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizace snižuje nejednoznačnost, zejména v rušném provozu, při šumu a mezi lidmi s různým mateřským jazykem."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 47,
+      "title": "Způsoby řízení rizika",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Riziko lze řídit čtyřmi základními strategiemi: vyhnout se mu, snížit je, převést je nebo je vědomě přijmout.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Riziko lze řídit čtyřmi základními strategiemi: vyhnout se mu, snížit je, převést je nebo je vědomě přijmout."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Avoid, reduce, transfer, accept."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letectví se strategie volí předem podle pravděpodobnosti, následků a dostupných bariér, nikoli až ve chvíli, kdy je situace kritická."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 48,
+      "title": "Skupinová dynamika a riziko",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Skupinová dynamika může posunout rozhodnutí směrem k vyššímu riziku, než by jednotliví členové přijali sami.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Skupinová dynamika může posunout rozhodnutí směrem k vyššímu riziku, než by jednotliví členové přijali sami."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Skupina může posunout hranici rizika."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot ve velení potřebuje zachovat vlastní rozhodovací odpovědnost i při tlaku cestujících, kolegů nebo organizačních očekávání."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 49,
+      "title": "Posun rizika",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Posun rizika označuje tendenci skupiny přijmout po diskusi rizikovější rozhodnutí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Posun rizika označuje tendenci skupiny přijmout po diskusi rizikovější rozhodnutí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Risk shift = skupina posune riziko nahoru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Dobrý briefing a otevřená možnost vyslovit nesouhlas pomáhají snížit tlak na konformitu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 50,
+      "title": "Nebezpečné postoje pilota",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Předvádění se a pocit nezranitelnosti se navzájem podporují: pilot chce demonstrovat schopnosti a současně podceňuje možnost negativního následku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Předvádění se a pocit nezranitelnosti se navzájem podporují: pilot chce demonstrovat schopnosti a současně podceňuje možnost negativního následku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Show-off + „mně se to nestane“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Obrana spočívá ve stanovených osobních limitech, respektu k SOP a ochotě ukončit plán, který přestal být bezpečný."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 51,
+      "title": "Předvádění se",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Přístup předvádění se vede k riskantnímu chování s cílem zapůsobit na ostatní.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přístup předvádění se vede k riskantnímu chování s cílem zapůsobit na ostatní."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Předvádění se poznáš podle manévru pro publikum."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Přítomnost známých nebo diváků nesmí měnit provozní limity ani rozhodnutí o bezpečném provedení letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 52,
+      "title": "Očekávání a lidská chyba",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Lidé mají sklon vnímat to, co očekávají. Očekávání může způsobit přehlédnutí odlišné indikace nebo chybné přečtení známého vzoru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Lidé mají sklon vnímat to, co očekávají. Očekávání může způsobit přehlédnutí odlišné indikace nebo chybné přečtení známého vzoru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Expectation bias: vidím to, co čekám."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Křížová kontrola, verbální potvrzení a vědomé ověření kritických hodnot pomáhají přerušit automatické očekávání."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 53,
+      "title": "Povahové rysy pilota",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "V rámci modelu použitého touto zkušební databází je jako nejlepší kombinace uvedena extrovertní a stabilní osobnost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V rámci modelu použitého touto zkušební databází je jako nejlepší kombinace uvedena extrovertní a stabilní osobnost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto otázku: extrovertní + stabilní."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Povahové typologie jsou zjednodušené modely. V reálném provozu je důležitější konkrétní chování, disciplína, rozhodování a schopnost spolupráce."
+        }
+      ],
+      "warning": "Tato odpověď vychází z modelu použitého ve zdrojové databázi a není univerzálním psychologickým hodnocením vhodnosti pilota.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 54,
+      "title": "Samolibost a automatizace",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Vyšší míra automatizace může podporovat samolibost, pokud pilot přestane aktivně sledovat stav systému a očekává, že automatika vždy pracuje správně.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vyšší míra automatizace může podporovat samolibost, pokud pilot přestane aktivně sledovat stav systému a očekává, že automatika vždy pracuje správně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Více automatiky vyžaduje aktivní monitoring."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot musí stále znát aktivní režim, zamýšlený další režim a stav letadla, aby včas zachytil odchylku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 55,
+      "title": "Ideální hladina vyburcování",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Výkon s rostoucím vyburcováním nejprve roste, potom po překročení optimální oblasti klesá. Zdrojový diagram označuje ideální hladinu bodem B.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výkon s rostoucím vyburcováním nejprve roste, potom po překročení optimální oblasti klesá. Zdrojový diagram označuje ideální hladinu bodem B."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Na HPL-002 je ideální oblast B."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Příliš nízká aktivace vede k ospalosti a nedostatečné pozornosti, příliš vysoká k přetížení a zhoršení výkonu."
+        }
+      ],
+      "warning": "Použij přiložený diagram HPL-002. Zdrojová otázka označuje jako správnou odpověď bod B.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022. Diagram HPL-002 je v projektu uložen jako lokální studijní překreslení stejného schématu."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 56,
+      "title": "Přetížení a výkonnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Na sestupné části křivky vysokého vyburcování už pracovní zatížení převyšuje schopnost pilota situaci zpracovávat. Zdrojový diagram označuje přetíženého pilota bodem D.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na sestupné části křivky vysokého vyburcování už pracovní zatížení převyšuje schopnost pilota situaci zpracovávat. Zdrojový diagram označuje přetíženého pilota bodem D."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Na HPL-002 je přetížení D."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přetížení pomáhá prioritizace aviate–navigate–communicate, snížení počtu současných úloh a využití dostupné pomoci."
+        }
+      ],
+      "warning": "Použij přiložený diagram HPL-002. Přetížený pilot je na sestupné části křivky v bodě D.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022. Diagram HPL-002 je v projektu uložen jako lokální studijní překreslení stejného schématu."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 57,
+      "title": "Stres a kognitivní funkce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Stres může ovlivnit pozornost, soustředění, odpovědnost i paměť. Při vyšší intenzitě zužuje pozornost a zhoršuje pracovní paměť i kvalitu rozhodnutí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stres může ovlivnit pozornost, soustředění, odpovědnost i paměť. Při vyšší intenzitě zužuje pozornost a zhoršuje pracovní paměť i kvalitu rozhodnutí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "V této otázce jsou ovlivněny všechny čtyři oblasti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Dobrá příprava, standardní postupy a rozdělení úloh snižují kognitivní nároky v náročné situaci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    },
+    {
+      "subject_id": 2,
+      "source_question_id": 58,
+      "title": "Stres",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-02-official-questions",
+      "explanation": "Stres může vzniknout i tehdy, když člověk situaci vnímá jako obtížnou nebo bez jasného řešení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stres může vzniknout i tehdy, když člověk situaci vnímá jako obtížnou nebo bez jasného řešení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stres souvisí s vnímanými nároky a dostupnými zdroji."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rozdělení problému na menší kroky, stanovení priorit a návrat k základním úkolům řízení letu pomáhají obnovit pracovní kapacitu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 31.03.2022."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">NAV-002 geometrie Země</title>
+  <desc id="d">Schéma rovníku, polární osy a rozdělení kružnice na 360 stupňů.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NAV-002 geometrie Země</text>
+
+  <circle cx="500" cy="325" r="185" fill="#e8f1f5" stroke="#17384f" stroke-width="6"/>
+  <ellipse cx="500" cy="325" rx="185" ry="55" fill="none" stroke="#3f83a8" stroke-width="7"/>
+  <line x1="500" y1="105" x2="500" y2="545" stroke="#8298a6" stroke-width="5"/>
+  <text x="515" y="125" font-family="system-ui,sans-serif" font-size="21" fill="#17384f">severní pól</text>
+  <text x="515" y="535" font-family="system-ui,sans-serif" font-size="21" fill="#17384f">jižní pól</text>
+  <text x="705" y="332" font-family="system-ui,sans-serif" font-size="21" fill="#17384f">rovník</text>
+  <path d="M660 215 A190 190 0 0 1 690 325" fill="none" stroke="#b64a4a" stroke-width="5"/>
+  <text x="700" y="235" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#b64a4a">360°</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

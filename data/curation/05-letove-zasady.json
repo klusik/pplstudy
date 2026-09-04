@@ -1,0 +1,2481 @@
+{
+  "schema_version": 1,
+  "subject_id": 5,
+  "questions": [
+    {
+      "subject_id": 5,
+      "source_question_id": 1,
+      "title": "Sloty a kritický úhel náběhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Sloty a podobná zařízení na náběžné hraně pomáhají udržet proudění přilnuté k horní straně křídla při vyšším úhlu náběhu. Tím oddalují odtržení proudu a dovolují dosáhnout většího kritického úhlu náběhu, obvykle s menším nárůstem odporu než velká výchylka odtokových klapek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Sloty a podobná zařízení na náběžné hraně pomáhají udržet proudění přilnuté k horní straně křídla při vyšším úhlu náběhu. Tím oddalují odtržení proudu a dovolují dosáhnout většího kritického úhlu náběhu, obvykle s menším nárůstem odporu než velká výchylka odtokových klapek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Sloty a kritický úhel náběhu“ se správnou odpovědí: „vytvářejí menší odpor a umožňují dosáhnout větší kritický úhel náběhu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 2,
+      "title": "Podélná stabilita kolem příčné osy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Stabilizátor vytváří podélnou stabilizační momentovou rezervu kolem příčné osy. Výškovka pak tuto osu aktivně řídí, zatímco směrovka působí kolem svislé a křidélka kolem podélné osy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stabilizátor vytváří podélnou stabilizační momentovou rezervu kolem příčné osy. Výškovka pak tuto osu aktivně řídí, zatímco směrovka působí kolem svislé a křidélka kolem podélné osy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Podélná stabilita kolem příčné osy“ se správnou odpovědí: „stabilizátorem“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 3,
+      "title": "Překročení VNE",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "VNE je konstrukční a aeroelastický limit. Její překročení může vyvolat flutter, nadměrné zatížení a mechanické poškození dříve, než pilot dostane jinou jednoznačnou výstrahu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VNE je konstrukční a aeroelastický limit. Její překročení může vyvolat flutter, nadměrné zatížení a mechanické poškození dříve, než pilot dostane jinou jednoznačnou výstrahu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Překročení VNE“ se správnou odpovědí: „flutter a mechanické poškození křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "VNE je nepřekročitelný limit. Pro skutečný let používej hodnotu a omezení uvedené v AFM/POH konkrétního letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 4,
+      "title": "Námraza na vrtuli",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Námraza mění profil listu vrtule, zvyšuje jeho odpor a zhoršuje aerodynamickou účinnost. Výsledkem je nižší využitelný výkon vrtule a typicky pokles otáček.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Námraza mění profil listu vrtule, zvyšuje jeho odpor a zhoršuje aerodynamickou účinnost. Výsledkem je nižší využitelný výkon vrtule a typicky pokles otáček."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Námraza na vrtuli“ se správnou odpovědí: „snížený výkon, pokles otáček“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 5,
+      "title": "Síly při ustáleném stoupání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při stoupání má tíha složku rovnoběžnou s trajektorií a působící proti směru letu. Tah proto musí kromě aerodynamického odporu překonávat i tuto složku tíhy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při stoupání má tíha složku rovnoběžnou s trajektorií a působící proti směru letu. Tah proto musí kromě aerodynamického odporu překonávat i tuto složku tíhy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Síly při ustáleném stoupání“ se správnou odpovědí: „složka tíhy působící proti směru letu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 6,
+      "title": "Směr působení statického tlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Statický tlak je skalární veličina. V klidném i proudícím plynu působí v daném bodě všemi směry, nikoli pouze po směru proudění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Statický tlak je skalární veličina. V klidném i proudícím plynu působí v daném bodě všemi směry, nikoli pouze po směru proudění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Směr působení statického tlaku“ se správnou odpovědí: „všemi směry“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 7,
+      "title": "Bernoulliho rovnice",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Pro nestlačitelné proudění bez ztrát je součet statického a dynamického tlaku konstantní. Celkový tlak je tedy součtem statického a dynamického tlaku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro nestlačitelné proudění bez ztrát je součet statického a dynamického tlaku konstantní. Celkový tlak je tedy součtem statického a dynamického tlaku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Bernoulliho rovnice“ se správnou odpovědí: „celkový tlak = dynamický tlak + statický tlak“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 9,
+      "title": "Aerodynamický střed",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Aerodynamický střed je zjednodušený bod, do kterého se pro analýzu soustřeďuje výsledné působení aerodynamických sil profilu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Aerodynamický střed je zjednodušený bod, do kterého se pro analýzu soustřeďuje výsledné působení aerodynamických sil profilu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Aerodynamický střed“ se správnou odpovědí: „aerodynamický střed“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 10,
+      "title": "Síly v aerodynamickém středu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "V použitém zjednodušeném modelu se aerodynamické síly uvažují jako působící v aerodynamickém středu. Je to konstrukční pomůcka pro popis sil a momentů na profilu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V použitém zjednodušeném modelu se aerodynamické síly uvažují jako působící v aerodynamickém středu. Je to konstrukční pomůcka pro popis sil a momentů na profilu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Síly v aerodynamickém středu“ se správnou odpovědí: „působí všechny aerodynamické síly“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 11,
+      "title": "Hloubka profilu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Hloubka profilu je vzdálenost mezi náběžnou a odtokovou hranou měřená ve směru tětivy. Na schématu PFA-010 ji označuje číslo 2.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hloubka profilu je vzdálenost mezi náběžnou a odtokovou hranou měřená ve směru tětivy. Na schématu PFA-010 ji označuje číslo 2."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Hloubka profilu“ se správnou odpovědí: „hloubku profilu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 12,
+      "title": "Střední čára profilu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Střední čára profilu je geometrická křivka ležící mezi horním a dolním obrysem profilu. Na schématu PFA-010 ji označuje číslo 3.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Střední čára profilu je geometrická křivka ležící mezi horním a dolním obrysem profilu. Na schématu PFA-010 ji označuje číslo 3."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Střední čára profilu“ se správnou odpovědí: „střední čáru profilu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 13,
+      "title": "Definice úhlu náběhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Úhel náběhu je úhel mezi tětivou profilu a směrem nabíhajícího relativního proudu. Právě jeho dosažení kritické hodnoty, nikoli samotná rychlost, rozhoduje o aerodynamickém pádu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Úhel náběhu je úhel mezi tětivou profilu a směrem nabíhajícího relativního proudu. Právě jeho dosažení kritické hodnoty, nikoli samotná rychlost, rozhoduje o aerodynamickém pádu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Definice úhlu náběhu“ se správnou odpovědí: „tětivou a směrem nabíhajícího proudu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 14,
+      "title": "Štíhlost křídla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Štíhlost křídla vyjadřuje poměr rozpětí k charakteristické tětivě. Vyšší štíhlost obecně snižuje indukovaný odpor pro daný vztlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Štíhlost křídla vyjadřuje poměr rozpětí k charakteristické tětivě. Vyšší štíhlost obecně snižuje indukovaný odpor pro daný vztlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Štíhlost křídla“ se správnou odpovědí: „štíhlost křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 15,
+      "title": "Bod přechodu mezní vrstvy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Bod přechodu je místo, kde se laminární mezní vrstva mění na turbulentní. Na PFA-009 je označen číslem 3.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bod přechodu je místo, kde se laminární mezní vrstva mění na turbulentní. Na PFA-009 je označen číslem 3."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Bod přechodu mezní vrstvy“ se správnou odpovědí: „bod přechodu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 16,
+      "title": "Bod odtržení proudu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Bod odtržení je místo, kde mezní vrstva už nedokáže sledovat povrch profilu a proudění se oddělí. Na PFA-009 je označen číslem 4.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bod odtržení je místo, kde mezní vrstva už nedokáže sledovat povrch profilu a proudění se oddělí. Na PFA-009 je označen číslem 4."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Bod odtržení proudu“ se správnou odpovědí: „bod odtržení“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 17,
+      "title": "Vznik koncových vírů",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Koncové víry jsou důsledkem tvorby vztlaku a rozdílu tlaků mezi spodní a horní stranou křídla. Začnou se významně tvořit ve chvíli, kdy křídlo při rotaci začne nést letadlo.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Koncové víry jsou důsledkem tvorby vztlaku a rozdílu tlaků mezi spodní a horní stranou křídla. Začnou se významně tvořit ve chvíli, kdy křídlo při rotaci začne nést letadlo."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vznik koncových vírů“ se správnou odpovědí: „když při rotaci začne křídlo vytvářet vztlak“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 18,
+      "title": "Stagnační bod",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Ve stagnačním bodě je relativní rychlost proudu vůči povrchu lokálně nulová a proudnice se zde rozdělují nad a pod profil. Na PFA-009 je označen číslem 1.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ve stagnačním bodě je relativní rychlost proudu vůči povrchu lokálně nulová a proudnice se zde rozdělují nad a pod profil. Na PFA-009 je označen číslem 1."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Stagnační bod“ se správnou odpovědí: „stagnační bod“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 19,
+      "title": "Proudění u stagnačního bodu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "V okolí stagnačního bodu se nabíhající proud rozdělí na větev obtékající horní a dolní stranu profilu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V okolí stagnačního bodu se nabíhající proud rozdělí na větev obtékající horní a dolní stranu profilu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Proudění u stagnačního bodu“ se správnou odpovědí: „proudnice se rozdělují na ty nad a pod profilem“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 20,
+      "title": "Rozložení tlaku na profilu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při kladném úhlu náběhu vzniká nad profilem výrazný pokles statického tlaku a pod profilem relativní přetlak. Jejich výslednice vytváří vztlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při kladném úhlu náběhu vzniká nad profilem výrazný pokles statického tlaku a pod profilem relativní přetlak. Jejich výslednice vytváří vztlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Rozložení tlaku na profilu“ se správnou odpovědí: „nad profilem je podtlak pod profilem je přetlak“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 21,
+      "title": "Pohyb působiště vztlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "U kladně prohnutého profilu se s rostoucím úhlem náběhu působiště vztlaku před dosažením kritického úhlu posouvá dopředu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "U kladně prohnutého profilu se s rostoucím úhlem náběhu působiště vztlaku před dosažením kritického úhlu posouvá dopředu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Pohyb působiště vztlaku“ se správnou odpovědí: „při zvětšení úhlu náběhu se posune dopředu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 22,
+      "title": "Pohyb působiště vztlaku s AoA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Před kritickým úhlem náběhu se působiště vztlaku kladně prohnutého profilu při zvětšování úhlu náběhu posouvá dopředu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Před kritickým úhlem náběhu se působiště vztlaku kladně prohnutého profilu při zvětšování úhlu náběhu posouvá dopředu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Pohyb působiště vztlaku s AoA“ se správnou odpovědí: „dopředu, dokud nebyl dosažen kritický úhel náběhu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 23,
+      "title": "Vztlak a úhel náběhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vztlak roste s úhlem náběhu jen do kritické hodnoty. Po rozsáhlejším odtržení proudu už další zvětšování úhlu náběhu vede ke ztrátě vztlaku a pádu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vztlak roste s úhlem náběhu jen do kritické hodnoty. Po rozsáhlejším odtržení proudu už další zvětšování úhlu náběhu vede ke ztrátě vztlaku a pádu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vztlak a úhel náběhu“ se správnou odpovědí: „přílišné zvětšení úhlu náběhu může vést ke ztrátě vztlaku a odtržení proudu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 24,
+      "title": "Stagnační bod při zvětšení AoA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při zvětšení úhlu náběhu se stagnační bod na náběžné hraně posouvá na spodní stranu profilu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při zvětšení úhlu náběhu se stagnační bod na náběžné hraně posouvá na spodní stranu profilu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Stagnační bod při zvětšení AoA“ se správnou odpovědí: „stagnační bod se posune dolů“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 25,
+      "title": "Stagnační bod při zmenšení AoA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při zmenšení úhlu náběhu se stagnační bod posouvá opačným směrem, tedy vzhůru po náběžné hraně.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při zmenšení úhlu náběhu se stagnační bod posouvá opačným směrem, tedy vzhůru po náběžné hraně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Stagnační bod při zmenšení AoA“ se správnou odpovědí: „stagnační bod se posune nahoru“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 26,
+      "title": "Úhel náběhu na schématu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Zobrazený úhel mezi tětivou a směrem nabíhajícího proudu je úhel náběhu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zobrazený úhel mezi tětivou a směrem nabíhajícího proudu je úhel náběhu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Úhel náběhu na schématu“ se správnou odpovědí: „úhel náběhu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 27,
+      "title": "Geometrické zkroucení křídla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Geometrické zkroucení znamená, že se úhel nastavení profilu mění podél rozpětí křídla. Typicky se používá washout, kdy je koncová část nastavena na menší úhel než kořen.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Geometrické zkroucení znamená, že se úhel nastavení profilu mění podél rozpětí křídla. Typicky se používá washout, kdy je koncová část nastavena na menší úhel než kořen."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Geometrické zkroucení křídla“ se správnou odpovědí: „geometrické zkroucení“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 28,
+      "title": "Výhoda zkroucení křídla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vhodné zkroucení způsobí, že kořen křídla dosáhne kritického úhlu dříve než konce. Křidélka tak zůstávají účinnější i blízko pádu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vhodné zkroucení způsobí, že kořen křídla dosáhne kritického úhlu dříve než konce. Křidélka tak zůstávají účinnější i blízko pádu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Výhoda zkroucení křídla“ se správnou odpovědí: „křidélka jsou účinná i při velkých úhlech náběhu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 29,
+      "title": "Příliš velký úhel náběhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Příliš velký úhel náběhu vede k odtržení proudu a ztrátě vztlaku bez ohledu na to, jakou rychlostí letadlo tuto kritickou hodnotu dosáhne.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Příliš velký úhel náběhu vede k odtržení proudu a ztrátě vztlaku bez ohledu na to, jakou rychlostí letadlo tuto kritickou hodnotu dosáhne."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Příliš velký úhel náběhu“ se správnou odpovědí: „příliš velký úhel náběhu může způsobit ztrátu vztlaku“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při praktickém létání se tyto vztahy projeví hlavně při změnách rychlosti, úhlu náběhu a konfigurace. Pilot sleduje rychlost, polohu letadla a reakci řízení a respektuje limity a postupy uvedené v AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 30,
+      "title": "Rychlost a škodlivý odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Škodlivý odpor je přibližně úměrný dynamickému tlaku, tedy druhé mocnině rychlosti. Zdvojnásobení rychlosti proto vede přibližně ke čtyřnásobku tohoto odporu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Škodlivý odpor je přibližně úměrný dynamickému tlaku, tedy druhé mocnině rychlosti. Zdvojnásobení rychlosti proto vede přibližně ke čtyřnásobku tohoto odporu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Rychlost a škodlivý odpor“ se správnou odpovědí: „zvětší se na čtyřnásobek“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 31,
+      "title": "Součinitel odporu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Součinitel odporu má pro reálné těleso kladné minimum. Ani při optimálním úhlu náběhu odpor zcela nezmizí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Součinitel odporu má pro reálné těleso kladné minimum. Ani při optimálním úhlu náběhu odpor zcela nezmizí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Součinitel odporu“ se správnou odpovědí: „nemůže být menší než určitá kladná minimální hodnota“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 32,
+      "title": "Vyrovnávání tlaků na konci křídla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Rozdíl tlaků mezi spodní a horní stranou křídla se na konci křídla snaží vyrovnat bočním prouděním. Tím vzniká koncový vír a indukovaný odpor.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rozdíl tlaků mezi spodní a horní stranou křídla se na konci křídla snaží vyrovnat bočním prouděním. Tím vzniká koncový vír a indukovaný odpor."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vyrovnávání tlaků na konci křídla“ se správnou odpovědí: „na konci křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 33,
+      "title": "Štíhlost a indukovaný odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Menší štíhlost znamená výraznější trojrozměrné obtékání a vyšší indukovaný odpor pro daný vztlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Menší štíhlost znamená výraznější trojrozměrné obtékání a vyšší indukovaný odpor pro daný vztlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Štíhlost a indukovaný odpor“ se správnou odpovědí: „malá štíhlost křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 34,
+      "title": "Konce křídel a indukovaný odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Indukovaný odpor vzniká především jako důsledek koncových vírů, takže ho výrazně ovlivňuje geometrie a proudění v oblasti konců křídel.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Indukovaný odpor vzniká především jako důsledek koncových vírů, takže ho výrazně ovlivňuje geometrie a proudění v oblasti konců křídel."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Konce křídel a indukovaný odpor“ se správnou odpovědí: „konce křídel“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 35,
+      "title": "Interferenční odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Interferenční odpor vzniká tam, kde se navzájem ovlivňují proudová pole dvou částí letadla, typicky v přechodu křídlo–trup u kořene křídla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Interferenční odpor vzniká tam, kde se navzájem ovlivňují proudová pole dvou částí letadla, typicky v přechodu křídlo–trup u kořene křídla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Interferenční odpor“ se správnou odpovědí: „u kořene křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 36,
+      "title": "Křivka indukovaného odporu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Indukovaný odpor je největší při nízkých rychlostech a s rostoucí rychlostí klesá. Na PFA-011 tomu odpovídá křivka 1.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Indukovaný odpor je největší při nízkých rychlostech a s rostoucí rychlostí klesá. Na PFA-011 tomu odpovídá křivka 1."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Křivka indukovaného odporu“ se správnou odpovědí: „1“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 37,
+      "title": "Složky škodlivého odporu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Tlakový, třecí a interferenční odpor patří mezi škodlivé odpory. Nevznikají přímo jako cena za tvorbu vztlaku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Tlakový, třecí a interferenční odpor patří mezi škodlivé odpory. Nevznikají přímo jako cena za tvorbu vztlaku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Složky škodlivého odporu“ se správnou odpovědí: „škodlivý odpor“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 38,
+      "title": "Indukovaný versus škodlivý odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Indukovaný odpor je samostatná složka související s tvorbou vztlaku, takže nepatří mezi škodlivý odpor.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Indukovaný odpor je samostatná složka související s tvorbou vztlaku, takže nepatří mezi škodlivý odpor."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Indukovaný versus škodlivý odpor“ se správnou odpovědí: „indukovaný“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 39,
+      "title": "Odpor a rychlost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při ustáleném horizontálním letu s růstem rychlosti klesá potřebný součinitel vztlaku a s ním indukovaný odpor, zatímco škodlivý odpor roste přibližně s druhou mocninou rychlosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při ustáleném horizontálním letu s růstem rychlosti klesá potřebný součinitel vztlaku a s ním indukovaný odpor, zatímco škodlivý odpor roste přibližně s druhou mocninou rychlosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Odpor a rychlost“ se správnou odpovědí: „indukovaný odpor se zmenšuje a škodlivý odpor se zvětšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 40,
+      "title": "Eliptické křídlo a indukovaný odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Ideální eliptické rozložení vztlaku minimalizuje indukovaný odpor pro dané rozpětí a celkový vztlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ideální eliptické rozložení vztlaku minimalizuje indukovaný odpor pro dané rozpětí a celkový vztlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Eliptické křídlo a indukovaný odpor“ se správnou odpovědí: „elipsa“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 41,
+      "title": "Indukovaný odpor při snížení rychlosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při nižší rychlosti musí křídlo pro zachování stejného vztlaku pracovat s vyšším součinitelem vztlaku. Indukovaný odpor proto roste.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při nižší rychlosti musí křídlo pro zachování stejného vztlaku pracovat s vyšším součinitelem vztlaku. Indukovaný odpor proto roste."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Indukovaný odpor při snížení rychlosti“ se správnou odpovědí: „indukovaný odpor se zvětší“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 42,
+      "title": "Indukovaný odpor v horizontálním letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "V horizontálním letu indukovaný odpor s rostoucí rychlostí klesá, protože k udržení stejného vztlaku stačí menší součinitel vztlaku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V horizontálním letu indukovaný odpor s rostoucí rychlostí klesá, protože k udržení stejného vztlaku stačí menší součinitel vztlaku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Indukovaný odpor v horizontálním letu“ se správnou odpovědí: „indukovaný odpor se zmenšuje s rostoucí rychlostí“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 43,
+      "title": "Minimum celkového odporu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Celkový odpor je součtem škodlivého a indukovaného odporu. Jeho minimum nastává v bodě, kde jsou obě složky stejně velké.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Celkový odpor je součtem škodlivého a indukovaného odporu. Jeho minimum nastává v bodě, kde jsou obě složky stejně velké."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Minimum celkového odporu“ se správnou odpovědí: „škodlivý odpor se rovná indukovanému“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 44,
+      "title": "Složky celkového odporu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Celkový aerodynamický odpor se v tomto modelu skládá z indukovaného a škodlivého odporu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Celkový aerodynamický odpor se v tomto modelu skládá z indukovaného a škodlivého odporu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Složky celkového odporu“ se správnou odpovědí: „indukovaný a škodlivý“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 45,
+      "title": "Vztlak a odpor u pádové rychlosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při ustáleném 1g letu musí vztlak stále vyrovnávat tíhu. Při zpomalování k pádu roste úhel náběhu a výrazně roste odpor, zatímco požadovaný vztlak zůstává přibližně stejný.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při ustáleném 1g letu musí vztlak stále vyrovnávat tíhu. Při zpomalování k pádu roste úhel náběhu a výrazně roste odpor, zatímco požadovaný vztlak zůstává přibližně stejný."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vztlak a odpor u pádové rychlosti“ se správnou odpovědí: „vztlak je stejný a odpor se zvětšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Odpor přímo ovlivňuje potřebný výkon, klouzavost, dolet i rezervu energie. Při plánování a pilotáži proto pracuj s publikovanými rychlostmi a výkonnostními údaji konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 46,
+      "title": "Zásah při přetažení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Základním zásahem při přetažení je snížit úhel náběhu pod kritickou hodnotu. Současně je třeba obnovit energii letadla, proto se podle situace zvyšuje rychlost a výkon.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Základním zásahem při přetažení je snížit úhel náběhu pod kritickou hodnotu. Současně je třeba obnovit energii letadla, proto se podle situace zvyšuje rychlost a výkon."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Zásah při přetažení“ se správnou odpovědí: „zmenšit úhel náběhu a zvýšit rychlost“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 47,
+      "title": "Aerodynamika přetažení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Po překročení kritického úhlu náběhu se proudění odtrhává, vztlak klesá a odpor roste.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po překročení kritického úhlu náběhu se proudění odtrhává, vztlak klesá a odpor roste."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Aerodynamika přetažení“ se správnou odpovědí: „vztlak se zmenšuje a odpor zvětšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 48,
+      "title": "Kritický úhel náběhu a rychlost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Kritický úhel náběhu je vlastnost dané konfigurace profilu a proudění. Pád nastane při jeho dosažení, takže samotná rychlost kritickou hodnotu úhlu neurčuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kritický úhel náběhu je vlastnost dané konfigurace profilu a proudění. Pád nastane při jeho dosažení, takže samotná rychlost kritickou hodnotu úhlu neurčuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Kritický úhel náběhu a rychlost“ se správnou odpovědí: „nezávisí na rychlosti“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 49,
+      "title": "Faktory pádové rychlosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Pádová rychlost v IAS klesne při menší tíze, protože k udržení letu je potřeba menší vztlak. Naopak vyšší násobek ji zvyšuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pádová rychlost v IAS klesne při menší tíze, protože k udržení letu je potřeba menší vztlak. Naopak vyšší násobek ji zvyšuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Faktory pádové rychlosti“ se správnou odpovědí: „zmenšení tíhy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 50,
+      "title": "Aktivace varování před pádem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Varování před pádem musí přijít před skutečným dosažením pádové rychlosti VS, aby pilot měl čas snížit úhel náběhu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Varování před pádem musí přijít před skutečným dosažením pádové rychlosti VS, aby pilot měl čas snížit úhel náběhu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Aktivace varování před pádem“ se správnou odpovědí: „vS“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 51,
+      "title": "Stagnační bod a stall warning",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "U jednoduchých mechanických stall warning systémů se využívá změna polohy stagnačního bodu při přibližování ke kritickému úhlu náběhu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "U jednoduchých mechanických stall warning systémů se využívá změna polohy stagnačního bodu při přibližování ke kritickému úhlu náběhu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Stagnační bod a stall warning“ se správnou odpovědí: „polohy stagnačního bodu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 52,
+      "title": "Reakce na varování před pádem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Po aktivaci varování před pádem je nutné povolit výškovku a snížit úhel náběhu. Zvýšení výkonu pomůže omezit ztrátu výšky a obnovit rychlost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po aktivaci varování před pádem je nutné povolit výškovku a snížit úhel náběhu. Zvýšení výkonu pomůže omezit ztrátu výšky a obnovit rychlost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Reakce na varování před pádem“ se správnou odpovědí: „povolit výškovku, zvýšit výkon motoru“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 53,
+      "title": "Vývrtka a křidélka",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při vývrtce se křidélka obvykle drží v neutrálu. Jejich výchylka může asymetrii odtržení zhoršit; základní vybrání používá směrovku proti rotaci a snížení úhlu náběhu podle AFM/POH.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při vývrtce se křidélka obvykle drží v neutrálu. Jejich výchylka může asymetrii odtržení zhoršit; základní vybrání používá směrovku proti rotaci a snížení úhlu náběhu podle AFM/POH."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vývrtka a křidélka“ se správnou odpovědí: „při vybírání mají být křidélka v neutrálu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 54,
+      "title": "Součinitel vztlaku při vysunutí klapek",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vysunutí klapek zvětšuje zakřivení profilu, a při stejném úhlu náběhu proto zvětšuje součinitel vztlaku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vysunutí klapek zvětšuje zakřivení profilu, a při stejném úhlu náběhu proto zvětšuje součinitel vztlaku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Součinitel vztlaku při vysunutí klapek“ se správnou odpovědí: „zvětšuje se“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 55,
+      "title": "Klapky a prohnutí profilu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Hlavním mechanismem zvýšení vztlaku u běžných klapek je větší prohnutí profilu, případně současné zvětšení plochy křídla u Fowlerovy klapky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hlavním mechanismem zvýšení vztlaku u běžných klapek je větší prohnutí profilu, případně současné zvětšení plochy křídla u Fowlerovy klapky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Klapky a prohnutí profilu“ se správnou odpovědí: „zvětšení prohnutí profilu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 56,
+      "title": "Klapky a síla na výškovce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Velká změna vztlaku a momentu křídla po vysunutí přistávacích klapek může změnit podélné vyvážení a tím i sílu potřebnou na výškovce.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Velká změna vztlaku a momentu křídla po vysunutí přistávacích klapek může změnit podélné vyvážení a tím i sílu potřebnou na výškovce."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Klapky a síla na výškovce“ se správnou odpovědí: „síla na výškovce“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 57,
+      "title": "Fowlerova klapka",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Fowlerova klapka se při vysunutí pohybuje dozadu a dolů. Zvětšuje tak zakřivení i účinnou plochu křídla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Fowlerova klapka se při vysunutí pohybuje dozadu a dolů. Zvětšuje tak zakřivení i účinnou plochu křídla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Fowlerova klapka“ se správnou odpovědí: „klapka ve tvaru profilu je vychýlena dolů a zvětšuje plochu křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 58,
+      "title": "Vzletové klapky a rozjezd",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vzletová poloha klapek zvyšuje vztlak při nízké rychlosti, takže potřebná rychlost odpoutání se dosáhne na kratší dráze, i když odpor je vyšší.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vzletová poloha klapek zvyšuje vztlak při nízké rychlosti, takže potřebná rychlost odpoutání se dosáhne na kratší dráze, i když odpor je vyšší."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vzletové klapky a rozjezd“ se správnou odpovědí: „se zkrátí rozjezd“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 59,
+      "title": "Klapky, vztlak a odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vysunutí klapek zpravidla zvýší jak součinitel vztlaku, tak součinitel odporu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vysunutí klapek zpravidla zvýší jak součinitel vztlaku, tak součinitel odporu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Klapky, vztlak a odpor“ se správnou odpovědí: „součinitel vztlaku se zvětšuje, odporu se zvětšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 60,
+      "title": "Laminární mezní vrstva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Laminární mezní vrstva začíná u stagnačního bodu a pokračuje po povrchu do bodu přechodu, kde se stane turbulentní.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Laminární mezní vrstva začíná u stagnačního bodu a pokračuje po povrchu do bodu přechodu, kde se stane turbulentní."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Laminární mezní vrstva“ se správnou odpovědí: „stagnačním bodem a bodem přechodu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 61,
+      "title": "Laminární a turbulentní mezní vrstva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Na běžném profilu je mezní vrstva v přední části převážně laminární a dále po proudu přechází do turbulentního režimu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na běžném profilu je mezní vrstva v přední části převážně laminární a dále po proudu přechází do turbulentního režimu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Laminární a turbulentní mezní vrstva“ se správnou odpovědí: „laminární na předních částech profilu, turbulentní na zadních částech“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 62,
+      "title": "Vlastnosti turbulentní mezní vrstvy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Turbulentní mezní vrstva má více energie blízko povrchu a lépe odolává nepříznivému tlakovému gradientu. Proto může zůstat přilnutá při vyšším úhlu náběhu než laminární.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Turbulentní mezní vrstva má více energie blízko povrchu a lépe odolává nepříznivému tlakovému gradientu. Proto může zůstat přilnutá při vyšším úhlu náběhu než laminární."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vlastnosti turbulentní mezní vrstvy“ se správnou odpovědí: „turbulentní může zůstat přilnutá na profilu i při vyšších úhlech náběhu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V blízkosti pádu a při změnách konfigurace je rozhodující úhel náběhu, rychlost a včasná práce s řízením. Konkrétní techniku vybrání a omezení konfigurace vždy ber z AFM/POH a výcvikových postupů daného typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 63,
+      "title": "Příčná stabilita a vzepětí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vzepětí vytváří při bočním vychýlení rozdíl efektivních úhlů náběhu obou křídel a tím stabilizační klonivý moment.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vzepětí vytváří při bočním vychýlení rozdíl efektivních úhlů náběhu obou křídel a tím stabilizační klonivý moment."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Příčná stabilita a vzepětí“ se správnou odpovědí: „vzepětí křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 64,
+      "title": "Statická stabilita",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Kladná statická stabilita znamená počáteční tendenci vrátit se po vychýlení zpět k původní rovnovážné poloze.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kladná statická stabilita znamená počáteční tendenci vrátit se po vychýlení zpět k původní rovnovážné poloze."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Statická stabilita“ se správnou odpovědí: „po výchylce způsobené vnějším zásahem se letadlo snaží vrátit do původní polohy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 65,
+      "title": "Podélná stabilita a příčná osa",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Podélná stabilita popisuje stabilitu v klopení, tedy kolem příčné osy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Podélná stabilita popisuje stabilitu v klopení, tedy kolem příčné osy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Podélná stabilita a příčná osa“ se správnou odpovědí: „příčné“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 66,
+      "title": "Těžiště a podélná stabilita",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Poloha těžiště mění ramena a momentovou rovnováhu v klopení, takže zásadně ovlivňuje podélnou stabilitu kolem příčné osy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Poloha těžiště mění ramena a momentovou rovnováhu v klopení, takže zásadně ovlivňuje podélnou stabilitu kolem příčné osy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Těžiště a podélná stabilita“ se správnou odpovědí: „příčné“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 67,
+      "title": "Směrová stabilita",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Směrovou stabilitu zajišťuje především svislá ocasní plocha, která vytváří stabilizační moment při bočním skluzu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Směrovou stabilitu zajišťuje především svislá ocasní plocha, která vytváří stabilizační moment při bočním skluzu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Směrová stabilita“ se správnou odpovědí: „svislá ocasní plocha“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 68,
+      "title": "Bočení kolem svislé osy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Rotace kolem svislé osy je bočení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rotace kolem svislé osy je bočení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Bočení kolem svislé osy“ se správnou odpovědí: „bočení“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 69,
+      "title": "Klopení kolem příčné osy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Rotace kolem příčné osy je klopení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rotace kolem příčné osy je klopení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Klopení kolem příčné osy“ se správnou odpovědí: „klopení“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 70,
+      "title": "Kritický úhel náběhu a hmotnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Kritický úhel náběhu není určen hmotností letadla. Vyšší hmotnost mění rychlost, při které je kritického úhlu dosaženo, nikoli samotnou kritickou hodnotu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kritický úhel náběhu není určen hmotností letadla. Vyšší hmotnost mění rychlost, při které je kritického úhlu dosaženo, nikoli samotnou kritickou hodnotu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Kritický úhel náběhu a hmotnost“ se správnou odpovědí: „nezávisí na hmotnosti letadla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 71,
+      "title": "Úhel náběhu v ustáleném letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Při stejném výkonu je ve stoupání obvykle třeba vyšší součinitel vztlaku a větší úhel náběhu než v přímočarém ustáleném letu. Proto je v ustáleném letu úhel náběhu menší než při stoupání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při stejném výkonu je ve stoupání obvykle třeba vyšší součinitel vztlaku a větší úhel náběhu než v přímočarém ustáleném letu. Proto je v ustáleném letu úhel náběhu menší než při stoupání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Úhel náběhu v ustáleném letu“ se správnou odpovědí: „menší než při stoupání“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 72,
+      "title": "Vodorovná ocasní plocha",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vodorovná ocasní plocha vytváří stabilizační moment v klopení a stabilizuje letoun kolem příčné osy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vodorovná ocasní plocha vytváří stabilizační moment v klopení a stabilizuje letoun kolem příčné osy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vodorovná ocasní plocha“ se správnou odpovědí: „stabilizuje letoun kolem příčné osy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 73,
+      "title": "Výškovka při rotaci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Přední těžiště zvětšuje moment, který musí ocasní plocha při rotaci překonat. Proto je zapotřebí větší výchylka výškovky než při zadnější centráži.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přední těžiště zvětšuje moment, který musí ocasní plocha při rotaci překonat. Proto je zapotřebí větší výchylka výškovky než při zadnější centráži."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Výškovka při rotaci“ se správnou odpovědí: „musí být větší při přední než při zadní centráži“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 74,
+      "title": "Výškovka a příčná osa",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Výškovka vytváří klopivý moment a řídí pohyb kolem příčné osy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výškovka vytváří klopivý moment a řídí pohyb kolem příčné osy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Výškovka a příčná osa“ se správnou odpovědí: „příčné osy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 75,
+      "title": "Poloha těžiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Poloha těžiště je dána rozložením hmotnosti. Trim může vyrovnat síly v řízení, ale nedokáže přesunout skutečné těžiště do povolené obálky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Poloha těžiště je dána rozložením hmotnosti. Trim může vyrovnat síly v řízení, ale nedokáže přesunout skutečné těžiště do povolené obálky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Poloha těžiště“ se správnou odpovědí: „pouze správné naložení může zajistit správnou a bezpečnou polohu těžiště“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 76,
+      "title": "Směrovka a svislá osa",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Směrovka vytváří moment kolem svislé osy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Směrovka vytváří moment kolem svislé osy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Směrovka a svislá osa“ se správnou odpovědí: „svislé osy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 77,
+      "title": "Směrovka vlevo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Výchylka směrovky vlevo vytváří aerodynamickou sílu na ocas, která vyvolá bočení přídě doleva.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výchylka směrovky vlevo vytváří aerodynamickou sílu na ocas, která vyvolá bočení přídě doleva."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Směrovka vlevo“ se správnou odpovědí: „bočení letadla doleva“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 78,
+      "title": "Diferenciální křidélka",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Diferenciální křidélka používají větší výchylku křidélka nahoru a menší dolů. Tím omezují rozdíl odporu mezi křídly a zmenšují nepříznivé bočení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Diferenciální křidélka používají větší výchylku křidélka nahoru a menší dolů. Tím omezují rozdíl odporu mezi křídly a zmenšují nepříznivé bočení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Diferenciální křidélka“ se správnou odpovědí: „sníží se odpor křidélka vychýleného dolů a bočení vlivem klonění je menší“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 79,
+      "title": "Kompenzace nepříznivého bočení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Nepříznivé bočení vznikající při klonění lze konstrukčně omezit diferenciální výchylkou křidélek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nepříznivé bočení vznikající při klonění lze konstrukčně omezit diferenciální výchylkou křidélek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Kompenzace nepříznivého bočení“ se správnou odpovědí: „diferenciální výchylkou křidélek“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 80,
+      "title": "Účel diferenciálních křidélek",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Smyslem diferenciálního řízení křidélek je zmenšit nepříznivé bočení proti zamýšlenému klonění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Smyslem diferenciálního řízení křidélek je zmenšit nepříznivé bočení proti zamýšlenému klonění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Účel diferenciálních křidélek“ se správnou odpovědí: „zmenšila bočení proti klonění“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 81,
+      "title": "Směr vztlakové síly",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vztlak je definován jako aerodynamická složka síly kolmá na směr nabíhajícího relativního proudu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vztlak je definován jako aerodynamická složka síly kolmá na směr nabíhajícího relativního proudu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Směr vztlakové síly“ se správnou odpovědí: „na nabíhající proud vzduchu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 82,
+      "title": "Aerodynamické vyvážení směrovky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Aerodynamické vyvážení používá část plochy před osou závěsu nebo jiné aerodynamické řešení ke snížení momentu v závěsu a tím dlouhodobých sil na pedálech.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Aerodynamické vyvážení používá část plochy před osou závěsu nebo jiné aerodynamické řešení ke snížení momentu v závěsu a tím dlouhodobých sil na pedálech."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Aerodynamické vyvážení směrovky“ se správnou odpovědí: „zmenšuje dlouhodobě síly na pedálech“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 83,
+      "title": "Snížení sil v řízení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Aerodynamické vyvážení řídicích ploch snižuje moment v jejich závěsu a tím síly, které pilot musí dlouhodobě vyvíjet.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Aerodynamické vyvážení řídicích ploch snižuje moment v jejich závěsu a tím síly, které pilot musí dlouhodobě vyvíjet."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Snížení sil v řízení“ se správnou odpovědí: „aerodynamickým vyvážením řídících ploch“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 84,
+      "title": "Hmotové vyvážení kormidel",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Hmotové vyvážení přesune těžiště kormidla blíže k ose závěsu a omezuje jeho náchylnost k aeroelastickému kmitání a flutteru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hmotové vyvážení přesune těžiště kormidla blíže k ose závěsu a omezuje jeho náchylnost k aeroelastickému kmitání a flutteru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Hmotové vyvážení kormidel“ se správnou odpovědí: „brání jejich kmitání“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 85,
+      "title": "Trim proti zvedání přídě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Když letadlo při konstantním výkonu trvale zvedá příď, trim se nastaví tak, aby vytvořil potřebnou protisílu bez trvalého držení řízení. V této konfiguraci odpovídá správné řešení výchylce trimu výškovky nahoru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Když letadlo při konstantním výkonu trvale zvedá příď, trim se nastaví tak, aby vytvořil potřebnou protisílu bez trvalého držení řízení. V této konfiguraci odpovídá správné řešení výchylce trimu výškovky nahoru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Trim proti zvedání přídě“ se správnou odpovědí: „výchylkou trimu výškovky nahoru“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 86,
+      "title": "Indikace trimu výškovky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vychýlení trimu výškovky nahoru odpovídá nastavení „těžký na hlavu“ podle použitého systému indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vychýlení trimu výškovky nahoru odpovídá nastavení „těžký na hlavu“ podle použitého systému indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Indikace trimu výškovky“ se správnou odpovědí: „těžký na hlavu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stabilita a řízení určují, jak letadlo reaguje na vychýlení, poryv a zásah pilota. Správná centráž, vyvážení a koordinované řízení jsou proto základní podmínkou předvídatelného chování letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 87,
+      "title": "Plošné zatížení křídla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Plošné zatížení křídla je poměr hmotnosti k ploše křídla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Plošné zatížení křídla je poměr hmotnosti k ploše křídla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Plošné zatížení křídla“ se správnou odpovědí: „hmotnost k ploše křídla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 88,
+      "title": "Poryv a násobek zatížení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vzestupný poryv okamžitě zvětší efektivní úhel náběhu a vztlak, takže zvýší okamžitý násobek zatížení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vzestupný poryv okamžitě zvětší efektivní úhel náběhu a vztlak, takže zvýší okamžitý násobek zatížení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Poryv a násobek zatížení“ se správnou odpovědí: „Vzestupný poryv vzduchu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 89,
+      "title": "Vrtule konstantních otáček",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Regulátor vrtule konstantních otáček mění úhel nastavení listů tak, aby udržel zvolené otáčky. Při vyšší dopředné rychlosti se pro stejný efektivní úhel náběhu listů úhel nastavení zvětšuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Regulátor vrtule konstantních otáček mění úhel nastavení listů tak, aby udržel zvolené otáčky. Při vyšší dopředné rychlosti se pro stejný efektivní úhel náběhu listů úhel nastavení zvětšuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vrtule konstantních otáček“ se správnou odpovědí: „úhel nastavení listů se zvětšuje při větších rychlostech letu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 90,
+      "title": "Zkroucení vrtulového listu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Obvodová rychlost listu roste s poloměrem. Geometrické zkroucení proto nastavuje větší úhel u kořene a menší u konce tak, aby byl efektivní úhel náběhu a zatížení po délce listu přibližně rovnoměrné.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Obvodová rychlost listu roste s poloměrem. Geometrické zkroucení proto nastavuje větší úhel u kořene a menší u konce tak, aby byl efektivní úhel náběhu a zatížení po délce listu přibližně rovnoměrné."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Zkroucení vrtulového listu“ se správnou odpovědí: „přibližně stejné zatížení způsobené stejným efektivním úhlem náběhu po celé délce listu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 91,
+      "title": "Mlýnkující vrtule",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Mlýnkující vrtule je proudem vzduchu roztáčena a odebírá mu energii. Po vysazení motoru proto vytváří výrazný odpor.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mlýnkující vrtule je proudem vzduchu roztáčena a odebírá mu energii. Po vysazení motoru proto vytváří výrazný odpor."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Mlýnkující vrtule“ se správnou odpovědí: „vytváří větší odpor než tah“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 92,
+      "title": "Páka vrtule při klesání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Pohyb páky vrtule dozadu u vrtule s regulací konstantních otáček vede k většímu úhlu nastavení listů a nižším otáčkám. Menší odpor vrtule pak zmenší úhel klesání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pohyb páky vrtule dozadu u vrtule s regulací konstantních otáček vede k většímu úhlu nastavení listů a nižším otáčkám. Menší odpor vrtule pak zmenší úhel klesání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Páka vrtule při klesání“ se správnou odpovědí: „listy se nastaví na větší úhel nastavení, úhel klesání se zmenší“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 93,
+      "title": "Letový režim bodu 1",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Na schématu PFA-008 bod 1 označuje režim letu na zádech.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na schématu PFA-008 bod 1 označuje režim letu na zádech."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Letový režim bodu 1“ se správnou odpovědí: „let na zádech“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 94,
+      "title": "Letový režim bodu 5",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Na schématu PFA-008 bod 5 označuje minimální rychlost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na schématu PFA-008 bod 5 označuje minimální rychlost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Letový režim bodu 5“ se správnou odpovědí: „minimální rychlost“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "Přílohová otázka: řeš ji podle zobrazeného schématu a vazby čísel nebo křivek na jednotlivé prvky.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 95,
+      "title": "Standardní zatáčka a TAS",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Pro standardní zatáčku 360° za 2 minuty je úhlová rychlost pevně daná. Potřebný náklon proto roste s pravou vzdušnou rychlostí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro standardní zatáčku 360° za 2 minuty je úhlová rychlost pevně daná. Potřebný náklon proto roste s pravou vzdušnou rychlostí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Standardní zatáčka a TAS“ se správnou odpovědí: „pravé vzdušné rychlosti“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 96,
+      "title": "Násobek a pádová rychlost v zatáčce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "V koordinované zatáčce je násobek větší než 1. Křídlo musí vytvářet větší celkový vztlak a pádová rychlost proto roste přibližně s odmocninou násobku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V koordinované zatáčce je násobek větší než 1. Křídlo musí vytvářet větší celkový vztlak a pádová rychlost proto roste přibližně s odmocninou násobku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Násobek a pádová rychlost v zatáčce“ se správnou odpovědí: „n je větší než 1, vS je větší než v rovném letu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 97,
+      "title": "Rovnováha sil v zatáčce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "V zatáčce musí výsledný vztlak vyrovnat nejen tíhu, ale současně poskytnout dostředivou složku. Jeho velikost proto musí být vyšší než v přímém horizontálním letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V zatáčce musí výsledný vztlak vyrovnat nejen tíhu, ale současně poskytnout dostředivou složku. Jeho velikost proto musí být vyšší než v přímém horizontálním letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Rovnováha sil v zatáčce“ se správnou odpovědí: „vztlak musí být větší, aby vyrovnal součet tíhy a odstředivé síly“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 98,
+      "title": "Koncové víry a indukovaný odpor",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Koncové víry vznikají vyrovnáváním tlaku mezi spodní a horní stranou křídla. Sklánějí proudění a vytvářejí indukovaný odpor.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Koncové víry vznikají vyrovnáváním tlaku mezi spodní a horní stranou křídla. Sklánějí proudění a vytvářejí indukovaný odpor."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Koncové víry a indukovaný odpor“ se správnou odpovědí: „indukovaný odpor vytvářený víry na konci křídel“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 99,
+      "title": "Přízemní efekt",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Blízkost země omezuje rozvoj koncových vírů a downwash. Výsledkem je menší indukovaný odpor a pro stejný úhel náběhu vyšší účinný vztlak.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blízkost země omezuje rozvoj koncových vírů a downwash. Výsledkem je menší indukovaný odpor a pro stejný úhel náběhu vyšší účinný vztlak."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Přízemní efekt“ se správnou odpovědí: „nárůst vztlaku a pokles indukovaného odporu v blízkosti země“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 5,
+      "source_question_id": 100,
+      "title": "Vývrtka versus spirála",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-05-official-questions",
+      "explanation": "Vývrtka je autorotační pád s asymetrickým odtržením proudu, takže rychlost zůstává relativně nízká. Ve spirále křídlo není v pádu a při strmém klesání rychlost rychle narůstá.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vývrtka je autorotační pád s asymetrickým odtržením proudu, takže rychlost zůstává relativně nízká. Ve spirále křídlo není v pádu a při strmém klesání rychlost rychle narůstá."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku spoj téma „Vývrtka versus spirála“ se správnou odpovědí: „vývrtka: odtržení proudu na vnitřním křídle, rychlost konstantní – spirála: není odtržení proudu, rychlost rychle narůstá“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zatížení, vrtule a manévr spolu propojují aerodynamiku s provozními limity. Při letu respektuj hmotnost a centráž, rychlostní limity, násobky a doporučené postupy konkrétního typu."
+        }
+      ],
+      "warning": "Postupy při pádu a vývrtce se provádějí podle AFM/POH a výcviku pro konkrétní typ letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.3 ze dne 12.08.2025."
+    }
+  ]
+}

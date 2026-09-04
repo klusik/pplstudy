@@ -23,6 +23,7 @@ require_once __DIR__ . '/services/app_settings.php';
 require_once __DIR__ . '/services/admin_logs.php';
 require_once __DIR__ . '/services/users.php';
 require_once __DIR__ . '/services/question_bank.php';
+require_once __DIR__ . '/services/source_documents.php';
 require_once __DIR__ . '/services/quiz.php';
 require_once __DIR__ . '/services/importer.php';
 require_once __DIR__ . '/services/diagnostics.php';

@@ -1,0 +1,1403 @@
+{
+  "schema_version": 1,
+  "subject_id": 4,
+  "source_key": "subject-04-official-questions",
+  "source_title": "Komunikace – letoun",
+  "source_version": "1.1, 12.08.2025",
+  "source_sha256": "cda0b7d7698ad0e8423df9e043f6183ed37493367fc4371eb2ee265398a73eab",
+  "source_filename": "04-komunikace-official.pdf",
+  "questions": [
+    {
+      "source_question_id": 1,
+      "prompt": "Kdy má pilot vysílat naslepo?",
+      "choices": [
+        "je-li třeba vysílat důležité provozní nebo technické informace současně více stanicím",
+        "nelze-li navázat rádiové spojení s příslušnou leteckou stanicí a není jistota, že stanice vysílání přijala",
+        "umožňuje-li provozní situace na letišti vysílání informací, které nemusí být pozemními stanicemi potvrzovány",
+        "vletěl-li pilot neúmyslně do oblačnosti nebo mlhy a chce vyžádat od pozemní stanice navigační pomoc"
+      ],
+      "correct_choice_index": 1,
+      "answer": "nelze-li navázat rádiové spojení s příslušnou leteckou stanicí a není jistota, že stanice vysílání přijala",
+      "source_document_page": 1,
+      "title": "Vysílání naslepo",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "prompt": "Přeladění z řídící frekvence (s výjimkou situace, kdy letadlo přijelo na parkovací místo):",
+      "choices": [
+        "musí být schváleno",
+        "musí být ohlášeno",
+        "nemusí být povinně hlášeno",
+        "musí být schváleno dvakrát"
+      ],
+      "correct_choice_index": 0,
+      "answer": "musí být schváleno",
+      "source_document_page": 1,
+      "title": "Opuštění řídící frekvence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "prompt": "Jaká zkratka se používá pro pojem \"na úrovni\"?",
+      "choices": [
+        "ABE",
+        "ABB",
+        "ABM",
+        "ABA"
+      ],
+      "correct_choice_index": 2,
+      "answer": "ABM",
+      "source_document_page": 1,
+      "title": "Zkratka ABM",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "prompt": "Jaká zkratka se používá pro pojem \"pravidla pro let za viditelnosti\"?",
+      "choices": [
+        "VFR",
+        "VRU",
+        "VMC",
+        "VFS"
+      ],
+      "correct_choice_index": 0,
+      "answer": "VFR",
+      "source_document_page": 1,
+      "title": "Zkratka VFR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 5,
+      "prompt": "Jaká zkratka se používá pro pojem \"překážka\"?",
+      "choices": [
+        "OBS",
+        "OBST",
+        "OST",
+        "OBTC"
+      ],
+      "correct_choice_index": 1,
+      "answer": "OBST",
+      "source_document_page": 1,
+      "title": "Zkratka OBST",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "prompt": "Co znamená zkratka FIS?",
+      "choices": [
+        "blikající informační systém",
+        "blikající informační služba",
+        "letový informační systém",
+        "letová informační služba"
+      ],
+      "correct_choice_index": 3,
+      "answer": "letová informační služba",
+      "source_document_page": 2,
+      "title": "Letová informační služba FIS",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 7,
+      "prompt": "Co znamená zkratka FIR?",
+      "choices": [
+        "letová informační oblast",
+        "přijímač letové integrity",
+        "informační radar toku provozu",
+        "požadovaná informace toku"
+      ],
+      "correct_choice_index": 0,
+      "answer": "letová informační oblast",
+      "source_document_page": 2,
+      "title": "Letová informační oblast FIR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 8,
+      "prompt": "Co znamená zkratka H24?",
+      "choices": [
+        "od západu do východu slunce",
+        "od východu do západu slunce",
+        "služba 24 hodin denně",
+        "nestanovený otevírací čas"
+      ],
+      "correct_choice_index": 2,
+      "answer": "služba 24 hodin denně",
+      "source_document_page": 2,
+      "title": "Provozní doba H24",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "prompt": "Co znamená zkratka HX?",
+      "choices": [
+        "od západu do východu slunce",
+        "od východu do západu slunce",
+        "služba 24 hodin denně",
+        "nestanovený otevírací čas"
+      ],
+      "correct_choice_index": 3,
+      "answer": "nestanovený otevírací čas",
+      "source_document_page": 2,
+      "title": "Provozní doba HX",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "prompt": "Jak má být nastaven výškoměr, aby na zemi ukazoval nulu?",
+      "choices": [
+        "na QFE",
+        "na QNH",
+        "na QNE",
+        "na QTE"
+      ],
+      "correct_choice_index": 0,
+      "answer": "na QFE",
+      "source_document_page": 2,
+      "title": "QFE a nulová indikace na zemi",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "prompt": "Co ukazuje výškoměr nastavený na QNH?",
+      "choices": [
+        "výšku nad tlakovou hladinou 1013.25 hPa",
+        "výšku nad tlakovou hladinou referenčního letiště",
+        "výšku nad tlakovou hladinou střední hladiny moře",
+        "výšku nad tlakovou hladinou bodu s nejvyšší nadmořskou výškou v okruhu 10 km"
+      ],
+      "correct_choice_index": 2,
+      "answer": "výšku nad tlakovou hladinou střední hladiny moře",
+      "source_document_page": 3,
+      "title": "QNH a výška vůči MSL",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 12,
+      "prompt": "Co ukazuje výškoměr nastavený na QFE?",
+      "choices": [
+        "výšku nad tlakovou hladinou 1013.25 hPa",
+        "výšku nad tlakovou hladinou referenčního bodu letiště",
+        "výšku nad tlakovou hladinou střední hladiny moře",
+        "výšku nad tlakovou hladinou bodu s nejvyšší nadmořskou výškou v okruhu 10 km"
+      ],
+      "correct_choice_index": 1,
+      "answer": "výšku nad tlakovou hladinou referenčního bodu letiště",
+      "source_document_page": 3,
+      "title": "QFE a referenční letiště",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 13,
+      "prompt": "Co znamená zkratka QDR?",
+      "choices": [
+        "magnetický směrník ke stanici",
+        "magnetický směrník od stanice",
+        "zeměpisný směrník ke stanici",
+        "zeměpisný směrník od stanice"
+      ],
+      "correct_choice_index": 1,
+      "answer": "magnetický směrník od stanice",
+      "source_document_page": 3,
+      "title": "QDR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "prompt": "Co znamená zkratka QUJ?",
+      "choices": [
+        "magnetický směrník ke stanici",
+        "magnetický směrník od stanice",
+        "zeměpisný směrník ke stanici",
+        "zeměpisný směrník od stanice"
+      ],
+      "correct_choice_index": 2,
+      "answer": "zeměpisný směrník ke stanici",
+      "source_document_page": 3,
+      "title": "QUJ",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "prompt": "Co znamená zkratka QTE?",
+      "choices": [
+        "magnetický směrník ke stanici",
+        "magnetický směrník od stanice",
+        "zeměpisný směrník ke stanici",
+        "zeměpisný směrník od stanice"
+      ],
+      "correct_choice_index": 3,
+      "answer": "zeměpisný směrník od stanice",
+      "source_document_page": 3,
+      "title": "QTE",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 16,
+      "prompt": "Jaký Q kód se používá pro magnetický směrník od stanice?",
+      "choices": [
+        "QDM",
+        "QDR",
+        "QUJ",
+        "QTE"
+      ],
+      "correct_choice_index": 1,
+      "answer": "QDR",
+      "source_document_page": 4,
+      "title": "Magnetický směrník od stanice",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 17,
+      "prompt": "Jaký Q kód se používá pro zeměpisný směrník od stanice?",
+      "choices": [
+        "QDM",
+        "QDR",
+        "QUJ",
+        "QTE"
+      ],
+      "correct_choice_index": 3,
+      "answer": "QTE",
+      "source_document_page": 4,
+      "title": "Zeměpisný směrník od stanice",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "prompt": "Jaký Q kód se používá pro zeměpisný směrník ke stanici?",
+      "choices": [
+        "QDM",
+        "QDR",
+        "QUJ",
+        "QTE"
+      ],
+      "correct_choice_index": 2,
+      "answer": "QUJ",
+      "source_document_page": 4,
+      "title": "Zeměpisný směrník ke stanici",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 19,
+      "prompt": "Která z uvedených radiotelefonních zpráv má vyšší prioritu než zpráva o bezpečnosti letu?",
+      "choices": [
+        "zpráva o rádiovém zaměřování",
+        "hlášení polohy letadla",
+        "meteorologická zpráva",
+        "zpráva o pravidelnosti letu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "zpráva o rádiovém zaměřování",
+      "source_document_page": 4,
+      "title": "Priorita zpráv o rádiovém zaměřování",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "prompt": "Jaký je správný název pro zprávu potřebnou pro řízení letového provozu?",
+      "choices": [
+        "zpráva o rádiovém zaměřování",
+        "zpráva o pravidelnosti letu",
+        "meteorologická zpráva",
+        "zpráva pro zajištění bezpečnosti letu"
+      ],
+      "correct_choice_index": 3,
+      "answer": "zpráva pro zajištění bezpečnosti letu",
+      "source_document_page": 4,
+      "title": "Zprávy pro zajištění bezpečnosti letu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "prompt": "Tísňové zprávy jsou zprávy:",
+      "choices": [
+        "týkající se letadla a cestujících, kteří čelí závažné a bezprostřední hrozbě vyžadující okamžitou pomoc",
+        "týkající se bezpečnosti letadla, plavidla nebo vozidla nebo osoby v dohledu",
+        "od provozovatele letadla, které mají být neprodleně odeslány letadlu za letu",
+        "týkající se provozu nebo údržby zařízení důležitých pro bezpečnost a pravidelnost letového provozu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "týkající se letadla a cestujících, kteří čelí závažné a bezprostřední hrozbě vyžadující okamžitou pomoc",
+      "source_document_page": 5,
+      "title": "Definice tísňové zprávy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "prompt": "Pilnostní zprávy jsou zprávy:",
+      "choices": [
+        "týkající se letadla a jeho cestujících, kteří čelí vážné a bezprostřední hrozbě a vyžadující okamžitou pomoc",
+        "týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu",
+        "vyslané pilotem nebo provozovatelem letadla mající bezprostřední význam pro letadlo za letu",
+        "týkající se provozu nebo údržby zařízení nezbytných pro bezpečnost nebo pravidelnost provozu letadel"
+      ],
+      "correct_choice_index": 1,
+      "answer": "týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu",
+      "source_document_page": 5,
+      "title": "Definice pilnostní zprávy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 23,
+      "prompt": "Zprávy o pravidelnosti letů jsou zprávy:",
+      "choices": [
+        "týkající se letadla a jeho cestujících, kteří čelí vážné a bezprostřední hrozbě vyžadující okamžitou pomoc",
+        "týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu",
+        "vyslané provozovatelem letadla nebo letadlem mající bezprostřední význam pro letadlo za letu",
+        "týkající se provozu nebo údržby zařízení důležitých pro bezpečnost nebo pravidelnost provozu letadel"
+      ],
+      "correct_choice_index": 3,
+      "answer": "týkající se provozu nebo údržby zařízení důležitých pro bezpečnost nebo pravidelnost provozu letadel",
+      "source_document_page": 5,
+      "title": "Zprávy o pravidelnosti letů",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "prompt": "Která z následujících zpráv má největší přednost?",
+      "choices": [
+        "žádám QDM",
+        "točte doleva",
+        "QNH 1013",
+        "vítr 300 stupňů, 5 uzlů"
+      ],
+      "correct_choice_index": 0,
+      "answer": "žádám QDM",
+      "source_document_page": 5,
+      "title": "Priorita žádosti o QDM",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "prompt": "Jak se správně vysílá volací značka HB-YKM?",
+      "choices": [
+        "Home Bravo Yuliett Kilo Mike",
+        "Home Bravo Yankee Kilo Mikro",
+        "Hotel Bravo Yankee Kilo Mike",
+        "Hotel Bravo Yuliett Kilo Mikro"
+      ],
+      "correct_choice_index": 2,
+      "answer": "Hotel Bravo Yankee Kilo Mike",
+      "source_document_page": 5,
+      "title": "Hláskování HB-YKM",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 26,
+      "prompt": "Jak se správně vysílá volací značka OE-JVK?",
+      "choices": [
+        "Omega Echo Juliett Victor Kilogramm",
+        "Oscar Echo Juliett Victor Kilo",
+        "Oscar Echo Jankee Victor Kilogramm",
+        "Omega Echo Jankee Victor Kilo"
+      ],
+      "correct_choice_index": 1,
+      "answer": "Oscar Echo Juliett Victor Kilo",
+      "source_document_page": 6,
+      "title": "Hláskování OE-JVK",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 27,
+      "prompt": "Výška 4500 ft se vysílá jako:",
+      "choices": [
+        "čtyři tisíce pět set",
+        "čtyři pět nula nula",
+        "čtyři pět tisíc",
+        "čtyři tisíce pět nula nula"
+      ],
+      "correct_choice_index": 0,
+      "answer": "čtyři tisíce pět set",
+      "source_document_page": 6,
+      "title": "Vysílání výšky 4500 ft",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "prompt": "Kurz 285 se právně vysílá jako:",
+      "choices": [
+        "dvě stě osum pět",
+        "dva osum pět",
+        "dva sto osum pět",
+        "dvě stě osumdesát pět"
+      ],
+      "correct_choice_index": 1,
+      "answer": "dva osum pět",
+      "source_document_page": 6,
+      "title": "Vysílání kurzu 285",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "prompt": "Frekvence 119.500 MHz se správně vysílá jako:",
+      "choices": [
+        "jedna jedna devět tisíc čárka pět nula",
+        "jedna jedna devět čárka pět nula nula",
+        "jedna jedna devět čárka pět nula",
+        "jedna jedna devět čárka pět"
+      ],
+      "correct_choice_index": 3,
+      "answer": "jedna jedna devět čárka pět",
+      "source_document_page": 6,
+      "title": "Vysílání frekvence 119.500 MHz",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "prompt": "Informace o směru \"12 hodin\" se správně vysílá jako:",
+      "choices": [
+        "dvanáct hodin",
+        "jedna dva hodin",
+        "jedna dva",
+        "jedna dva sto"
+      ],
+      "correct_choice_index": 0,
+      "answer": "dvanáct hodin",
+      "source_document_page": 6,
+      "title": "Směr podle hodinové polohy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "prompt": "Časy se vysílají jako:",
+      "choices": [
+        "místní čas",
+        "UTC",
+        "standardní čas",
+        "pásmový čas"
+      ],
+      "correct_choice_index": 1,
+      "answer": "UTC",
+      "source_document_page": 7,
+      "title": "UTC v radiotelefonii",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "prompt": "Je-li možná záměna, čas 1620 se vysílá jako:",
+      "choices": [
+        "šestnáct dvacet",
+        "jeden tisíc šest set dva nula",
+        "jedna šest dva nula",
+        "dva nula"
+      ],
+      "correct_choice_index": 2,
+      "answer": "jedna šest dva nula",
+      "source_document_page": 7,
+      "title": "Jednoznačné vysílání času 1620",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "prompt": "Jaký je význam slova \"rozumím\"?",
+      "choices": [
+        "rozumím Vaší zprávě a budu podle ní postupovat",
+        "přijal jsem vše z Vašeho posledního vysílání",
+        "v tomto vysílání byla učiněna chyba, správné znění je",
+        "povolení pro požadovaný úkon je uděleno"
+      ],
+      "correct_choice_index": 1,
+      "answer": "přijal jsem vše z Vašeho posledního vysílání",
+      "source_document_page": 7,
+      "title": "Význam „rozumím“",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "prompt": "Jaký je význam slova \"oprava\"?",
+      "choices": [
+        "rozumím Vaší zprávě a budu podle ní postupovat",
+        "přijal jsem vše z Vašeho posledního vysílání",
+        "v tomto vysílání byla učiněna chyba, správné znění je",
+        "povolení pro požadovaný úkon je uděleno"
+      ],
+      "correct_choice_index": 2,
+      "answer": "v tomto vysílání byla učiněna chyba, správné znění je",
+      "source_document_page": 7,
+      "title": "Význam „oprava“",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "prompt": "Jaký je význam fráze \"schváleno\"?",
+      "choices": [
+        "rozumím Vaší zprávě a budu podle ní postupovat",
+        "přijal jsem vše z Vašeho posledního vysílání",
+        "v tomto vysílání byla učiněna chyba, správně znění je",
+        "povolení pro požadovaný úkon je uděleno"
+      ],
+      "correct_choice_index": 3,
+      "answer": "povolení pro požadovaný úkon je uděleno",
+      "source_document_page": 7,
+      "title": "Význam „schváleno“",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "prompt": "Jakou frázi použije pilot, chce-li zkontrolovat čitelnost svého vysílání?",
+      "choices": [
+        "jaké je spojení",
+        "jak slyšíte",
+        "slyšíte mě dokonale srozumitelně",
+        "žádám slyšitelnost"
+      ],
+      "correct_choice_index": 1,
+      "answer": "jak slyšíte",
+      "source_document_page": 8,
+      "title": "Kontrola čitelnosti",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 37,
+      "prompt": "Jakou frázi použije pilot, chce-li proletět řízeným prostorem?",
+      "choices": [
+        "chci",
+        "požaduji",
+        "žádám",
+        "chtěl bych"
+      ],
+      "correct_choice_index": 2,
+      "answer": "žádám",
+      "source_document_page": 8,
+      "title": "Žádost o průlet řízeným prostorem",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "prompt": "Jakou frázi použije pilot, má-li na zprávu odpovědět souhlasně?",
+      "choices": [
+        "rozumím",
+        "potvrzuji",
+        "souhlasím",
+        "ano"
+      ],
+      "correct_choice_index": 1,
+      "answer": "potvrzuji",
+      "source_document_page": 8,
+      "title": "Kladná odpověď",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "prompt": "Jakou frázi použije pilot, má-li na zprávu odpovědět záporně?",
+      "choices": [
+        "konec",
+        "nikoliv",
+        "ne",
+        "negativ"
+      ],
+      "correct_choice_index": 3,
+      "answer": "negativ",
+      "source_document_page": 8,
+      "title": "Záporná odpověď",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "prompt": "Jakou frázi použije pilot, chce-li věži oznámit, že je připraven ke vzletu?",
+      "choices": [
+        "připraven ke spouštění",
+        "připraven k odletu",
+        "připraven",
+        "žádám vzlet"
+      ],
+      "correct_choice_index": 1,
+      "answer": "připraven k odletu",
+      "source_document_page": 8,
+      "title": "Připraven k odletu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "prompt": "Jakou frázi použije pilot, chce-li věž informovat, že provádí průlet?",
+      "choices": [
+        "bez přistání",
+        "přiblížení zrušeno",
+        "tahám",
+        "provádím průlet"
+      ],
+      "correct_choice_index": 3,
+      "answer": "provádím průlet",
+      "source_document_page": 9,
+      "title": "Oznámení průletu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "prompt": "Jaký je volací znak stanoviště letištního řízení?",
+      "choices": [
+        "věž",
+        "letiště",
+        "zem",
+        "oblast"
+      ],
+      "correct_choice_index": 0,
+      "answer": "věž",
+      "source_document_page": 9,
+      "title": "Volací znak VĚŽ",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "prompt": "Jaký je volací znak stanoviště řízení pohybů na zemi?",
+      "choices": [
+        "věž",
+        "ground",
+        "zem",
+        "oblast"
+      ],
+      "correct_choice_index": 1,
+      "answer": "ground",
+      "source_document_page": 9,
+      "title": "Volací znak GROUND",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "prompt": "Jaký je volací znak stanoviště letové informační služby?",
+      "choices": [
+        "info",
+        "poradní",
+        "letová informace",
+        "informace"
+      ],
+      "correct_choice_index": 3,
+      "answer": "informace",
+      "source_document_page": 9,
+      "title": "Volací znak INFORMACE",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "prompt": "Jak lze správně zkrátit volací znak D-EAZF?",
+      "choices": [
+        "DZF",
+        "DEA",
+        "AZF",
+        "DEF"
+      ],
+      "correct_choice_index": 0,
+      "answer": "DZF",
+      "source_document_page": 9,
+      "title": "Zkrácení volacího znaku D-EAZF",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "prompt": "Kdy může pilot zkrátit volací znak svého letadla?",
+      "choices": [
+        "v řízeném vzdušném prostoru",
+        "poté, co pozemní stanice použila zkrácenou značku",
+        "je-li na okruhu malý provoz",
+        "po přeletu prvního hlásného bodu"
+      ],
+      "correct_choice_index": 1,
+      "answer": "poté, co pozemní stanice použila zkrácenou značku",
+      "source_document_page": 10,
+      "title": "Kdy lze použít zkrácený volací znak",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "prompt": "Jaký volací znak letadla se použije při navazování spojení?",
+      "choices": [
+        "pouze poslední dvě písmena anebo číslice",
+        "pouze první dvě písmena anebo číslice",
+        "všechna písmena anebo číslice",
+        "pouze první tři písmena anebo číslice"
+      ],
+      "correct_choice_index": 2,
+      "answer": "všechna písmena anebo číslice",
+      "source_document_page": 10,
+      "title": "Volací znak při navázání spojení",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "prompt": "Jak se správně navazuje rádiové spojení mezi OK-ABC a Tuřany věž?",
+      "choices": [
+        "věž od OK-ABC",
+        "Tuřany věž, přepínám",
+        "OK-ABC volá Tuřany věž",
+        "Tuřany věž OK-ABC"
+      ],
+      "correct_choice_index": 3,
+      "answer": "Tuřany věž OK-ABC",
+      "source_document_page": 10,
+      "title": "Navázání spojení s Tuřany věž",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "prompt": "Jak se správně potvrdí pokyn \"volejte Tuřany věž na 121.275\"?",
+      "choices": [
+        "volejte věž na 121.275",
+        "121.275",
+        "volejte věž",
+        "volejte 121.275"
+      ],
+      "correct_choice_index": 1,
+      "answer": "121.275",
+      "source_document_page": 10,
+      "title": "Potvrzení změny frekvence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 50,
+      "prompt": "Co znamená srozumitelnost 1?",
+      "choices": [
+        "vysílání je nesrozumitelné",
+        "vysílání je chvílemi srozumitelné",
+        "vysílání je srozumitelné, ale s obtížemi",
+        "vysílání je dokonale srozumitelné"
+      ],
+      "correct_choice_index": 0,
+      "answer": "vysílání je nesrozumitelné",
+      "source_document_page": 10,
+      "title": "Srozumitelnost 1",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 51,
+      "prompt": "Co znamená srozumitelnost 2?",
+      "choices": [
+        "vysílání je nesrozumitelné",
+        "vysílání je chvílemi srozumitelné",
+        "vysílání je srozumitelné, ale s obtížemi",
+        "vysílání je dokonale srozumitelné"
+      ],
+      "correct_choice_index": 1,
+      "answer": "vysílání je chvílemi srozumitelné",
+      "source_document_page": 11,
+      "title": "Srozumitelnost 2",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "prompt": "Co znamená srozumitelnost 3?",
+      "choices": [
+        "vysílání je nesrozumitelné",
+        "vysílání je chvílemi srozumitelné",
+        "vysílání je srozumitelné, ale s obtížemi",
+        "vysílání je dokonale srozumitelné"
+      ],
+      "correct_choice_index": 2,
+      "answer": "vysílání je srozumitelné, ale s obtížemi",
+      "source_document_page": 11,
+      "title": "Srozumitelnost 3",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "prompt": "Co znamená srozumitelnost 5?",
+      "choices": [
+        "vysílání je nesrozumitelné",
+        "vysílání je chvílemi srozumitelné",
+        "vysílání je srozumitelné, ale s obtížemi",
+        "vysílání je dokonale srozumitelné"
+      ],
+      "correct_choice_index": 3,
+      "answer": "vysílání je dokonale srozumitelné",
+      "source_document_page": 11,
+      "title": "Srozumitelnost 5",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "prompt": "Která informace od pozemní stanice nevyžaduje opakování zprávy?",
+      "choices": [
+        "dráha v používání",
+        "kód odpovídače sekundárního radaru",
+        "vítr",
+        "výška"
+      ],
+      "correct_choice_index": 2,
+      "answer": "vítr",
+      "source_document_page": 11,
+      "title": "Vítr a readback",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "prompt": "Která informace od pozemní stanice nevyžaduje opakování zprávy?",
+      "choices": [
+        "nastavení výškoměru",
+        "kurz",
+        "informace o provozu",
+        "pokyny pro pojíždění"
+      ],
+      "correct_choice_index": 2,
+      "answer": "informace o provozu",
+      "source_document_page": 11,
+      "title": "Informace o provozu a readback",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 56,
+      "prompt": "Jak se má správně potvrdit pokyn \"DZF po odpoutání stoupejte přímo do 2500 stop, potom točte doprava na kurz 220, vítr 090 stupňů, 5 uzlů, dráha 12, vzlet povolen\"?",
+      "choices": [
+        "DZF po odpoutání stoupat přímo na 2500 stop, potom točit doprava 220, 090 stupňů, 5 uzlů, vzlet povolen",
+        "DZF po odpoutání přímo 2500 stop, potom točit doprava na kurz 220, 09 stupňů, 5 uzlů",
+        "DZF po odpoutání stoupat přímo 2500 stop, potom točit doprava kurz 220, dráha 12, vzlet povolen",
+        "DZF po odpoutání stoupat přímo 2500 stop, rozumím, provedu, kurz 220, 090 stupňů, 5 uzlů, vzlet povolen"
+      ],
+      "correct_choice_index": 2,
+      "answer": "DZF po odpoutání stoupat přímo 2500 stop, potom točit doprava kurz 220, dráha 12, vzlet povolen",
+      "source_document_page": 12,
+      "title": "Úplný readback po vzletu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 57,
+      "prompt": "Jak se má správně potvrdit pokyn \"příští hlášení PAH\"?",
+      "choices": [
+        "rozumím",
+        "ohlásím PAH",
+        "pozitiv",
+        "provedu"
+      ],
+      "correct_choice_index": 3,
+      "answer": "provedu",
+      "source_document_page": 12,
+      "title": "Potvrzení příštího hlášení",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 58,
+      "prompt": "Jak se má správně potvrdit pokyn \"squawk 4321, volejte Bremen radar na 131.325\"?",
+      "choices": [
+        "squawk 4321, 131.325",
+        "rozumím",
+        "squawk 4321, provedu",
+        "provedu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "squawk 4321, 131.325",
+      "source_document_page": 12,
+      "title": "Readback squawku a frekvence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 59,
+      "prompt": "Jak se správně potvrdí informace \"nyní vstupujete do vzdušného prostoru Delta\"?",
+      "choices": [
+        "vstupuji",
+        "rozumím",
+        "vzdušný prostor Delta",
+        "provedu"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rozumím",
+      "source_document_page": 12,
+      "title": "Potvrzení informace o vstupu do prostoru D",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 60,
+      "prompt": "Jaké pokrytí oblačností znamená zkratka FEW ve zprávě METAR?",
+      "choices": [
+        "1 až 2 osminy",
+        "3 až 4 osminy",
+        "5 až 7 osmin",
+        "8 osmin"
+      ],
+      "correct_choice_index": 0,
+      "answer": "1 až 2 osminy",
+      "source_document_page": 12,
+      "title": "FEW v METAR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 61,
+      "prompt": "Jaké pokrytí oblačností znamená zkratka SCT ve zprávě METAR?",
+      "choices": [
+        "1 až 2 osminy",
+        "3 až 4 osminy",
+        "5 až 7 osmin",
+        "8 osmin"
+      ],
+      "correct_choice_index": 1,
+      "answer": "3 až 4 osminy",
+      "source_document_page": 13,
+      "title": "SCT v METAR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 62,
+      "prompt": "Jaké pokrytí oblačností znamená zkratka BKN ve zprávě METAR?",
+      "choices": [
+        "1 až 2 osminy",
+        "3 až 4 osminy",
+        "5 až 7 osmin",
+        "8 osmin"
+      ],
+      "correct_choice_index": 2,
+      "answer": "5 až 7 osmin",
+      "source_document_page": 13,
+      "title": "BKN v METAR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 63,
+      "prompt": "Jak se správně vysílá informace \"dohlednost 12 km\"?",
+      "choices": [
+        "dvanáct kilometrů",
+        "jedna - dva kilometry",
+        "jedna - nula kilometrů nebo více",
+        "jedna - nula kilometrů"
+      ],
+      "correct_choice_index": 2,
+      "answer": "jedna - nula kilometrů nebo více",
+      "source_document_page": 13,
+      "title": "Vysílání dohlednosti 12 km",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 64,
+      "prompt": "Kdy se dohlednost vysílá v metrech?",
+      "choices": [
+        "do 5 km",
+        "větší než 5 km",
+        "do 10 km",
+        "větší než 10 km"
+      ],
+      "correct_choice_index": 0,
+      "answer": "do 5 km",
+      "source_document_page": 13,
+      "title": "Dohlednost v metrech",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 65,
+      "prompt": "Kdy se dohlednost vysílá v kilometrech?",
+      "choices": [
+        "do 5 km",
+        "větší než 5 km",
+        "do 10 km",
+        "větší než 10 km"
+      ],
+      "correct_choice_index": 1,
+      "answer": "větší než 5 km",
+      "source_document_page": 13,
+      "title": "Dohlednost v kilometrech",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 66,
+      "prompt": "Jaké informace se vysílají na frekvenci VOLMET?",
+      "choices": [
+        "NOTAMy",
+        "aktuální informace",
+        "navigační informace",
+        "meteorologické informace"
+      ],
+      "correct_choice_index": 3,
+      "answer": "meteorologické informace",
+      "source_document_page": 14,
+      "title": "VOLMET",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 67,
+      "prompt": "Jaké navigační zařízení lze využít pro vysílání zpráv ATIS?",
+      "choices": [
+        "DME",
+        "NDB",
+        "GPS",
+        "VOR"
+      ],
+      "correct_choice_index": 3,
+      "answer": "VOR",
+      "source_document_page": 14,
+      "title": "ATIS přes VOR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 68,
+      "prompt": "Jak lze při navigačním letu získat meteorologické informace o letištích?",
+      "choices": [
+        "VOLMET",
+        "GAMET",
+        "METAR",
+        "AIRMET"
+      ],
+      "correct_choice_index": 0,
+      "answer": "VOLMET",
+      "source_document_page": 14,
+      "title": "Meteorologické informace za letu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 69,
+      "prompt": "Jaký kód odpovídače sekundárního radaru znamená ztrátu spojení?",
+      "choices": [
+        "7000",
+        "7500",
+        "7600",
+        "7700"
+      ],
+      "correct_choice_index": 2,
+      "answer": "7600",
+      "source_document_page": 14,
+      "title": "SSR 7600",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 70,
+      "prompt": "Jaká je správná fráze na začátku vysílání naslepo?",
+      "choices": [
+        "slepý",
+        "vysílám na slepo",
+        "nemám příjem",
+        "naslouchám"
+      ],
+      "correct_choice_index": 1,
+      "answer": "vysílám na slepo",
+      "source_document_page": 14,
+      "title": "Úvod vysílání naslepo",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 71,
+      "prompt": "Na jaké frekvenci je třeba vysílat na slepo?",
+      "choices": [
+        "na stávající frekvenci",
+        "na příslušné frekvenci FIS",
+        "na frekvenci věže",
+        "na frekvenci radaru pro nižší vzdušný prostor"
+      ],
+      "correct_choice_index": 0,
+      "answer": "na stávající frekvenci",
+      "source_document_page": 15,
+      "title": "Frekvence pro vysílání naslepo",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 72,
+      "prompt": "Kolikrát se má vysílat na slepo?",
+      "choices": [
+        "dvakrát",
+        "jednou",
+        "třikrát",
+        "čtyřikrát"
+      ],
+      "correct_choice_index": 0,
+      "answer": "dvakrát",
+      "source_document_page": 15,
+      "title": "Počet opakování vysílání naslepo",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 73,
+      "prompt": "V jaké situaci je třeba nastavit odpovídač sekundárního radaru na 7600?",
+      "choices": [
+        "ztráta spojení",
+        "nouze",
+        "únos",
+        "vlétnutí do oblačnosti"
+      ],
+      "correct_choice_index": 0,
+      "answer": "ztráta spojení",
+      "source_document_page": 15,
+      "title": "Použití kódu 7600",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 74,
+      "prompt": "Jaký je správný postup při ztrátě spojení ve vzdušném prostoru třídy D?",
+      "choices": [
+        "je třeba pokračovat v letu podle posledního povolení a podle pravidel VFR nebo tento prostor co nejkratší cestou opustit",
+        "je třeba pokračovat v letu nad 5000 ft a podle pravidel VFR nebo tento prostor co nejkratší cestou opustit",
+        "je třeba pokračovat v letu nad 5000 ft a podle pravidel VFR nebo tento prostor opustit po standardních tratích",
+        "je třeba pokračovat v letu podle posledního povolení a podle pravidel VFR nebo tento prostor opustit po standardních tratích"
+      ],
+      "correct_choice_index": 0,
+      "answer": "je třeba pokračovat v letu podle posledního povolení a podle pravidel VFR nebo tento prostor co nejkratší cestou opustit",
+      "source_document_page": 15,
+      "title": "Ztráta spojení ve třídě D",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 75,
+      "prompt": "Za jakých podmínek lze vstoupit do vzdušného prostoru třídy D při ztrátě spojení?",
+      "choices": [
+        "před ztrátou spojení to bylo schváleno",
+        "je to cílové letiště",
+        "na letištním okruhu jsou i jiná letadla",
+        "je to letiště odletu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "před ztrátou spojení to bylo schváleno",
+      "source_document_page": 15,
+      "title": "Vstup do třídy D při ztrátě spojení",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 76,
+      "prompt": "Jakou frázi je třeba opakovat třikrát před vysíláním pilnostní zprávy?",
+      "choices": [
+        "mayday",
+        "pan pan",
+        "pilnost",
+        "pomoc"
+      ],
+      "correct_choice_index": 1,
+      "answer": "pan pan",
+      "source_document_page": 16,
+      "title": "PAN PAN",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 77,
+      "prompt": "Pilnostní zprávy jsou definovány jako:",
+      "choices": [
+        "zprávy týkající se náhradních dílů potřebných pro pokračování v letu, které musí být objednány předem",
+        "zprávy týkající se letadla a jeho cestujících, které čelí vážné a bezprostřední hrozbě a vyžaduje okamžitou pomoc",
+        "zprávy týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu",
+        "zprávy týkající se personálu na odbavovací ploše znamenajícího bezprostřední nebezpečí pro přistávající letadla"
+      ],
+      "correct_choice_index": 2,
+      "answer": "zprávy týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu",
+      "source_document_page": 16,
+      "title": "Definice pilnostního provozu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 78,
+      "prompt": "Tísňové zprávy obsahují:",
+      "choices": [
+        "informace týkající se naléhavé potřeby náhradních dílů potřebných pro pokračování v letu, které musí být objednány předem",
+        "informace týkající se letadla a jeho cestujících, které čelí vážné a bezprostřední hrozbě a vyžaduje okamžitou pomoc",
+        "informace týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu",
+        "informace týkající se personálu na odbavovací ploše znamenajícího bezprostřední nebezpečí pro přistávající letadla"
+      ],
+      "correct_choice_index": 1,
+      "answer": "informace týkající se letadla a jeho cestujících, které čelí vážné a bezprostřední hrozbě a vyžaduje okamžitou pomoc",
+      "source_document_page": 16,
+      "title": "Definice tísňového provozu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 79,
+      "prompt": "Jaká je správná frekvence pro úvodní tísňovou zprávu?",
+      "choices": [
+        "nouzová frekvence",
+        "stávající frekvence",
+        "frekvence letové informační služby",
+        "frekvence radaru"
+      ],
+      "correct_choice_index": 1,
+      "answer": "stávající frekvence",
+      "source_document_page": 16,
+      "title": "Úvodní tísňová frekvence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 80,
+      "prompt": "Jaký druh informace má být obsažen v pilnostní zprávě?",
+      "choices": [
+        "zamýšlená trať, důležité informace pro podporu, úmysl pilota, letiště odletu, cílové letiště, kurz a nadmořská výška",
+        "povaha problému nebo pozorování, důležité informace pro podporu, letiště odletu, informace o poloze, kurz a nadmořská výška",
+        "zamýšlená trať, informace důležité pro podporu, úmysl pilota, informace o poloze, letiště odletu, kurz a nadmořská výška",
+        "povaha problému nebo pozorování, důležité informace pro podporu, úmysl pilota, informace o poloze, kurz a nadmořská výška"
+      ],
+      "correct_choice_index": 3,
+      "answer": "povaha problému nebo pozorování, důležité informace pro podporu, úmysl pilota, informace o poloze, kurz a nadmořská výška",
+      "source_document_page": 17,
+      "title": "Obsah pilnostní zprávy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 81,
+      "prompt": "Správný kód odpovídače sekundárního radaru pro případy nouze je:",
+      "choices": [
+        "7000",
+        "7500",
+        "7600",
+        "7700"
+      ],
+      "correct_choice_index": 3,
+      "answer": "7700",
+      "source_document_page": 17,
+      "title": "SSR 7700",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 82,
+      "prompt": "Která z následujících frekvencí je určena pro hlasové spojení VKV?",
+      "choices": [
+        "118.75 MHz",
+        "118.75 kHz",
+        "327.25 MHz",
+        "327.25 kHz"
+      ],
+      "correct_choice_index": 0,
+      "answer": "118.75 MHz",
+      "source_document_page": 17,
+      "title": "VHF hlasová frekvence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 83,
+      "prompt": "Která z následujících frekvencí je určena pro hlasovou komunikaci VKV?",
+      "choices": [
+        "108.80 MHz",
+        "120.50 MHz",
+        "115.15 MHz",
+        "117.30 kHz"
+      ],
+      "correct_choice_index": 1,
+      "answer": "120.50 MHz",
+      "source_document_page": 17,
+      "title": "VHF hlasová komunikace",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 84,
+      "prompt": "Jaké je správné označení vlnového pásma od 118.000 do 136.975 MHz používaného pro hlasovou komunikaci?",
+      "choices": [
+        "LF (dlouhé vlny)",
+        "MF (střední vlny)",
+        "VHF (velmi krátké vlny)",
+        "HF (krátké vlny)"
+      ],
+      "correct_choice_index": 2,
+      "answer": "VHF (velmi krátké vlny)",
+      "source_document_page": 17,
+      "title": "Letecké VHF pásmo",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 85,
+      "prompt": "Který z následujících faktorů má vliv na příjem vysílání VKV?",
+      "choices": [
+        "nadmořská výška",
+        "výška ionosféry",
+        "svítání / soumrak",
+        "pobřežní efekt"
+      ],
+      "correct_choice_index": 0,
+      "answer": "nadmořská výška",
+      "source_document_page": 18,
+      "title": "Dosah VHF a nadmořská výška",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 86,
+      "prompt": "Jaká je přibližně rychlost šíření elektromagnetických vln?",
+      "choices": [
+        "300 000 m/s",
+        "123 000 m/s",
+        "300 000 km/s",
+        "123 000 km/s"
+      ],
+      "correct_choice_index": 2,
+      "answer": "300 000 km/s",
+      "source_document_page": 18,
+      "title": "Rychlost elektromagnetických vln",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 87,
+      "prompt": "Zpráva ATIS je platná po dobu:",
+      "choices": [
+        "10 minut",
+        "30 minut",
+        "45 minut",
+        "60 minut"
+      ],
+      "correct_choice_index": 1,
+      "answer": "30 minut",
+      "source_document_page": 18,
+      "title": "Platnost zprávy ATIS",
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

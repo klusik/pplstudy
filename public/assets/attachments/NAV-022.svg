@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">NAV-022 VOR poloha</title>
+  <desc id="d">Studijní VOR indikátor s FROM informací pro radiál v severovýchodním kvadrantu.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NAV-022 VOR poloha</text>
+
+  <circle cx="500" cy="330" r="175" fill="#fbfcfd" stroke="#17384f" stroke-width="7"/>
+  <line x1="500" y1="190" x2="500" y2="470" stroke="#d4e0e8" stroke-width="4"/>
+  <line x1="360" y1="330" x2="640" y2="330" stroke="#d4e0e8" stroke-width="4"/>
+  <line x1="500" y1="330" x2="620" y2="210" stroke="#b64a4a" stroke-width="8"/>
+  <circle cx="500" cy="330" r="12" fill="#17384f"/>
+  <text x="635" y="205" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#b64a4a">FROM</text>
+  <text x="500" y="540" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">radiál 045° od stanice</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

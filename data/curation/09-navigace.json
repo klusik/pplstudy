@@ -1,0 +1,3431 @@
+{
+  "schema_version": 1,
+  "subject_id": 9,
+  "questions": [
+    {
+      "subject_id": 9,
+      "source_question_id": 1,
+      "title": "Osa rotace Země prochází",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisným severním pólem a zeměpisným jižním pólem“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisným severním pólem a zeměpisným jižním pólem“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 2,
+      "title": "Polární ose Země je pravdivý",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „polární osa Země prochází zeměpisným jižním pólem a zeměpisným severním pólem a je kolmá na rovinu rovníku“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „polární osa Země prochází zeměpisným jižním pólem a zeměpisným severním pólem a je kolmá na rovinu rovníku“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 3,
+      "title": "Jaký geometrický útvar nejlépe pro navigační systémy popisuje přibližně tvar Země",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „elipsoid“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „elipsoid“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 4,
+      "title": "Loxodromě je pravdivý",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „loxodroma protíná všechny poledníky pod stejným úhlem“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „loxodroma protíná všechny poledníky pod stejným úhlem“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 5,
+      "title": "Nejkratší spojnice dvou bodů na Zemi je částí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „velké kružnice“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „velké kružnice“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „velké kružnice“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 6,
+      "title": "Obvod Země na rovníku je přibližně: (",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „21600 NM.“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „21600 NM.“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách. Příloha NAV-002 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 7,
+      "title": "Jaký je rozdíl zeměpisné šířky mezi body A (12°53'30''N) a B (07°34'30''S)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „20°28'00''“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „20°28'00''“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 8,
+      "title": "Kde se nacházejí polární kruhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „23.5° severně a jižně od pólů“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „23.5° severně a jižně od pólů“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 9,
+      "title": "Jaká je vzdálenost mezi rovnoběžkami 48°N a 49°N podél poledníku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 10,
+      "title": "Jaká vzdálenost odpovídá rozdílu jednoho stupně zeměpisné šířky podél kteréhokoliv pole…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 11,
+      "title": "Bod A leží přesně na rovnoběžce 47°50'27''N. Jaký bod je přesně 240 NM severně od A",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „51°50'27'N'“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „51°50'27'N'“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „51°50'27'N'“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 12,
+      "title": "Jaká je vzdálenost podél rovníku mezi poledníky 150°E a 151°E ",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 13,
+      "title": "Jaká je vzdálenost po ortodromě mezi body A a B na rovníku, je-li rozdíl mezi příslušný…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „60 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 14,
+      "title": "Předpokládejte dva libovolné body A a B na stejné rovnoběžce, ale ne na rovníku. Bod A…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „menší než 600 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „menší než 600 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 15,
+      "title": "Jak dlouho trvá, než se Slunce posune o 20° zeměpisné délky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1:20 h“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1:20 h“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 16,
+      "title": "Jak dlouho trvá, než se Slunce posune o 10° zeměpisné délky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „0:40 h“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „0:40 h“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 17,
+      "title": "Jak dlouho trvá, než se Slunce posune o 10° zeměpisné délky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „0.66 h“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „0.66 h“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 18,
+      "title": "Pro Středoevropský letní čas (CEST) platí UTC+2. Jaký čas UTC odpovídá 1600 CEST",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1400 UTC“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1400 UTC“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 19,
+      "title": "UTC je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „koordinovaný světový čas používaný v letectví“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „koordinovaný světový čas používaný v letectví“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 20,
+      "title": "Pro středoevropský čas (CET) platí: CET = UTC+1. Jaký UTC odpovídá 1700 CET",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1600 UTC“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1600 UTC“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 21,
+      "title": "Vídeň (LOWW) se nachází na 016° 34'E, Salzburg (LOWS) na 013° 00'E. Jejich zeměpisnou š…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „ve Vídni je východ a západ slunce asi o 14 minut dříve než v Salzburku“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „ve Vídni je východ a západ slunce asi o 14 minut dříve než v Salzburku“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 22,
+      "title": "Pojem \"občanský soumrak\" je definován jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „doba po západu slunce, během které je střed slunečního disku 6° nebo méně pod zeměpisným horizontem“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „doba po západu slunce, během které je střed slunečního disku 6° nebo méně pod zeměpisným horizontem“. Země se otočí přibližně o 15° za hodinu, takže 1° zeměpisné délky odpovídá čtyřem minutám času."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "15° = 1 h, 1° = 4 min. CEST = UTC+2, CET = UTC+1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Letecké plánování, letové plány, meteorologické zprávy a NOTAM používají UTC, proto musí být převod časových pásem automatický návyk."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 23,
+      "title": "Je dáno: Oprava snosu větru: -012°, zeměpisný kurz: 125°, magnetická trať: 139°, deviac…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisná trať: 137°. Magnetický kurz: 127°. Kompasový kurz: 125°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisná trať: 137°. Magnetický kurz: 127°. Kompasový kurz: 125°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 24,
+      "title": "Je dáno: Zeměpisná trať: 179°, oprava snosu větru: -12°, deklinace: 004° E, deviace: +0…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „magnetický kurz: 163°. Magnetická trať: 175°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „magnetický kurz: 163°. Magnetická trať: 175°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 25,
+      "title": "Úhel mezi zeměpisnou tratí a zeměpisným kurzem se nazývá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „snos větru“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „snos větru“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 26,
+      "title": "Úhel mezi magnetickou a zeměpisnou tratí se nazývá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „deklinace“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „deklinace“. Základní geometrie Země používá zeměpisnou šířku, délku, poledníky a rovnoběžky. Jedna minuta zeměpisné šířky odpovídá přibližně jedné námořní míli."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "1° šířky = 60 NM. Velká kružnice dává nejkratší trasu, loxodroma protíná poledníky pod stálým úhlem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto vztahy jsou základem měření tratí a vzdáleností na leteckých mapách."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 27,
+      "title": "Pojem \"magnetická trať\" je definován jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „úhel mezi magnetickým severem a tratí“. Navigační řetězec odděluje trať od kurzu a zeměpisnou, magnetickou a kompasovou referenci. Vítr mění kurz vůči trati, deklinace převádí true/magnetic a deviace magnetic/compass.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „úhel mezi magnetickým severem a tratí“. Navigační řetězec odděluje trať od kurzu a zeměpisnou, magnetickou a kompasovou referenci. Vítr mění kurz vůči trati, deklinace převádí true/magnetic a deviace magnetic/compass."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Track je kam chceš letět po zemi, heading je kam míří příď. True ↔ magnetic přes deklinaci, magnetic ↔ compass přes deviaci."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V navigačním logu je užitečné zapisovat TC, WCA, TH, VAR, MH a DEV v pevném pořadí, aby se znaménka nepřehodila."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 28,
+      "title": "Pojem \"zeměpisná trať\" (TC) je definován jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „úhel mezi zeměpisným severem a tratí“. Navigační řetězec odděluje trať od kurzu a zeměpisnou, magnetickou a kompasovou referenci. Vítr mění kurz vůči trati, deklinace převádí true/magnetic a deviace magnetic/compass.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „úhel mezi zeměpisným severem a tratí“. Navigační řetězec odděluje trať od kurzu a zeměpisnou, magnetickou a kompasovou referenci. Vítr mění kurz vůči trati, deklinace převádí true/magnetic a deviace magnetic/compass."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Track je kam chceš letět po zemi, heading je kam míří příď. True ↔ magnetic přes deklinaci, magnetic ↔ compass přes deviaci."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V navigačním logu je užitečné zapisovat TC, WCA, TH, VAR, MH a DEV v pevném pořadí, aby se znaménka nepřehodila."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 29,
+      "title": "Je dáno: Zeměpisná trať: 183°, oprava snosu větru: +011°, magnetický kurz: 198°, kompas…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisný kurz: 194°. deklinace: 004° W“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisný kurz: 194°. deklinace: 004° W“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 30,
+      "title": "Je dáno: Zeměpisná trať: 183°, oprava snosu větru: +011°, magnetický kurz: 198°, kompas…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisný kurz: 194°. deviace: -002°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisný kurz: 194°. deviace: -002°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 31,
+      "title": "Je dáno: Zeměpisná trať: 183°, oprava snosu větru: +011°, magnetický kurz: 198°, kompas…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „deklinace: 004° W. deviace: -002°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „deklinace: 004° W. deviace: -002°.“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 32,
+      "title": "Kde má inklinace nejmenší hodnotu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „na magnetickém rovníku“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „na magnetickém rovníku“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Izogona = stejná deklinace. Agona = nulová deklinace. Inklinace = sklon siločar vůči horizontu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Magnetická data se v čase mění, takže mapy a letištní označení dráhy se mohou po letech aktualizovat."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 33,
+      "title": "Úhel mezi kompasovým severem a magnetickým severem se nazývá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „deviace“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „deviace“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Izogona = stejná deklinace. Agona = nulová deklinace. Inklinace = sklon siločar vůči horizontu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Magnetická data se v čase mění, takže mapy a letištní označení dráhy se mohou po letech aktualizovat."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 34,
+      "title": "Který směr odpovídá kompasovému severu (CN)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „severu, který ukazuje kompas s přímým čtením vlivem magnetického pole Země a letadla“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „severu, který ukazuje kompas s přímým čtením vlivem magnetického pole Země a letadla“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „severu, který ukazuje kompas s přímým čtením vlivem magnetického pole Země a letadla“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 35,
+      "title": "Pojem \"izogóna\" je definován jako spojnice dvou bodů na mapě, které mají stejnou hodnotu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „deklinace“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „deklinace“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Izogona = stejná deklinace. Agona = nulová deklinace. Inklinace = sklon siločar vůči horizontu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Magnetická data se v čase mění, takže mapy a letištní označení dráhy se mohou po letech aktualizovat."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 36,
+      "title": "Pojem \"agóna\" je definován jako spojnice dvou bodů na mapě nebo na Zemi, které",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „mají deklinaci 0°“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „mají deklinaci 0°“. Magnetické pole Země se popisuje deklinací a inklinací. Izogony spojují místa se stejnou deklinací a agona je izogona s nulovou deklinací."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Izogona = stejná deklinace. Agona = nulová deklinace. Inklinace = sklon siločar vůči horizontu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Magnetická data se v čase mění, takže mapy a letištní označení dráhy se mohou po letech aktualizovat."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 37,
+      "title": "Jaké oficiální základní jednotky a jejich zkratky se používají v letecké navigaci pro m…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „námořní míle (NM), kilometry (km)“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „námořní míle (NM), kilometry (km)“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 38,
+      "title": "1000 ft rovná se",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „300 m“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „300 m“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „300 m“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 39,
+      "title": "5500 m rovná se",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „18000 ft“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „18000 ft“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „18000 ft“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 40,
+      "title": "Která z položek na přiloženém seznamu úkonů se vztahuje ke kompasu s přímým čtením",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „gyro (gyroskopické) a turning Instruments (přístroje indikující zatáčku)“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „gyro (gyroskopické) a turning Instruments (přístroje indikující zatáčku)“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „gyro (gyroskopické) a turning Instruments (přístroje indikující zatáčku)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji. Příloha NAV-004 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 41,
+      "title": "Co může být důvodem pro změnu magnetického směru vzletové a přistávací dráhy na letišti…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „změnila se deklinace na místě dráhy“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „změnila se deklinace na místě dráhy“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „změnila se deklinace na místě dráhy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 42,
+      "title": "Elektronická zařízení na palubě letadla ovlivňují indikaci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „kompasu s přímým čtením“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „kompasu s přímým čtením“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 43,
+      "title": "Jaké jsou vlastnosti mapy s Mercatorovým zobrazením",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „měřítko se zvětšuje se zeměpisnou šířkou, velké kružnice jsou zobrazeny jako křivky, loxodromy jsou zobrazeny jako přímky“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „měřítko se zvětšuje se zeměpisnou šířkou, velké kružnice jsou zobrazeny jako křivky, loxodromy jsou zobrazeny jako přímky“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mercator: loxodroma je přímka. Lambert: konformní kuželové zobrazení vhodné pro střední zeměpisné šířky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při měření kurzu a vzdálenosti vždy používej vlastnosti a měřítko konkrétní mapy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 44,
+      "title": "Jak jsou zobrazeny loxodromy a ortodromy na mapě s přímým Mercatorovým zobrazením",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „loxodromy – přímky, ortodromy – křivky“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „loxodromy – přímky, ortodromy – křivky“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mercator: loxodroma je přímka. Lambert: konformní kuželové zobrazení vhodné pro střední zeměpisné šířky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při měření kurzu a vzdálenosti vždy používej vlastnosti a měřítko konkrétní mapy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 45,
+      "title": "Jaké jsou vlastnosti mapy s Lambertovým konformním zobrazením",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „mapa je konformní a měřítko je přibližně stejné“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „mapa je konformní a měřítko je přibližně stejné“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mercator: loxodroma je přímka. Lambert: konformní kuželové zobrazení vhodné pro střední zeměpisné šířky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při měření kurzu a vzdálenosti vždy používej vlastnosti a měřítko konkrétní mapy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 46,
+      "title": "Které čáry má pilot použít pro stanovení polohy letadla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisné směrníky (QTE)“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisné směrníky (QTE)“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 47,
+      "title": "Jaký je radiál od VOR Brünkendorf (BKD) (53°02′N, 011°33′E) směrem do Pritzwalk (EDBU)…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „068°“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „068°“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací. Příloha NAV-031 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 48,
+      "title": "Vzdálenost mezi dvěma letišti je 220 NM. Na letecké navigační mapě mezi nimi pilot namě…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1 : 1000000“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1 : 1000000“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 49,
+      "title": "Jaká je poloha letadla při křížovém zaměření, je-li dáno následující: VOR Hamburg (HAM)…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „53°20'N, 11°10'E“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „53°20'N, 11°10'E“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací. Příloha NAV-031 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 50,
+      "title": "Jaká je vzdálenost od VOR Brünkendorf (BKD) (53°02′N, 011°33′E) do Pritzwalk (EDBU) (53…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „24 NM“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „24 NM“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací. Příloha NAV-031 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 51,
+      "title": "Vzdálenost 7.5 cm na letecké mapě představuje skutečnou vzdálenost 60.745 NM. Jaké je m…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1 : 1500000“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1 : 1500000“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 52,
+      "title": "Pro krátký let z A do B získal pilot z letecké mapy následující informace: Zeměpisná tr…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „252°“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „252°“. Mapové zobrazení převádí zakřivený povrch Země do roviny. Mercator zachovává úhly a zobrazuje loxodromy jako přímky; Lambertovo konformní zobrazení má v používaném pásmu přibližně stálé měřítko."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mercator: loxodroma je přímka. Lambert: konformní kuželové zobrazení vhodné pro střední zeměpisné šířky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při měření kurzu a vzdálenosti vždy používej vlastnosti a měřítko konkrétní mapy."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 53,
+      "title": "Letadlo letí v 8000 ft AMSL indikovanou rychlostí (IAS) 150 kt. Pravá vzdušná rychlost…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „174 kt“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „174 kt“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 54,
+      "title": "Je dáno: Zeměpisná trať z A do B: 250°. vzdálenost: 210 NM. Pravá vzdušná rychlost: 130…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1105 UTC“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1105 UTC“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 55,
+      "title": "Je dáno: Zeměpisná trať z A do B: 283°. vzdálenost: 75 NM. Pravá vzdušná rychlost: 105…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1330 UTC“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1330 UTC“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 56,
+      "title": "Je dáno: Zeměpisná trať z A do B: 352°. vzdálenost: 100 NM. Traťová rychlost (GS): 107…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1029 UTC“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1029 UTC“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 57,
+      "title": "Letadlo uletí 100 km za 56 minut. Traťová rychlost (GS) je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „107 km/h“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „107 km/h“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 58,
+      "title": "Letadlo uletí 110 NM za 01:25 hod. Traťová rychlost (GS) je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „78 kt“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „78 kt“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 59,
+      "title": "Jaká je doba letu traťovou rychlostí 134 kt na vzdálenost 236 NM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1:46 h“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1:46 h“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 60,
+      "title": "Letadlo letí pravou vzdušnou rychlostí (TAS) 120 kt se zadní složkou větru 35 kt. Za ja…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1 h 12 min“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1 h 12 min“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 61,
+      "title": "Letadlo letí pravou vzdušnou rychlostí (TAS) 180 kt. Čelní složka větru je 25 kt. Doba…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „375 NM“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „375 NM“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 62,
+      "title": "Ja dáno: Kalibrovaná rychlost (CAS): 155 kt. Letová hladina (FL) 80. teplota vnějšího v…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „180 kts“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „180 kts“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 63,
+      "title": "Jaká je zeměpisná trať (TC) z Uelzen (EDVU) (52°59′N, 10°28′E) do Neustadt (EDAN) (53°2…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „061°“. Radiál VOR je magnetický směr od stanice. Křížové zaměření používá dvě nezávislé směrové čáry a jejich průsečík určuje polohu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „061°“. Radiál VOR je magnetický směr od stanice. Křížové zaměření používá dvě nezávislé směrové čáry a jejich průsečík určuje polohu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "VOR radiál vždy vede FROM stanice. Pro směr ke stanici použij reciproký směr."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při práci s mapou zkontroluj souřadnice, magnetickou referenci a zda údaj popisuje směr ke stanici nebo od stanice. Příloha NAV-031 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 64,
+      "title": "Letadlo letí ve FL 75, kde je teplota vnějšího vzduchu (OAT) -9°C. Výškoměr nastavený n…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „6250 ft“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „6250 ft“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 65,
+      "title": "Jaká je vzdálenost z Neustadt (EDAN) (53°22'N, 011°37'E) do Uelzen (EDVU) (52°59′N, 10°…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „46 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „46 NM“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti. Příloha NAV-031 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 66,
+      "title": "Letadlo letí v tlakové výšce 7000 ft při teplotě vnějšího vzduchu (OAT) +11°C. Výškoměr…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „6750 ft“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „6750 ft“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 67,
+      "title": "Letadlo letí v tlakové výšce 7000 ft při teplotě vnějšího vzduchu (OAT) +21°C. Výškoměr…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „7000 ft“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „7000 ft“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 68,
+      "title": "Je dáno: Zeměpisná trať: 255°. Pravá vzdušná rychlost: 100 kt. vítr: 200°/10 kt. Jaký j…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „250°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „250°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 69,
+      "title": "Je dáno: Zeměpisná trať: 165°. Pravá vzdušná rychlost: 90 kt. vítr: 130°/20 kt. vzdálen…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „158°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „158°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 70,
+      "title": "Je dáno: Traťová rychlost (GS): 160 kt. Zeměpisná trať (TC): 177°. vítr (W/WS): 140°/20…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „173°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „173°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 71,
+      "title": "Letadlo letí po zeměpisné trati (TC) 220° konstantní pravou vzdušnou rychlostí 220 kt.…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „185 kt“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „185 kt“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 72,
+      "title": "Letadlo letí po zeměpisné trati (TC) 040° konstantní pravou vzdušnou rychlostí (TAS) 18…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „159 kt“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „159 kt“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 73,
+      "title": "Letadlo letí po zeměpisné trati (TC) 040° konstantní pravou vzdušnou rychlostí (TAS) 18…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „- 7°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „- 7°“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 74,
+      "title": "Je dáno: Zeměpisná trať: 270°. Pravá vzdušná rychlost: 100 kt. vítr: 090°/25 kt. vzdále…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „125 kt“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „125 kt“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 75,
+      "title": "Je dáno: Zeměpisná trať: 270°. Pravá vzdušná rychlost: 100 kt. vítr: 090°/25 kt. vzdále…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „48 min“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „48 min“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 76,
+      "title": "Letadlo letí po zeměpisné trati (TC) 040° konstantní pravou vzdušnou rychlostí (TAS) 18…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „7° doleva“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „7° doleva“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 77,
+      "title": "Je dáno: Zeměpisná trať: 120°. Pravá vzdušná rychlost: 120 kt. vítr: 150°/12 kt. Oprava…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „3° doprava“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „3° doprava“. Větrný trojúhelník spojuje vektor TAS s vektorem větru a výslednou traťovou rychlostí. Boční složka vytváří snos a podélná složka mění GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vítr se udává odkud vane. Korekci kurzu prováděj proti boční složce větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem lze použít navigační počítač nebo EFB, ale pilot musí rozumět znaménku WCA a vlivu headwind/tailwind na čas a palivo."
+        }
+      ],
+      "warning": "U směrových převodů si před výpočtem napiš, zda pracuješ s tratí nebo kurzem a zda je reference true, magnetic nebo compass.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 78,
+      "title": "Vzdálenost z A do B je 120 NM. Ve vzdálenosti 55 NM z A se letadlo nachází 7 NM vpravo…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „14° doleva“. Pravidlo 1:60 převádí boční odchylku na přibližnou úhlovou chybu: 1 NM odchylky po 60 NM odpovídá zhruba 1°.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „14° doleva“. Pravidlo 1:60 převádí boční odchylku na přibližnou úhlovou chybu: 1 NM odchylky po 60 NM odpovídá zhruba 1°."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Úhel chyby ≈ 60 × boční odchylka / uletěná vzdálenost. Pro návrat přímo do cíle přidej ještě úhel uzavření tratě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pravidlo je rychlá mentální metoda pro VFR navigaci, která pomáhá včas opravit trať."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 79,
+      "title": "Letadlo letí kurzem 090°. Má uletět vzdálenost 90 NM. Po 45 NM je 4.5 NM severně od plá…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „12° doprava“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „12° doprava“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 80,
+      "title": "Pravidlo 1:60",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „odchylka od tratě 1 NM při snosu 1° po uletění 60 NM“. Pravidlo 1:60 převádí boční odchylku na přibližnou úhlovou chybu: 1 NM odchylky po 60 NM odpovídá zhruba 1°.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „odchylka od tratě 1 NM při snosu 1° po uletění 60 NM“. Pravidlo 1:60 převádí boční odchylku na přibližnou úhlovou chybu: 1 NM odchylky po 60 NM odpovídá zhruba 1°."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Úhel chyby ≈ 60 × boční odchylka / uletěná vzdálenost. Pro návrat přímo do cíle přidej ještě úhel uzavření tratě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pravidlo je rychlá mentální metoda pro VFR navigaci, která pomáhá včas opravit trať."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 81,
+      "title": "Letadlo letí z A do B na vzdálenost 220 NM. Plánovaná traťová rychlost (GS) je 120 kt.…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „1335 UTC“. Pravidlo 1:60 převádí boční odchylku na přibližnou úhlovou chybu: 1 NM odchylky po 60 NM odpovídá zhruba 1°.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1335 UTC“. Pravidlo 1:60 převádí boční odchylku na přibližnou úhlovou chybu: 1 NM odchylky po 60 NM odpovídá zhruba 1°."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Úhel chyby ≈ 60 × boční odchylka / uletěná vzdálenost. Pro návrat přímo do cíle přidej ještě úhel uzavření tratě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pravidlo je rychlá mentální metoda pro VFR navigaci, která pomáhá včas opravit trať."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 82,
+      "title": "Letadlo klesá za bezvětří z 9000 ft do 1500 ft. Rychlost klesání (ROD) je 1200 ft/min.…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „6 min“. Doba klesání se získá z rozdílu výšek děleného vertikální rychlostí. Pro plánování vzdálenosti klesání se následně použije GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „6 min“. Doba klesání se získá z rozdílu výšek děleného vertikální rychlostí. Pro plánování vzdálenosti klesání se následně použije GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čas klesání = ztracená výška / ROD."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Klesání se plánuje s rezervou na změny větru, konfigurace a provozní omezení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 83,
+      "title": "Letadlo za bezvětří klesá ze 7500 ft do 1200 ft pravou vzdušnou rychlostí (TAS) 105 kt.…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „8 min“. Doba klesání se získá z rozdílu výšek děleného vertikální rychlostí. Pro plánování vzdálenosti klesání se následně použije GS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „8 min“. Doba klesání se získá z rozdílu výšek děleného vertikální rychlostí. Pro plánování vzdálenosti klesání se následně použije GS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čas klesání = ztracená výška / ROD."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Klesání se plánuje s rezervou na změny větru, konfigurace a provozní omezení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 84,
+      "title": "Jakou hodnotou je třeba doplnit plán letu (označená pole)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisný kurz (TH): 185°. Magnetický kurz (MH): 184°. Magnetická trať (MC): 178°“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisný kurz (TH): 185°. Magnetický kurz (MH): 184°. Magnetická trať (MC): 178°“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „zeměpisný kurz (TH): 185°. Magnetický kurz (MH): 184°. Magnetická trať (MC): 178°“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji. Příloha NAV-014 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 85,
+      "title": "Z jaké radionavigační pomůcky lze přijímat signál anténou v příloze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „NDB“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „NDB“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „NDB“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji. Příloha NAV-017 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 86,
+      "title": "Přibližná rychlost šíření elektromagnetických vln je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „300000 km/s“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „300000 km/s“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 87,
+      "title": "Dlouhé (LF) a střední (MF) radiové vlny (např. NDB) se šíří jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „povrchová a prostorová vlna“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „povrchová a prostorová vlna“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 88,
+      "title": "Rádiové vlny v pásmu VKV (např. VOR) se šíří jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „prostorová vlna (kvazi-optická)“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „prostorová vlna (kvazi-optická)“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 89,
+      "title": "Kvazi-optické vlny se šíří",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „prostorem přímo od vysílače k přijímači“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „prostorem přímo od vysílače k přijímači“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 90,
+      "title": "Pomocí zaměřovače VHF (VDF) lze zjistit",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „magnetický směrník“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „magnetický směrník“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 91,
+      "title": "Jaké zařízení na palubě letadla je třeba pro využití zaměřovače VHF (VDF)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „rádio VHF“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rádio VHF“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 92,
+      "title": "Je dáno: QDM: 138° deklinace: 10° E QUJ je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „148°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „148°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 93,
+      "title": "Je dáno: QTE: 229° deklinace: 10° W. QDM je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „059°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „059°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 94,
+      "title": "Je dáno: QDR: 022° deklinace: 10° E. QTE je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „032°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „032°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 95,
+      "title": "Je dáno: QDM: 248° deklinace: 10° W. QTE je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „058°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „058°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 96,
+      "title": "Je dáno: QDR: 067° deklinace: 5° E. QDM je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „247°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „247°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 97,
+      "title": "Je dáno: QDR: 152° deklinace: 5° W deviace: 5° E. QUJ je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „327°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „327°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 98,
+      "title": "Je dáno: QTE: 203° deklinace: 10° E. QDR je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „193°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „193°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 99,
+      "title": "Je dáno: QTE: 248° deklinace: 10° W. QDR je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „258°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „258°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 100,
+      "title": "Je dáno: QDM: 134° deklinace: 5° W. QTE je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „309°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „309°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 101,
+      "title": "Pilot od zaměřovače VDF obdržel QDR 225°. Kde se nachází letadlo vzhledem k pozemní sta…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „jihozápadně“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „jihozápadně“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 102,
+      "title": "Kód QDR znamená",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „magnetický směrník od stanice k letadlu“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „magnetický směrník od stanice k letadlu“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 103,
+      "title": "Kód QTE znamená",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zeměpisný směrník od stanice k letadlu“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zeměpisný směrník od stanice k letadlu“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 104,
+      "title": "Pilot obdržel od zaměřovače VDF QDR 135°. Kde se nachází letadlo vzhledem k zaměřovači",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „jihovýchodně“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „jihovýchodně“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 105,
+      "title": "Pilot obdržel od zaměřovače VDF QDR 315°. Kde se nachází letadlo vzhledem k zaměřovači",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „severozápadně“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „severozápadně“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 106,
+      "title": "Dosah VDF závisí na",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „nadmořské výšce letadla“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „nadmořské výšce letadla“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 107,
+      "title": "Jaké je třeba vybavení na palubě letadla pro příjem signálu z nesměrového majáku (NDB)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „radiokompas (ADF)“. NDB pracuje v pásmech LF/MF a ADF na palubě určuje směr ke stanici. Povrchové šíření může ovlivňovat pobřežní efekt a v noci se přidávají ionosférické vlivy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „radiokompas (ADF)“. NDB pracuje v pásmech LF/MF a ADF na palubě určuje směr ke stanici. Povrchové šíření může ovlivňovat pobřežní efekt a v noci se přidávají ionosférické vlivy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "NDB vysílá, ADF přijímá a ukazuje směr. RBI zobrazuje relativní směrník vůči přídi."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "ADF/NDB je citlivější na atmosférické a pobřežní vlivy než VOR, proto se údaj ověřuje dalšími navigačními prostředky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 108,
+      "title": "V jakém vlnovém pásmu vysílá nesměrový maják (NDB)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „dlouhé (LF) a střední (MF) vlny“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „dlouhé (LF) a střední (MF) vlny“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 109,
+      "title": "Pilot chce přiletět k NDB na QDM 090°. Letadlo letí přibližně 5 minut magnetickým kurze…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „zvětšila se boční složka větru, je třeba zvětšit hodnotu magnetického kurzu“. NDB pracuje v pásmech LF/MF a ADF na palubě určuje směr ke stanici. Povrchové šíření může ovlivňovat pobřežní efekt a v noci se přidávají ionosférické vlivy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zvětšila se boční složka větru, je třeba zvětšit hodnotu magnetického kurzu“. NDB pracuje v pásmech LF/MF a ADF na palubě určuje směr ke stanici. Povrchové šíření může ovlivňovat pobřežní efekt a v noci se přidávají ionosférické vlivy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "NDB vysílá, ADF přijímá a ukazuje směr. RBI zobrazuje relativní směrník vůči přídi."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "ADF/NDB je citlivější na atmosférické a pobřežní vlivy než VOR, proto se údaj ověřuje dalšími navigačními prostředky."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 110,
+      "title": "Pilot chce letět přímo k majáku. Je bezvětří. Měl by držet QDM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „260°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „260°“. VDF určuje směr rádiového vysílání letadla. QDM je magnetický směr ke stanici, QDR magnetický směr od stanice, QUJ zeměpisný směr ke stanici a QTE zeměpisný směr od stanice."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "QDM = magnetic TO. QDR = magnetic FROM. QUJ = true TO. QTE = true FROM."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při převodu vždy zkontroluj reciproký směr ±180° a případnou deklinaci mezi true a magnetic. Příloha NAV-019 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "U Q-kódů si nejprve označ TO/FROM a true/magnetic, teprve potom počítej.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 111,
+      "title": "Jaký je rozdíl mezi zařízením lokátor a majákem NDB",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „lokátor má menší dosah než maják NDB“. NDB pracuje v pásmech LF/MF a ADF na palubě určuje směr ke stanici. Povrchové šíření může ovlivňovat pobřežní efekt a v noci se přidávají ionosférické vlivy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „lokátor má menší dosah než maják NDB“. NDB pracuje v pásmech LF/MF a ADF na palubě určuje směr ke stanici. Povrchové šíření může ovlivňovat pobřežní efekt a v noci se přidávají ionosférické vlivy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "NDB vysílá, ADF přijímá a ukazuje směr. RBI zobrazuje relativní směrník vůči přídi."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "ADF/NDB je citlivější na atmosférické a pobřežní vlivy než VOR, proto se údaj ověřuje dalšími navigačními prostředky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 112,
+      "title": "Dosah majáku NDB, který vysílá v pásmu středních vln, je největší",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „v noci“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „v noci“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 113,
+      "title": "Pobřežní efekt je největší při šíření rádiových vln směrem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „pod ostrým úhlem k pobřeží, letadlo je pod 6000 ft“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pod ostrým úhlem k pobřeží, letadlo je pod 6000 ft“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 114,
+      "title": "Občasná ztráta signálu (fading) v pásmu dlouhých nebo středních vln nastává zejména",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „v noci“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „v noci“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 115,
+      "title": "Průběh elektromagnetické oscilace může být popsán jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „fázový úhel“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „fázový úhel“. Elektromagnetické vlny se šíří přibližně rychlostí světla. Relativní pohyb vysílače a přijímače mění vnímanou frekvenci Dopplerovým jevem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Přibližování = vyšší přijatá frekvence. Vzdalování = nižší."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tyto fyzikální principy využívají různé radionavigační a radarové systémy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 116,
+      "title": "Když se vysílač a přijímač blíží k sobě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „vnímaná frekvence se zvětšuje“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vnímaná frekvence se zvětšuje“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „vnímaná frekvence se zvětšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 117,
+      "title": "Když se vysílač a přijímač pohybují od sebe",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „vnímaná frekvence se zmenšuje“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vnímaná frekvence se zmenšuje“. Navigační úloha stojí na správné referenci směru, vzdálenosti nebo času a na konzistentním používání jednotek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejprve si napiš známé veličiny a jejich referenci, potom proveď jediný krok vedoucí k výsledku „vnímaná frekvence se zmenšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při reálném letu se výsledek křížově kontroluje mapou, navigačním logem a dostupnými radionavigačními nebo GNSS údaji."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 118,
+      "title": "Radiály VOR jsou definovány na principu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „porovnání fáze 2 signálů“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „porovnání fáze 2 signálů“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 119,
+      "title": "Který Q-kód odpovídá radiálu VOR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „QDR“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „QDR“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 120,
+      "title": "Plná výchylka ukazatele odchylky od tratě (CDI) znamená, že letadlo se nachází",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „10° od zvolené tratě“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „10° od zvolené tratě“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 121,
+      "title": "Kde se nachází letadlo vzhledem ke stanici VOR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „severovýchodně“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „severovýchodně“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací. Příloha NAV-022 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 122,
+      "title": "Letadlo je na radiálu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „234°“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „234°“. Základní vztah je vzdálenost = rychlost × čas. TAS popisuje pohyb vůči vzduchu, GS pohyb vůči zemi a IAS/CAS vycházejí z tlakové indikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "D = S × T. Pro čas použij T = D/S. Vítr mění GS, zatímco IAS a TAS popisují jiné reference rychlosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se ETA průběžně opravuje podle skutečné GS a zbývající vzdálenosti. Příloha NAV-024 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 123,
+      "title": "Na dosah stanice VOR má vliv",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „nadmořská výška vysílače a přijímače“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „nadmořská výška vysílače a přijímače“. VOR vytváří radiály jako magnetické směry od stanice. CDI zobrazuje boční odchylku od zvoleného kurzu a TO/FROM určuje vztah zvoleného kurzu ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Radiál = FROM. Plná výchylka CDI u konvenčního VOR odpovídá přibližně 10°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před použitím VOR ověř identifikaci stanice, správně nastav OBS a vždy čti CDI společně s TO/FROM indikací."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 124,
+      "title": "Měřič vzdálenosti (DME) měří vzdálenost na principu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „měření času“. DME měří dobu letu dotazovacích a odpovědních impulzů a z ní určuje šikmou vzdálenost mezi letadlem a stanicí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „měření času“. DME měří dobu letu dotazovacích a odpovědních impulzů a z ní určuje šikmou vzdálenost mezi letadlem a stanicí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "DME = slant range. Největší geometrický rozdíl proti horizontální vzdálenosti je blízko stanice a ve velké výšce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přeletu nad DME indikace neklesne na nulu, protože stále zahrnuje vertikální vzdálenost."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 125,
+      "title": "Údaj vzdálenosti z DME je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „šikmá vzdálenost“. DME měří dobu letu dotazovacích a odpovědních impulzů a z ní určuje šikmou vzdálenost mezi letadlem a stanicí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „šikmá vzdálenost“. DME měří dobu letu dotazovacích a odpovědních impulzů a z ní určuje šikmou vzdálenost mezi letadlem a stanicí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "DME = slant range. Největší geometrický rozdíl proti horizontální vzdálenosti je blízko stanice a ve velké výšce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přeletu nad DME indikace neklesne na nulu, protože stále zahrnuje vertikální vzdálenost."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 126,
+      "title": "Rozdíl mezi indikovanou šikmou vzdáleností z DME a horizontální vzdáleností od stanice…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „příletu k DME“. DME měří dobu letu dotazovacích a odpovědních impulzů a z ní určuje šikmou vzdálenost mezi letadlem a stanicí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „příletu k DME“. DME měří dobu letu dotazovacích a odpovědních impulzů a z ní určuje šikmou vzdálenost mezi letadlem a stanicí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "DME = slant range. Největší geometrický rozdíl proti horizontální vzdálenosti je blízko stanice a ve velké výšce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přeletu nad DME indikace neklesne na nulu, protože stále zahrnuje vertikální vzdálenost."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 127,
+      "title": "S využitím pozemního primárního radaru lze stanovit směr od antény k letadlu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „orientací antény“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „orientací antény“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 128,
+      "title": "Jakou okamžitou informaci lze získat z pozemního radaru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „vzdálenost a směr“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vzdálenost a směr“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 129,
+      "title": "Palubní vybavení pro sekundární přehledový radar (SSR) se nazývá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „odpovídač“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „odpovídač“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 130,
+      "title": "Jaký je rozdíl mezi primárním a sekundárním radarem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „pulzy primárního radaru odráží povrch letadla, na pulzy sekundárního radaru odpovídá odpovídač“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pulzy primárního radaru odráží povrch letadla, na pulzy sekundárního radaru odpovídá odpovídač“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 131,
+      "title": "Kód odpovídače sekundárního radaru pro únos je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „7500“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „7500“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 132,
+      "title": "Kód odpovídače sekundárního radaru pro ztrátu spojení je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „7600“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „7600“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 133,
+      "title": "Jakou výšku vysílá odpovídač sekundárního radaru v módu C",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „tlakovou výšku“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tlakovou výšku“. Primární radar přijímá odraz vlastního vyslaného signálu, zatímco SSR používá dotaz pozemní stanice a aktivní odpověď palubního transpondéru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SSR kódy: 7500 unlawful interference, 7600 radio failure, 7700 emergency. Mode C přenáší tlakovou výšku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Transpondér se nastavuje podle pokynu ATS nebo podle stanovených nouzových postupů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 134,
+      "title": "Příjem signálu od kolika satelitů je nezbytný pro přesné a ověřené stanovení polohy ve…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „4“. GNSS určuje polohu z měření vzdáleností k několika satelitům. Pro plné třírozměrné řešení polohy a času jsou potřeba nejméně čtyři satelity.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „4“. GNSS určuje polohu z měření vzdáleností k několika satelitům. Pro plné třírozměrné řešení polohy a času jsou potřeba nejméně čtyři satelity."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "3 souřadnice + chyba hodin přijímače = 4 neznámé, proto minimálně 4 satelity."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při VFR navigaci GNSS výrazně pomáhá, ale pilot musí stále sledovat integritu řešení, databázi a základní situační orientaci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 135,
+      "title": "Při použití GPS pro let k dalšímu traťovému bodu je indikována odchylka od tratě vertik…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „odchylka břevna od středu znázorňuje odchylku od tratě jako absolutní vzdálenost v NM. Velikost odchylky odpovídající plné výchylce břevna závisí na režimu práce GPS“. GNSS určuje polohu z měření vzdáleností k několika satelitům. Pro plné třírozměrné řešení polohy a času jsou potřeba nejméně čtyři satelity.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „odchylka břevna od středu znázorňuje odchylku od tratě jako absolutní vzdálenost v NM. Velikost odchylky odpovídající plné výchylce břevna závisí na režimu práce GPS“. GNSS určuje polohu z měření vzdáleností k několika satelitům. Pro plné třírozměrné řešení polohy a času jsou potřeba nejméně čtyři satelity."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "3 souřadnice + chyba hodin přijímače = 4 neznámé, proto minimálně 4 satelity."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při VFR navigaci GNSS výrazně pomáhá, ale pilot musí stále sledovat integritu řešení, databázi a základní situační orientaci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 136,
+      "title": "Pojem \"srovnávací navigace\"",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „navigace podle orientačních bodů na zemi při letu za vidu“. Srovnávací navigace používá vizuálně rozpoznatelné orientační body a liniové prvky v terénu pro potvrzování polohy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „navigace podle orientačních bodů na zemi při letu za vidu“. Srovnávací navigace používá vizuálně rozpoznatelné orientační body a liniové prvky v terénu pro potvrzování polohy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejlepší orientační prvky jsou velké, trvalé a jednoznačné: řeky, železnice, dálnice, výrazná sídla a pobřeží."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem si vybírej body, které budou dobře viditelné z plánované výšky a směru přiblížení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    },
+    {
+      "subject_id": 9,
+      "source_question_id": 137,
+      "title": "Jaké pozemní objekty se mají používat přednostně při srovnávající navigaci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-09-official-questions",
+      "explanation": "Správná odpověď je „řeky, železnice, dálnice“. Srovnávací navigace používá vizuálně rozpoznatelné orientační body a liniové prvky v terénu pro potvrzování polohy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „řeky, železnice, dálnice“. Srovnávací navigace používá vizuálně rozpoznatelné orientační body a liniové prvky v terénu pro potvrzování polohy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejlepší orientační prvky jsou velké, trvalé a jednoznačné: řeky, železnice, dálnice, výrazná sídla a pobřeží."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem si vybírej body, které budou dobře viditelné z plánované výšky a směru přiblížení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 09.12.2020."
+    }
+  ]
+}

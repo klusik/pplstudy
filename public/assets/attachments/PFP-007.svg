@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="t d">
+  <title id="t">PFP-007 konfigurace klapek</title>
+  <desc id="d">Porovnání dvou vzletových konfigurací s rozdílným vysunutím klapek.</desc>
+  <rect width="1000" height="520" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="460" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Porovnání konfigurace A / B</text>
+<path d="M120 260 L390 230 L520 260 L390 290 Z" fill="#dceaf3" stroke="#17384f" stroke-width="3"/>
+<path d="M330 274 L455 330 L385 345 Z" fill="#9a4f55" opacity="0.85"/>
+<text x="270" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">Letadlo A</text>
+<text x="270" y="410" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" font-weight="400" fill="#17384f">větší vysunutí klapek</text>
+<path d="M580 260 L850 230 L940 260 L850 290 Z" fill="#dceaf3" stroke="#17384f" stroke-width="3"/>
+<path d="M800 274 L880 305 L835 315 Z" fill="#9a4f55" opacity="0.85"/>
+<text x="755" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">Letadlo B</text>
+<text x="755" y="410" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" font-weight="400" fill="#17384f">menší vysunutí klapek</text>
+  <text x="500.0" y="498" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

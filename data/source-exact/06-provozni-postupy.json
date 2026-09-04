@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "subject_id": 6,
+  "source_key": "subject-06-official-questions",
+  "source_title": "Provozní postupy – letoun",
+  "source_version": "1.0, 10.12.2020",
+  "source_sha256": "c797b4f5bdde387eeb6778cab4d3dfa76a880ed45263439d92150f268b066f92",
+  "source_filename": "06-provozni-postupy-official.pdf",
+  "questions": [
+    {
+      "source_question_id": 1,
+      "title": "Definice doby letu",
+      "prompt": "Doba letu je definována jako:",
+      "choices": [
+        "celková doba od okamžiku, kdy se letoun pohne, dokud se po skončení letu nezastaví",
+        "doba od zahájení vzletu do dosednutí při přistání",
+        "celková doba od prvního vzletu do posledního přistání v souvislosti s jedním nebo více po sobě následujícími lety",
+        "doba od spuštění motoru za účelem vzletu do opuštění letadla po vypnutí motoru"
+      ],
+      "answer": "celková doba od okamžiku, kdy se letoun pohne, dokud se po skončení letu nezastaví",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "title": "Let nad vodou mimo dolet pobřeží",
+      "prompt": "Co je třeba vzít v úvahu při plánování letu nad vodou, když při nouzovém přistání nelze doletět na zem?",
+      "choices": [
+        "pro všechny cestující musí být k dispozici plovací vesty nebo záchranné čluny",
+        "během celého letu musí být spojení s nejbližším stanovištěm služby řízení letů",
+        "letový plán musí obsahovat přesné traťové body",
+        "během celého letu musí být odpovídač sekundárního radaru nastaven na kód 7600"
+      ],
+      "answer": "pro všechny cestující musí být k dispozici plovací vesty nebo záchranné čluny",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "title": "Faktory ovlivňující hluk",
+      "prompt": "Který z následujících jevů má vliv na hluk vnímaný osobou na zemi? 1) nastavení výkonu motoru 2) otáčky vrtule 3) poloha podvozku 4) poloha vztlakových klapek 5) trať letu 6) výška letu nad zemí 7) pravidla letu",
+      "choices": [
+        "1, 2, 3, 4, 5, 6",
+        "1, 5, 6",
+        "1, 5, 6, 7",
+        "3, 4, 5, 6, 7"
+      ],
+      "answer": "1, 2, 3, 4, 5, 6",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "title": "Protihlukový sestup a přiblížení",
+      "prompt": "Jak může pilot motorového letadla snížit na minimum hluk vydávaný při sestupu a přiblížení?",
+      "choices": [
+        "vysoké přiblížení s nastavením minimálního výkonu, pozdější sestup, pozdější konfigurace, dodržení stanovených příletových tratí",
+        "nízké přiblížení s nastavením minimálního výkonu, pozdější konfigurace, strmé přiblížení, dodržení stanovených příletových tratí",
+        "normální přiblížení s nastavením normálního výkonu, konfigurace před zahájením klesání, nejkratší možná příletová trať",
+        "klesání a přiblížení v přistávací konfiguraci, dodržení úhlu sestupu 3°, přímé přiblížení kdykoliv je to možné"
+      ],
+      "answer": "vysoké přiblížení s nastavením minimálního výkonu, pozdější sestup, pozdější konfigurace, dodržení stanovených příletových tratí",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 5,
+      "title": "Zatáčky nad obcemi při stoupání",
+      "prompt": "Kdy je třeba se vyhýbat zatáčkám v malých výškách nad vesnicemi s ohledem na protihlukové postupy?",
+      "choices": [
+        "při klesání",
+        "při horizontálním letu",
+        "při stoupání",
+        "při přiblížení"
+      ],
+      "answer": "při stoupání",
+      "correct_choice_index": 2,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "title": "Odlety v blízkosti obcí",
+      "prompt": "Jak mají být prováděny odlety v blízkosti vesnic?",
+      "choices": [
+        "nízko a rychle mezi vesnicemi",
+        "pomalu s nízkými otáčkami vrtule",
+        "vesnice mají být oblétány a přelétány v dostatečné výšce",
+        "stoupání a změny směru mají být prováděny co nejpomaleji"
+      ],
+      "answer": "vesnice mají být oblétány a přelétány v dostatečné výšce",
+      "correct_choice_index": 2,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 7,
+      "title": "Požár karburátoru",
+      "prompt": "U kterého druhu motoru lze předpokládat požár karburátoru?",
+      "choices": [
+        "pístový motor",
+        "elektromotor",
+        "turbínový motor",
+        "turbovrtulový motor"
+      ],
+      "answer": "pístový motor",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 8,
+      "title": "Pumpování plynovou pákou při startu",
+      "prompt": "Proč je nebezpečné pumpovat plynovou pákou při spouštění motoru ve studeném počasí?",
+      "choices": [
+        "může to způsobit požár karburátoru",
+        "může dojít k tvorbě námrazy v karburátoru",
+        "rozředí se tím olej",
+        "může dojít ke spuštění motoru s nedostatečným výkonem"
+      ],
+      "answer": "může to způsobit požár karburátoru",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "title": "Nebezpečí při spouštění motoru",
+      "prompt": "Jaké nebezpečí existuje při spouštění motoru?",
+      "choices": [
+        "jiskření",
+        "požár kabeláže",
+        "požár karburátoru",
+        "výfuk dýmu"
+      ],
+      "answer": "požár karburátoru",
+      "correct_choice_index": 2,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "title": "Opětovné spuštění motoru po požáru",
+      "prompt": "Může být znovu spuštěn motor, na kterém byl před tím požár?",
+      "choices": [
+        "ne, nebezpečí nového vznícení požáru by bylo příliš vysoké",
+        "ano, pokud letadlo letí v bezpečné výšce",
+        "ano, ale pouze na zemi pro účely pojíždění",
+        "ano, ale pouze došlo-li během spouštění motoru k požáru karburátoru"
+      ],
+      "answer": "ne, nebezpečí nového vznícení požáru by bylo příliš vysoké",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "title": "Oxid uhelnatý při požáru",
+      "prompt": "Jaký plyn je při požáru motoru nejnebezpečnější?",
+      "choices": [
+        "kyslík",
+        "dusík",
+        "kysličník uhelnatý",
+        "kysličník uhličitý"
+      ],
+      "answer": "kysličník uhelnatý",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 12,
+      "title": "Kouř v kabině při požáru motoru",
+      "prompt": "Při požáru motoru vnikne do pilotní kabiny dým. Co je třeba okamžitě učinit?",
+      "choices": [
+        "vypnout topení a ventilaci",
+        "vypnout hlavní vypínač a zapalování",
+        "vypnout avioniku a osvětlení kabiny",
+        "vypnout ohřev Pitotovy trubice a čelního skla"
+      ],
+      "answer": "vypnout topení a ventilaci",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 13,
+      "title": "První krok při požáru kabeláže",
+      "prompt": "Co má být první akcí při požáru kabeláže za letu?",
+      "choices": [
+        "vypnout hlavní vypínač",
+        "uzavřít palivový ventil",
+        "otevřít okna",
+        "otevřít větrání kabiny"
+      ],
+      "answer": "vypnout hlavní vypínač",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "title": "Hasivo pro požár letadla",
+      "prompt": "Jaká hasící látka je nejméně vhodná pro hašení požáru letadla?",
+      "choices": [
+        "pěna",
+        "prášek",
+        "voda",
+        "halon"
+      ],
+      "answer": "voda",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "title": "Podezření na elektrický požár",
+      "prompt": "Za letu se za přístrojovou deskou objeví trocha dýmu. Lze předpokládat požár elektrického systému. Co má udělat pilot s ohledem na letovou příručku?",
+      "choices": [
+        "vypnout hlavní vypínač",
+        "vypnout topení",
+        "vypnout motor",
+        "použít hasící přístroj"
+      ],
+      "answer": "vypnout hlavní vypínač",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 16,
+      "title": "Podezření na požár motoru",
+      "prompt": "Za letu se za přístrojovou deskou objeví trocha dýmu. Lze předpokládat požár motoru. Co má pilot udělat s ohledem na letovou příručku?",
+      "choices": [
+        "vypnout hlavní vypínač",
+        "vypnout topení",
+        "vypnout motor",
+        "použít hasící přístroj"
+      ],
+      "answer": "vypnout topení",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 17,
+      "title": "Definice střihu větru",
+      "prompt": "Střih větru je:",
+      "choices": [
+        "pomalý nárůst rychlosti větru ve výškách nad 13000 ft",
+        "sestupný vítr za pohořím",
+        "změna vertikální nebo horizontální složky a směru větru",
+        "změna rychlosti větru o více než 15 kt"
+      ],
+      "answer": "změna vertikální nebo horizontální složky a směru větru",
+      "correct_choice_index": 2,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "title": "Bouřky a střih větru",
+      "prompt": "Jaký meteorologický jev typicky souvisí se střihem větru?",
+      "choices": [
+        "bouřky",
+        "teplá fronta",
+        "mlha",
+        "stabilní oblasti vysokého tlaku vzduchu"
+      ],
+      "answer": "bouřky",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 19,
+      "title": "Inverze a střih větru",
+      "prompt": "Kdy lze očekávat střih větru?",
+      "choices": [
+        "při průletu teplou frontou",
+        "při inverzi",
+        "ze bezvětří ve studeném počasí",
+        "za letních dnů za bezvětří"
+      ],
+      "answer": "při inverzi",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "title": "Pokles čelní složky větru při přiblížení",
+      "prompt": "Při přiblížení je zaznamenán střih větru se snížením čelní složky větru. Jak se změní trajektorie letu a indikovaná rychlost (IAS), neprovede-li pilot žádné korekce?",
+      "choices": [
+        "trajektorie se sníží, IAS klesne",
+        "trajektorie se zvýší, IAS klesne",
+        "trajektorie se sníží, IAS vzroste",
+        "trajektorie se zvýší, IAS vzroste"
+      ],
+      "answer": "trajektorie se sníží, IAS klesne",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "title": "Nárůst čelní složky větru při přiblížení",
+      "prompt": "Při přiblížení je zaznamenán střih větru s nárůstem čelní složky větru. Jak se změní trajektorie letu a indikovaná rychlost (IAS), neprojde-li pilot žádné korekce?",
+      "choices": [
+        "trajektorie se sníží, IAS klesne",
+        "trajektorie se zvýší, IAS klesne",
+        "trajektorie se sníží, IAS vzroste",
+        "trajektorie se zvýší, IAS vzroste"
+      ],
+      "answer": "trajektorie se zvýší, IAS vzroste",
+      "correct_choice_index": 3,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "title": "Pokles zadní složky větru při přiblížení",
+      "prompt": "Při přiblížení je zaznamenán střih větru s poklesem zadní složky větru. Jak se změní trajektorie letu a indikovaná rychlost (IAS), neprovede-li pilot žádné korekce?",
+      "choices": [
+        "trajektorie se sníží, IAS klesne",
+        "trajektorie se zvýší, IAS vzroste",
+        "trajektorie se sníží, IAS vzroste",
+        "trajektorie se zvýší, IAS klesne"
+      ],
+      "answer": "trajektorie se zvýší, IAS vzroste",
+      "correct_choice_index": 1,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 23,
+      "title": "Pokles čelní složky větru po vzletu",
+      "prompt": "Po vzletu nastal střih větru se snížením čelní složky větru. Výsledkem je:",
+      "choices": [
+        "letadlo letí nad očekávanou trajektorií stoupání",
+        "pravá vzdušná rychlost (TAS) vzroste",
+        "letadlo letí pod očekávanou trajektorií stoupání",
+        "traťová rychlost (GS) klesne"
+      ],
+      "answer": "letadlo letí pod očekávanou trajektorií stoupání",
+      "correct_choice_index": 2,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "title": "Rozpoznání střihu větru",
+      "prompt": "Jak lze za letu rozpoznat střih větru?",
+      "choices": [
+        "náhlé změny polohy letadla, rychlosti letu a stoupavosti",
+        "náhlé změny kurzu, rychlosti zatáčení, otáček motoru a teploty oleje",
+        "nečekaný nástup kouřma související s vysokými straty, které následují oblohu bez oblačnosti a s bezvětřím",
+        "náhlé změny tlaku oleje, teploty oleje, otáček motoru a nadmořské výšky"
+      ],
+      "answer": "náhlé změny polohy letadla, rychlosti letu a stoupavosti",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "title": "Mikroburst, bod 2",
+      "prompt": "Jaký jev lze očekávat v bodu 2 mikroburstu? Viz příloha (OPR-001)",
+      "choices": [
+        "pokles stoupavosti",
+        "nárůst rychlosti letu",
+        "zmenšení úhlu klesání",
+        "stejný úhel klesání"
+      ],
+      "answer": "pokles stoupavosti",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "OPR-001",
+      "attachment_url": "/public/assets/attachments/OPR-001.svg"
+    },
+    {
+      "source_question_id": 26,
+      "title": "Mikroburst, bod 3",
+      "prompt": "Jaký jev lze očekávat v bodu 3 mikroburstu? Viz příloha (OPR-001)",
+      "choices": [
+        "pokles rychlosti letu",
+        "nárůst rychlosti letu",
+        "pokles stoupavosti",
+        "konstantní rychlost klesání"
+      ],
+      "answer": "pokles rychlosti letu",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "OPR-001",
+      "attachment_url": "/public/assets/attachments/OPR-001.svg"
+    },
+    {
+      "source_question_id": 27,
+      "title": "Prevence vstupu do střihu větru",
+      "prompt": "Jak se lze vyhnout vlétnutí do střihu větru?",
+      "choices": [
+        "neprovádět vzlet a přistání při intenzivních přeháňkách nebo bouřkách",
+        "vyhnout se oblastem srážek, zejména v zimě, volit malé výšky letu",
+        "vyhnout se termicky aktivním oblastem, zejména v létě, nebo létat pod těmito oblastmi",
+        "neprovádět vzlety a přistání v horském terénu a je-li to možné, létat v rovinatých oblastech"
+      ],
+      "answer": "neprovádět vzlet a přistání při intenzivních přeháňkách nebo bouřkách",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "title": "Reakce na střih větru",
+      "prompt": "Co má pilot provést, když nastal střih větru? 1. snížit rychlost letu 2. zasunout podvozek a klapky 3. zachovat stávající konfiguraci 4. nastavit výkon motoru",
+      "choices": [
+        "1 a 2",
+        "3 a 4",
+        "1 a 3",
+        "2 a 4"
+      ],
+      "answer": "3 a 4",
+      "correct_choice_index": 1,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "title": "Sekvence mikroburstu po vzletu",
+      "prompt": "Po vzletu v počáteční fázi stoupání dojde k nečekaně silnému nárůstu rychlosti letu. Co může následovat, vlétlo-li letadlo do mikroburstu?",
+      "choices": [
+        "pokles stoupavosti a rychlosti letu",
+        "nárůst stoupavosti a rychlosti letu",
+        "nárůst stoupavosti a pokles rychlosti letu",
+        "pokles stoupavosti a nárůst rychlosti letu"
+      ],
+      "answer": "pokles stoupavosti a rychlosti letu",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "title": "Únik z mikroburstu po vzletu",
+      "prompt": "Letadlo ihned po vzletu vlétne nečekaně do mikroburstu. Jak se lze vyhnout nechtěnému klesání?",
+      "choices": [
+        "nastavit maximální výkon, zachovat stávající konfiguraci, udržet optimální rychlost pro maximální stoupavost",
+        "nastavit maximální výkon, zasunout klapky a podvozek, zvětšit podélný sklon až do dosažení optimální stoupací rychlosti",
+        "nastavit maximální výkon, zachovat stávající konfiguraci, zvýšit rychlost, aby letadlo opustilo co nejdříve oblast mikroburstu",
+        "nastavit maximální výkon, zasunout podvozek a klapky, zvýšit rychlost, levou nebo pravou zatáčkou uniknout z oblasti mikroburstu"
+      ],
+      "answer": "nastavit maximální výkon, zachovat stávající konfiguraci, udržet optimální rychlost pro maximální stoupavost",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "title": "Vznik turbulence v úplavu",
+      "prompt": "Turbulence v úplavu při vzletu vznikne, jakmile letoun:",
+      "choices": [
+        "začne zrychlovat",
+        "dosáhne výšky 15 ft",
+        "nadzdvihne příďové kolo",
+        "odpoutá od země hlavní podvozek"
+      ],
+      "answer": "nadzdvihne příďové kolo",
+      "correct_choice_index": 2,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "title": "Příčina turbulence v úplavu",
+      "prompt": "Turbulence v úplavu je způsobena:",
+      "choices": [
+        "vyrovnáváním tlaku na koncích křídel",
+        "výfukovými plyny turbínového motoru",
+        "střihem větru na koncích křídel",
+        "turbulencí na závětrné straně pohoří"
+      ],
+      "answer": "vyrovnáváním tlaku na koncích křídel",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "title": "Úplav při nízké rychlosti",
+      "prompt": "Turbulence v úplavu je zvláště intenzivní:",
+      "choices": [
+        "při letu nízkými rychlostmi",
+        "při letu vysokými rychlostmi",
+        "při letu ve velkých výškách",
+        "při letu v malých výškách"
+      ],
+      "answer": "při letu nízkými rychlostmi",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "title": "Úplav při velké hmotnosti",
+      "prompt": "Turbulence v úplavu je zvláště intenzivní:",
+      "choices": [
+        "při velké hmotnosti letadla",
+        "při malé hmotnosti letadla",
+        "při letu s velkým výkonem motoru",
+        "při letu s malým výkonem motoru"
+      ],
+      "answer": "při velké hmotnosti letadla",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "title": "Hmotnost a intenzita úplavu",
+      "prompt": "Intenzita turbulence v úplavu závisí na:",
+      "choices": [
+        "teplotě",
+        "úhlu nastavení listů vrtule",
+        "hmotnosti letadla",
+        "nadmořské výšce letu"
+      ],
+      "answer": "hmotnosti letadla",
+      "correct_choice_index": 2,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "title": "Úplav při rozdílné rychlosti",
+      "prompt": "Dvě letadla stejného typu, stejných hmotností a ve stejné konfiguraci letí rozdílnými rychlostmi. Které z nich vyvolá intenzivnější turbulenci v úplavu?",
+      "choices": [
+        "letadlo letící pomaleji",
+        "letadlo letící rychleji",
+        "letadlo letící ve větší nadmořské výšce",
+        "letadlo letící v menší nadmořské výšce"
+      ],
+      "answer": "letadlo letící pomaleji",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 37,
+      "title": "Úplav při rozdílné rychlosti a výšce",
+      "prompt": "Dvě letadla stejného typu, stejných hmotností a ve stejné konfiguraci letí rozdílnými rychlostmi a v rozdílných nadmořských výškách. Které z nich vyvolá intenzivnější turbulenci v úplavu?",
+      "choices": [
+        "letadlo letící pomaleji",
+        "letadlo letící rychleji",
+        "letadlo letící ve větší nadmořské výšce",
+        "letadlo letící v menší nadmořské výšce"
+      ],
+      "answer": "letadlo letící pomaleji",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "title": "Úplav při mírném bočním větru",
+      "prompt": "Jaké existuje nebezpečí při vzletu za odlétajícím těžkým letounem za mírného bočního větru?",
+      "choices": [
+        "turbulence v úplavu na vzletové dráze nebo v její blízkosti",
+        "turbulence v úplavu je rozptýlena a odkloněna",
+        "turbulence v úplavu rotuje rychleji a výše",
+        "turbulence v úplavu se otáčí napříč vzletovou dráhou"
+      ],
+      "answer": "turbulence v úplavu na vzletové dráze nebo v její blízkosti",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "title": "Přistání za větším letadlem",
+      "prompt": "Lehké letadlo má přistát za dopravním letadlem náležícím do kategorie turbulence v úplavu \"střední\" nebo \"těžké\" na dlouhou přistávací dráhu. Jek se může vyhnout turbulenci v úplavu od dopravního letadla?",
+      "choices": [
+        "strmým přiblížením a dotykem se zemí až za bodem dotyku příďového podvozku dopravního letadla",
+        "nízkým přiblížením a velmi krátkým přistáním. Lehké letadlo by mělo být schopné zastavit před bodem dotyku dopravního letadla",
+        "nízkým přiblížením a dlouhým přistáním s dotykem se zemí za bodem dotyku příďového podvozku dopravního letadla",
+        "strmým přiblížením a velmi krátkým přistáním. Lehké letadlo by mělo být schopné zastavit před bodem dotyku se zemí dopravního letadla"
+      ],
+      "answer": "strmým přiblížením a dotykem se zemí až za bodem dotyku příďového podvozku dopravního letadla",
+      "correct_choice_index": 0,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "title": "Pojíždění za dopravním letadlem",
+      "prompt": "Na co je třeba dávat pozor při pojíždění za dopravním letadlem?",
+      "choices": [
+        "vyhnout se proudu plynů za jeho motory, dodržet minimální vzdálenost 200 m",
+        "vyhnout se proudu plynů za jeho motory, dodržet minimální vzdálenost 600 m",
+        "vyhnout se turbulenci v úplavu, dodržet minimální vzdálenost 300 m",
+        "vyhnout se turbulenci v úplavu, dodržet minimální vzdálenost 700 m"
+      ],
+      "answer": "vyhnout se proudu plynů za jeho motory, dodržet minimální vzdálenost 200 m",
+      "correct_choice_index": 0,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "title": "Nouzové přistání mimo letiště",
+      "prompt": "Technický problém vyžaduje provést nouzové přistání mimo letiště. Co je třeba učinit s ohledem na letovou příručku?",
+      "choices": [
+        "zvolit vhodnou plochu pro přistání, naplánovat přiblížení, provést příslušné nouzové úkony, vyhlásit stav nouze, zahájit přiblížení ve vhodnou dobu a soustředit se na něj",
+        "vyhlásit stav nouze, provést příslušné nouzové úkony, doletět co nejblíže k letišti, aby záchranné složky byly v blízkosti",
+        "informovat služby řízení letového provozu a vyžádat technickou pomoc, v letové příručce vyhledat odkaz na danou situaci a provést nouzové přistání",
+        "snížit rychlost a letadlo uvést do konfigurace pro přistání, aby pilot získal čas, vyhlásit stav nouze, provést příslušné nouzové úkony a nouzové přistání"
+      ],
+      "answer": "zvolit vhodnou plochu pro přistání, naplánovat přiblížení, provést příslušné nouzové úkony, vyhlásit stav nouze, zahájit přiblížení ve vhodnou dobu a soustředit se na něj",
+      "correct_choice_index": 0,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "title": "Prohlídka plochy pro přistání",
+      "prompt": "Jaká metoda je vhodná pro přiblížení na nepřipravené přistání do terénu?",
+      "choices": [
+        "strmé přiblížení pro zachování nízké hladiny hluku",
+        "prohlídka terénu pro stanovení trajektorie přiblížení a přistání",
+        "nízké přímé přiblížení, aby byl zajištěn vizuální kontakt se zemí",
+        "rychlé přiblížení, kontrola výkonu, přistání s co nejkratším dojezdem"
+      ],
+      "answer": "prohlídka terénu pro stanovení trajektorie přiblížení a přistání",
+      "correct_choice_index": 1,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "title": "Volba plochy pro přistání mimo letiště",
+      "prompt": "Jaká plocha je vhodná pro přistání mimo letiště?",
+      "choices": [
+        "zorané pole",
+        "plocha pro sport na vesnici",
+        "sklizené obilné pole",
+        "paseka s vysokou suchou trávou"
+      ],
+      "answer": "sklizené obilné pole",
+      "correct_choice_index": 2,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "title": "Definice nouzového přistání",
+      "prompt": "Nouzové přistání je:",
+      "choices": [
+        "provedeno jako reakce na okolnosti nutící letadlo přistát",
+        "provedeno při pokusu zachovat bezpečnost letadla a osob na palubě",
+        "provedeno bez výkonu motorů",
+        "provedeno se zasunutými klapkami"
+      ],
+      "answer": "provedeno jako reakce na okolnosti nutící letadlo přistát",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "title": "Přistání vynucené okolnostmi",
+      "prompt": "Přistání provedené za okolností nutících letadlo k přistání je:",
+      "choices": [
+        "nouzové přistání",
+        "bezpečnostní přistání",
+        "urgentní přistání",
+        "přistání mimo letiště"
+      ],
+      "answer": "nouzové přistání",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "title": "Definice bezpečnostního přistání",
+      "prompt": "Bezpečnostní přistání je:",
+      "choices": [
+        "provedeno jako reakce na okolnosti nutící letadlo přistát",
+        "provedeno jako pokus zachovat bezpečnost letu",
+        "provedeno při vysazení pohonné jednotky letadla",
+        "provedeno se zasunutými klapkami"
+      ],
+      "answer": "provedeno jako pokus zachovat bezpečnost letu",
+      "correct_choice_index": 1,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "title": "Vhodná plocha pro přistání mimo letiště",
+      "prompt": "Která z následujících ploch je nejvhodnější pro přistání mimo letiště?",
+      "choices": [
+        "lehce hnědé pole s málo vzrostlými plodinami",
+        "louka bez zvířat",
+        "pole se vrostlou vlnící se úrodou",
+        "jezero s klidnou hladinou"
+      ],
+      "answer": "lehce hnědé pole s málo vzrostlými plodinami",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "title": "VFR nad vodou mimo dolet pobřeží",
+      "prompt": "Jak se má pilot připravit na let VFR na dlouhou vzdálenost nad vodou, je-li nepravděpodobné, že při vysazení motoru lze dosáhnout pobřeží?",
+      "choices": [
+        "mít k dispozici plovací vesty nebo záchranné čluny pro všechny osoby na palubě",
+        "podat letový plán obsahující přesné traťové body",
+        "být připraven letět s odpovídačem sekundárního radaru",
+        "udržovat nepřetržité spojení se službami řízení letového provozu"
+      ],
+      "answer": "mít k dispozici plovací vesty nebo záchranné čluny pro všechny osoby na palubě",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "title": "Instruktáž cestujících před nouzovým přistáním",
+      "prompt": "Co má obsahovat instruktáž pro cestující v případě neodkladného nouzového přistání?",
+      "choices": [
+        "druh nebezpečí, úmysl, bezpečnostní poloha, evakuační cesty, činnost po přistání",
+        "jak pracuje palubní radiostanice, kód nouzového majáku polohy, telefonní číslo na příslušné stanoviště pátrání a záchrany",
+        "jak číst seznam nouzových úkonů, jak vypnout motor, telefonní číslo na domácí letiště",
+        "krevní skupiny osob na palubě, umístění soupravy pro první pomoc"
+      ],
+      "answer": "druh nebezpečí, úmysl, bezpečnostní poloha, evakuační cesty, činnost po přistání",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 50,
+      "title": "Přístup k horkým brzdám a kolům",
+      "prompt": "Brzdy a kola jsou po bezpečnostním přistání velmi horké. Jak se k nim má pilot přibližovat?",
+      "choices": [
+        "zleva nebo zprava",
+        "zepředu nebo zezadu",
+        "pod úhlem 45°",
+        "zepředu a zleva nebo zprava"
+      ],
+      "answer": "zepředu nebo zezadu",
+      "correct_choice_index": 1,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 51,
+      "title": "Přehřátí brzd a pneumatik",
+      "prompt": "Co může nastat při přehřátí brzd?",
+      "choices": [
+        "zasažené pneumatiky se mohou roztrhnout podélně",
+        "zasažené pneumatiky se mohou roztrhnout příčně nebo ve směru rotace",
+        "zasažené brzdy je třeba chladit halonem",
+        "je třeba odstranit kryty kol, aby se zlepšilo chlazení"
+      ],
+      "answer": "zasažené pneumatiky se mohou roztrhnout podélně",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "title": "Nafukování záchranných vest",
+      "prompt": "V případě nouzového přistání na vodu se mají záchranné vesty nafukovat:",
+      "choices": [
+        "před opuštěním letadla",
+        "při opuštění letadla",
+        "po opuštění letadla",
+        "po opuštění letadla v bezpečné vzdálenosti asi 10 m"
+      ],
+      "answer": "po opuštění letadla",
+      "correct_choice_index": 2,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "title": "Mokrá tráva a délka vzletu a přistání",
+      "prompt": "Jaký je účinek mokré trávy na délku vzletu a přistání?",
+      "choices": [
+        "zkrácení délky vzletu a prodloužení délky přistání",
+        "prodloužení délky vzletu a prodloužení délky přistání",
+        "prodloužení délky vzletu a zkrácení délky přistání",
+        "zkrácení délky vzletu a zkrácení délky přistání"
+      ],
+      "answer": "prodloužení délky vzletu a prodloužení délky přistání",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "title": "Definice znečištěné dráhy",
+      "prompt": "Kdy je vzletová a přistávací dráha považována za znečistěnou?",
+      "choices": [
+        "je-li více než 25 % povrchu pokryto vodou, rozbředlým sněhem, sněhem nebo ledem silnějším než 3 mm",
+        "je-li více než 50 % povrchu požadované délky a šířky dráhy pokryto vodou, rozbředlým sněhem nebo ledem více než 3 mm hlubokým",
+        "je-li více než 75 % požadované délky a šířky dráhy pokryto znečištěním jako sníh, zmrazky, led, písek",
+        "je-li více než 50 % požadované délky a šířky dráhy pokryto znečištěním jako sníh, zmrazky, led, písek"
+      ],
+      "answer": "je-li více než 25 % povrchu pokryto vodou, rozbředlým sněhem, sněhem nebo ledem silnějším než 3 mm",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "title": "Pokrytí dráhy ledem nebo sněhem",
+      "prompt": "Jaké musí být minimální pokrytí dráhy ledem nebo sněhem, aby byla znečištěnou?",
+      "choices": [
+        "75 %",
+        "50 %",
+        "10 %",
+        "0,25"
+      ],
+      "answer": "0,25",
+      "correct_choice_index": 3,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 56,
+      "title": "Mokrý sníh při vzletu",
+      "prompt": "Mokrý sníh na dráze může způsobit:",
+      "choices": [
+        "zvětšenou délku rozjezdu při vzletu",
+        "snížený odpor při rozjezdu během vzletu",
+        "nárůst vztlaku",
+        "pokles vztlaku"
+      ],
+      "answer": "zvětšenou délku rozjezdu při vzletu",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 57,
+      "title": "Stojatá voda na dráze",
+      "prompt": "Jaké nebezpečí pro letadla představuje stojatá voda na dráze?",
+      "choices": [
+        "zvýšený odpor při rozjezdu během vzletu",
+        "snížený odpor při rozjezdu během vzletu",
+        "zvýšení vztlaku",
+        "snížení vztlaku"
+      ],
+      "answer": "zvýšený odpor při rozjezdu během vzletu",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 58,
+      "title": "Intenzivní déšť a akvaplaning",
+      "prompt": "Jaké nebezpečí pro přistávající letadlo představuje intenzivní dešťová přeháňka?",
+      "choices": [
+        "posun označení prokluzu pneumatiky",
+        "delší brzdná vzdálenost kvůli akvaplaninku",
+        "zmenšená brzdná vzdálenost kvůli akvaplaninku",
+        "obtížné podrovnání kvůli odrazu světla"
+      ],
+      "answer": "delší brzdná vzdálenost kvůli akvaplaninku",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 59,
+      "title": "Postup při očekávaném akvaplaningu",
+      "prompt": "Jak se chovat při očekáváném akvaplaninku po přistání?",
+      "choices": [
+        "otáčejí-li se všechna kola, brzděte mírně a směr udržujte kormidly",
+        "intenzivně brzděte, abyste snížili rychlost letadla pod kritickou rychlost akvaplaninku, a pak pokračujte normálně v přistávání",
+        "přidejte výkon a pro brzdění využijte klapky a spoilery",
+        "vybočte letadlo výchylkou křidélek a opačnou výchylkou směrovky, abyste využil trup letadla k aerodynamickému brzdění"
+      ],
+      "answer": "otáčejí-li se všechna kola, brzděte mírně a směr udržujte kormidly",
+      "correct_choice_index": 0,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 60,
+      "title": "Přistání na znečištěnou dráhu",
+      "prompt": "Jak má být provedeno přistání na znečištěnou dráhu, je-li nevyhnutelné?",
+      "choices": [
+        "přiblížení s minimální možnou boční složkou větru, maximální nastavení klapek, pevný dotyk na minimální rychlosti, brzdit opatrně",
+        "přiblížení na minimální možné boční složce větru, minimální nastavení klapek, měkký dotyk na minimální rychlosti, nebrzdit",
+        "přiblížení na minimální možné boční složce větru, minimální nastavení klapek, měkký dotyk s pozitivním podélným sklonem a minimální rychlostí, nebrzdit",
+        "přiblížení na minimální možné boční složce větru, minimální nastavení klapek, dotyk s negativním podélným sklonem a na minimální rychlosti, brzdit opatrně"
+      ],
+      "answer": "přiblížení s minimální možnou boční složkou větru, maximální nastavení klapek, pevný dotyk na minimální rychlosti, brzdit opatrně",
+      "correct_choice_index": 0,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

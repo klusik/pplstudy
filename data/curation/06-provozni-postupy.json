@@ -1,0 +1,1506 @@
+{
+  "schema_version": 1,
+  "subject_id": 6,
+  "questions": [
+    {
+      "subject_id": 6,
+      "source_question_id": 1,
+      "title": "Definice doby letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Doba letu se u letounu počítá od okamžiku, kdy se letoun začne pohybovat za účelem vzletu, do okamžiku, kdy se po skončení letu úplně zastaví. Prakticky jde o čas „od pohybu do zastavení“, nikoli pouze o čas ve vzduchu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Doba letu se u letounu počítá od okamžiku, kdy se letoun začne pohybovat za účelem vzletu, do okamžiku, kdy se po skončení letu úplně zastaví. Prakticky jde o čas „od pohybu do zastavení“, nikoli pouze o čas ve vzduchu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Zapamatuj si „od pohybu do zastavení“. Doba letu není totéž co čas od odpoutání do dosednutí."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letovém deníku a při výpočtu nalétaného času je důležité používat správnou definici doby letu, protože ovlivňuje evidenci zkušeností, údržbové intervaly i splnění licenčních požadavků."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 2,
+      "title": "Let nad vodou mimo dolet pobřeží",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Pokud trať vede tak daleko nad vodu, že při vysazení motoru není reálné doklouzat na pevninu, musí být pro osoby na palubě k dispozici odpovídající záchranné vybavení pro pobyt na vodě. Zdrojová otázka pracuje s plovacími vestami nebo záchrannými čluny.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pokud trať vede tak daleko nad vodu, že při vysazení motoru není reálné doklouzat na pevninu, musí být pro osoby na palubě k dispozici odpovídající záchranné vybavení pro pobyt na vodě. Zdrojová otázka pracuje s plovacími vestami nebo záchrannými čluny."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Jakmile při vysazení nedosáhneš pevniny, myslíš na prostředky pro přežití na vodě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před tratí nad větší vodní plochou se vybavení plánuje ještě na zemi podle délky přeletu, teploty vody, počtu osob a použitelných provozních pravidel."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 3,
+      "title": "Faktory ovlivňující hluk",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Hluk, který vnímá člověk na zemi, ovlivňuje výkon motoru, otáčky vrtule, konfigurace letadla, vedení tratě a výška nad zemí. Samotná kategorie pravidel letu není fyzikálním zdrojem hluku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hluk, který vnímá člověk na zemi, ovlivňuje výkon motoru, otáčky vrtule, konfigurace letadla, vedení tratě a výška nad zemí. Samotná kategorie pravidel letu není fyzikálním zdrojem hluku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hluk tvoří motor, vrtule, konfigurace, trať a výška. „Pravidla letu“ sama hluk nevytvářejí."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Protihlukové postupy jsou součástí provozní disciplíny. Pilot je kombinuje s bezpečností letu, výkonovými rezervami a publikovanými odletovými a příletovými postupy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 4,
+      "title": "Protihlukový sestup a přiblížení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Menší výkon a pozdější konfigurace omezují dobu, po kterou letadlo vytváří vysoký hluk v malé výšce. Zároveň je třeba zachovat stabilizované přiblížení a postupy konkrétního letiště a letadla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Menší výkon a pozdější konfigurace omezují dobu, po kterou letadlo vytváří vysoký hluk v malé výšce. Zároveň je třeba zachovat stabilizované přiblížení a postupy konkrétního letiště a letadla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Protihlukově: méně výkonu, později klesat a konfigurovat, držet publikovanou trať."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Protihlukový profil nesmí rozbít kritéria stabilizovaného přiblížení. Pokud je konflikt mezi hlukem a bezpečností, bezpečnost má přednost."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 5,
+      "title": "Zatáčky nad obcemi při stoupání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při stoupání bývá výkon motoru vysoký a letadlo je ještě relativně nízko. Zatáčka navíc mění rozložení vztlaku a může zvýšit potřebný výkon, proto je protihlukově výhodné směrové změny nad zastavěnou oblastí minimalizovat.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při stoupání bývá výkon motoru vysoký a letadlo je ještě relativně nízko. Zatáčka navíc mění rozložení vztlaku a může zvýšit potřebný výkon, proto je protihlukově výhodné směrové změny nad zastavěnou oblastí minimalizovat."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stoupání = vysoký výkon + malá výška. To je nejcitlivější fáze pro hluk nad obcí."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V reálném provozu se protihluková omezení řídí AIP, místními postupy a případnými časovými omezeními letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 6,
+      "title": "Odlety v blízkosti obcí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Odletová trať se má vést tak, aby se pokud možno vyhnula obcím a aby jejich případný přelet probíhal v dostatečné výšce. Výška výrazně snižuje hladinu hluku vnímanou na zemi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Odletová trať se má vést tak, aby se pokud možno vyhnula obcím a aby jejich případný přelet probíhal v dostatečné výšce. Výška výrazně snižuje hladinu hluku vnímanou na zemi."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Obec raději obeletět, a když ji přeletíš, tak s dostatečnou výškou."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování odletu lze už před spuštěním zvolit trať a výšku tak, aby se citlivým oblastem co nejvíce vyhnulo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 7,
+      "title": "Požár karburátoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Požár karburátoru je typické riziko u pístového motoru s karburátorem. Palivo se v sací soustavě mísí se vzduchem a při nevhodných podmínkách se může směs mimo spalovací prostor vznítit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Požár karburátoru je typické riziko u pístového motoru s karburátorem. Palivo se v sací soustavě mísí se vzduchem a při nevhodných podmínkách se může směs mimo spalovací prostor vznítit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Karburátor patří k pístovému motoru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při skutečném požáru se vždy používá checklist/AFM konkrétního typu. Obecný princip otázky nenahrazuje typový postup."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 8,
+      "title": "Pumpování plynovou pákou při startu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Rychlé opakované pohyby plynovou pákou mohou u karburátorového motoru dodat přes akcelerační pumpu další palivo do sání. Při studeném startu se může palivo nahromadit a při zpětném zášlehu vzplanout.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rychlé opakované pohyby plynovou pákou mohou u karburátorového motoru dodat přes akcelerační pumpu další palivo do sání. Při studeném startu se může palivo nahromadit a při zpětném zášlehu vzplanout."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pumpování plynem může nalít další palivo do sání. Palivo + zášleh = riziko požáru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Startovací postup se řídí POH/AFM. Přebytečné primování nebo pumpování plynem je typická příčina přeplavení motoru."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 9,
+      "title": "Nebezpečí při spouštění motoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při spouštění pístového motoru je jedním z typických rizik požár karburátoru, zejména při přeplavení motoru palivem nebo nevhodném startovacím postupu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při spouštění pístového motoru je jedním z typických rizik požár karburátoru, zejména při přeplavení motoru palivem nebo nevhodném startovacím postupu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Start motoru + přebytek paliva = mysli na požár karburátoru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při startu je důležité sledovat, zda motor běží normálně, a mít připravený postup pro startovací požár."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 10,
+      "title": "Opětovné spuštění motoru po požáru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Po požáru není bezpečné předpokládat, že příčina nebo skryté poškození zmizely. Zdroj proto požaduje motor znovu nespouštět kvůli riziku opětovného vznícení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po požáru není bezpečné předpokládat, že příčina nebo skryté poškození zmizely. Zdroj proto požaduje motor znovu nespouštět kvůli riziku opětovného vznícení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Požár znamená možné skryté poškození. Motor znovu nespouštět."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rozhodnutí o restartu po požáru musí vycházet z checklistu konkrétního typu a situace. U zkoušky je rozhodující zde uvedená zdrojová odpověď."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 11,
+      "title": "Oxid uhelnatý při požáru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Oxid uhelnatý vzniká při nedokonalém spalování a je nebezpečný tím, že se váže na hemoglobin výrazně ochotněji než kyslík. Otrava tak může rychle zhoršit vědomí a výkonnost posádky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Oxid uhelnatý vzniká při nedokonalém spalování a je nebezpečný tím, že se váže na hemoglobin výrazně ochotněji než kyslík. Otrava tak může rychle zhoršit vědomí a výkonnost posádky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "CO = oxid uhelnatý = blokuje přenos kyslíku krví."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "CO je zrádný, protože je bezbarvý a bez zápachu. V pístovém letadle může být rizikem zejména netěsný výfuk nebo výměník topení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 12,
+      "title": "Kouř v kabině při požáru motoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Je-li při požáru motoru dým nasáván do kabiny, vypnutí topení a ventilace omezuje další přívod znečištěného vzduchu z prostoru motoru nebo výměníku tepla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Je-li při požáru motoru dým nasáván do kabiny, vypnutí topení a ventilace omezuje další přívod znečištěného vzduchu z prostoru motoru nebo výměníku tepla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kouř z motorového prostoru nechceš přivádět topením ani ventilací do kabiny."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pokud se kouř dostává do kabiny, prioritou je izolovat jeho zdroj a současně udržet letadlo pod kontrolou podle nouzového checklistu."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 13,
+      "title": "První krok při požáru kabeláže",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při podezření na požár elektrické instalace je prvním cílem odstranit elektrický zdroj energie. Vypnutí hlavního vypínače přeruší napájení většiny palubní elektrické sítě.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při podezření na požár elektrické instalace je prvním cílem odstranit elektrický zdroj energie. Vypnutí hlavního vypínače přeruší napájení většiny palubní elektrické sítě."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Elektrický požár: nejdřív odříznout elektrickou energii."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po vypnutí hlavního vypínače mohou přestat fungovat některé přístroje, světla, rádia a elektrické systémy. Pilot proto musí znát důsledky pro konkrétní letadlo."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 14,
+      "title": "Hasivo pro požár letadla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Voda je pro hašení požáru letadla z uvedených možností nejméně vhodná, protože může být problematická u elektrických zařízení a u hořlavých kapalin. Volba hasiva se vždy řídí druhem požáru a vybavením konkrétního letadla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Voda je pro hašení požáru letadla z uvedených možností nejméně vhodná, protože může být problematická u elektrických zařízení a u hořlavých kapalin. Volba hasiva se vždy řídí druhem požáru a vybavením konkrétního letadla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Z nabízených hasiv je voda nejproblematičtější."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Hasicí přístroj na palubě musí být vhodný pro očekávané typy požáru a jeho použití nesmí vytvořit další nebezpečí pro posádku."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 15,
+      "title": "Podezření na elektrický požár",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Dým za přístrojovou deskou typicky ukazuje na elektrický problém. Vypnutí hlavního vypínače odstraní napájení a tím může zastavit další zahřívání kabeláže nebo elektrického zařízení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dým za přístrojovou deskou typicky ukazuje na elektrický problém. Vypnutí hlavního vypínače odstraní napájení a tím může zastavit další zahřívání kabeláže nebo elektrického zařízení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kouř za přístrojovkou = nejdřív mysli na elektriku a hlavní vypínač."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po odpojení hlavního elektrického napájení se případné systémy znovu zapínají jen podle checklistu a pouze pokud je nutné identifikovat nebo obnovit kritickou funkci."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 16,
+      "title": "Podezření na požár motoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při podezření na požár motoru může topný systém přivádět do kabiny kouř nebo spaliny z prostoru motoru a výměníku tepla. Proto se podle zdrojové otázky topení vypíná.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při podezření na požár motoru může topný systém přivádět do kabiny kouř nebo spaliny z prostoru motoru a výměníku tepla. Proto se podle zdrojové otázky topení vypíná."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Požár motoru a kouř v kabině: izoluj zdroj vzduchu z motorového prostoru, tedy topení."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "U pístových letadel bývá kabinové topení často spojeno s výměníkem kolem výfuku, takže jeho vypnutí pomáhá omezit přenos kouře a CO."
+        }
+      ],
+      "warning": "Při skutečném požáru nebo kouři používej okamžitě nouzový checklist/AFM/POH konkrétního typu. Studijní vysvětlení nenahrazuje typový postup.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 17,
+      "title": "Definice střihu větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Střih větru je prostorová změna větru, tedy rychlosti nebo směru, a může mít horizontální i vertikální složku. Letadlo při průletu touto oblastí zažívá rychlou změnu relativního proudění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Střih větru je prostorová změna větru, tedy rychlosti nebo směru, a může mít horizontální i vertikální složku. Letadlo při průletu touto oblastí zažívá rychlou změnu relativního proudění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Windshear = změna větru v prostoru, ne jen „silný vítr“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nejnebezpečnější je windshear v malé výšce při vzletu a přistání, kdy je málo času i prostoru na obnovení energie."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 18,
+      "title": "Bouřky a střih větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Bouřky obsahují silné stoupavé a klesavé proudy a v jejich okolí vznikají výrazné rozdíly rychlosti a směru větru. Proto jsou typickým prostředím pro nebezpečný windshear.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bouřky obsahují silné stoupavé a klesavé proudy a v jejich okolí vznikají výrazné rozdíly rychlosti a směru větru. Proto jsou typickým prostředím pro nebezpečný windshear."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Bouřka = silné vertikální proudy + velké změny větru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Bouřkovému windshearu a microburstu se malým letadlem aktivně vyhýbá. Radarové nebo vizuální varovné signály se berou konzervativně."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 19,
+      "title": "Inverze a střih větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Inverzní vrstva může oddělovat dvě vzduchové vrstvy s výrazně odlišnou rychlostí nebo směrem větru. Na rozhraní pak vzniká střih větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Inverzní vrstva může oddělovat dvě vzduchové vrstvy s výrazně odlišnou rychlostí nebo směrem větru. Na rozhraní pak vzniká střih větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Inverze může být ostré rozhraní dvou různě proudících vrstev."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Silný windshear může být přítomen i za jinak klidného počasí, pokud je výrazný rozdíl větru mezi vrstvami."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 20,
+      "title": "Pokles čelní složky větru při přiblížení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Pokles čelní složky znamená okamžitý pokles rychlosti vzduchu vůči křídlu. Klesne dynamický tlak a vztlak, takže bez korekce IAS klesá a trajektorie se propadá.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pokles čelní složky znamená okamžitý pokles rychlosti vzduchu vůči křídlu. Klesne dynamický tlak a vztlak, takže bez korekce IAS klesá a trajektorie se propadá."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Méně protivětru = méně IAS = méně vztlaku = níž."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Na finále může pokles headwindu během několika sekund vytvořit nebezpečnou kombinaci nízké IAS a klesající trajektorie."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 21,
+      "title": "Nárůst čelní složky větru při přiblížení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Nárůst čelní složky zvýší relativní rychlost proudění přes křídlo. IAS i vztlak krátkodobě vzrostou a letadlo bez zásahu vystoupí nad původní trajektorii.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nárůst čelní složky zvýší relativní rychlost proudění přes křídlo. IAS i vztlak krátkodobě vzrostou a letadlo bez zásahu vystoupí nad původní trajektorii."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Více protivětru = více IAS = více vztlaku = výš."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Krátkodobý nárůst IAS po vstupu do silnějšího protivětru není důvodem energii agresivně odstraňovat, pokud je podezření na windshear, protože další část jevu může trend obrátit."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 22,
+      "title": "Pokles zadní složky větru při přiblížení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Pokles zadní složky je z hlediska letadla ekvivalentní zvýšení relativního protivětru. IAS i vztlak proto vzrostou a trajektorie se bez korekce zvedne.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pokles zadní složky je z hlediska letadla ekvivalentní zvýšení relativního protivětru. IAS i vztlak proto vzrostou a trajektorie se bez korekce zvedne."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Méně zadního větru funguje jako více protivětru: IAS a trajektorie rostou."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Změny větru se posuzují jako změna relativního proudění, nikoli jen jako číslo směru a rychlosti větru vůči zemi."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 23,
+      "title": "Pokles čelní složky větru po vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Po vzletu je rezerva energie malá. Náhlé snížení čelní složky větru sníží IAS a vztlak, takže letadlo může okamžitě klesnout pod očekávanou stoupací trajektorii.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po vzletu je rezerva energie malá. Náhlé snížení čelní složky větru sníží IAS a vztlak, takže letadlo může okamžitě klesnout pod očekávanou stoupací trajektorii."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Po vzletu méně protivětru = propad IAS a stoupací trajektorie."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při odletu je zvlášť kritická malá výška a konfigurace s omezenou rezervou rychlosti."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 24,
+      "title": "Rozpoznání střihu větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Windshear se v pilotní kabině projeví rychlými změnami IAS, vertikální rychlosti a polohy letadla. Tyto změny mohou nastat bez odpovídajícího zásahu pilota.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Windshear se v pilotní kabině projeví rychlými změnami IAS, vertikální rychlosti a polohy letadla. Tyto změny mohou nastat bez odpovídajícího zásahu pilota."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Windshear poznáš podle náhlých změn IAS, VS a polohy letadla."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rychlé současné změny několika letových parametrů bez zjevné příčiny jsou silným varováním, že jde o atmosférický jev."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 25,
+      "title": "Mikroburst, bod 2",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "V typickém průletu mikroburstem se po počátečním zvýšení protivětru letadlo dostává do silného sestupného proudu. V bodu 2 proto klesá stoupavost a letadlo je tlačeno dolů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V typickém průletu mikroburstem se po počátečním zvýšení protivětru letadlo dostává do silného sestupného proudu. V bodu 2 proto klesá stoupavost a letadlo je tlačeno dolů."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mikroburst: bod 2 je sestupný proud, tedy pokles stoupavosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Studijní obrázek OPR-001 zobrazuje typickou sekvenci mikroburstu. V praxi se od aktivního mikroburstu u letiště drží bezpečný odstup a postupuje se podle AFM/POH."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 26,
+      "title": "Mikroburst, bod 3",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Na odletové straně mikroburstu se protivítr mění v zadní vítr. Relativní rychlost proudění přes křídlo klesá, takže v bodu 3 nastává pokles rychlosti letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na odletové straně mikroburstu se protivítr mění v zadní vítr. Relativní rychlost proudění přes křídlo klesá, takže v bodu 3 nastává pokles rychlosti letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mikroburst: bod 3 je přechod do zadního větru, tedy pokles IAS."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Ztráta IAS na výstupní straně mikroburstu může být velmi rychlá a v malé výšce kritická."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 27,
+      "title": "Prevence vstupu do střihu větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Nejspolehlivější ochranou je do oblasti silného windshearu nevstoupit. Intenzivní přeháňky a bouřky v blízkosti letiště jsou důvodem vzlet nebo přistání odložit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nejspolehlivější ochranou je do oblasti silného windshearu nevstoupit. Intenzivní přeháňky a bouřky v blízkosti letiště jsou důvodem vzlet nebo přistání odložit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejlepší windshear escape je prevence: nevzlétnout/nepřistávat do silné přeháňky nebo bouřky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pokud je v oblasti dráhy intenzivní konvekce, nejbezpečnější rozhodnutí je vyčkat nebo zvolit jiné letiště."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 28,
+      "title": "Reakce na střih větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Po vstupu do windshearu se nemají provádět zbytečné změny konfigurace, protože mohou přidat další přechodové ztráty vztlaku nebo odporu. Prioritou je výkon motoru a udržení řiditelné energie letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po vstupu do windshearu se nemají provádět zbytečné změny konfigurace, protože mohou přidat další přechodové ztráty vztlaku nebo odporu. Prioritou je výkon motoru a udržení řiditelné energie letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Po vstupu: konfiguraci drž, výkon nastav."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Konkrétní windshear escape procedure se liší podle typu letadla. Zkouškový princip je zachovat konfiguraci a použít potřebný výkon."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 29,
+      "title": "Sekvence mikroburstu po vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při vstupu do mikroburstu může nejprve přibýt protivítr a IAS vzroste. Následuje sestupný proud a poté zadní vítr, takže po počátečním nárůstu rychlosti může přijít prudký pokles stoupavosti i IAS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při vstupu do mikroburstu může nejprve přibýt protivítr a IAS vzroste. Následuje sestupný proud a poté zadní vítr, takže po počátečním nárůstu rychlosti může přijít prudký pokles stoupavosti i IAS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Typická sekvence: IAS nahoru, downdraft, IAS dolů."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "První příznivý nárůst IAS při vstupu do mikroburstu je nebezpečně klamný. Pilot nesmí předpokládat, že situace se zlepšila."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 30,
+      "title": "Únik z mikroburstu po vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při nečekaném mikroburstu bezprostředně po vzletu je cílem zachovat energii a řiditelnost: maximální dostupný výkon, žádná zbytečná změna konfigurace a rychlost odpovídající nejlepší stoupavosti podle použitého postupu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při nečekaném mikroburstu bezprostředně po vzletu je cílem zachovat energii a řiditelnost: maximální dostupný výkon, žádná zbytečná změna konfigurace a rychlost odpovídající nejlepší stoupavosti podle použitého postupu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Max výkon, konfiguraci nechat, držet optimální stoupací rychlost."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V reálném letadle se provádí publikovaný windshear/microburst escape postup. Změny konfigurace se neprovádějí mimo tento postup."
+        }
+      ],
+      "warning": "Windshear a microburst jsou kritická nebezpečí v malé výšce. V reálném letu má přednost publikovaný postup konkrétního letadla a konzervativní vyhnutí se nebezpečné oblasti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 31,
+      "title": "Vznik turbulence v úplavu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Silná turbulence v úplavu vzniká, když křídlo začne vytvářet významný vztlak. Zdrojová otázka tento okamžik váže na nadzdvihnutí příďového kola při rotaci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Silná turbulence v úplavu vzniká, když křídlo začne vytvářet významný vztlak. Zdrojová otázka tento okamžik váže na nadzdvihnutí příďového kola při rotaci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Úplav začíná s významným vztlakem, v tomto zdroji při nadzdvihnutí příďového kola."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při vzletu za jiným letadlem se bere v úvahu místo jeho rotace a směr větru, protože odtud začíná oblast nebezpečného wake."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 32,
+      "title": "Příčina turbulence v úplavu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Na spodní straně křídla je vyšší tlak než na horní. U konců křídla se vzduch snaží tento tlakový rozdíl vyrovnat, čímž vznikají rotující koncové víry.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na spodní straně křídla je vyšší tlak než na horní. U konců křídla se vzduch snaží tento tlakový rozdíl vyrovnat, čímž vznikají rotující koncové víry."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vyrovnávání tlaku přes konce křídel vytváří koncové víry."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Wake turbulence je aerodynamický produkt vztlaku, nikoli výfuk motoru. Jet blast a wake jsou dvě odlišná nebezpečí."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 33,
+      "title": "Úplav při nízké rychlosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při nižší rychlosti musí křídlo pro stejnou hmotnost vytvářet větší součinitel vztlaku. Vyšší zatížení cirkulace kolem křídla vede k silnějším koncovým vírům.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při nižší rychlosti musí křídlo pro stejnou hmotnost vytvářet větší součinitel vztlaku. Vyšší zatížení cirkulace kolem křídla vede k silnějším koncovým vírům."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pomalu = vyšší CL = silnější úplav."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Typická zkratka pro nejsilnější wake je „heavy, clean, slow“. Tato otázka testuje část „slow“."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 34,
+      "title": "Úplav při velké hmotnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Čím větší hmotnost musí křídlo nést, tím větší vztlak musí vytvořit. Silnější vztlaková cirkulace znamená i intenzivnější turbulence v úplavu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Čím větší hmotnost musí křídlo nést, tím větší vztlak musí vytvořit. Silnější vztlaková cirkulace znamená i intenzivnější turbulence v úplavu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Těžce = více vztlaku = silnější úplav."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Typická zkratka pro nejsilnější wake je „heavy, clean, slow“. Tato otázka testuje část „heavy“."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 35,
+      "title": "Hmotnost a intenzita úplavu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Hmotnost je jedním z hlavních faktorů intenzity úplavu: těžší letadlo vyžaduje větší vztlak a vytváří silnější koncové víry.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hmotnost je jedním z hlavních faktorů intenzity úplavu: těžší letadlo vyžaduje větší vztlak a vytváří silnější koncové víry."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost je hlavní zesilovač úplavu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rozstupy za jinými letadly se řídí kategorií wake turbulence a pokyny ATS, ne jen vizuálním odhadem velikosti."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 36,
+      "title": "Úplav při rozdílné rychlosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při stejné hmotnosti a konfiguraci musí pomalejší letadlo pracovat s vyšším součinitelem vztlaku. Proto vytváří intenzivnější úplav než stejné letadlo letící rychleji.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při stejné hmotnosti a konfiguraci musí pomalejší letadlo pracovat s vyšším součinitelem vztlaku. Proto vytváří intenzivnější úplav než stejné letadlo letící rychleji."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stejná hmotnost, pomalejší let = silnější úplav."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při stejné konfiguraci a hmotnosti je nižší rychlost spojena s vyšším CL a silnější cirkulací."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 37,
+      "title": "Úplav při rozdílné rychlosti a výšce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "V zadání zůstávají typ, hmotnost a konfigurace stejné. Rozhodujícím rozdílem je rychlost, takže silnější úplav vytvoří pomalejší letadlo.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V zadání zůstávají typ, hmotnost a konfigurace stejné. Rozhodujícím rozdílem je rychlost, takže silnější úplav vytvoří pomalejší letadlo."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Výška v této otázce nerozhoduje tolik jako rychlost. Pomalejší letadlo je odpověď."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "U malého letadla je bezpečné plánovat s rezervou i tehdy, když přesný pohyb vírů není vidět."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 38,
+      "title": "Úplav při mírném bočním větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Mírný boční vítr může jeden z koncových vírů zanést nebo udržet nad dráhou či v její bezprostřední blízkosti. Proto samotný boční vítr neznamená, že je úplav bezpečně pryč.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mírný boční vítr může jeden z koncových vírů zanést nebo udržet nad dráhou či v její bezprostřední blízkosti. Proto samotný boční vítr neznamená, že je úplav bezpečně pryč."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Boční vítr může vír posunout zpět nebo ho držet nad dráhou."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Mírný crosswind může být zrádný: návětrný vír se může posouvat nad dráhu a závětrný zůstávat v její blízkosti."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 39,
+      "title": "Přistání za větším letadlem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Koncové víry za přistávajícím letadlem klesají pod jeho dráhu letu. Lehké letadlo proto drží přiblížení nad trajektorií předchozího letadla a dotýká se dráhy až za jeho bodem dotyku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Koncové víry za přistávajícím letadlem klesají pod jeho dráhu letu. Lehké letadlo proto drží přiblížení nad trajektorií předchozího letadla a dotýká se dráhy až za jeho bodem dotyku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Za větším letadlem zůstaň nad jeho trajektorií a dotkni se dráhy až za jeho bodem dotyku."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při přistání za větším letadlem se kromě časového rozstupu používá i vertikální a podélné oddělení od jeho dráhy letu."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 40,
+      "title": "Pojíždění za dopravním letadlem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při pojíždění za dopravním letadlem je zásadním rizikem proud výstupních plynů, tedy jet blast nebo prop wash. Zdrojová otázka požaduje vyhnout se tomuto proudu a zachovat uvedený odstup.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při pojíždění za dopravním letadlem je zásadním rizikem proud výstupních plynů, tedy jet blast nebo prop wash. Zdrojová otázka požaduje vyhnout se tomuto proudu a zachovat uvedený odstup."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Za dopravním letadlem při pojíždění řešíš jet blast, ne wake za letu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Jet blast může převrátit lehké letadlo, poškodit vrtuli nebo odmrštit předměty. Bezpečný odstup se řídí typem letadla a místními postupy."
+        }
+      ],
+      "warning": "Wake turbulence a jet blast se v provozu řeší publikovanými rozstupy, pokyny ATS a místními postupy. Nevycházej pouze z vizuálního odhadu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 41,
+      "title": "Nouzové přistání mimo letiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při vynuceném přistání je nejdřív nutné získat reálnou přistávací plochu a připravit si trajektorii. Nouzové úkony, vyhlášení nouze a konfigurace mají podporovat hlavní cíl: bezpečné provedení přistání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při vynuceném přistání je nejdřív nutné získat reálnou přistávací plochu a připravit si trajektorii. Nouzové úkony, vyhlášení nouze a konfigurace mají podporovat hlavní cíl: bezpečné provedení přistání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Aviate až do země: plocha, trajektorie, nouzové úkony, nouze, přiblížení."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nouzové přistání se plánuje tak, aby pilot nebyl na konci zaměstnán administrativou nebo rádiem na úkor řízení letadla."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 42,
+      "title": "Prohlídka plochy pro přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Před přistáním do neznámého terénu je výhodné plochu prohlédnout, pokud to situace a výška dovolují. Pilot tak posoudí překážky, sklon, vítr, povrch a vhodný směr přiblížení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Před přistáním do neznámého terénu je výhodné plochu prohlédnout, pokud to situace a výška dovolují. Pilot tak posoudí překážky, sklon, vítr, povrch a vhodný směr přiblížení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nepřipravenou plochu si nejprve prohlédni."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při prohlídce se hodnotí vítr, sklon, délka, povrch, překážky, vedení, příkopy, osoby a možnost úniku po dosednutí."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 43,
+      "title": "Volba plochy pro přistání mimo letiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Sklizené obilné pole bývá z uvedených možností nejpředvídatelnější: má nízký porost a obvykle relativně rovný povrch. Stále je nutné posoudit brázdy, příkopy, vedení a směr větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Sklizené obilné pole bývá z uvedených možností nejpředvídatelnější: má nízký porost a obvykle relativně rovný povrch. Stále je nutné posoudit brázdy, příkopy, vedení a směr větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Sklizené pole = nízký porost a dobře čitelný povrch."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Jakýkoli terén může skrývat příkopy, kameny nebo měkká místa. Volba „sklizené pole“ je nejlepší z nabízených možností, ne univerzálně bezpečná plocha."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 44,
+      "title": "Definice nouzového přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Nouzové přistání je vynucené okolnostmi, které nutí letadlo přistát. Spouštěčem je tedy situace, která nedává bezpečnou možnost pokračovat v letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nouzové přistání je vynucené okolnostmi, které nutí letadlo přistát. Spouštěčem je tedy situace, která nedává bezpečnou možnost pokračovat v letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nouzové přistání je vynucené okolnostmi."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Rozlišení nouzového a bezpečnostního přistání pomáhá rozhodnout, zda situace letadlo nutí okamžitě přistát, nebo zda jde o preventivní přerušení letu."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 45,
+      "title": "Přistání vynucené okolnostmi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Jestliže okolnosti letadlo nutí přistát, jde podle terminologie zdrojové otázky o nouzové přistání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Jestliže okolnosti letadlo nutí přistát, jde podle terminologie zdrojové otázky o nouzové přistání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nutí tě okolnosti přistát = nouzové přistání."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při vynuceném přistání se rozhoduje podle zbývající energie, terénu, větru a checklistu, nikoli podle snahy za každou cenu doletět na letiště."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 46,
+      "title": "Definice bezpečnostního přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Bezpečnostní přistání je preventivní rozhodnutí přistát, aby se zachovala bezpečnost letu, i když ještě nejde o situaci, která letadlo bezprostředně nutí přistát.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bezpečnostní přistání je preventivní rozhodnutí přistát, aby se zachovala bezpečnost letu, i když ještě nejde o situaci, která letadlo bezprostředně nutí přistát."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Bezpečnostní přistání je preventivní krok pro zachování bezpečnosti."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Bezpečnostní přistání může být správné rozhodnutí například při zhoršujícím se počasí, technické nejistotě nebo zdravotním problému dříve, než se situace stane nouzovou."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 47,
+      "title": "Vhodná plocha pro přistání mimo letiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Nízký porost usnadňuje odhad povrchu a omezuje riziko zachycení podvozku nebo křídla. Proto zdroj mezi uvedenými možnostmi volí lehce hnědé pole s málo vzrostlými plodinami.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nízký porost usnadňuje odhad povrchu a omezuje riziko zachycení podvozku nebo křídla. Proto zdroj mezi uvedenými možnostmi volí lehce hnědé pole s málo vzrostlými plodinami."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nízký porost je v zadání nejpříznivější volba."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Volba plochy je vždy kompromis mezi délkou, povrchem, větrem, překážkami a možností bezpečné evakuace."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 48,
+      "title": "VFR nad vodou mimo dolet pobřeží",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při letu nad vodou mimo reálný dolet pobřeží musí být posádka připravena na ditching. Základní ochranu osob tvoří plovací vesty nebo další odpovídající záchranné prostředky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při letu nad vodou mimo reálný dolet pobřeží musí být posádka připravena na ditching. Základní ochranu osob tvoří plovací vesty nebo další odpovídající záchranné prostředky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mimo klouzavý dolet pobřeží = vybavení pro pobyt na vodě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při skutečném letu nad vodou se požadavky na vybavení řídí aktuálními provozními předpisy a kategorií provozu."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 49,
+      "title": "Instruktáž cestujících před nouzovým přistáním",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Instruktáž musí cestujícím dát informace potřebné k přežití samotného přistání a následné evakuaci: co se děje, co pilot zamýšlí, jak zaujmout ochrannou polohu, kudy ven a co dělat po zastavení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Instruktáž musí cestujícím dát informace potřebné k přežití samotného přistání a následné evakuaci: co se děje, co pilot zamýšlí, jak zaujmout ochrannou polohu, kudy ven a co dělat po zastavení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Briefing: nebezpečí, úmysl, brace, exits, co potom."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Briefing má být krátký, jednoznačný a provedený dostatečně včas, aby cestující stihli upravit pásy, odstranit volné předměty a připravit se na náraz."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 50,
+      "title": "Přístup k horkým brzdám a kolům",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Přehřátá pneumatika nebo kolo může při poruše uvolnit energii převážně do stran roviny kola. Proto se k horkým kolům přistupuje zepředu nebo zezadu, nikoli z boku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přehřátá pneumatika nebo kolo může při poruše uvolnit energii převážně do stran roviny kola. Proto se k horkým kolům přistupuje zepředu nebo zezadu, nikoli z boku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "K horkému kolu nechoď z boku. Přibližuj se zepředu nebo zezadu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po přistání s přehřátými brzdami se prostor kolem kol považuje za nebezpečný a letadlo se nechá bezpečně vychladnout podle pokynů provozovatele."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 51,
+      "title": "Přehřátí brzd a pneumatik",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Přehřáté brzdy zahřívají pneumatiku a zvyšují její tlak i tepelnou zátěž. Zdroj upozorňuje na možnost podélného roztržení pneumatiky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přehřáté brzdy zahřívají pneumatiku a zvyšují její tlak i tepelnou zátěž. Zdroj upozorňuje na možnost podélného roztržení pneumatiky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Horká brzda může tepelně poškodit pneumatiku až k jejímu prasknutí."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "K horkým kolům se nepřibližuje z boku a neprovádí se improvizované chlazení, pokud to není předepsané postupem."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 52,
+      "title": "Nafukování záchranných vest",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Nafouknutá vesta v kabině zvětší objem osoby a může ji zachytit ve dveřích nebo pod stropem zaplavované kabiny. Proto se nafukuje až po opuštění letadla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nafouknutá vesta v kabině zvětší objem osoby a může ji zachytit ve dveřích nebo pod stropem zaplavované kabiny. Proto se nafukuje až po opuštění letadla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vestu nafukuj až venku z letadla."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ditchingu se vesta obvykle připraví a zapne v kabině, ale nafoukne se až venku, aby nezablokovala evakuaci."
+        }
+      ],
+      "warning": "Při skutečné nouzové nebo bezpečnostní situaci postupuj podle AFM/POH a checklistu konkrétního letadla; pořadí úkonů může být typově specifické.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 53,
+      "title": "Mokrá tráva a délka vzletu a přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Mokrá tráva zvyšuje valivý odpor při rozjezdu a současně zhoršuje účinnost brzd a směrové vedení po přistání. Výsledkem je delší vzletová i přistávací vzdálenost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mokrá tráva zvyšuje valivý odpor při rozjezdu a současně zhoršuje účinnost brzd a směrové vedení po přistání. Výsledkem je delší vzletová i přistávací vzdálenost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mokrá tráva prodlužuje vzlet i přistání."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Na trávě je výkon silně závislý na délce, vlhkosti a měkkosti povrchu. Používají se korekce z POH/AFM, nikoli obecný odhad."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 54,
+      "title": "Definice znečištěné dráhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Zdrojová otázka používá tehdejší definici znečištěné dráhy založenou na pokrytí více než 25 % povrchu a vrstvě vody, rozbředlého sněhu, sněhu nebo ledu silnější než 3 mm.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zdrojová otázka používá tehdejší definici znečištěné dráhy založenou na pokrytí více než 25 % povrchu a vrstvě vody, rozbředlého sněhu, sněhu nebo ledu silnější než 3 mm."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro tuto zdrojovou otázku: více než 25 % a vrstva přes 3 mm."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Tato otázka vychází z verze dokumentu z roku 2020. Pro reálné operace používej aktuální runway condition report, Global Reporting Format a limity AFM/POH."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 55,
+      "title": "Pokrytí dráhy ledem nebo sněhem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Hodnota 0,25 je desetinný zápis 25 %. Zdroj tedy očekává minimální pokrytí jedné čtvrtiny plochy dráhy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hodnota 0,25 je desetinný zápis 25 %. Zdroj tedy očekává minimální pokrytí jedné čtvrtiny plochy dráhy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "0,25 = 25 % = jedna čtvrtina."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Číselná hodnota je zkoušková hodnota ze zdrojového dokumentu. Aktuální provozní posouzení kontaminace se provádí podle platných pravidel."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 56,
+      "title": "Mokrý sníh při vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Mokrý sníh vytváří vysoký valivý a hydrodynamický odpor kol. Letadlo proto zrychluje pomaleji a potřebuje delší rozjezd.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mokrý sníh vytváří vysoký valivý a hydrodynamický odpor kol. Letadlo proto zrychluje pomaleji a potřebuje delší rozjezd."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mokrý sníh = větší odpor = delší rozjezd."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Mokrý sníh může kromě odporu zhoršit směrové vedení a zvyšuje riziko kontaminace podvozku a brzd."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 57,
+      "title": "Stojatá voda na dráze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Stojatá voda vytváří dodatečný odpor proti pohybu kol a při vyšší rychlosti může navíc vést k aquaplaningu. Už při rozjezdu tak prodlužuje požadovanou vzdálenost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stojatá voda vytváří dodatečný odpor proti pohybu kol a při vyšší rychlosti může navíc vést k aquaplaningu. Už při rozjezdu tak prodlužuje požadovanou vzdálenost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Stojatá voda = větší odpor a riziko aquaplaningu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Stojatá voda může vést k dynamickému aquaplaningu a výraznému poklesu účinku brzd a řízení příďovým kolem."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 58,
+      "title": "Intenzivní déšť a akvaplaning",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Při aquaplaningu pneumatika ztrácí účinný kontakt s povrchem a brzdná síla výrazně klesá. Intenzivní déšť proto může prodloužit brzdnou vzdálenost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při aquaplaningu pneumatika ztrácí účinný kontakt s povrchem a brzdná síla výrazně klesá. Intenzivní déšť proto může prodloužit brzdnou vzdálenost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Aquaplaning = méně tření = delší brzdná dráha."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Riziko aquaplaningu roste s rychlostí a hloubkou vody. Pokud jsou podmínky mimo limity, bezpečným řešením je nepřistávat."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 59,
+      "title": "Postup při očekávaném akvaplaningu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Je-li zachován kontakt kol s dráhou a kola se otáčejí, používá se opatrné brzdění a směr se udržuje aerodynamickými řídicími plochami. Prudké brzdění může aquaplaning a ztrátu řízení zhoršit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Je-li zachován kontakt kol s dráhou a kola se otáčejí, používá se opatrné brzdění a směr se udržuje aerodynamickými řídicími plochami. Prudké brzdění může aquaplaning a ztrátu řízení zhoršit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kola se točí: mírně brzdit a směr držet kormidly."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Konkrétní technika brzdění závisí na letadle, typu brzd a stavu dráhy. V provozu má přednost AFM/POH a aktuální runway condition report."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    },
+    {
+      "subject_id": 6,
+      "source_question_id": 60,
+      "title": "Přistání na znečištěnou dráhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-06-official-questions",
+      "explanation": "Na kontaminované dráze je cílem minimalizovat boční zatížení, dosednout rozhodně při co nejnižší bezpečné rychlosti a brzdit s citem. Zdrojová odpověď používá maximální klapky a pevný dotyk.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na kontaminované dráze je cílem minimalizovat boční zatížení, dosednout rozhodně při co nejnižší bezpečné rychlosti a brzdit s citem. Zdrojová odpověď používá maximální klapky a pevný dotyk."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kontaminovaná dráha: malý crosswind, pevný dotyk, nízká rychlost, brzdit opatrně."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Technika přistání na kontaminovanou dráhu je typově specifická. Zdrojová odpověď je pro zkoušku závazná, ale skutečný postup vždy ověř v AFM/POH a aktuálních provozních podmínkách."
+        }
+      ],
+      "warning": "Zdrojový dokument je z roku 2020. Pro skutečný provoz na kontaminované dráze používej aktuální runway condition reporting, AFM/POH a publikované limity.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 10.12.2020."
+    }
+  ]
+}

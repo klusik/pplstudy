@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="t d">
+  <title id="t">PFA-003 studijní schéma úhlu náběhu</title>
+  <desc id="d">Směr nabíhajícího proudu je vodorovný, tětiva profilu je skloněná. Zvýrazněný úhel mezi nimi je úhel náběhu.</desc>
+  <rect width="900" height="470" fill="#fff"/>
+  <g stroke="#386c8e" stroke-width="5" fill="none">
+    <line x1="90" y1="320" x2="790" y2="320"/>
+    <path d="M790 320 l-28 -16 m28 16 l-28 16"/>
+  </g>
+  <text x="90" y="360" font-family="system-ui,sans-serif" font-size="24" fill="#386c8e">DoF: směr nabíhajícího proudu</text>
+  <line x1="235" y1="320" x2="760" y2="205" stroke="#17384f" stroke-width="5"/>
+  <path d="M235 320 C335 225 600 170 760 205 C600 255 350 295 235 320 Z" fill="#e8eef3" stroke="#17384f" stroke-width="3" opacity="0.9"/>
+  <path d="M350 320 A115 115 0 0 0 347 295" fill="none" stroke="#9a4f55" stroke-width="6"/>
+  <text x="365" y="286" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#9a4f55">α</text>
+  <text x="310" y="438" font-family="system-ui,sans-serif" font-size="18" fill="#465b6b">Studijní překreslení přílohy PFA-003</text>
+</svg>

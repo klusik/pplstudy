@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t d">
+  <title id="t">MET-002 studijní ilustrace oblaku Cumulus</title>
+  <desc id="d">Kupovitý oblak s plochou základnou a výrazně členěnými vrcholy.</desc>
+  <rect width="720" height="480" fill="#eaf4fb"/>
+  <rect y="390" width="720" height="90" fill="#dce8d2"/>
+  <path d="M165 340 C155 285 200 255 245 267 C250 215 295 178 350 192 C375 135 460 132 490 197 C555 190 595 245 575 295 C615 320 602 365 555 372 L205 372 C180 370 166 360 165 340 Z" fill="#fff" stroke="#67859b" stroke-width="6"/>
+  <line x1="195" y1="372" x2="560" y2="372" stroke="#526b7c" stroke-width="6"/>
+  <text x="278" y="430" font-family="sans-serif" font-size="27" font-weight="700" fill="#17384f">Cumulus</text>
+  <text x="188" y="463" font-family="sans-serif" font-size="18" fill="#465b6b">Studijní ilustrace přílohy MET-002</text>
+</svg>

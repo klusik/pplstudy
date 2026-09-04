@@ -1,0 +1,2075 @@
+{
+  "schema_version": 1,
+  "subject_id": 3,
+  "source_key": "subject-03-official-questions",
+  "source_title": "Meteorologie – letoun",
+  "source_version": "1.1, 29.12.2020",
+  "source_sha256": "d67b13776267656347d813bb8ab7c0a244f0e20f8389193d9e178d9f632d74e2",
+  "source_filename": "03-meteorologie-official.pdf",
+  "questions": [
+    {
+      "source_question_id": 1,
+      "prompt": "Jaká oblačnost a počasí se objeví při vlhké a nestabilní vzduchové hmotě, která je převládajícím větrem tlačena proti pohoří a nucena stoupat?",
+      "choices": [
+        "zastřené Cb s bouřkami a přeháňkami krup anebo deště",
+        "nevysoká, nestrukturovaná oblačnost Ns s mírným mrholením nebo sněžením (v zimě)",
+        "nevysoká oblačnost typu As nebo Cs s mírnými a dlouhotrvajícími srážkami",
+        "zataženo nízkým stratem (vysoká mlha) bez srážek"
+      ],
+      "correct_choice_index": 0,
+      "answer": "zastřené Cb s bouřkami a přeháňkami krup anebo deště",
+      "source_document_page": 1,
+      "title": "Vlhká nestabilní vzduchová hmota nad pohořím",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "prompt": "Jaká typ mlhy vzniká, když je vlhký a téměř nasycený vzduch nucen převládajícím větrem stoupat do kopců nebo malých hor?",
+      "choices": [
+        "orografická mlha",
+        "radiační mlha",
+        "advekční mlha",
+        "mlha v kopcích"
+      ],
+      "correct_choice_index": 0,
+      "answer": "orografická mlha",
+      "source_document_page": 1,
+      "title": "Orografická mlha",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "prompt": "Jaká situace v meteorologii se nazývá přerůstání konvektivní oblačnosti?",
+      "choices": [
+        "vertikální rozvoj kumulů až do dešťových přeháněk",
+        "změna od termiky bez oblačnosti k termice s oblačností v odpoledních hodinách",
+        "nárůst kumulovité oblačnosti až pod vrstvu inverze",
+        "vývoj termické níže až k bouřkové níži"
+      ],
+      "correct_choice_index": 0,
+      "answer": "vertikální rozvoj kumulů až do dešťových přeháněk",
+      "source_document_page": 1,
+      "title": "Přerůstání konvektivní oblačnosti",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "prompt": "Jaké je složení vzduchu?",
+      "choices": [
+        "kyslík 21 %, dusík 78 %, vzácné plyny / kysličník uhličitý 1 %",
+        "dusík 21 %, kyslík 78 %, vzácné plyny / kysličník uhličitý 1 %",
+        "kyslík 78 %, vodní pára 21 %, dusík 1 %",
+        "kyslík 21 %, vodní pára 78 %, vzácné plyny / kysličník uhličitý 1 %"
+      ],
+      "correct_choice_index": 0,
+      "answer": "kyslík 21 %, dusík 78 %, vzácné plyny / kysličník uhličitý 1 %",
+      "source_document_page": 1,
+      "title": "Složení vzduchu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 5,
+      "prompt": "Ve které vrstvě atmosféry dochází nejčastěji k meteorologickým jevům?",
+      "choices": [
+        "stratosféra",
+        "troposféra",
+        "tropopauza",
+        "termosféra"
+      ],
+      "correct_choice_index": 1,
+      "answer": "troposféra",
+      "source_document_page": 1,
+      "title": "Troposféra a meteorologické jevy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "prompt": "Jaká je podle mezinárodní standardní atmosféry hmotnost krychle vzduchu o hraně 1 m?",
+      "choices": [
+        "0.01225 kg",
+        "0.1225 kg",
+        "1.225 kg",
+        "12.25 kg"
+      ],
+      "correct_choice_index": 2,
+      "answer": "1.225 kg",
+      "source_document_page": 2,
+      "title": "Hustota vzduchu v ISA",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 7,
+      "prompt": "Jak se podle mezinárodní standardní atmosféry mění v troposféře teplota s narůstající výškou?",
+      "choices": [
+        "nárůst o 2 °C / 100 m",
+        "pokles o 2 °C / 100 m",
+        "pokles o 2 °C / 1000 ft",
+        "nárůst o 2 °C / 1000 ft"
+      ],
+      "correct_choice_index": 2,
+      "answer": "pokles o 2 °C / 1000 ft",
+      "source_document_page": 2,
+      "title": "Teplotní gradient ISA v troposféře",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 8,
+      "prompt": "Jaká je střední výška tropopauzy podle mezinárodní standardní atmosféry?",
+      "choices": [
+        "11.000 ft",
+        "18.000 ft",
+        "36.000 m",
+        "11.000 m"
+      ],
+      "correct_choice_index": 3,
+      "answer": "11.000 m",
+      "source_document_page": 2,
+      "title": "Střední výška tropopauzy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "prompt": "Pojem tropopauza je definován jako:",
+      "choices": [
+        "hraniční vrstva mezi troposférou a stratosférou",
+        "vrstva nad troposférou, kde dochází k nárůstu teploty",
+        "hraniční vrstva mezi mezosférou a stratosférou",
+        "výška, nad kterou se teplota začíná snižovat"
+      ],
+      "correct_choice_index": 0,
+      "answer": "hraniční vrstva mezi troposférou a stratosférou",
+      "source_document_page": 2,
+      "title": "Definice tropopauzy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "prompt": "Jaká jednotka se používá pro teploty udávané leteckými meteorologickými službami v Evropě a Africe?",
+      "choices": [
+        "Kelvin",
+        "stupně Fahrenheita",
+        "stupně Celsia (° C)",
+        "Gpdam"
+      ],
+      "correct_choice_index": 2,
+      "answer": "stupně Celsia (° C)",
+      "source_document_page": 2,
+      "title": "Jednotka meteorologické teploty",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "prompt": "Co znamená výraz inverzní vrstva?",
+      "choices": [
+        "vrstva v atmosféře, kde teplota roste s rostoucí výškou",
+        "vrstva v atmosféře, kde teplota klesá s rostoucí výškou",
+        "vrstva v atmosféře, kde je teplota konstantní s rostoucí výškou",
+        "hraniční vrstva mezi dvěma jinými vrstvami atmosféry"
+      ],
+      "correct_choice_index": 0,
+      "answer": "vrstva v atmosféře, kde teplota roste s rostoucí výškou",
+      "source_document_page": 3,
+      "title": "Inverzní vrstva",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 12,
+      "prompt": "Co znamená výraz izotermální vrstva?",
+      "choices": [
+        "vrstva v atmosféře, kde teplota roste s rostoucí výškou",
+        "vrstva v atmosféře, kde teplota klesá s rostoucí výškou",
+        "vrstva v atmosféře, kde je teplota s rostoucí výškou konstantní",
+        "hraniční vrstva mezi dvěma jinými vrstvami atmosféry"
+      ],
+      "correct_choice_index": 2,
+      "answer": "vrstva v atmosféře, kde je teplota s rostoucí výškou konstantní",
+      "source_document_page": 3,
+      "title": "Izotermální vrstva",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 13,
+      "prompt": "Pokles teploty s rostoucí výškou v troposféře je podle mezinárodní standardní atmosféry:",
+      "choices": [
+        "3 °C / 100 m",
+        "0.6 °C / 100 m",
+        "1 °C / 100 m",
+        "0.65 °C / 100 m"
+      ],
+      "correct_choice_index": 3,
+      "answer": "0.65 °C / 100 m",
+      "source_document_page": 3,
+      "title": "Standardní teplotní gradient",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "prompt": "Jaký proces může vést ke vzniku inverzní vrstvy ve výšce přibližně 5000 ft (1500 m)?",
+      "choices": [
+        "chladnutí země vyzařováním během noci",
+        "rozlévající se sestupný proud vzduchu v oblasti vysokého tlaku vzduchu",
+        "intenzivní ohřev sluncem během teplého letního dne",
+        "advekce studeného vzduchu v horní troposféře"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rozlévající se sestupný proud vzduchu v oblasti vysokého tlaku vzduchu",
+      "source_document_page": 3,
+      "title": "Výšková inverze v tlakové výši",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "prompt": "Přizemní inverzní vrstva může být způsobena:",
+      "choices": [
+        "chladnutím země v noci",
+        "nárůstem oblačnosti ve středních výškách",
+        "rozsáhlým stoupáním vzduchu",
+        "zesilujícím nárazovým větrem"
+      ],
+      "correct_choice_index": 0,
+      "answer": "chladnutím země v noci",
+      "source_document_page": 3,
+      "title": "Přízemní inverze",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 16,
+      "prompt": "Jaký je tlak vzduchu ve FL 180 (5500 m) podle mezinárodní standardní atmosféry?",
+      "choices": [
+        "1013.25 hPa",
+        "250 hPa",
+        "500 hPa",
+        "300 hPa"
+      ],
+      "correct_choice_index": 2,
+      "answer": "500 hPa",
+      "source_document_page": 4,
+      "title": "Tlak ve FL 180",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 17,
+      "prompt": "Tlak měřený pozemní stanicí a přepočítaný na střední hladinu moře (MSL) ve skutečné atmosféře se nazývá:",
+      "choices": [
+        "QFF",
+        "QNH",
+        "QFE",
+        "QNE"
+      ],
+      "correct_choice_index": 0,
+      "answer": "QFF",
+      "source_document_page": 4,
+      "title": "QFF",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "prompt": "Co způsobuje pokles hustoty vzduchu?",
+      "choices": [
+        "nárůst teploty, nárůst tlaku",
+        "pokles teploty, nárůst tlaku",
+        "pokles teploty, pokles tlaku",
+        "nárůst teploty, pokles tlaku"
+      ],
+      "correct_choice_index": 3,
+      "answer": "nárůst teploty, pokles tlaku",
+      "source_document_page": 4,
+      "title": "Hustota vzduchu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 19,
+      "prompt": "Tlak na hladině moře podle mezinárodní standardní atmosféry je:",
+      "choices": [
+        "1013.25 hPa",
+        "113.25 hPa",
+        "15 hPa",
+        "1123 hPa"
+      ],
+      "correct_choice_index": 0,
+      "answer": "1013.25 hPa",
+      "source_document_page": 4,
+      "title": "Standardní tlak na MSL",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "prompt": "Výška tropopauzy podle mezinárodní standardní atmosféry je:",
+      "choices": [
+        "36.000 ft",
+        "11.000 ft",
+        "5.500 ft",
+        "48.000 ft"
+      ],
+      "correct_choice_index": 0,
+      "answer": "36.000 ft",
+      "source_document_page": 4,
+      "title": "Tropopauza v stopách",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "prompt": "Barometrický výškoměr ukazuje výšku nad:",
+      "choices": [
+        "střední hladinou moře",
+        "zvolenou referenční tlakovou hladinou",
+        "hladinou standardního tlaku 1013.25 hPa",
+        "zemí"
+      ],
+      "correct_choice_index": 1,
+      "answer": "zvolenou referenční tlakovou hladinou",
+      "source_document_page": 5,
+      "title": "Referenční tlaková hladina výškoměru",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "prompt": "Výškoměr lze přezkoušet na zemi nastavením:",
+      "choices": [
+        "QNE a kontrolou, že ukazuje 0",
+        "QFE a porovnáním indikace s nadmořskou výškou letiště",
+        "QFF a porovnáním indikace s nadmořskou výškou letiště",
+        "QNH a porovnáním indikace s nadmořskou výškou letiště"
+      ],
+      "correct_choice_index": 3,
+      "answer": "QNH a porovnáním indikace s nadmořskou výškou letiště",
+      "source_document_page": 5,
+      "title": "Kontrola výškoměru pomocí QNH",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 23,
+      "prompt": "Barometrický výškoměr nastavený na QFE ukazuje:",
+      "choices": [
+        "výšku nad standardní tlakovou hladinou 1013.25 hPa",
+        "skutečnou nadmořskou výšku nad střední hladinou moře (MSL)",
+        "výšku nad úrovní tlaku vztaženého k výšce letiště nad mořem",
+        "výšku nad stření hladinou moře (MSL)"
+      ],
+      "correct_choice_index": 2,
+      "answer": "výšku nad úrovní tlaku vztaženého k výšce letiště nad mořem",
+      "source_document_page": 5,
+      "title": "Výškoměr nastavený na QFE",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "prompt": "Barometrický výškoměr nastavený na QNH ukazuje:",
+      "choices": [
+        "výšku nad hladinou standardního tlaku 1013.25 hPa",
+        "skutečnou nadmořskou výšku nad tlakovou hladinou střední hladiny moře (MSL)",
+        "výšku nad tlakovou hladinou nadmořské výšky letiště",
+        "výšku nad střední hladinou moře (MSL)"
+      ],
+      "correct_choice_index": 3,
+      "answer": "výšku nad střední hladinou moře (MSL)",
+      "source_document_page": 5,
+      "title": "Výškoměr nastavený na QNH",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "prompt": "Jaká je skutečná nadmořská výška zaokrouhlená na nejbližších 50 ft, je-li dáno: QNH: 983 hPa, FL 85, teplota vnějšího vzduchu: ISA - 10°",
+      "choices": [
+        "9400 ft",
+        "7300 ft",
+        "7600 ft",
+        "7900 ft"
+      ],
+      "correct_choice_index": 1,
+      "answer": "7300 ft",
+      "source_document_page": 5,
+      "title": "Skutečná výška při nestandardním tlaku a teplotě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 26,
+      "prompt": "Jak lze z přízemních meteorologických map odvodit směr a rychlost větru?",
+      "choices": [
+        "podle zaoblení a vzdálenosti izobar",
+        "podle tvaru a vzdálenosti izohyps",
+        "podle tvaru teplých a studených front",
+        "z údajů v textové části mapy"
+      ],
+      "correct_choice_index": 0,
+      "answer": "podle zaoblení a vzdálenosti izobar",
+      "source_document_page": 6,
+      "title": "Vítr na přízemní synoptické mapě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 27,
+      "prompt": "Jaká síla způsobuje vítr?",
+      "choices": [
+        "Coriolisova síla",
+        "odstředivá síla",
+        "síla tlakového gradientu",
+        "termální síla"
+      ],
+      "correct_choice_index": 2,
+      "answer": "síla tlakového gradientu",
+      "source_document_page": 6,
+      "title": "Síla tlakového gradientu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "prompt": "Směr větru nad třecí vrstvou s převažujícím tlakovým gradientem je:",
+      "choices": [
+        "kolmo na izobary",
+        "kolmo na izohypsy",
+        "pod úhlem 30° k izobarám směrem k tlakové níži",
+        "rovnoběžně s izobarami"
+      ],
+      "correct_choice_index": 3,
+      "answer": "rovnoběžně s izobarami",
+      "source_document_page": 6,
+      "title": "Vítr nad třecí vrstvou",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "prompt": "Který z uvedených povrchů nejvíc sníží rychlost větru třením?",
+      "choices": [
+        "rovina, množství vegetace",
+        "horský terén pokrytý vegetací",
+        "rovina, poušť, žádná vegetace",
+        "oceán"
+      ],
+      "correct_choice_index": 1,
+      "answer": "horský terén pokrytý vegetací",
+      "source_document_page": 6,
+      "title": "Vliv terénu na tření větru",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "prompt": "Pohyb vzduchu směrem k sobě se nazývá:",
+      "choices": [
+        "divergence",
+        "subsidence",
+        "konvergence",
+        "sankordence"
+      ],
+      "correct_choice_index": 2,
+      "answer": "konvergence",
+      "source_document_page": 6,
+      "title": "Konvergence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "prompt": "Pohyb vzduchu směrem od sebe se nazývá:",
+      "choices": [
+        "divergence",
+        "subsidence",
+        "konvergence",
+        "sankordence"
+      ],
+      "correct_choice_index": 0,
+      "answer": "divergence",
+      "source_document_page": 7,
+      "title": "Divergence",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "prompt": "Jaký vývoj počasí způsobí přízemní konvergence?",
+      "choices": [
+        "klesající vzduch a tvorba oblačnosti",
+        "klesající vzduch a rozpouštění oblačnosti",
+        "stoupající vzduch a tvorba oblačnosti",
+        "stoupající vzduch a rozpouštění oblačnosti"
+      ],
+      "correct_choice_index": 2,
+      "answer": "stoupající vzduch a tvorba oblačnosti",
+      "source_document_page": 7,
+      "title": "Přízemní konvergence a oblačnost",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "prompt": "Když se čelně střetnou dvě vzduchové masy, jak se to nazývá a jaký jev bude následovat?",
+      "choices": [
+        "divergence s klesajícím vzduchem",
+        "konvergence s klesajícím vzduchem",
+        "divergence se stoupajícím vzduchem",
+        "konvergence se stoupajícím vzduchem"
+      ],
+      "correct_choice_index": 3,
+      "answer": "konvergence se stoupajícím vzduchem",
+      "source_document_page": 7,
+      "title": "Střet vzduchových hmot",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "prompt": "Jaké vzduchové masy hlavně ovlivňují střední Evropu?",
+      "choices": [
+        "tropický a arktický studený vzduch",
+        "arktický a polární studený vzduch",
+        "rovníkový a tropický teplý vzduch",
+        "studený polární a teplý subtropický vzduch"
+      ],
+      "correct_choice_index": 3,
+      "answer": "studený polární a teplý subtropický vzduch",
+      "source_document_page": 7,
+      "title": "Vzduchové hmoty střední Evropy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "prompt": "S ohledem globální cirkulaci v atmosféře, kde se setkává studený polární a teplý subtropický vzduch?",
+      "choices": [
+        "na polární frontě",
+        "na zeměpisných pólech",
+        "na rovníku",
+        "v subtropickém pásu vyššího tlaku vzduchu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "na polární frontě",
+      "source_document_page": 7,
+      "title": "Polární fronta",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "prompt": "Vítr vanoucí do kopce je definován jako:",
+      "choices": [
+        "anabatický vítr",
+        "katabatický vítr",
+        "konvergentní vítr",
+        "subsidentní vítr"
+      ],
+      "correct_choice_index": 0,
+      "answer": "anabatický vítr",
+      "source_document_page": 8,
+      "title": "Anabatický vítr",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 37,
+      "prompt": "Vítr vanoucí směrem dolů z kopce se nazývá:",
+      "choices": [
+        "anabatický vítr",
+        "katabatický vítr",
+        "konvergentní vítr",
+        "subsidentní vítr"
+      ],
+      "correct_choice_index": 1,
+      "answer": "katabatický vítr",
+      "source_document_page": 8,
+      "title": "Katabatický vítr",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "prompt": "Vzduch sestupující za pohořím je definován jako:",
+      "choices": [
+        "anabatický vítr",
+        "katabatický vítr",
+        "konvergentní vítr",
+        "divergentní vítr"
+      ],
+      "correct_choice_index": 1,
+      "answer": "katabatický vítr",
+      "source_document_page": 8,
+      "title": "Sestupné proudění za pohořím",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "prompt": "Fén obvykle vzniká při:",
+      "choices": [
+        "stabilitě, oblasti vysokého tlaku vzduchu a za bezvětří",
+        "instabilitě, oblasti vysokého tlaku vzduchu a za bezvětří",
+        "instabilitě, větru vanoucímu proti pohoří",
+        "stabilitě, větru vanoucímu proti pohoří"
+      ],
+      "correct_choice_index": 3,
+      "answer": "stabilitě, větru vanoucímu proti pohoří",
+      "source_document_page": 8,
+      "title": "Vznik fénu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "prompt": "Jaký typ turbulence se typicky vyskytuje v blízkosti země na závětrné straně při fénu?",
+      "choices": [
+        "termická turbulence",
+        "rotorové proudění",
+        "inverzní turbulence",
+        "turbulence v čistém vzduchu"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rotorové proudění",
+      "source_document_page": 8,
+      "title": "Rotorové proudění při fénu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "prompt": "Slabou turbulenci lze vždy očekávat:",
+      "choices": [
+        "pod kumulovitou oblačností kvůli termické konvekci",
+        "nad kumulovitou oblačností kvůli termické konvekci",
+        "při vstupu do inverze",
+        "pod stratovitou oblačností ve středních vrstvách"
+      ],
+      "correct_choice_index": 0,
+      "answer": "pod kumulovitou oblačností kvůli termické konvekci",
+      "source_document_page": 9,
+      "title": "Termická turbulence pod Cu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "prompt": "Střední až silnou turbulenci lze očekávat:",
+      "choices": [
+        "pod silnými vrstvami oblačnosti na návětrné straně pohoří",
+        "na závětrné straně pohoří, je-li přítomna rotorová oblačnost",
+        "v blízkosti rozlehlých nízkých stratů (vysoká mlha)",
+        "nad souvislými vrstvami oblačnosti"
+      ],
+      "correct_choice_index": 1,
+      "answer": "na závětrné straně pohoří, je-li přítomna rotorová oblačnost",
+      "source_document_page": 9,
+      "title": "Rotorová turbulence v závětří",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "prompt": "Která odpověď obsahuje všechna skupenství vody v atmosféře?",
+      "choices": [
+        "kapalné",
+        "kapalné a pevné",
+        "kapalné, pevné a plynné",
+        "plynné a kapalné"
+      ],
+      "correct_choice_index": 2,
+      "answer": "kapalné, pevné a plynné",
+      "source_document_page": 9,
+      "title": "Skupenství vody v atmosféře",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "prompt": "Jak se mění teplota rosného bodu a relativní vlhkost při klesající teplotě vzduchu?",
+      "choices": [
+        "teplota rosného bodu zůstává konstantní, relativní vlhkost se zvyšuje",
+        "teplota rosného bodu klesá, relativní vlhkost se zvyšuje",
+        "teplota rosného bodu zůstává konstantní, relativní vlhkost se snižuje",
+        "teplota rosného bodu roste, relativní vlhkost se snižuje"
+      ],
+      "correct_choice_index": 0,
+      "answer": "teplota rosného bodu zůstává konstantní, relativní vlhkost se zvyšuje",
+      "source_document_page": 9,
+      "title": "Rosný bod při ochlazování",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "prompt": "Jak se mění rozdíl mezi teplotou vzduchu a rosného bodu a relativní vlhkost s rostoucí teplotou vzduchu?",
+      "choices": [
+        "rozdíl zůstává stejný, relativní vlhkost se snižuje",
+        "rozdíl se zvětšuje, relativní vlhkost se zmenšuje",
+        "rozdíl se zvětšuje, relativní vlhkost se zvětšuje",
+        "rozdíl zůstává stejný, relativní vlhkost se zvětšuje"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rozdíl se zvětšuje, relativní vlhkost se zmenšuje",
+      "source_document_page": 9,
+      "title": "Teplota, rosný bod a relativní vlhkost",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "prompt": "Deficit teploty rosného bodu je:",
+      "choices": [
+        "vztah mezi skutečnou a maximální možnou vlhkostí vzduchu",
+        "rozdíl mezi skutečnou teplotou a rosným bodem",
+        "rozdíl mezi rosným bodem a kondenzačním bodem",
+        "maximální množství vodní páry, kterou může vzduch obsahovat"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rozdíl mezi skutečnou teplotou a rosným bodem",
+      "source_document_page": 10,
+      "title": "Deficit rosného bodu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "prompt": "Jsou-li ostatní veličiny konstantní, pokles teploty způsobí:",
+      "choices": [
+        "zvětšení rozdílu mezi teplotou rosného bodu a vzduchu, nárůst relativní vlhkosti",
+        "zmenšení rozdílu mezi teplotou rosného bodu a vzduchu a snížení relativní vlhkosti",
+        "zmenšení rozdílu mezi teplotou rosného bodu a vzduchu a nárůst relativní vlhkosti",
+        "zvětšení rozdílu mezi teplotou rosného bodu a vzduchu a pokles relativní vlhkosti"
+      ],
+      "correct_choice_index": 2,
+      "answer": "zmenšení rozdílu mezi teplotou rosného bodu a vzduchu a nárůst relativní vlhkosti",
+      "source_document_page": 10,
+      "title": "Ochlazování a relativní vlhkost",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "prompt": "Co způsobuje uvolňování latentního tepla do horní troposféry?",
+      "choices": [
+        "vypařování vody nad rozsáhlými vodními plochami",
+        "rozsáhlé oblasti klesajícího vzduchu",
+        "stabilizace přicházejících vzduchových hmot",
+        "vznik oblačnosti způsobený kondenzací"
+      ],
+      "correct_choice_index": 3,
+      "answer": "vznik oblačnosti způsobený kondenzací",
+      "source_document_page": 10,
+      "title": "Latentní teplo při kondenzaci",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "prompt": "Adiabatický teplotní gradient nasyceného vzduchu je:",
+      "choices": [
+        "úměrný adiabatickému teplotnímu gradientu suchého vzduchu",
+        "rovný adiabatickému teplotnímu gradientu suchého vzduchu",
+        "větší než adiabatický teplotní gradient suchého vzduchu",
+        "menší než adiabatický teplotní gradient suchého vzduchu"
+      ],
+      "correct_choice_index": 3,
+      "answer": "menší než adiabatický teplotní gradient suchého vzduchu",
+      "source_document_page": 10,
+      "title": "Nasycený adiabatický gradient",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 50,
+      "prompt": "Adiabatický gradient teploty suchého vzduchu má střední hodnotu:",
+      "choices": [
+        "0.65 °C / 100 m",
+        "1.0 °C / 100 m",
+        "0.6 °C / 100 m",
+        "2° / 1000 ft"
+      ],
+      "correct_choice_index": 1,
+      "answer": "1.0 °C / 100 m",
+      "source_document_page": 10,
+      "title": "Suchý adiabatický gradient",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 51,
+      "prompt": "Adiabatický teplotní gradient nasyceného vzduchu má střední hodnotu:",
+      "choices": [
+        "0 °C / 100 m",
+        "1.0 °C / 100 m",
+        "0.6 °C / 100 m",
+        "2 °C / 1000 ft"
+      ],
+      "correct_choice_index": 2,
+      "answer": "0.6 °C / 100 m",
+      "source_document_page": 11,
+      "title": "Střední nasycený adiabatický gradient",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "prompt": "Jaké počasí lze očekávat při podmíněně nestabilních podmínkách?",
+      "choices": [
+        "věžovité kumuly, izolované dešťové přeháňky nebo bouřky",
+        "vrstevnatá oblačnost až do velkých výšek, trvalý déšť nebo sněžení",
+        "nízké kumuly se základnami ve středních výškách",
+        "obloha bez oblačnosti, slabý nebo mírný vítr"
+      ],
+      "correct_choice_index": 0,
+      "answer": "věžovité kumuly, izolované dešťové přeháňky nebo bouřky",
+      "source_document_page": 11,
+      "title": "Podmíněná nestabilita",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "prompt": "Jaké podmínky jsou vhodné pro tvorbu advekční mlhy?",
+      "choices": [
+        "teplý vlhký vzduch se pohybuje nad studeným zemským povrchem",
+        "studený vlhký vzduch se pohybuje nad teplým oceánem",
+        "teplý vlhký vzduch chladne během noci s oblačností",
+        "vypařování vody z teplého vlhkého povrchu země do studeného vzduchu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "teplý vlhký vzduch se pohybuje nad studeným zemským povrchem",
+      "source_document_page": 11,
+      "title": "Podmínky pro advekční mlhu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "prompt": "Na jaké základní druhy se rozděluje oblačnost?",
+      "choices": [
+        "bouřková a přeháňková",
+        "vrstevnatá a vertikálně vyvinutá",
+        "kumulovitá ,stratovitá a cirrovitá",
+        "stratovitá a námrazová"
+      ],
+      "correct_choice_index": 2,
+      "answer": "kumulovitá ,stratovitá a cirrovitá",
+      "source_document_page": 11,
+      "title": "Základní druhy oblačnosti",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "prompt": "Oblačnost ve vysokých vrstvách se nazývá:",
+      "choices": [
+        "strato-",
+        "ciro-",
+        "nimbo-",
+        "alto-"
+      ],
+      "correct_choice_index": 1,
+      "answer": "ciro-",
+      "source_document_page": 11,
+      "title": "Oblačnost vysokých vrstev",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 56,
+      "prompt": "Jaký meteorologický jev označený \"2\" lze očekávat na závětrné straně za podmínek na obrázku? Viz obr (MET-001).",
+      "choices": [
+        "altokumulus kastelanus",
+        "altokumulus lentikularis",
+        "nimbostratus",
+        "kumulonimbus"
+      ],
+      "correct_choice_index": 1,
+      "answer": "altokumulus lentikularis",
+      "source_document_page": 12,
+      "title": "Altocumulus lenticularis v závětří",
+      "attachment_code": "MET-001",
+      "attachment_url": "/public/assets/attachments/MET-001.svg"
+    },
+    {
+      "source_question_id": 57,
+      "prompt": "Jaký typ oblačnosti je na obrázku? Viz obr (MET-002).",
+      "choices": [
+        "kumulus",
+        "stratus",
+        "cirus",
+        "altus"
+      ],
+      "correct_choice_index": 0,
+      "answer": "kumulus",
+      "source_document_page": 12,
+      "title": "Rozpoznání kumulu",
+      "attachment_code": "MET-002",
+      "attachment_url": "/public/assets/attachments/MET-002.svg"
+    },
+    {
+      "source_question_id": 58,
+      "prompt": "Jaký typ oblačnosti je na obrázku? Viz obr (MET-004).",
+      "choices": [
+        "kumulus",
+        "stratus",
+        "cirus",
+        "altokumulus"
+      ],
+      "correct_choice_index": 2,
+      "answer": "cirus",
+      "source_document_page": 12,
+      "title": "Rozpoznání cirru",
+      "attachment_code": "MET-004",
+      "attachment_url": "/public/assets/attachments/MET-004.svg"
+    },
+    {
+      "source_question_id": 59,
+      "prompt": "Jaký faktor může ovlivnit výšku vrcholků kumulovité oblačnosti?",
+      "choices": [
+        "relativní vlhkost",
+        "rozdíl mezi teplotou vzduchu a rosného bodu",
+        "přítomnost inverzní vrstvy",
+        "absolutní vlhkost"
+      ],
+      "correct_choice_index": 2,
+      "answer": "přítomnost inverzní vrstvy",
+      "source_document_page": 12,
+      "title": "Vrcholky kumulovité oblačnosti",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 60,
+      "prompt": "Jaké okolnosti mohou znamenat tendenci k tvorbě mlhy?",
+      "choices": [
+        "nízký tlak, rostoucí teplota",
+        "silný vítr, klesající teplota",
+        "malý rozdíl mezi teplotou vzduchu a rosného bodu, rostoucí teplota",
+        "malý rozdíl mezi teplotou vzduchu a rosného bodu, klesající teplota"
+      ],
+      "correct_choice_index": 3,
+      "answer": "malý rozdíl mezi teplotou vzduchu a rosného bodu, klesající teplota",
+      "source_document_page": 12,
+      "title": "Tendence k tvorbě mlhy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 61,
+      "prompt": "Jaké podmínky mohou zabránit tvorbě radiační mlhy?",
+      "choices": [
+        "jasná noc bez oblačnosti",
+        "zataženo",
+        "bezvětří",
+        "žádný odpar ze zemského povrchu"
+      ],
+      "correct_choice_index": 1,
+      "answer": "zataženo",
+      "source_document_page": 13,
+      "title": "Podmínky omezující radiační mlhu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 62,
+      "prompt": "Co způsobuje tvorbu advekční mlhy?",
+      "choices": [
+        "studený vlhký vzduch se pohybuje nad teplým zemským povrchem",
+        "studený vlhký vzduch se mísí s teplým vlhkým vzduchem",
+        "teplý vlhký vzduch se pohybuje nad studeným zemským povrchem",
+        "dlouhé vyzařování tepla v noci bez oblačnosti"
+      ],
+      "correct_choice_index": 2,
+      "answer": "teplý vlhký vzduch se pohybuje nad studeným zemským povrchem",
+      "source_document_page": 13,
+      "title": "Vznik advekční mlhy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 63,
+      "prompt": "Co způsobuje tvorbu orografické mlhy (mlhy v kopcích)?",
+      "choices": [
+        "studený vlhký vzduch se mísí s teplým vlhkým vzduchem",
+        "dlouhé vyzařování tepla v noci bez oblačnosti",
+        "teplý vlhký vzduch se pohybuje v horském terénu přes kopce",
+        "vypařování z teplého vlhkého zemského povrchu do velmi studeného vzduchu"
+      ],
+      "correct_choice_index": 2,
+      "answer": "teplý vlhký vzduch se pohybuje v horském terénu přes kopce",
+      "source_document_page": 13,
+      "title": "Vznik orografické mlhy",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 64,
+      "prompt": "Co je třeba pro tvorbu srážek v oblačnosti?",
+      "choices": [
+        "střední až silné stoupavé proudy",
+        "vysoká vlhkost a vysoké teploty",
+        "přítomnost inverzní vrstvy",
+        "bezvětří a intenzivní sluneční svit"
+      ],
+      "correct_choice_index": 0,
+      "answer": "střední až silné stoupavé proudy",
+      "source_document_page": 13,
+      "title": "Stoupavé proudy a vznik srážek",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 65,
+      "prompt": "Tvorba středních až větších částic srážek vyžaduje:",
+      "choices": [
+        "silný vítr",
+        "vysokou základnu oblačnosti",
+        "inverzní vrstvu",
+        "silné stoupavé proudy"
+      ],
+      "correct_choice_index": 3,
+      "answer": "silné stoupavé proudy",
+      "source_document_page": 13,
+      "title": "Velikost částic srážek",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 66,
+      "prompt": "Který typ oblačnosti je spojen s trvalým deštěm?",
+      "choices": [
+        "nimbostratus",
+        "cirostratus",
+        "kumulonimbus",
+        "altokumulus"
+      ],
+      "correct_choice_index": 0,
+      "answer": "nimbostratus",
+      "source_document_page": 14,
+      "title": "Nimbostratus a trvalý déšť",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 67,
+      "prompt": "Který typ oblačnosti je spojen s dešťovými přeháňkami?",
+      "choices": [
+        "nimbostratus",
+        "cirrostratus",
+        "kumulonimbus",
+        "altostratus"
+      ],
+      "correct_choice_index": 2,
+      "answer": "kumulonimbus",
+      "source_document_page": 14,
+      "title": "Cumulonimbus a přeháňky",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 68,
+      "prompt": "Jak je popsána vzduchová hmota, která se v zimě pohybuje přes Rusko do střední Evropy?",
+      "choices": [
+        "mořský polární vzduch",
+        "mořský tropický vzduch",
+        "kontinentální polární vzduch",
+        "kontinentální tropický vzduch"
+      ],
+      "correct_choice_index": 2,
+      "answer": "kontinentální polární vzduch",
+      "source_document_page": 14,
+      "title": "Kontinentální polární vzduch",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 69,
+      "prompt": "Jakými vlastnostmi je dán typ vzduchové hmoty?",
+      "choices": [
+        "teplotou v oblasti původu a v oblasti výskytu",
+        "oblastí původu a směrem pohybu",
+        "gradientem teploty v oblasti původu",
+        "rychlostí větru a výškou tropopauzy"
+      ],
+      "correct_choice_index": 1,
+      "answer": "oblastí původu a směrem pohybu",
+      "source_document_page": 14,
+      "title": "Určení typu vzduchové hmoty",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 70,
+      "prompt": "Symbol označený 1 na obrázku je: Viz obr (MET-005)",
+      "choices": [
+        "teplá fronta",
+        "výšková fronta",
+        "okluze",
+        "studená fronta"
+      ],
+      "correct_choice_index": 3,
+      "answer": "studená fronta",
+      "source_document_page": 14,
+      "title": "Symbol studené fronty",
+      "attachment_code": "MET-005",
+      "attachment_url": "/public/assets/attachments/MET-005.svg"
+    },
+    {
+      "source_question_id": 71,
+      "prompt": "Symbol označený 2 na obrázku je: Viz obr (MET-005)",
+      "choices": [
+        "teplá fronta",
+        "výšková fronta",
+        "okluze",
+        "studená fronta"
+      ],
+      "correct_choice_index": 0,
+      "answer": "teplá fronta",
+      "source_document_page": 15,
+      "title": "Symbol teplé fronty",
+      "attachment_code": "MET-005",
+      "attachment_url": "/public/assets/attachments/MET-005.svg"
+    },
+    {
+      "source_question_id": 72,
+      "prompt": "Symbol označený 3 na obrázku je: Viz obr (MET-005)",
+      "choices": [
+        "teplá fronta",
+        "výšková fronta",
+        "okluze",
+        "studená fronta"
+      ],
+      "correct_choice_index": 2,
+      "answer": "okluze",
+      "source_document_page": 15,
+      "title": "Symbol okluze",
+      "attachment_code": "MET-005",
+      "attachment_url": "/public/assets/attachments/MET-005.svg"
+    },
+    {
+      "source_question_id": 73,
+      "prompt": "Jaký sled oblačnosti lze typicky pozorovat při přechodu teplé fronty?",
+      "choices": [
+        "húlava s dešťovými přeháňkami a bouřky (Cb), nárazový vítr následováno kumulovitou oblačností s izolovanými dešťovými přeháňkami",
+        "ve dne v pobřežních oblastech vítr od pobřeží a tvorbou kupovité oblačnosti, večer a v noci rozpady oblačnosti",
+        "v létě slábnoucí vítr, rozpady oblačnosti a narůst teploty, v zimě tvorba vysokých vrstev mlhy",
+        "cirus, ztenčující se altostratus a altokumulus, snižující se základna oblačnosti s deštěm, nimbostratus"
+      ],
+      "correct_choice_index": 3,
+      "answer": "cirus, ztenčující se altostratus a altokumulus, snižující se základna oblačnosti s deštěm, nimbostratus",
+      "source_document_page": 15,
+      "title": "Oblačnost při teplé frontě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 74,
+      "prompt": "Jakou oblačnost a jaké počasí lze typicky pozorovat při přechodu studené fronty?",
+      "choices": [
+        "silně vyvinuté kumuly (Cb) s přeháňkami a bouřkami, nárazový vítr a následně kumulovitá oblačnost s izolovanými dešťovými přeháňkami",
+        "v pobřežních oblastech ve dne vítr od pobřeží a tvorba kumulovité oblačnosti, večer a v noci rozpady oblačnosti",
+        "v létě slábnoucí vítr, rozpady oblačnosti a nárůst teploty, v zimě tvorba vysokých vrstev mlhy",
+        "cirus, ztenčující se altostratus a altokumulus, snižující se základna oblačnosti s deštěm, nimbostratus"
+      ],
+      "correct_choice_index": 0,
+      "answer": "silně vyvinuté kumuly (Cb) s přeháňkami a bouřkami, nárazový vítr a následně kumulovitá oblačnost s izolovanými dešťovými přeháňkami",
+      "source_document_page": 15,
+      "title": "Počasí při studené frontě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 75,
+      "prompt": "Jakou dohlednost za letu lze očekávat uvnitř teplého sektoru polární fronty v létě?",
+      "choices": [
+        "dohlednost menší než 1000 m, země zakrytá oblačností",
+        "dobrá dohlednost, izolovaná vysoká oblačnost",
+        "střední dohlednost, intenzivní přeháňky a bouřky",
+        "střední až dobrá dohlednost, roztrhaná oblačnost"
+      ],
+      "correct_choice_index": 3,
+      "answer": "střední až dobrá dohlednost, roztrhaná oblačnost",
+      "source_document_page": 15,
+      "title": "Teplý sektor v létě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 76,
+      "prompt": "Jaké podmínky dohlednosti lze očekávat po přechodu studené fronty?",
+      "choices": [
+        "dobrá dohlednost, tvorba kumulovité oblačnosti s dešťovými nebo sněhovými přeháňkami",
+        "nízká dohlednost, tvorba stratu až na zataženo nebo pokrývajícího zemský povrch, sněžení",
+        "střední dohlednost se snižující se základnou oblačnosti, nástup dlouhotrvajících srážek",
+        "nesouvislé vrstvy oblačnosti, dohlednost více než 5 km, tvorba nízké kumulovité oblačnosti"
+      ],
+      "correct_choice_index": 0,
+      "answer": "dobrá dohlednost, tvorba kumulovité oblačnosti s dešťovými nebo sněhovými přeháňkami",
+      "source_document_page": 16,
+      "title": "Počasí za studenou frontou",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 77,
+      "prompt": "Hranice mezi studenou polární vzduchovou hmotou a teplou subtropickou vzduchovou hmotou bez horizontálního pohybu se nazývá:",
+      "choices": [
+        "studená fronta",
+        "teplá fronta",
+        "stacionární fronta",
+        "okluzní fronta"
+      ],
+      "correct_choice_index": 2,
+      "answer": "stacionární fronta",
+      "source_document_page": 16,
+      "title": "Stacionární fronta",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 78,
+      "prompt": "Jaký je obvyklý směr pohybu polární frontální níže?",
+      "choices": [
+        "rovnoběžně s teplou frontou na jih",
+        "rovnoběžně s izobarami teplého sektoru",
+        "v zimě na severovýchod, v létě na jihovýchod",
+        "v zimě na severozápad, v létě na jihozápad"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rovnoběžně s izobarami teplého sektoru",
+      "source_document_page": 16,
+      "title": "Pohyb polární frontální níže",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 79,
+      "prompt": "Jak se mění tlak vzduchu při přechodu polární frontální níže?",
+      "choices": [
+        "stoupající tlak před teplou frontou, konstantní tlak v teplém sektoru, stoupající tlak za studenou frontou",
+        "klesající tlak před teplou frontou, konstantní tlak v teplém sektoru, klesající tlak za studenou frontou",
+        "klesající tlak před teplou frontou, konstantní tlak v teplém sektoru, stoupající tlak za studenou frontou",
+        "stoupající tlak před teplou frontou, stoupající tlak v teplém sektoru, klesající tlak za studenou frontou"
+      ],
+      "correct_choice_index": 2,
+      "answer": "klesající tlak před teplou frontou, konstantní tlak v teplém sektoru, stoupající tlak za studenou frontou",
+      "source_document_page": 16,
+      "title": "Tlak při přechodu frontální níže",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 80,
+      "prompt": "Jak se mění tlak vzduchu při přechodu studené fronty?",
+      "choices": [
+        "trvalý pokles",
+        "konstantní tlak",
+        "krátký pokles, potom nárůst",
+        "trvalý nárůst"
+      ],
+      "correct_choice_index": 2,
+      "answer": "krátký pokles, potom nárůst",
+      "source_document_page": 16,
+      "title": "Tlak při přechodu studené fronty",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 81,
+      "prompt": "Jak se změní směr větru při přechodu polární frontální níže ve střední Evropě?",
+      "choices": [
+        "stáčení proti směru hodinových ručiček při přechodu teplé fronty, stáčení proti směru hodinových ručiček při přechodu studené fronty",
+        "stáčení po směru hodinových ručiček při přechodu teplé fronty, stáčení po směru hodinových ručiček při přechodu studené fronty",
+        "stáčení proti směru hodinových ručiček při přechodu teplé fronty, stáčení po směru hodinových ručiček při přechodu studené fronty",
+        "stáčení po směru hodinových ručiček při přechodu teplé fronty, stáčení proti směru hodinových ručiček při přechodu studené fronty"
+      ],
+      "correct_choice_index": 1,
+      "answer": "stáčení po směru hodinových ručiček při přechodu teplé fronty, stáčení po směru hodinových ručiček při přechodu studené fronty",
+      "source_document_page": 17,
+      "title": "Změna směru větru při přechodu front",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 82,
+      "prompt": "Během celého roku se rozsáhlé oblasti vysokého tlaku vzduchu nacházejí:",
+      "choices": [
+        "ve středních zeměpisných šířkách podél polární fronty",
+        "v tropických oblastech blízko rovníku",
+        "nad oceánem v zeměpisných šířkách kolem 30°N/S",
+        "v oblastech, kde se nacházejí intenzivní stoupavé proudy"
+      ],
+      "correct_choice_index": 2,
+      "answer": "nad oceánem v zeměpisných šířkách kolem 30°N/S",
+      "source_document_page": 17,
+      "title": "Subtropické oblasti vysokého tlaku",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 83,
+      "prompt": "Jaký typ oblačnosti lze typicky pozorovat v rozsáhlých oblastech tlakových výší v létě?",
+      "choices": [
+        "zataženo oblačností Ns",
+        "húlavy a bouřky",
+        "zataženo nízkými straty",
+        "roztrhaná oblačnost Cu"
+      ],
+      "correct_choice_index": 3,
+      "answer": "roztrhaná oblačnost Cu",
+      "source_document_page": 17,
+      "title": "Letní tlaková výše a oblačnost",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 84,
+      "prompt": "Jak se mění tlak vzduchu při přílivu studeného vzduchu do horních vrstev troposféry?",
+      "choices": [
+        "vytvoření tlakové níže v horní troposféře",
+        "vytvoření tlakové výše v horní troposféře",
+        "vytvoření rozsáhlé přízemní tlakové níže",
+        "kolísající tlak"
+      ],
+      "correct_choice_index": 0,
+      "answer": "vytvoření tlakové níže v horní troposféře",
+      "source_document_page": 17,
+      "title": "Studený vzduch ve výšce a tlaková níže",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 85,
+      "prompt": "Příliv studeného vzduchu do horních vrstev troposféry může mít za následek:",
+      "choices": [
+        "přeháňky a bouřky",
+        "stabilizaci a klidné počasí",
+        "frontální počasí",
+        "klidné počasí a rozpouštění oblačnosti"
+      ],
+      "correct_choice_index": 0,
+      "answer": "přeháňky a bouřky",
+      "source_document_page": 17,
+      "title": "Studený vzduch ve výšce a konvekce",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 86,
+      "prompt": "Jak ovlivní příliv studeného vzduchu tvar a vertikální vzdálenost mezi tlakovými vrstvami?",
+      "choices": [
+        "zvětšení vertikální vzdálenosti, nárůst výšky (vysoký tlak)",
+        "zmenšení vertikální vzdálenosti, nárůst výšky (vysoký tlak)",
+        "zvětšení vertikální vzdálenosti, pokles výšky (nízký tlak)",
+        "zmenšení vertikální vzdálenosti, pokles výšky (nízký tlak)"
+      ],
+      "correct_choice_index": 3,
+      "answer": "zmenšení vertikální vzdálenosti, pokles výšky (nízký tlak)",
+      "source_document_page": 18,
+      "title": "Tloušťka tlakových vrstev ve studeném vzduchu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 87,
+      "prompt": "Jaké meteorologické jevy lze očekávat kolem brázdy nízkého tlaku ve vyšších vrstvách?",
+      "choices": [
+        "klidné počasí, tvorba zvýšených vrstev mlhy",
+        "rozvoj přeháněk a bouřek (Cb)",
+        "bezvětří, tvorba nízké kumulovité oblačnosti",
+        "tvorba vysoké stratovité oblačnosti, základny oblačnosti zakrývající povrch země"
+      ],
+      "correct_choice_index": 1,
+      "answer": "rozvoj přeháněk a bouřek (Cb)",
+      "source_document_page": 18,
+      "title": "Brázda nízkého tlaku ve výšce",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 88,
+      "prompt": "Jaká fronta odděluje subtropický vzduch od studeného polárního vzduchu, zejména ve střední Evropě?",
+      "choices": [
+        "teplá fronta",
+        "polární fronta",
+        "studená fronta",
+        "okluze"
+      ],
+      "correct_choice_index": 1,
+      "answer": "polární fronta",
+      "source_document_page": 18,
+      "title": "Polární fronta ve střední Evropě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 89,
+      "prompt": "Jaké počasí lze očekávat v oblastech vysokého tlaku vzduchu v létě?",
+      "choices": [
+        "klidné počasí a rozpouštění oblačnosti, málo vysokých Cu",
+        "bezvětří a velké oblasti vysoké mlhy",
+        "měnící se počasí s procházejícími frontami",
+        "húlavy a bouřky"
+      ],
+      "correct_choice_index": 0,
+      "answer": "klidné počasí a rozpouštění oblačnosti, málo vysokých Cu",
+      "source_document_page": 18,
+      "title": "Letní počasí v tlakové výši",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 90,
+      "prompt": "Jaké počasí je typické ve střední Evropě v oblastech vysokého tlaku vzduchu v létě?",
+      "choices": [
+        "velké vzdálenosti mezi izobarami a silné převážně západní větry",
+        "malé vzdálenosti mezi izobarami a silné převážně severní větry",
+        "malé vzdálenosti mezi izobarami, bezvětří a tvorba místních větrných systémů",
+        "velké vzdálenosti mezi izobarami, bezvětří a tvorba místních větrných systémů"
+      ],
+      "correct_choice_index": 3,
+      "answer": "velké vzdálenosti mezi izobarami, bezvětří a tvorba místních větrných systémů",
+      "source_document_page": 18,
+      "title": "Letní tlaková výše ve střední Evropě",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 91,
+      "prompt": "Jaké počasí lze očekávat v oblastech vysokého tlaku vzduchu v zimě?",
+      "choices": [
+        "klidné počasí, rozpouštění oblačnosti, málo Cu ve velkých výškách",
+        "bezvětří a velké oblasti s vysokou mlhou",
+        "proměnlivé počasí s přecházejícími frontami",
+        "húlavy a bouřky"
+      ],
+      "correct_choice_index": 1,
+      "answer": "bezvětří a velké oblasti s vysokou mlhou",
+      "source_document_page": 19,
+      "title": "Zimní počasí v tlakové výši",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 92,
+      "prompt": "Jaký vítr lze očekávat v oblastech, kde jsou velké vzdálenosti mezi izobarami?",
+      "choices": [
+        "slabý proměnlivý vítr, tvorba místních větrných systémů",
+        "tvorba místních systémů větru s převažujícími silnými západními větry",
+        "převažující silné západní větry se silným stáčením větru k severu",
+        "převažující silné východní větry se silným stáčením větru k jihu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "slabý proměnlivý vítr, tvorba místních větrných systémů",
+      "source_document_page": 19,
+      "title": "Velká vzdálenost izobar",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 93,
+      "prompt": "Jaké počasí lze očekávat při fénu na návětrné straně pohoří?",
+      "choices": [
+        "rozpouštějící se oblačnost s neobvyklým oteplováním doprovázená silným nárazovým větrem",
+        "bezvětří a tvorba vysoké oblačnosti typu stratus (vysoká mlha)",
+        "zastřená kupovitá oblačnost s přeháňkami a bouřkami",
+        "vrstevnatá oblačnost, zastřené hory, špatná dohlednost, střední nebo intenzivní déšť"
+      ],
+      "correct_choice_index": 3,
+      "answer": "vrstevnatá oblačnost, zastřené hory, špatná dohlednost, střední nebo intenzivní déšť",
+      "source_document_page": 19,
+      "title": "Návětrná strana při fénu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 94,
+      "prompt": "Který z následujících druhů větru zesílí, prochází-li pohořím?",
+      "choices": [
+        "široko",
+        "pasát",
+        "mistrál",
+        "bora"
+      ],
+      "correct_choice_index": 2,
+      "answer": "mistrál",
+      "source_document_page": 19,
+      "title": "Vítr zesilující průchodem pohořím",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 95,
+      "prompt": "Jak se nazývá studený, katabatický vítr vanoucí od severozápadu do Jaderského moře?",
+      "choices": [
+        "široko",
+        "pasát",
+        "mistrál",
+        "bora"
+      ],
+      "correct_choice_index": 3,
+      "answer": "bora",
+      "source_document_page": 19,
+      "title": "Bora",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 96,
+      "prompt": "Které z následujících podmínek jsou nejpříznivější pro tvorbu námrazy?",
+      "choices": [
+        "teploty pod 0 °C, silný vítr, obloha bez oblačnosti",
+        "teplota mezi +10 °C a–30 °C, přítomnost krup v oblačnosti",
+        "teplota mezi -20 °C a–40 °C, přítomnost ledových krystalků v oblačnosti typu Ci",
+        "teplota mezi 0 °C až -12 °C, přítomnost podchlazených vodních kapek v oblačnosti"
+      ],
+      "correct_choice_index": 3,
+      "answer": "teplota mezi 0 °C až -12 °C, přítomnost podchlazených vodních kapek v oblačnosti",
+      "source_document_page": 20,
+      "title": "Podmínky pro námrazu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 97,
+      "prompt": "Které teploty jsou nejnebezpečnější z hlediska tvorby námrazy na draku letadla?",
+      "choices": [
+        "0 °C až -12 °C",
+        "+20 °C až -5 °C",
+        "+5° to -10 °C",
+        "-20° to -40 °C"
+      ],
+      "correct_choice_index": 0,
+      "answer": "0 °C až -12 °C",
+      "source_document_page": 20,
+      "title": "Nejnebezpečnější teploty pro námrazu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 98,
+      "prompt": "Jaký druh námrazy je tvořen velmi malými vodními kapkami a ledovými krystalky narážejícími na čelní plochy letadla?",
+      "choices": [
+        "ledovka",
+        "zrnitá námraza",
+        "jinovatka",
+        "smíšená námraza"
+      ],
+      "correct_choice_index": 1,
+      "answer": "zrnitá námraza",
+      "source_document_page": 20,
+      "title": "Zrnitá námraza",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 99,
+      "prompt": "Jaký typ námrazy je tvořen velkými podchlazenými kapkami vody narážejícími na čelní plochy letadla?",
+      "choices": [
+        "ledovka",
+        "zrnitá námraza",
+        "jinovatka",
+        "smíšená námraza"
+      ],
+      "correct_choice_index": 0,
+      "answer": "ledovka",
+      "source_document_page": 20,
+      "title": "Ledovka",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 100,
+      "prompt": "Při jaké situaci může nastat silný střih větru?",
+      "choices": [
+        "let pod oblačností typu Cu s pokrytím 4 osminy",
+        "let do teplé fronty s viditelnou oblačností typu Ci",
+        "je-li v blízkosti letiště vidět přeháňka",
+        "při konečném přiblížení, 30 min poté, co přes letiště přešla intenzivní přeháňka"
+      ],
+      "correct_choice_index": 2,
+      "answer": "je-li v blízkosti letiště vidět přeháňka",
+      "source_document_page": 20,
+      "title": "Silný střih větru u přeháňky",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 101,
+      "prompt": "Jaké podmínky jsou příznivé pro tvorbu bouřky?",
+      "choices": [
+        "teplý vlhký vzduch, podmíněně nestabilní gradient teploty",
+        "teplý a suchý vzduch, silná inverzní vrstva",
+        "bezvětří a studený vzduch, zataženo oblačností typu St nebo As",
+        "klidná noc na pevnině, studený vzduch a chuchvalce mlhy"
+      ],
+      "correct_choice_index": 0,
+      "answer": "teplý vlhký vzduch, podmíněně nestabilní gradient teploty",
+      "source_document_page": 21,
+      "title": "Podmínky pro bouřku",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 102,
+      "prompt": "Jaké jsou nutné podmínky pro vznik bouřky z tepla?",
+      "choices": [
+        "podmíněně nestabilní atmosféra, nízká teplota a nízká relativní vlhkost",
+        "absolutně stabilní atmosféra, vysoká teplota a vysoká relativní vlhkost",
+        "absolutně stabilní atmosféra, vysoká teplota a nízká relativní vlhkost",
+        "podmíněně nestabilní atmosféra, vysoká teplota a vysoká relativní vlhkost"
+      ],
+      "correct_choice_index": 3,
+      "answer": "podmíněně nestabilní atmosféra, vysoká teplota a vysoká relativní vlhkost",
+      "source_document_page": 21,
+      "title": "Bouřka z tepla",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 103,
+      "prompt": "Při bouřce se silné stoupavé a klesavé proudy vyskytují:",
+      "choices": [
+        "v počátečním stádiu",
+        "v rozvinutém stádiu",
+        "ve stádiu rozpadu",
+        "ve stádiu bouře"
+      ],
+      "correct_choice_index": 1,
+      "answer": "v rozvinutém stádiu",
+      "source_document_page": 21,
+      "title": "Rozvinuté stadium bouřky",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 104,
+      "prompt": "Ve kterém stadiu bouřky převažují silné stoupavé proudy?",
+      "choices": [
+        "ve stádiu kumulu",
+        "v rozvinutém stádiu",
+        "Ve stádiu vývinu",
+        "ve stádiu rozpadu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "ve stádiu kumulu",
+      "source_document_page": 21,
+      "title": "Kumulové stadium bouřky",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 105,
+      "prompt": "Jaké je největší nebezpečí, udeří-li do letadla blesk?",
+      "choices": [
+        "porucha rádiové komunikace, elektrostatické šumy",
+        "výbuch elektrického vybavení v pilotní kabině",
+        "přehřátí povrchu a mechanické poškození zasažených částí draku",
+        "rychlá ztráta přetlaku a dým v kabině"
+      ],
+      "correct_choice_index": 2,
+      "answer": "přehřátí povrchu a mechanické poškození zasažených částí draku",
+      "source_document_page": 21,
+      "title": "Úder blesku do letadla",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 106,
+      "prompt": "Silné klesavé proudy a střihy větru v blízkosti země lze očekávat:",
+      "choices": [
+        "během studené noci bez oblačnosti s tvorbou radiační mlhy",
+        "během teplých letních dnů s vysokými plochými kumuly",
+        "při přiblížení k letišti na pobřeží při silné mořské bríze",
+        "v blízkosti oblasti intenzivních srážek nebo bouřek"
+      ],
+      "correct_choice_index": 3,
+      "answer": "v blízkosti oblasti intenzivních srážek nebo bouřek",
+      "source_document_page": 22,
+      "title": "Downburst a windshear",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 107,
+      "prompt": "Jaký jev je způsoben klesavými proudy studeného vzduchu se srážkami z plně rozvinuté bouřkové oblačnosti?",
+      "choices": [
+        "elektrostatické výboje",
+        "kovadlinový tvar vrcholku oblačnosti Cb",
+        "húlava",
+        "mrznoucí déšť"
+      ],
+      "correct_choice_index": 2,
+      "answer": "húlava",
+      "source_document_page": 22,
+      "title": "Húlava",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 108,
+      "prompt": "Co je třeba zvážit při vzletu v přízemní inverzi?",
+      "choices": [
+        "během stoupání náhlý nárůst rychlosti a stoupavosti",
+        "námrazu kvůli nízkým teplotám v malých výškách",
+        "během stoupání náhlý pokles rychlosti a stoupavosti",
+        "stoupání je třeba provést s nejnižší možnou rychlostí a při maximálním výkonu"
+      ],
+      "correct_choice_index": 2,
+      "answer": "během stoupání náhlý pokles rychlosti a stoupavosti",
+      "source_document_page": 22,
+      "title": "Vzlet v přízemní inverzi",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 109,
+      "prompt": "Jaké je nejvýznamnější nebezpečí při přiblížení na letiště umístěné v údolí při silném větru vanoucím kolmo na horský hřeben?",
+      "choices": [
+        "silné klesavé proudy s oblastmi deště pod bouřkovou oblačností",
+        "střih větru při sestupu, směr větru se může měnit až o 180°",
+        "snížená dohlednost, možní ztráta vizuálního kontaktu s letištěm během konečného přiblížení",
+        "tvorba mírné až intenzivní námrazy na povrchu letadla"
+      ],
+      "correct_choice_index": 1,
+      "answer": "střih větru při sestupu, směr větru se může měnit až o 180°",
+      "source_document_page": 22,
+      "title": "Windshear v horském údolí",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 110,
+      "prompt": "Jaký druh snížení dohlednosti není příliš citlivý na změny teploty?",
+      "choices": [
+        "chuchvalce mlhy (BCFG)",
+        "radiační mlha (FG)",
+        "kouřmo (BR)",
+        "zákal (HZ)"
+      ],
+      "correct_choice_index": 3,
+      "answer": "zákal (HZ)",
+      "source_document_page": 22,
+      "title": "Zákal a teplotní změny",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 111,
+      "prompt": "Ve které mapě lze nalézt informace o tlakových útvarech a poloze front?",
+      "choices": [
+        "synoptická mapa",
+        "hypsometrická mapa",
+        "mapa větru",
+        "mapa význačného počasí (SWC)"
+      ],
+      "correct_choice_index": 0,
+      "answer": "synoptická mapa",
+      "source_document_page": 23,
+      "title": "Synoptická mapa a fronty",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 112,
+      "prompt": "Která meteorologická mapa zobrazuje skutečný tlak jako tlak přepočtený na hladinu moře se středy tlakových útvarů a frontami?",
+      "choices": [
+        "synoptická mapa",
+        "předpovědní mapa",
+        "hypsometrická mapa",
+        "mapa větru"
+      ],
+      "correct_choice_index": 0,
+      "answer": "synoptická mapa",
+      "source_document_page": 23,
+      "title": "Synoptická mapa a tlak na MSL",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 113,
+      "prompt": "Jaké informace lze získat ze satelitních snímků?",
+      "choices": [
+        "přehled o pokrytí oblačností a o frontách",
+        "teplota a rosný bod vnějšího vzduchu",
+        "turbulence a námraza",
+        "letová dohlednost, přízemní dohlednost, viditelnost země"
+      ],
+      "correct_choice_index": 0,
+      "answer": "přehled o pokrytí oblačností a o frontách",
+      "source_document_page": 23,
+      "title": "Satelitní snímky",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 114,
+      "prompt": "Co ukazuje oblasti srážek?",
+      "choices": [
+        "satelitní snímek",
+        "GAFOR",
+        "radarový obraz",
+        "mapa větru"
+      ],
+      "correct_choice_index": 2,
+      "answer": "radarový obraz",
+      "source_document_page": 23,
+      "title": "Meteorologický radar",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 115,
+      "prompt": "Která informace se NENACHÁZÍ na mapě význačného počasí v malých hladinách (LLSWC)?",
+      "choices": [
+        "informace o podmínkách námrazy",
+        "radarové odrazy srážek",
+        "informace o oblastech turbulence",
+        "polohy a pohyb front"
+      ],
+      "correct_choice_index": 1,
+      "answer": "radarové odrazy srážek",
+      "source_document_page": 23,
+      "title": "LLSWC",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 116,
+      "prompt": "Naměřené rozložení tlaku při hladině moře a odpovídající frontální systémy jsou zobrazeny na:",
+      "choices": [
+        "mapě významného počasí (SWC)",
+        "synoptické mapě",
+        "hypsometrické mapě",
+        "předpovědní mapě"
+      ],
+      "correct_choice_index": 1,
+      "answer": "synoptické mapě",
+      "source_document_page": 24,
+      "title": "Synoptická mapa",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 117,
+      "prompt": "Ve zprávě METAR je intenzivní déšť označen jako:",
+      "choices": [
+        "+SHRA",
+        "SHRA",
+        "+RA",
+        "RA"
+      ],
+      "correct_choice_index": 2,
+      "answer": "+RA",
+      "source_document_page": 24,
+      "title": "METAR: intenzivní déšť",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 118,
+      "prompt": "Ve zprávě METAR jsou mírné dešťové přeháňky označeny jako:",
+      "choices": [
+        "+TSRA",
+        "TS",
+        "+RA",
+        "SHRA"
+      ],
+      "correct_choice_index": 3,
+      "answer": "SHRA",
+      "source_document_page": 24,
+      "title": "METAR: dešťové přeháňky",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 119,
+      "prompt": "Jakou informaci lze nalézt ve zprávě ATIS, ale ne ve zprávě METAR?",
+      "choices": [
+        "informace pro přiblížení, např. přízemní dohlednost a základna oblačnosti",
+        "informace o současném počasí, např. typy srážek",
+        "informace o síle větru, případně o síle nárazů větru",
+        "provozní informace, např. vzletová a přistávací dráha v provozu a převodní hladina"
+      ],
+      "correct_choice_index": 3,
+      "answer": "provozní informace, např. vzletová a přistávací dráha v provozu a převodní hladina",
+      "source_document_page": 24,
+      "title": "ATIS versus METAR",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 120,
+      "prompt": "Za letu lze obdržet meteorologické a provozní informace o cílovém letišti:",
+      "choices": [
+        "ve zprávě VOLMET",
+        "ve zprávě PIREP",
+        "ve zprávě SIGMET",
+        "ve zprávě ATIS"
+      ],
+      "correct_choice_index": 3,
+      "answer": "ve zprávě ATIS",
+      "source_document_page": 24,
+      "title": "ATIS za letu",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 121,
+      "prompt": "Výstrahy SIGMET jsou vydávány pro:",
+      "choices": [
+        "letiště",
+        "oblasti FIR / UIR",
+        "zvláštní tratě",
+        "státy"
+      ],
+      "correct_choice_index": 1,
+      "answer": "oblasti FIR / UIR",
+      "source_document_page": 25,
+      "title": "SIGMET",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 122,
+      "prompt": "Inverze je vrstva:",
+      "choices": [
+        "kde teplota s rostoucí výškou roste",
+        "kde je teplota s rostoucí výškou konstantní",
+        "kde tlak s rostoucí výškou roste",
+        "kde teplota s rostoucí výškou klesá"
+      ],
+      "correct_choice_index": 0,
+      "answer": "kde teplota s rostoucí výškou roste",
+      "source_document_page": 25,
+      "title": "Inverze",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 123,
+      "prompt": "Jaký převládající vítr lze očekávat, jsou-li na synoptické mapě izobary ve velké vzdálenosti?",
+      "choices": [
+        "malý tlakový gradient a mírný vítr",
+        "malý tlakový gradient a silný vítr",
+        "velký tlakový gradient a silný vítr",
+        "velký tlakový gradient a mírný vítr"
+      ],
+      "correct_choice_index": 0,
+      "answer": "malý tlakový gradient a mírný vítr",
+      "source_document_page": 25,
+      "title": "Izobary a rychlost větru",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 124,
+      "prompt": "Co se nazývá horským větrem?",
+      "choices": [
+        "vítr vanoucí dolů podél svahu v noci",
+        "vítr vanoucí nahoru z údolí ve dne",
+        "vítr vanoucí nahoru z údolí v noci",
+        "vítr vanoucí dolů podél svahu ve dne"
+      ],
+      "correct_choice_index": 0,
+      "answer": "vítr vanoucí dolů podél svahu v noci",
+      "source_document_page": 25,
+      "title": "Horský vítr",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 125,
+      "prompt": "Co se nazývá údolním větrem?",
+      "choices": [
+        "vítr vanoucí dolů podél svahu v noci",
+        "vítr vanoucí nahoru z údolí ve dne",
+        "vítr vanoucí nahoru z údolí v noci",
+        "vítr vanoucí dolů podél svahu ve dne"
+      ],
+      "correct_choice_index": 1,
+      "answer": "vítr vanoucí nahoru z údolí ve dne",
+      "source_document_page": 25,
+      "title": "Údolní vítr",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 126,
+      "prompt": "Jaký vítr je hlášen jako 225/15?",
+      "choices": [
+        "jihozápadní 15 kt",
+        "jihozápadní 15 km/h",
+        "severovýchodní 15 kt",
+        "severovýchodní 15 km/h"
+      ],
+      "correct_choice_index": 0,
+      "answer": "jihozápadní 15 kt",
+      "source_document_page": 26,
+      "title": "Vítr 225/15",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 127,
+      "prompt": "Jak se mění teplota vzduchu dle mezinárodní standardní atmosféry od MSL do výšky přibližně 10.000 m?",
+      "choices": [
+        "od +15° do -50 °C",
+        "od +30° do -40 °C",
+        "od +20° do -40 °C",
+        "od -15° do 50 °C"
+      ],
+      "correct_choice_index": 0,
+      "answer": "od +15° do -50 °C",
+      "source_document_page": 26,
+      "title": "Teplota ISA do 10 km",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 128,
+      "prompt": "Jaké počasí pravděpodobně nastane při fénu v Bavorsku v blízkosti Alp?",
+      "choices": [
+        "oblačnost Ns v jižních Alpách, rotorová oblačnost na závětrné straně, teplý a suchý vítr",
+        "oblačnost Ns v severních Alpách, rotorová oblačnost na návětrné straně, teplý a suchý vítr",
+        "oblast vysokého tlaku vzduchu nad Biskajským zálivem a oblast nízkého tlaku vzduchu ve východní Evropě",
+        "studený vlhký vítr vanoucí z hor na závětrné straně Alp, malé změny tlaku vzduchu"
+      ],
+      "correct_choice_index": 0,
+      "answer": "oblačnost Ns v jižních Alpách, rotorová oblačnost na závětrné straně, teplý a suchý vítr",
+      "source_document_page": 26,
+      "title": "Fén v Bavorsku",
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 129,
+      "prompt": "Stoupavé proudy na úbočích hor mohou být zesíleny:",
+      "choices": [
+        "slunečním zářením na návětrné straně",
+        "slunečním zářením na závětrné straně",
+        "vyzařováním tepla na návětrné straně v noci",
+        "ohřevem horních vrstev atmosféry"
+      ],
+      "correct_choice_index": 0,
+      "answer": "slunečním zářením na návětrné straně",
+      "source_document_page": 26,
+      "title": "Zesílení stoupání na svahu",
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

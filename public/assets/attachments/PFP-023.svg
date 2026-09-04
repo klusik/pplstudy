@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" role="img" aria-labelledby="t d">
+  <title id="t">PFP-023 Plánování stoupání</title>
+  <desc id="d">Studijní podklad PFP-023.</desc>
+  <rect width="1000" height="540" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="480" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Plánování stoupání</text>
+<rect x="50" y="115" width="520" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="310.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Úloha</text>
+<rect x="570" y="115" width="380" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="760.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Výsledek</text>
+<rect x="50" y="165" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">3000 ft → FL75, 3000 lb</text>
+<rect x="570" y="165" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">rychlost 110 kt</text>
+<rect x="50" y="223" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">FL65 → FL95, 3000 lb</text>
+<rect x="570" y="223" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">palivo 1 GAL</text>
+<rect x="50" y="281" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">FL65 → FL95, 3000 lb</text>
+<rect x="570" y="281" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">vzdálenost 6 NM</text>
+<rect x="50" y="339" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">3000 ft → FL75, 3000 lb</text>
+<rect x="570" y="339" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">vzdálenost 7 NM</text>
+<text x="60" y="439" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Do grafu se vstupuje hmotností, výškami a teplotou.</text>
+  <text x="500.0" y="518" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

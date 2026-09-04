@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">NAV-019 relativní směrník</title>
+  <desc id="d">Studijní RBI se směrem přídě 230 stupňů a relativním směrníkem 030 stupňů k majáku.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NAV-019 relativní směrník</text>
+
+  <circle cx="500" cy="330" r="175" fill="#fbfcfd" stroke="#17384f" stroke-width="7"/>
+  <text x="500" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">0</text>
+  <text x="650" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">90</text>
+  <text x="500" y="495" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">180</text>
+  <text x="350" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">270</text>
+  <line x1="500" y1="330" x2="500" y2="200" stroke="#8298a6" stroke-width="8"/>
+  <polygon points="500,185 485,215 515,215" fill="#8298a6"/>
+  <line x1="500" y1="330" x2="590" y2="225" stroke="#b64a4a" stroke-width="8"/>
+  <polygon points="600,213 575,225 595,243" fill="#b64a4a"/>
+  <text x="690" y="250" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">RB 030°</text>
+  <text x="500" y="555" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">Magnetický kurz letadla: 230°</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

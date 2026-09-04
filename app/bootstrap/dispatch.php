@@ -26,6 +26,7 @@ use function PplStudy\Controllers\admin_diagnostics;
 use function PplStudy\Controllers\admin_import;
 use function PplStudy\Controllers\admin_question_edit;
 use function PplStudy\Controllers\admin_questions;
+use function PplStudy\Controllers\admin_sources;
 use function PplStudy\Controllers\admin_settings;
 use function PplStudy\Controllers\admin_user_edit;
 use function PplStudy\Controllers\admin_user_new;
@@ -37,6 +38,7 @@ use function PplStudy\Controllers\public_home;
 use function PplStudy\Controllers\public_question;
 use function PplStudy\Controllers\public_search;
 use function PplStudy\Controllers\public_study;
+use function PplStudy\Controllers\source_document_view;
 use function PplStudy\Controllers\user_login;
 use function PplStudy\Controllers\user_logout;
 use function PplStudy\Views\render_not_found;
@@ -56,11 +58,13 @@ function study_dispatch_page(string $page): void
         'search' => public_search(...),
         'about' => public_about(...),
         'api_quiz' => api_quiz(...),
+        'source_document_view' => source_document_view(...),
         'admin_dashboard' => admin_dashboard(...),
         'admin_users' => admin_users(...),
         'admin_user_new' => admin_user_new(...),
         'admin_user_edit' => admin_user_edit(...),
         'admin_questions' => admin_questions(...),
+        'admin_sources' => admin_sources(...),
         'admin_question_edit' => admin_question_edit(...),
         'admin_import' => admin_import(...),
         'admin_settings' => admin_settings(...),

@@ -1,0 +1,2059 @@
+{
+  "schema_version": 1,
+  "subject_id": 8,
+  "source_key": "subject-08-official-questions",
+  "source_title": "Obecné znalosti o letadle – letoun",
+  "source_version": "1.0, 30.12.2020",
+  "source_sha256": "b6568f896329e648ffc8f5b088a48b3cdf0844de6d869539350800112821a1ea",
+  "source_filename": "08-obecne-znalosti-official.pdf",
+  "questions": [
+    {
+      "source_question_id": 1,
+      "title": "Maximální tloušťka křídla je definována jako vzdálenost mezi spodním a horním povrchem…",
+      "prompt": "Maximální tloušťka křídla je definována jako vzdálenost mezi spodním a horním povrchem křídla:",
+      "choices": [
+        "v nejtlustší části křídla",
+        "v nejštíhlejší části křídla",
+        "na nejvzdálenější části křídla",
+        "na nejvnitřnější části křídla"
+      ],
+      "answer": "v nejtlustší části křídla",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "title": "Trubková ocelová konstrukce s nenosným potahem",
+      "prompt": "Jak se nazývá trubková ocelová konstrukce s nenosným potahem?",
+      "choices": [
+        "příhradová",
+        "poloskořepinová",
+        "skořepinová",
+        "voštinová"
+      ],
+      "answer": "příhradová",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "title": "Z jakých částí je obvykle složena dřevěná nebo kovová primární konstrukce trupu",
+      "prompt": "Z jakých částí je obvykle složena dřevěná nebo kovová primární konstrukce trupu?",
+      "choices": [
+        "nosníky, žebra a podélníky",
+        "kryty, podélníky a tvarové části",
+        "žebra, přepážky a kryty",
+        "přepážky a podélníky"
+      ],
+      "answer": "přepážky a podélníky",
+      "correct_choice_index": 3,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "title": "Jaká konfigurace křídla je zobrazena v příloze",
+      "prompt": "Jaká konfigurace křídla je zobrazena v příloze? Viz obr. (AGK-002)",
+      "choices": [
+        "dolnoplošník",
+        "středoplošník",
+        "hornoplošník",
+        "vzpěrový hornoplošník"
+      ],
+      "answer": "vzpěrový hornoplošník",
+      "correct_choice_index": 3,
+      "source_document_page": 1,
+      "attachment_code": "AGK-002",
+      "attachment_url": "/public/assets/attachments/AGK-002.svg"
+    },
+    {
+      "source_question_id": 5,
+      "title": "Konstrukce z přepážek a podélníků s nosným potahem se nazývá",
+      "prompt": "Konstrukce z přepážek a podélníků s nosným potahem se nazývá:",
+      "choices": [
+        "gridová konstrukce",
+        "dřevěná nebo smíšená konstrukce",
+        "voštinová konstrukce",
+        "poloskořepinová konstrukce"
+      ],
+      "answer": "poloskořepinová konstrukce",
+      "correct_choice_index": 3,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "title": "Jaký tvar ocasních ploch je znázorněn v příloze",
+      "prompt": "Jaký tvar ocasních ploch je znázorněn v příloze? Viz obr. (AGK-003)",
+      "choices": [
+        "tvaru T",
+        "křížové ocasní plochy",
+        "tvaru V",
+        "ocasní plochy spojené s trupem"
+      ],
+      "answer": "tvaru T",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "AGK-003",
+      "attachment_url": "/public/assets/attachments/AGK-003.svg"
+    },
+    {
+      "source_question_id": 7,
+      "title": "Jaké jsou hlavní díly ocasních ploch letadla",
+      "prompt": "Jaké jsou hlavní díly ocasních ploch letadla?",
+      "choices": [
+        "řiditelné kolo a pedály",
+        "křidélka a výškové kormidlo",
+        "směrové kormidlo a křidélka",
+        "vodorovné a svislé ocasní plochy"
+      ],
+      "answer": "vodorovné a svislé ocasní plochy",
+      "correct_choice_index": 3,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 8,
+      "title": "Sendvičová konstrukce se skládá ze dvou",
+      "prompt": "Sendvičová konstrukce se skládá ze dvou:",
+      "choices": [
+        "tenkých vrstev a lehké výplně",
+        "tlustých vrstev a lehké výplně",
+        "tenkých vrstev a těžké výplně",
+        "tlustých vrstev a těžké výplně"
+      ],
+      "answer": "tenkých vrstev a lehké výplně",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "title": "Jaké konstrukční prvky tvoří tvar profilu křídla",
+      "prompt": "Jaké konstrukční prvky tvoří tvar profilu křídla?",
+      "choices": [
+        "nosník",
+        "žebra",
+        "bednění",
+        "koncový oblouk"
+      ],
+      "answer": "žebra",
+      "correct_choice_index": 1,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "title": "Násobek n popisuje vztah mezi",
+      "prompt": "Násobek n popisuje vztah mezi:",
+      "choices": [
+        "vztlakem a tíhou",
+        "tahem a odporem",
+        "tíhou a tahem",
+        "odporem a vztlakem"
+      ],
+      "answer": "vztlakem a tíhou",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "title": "Jaké jsou výhody sendvičové konstrukce",
+      "prompt": "Jaké jsou výhody sendvičové konstrukce?",
+      "choices": [
+        "nízká hmotnost, vysoká tuhost, velká stabilita, vysoká pevnost",
+        "velká odolnost vůči vysokým teplotám a malá hmotnost",
+        "vysoká pevnost a dobrá tvarovatelnost",
+        "dobrá tvarovatelnost a dobrá odolnost vůči vysokým teplotám"
+      ],
+      "answer": "nízká hmotnost, vysoká tuhost, velká stabilita, vysoká pevnost",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 12,
+      "title": "Který z uvedených materiálů je nejpevnější",
+      "prompt": "Který z uvedených materiálů je nejpevnější?",
+      "choices": [
+        "dřevo",
+        "hliník",
+        "kompozit",
+        "hořčík"
+      ],
+      "answer": "kompozit",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 13,
+      "title": "Co je třeba učinit, byla-li překročena povolená provozní omezení",
+      "prompt": "Co je třeba učinit, byla-li překročena povolená provozní omezení?",
+      "choices": [
+        "před dalším letem musí být letadlo prohlédnuto kvalifikovaným technikem",
+        "letadlo musí být prohlédnuto velitelem letadla a není-li zjištěna závada, není třeba žádný zvláštní zápis do technického deníku",
+        "letadlo musí být prohlédnuto alespoň dvěma piloty s typovou kvalifikací, jeden z nich musí být velitel letadla",
+        "letadlo musí být dvakrát prohlédnuto dvěma techniky"
+      ],
+      "answer": "před dalším letem musí být letadlo prohlédnuto kvalifikovaným technikem",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "title": "Trhliny v konstrukci letadla mohou být způsobeny",
+      "prompt": "Trhliny v konstrukci letadla mohou být způsobeny:",
+      "choices": [
+        "poruchami materiálu nebo starou barvou",
+        "tvrdým přistáním nebo nadměrným zatížením",
+        "intenzivní korozí nebo vysokým opotřebením",
+        "Střetem vrtule se zemí"
+      ],
+      "answer": "tvrdým přistáním nebo nadměrným zatížením",
+      "correct_choice_index": 1,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "title": "Jaký druh hydraulických olejů se používá v systémech současných letadel",
+      "prompt": "Jaký druh hydraulických olejů se používá v systémech současných letadel?",
+      "choices": [
+        "minerální oleje",
+        "syntetické oleje",
+        "rostlinné oleje",
+        "bio-oleje"
+      ],
+      "answer": "syntetické oleje",
+      "correct_choice_index": 1,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 16,
+      "title": "Číslo 1 na podvozku označuje",
+      "prompt": "Číslo 1 na podvozku označuje: Viz obr. (AGK-005)",
+      "choices": [
+        "vzpěru",
+        "vidlici",
+        "nůžky",
+        "vnitřní tlumič"
+      ],
+      "answer": "vidlici",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "AGK-005",
+      "attachment_url": "/public/assets/attachments/AGK-005.svg"
+    },
+    {
+      "source_question_id": 17,
+      "title": "Konstrukce trupu může být poškozena",
+      "prompt": "Konstrukce trupu může být poškozena:",
+      "choices": [
+        "překročením maximální manévrovací rychlosti v silných poryvech",
+        "pádem po překročení maximálního úhlu náběhu",
+        "zásahy do řízení pro udržení stabilizovaného letu",
+        "poklesem rychlosti letu pod určitou hodnotu"
+      ],
+      "answer": "překročením maximální manévrovací rychlosti v silných poryvech",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "title": "Číslo 2 na podvozku označuje",
+      "prompt": "Číslo 2 na podvozku označuje: Viz obr. (AGK-005)",
+      "choices": [
+        "těleso tlumiče",
+        "vidlici",
+        "nůžky",
+        "Pístnici tlumiče"
+      ],
+      "answer": "Pístnici tlumiče",
+      "correct_choice_index": 3,
+      "source_document_page": 4,
+      "attachment_code": "AGK-005",
+      "attachment_url": "/public/assets/attachments/AGK-005.svg"
+    },
+    {
+      "source_question_id": 19,
+      "title": "Jak je na malých letadlech a motorových kluzácích obvykle řízeno příďové nebo ocasní ko…",
+      "prompt": "Jak je na malých letadlech a motorových kluzácích obvykle řízeno příďové nebo ocasní kolo?",
+      "choices": [
+        "pedály",
+        "sloupkem řízení",
+        "volantem řízení",
+        "posunem hmotnosti"
+      ],
+      "answer": "pedály",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "title": "Kde je instalován brzdový systém brzdící letadlo na zemi",
+      "prompt": "Kde je instalován brzdový systém brzdící letadlo na zemi?",
+      "choices": [
+        "pouze na příďovém podvozku",
+        "pouze na hlavním podvozku",
+        "na ocasním kole",
+        "na příďovém i hlavním podvozku"
+      ],
+      "answer": "pouze na hlavním podvozku",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "title": "Jaká řídící plocha je spojena s příďovým kolem",
+      "prompt": "Jaká řídící plocha je spojena s příďovým kolem?",
+      "choices": [
+        "křidélka",
+        "směrovka",
+        "výškovka",
+        "trim směrovky"
+      ],
+      "answer": "směrovka",
+      "correct_choice_index": 1,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "title": "Co se kontroluje značkou v příloze",
+      "prompt": "Co se kontroluje značkou v příloze? Viz obr. (AGK-006)",
+      "choices": [
+        "správná poloha pneumatiky vzhledem k ráfku",
+        "sjetí pneumatiky",
+        "pracovní tlak v duši kola",
+        "správná poloha vnějších izolačních vrstev"
+      ],
+      "answer": "správná poloha pneumatiky vzhledem k ráfku",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "AGK-006",
+      "attachment_url": "/public/assets/attachments/AGK-006.svg"
+    },
+    {
+      "source_question_id": 23,
+      "title": "Kolem kolika os se pohybuje letadlo a jak se tyto osy nazývají",
+      "prompt": "Kolem kolika os se pohybuje letadlo a jak se tyto osy nazývají?",
+      "choices": [
+        "3, svislá, příčná, podélná",
+        "3, x, y, z",
+        "4, vertikální, příčná, podélná, rychlostní",
+        "4, optická, imaginární, předozadní, pravolevá"
+      ],
+      "answer": "3, svislá, příčná, podélná",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "title": "Pohyb kolem podélné osy je primárně způsoben",
+      "prompt": "Pohyb kolem podélné osy je primárně způsoben:",
+      "choices": [
+        "křidélky",
+        "směrovkou",
+        "výškovkou",
+        "trimem"
+      ],
+      "answer": "křidélky",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "title": "Jak jsou řídící plochy na malém pístovém letounu normálně ovládány",
+      "prompt": "Jak jsou řídící plochy na malém pístovém letounu normálně ovládány?",
+      "choices": [
+        "ručně pomocí táhel a lan",
+        "pomocí posilovačů poháněných hydraulickými čerpadly nebo elektromotory",
+        "hydraulicky pomocí hydraulických čerpadel a pracovních válců",
+        "elektricky systémem fly-by-wire"
+      ],
+      "answer": "ručně pomocí táhel a lan",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 26,
+      "title": "Jaký je primární a sekundární účinek vychýlení směrovky doleva",
+      "prompt": "Jaký je primární a sekundární účinek vychýlení směrovky doleva?",
+      "choices": [
+        "primární: bočení doleva, sekundární: klonění doleva",
+        "primární: bočení doleva, sekundární: klonění doprava",
+        "primární: bočení doprava, sekundární: klonění doleva",
+        "primární: bočení doprava, sekundární: klonění doprava"
+      ],
+      "answer": "primární: bočení doleva, sekundární: klonění doleva",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 27,
+      "title": "Co způsobí přitažení řídící páky k sobě",
+      "prompt": "Co způsobí přitažení řídící páky k sobě?",
+      "choices": [
+        "na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru",
+        "na ocasních plochách působí zvětšená síla směrem dolů a způsobí pokles přídě letadla",
+        "na ocasních plochách působí zvětšená síla směrem nahoru a způsobí pohyb přídě směrem nahoru",
+        "na ocasních plochách působí zvětšená síla směrem nahoru a způsobí pokles přídě"
+      ],
+      "answer": "na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "title": "Co způsobí přitažení sloupku řízení nebo řídící páky směrem k sobě",
+      "prompt": "Co způsobí přitažení sloupku řízení nebo řídící páky směrem k sobě?",
+      "choices": [
+        "na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru",
+        "na ocasních plochách působí zvětšená síla dolů a způsobí pokles přídě",
+        "na ocasních plochách působí zvětšená síla směrem nahoru a způsobí pohyb přídě směrem nahoru",
+        "na ocasních plochách působí zvětšená síla směrem nahoru a způsobí pokles přídě"
+      ],
+      "answer": "na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "title": "Co se stane za letu, je-li řídící páka posunuta směrem dopředu bez dalších korekcí",
+      "prompt": "Co se stane za letu, je-li řídící páka posunuta směrem dopředu bez dalších korekcí?",
+      "choices": [
+        "rychlost vzroste, úhel klesání vzroste",
+        "rychlost klesne, úhel klesání vzroste",
+        "rychlost vzroste, úhel klesání se zmenší",
+        "rychlost klesne, úhel klesání se zmenší"
+      ],
+      "answer": "rychlost vzroste, úhel klesání vzroste",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "title": "Uvádí všechny primární řídící plochy letadla",
+      "prompt": "Která z následujících možností uvádí všechny primární řídící plochy letadla?",
+      "choices": [
+        "výškovka, směrovka, křidélka",
+        "klapky, sloty, spoilery",
+        "výškovka, směrovka, křidélka, trimy, zařízení pro zvýšení vztlaku křídla, ovládání výkonu",
+        "všechny pohyblivé díly na letadle pomáhající řídit letadlo"
+      ],
+      "answer": "výškovka, směrovka, křidélka",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "title": "Jaký účel mají sekundární prvky řízení",
+      "prompt": "Jaký účel mají sekundární prvky řízení?",
+      "choices": [
+        "zlepšit výkonnostní charakteristiky letadla a trvale snižovat síly v řízení",
+        "umožnit pilotovi řídit pohyb letadla kolem všech tří os",
+        "zlepšit vlastnosti letadla při malých rychlostech v zatáčce při přiblížení a přistání",
+        "vytvořit systém zpětné vazby pro prvky primárního řízení"
+      ],
+      "answer": "zlepšit výkonnostní charakteristiky letadla a trvale snižovat síly v řízení",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "title": "Jaký účel mají na zemi nastavitelné vyvažovací plošky",
+      "prompt": "Jaký účel mají na zemi nastavitelné vyvažovací plošky?",
+      "choices": [
+        "je to nepohyblivá kovová ploška na řídící ploše, která se nastavuje na zemi pro snížení trvalých sil v řízení při určitém režimu letu",
+        "je přednastavena na zemi a dále nastavována za letu, aby se zmenšila potřeba pořád vyvažovat trimem letadlo",
+        "je nastavena na zemi pro opravu režimů letu, které by nešly jinak vyvážit kvůli poloze těžiště",
+        "používá se pro optimalizaci vlastností letadla při manipulaci s letadlem na zemi"
+      ],
+      "answer": "je to nepohyblivá kovová ploška na řídící ploše, která se nastavuje na zemi pro snížení trvalých sil v řízení při určitém režimu letu",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "title": "Pilot pohne dozadu páčkou nebo kolečkem trimu v pilotní kabině. Co to způsobí na plošce…",
+      "prompt": "Pilot pohne dozadu páčkou nebo kolečkem trimu v pilotní kabině. Co to způsobí na plošce trimu a na výškovce?",
+      "choices": [
+        "ploška trimu se pohne nahoru, výškovka se pohne dolů",
+        "ploška trimu se pohne nahoru, výškovka se pohne nahoru",
+        "ploška trimu se pohne dolů, výškovka se pohne dolů",
+        "ploška trimu se pohne dolů, výškovka se pohne nahoru"
+      ],
+      "answer": "ploška trimu se pohne dolů, výškovka se pohne nahoru",
+      "correct_choice_index": 3,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "title": "Kterým směrem se pohybuje ploška trimu při vyvažování letadla na \"těžký na ocas\"",
+      "prompt": "Kterým směrem se pohybuje ploška trimu při vyvažování letadla na \"těžký na ocas\"?",
+      "choices": [
+        "pohybuje se dolů",
+        "pohybuje se nahoru",
+        "to závisí na poloze těžiště",
+        "pohybuje se ve směru výchylky směrovky Jakým směrem se pohybuje odlehčovací ploška vzhledem k výchylce řídící plochy, ke které je"
+      ],
+      "answer": "pohybuje se dolů",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "title": "Připevněna",
+      "prompt": "připevněna?",
+      "choices": [
+        "v opačném směru",
+        "ve stejném směru",
+        "do úhlu 90°",
+        "do úhlu 45°"
+      ],
+      "answer": "v opačném směru",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "title": "Trim se používá",
+      "prompt": "Trim se používá:",
+      "choices": [
+        "pro potlačení neřízených bočních kmitů",
+        "pro odstranění trvalých sil v řízení",
+        "pro změnu polohy těžiště",
+        "pro uzamčení prvků řízení"
+      ],
+      "answer": "pro odstranění trvalých sil v řízení",
+      "correct_choice_index": 1,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 37,
+      "title": "Co z následujícího jsou prvky sekundárního řízení",
+      "prompt": "Co z následujícího jsou prvky sekundárního řízení?",
+      "choices": [
+        "klapky, zařízení na náběžných hranách křídel, spoilery, trimovací plošky",
+        "výškovka, směrovka, křidélka",
+        "výškovka, směrovka, křidélka, trimovací plošky, zařízení pro zvýšení vztlaku, ovládání výkonu",
+        "všechny pohyblivé části na letadle, které pomáhají řídit letadlo"
+      ],
+      "answer": "klapky, zařízení na náběžných hranách křídel, spoilery, trimovací plošky",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "title": "Co je třeba provést při plnění paliva",
+      "prompt": "Co je třeba provést při plnění paliva?",
+      "choices": [
+        "uzemnit letadlo, zapnout hlavní vypínač a magneta",
+        "nepoužívat otevřený oheň, nekouřit a uzemnit letadlo",
+        "plnit přes sítko a zapnout hlavní vypínač",
+        "kontrolovat obsah nádrže svítilnou"
+      ],
+      "answer": "nepoužívat otevřený oheň, nekouřit a uzemnit letadlo",
+      "correct_choice_index": 1,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "title": "Nastřikovací čerpadlo je",
+      "prompt": "Nastřikovací čerpadlo je:",
+      "choices": [
+        "mechanický přepínač v pilotní kabině, kterým se zapíná turbokompresor",
+        "pomocné čerpadlo v palivovém systému, které usnadňuje spouštění motoru",
+        "ventil v systému řízení dodávky paliva pro automatické nastavování bohatosti směsi",
+        "tryska ve Venturiho trubici karburátoru pro rozstřikování paliva"
+      ],
+      "answer": "pomocné čerpadlo v palivovém systému, které usnadňuje spouštění motoru",
+      "correct_choice_index": 1,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "title": "K čemu slouží odvětrání nádrže",
+      "prompt": "K čemu slouží odvětrání nádrže?",
+      "choices": [
+        "zabraňuje podtlaku způsobenému spotřebou paliva",
+        "zabraňuje přetékání paliva z plnícího otvoru při plnění",
+        "zabraňuje vstřebávání vody do paliva při parkování letadla",
+        "za letu rozděluje palivo z jedné palivové nádrže do dalších"
+      ],
+      "answer": "zabraňuje podtlaku způsobenému spotřebou paliva",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "title": "Elektrickou energii do sítě letounu dodává: 1. baterie 2. generátor 3. relé 4. jistič",
+      "prompt": "Elektrickou energii do sítě letounu dodává: 1. baterie 2. generátor 3. relé 4. jistič",
+      "choices": [
+        "1 a 4",
+        "1 a 2",
+        "2 a 3",
+        "3 a 4"
+      ],
+      "answer": "1 a 2",
+      "correct_choice_index": 1,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "title": "Co je jednotka napětí",
+      "prompt": "Co je jednotka napětí?",
+      "choices": [
+        "Ohm",
+        "Volt",
+        "Ampér",
+        "Watt"
+      ],
+      "answer": "Volt",
+      "correct_choice_index": 1,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "title": "Co je jednotka elektrického výkonu",
+      "prompt": "Co je jednotka elektrického výkonu?",
+      "choices": [
+        "Ohm",
+        "Volt",
+        "Ampér",
+        "Watt"
+      ],
+      "answer": "Watt",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "title": "Jaký účel mají vyzařovače statické elektřiny na letadle",
+      "prompt": "Jaký účel mají vyzařovače statické elektřiny na letadle?",
+      "choices": [
+        "vybíjet za letu statický náboj",
+        "bránit elektrickému rušení při intenzivním rádiovém provozu",
+        "zajisti uzemnění při plnění paliva",
+        "zlepšit kvalitu rádiového vysílání ve velkých výškách"
+      ],
+      "answer": "vybíjet za letu statický náboj",
+      "correct_choice_index": 0,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "title": "Co se stane, vysadí-li alternátor za letu",
+      "prompt": "Co se stane, vysadí-li alternátor za letu?",
+      "choices": [
+        "vysadí všechny přístroje a varovné systémy",
+        "vysadí pouze spotřebiče s vysokou spotřebou",
+        "motor bude běžet tvrdě a bude náchylný k nepravidelnému chodu",
+        "nic se nezmění, dokud bude baterie dodávat dostatek energie"
+      ],
+      "answer": "nic se nezmění, dokud bude baterie dodávat dostatek energie",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "title": "Elektricky poháněné palubní přístroje, které používají stejnosměrný proud, jsou označeny",
+      "prompt": "Elektricky poháněné palubní přístroje, které používají stejnosměrný proud, jsou označeny:",
+      "choices": [
+        "DC",
+        "EL",
+        "CO",
+        "AL"
+      ],
+      "answer": "DC",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "title": "Které zařízení může být ovlivněno vysazením elektrického systému",
+      "prompt": "Které zařízení může být ovlivněno vysazením elektrického systému?",
+      "choices": [
+        "radiové vybavení, navigační vybavení a magnetický kompas",
+        "ukazatel množství paliva, rádiové vybavení a výškoměr",
+        "rychloměr, výškoměr a umělý horizont",
+        "rádiové vybavení, navigační vybavení a gyroskopické přístroje"
+      ],
+      "answer": "rádiové vybavení, navigační vybavení a gyroskopické přístroje",
+      "correct_choice_index": 3,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "title": "Jaké je nejčastější uspořádání válců v motorech malých letadel a motorových kluzáků",
+      "prompt": "Jaké je nejčastější uspořádání válců v motorech malých letadel a motorových kluzáků?",
+      "choices": [
+        "řadové",
+        "hvězdicové",
+        "vodorovné",
+        "vidlicové"
+      ],
+      "answer": "vodorovné",
+      "correct_choice_index": 2,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "title": "Jaká část pracovního cyklu čtyřdobého zážehového motoru je znázorněna v příloze",
+      "prompt": "Jaká část pracovního cyklu čtyřdobého zážehového motoru je znázorněna v příloze? Viz obr. (AGK-007)",
+      "choices": [
+        "sání",
+        "stlačení",
+        "výbuch",
+        "výfuk"
+      ],
+      "answer": "sání",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "AGK-007",
+      "attachment_url": "/public/assets/attachments/AGK-007.svg"
+    },
+    {
+      "source_question_id": 50,
+      "title": "Jaká část pracovního cyklu čtyřdobého zážehového motoru je znázorněna v příloze",
+      "prompt": "Jaká část pracovního cyklu čtyřdobého zážehového motoru je znázorněna v příloze? Viz obr. (AGK-008)",
+      "choices": [
+        "sání",
+        "stlačení",
+        "výbuch",
+        "výfuk"
+      ],
+      "answer": "stlačení",
+      "correct_choice_index": 1,
+      "source_document_page": 10,
+      "attachment_code": "AGK-008",
+      "attachment_url": "/public/assets/attachments/AGK-008.svg"
+    },
+    {
+      "source_question_id": 51,
+      "title": "Co je pravděpodobně příčinou, běží-li motor neobvykle tvrdě při kontrole magnet",
+      "prompt": "Co je pravděpodobně příčinou, běží-li motor neobvykle tvrdě při kontrole magnet?",
+      "choices": [
+        "vadný startér",
+        "zkrat na zemnícím kabelu",
+        "vadná zapalovací svíčka",
+        "vadný přepínač zapalování"
+      ],
+      "answer": "vadná zapalovací svíčka",
+      "correct_choice_index": 2,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "title": "Ve které situaci dochází k největšímu vstřebávání vlhkosti do paliva",
+      "prompt": "Ve které situaci dochází k největšímu vstřebávání vlhkosti do paliva?",
+      "choices": [
+        "téměř plné nádrže",
+        "téměř prázdné nádrže",
+        "při stání na vlhké travnaté ploše",
+        "při stání na studených plochách"
+      ],
+      "answer": "téměř prázdné nádrže",
+      "correct_choice_index": 1,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "title": "Kde se v nádrži shromažďuje zkondenzovaná voda",
+      "prompt": "Kde se v nádrži shromažďuje zkondenzovaná voda?",
+      "choices": [
+        "v nejnižší části",
+        "na hladině paliva",
+        "je smíchána s palivem",
+        "poblíž plnícího otvoru nádrže"
+      ],
+      "answer": "v nejnižší části",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "title": "Co popisuje oktanové číslo paliva",
+      "prompt": "Co popisuje oktanové číslo paliva?",
+      "choices": [
+        "odolnost proti samovznícení",
+        "rychlost šíření plamene",
+        "spalovací teplotu",
+        "předstih zapalování"
+      ],
+      "answer": "odolnost proti samovznícení",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "title": "Jakou barvu má palivo Avgas 100 LL",
+      "prompt": "Jakou barvu má palivo Avgas 100 LL?",
+      "choices": [
+        "zelenou",
+        "červenou",
+        "žlutou",
+        "modrou"
+      ],
+      "answer": "modrou",
+      "correct_choice_index": 3,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 56,
+      "title": "Jaký vliv má zapnutí ohřevu karburátoru na chod motoru s pevnou vrtulí",
+      "prompt": "Jaký vliv má zapnutí ohřevu karburátoru na chod motoru s pevnou vrtulí?",
+      "choices": [
+        "nárůst otáček",
+        "pokles otáček",
+        "zvýšení úhlu náběhu",
+        "snížení úhlu náběhu"
+      ],
+      "answer": "pokles otáček",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 57,
+      "title": "Co je hlavním úkolem karburátoru",
+      "prompt": "Co je hlavním úkolem karburátoru?",
+      "choices": [
+        "vytvářet palivovou směs vzduch / palivo",
+        "zajisti dodatečné palivo pro chlazení motoru",
+        "čerpat palivo z nádrží do válců",
+        "pomocí přípustě paliva řídit rychlost letadla"
+      ],
+      "answer": "vytvářet palivovou směs vzduch / palivo",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 58,
+      "title": "Ve které fázi letu musí být ohřev karburátoru vypnut, i když lze očekávat tvorbu námrazy",
+      "prompt": "Ve které fázi letu musí být ohřev karburátoru vypnut, i když lze očekávat tvorbu námrazy?",
+      "choices": [
+        "při pojíždění",
+        "při stoupání",
+        "při letu po trati",
+        "při vzletu"
+      ],
+      "answer": "při vzletu",
+      "correct_choice_index": 3,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 59,
+      "title": "Při které teplotě vnějšího vzduchu je největší pravděpodobnost tvorby námrazy",
+      "prompt": "Při které teplotě vnějšího vzduchu je největší pravděpodobnost tvorby námrazy?",
+      "choices": [
+        "mezi -5 °C a +20 °C",
+        "mezi -15 °C a 0 °C",
+        "mezi -10 °C a +10 °C",
+        "mezi -20 °C a +5 °C"
+      ],
+      "answer": "mezi -5 °C a +20 °C",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 60,
+      "title": "Úkol chladících žeber na válcích motorů chlazených vzduchem",
+      "prompt": "Co je úkolem chladících žeber na válcích motorů chlazených vzduchem?",
+      "choices": [
+        "přivádění proudu vzduchu na části, které mají být chlazeny",
+        "rychlý přenos tepla do okolního proudu vzduchu zvětšením povrchu",
+        "chlazení proudu vzduchu v okolí válce a přivádění ho na horké části motoru",
+        "urychlení proudu vzduchu a tím zlepšení chlazení částí válců"
+      ],
+      "answer": "rychlý přenos tepla do okolního proudu vzduchu zvětšením povrchu",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 61,
+      "title": "Teplota hlav válců se měří na",
+      "prompt": "Teplota hlav válců se měří na:",
+      "choices": [
+        "kritickém válci",
+        "náhodném válci",
+        "všech válcích",
+        "je průměrem teploty všech válců"
+      ],
+      "answer": "kritickém válci",
+      "correct_choice_index": 0,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 62,
+      "title": "Co se stane, ucpe-li se olejový filtr",
+      "prompt": "Co se stane, ucpe-li se olejový filtr?",
+      "choices": [
+        "otevře se obtokový ventil a umožní cirkulaci oleje, nečistoty se nefiltrují",
+        "otevře se obtokový ventil a umožní cirkulaci oleje, nečistoty se filtrují náhradním filtrem",
+        "cirkulace oleje skončí za 30 minut a potom není zaručen správný chod motoru",
+        "cirkulace oleje skončí za 15 minut a potom není zaručen správný chod motoru"
+      ],
+      "answer": "otevře se obtokový ventil a umožní cirkulaci oleje, nečistoty se nefiltrují",
+      "correct_choice_index": 0,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 63,
+      "title": "Zážehové letecké motory mají",
+      "prompt": "Zážehové letecké motory mají:",
+      "choices": [
+        "dva zdvojené systémy zapalování",
+        "dva nezávislé systémy zapalování",
+        "jeden elektrický systém zapalování",
+        "jeden systém zapalování s magnety"
+      ],
+      "answer": "dva nezávislé systémy zapalování",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 64,
+      "title": "Směs paliva se vzduchem, kde je nadměrné množství paliva",
+      "prompt": "Jak se nazývá směs paliva se vzduchem, kde je nadměrné množství paliva?",
+      "choices": [
+        "chudá",
+        "bohatá",
+        "plná",
+        "prázdná"
+      ],
+      "answer": "bohatá",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 65,
+      "title": "Úhel zobrazený šipkou č. 1 znázorňuje",
+      "prompt": "Úhel zobrazený šipkou č. 1 znázorňuje: Viz obr. (AGK-011) D: směr nabíhajícího proudu vzduchu C: tětiva R: směr otáčení",
+      "choices": [
+        "úhel náběhu",
+        "úhel nastavení vrtule",
+        "geometrické zkroucení listu",
+        "aerodynamické zkroucení listu"
+      ],
+      "answer": "úhel nastavení vrtule",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "AGK-011",
+      "attachment_url": "/public/assets/attachments/AGK-011.svg"
+    },
+    {
+      "source_question_id": 66,
+      "title": "Jak má být provedeno zvýšení výkonu motoru s vrtulí konstantních otáček, není-li v leto…",
+      "prompt": "Jak má být provedeno zvýšení výkonu motoru s vrtulí konstantních otáček, není-li v letové příručce popsán žádný jiný postup?",
+      "choices": [
+        "1) zvýšit otáčky 2) zvýšit plnící tlak",
+        "1) zvýšit plnící tlak 2) zvýšit otáčky",
+        "1) snížit plnící tlak 2) zvýšit otáčky",
+        "1) snížit otáčky 2) zvýšit plnící tlak"
+      ],
+      "answer": "1) zvýšit otáčky 2) zvýšit plnící tlak",
+      "correct_choice_index": 0,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 67,
+      "title": "Jak má být provedeno snížení výkonu motoru s vrtulí konstantních otáček, není-li v leto…",
+      "prompt": "Jak má být provedeno snížení výkonu motoru s vrtulí konstantních otáček, není-li v letové příručce popsán jiný postup?",
+      "choices": [
+        "1) snížit otáčky 2) snížit plnící tlak",
+        "1) snížit plnící tlak 2) snížit otáčky",
+        "1) snížit plnící tlak 2) zvýšit otáčky",
+        "1)snížit otáčky 2) zvýšit plnící tlak"
+      ],
+      "answer": "1) snížit plnící tlak 2) snížit otáčky",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 68,
+      "title": "Výkon pístového motoru bez turbokompresoru klesá s rostoucí výškou, protože",
+      "prompt": "Výkon pístového motoru bez turbokompresoru klesá s rostoucí výškou, protože:",
+      "choices": [
+        "klesá teplota vzduchu",
+        "klesá hustota vzduchu",
+        "klesá vlhkost vzduchu",
+        "klesá atmosférický tlak"
+      ],
+      "answer": "klesá hustota vzduchu",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 69,
+      "title": "Výkon motoru s karburátorem s rostoucí nadmořskou výškou",
+      "prompt": "Výkon motoru s karburátorem s rostoucí nadmořskou výškou:",
+      "choices": [
+        "se zvětšuje",
+        "klesá",
+        "zůstává stejný",
+        "nejprve klesá a od 5000 ft se zvětšuje"
+      ],
+      "answer": "klesá",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 70,
+      "title": "Během zkoušky zapalování je přepínač zapalování krátce nastaven do polohy OFF a hned po…",
+      "prompt": "Během zkoušky zapalování je přepínač zapalování krátce nastaven do polohy OFF a hned potom do polohy BOTH. Co se stane s otáčkami motoru, je-li systém zapalování správně uzemněn?",
+      "choices": [
+        "při přepnutí na OFF se otáčky zvýší a po přepnutí na BOTH se otáčky vrátí na původní hodnotu",
+        "po přepnutí na OFF se otáčky sníží a po přepnutí na BOTH se otáčky vrátí na původní hodnotu",
+        "po přepnutí na OFF se otáčky zvýší a po přepnutí na BOTH zůstanou vyšší",
+        "po přepnutí na OFF se otáčky sníží a po přepnutí na BOTH zůstanou nižší"
+      ],
+      "answer": "po přepnutí na OFF se otáčky sníží a po přepnutí na BOTH se otáčky vrátí na původní hodnotu",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 71,
+      "title": "Jaké přístroje měří v letadle teplotu",
+      "prompt": "Jaké přístroje měří v letadle teplotu?",
+      "choices": [
+        "teploměr oleje, teploměr chladící kapaliny motoru, teploměr hlav válců, teploměr výstupních plynů, teploměr vnějšího vzduchu, teploměr vzduchu v kabině",
+        "teploměr oleje, teploměr hlav válců, teploměr výstupních plynů, teploměr vzduchu v sání, teploměr vnějšího vzduchu, teploměr vzduchu v kabině",
+        "teploměr oleje, teploměr hlav válců, teploměr výstupních plynů, výškoměr, rychloměr, variometr",
+        "teploměr oleje, teploměr výstupních plynů, teploměr vnějšího vzduchu, teploměr vzduchu v kabině, směrový setrvačník"
+      ],
+      "answer": "teploměr oleje, teploměr chladící kapaliny motoru, teploměr hlav válců, teploměr výstupních plynů, teploměr vnějšího vzduchu, teploměr vzduchu v kabině",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 72,
+      "title": "Množství paliva se v malých letadlech většinou měří pomocí snímače hladiny. Evropské Ce…",
+      "prompt": "Množství paliva se v malých letadlech většinou měří pomocí snímače hladiny. Evropské Certifikační specifikace CS 23 požadují:",
+      "choices": [
+        "aby ukazatel množství paliva byl k dispozici pro každou nádrž, ukazatel musí být kalibrován tak, aby ukazoval nulu při rovném letu, když je množství zbývajícího paliva v nádrži rovné nevyčerpatelnému zbytku",
+        "musí být k dispozici alespoň jeden ukazatel množství paliva ukazující celkové množství paliva na palubě letadla. Tento ukazatel musí být kalibrovaný tak, aby ukazoval správné množství paliva ve všech fázích letu",
+        "pokud pilot nemá za letu k dispozici ukazatel stavu paliva, musí kontrolovat stav paliva před zahájením letu a přepočítávat zbytek paliva na palubě za letu v pravidelných intervalech",
+        "selže-li ukazatel stavu paliva, pilot musí přistát na nejbližším vhodném letišti"
+      ],
+      "answer": "aby ukazatel množství paliva byl k dispozici pro každou nádrž, ukazatel musí být kalibrován tak, aby ukazoval nulu při rovném letu, když je množství zbývajícího paliva v nádrži rovné nevyčerpatelnému zbytku",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 73,
+      "title": "Který z uvedených přístrojů získává údaje měřením tlaku",
+      "prompt": "Který z uvedených přístrojů získává údaje měřením tlaku?",
+      "choices": [
+        "tlakoměr oleje, tlakoměr paliva, ukazatel plnícího tlaku, výškoměr, variometr, rychloměr, ukazatel tlaku sání",
+        "tlakoměr oleje, tlakoměr paliva, palivoměr, ukazatel plnícího tlaku, ukazatel rozdílu tlaku, výškoměr",
+        "rychloměr, variometr, výškoměr, směrový setrvačník, zatáčkoměr, tlakoměr oleje, tlakoměr paliva",
+        "rychloměr, variometr, výškoměr, magnetický kompas, tlakoměr oleje, tlakoměr paliva"
+      ],
+      "answer": "tlakoměr oleje, tlakoměr paliva, ukazatel plnícího tlaku, výškoměr, variometr, rychloměr, ukazatel tlaku sání",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 74,
+      "title": "Pitot - statický systém",
+      "prompt": "Pitot - statický systém:",
+      "choices": [
+        "měří celkový a statický tlak",
+        "brání zamrznutí Pitotovy trubice",
+        "opravuje indikaci rychloměru na nulu, stojí-li letadlo na zemi",
+        "brání možnému nárůstu statického tlaku v letadle"
+      ],
+      "answer": "měří celkový a statický tlak",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 75,
+      "title": "Jaký tlak měří Pitotova trubice",
+      "prompt": "Jaký tlak měří Pitotova trubice?",
+      "choices": [
+        "celkový tlak",
+        "statický tlak",
+        "dynamický tlak",
+        "kabinový tlak"
+      ],
+      "answer": "celkový tlak",
+      "correct_choice_index": 0,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 76,
+      "title": "QFE je",
+      "prompt": "QFE je:",
+      "choices": [
+        "barometrický tlak měřený od hladiny moře s využitím mezinárodní standardní atmosféry",
+        "barometrický tlak měřený od referenčního bodu, typicky od prahu dráhy",
+        "výška nad referenční takovou hladinou 1013.25 hPa",
+        "magnetický směrník ke stanici"
+      ],
+      "answer": "barometrický tlak měřený od referenčního bodu, typicky od prahu dráhy",
+      "correct_choice_index": 1,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 77,
+      "title": "QNE je",
+      "prompt": "QNE je:",
+      "choices": [
+        "barometrický tlak měřený od hladiny moře s využitím mezinárodní standardní atmosféry",
+        "barometrický tlak měřený od referenčního bodu, typicky od prahu dráhy",
+        "výška nad referenční tlakovou hladinou 1013.25 hPa",
+        "magnetický směrník ke stanici"
+      ],
+      "answer": "výška nad referenční tlakovou hladinou 1013.25 hPa",
+      "correct_choice_index": 2,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 78,
+      "title": "Účel pomocné stupnice výškoměru",
+      "prompt": "Co je účelem pomocné stupnice výškoměru?",
+      "choices": [
+        "nastavit výškoměr na stanovenou tlakovou hladinu, např. hladinu moře, úroveň letiště, tlakovou hladinu 1013.25 hPa",
+        "opravit indikaci výškoměru o nestandardní teploty",
+        "opravit indikaci výškoměru o systémové chyby",
+        "nastavit referenční hladinu pro dekodér výšky odpovídače sekundárního radaru"
+      ],
+      "answer": "nastavit výškoměr na stanovenou tlakovou hladinu, např. hladinu moře, úroveň letiště, tlakovou hladinu 1013.25 hPa",
+      "correct_choice_index": 0,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 79,
+      "title": "Jak může nesprávně nastavené QNH na výškoměru vést k nesprávné indikaci výškoměru",
+      "prompt": "Jak může nesprávně nastavené QNH na výškoměru vést k nesprávné indikaci výškoměru?",
+      "choices": [
+        "Je-li nastaven vyšší tlak než správný, indikace je příliš vysoká. To může vést k větší blízkosti země, než bylo zamýšleno",
+        "je-li nastaven nižší tlak než správný, indikace je příliš nízká. To může vést k větší blízkosti země, než bylo zamýšleno",
+        "je-li nastaven vyšší tlak než správný, indikace je příliš nízká. To může vést k mnohem větším výškám letu nad zemí, než bylo zamýšleno",
+        "je-li nastaven nižší tlak než správný, indikace je příliš vysoká. To může vést k mnohem větší blízkosti země, než bylo zamýšleno"
+      ],
+      "answer": "Je-li nastaven vyšší tlak než správný, indikace je příliš vysoká. To může vést k větší blízkosti země, než bylo zamýšleno",
+      "correct_choice_index": 0,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 80,
+      "title": "Teplota nižší než standardní může vést",
+      "prompt": "Teplota nižší než standardní může vést:",
+      "choices": [
+        "k příliš vysoké indikaci výšky",
+        "k příliš nízké indikaci výšky",
+        "ke správné indikaci výšky, je-li sekundární stupnice výškoměru nastavena na správnou nestandardní teplotu",
+        "k zablokování Pitotovy trubice ledem, a to způsobí stále stejnou indikaci výškoměru na stejné hodnotě"
+      ],
+      "answer": "k příliš vysoké indikaci výšky",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 81,
+      "title": "Letová hladina je",
+      "prompt": "Letová hladina je:",
+      "choices": [
+        "tlaková výška",
+        "skutečná výška nad mořem",
+        "hustotní výška nad mořem",
+        "výška nad zemí"
+      ],
+      "answer": "tlaková výška",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 82,
+      "title": "Skutečná výška je",
+      "prompt": "Skutečná výška je:",
+      "choices": [
+        "výška nad střední hladinou moře opravená o nestandardní teplotu",
+        "výška nad zemí opravená o nestandardní teplotu",
+        "výška nad hladinou země opravená o nestandardní teplotu",
+        "tlaková výška opravená o nestandardní teplotu"
+      ],
+      "answer": "výška nad střední hladinou moře opravená o nestandardní teplotu",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 83,
+      "title": "Za letu ve vzduchu chladnějším než je Mezinárodní standardní atmosféra je indikovaná vý…",
+      "prompt": "Za letu ve vzduchu chladnějším než je Mezinárodní standardní atmosféra je indikovaná výška letu:",
+      "choices": [
+        "větší než skutečná",
+        "menší než skutečná",
+        "stejná jako skutečná",
+        "stejná jako standardní výška"
+      ],
+      "answer": "větší než skutečná",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 84,
+      "title": "Za letu ve vzduchu, jehož teplota je stejná jako dle Mezinárodní standardní atmosféry…",
+      "prompt": "Za letu ve vzduchu, jehož teplota je stejná jako dle Mezinárodní standardní atmosféry, a se správně nastaveným QNH, je indikovaná výška:",
+      "choices": [
+        "větší než skutečná",
+        "menší než skutečná",
+        "stejná jako skutečná",
+        "stejná jako standardní atmosféra"
+      ],
+      "answer": "stejná jako skutečná",
+      "correct_choice_index": 2,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 85,
+      "title": "Který přístroj je výrazně ovlivněn hysterezní chybou",
+      "prompt": "Který přístroj je výrazně ovlivněn hysterezní chybou?",
+      "choices": [
+        "variometr",
+        "otáčkoměr",
+        "výškoměr",
+        "kompas s přímým čtením"
+      ],
+      "answer": "výškoměr",
+      "correct_choice_index": 2,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 86,
+      "title": "Měření výšky je založeno na změně",
+      "prompt": "Měření výšky je založeno na změně:",
+      "choices": [
+        "celkového tlaku",
+        "statického tlaku",
+        "dynamického tlaku",
+        "diferenciálního tlaku"
+      ],
+      "answer": "statického tlaku",
+      "correct_choice_index": 1,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 87,
+      "title": "Popisuje princip práce variometru",
+      "prompt": "Která z následujících možností popisuje princip práce variometru?",
+      "choices": [
+        "měření současného statického tlaku a jeho porovnávání se statickým tlakem uvnitř přístroje",
+        "měření celkového tlaku a jeho porovnávání se statickým tlakem",
+        "měření statického tlaku a jeho porovnávání s vakuem",
+        "měření vertikálního zrychlení pomocí přemístění hmoty zavěšené na otočeném závěsu"
+      ],
+      "answer": "měření současného statického tlaku a jeho porovnávání se statickým tlakem uvnitř přístroje",
+      "correct_choice_index": 0,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 88,
+      "title": "Variometr měří rozdíl tlaku mezi",
+      "prompt": "Variometr měří rozdíl tlaku mezi:",
+      "choices": [
+        "současným statickým tlakem a předcházejícím statickým tlakem",
+        "současným dynamickým tlakem a předcházejícím dynamickým tlakem",
+        "současným celkovým tlakem a předcházejícím celkovým tlakem",
+        "současným dynamickým tlakem a předcházejícím statickým tlakem"
+      ],
+      "answer": "současným statickým tlakem a předcházejícím statickým tlakem",
+      "correct_choice_index": 0,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 89,
+      "title": "Kalibrovaná rychlost (CAS) se rovná",
+      "prompt": "Kalibrovaná rychlost (CAS) se rovná:",
+      "choices": [
+        "indikované rychlosti (IAS) opravené o polohovou chybu",
+        "pravé vzdušné rychlosti (TAS) opravené o vítr",
+        "ekvivalentní rychlosti (EAS) opravené o nadmořskou výšku",
+        "traťové rychlosti (GS) opravené o přístrojovou a polohovou chybu"
+      ],
+      "answer": "indikované rychlosti (IAS) opravené o polohovou chybu",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 90,
+      "title": "Ve velkých nadmořských výškách má pravá vzdušná rychlost (TAS) tendenci být vyšší než k…",
+      "prompt": "Ve velkých nadmořských výškách má pravá vzdušná rychlost (TAS) tendenci být vyšší než kalibrovaná rychlost (CAS). Hrubý odhad pravé vzdušné rychlosti (TAS) lze získat:",
+      "choices": [
+        "přidáním 2 % CAS na každých 1000 ft výšky",
+        "odečtením 2 % CAS na každých 1000 ft výšky",
+        "přidáním 10 % CAS na každých 1000 ft výšky",
+        "odečtením 10 % CAS na každých 1000 ft výšky"
+      ],
+      "answer": "přidáním 2 % CAS na každých 1000 ft výšky",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 91,
+      "title": "Letadlo letí při zemi kurzem 180° při teplotě cca 15°C pravou vzdušnou rychlostí 100 kt…",
+      "prompt": "Letadlo letí při zemi kurzem 180° při teplotě cca 15°C pravou vzdušnou rychlostí 100 kt. Vítr vane ze 180° rychlostí 30 kt. Jaká bude přibližná indikovaná rychlost při zanedbání přístrojové a polohové chyby?",
+      "choices": [
+        "100 kt",
+        "70 kt",
+        "130 kt",
+        "30 kt"
+      ],
+      "answer": "100 kt",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 92,
+      "title": "Který z následujících faktorů může způsobit chybnou indikaci rychlosti",
+      "prompt": "Který z následujících faktorů může způsobit chybnou indikaci rychlosti?",
+      "choices": [
+        "kabel uzemnění je stále připojen",
+        "letadlo je pokryto samolepícími fóliemi",
+        "byl zapnut jistič",
+        "je závada na potrubí plnícího vzduchu"
+      ],
+      "answer": "letadlo je pokryto samolepícími fóliemi",
+      "correct_choice_index": 1,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 93,
+      "title": "Co z následujícího popisuje princip práce rychloměru",
+      "prompt": "Co z následujícího popisuje princip práce rychloměru?",
+      "choices": [
+        "je měřen celkový tlak a porovnáván se statickým tlakem",
+        "je měřen statický tlak a porovnáván s vakuem",
+        "Pitotovou trubicí je měřen dynamický tlak a rychloměrem převáděn na indikaci rychlosti",
+        "statickými snímači je měřen celkový tlak a výškoměrem převáděn na indikaci rychlosti"
+      ],
+      "answer": "je měřen celkový tlak a porovnáván se statickým tlakem",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 94,
+      "title": "Jaké hodnoty jsou obvykle na přístrojích vyznačeny červenou barvou",
+      "prompt": "Jaké hodnoty jsou obvykle na přístrojích vyznačeny červenou barvou?",
+      "choices": [
+        "provozní omezení",
+        "provozní oblasti",
+        "oblasti varování",
+        "doporučené oblasti"
+      ],
+      "answer": "provozní omezení",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 95,
+      "title": "Podle čeho ukazuje rychloměr rychlost",
+      "prompt": "Podle čeho ukazuje rychloměr rychlost?",
+      "choices": [
+        "rozdíl mezi celkovým a statickým tlakem",
+        "rozdíl mezi dynamickým a statickým tlakem",
+        "rozdíl mezi celkovým a dynamickým tlakem",
+        "rozdíl mezi standardním a celkovým tlakem"
+      ],
+      "answer": "rozdíl mezi celkovým a statickým tlakem",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 96,
+      "title": "Bílý oblouk na rychloměru",
+      "prompt": "Co znamená bílý oblouk na rychloměru?",
+      "choices": [
+        "rozsah rychlostí s vysunutými vztlakovými klapkami",
+        "rozsah rychlostí v klidném vzduchu",
+        "rozsah rychlostí v turbulenci",
+        "rozsah rychlostí, které nesmějí být překročeny"
+      ],
+      "answer": "rozsah rychlostí s vysunutými vztlakovými klapkami",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 97,
+      "title": "Červená čára na rychloměru",
+      "prompt": "Co znamená červená čára na rychloměru?",
+      "choices": [
+        "rychlost, která nesmí být překročena za žádných okolností",
+        "rychlost, která nesmí být překročena v turbulentním vzduchu",
+        "rychlost, která nesmí být překročena s vysunutými vztlakovými klapkami",
+        "rychlost, která nesmí být překročena v zatáčkách s náklonem větším než 45°"
+      ],
+      "answer": "rychlost, která nesmí být překročena za žádných okolností",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 98,
+      "title": "Chyba kompasu způsobená magnetickým polem letadla se nazývá",
+      "prompt": "Chyba kompasu způsobená magnetickým polem letadla se nazývá:",
+      "choices": [
+        "deviace",
+        "deklinace",
+        "variace",
+        "inklinace"
+      ],
+      "answer": "deviace",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 99,
+      "title": "Jaká chyba způsobuje, že se indikace magnetického kompasu liší od směru k magnetickému…",
+      "prompt": "Jaká chyba způsobuje, že se indikace magnetického kompasu liší od směru k magnetickému severu?",
+      "choices": [
+        "deviace, zatáčky a chyby při akceleraci letadla",
+        "inklinace a deklinace zemského magnetického pole",
+        "variace, zatáčky a chyby při akceleraci letadla",
+        "gravitace a magnetismus"
+      ],
+      "answer": "deviace, zatáčky a chyby při akceleraci letadla",
+      "correct_choice_index": 0,
+      "source_document_page": 21,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 100,
+      "title": "Který z přístrojů je připojen k Pitotově trubici",
+      "prompt": "Který z přístrojů je připojen k Pitotově trubici?",
+      "choices": [
+        "rychloměr",
+        "výškoměr",
+        "kompas s přímým čtením",
+        "variometr"
+      ],
+      "answer": "rychloměr",
+      "correct_choice_index": 0,
+      "source_document_page": 21,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 101,
+      "title": "Které palubní přístroje jsou připojeny ke snímači statického tlaku",
+      "prompt": "Které palubní přístroje jsou připojeny ke snímači statického tlaku?",
+      "choices": [
+        "výškoměr, variometr, rychloměr",
+        "rychloměr, výškoměr, kompas s přímým čtením",
+        "rychloměr, kompas s přímým čtením, skluzoměr",
+        "výškoměr, skluzoměr, navigační počítač"
+      ],
+      "answer": "výškoměr, variometr, rychloměr",
+      "correct_choice_index": 0,
+      "source_document_page": 21,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 102,
+      "title": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 270° na kurz 360°. Při při…",
+      "prompt": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 270° na kurz 360°. Při přibližně jaké indikaci kurzu je třeba zatáčku zastavit?",
+      "choices": [
+        "330°",
+        "030°",
+        "360°",
+        "270°"
+      ],
+      "answer": "330°",
+      "correct_choice_index": 0,
+      "source_document_page": 21,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 103,
+      "title": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 360°na kurz 270°. Na přibl…",
+      "prompt": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 360°na kurz 270°. Na přibližně jakém kurzu je třeba zatáčku zastavit?",
+      "choices": [
+        "270°",
+        "240°",
+        "360°",
+        "300°"
+      ],
+      "answer": "270°",
+      "correct_choice_index": 0,
+      "source_document_page": 21,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 104,
+      "title": "Pojem statický tlak je definován jako",
+      "prompt": "Pojem statický tlak je definován jako:",
+      "choices": [
+        "tlak nerozrušeného proudu vzduchu",
+        "tlak uvnitř kabiny letadla",
+        "tlak způsobený prouděním vzduchových částic",
+        "tlak měřený Pitotovou trubicí"
+      ],
+      "answer": "tlak nerozrušeného proudu vzduchu",
+      "correct_choice_index": 0,
+      "source_document_page": 22,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 105,
+      "title": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 030° na kurz 180°. Na přib…",
+      "prompt": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 030° na kurz 180°. Na přibližně jakém kurzu je třeba zatáčku zastavit?",
+      "choices": [
+        "210°",
+        "150°",
+        "360°",
+        "180°"
+      ],
+      "answer": "210°",
+      "correct_choice_index": 0,
+      "source_document_page": 22,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 106,
+      "title": "Na čem přímo závisí dynamický tlak",
+      "prompt": "Na čem přímo závisí dynamický tlak?",
+      "choices": [
+        "na hustotě vzduchu a čtverci rychlosti proudu vzduchu",
+        "na tlaku a teplotě",
+        "na součiniteli vztlaku a odporu",
+        "na hustotě vzduchu a součiniteli vztlaku"
+      ],
+      "answer": "na hustotě vzduchu a čtverci rychlosti proudu vzduchu",
+      "correct_choice_index": 0,
+      "source_document_page": 22,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 107,
+      "title": "Co je příčinou decelerační a akcelerační chyby kompasu s přímým čtením",
+      "prompt": "Co je příčinou decelerační a akcelerační chyby kompasu s přímým čtením?",
+      "choices": [
+        "inklinace siločar zemského magnetického pole",
+        "deviace v pilotní kabině",
+        "změny teploty",
+        "deklinace"
+      ],
+      "answer": "inklinace siločar zemského magnetického pole",
+      "correct_choice_index": 0,
+      "source_document_page": 22,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 108,
+      "title": "Jak reaguje rotující setrvačník v prostoru",
+      "prompt": "Jak reaguje rotující setrvačník v prostoru?",
+      "choices": [
+        "má tendenci udržet svou polohu v prostoru",
+        "kývá se od východu na západ jako kyvadlo",
+        "pohybuje se v kruzích se stále rostoucím poloměrem",
+        "pohybuje se podle tělesa, které ho obklopuje"
+      ],
+      "answer": "má tendenci udržet svou polohu v prostoru",
+      "correct_choice_index": 0,
+      "source_document_page": 22,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 109,
+      "title": "Setrvačník rotující v prostoru odpovídá na sílu vyvolanou precesním pohybem letadla",
+      "prompt": "Setrvačník rotující v prostoru odpovídá na sílu vyvolanou precesním pohybem letadla:",
+      "choices": [
+        "pod úhlem 90° na sílu od precesního pohybu",
+        "pod úhlem 180° na sílu od precesního pohybu",
+        "pod úhlem 45° na sílu od precesního pohybu",
+        "v severním směru"
+      ],
+      "answer": "pod úhlem 90° na sílu od precesního pohybu",
+      "correct_choice_index": 0,
+      "source_document_page": 23,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 110,
+      "title": "Náklon zatáčky o 360° trvající 2 minuty závisí na",
+      "prompt": "Náklon zatáčky o 360° trvající 2 minuty závisí na:",
+      "choices": [
+        "indikované rychlosti",
+        "kalibrované rychlosti",
+        "pravé vzdušné rychlosti",
+        "traťové rychlosti"
+      ],
+      "answer": "pravé vzdušné rychlosti",
+      "correct_choice_index": 2,
+      "source_document_page": 23,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 111,
+      "title": "Zatáčkoměr se skluzoměrem poskytují informaci o",
+      "prompt": "Zatáčkoměr se skluzoměrem poskytují informaci o:",
+      "choices": [
+        "úhlové rychlosti zatáčení a skluzu nebo výkluzu",
+        "úhlové rychlosti zatáčení a náklonu",
+        "koordinaci zatáčky a úhlu skluzu",
+        "úhlu podélného sklonu a náklonu"
+      ],
+      "answer": "úhlové rychlosti zatáčení a skluzu nebo výkluzu",
+      "correct_choice_index": 0,
+      "source_document_page": 23,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 112,
+      "title": "Rychloměr neukazuje. Letoun smí být provozován jen",
+      "prompt": "Rychloměr neukazuje. Letoun smí být provozován jen:",
+      "choices": [
+        "je-li rychloměr znovu plně funkční",
+        "pro lety po okruhu letiště",
+        "není-li v dosahu organizace údržby letadel",
+        "lze-li za letu použít GPS s indikací rychlosti"
+      ],
+      "answer": "je-li rychloměr znovu plně funkční",
+      "correct_choice_index": 0,
+      "source_document_page": 23,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 113,
+      "title": "Která barva na table nebo přístroji sděluje pilotovi, že asi bude třeba provést opravno…",
+      "prompt": "Která barva na table nebo přístroji sděluje pilotovi, že asi bude třeba provést opravnou akci?",
+      "choices": [
+        "červená",
+        "oranžová",
+        "modrá",
+        "zelená"
+      ],
+      "answer": "oranžová",
+      "correct_choice_index": 1,
+      "source_document_page": 23,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 114,
+      "title": "Jakou barvou je na rychloměru vyznačena oblast zvýšené pozornosti",
+      "prompt": "Jakou barvou je na rychloměru vyznačena oblast zvýšené pozornosti?",
+      "choices": [
+        "žlutou",
+        "červenou",
+        "bílou",
+        "zelenou"
+      ],
+      "answer": "žlutou",
+      "correct_choice_index": 0,
+      "source_document_page": 24,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 115,
+      "title": "Polohový směrový indikátor (ADI) kombinuje informace poskytované",
+      "prompt": "Polohový směrový indikátor (ADI) kombinuje informace poskytované:",
+      "choices": [
+        "umělým horizontem, směrovým indikátorem a zatáčkoměrem",
+        "směrovým setrvačníkem a rychlostním setrvačníkem",
+        "ukazatelem polohy a ukazatelem relativních směrníků",
+        "ukazatelem polohy a radiomagnetickým indikátorem"
+      ],
+      "answer": "umělým horizontem, směrovým indikátorem a zatáčkoměrem",
+      "correct_choice_index": 0,
+      "source_document_page": 24,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 116,
+      "title": "Co znamená zkratka HSI",
+      "prompt": "Co znamená zkratka HSI?",
+      "choices": [
+        "indikátor horizontální situace",
+        "indikátor horizontálního skluzu",
+        "systém hibernační indikace",
+        "nebezpečná prudká inklinace"
+      ],
+      "answer": "indikátor horizontální situace",
+      "correct_choice_index": 0,
+      "source_document_page": 24,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 117,
+      "title": "Indikátor horizontální situace (HSI) kombinuje informace z",
+      "prompt": "Indikátor horizontální situace (HSI) kombinuje informace z:",
+      "choices": [
+        "směrového gyrokompasu a radionavigačního přijímače VHF",
+        "indikátoru polohy a povelového ukazatele",
+        "směrového gyrokompasu a skluzoměru",
+        "směrového gyrokompasu a povelového ukazatele"
+      ],
+      "answer": "směrového gyrokompasu a radionavigačního přijímače VHF",
+      "correct_choice_index": 0,
+      "source_document_page": 24,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 118,
+      "title": "Jaký rozdíl výšek ukáže výškoměr, je-li nastavení tlaku změněno z 1000 hPa na 1010 hPa",
+      "prompt": "Jaký rozdíl výšek ukáže výškoměr, je-li nastavení tlaku změněno z 1000 hPa na 1010 hPa?",
+      "choices": [
+        "o 80 m více",
+        "hodnoty závisí na QNH",
+        "nulu",
+        "o 80 m méně"
+      ],
+      "answer": "o 80 m více",
+      "correct_choice_index": 0,
+      "source_document_page": 24,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 119,
+      "title": "Kdy je třeba nastavit tlak na výškoměru",
+      "prompt": "Kdy je třeba nastavit tlak na výškoměru?",
+      "choices": [
+        "před každým letem a při navigačním letu",
+        "před prvním letem toho dne",
+        "jednou za měsíc před letovým provozem",
+        "poté, co byla dokončena údržba"
+      ],
+      "answer": "před každým letem a při navigačním letu",
+      "correct_choice_index": 0,
+      "source_document_page": 25,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 120,
+      "title": "Výškoměr je nastaven na letištní tlak (QFE). Co ukazuje za letu",
+      "prompt": "Výškoměr je nastaven na letištní tlak (QFE). Co ukazuje za letu?",
+      "choices": [
+        "výšku nad letištěm",
+        "nadmořskou výšku letiště",
+        "tlakovou výšku",
+        "výšku nad střední hladinou moře"
+      ],
+      "answer": "výšku nad letištěm",
+      "correct_choice_index": 0,
+      "source_document_page": 25,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 121,
+      "title": "Variometr připojený na příliš velkou vyrovnávací nádobu ukazuje",
+      "prompt": "Variometr připojený na příliš velkou vyrovnávací nádobu ukazuje:",
+      "choices": [
+        "větší hodnoty než skutečné",
+        "neukazuje nic",
+        "je mechanicky přetížen",
+        "menší hodnoty než skutečné"
+      ],
+      "answer": "větší hodnoty než skutečné",
+      "correct_choice_index": 0,
+      "source_document_page": 25,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 122,
+      "title": "Variometr měří rozdíl mezi",
+      "prompt": "Variometr měří rozdíl mezi:",
+      "choices": [
+        "celkovým a statickým tlakem",
+        "dynamickým a celkovým tlakem",
+        "okamžitým celkovým a předcházejícím celkovým tlakem",
+        "okamžitým statickým a předcházejícím statickým tlakem"
+      ],
+      "answer": "okamžitým statickým a předcházejícím statickým tlakem",
+      "correct_choice_index": 3,
+      "source_document_page": 25,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 123,
+      "title": "Pojem inklinace znamená",
+      "prompt": "Pojem inklinace znamená:",
+      "choices": [
+        "úhel mezi siločárami zemského magnetického pole a horizontální rovinou",
+        "úhel mezi podélnou osou letadla a zeměpisným severem",
+        "deviaci indukovanou elektrickým polem",
+        "úhel mezi magnetickým a zeměpisným severem"
+      ],
+      "answer": "úhel mezi siločárami zemského magnetického pole a horizontální rovinou",
+      "correct_choice_index": 0,
+      "source_document_page": 25,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 124,
+      "title": "Co ukazuje relativní sklonoměr",
+      "prompt": "Co ukazuje relativní sklonoměr?",
+      "choices": [
+        "relativní vertikálu",
+        "vertikálu vzhledem k zemskému horizontu",
+        "náklon letadla",
+        "úhlovou rychlost zatáčení"
+      ],
+      "answer": "relativní vertikálu",
+      "correct_choice_index": 0,
+      "source_document_page": 26,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 125,
+      "title": "Kulička relativního sklonoměru je v pravé zatáčce vychýlena vpravo. Jak ji lze přivést…",
+      "prompt": "Kulička relativního sklonoměru je v pravé zatáčce vychýlena vpravo. Jak ji lze přivést do neutrálu?",
+      "choices": [
+        "zmenšit náklon, zvětšit úhlovou rychlost zatáčení",
+        "zvětšit náklon, zvětšit úhlovou rychlost zatáčení",
+        "snížit rychlost, zvětšit náklon",
+        "zmenšit úhlovou rychlost zatáčení, zmenšit náklon"
+      ],
+      "answer": "zmenšit náklon, zvětšit úhlovou rychlost zatáčení",
+      "correct_choice_index": 0,
+      "source_document_page": 26,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 126,
+      "title": "Účel vingletů",
+      "prompt": "Co je účelem vingletů?",
+      "choices": [
+        "snížení indukovaného odporu",
+        "zvýšení vztlaku a zlepšení manévrovatelnosti v zatáčkách",
+        "zvýšení klouzavosti při vysokých rychlostech",
+        "snížení účinku štíhlosti křídla"
+      ],
+      "answer": "snížení indukovaného odporu",
+      "correct_choice_index": 0,
+      "source_document_page": 26,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 127,
+      "title": "Jaké motory se většinou požívají v turistických motorových kluzácích (TMG)",
+      "prompt": "Jaké motory se většinou požívají v turistických motorových kluzácích (TMG)?",
+      "choices": [
+        "čtyřválcové čtyřtakty",
+        "čtyřválcové dvoutakty",
+        "dvouválcové diesely",
+        "dvoukomorové wankely"
+      ],
+      "answer": "čtyřválcové čtyřtakty",
+      "correct_choice_index": 0,
+      "source_document_page": 26,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 128,
+      "title": "Účel motorového oleje v pístovém motoru",
+      "prompt": "Co je účelem motorového oleje v pístovém motoru?",
+      "choices": [
+        "chlazení a mazání motoru a ukládání jemných otěrů",
+        "chlazení a mazání motoru a zvýšení výkonu motoru",
+        "chlazení motoru a mazání vrtulového hřídele",
+        "zmenšení a opora vrtulového hřídele"
+      ],
+      "answer": "chlazení a mazání motoru a ukládání jemných otěrů",
+      "correct_choice_index": 0,
+      "source_document_page": 26,
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

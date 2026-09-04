@@ -17,5 +17,6 @@ done < <(find . -type f -name '*.php' -not -path './cache/*' -print0 | sort -z)
 
 php scripts/validate_question_bank.php
 python3 -m py_compile scripts/build_question_bank.py
+python3 -m py_compile scripts/apply_curation.py
 
 echo "All fast checks passed."

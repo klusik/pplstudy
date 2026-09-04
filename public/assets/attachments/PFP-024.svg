@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" role="img" aria-labelledby="t d">
+  <title id="t">PFP-024 NOTAM s vertikálním omezením</title>
+  <desc id="d">Studijní podklad PFP-024.</desc>
+  <rect width="1000" height="470" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="410" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NOTAM s vertikálním omezením</text>
+<rect x="50" y="115" width="450" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="275.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Prvek NOTAM</text>
+<rect x="500" y="115" width="450" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="725.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Hodnota</text>
+<rect x="50" y="165" width="450" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="275.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Spodní hranice</text>
+<rect x="500" y="165" width="450" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="725.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">GND</text>
+<rect x="50" y="223" width="450" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="275.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Horní hranice</text>
+<rect x="500" y="223" width="450" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="725.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">9500 ft MSL</text>
+<rect x="50" y="281" width="450" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="275.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Čas</text>
+<rect x="500" y="281" width="450" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="725.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">dle platnosti NOTAM</text>
+<text x="60" y="381" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Výškovou referenci MSL čti společně s hodnotou 9500 ft.</text>
+  <text x="500.0" y="448" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

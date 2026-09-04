@@ -26,6 +26,8 @@ use function PplStudy\Services\admin_question_page;
 use function PplStudy\Services\question_by_sequence;
 use function PplStudy\Services\subject_by_id;
 use function PplStudy\Services\subjects_all;
+use function PplStudy\Services\source_manifest_entry;
+use function PplStudy\Services\source_documents_all;
 use function PplStudy\Services\update_question;
 use function PplStudy\Views\render_admin_question_edit;
 use function PplStudy\Views\render_admin_questions;
@@ -86,6 +88,35 @@ function admin_question_edit(): void
             if (count(array_filter($choices, static fn (string $choice): bool => $choice === $answer)) !== 1) {
                 throw new RuntimeException('Správná odpověď musí být přesně jednou ze čtyř možností.');
             }
+            $sourceDocumentKey = trim((string) ($_POST['source_document_key'] ?? ''));
+            if ($sourceDocumentKey !== '' && !source_manifest_entry($sourceDocumentKey)) {
+                throw new RuntimeException('Vybraný zdrojový dokument není v manifestu.');
+            }
+            $curationStatus = (string) ($_POST['curation_status'] ?? 'draft');
+            $wordingStatus = (string) ($_POST['wording_status'] ?? 'study_wording');
+            if (!in_array($curationStatus, ['draft', 'explained', 'verified'], true)) {
+                throw new RuntimeException('Neplatný stav zpracování otázky.');
+            }
+            if (!in_array($wordingStatus, ['study_wording', 'source_exact'], true)) {
+                throw new RuntimeException('Neplatný stav zdrojového znění.');
+            }
+            if ($curationStatus === 'verified' && $wordingStatus !== 'source_exact') {
+                throw new RuntimeException('Stav Ověřeno vyžaduje přesné zdrojové znění.');
+            }
+
+            $explanationSections = [];
+            foreach ([
+                ['heading' => 'Princip', 'field' => 'section_principle'],
+                ['heading' => 'Jak si to zapamatovat', 'field' => 'section_memory'],
+                ['heading' => 'Provozní souvislost', 'field' => 'section_practical'],
+                ['heading' => 'Doplňující vysvětlení', 'field' => 'section_extra'],
+            ] as $sectionDefinition) {
+                $body = trim((string) ($_POST[$sectionDefinition['field']] ?? ''));
+                if ($body !== '') {
+                    $explanationSections[] = ['heading' => $sectionDefinition['heading'], 'body' => $body];
+                }
+            }
+
             update_question($sequence, [
                 'subject_id' => $subjectId,
                 'title' => (string) ($_POST['title'] ?? ''),
@@ -97,6 +128,12 @@ function admin_question_edit(): void
                 'warning' => (string) ($_POST['warning'] ?? ''),
                 'attachment_code' => (string) ($_POST['attachment_code'] ?? ''),
                 'attachment_url' => (string) ($_POST['attachment_url'] ?? ''),
+                'curation_status' => $curationStatus,
+                'wording_status' => $wordingStatus,
+                'explanation_sections' => $explanationSections,
+                'source_document_key' => $sourceDocumentKey,
+                'source_document_page' => (int) ($_POST['source_document_page'] ?? 0),
+                'source_verified_at' => (string) ($question['source_verified_at'] ?? ''),
                 'active' => isset($_POST['active']),
             ]);
             admin_log('question.update', 'Updated study card #' . $sequence . '.', ['sequence_no' => $sequence]);
@@ -106,5 +143,5 @@ function admin_question_edit(): void
             $error = $exception->getMessage();
         }
     }
-    render_admin_question_edit($question, subjects_all(true), $message, $error);
+    render_admin_question_edit($question, subjects_all(true), source_documents_all(), $message, $error);
 }

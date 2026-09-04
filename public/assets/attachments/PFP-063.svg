@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
+  <title id="t">PFP-063 spot elevation</title>
+  <desc id="d">Čtyři studijní symboly A až D; C zobrazuje bod s číselnou nadmořskou výškou.</desc>
+  <rect width="1000" height="500" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="440" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Nadmořská výška bodu</text>
+<text x="180" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">A</text>
+<text x="390" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">B</text>
+<text x="600" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">C</text>
+<text x="810" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">D</text>
+<circle cx="180" cy="285" r="13" fill="#17384f"/>
+<text x="180" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="40" font-weight="700" fill="#17384f">▲</text>
+<line x1="350" y1="285" x2="430" y2="285" stroke="#17384f" stroke-width="5"/>
+<circle cx="600" cy="285" r="6" fill="#17384f"/>
+<text x="625" y="294" text-anchor="start" font-family="system-ui,sans-serif" font-size="26" font-weight="700" fill="#17384f">1850</text>
+<rect x="770" y="250" width="80" height="70" fill="none" stroke="#17384f" stroke-width="4"/>
+  <text x="500.0" y="478" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

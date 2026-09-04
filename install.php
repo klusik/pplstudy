@@ -14,7 +14,7 @@
  *   - Test an existing MySQL/MariaDB database created by the hosting provider
  *   - Write config.php only after all required values have been validated
  *   - Run the same migration contract used by the application
- *   - Import and validate all 880 bundled study cards transactionally
+ *   - Import and validate the complete bundled question bank transactionally
  *   - Create the first administrator and installation lock
  *
  * Author: Rudolf Klusal
@@ -122,8 +122,8 @@ function installer_save_settings(PDO $pdo, string $siteName): void
     $values = [
         'site_name' => $siteName,
         'site_subtitle' => 'Dynamický studijní systém pro teoretickou zkoušku PPL(A)',
-        'home_intro' => 'Studuj 880 karet z devíti předmětů, procvičuj náhodné otázky a spusť paper drill se stejným počtem otázek a časem jako v přehledu zkoušky.',
-        'source_disclaimer' => 'Studijní formulace vycházejí z kompilátu veřejné části databáze ÚCL. Pro skutečný provoz mají přednost aktuální předpisy, AIP, NOTAM, AFM/POH a instrukce ATS.',
+        'home_intro' => 'Studuj aktuální banku otázek z devíti předmětů, procvičuj náhodné otázky a spusť paper drill se stejným počtem otázek a časem jako v přehledu zkoušky.',
+        'source_disclaimer' => 'První předmět používá přesné znění a možnosti z dodaného oficiálního PDF ÚCL; další předměty se převádějí stejným postupem. Pro skutečný provoz mají přednost aktuální předpisy, AIP, NOTAM, AFM/POH a instrukce ATS.',
         'default_drill_count' => '20',
     ];
     $stmt = $pdo->prepare('INSERT INTO app_settings (setting_key, setting_value, updated_at) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE setting_value = VALUES(setting_value), updated_at = VALUES(updated_at)');
@@ -142,6 +142,7 @@ function installer_checks(string $root): array
         ['mbstring', extension_loaded('mbstring'), extension_loaded('mbstring') ? 'loaded' : 'missing'],
         ['Project root writable', is_writable($root), is_writable($root) ? 'writable' : 'write access required'],
         ['cache/ writable or creatable', is_dir($root . '/cache') ? is_writable($root . '/cache') : is_writable($root), is_dir($root . '/cache') ? $root . '/cache' : 'will be created'],
+        ['data/source-documents writable or creatable', is_dir($root . '/data/source-documents') ? is_writable($root . '/data/source-documents') : is_writable($root . '/data'), is_dir($root . '/data/source-documents') ? $root . '/data/source-documents' : 'will be created'],
         ['Bundled question bank', is_file($root . '/data/question-bank.json'), is_file($root . '/data/question-bank.json') ? 'present' : 'missing'],
     ];
 }
@@ -227,6 +228,13 @@ try {
             if (!hash_equals($adminPassword, $adminPasswordAgain)) {
                 throw new RuntimeException('Enter the same administrator password in both fields.');
             }
+            if (!is_dir($root . '/data/source-documents') && !mkdir($root . '/data/source-documents', 0775, true)) {
+                throw new RuntimeException('Creating data/source-documents failed.');
+            }
+            if (!is_writable($root . '/data/source-documents')) {
+                throw new RuntimeException('PHP requires write access to data/source-documents.');
+            }
+
             if (!is_dir($root . '/cache') && !mkdir($root . '/cache', 0775, true)) {
                 throw new RuntimeException('Creating the cache directory failed.');
             }

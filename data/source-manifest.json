@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "source_key": "subject-01-official-questions",
+      "subject_id": 1,
+      "title": "Právní předpisy v oblasti letectví – letoun",
+      "version_label": "1.0, 29.12.2020",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/1-Letecky-zakon-a-postupy-ATC-letoun.pdf?cb=ea1e3325ff27d2215bca6884278bf74b",
+      "expected_local_filename": "01-pravni-predpisy-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "96a314e72dd3cc4bf3feef44db9beaa9949ccc9fa97204a02eff85dfa362a788"
+    },
+    {
+      "source_key": "subject-02-official-questions",
+      "subject_id": 2,
+      "title": "Lidská výkonnost – letoun",
+      "version_label": "1.2, 31.03.2022",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2022/03/2.-Lidska-vykonnost-letoun.pdf?cb=8004da996035ab6c78e0e1ef237788f3",
+      "expected_local_filename": "02-lidska-vykonnost-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "61096d4f69412a0e6d552f911abe9eab8eb0ee88a047fe3ba0fca01a71fbe983"
+    },
+    {
+      "source_key": "subject-03-official-questions",
+      "subject_id": 3,
+      "title": "Meteorologie – letoun",
+      "version_label": "1.1, 29.12.2020",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/3-Meteorologie-letoun.pdf?cb=2b5a86fb57a52d34dfa3c47c42b8bb43",
+      "expected_local_filename": "03-meteorologie-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "d67b13776267656347d813bb8ab7c0a244f0e20f8389193d9e178d9f632d74e2"
+    },
+    {
+      "source_key": "subject-04-official-questions",
+      "subject_id": 4,
+      "title": "Komunikace – letoun",
+      "version_label": "1.1, 12.08.2025",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2025/08/Komunikace.pdf?cb=a8691b6532de1f990e13dad4dad5d560",
+      "expected_local_filename": "04-komunikace-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "cda0b7d7698ad0e8423df9e043f6183ed37493367fc4371eb2ee265398a73eab"
+    },
+    {
+      "source_key": "subject-05-official-questions",
+      "subject_id": 5,
+      "title": "Letové zásady – letoun",
+      "version_label": "1.3, 12.08.2025",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2025/08/Letove-zasady-letoun.pdf?cb=8e382d9b5e55cd7ab72d0ca26a29cf64",
+      "expected_local_filename": "05-letove-zasady-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "50839b3a314b8627ddd19035bb3b15b29284c0c1ad7e04cd7aa55ded7ab33967"
+    },
+    {
+      "source_key": "subject-06-official-questions",
+      "subject_id": 6,
+      "title": "Provozní postupy – letoun",
+      "version_label": "1.0, 10.12.2020",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/6-Provozni-postupy-letoun.pdf?cb=8945842cf7af6df95d22f17d2741fc1b",
+      "expected_local_filename": "06-provozni-postupy-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "c797b4f5bdde387eeb6778cab4d3dfa76a880ed45263439d92150f268b066f92"
+    },
+    {
+      "source_key": "subject-07-official-questions",
+      "subject_id": 7,
+      "title": "Provedení a plánování letu – letoun",
+      "version_label": "1.2, 30.12.2021",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2021/12/7-Vykonnost-a-planovani-letu-letoun.pdf?cb=8dbfad5e25b1d482456469ec1d7ab7ff",
+      "expected_local_filename": "07-provedeni-planovani-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "3ee4983cf47c4e523f210f2f25fefe24498cf937b7fb4975170c9622de410328"
+    },
+    {
+      "source_key": "subject-08-official-questions",
+      "subject_id": 8,
+      "title": "Obecné znalosti o letadle – letoun",
+      "version_label": "1.0, 30.12.2020",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/8-Obecne-znalosti-o-letadle-letoun.pdf?cb=a7604a369f40cfa069c881dae17f1c4c",
+      "expected_local_filename": "08-obecne-znalosti-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "b6568f896329e648ffc8f5b088a48b3cdf0844de6d869539350800112821a1ea"
+    },
+    {
+      "source_key": "subject-09-official-questions",
+      "subject_id": 9,
+      "title": "Navigace – letoun",
+      "version_label": "1.0, 09.12.2020",
+      "publisher": "Úřad pro civilní letectví ČR / source question owner as stated by publisher",
+      "official_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/9-Navigace-letoun.pdf?cb=2b3055b703982d7ca1a4589ff4e1b0fa",
+      "expected_local_filename": "09-navigace-official.pdf",
+      "bundled_source": true,
+      "bundled_sha256": "5af74659033b6e40994a6cb61bcac89d0d79ba13d181ed64209582cd79f28443"
+    }
+  ]
+}

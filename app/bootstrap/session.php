@@ -14,7 +14,7 @@
  *
  * Notes:
  *   - Browser-local study progress remains separate from account identity.
- *   - Existing 0.2.x admin_session_name configuration stays compatible.
+ *   - Legacy admin_session_name configuration stays compatible.
  *   - Keep comments and docstrings intact when modifying this file.
  */
 

@@ -26,8 +26,8 @@ function app_setting_defaults(): array
     return [
         'site_name' => 'PPL(A) Study',
         'site_subtitle' => 'Dynamický studijní systém pro teoretickou zkoušku PPL(A)',
-        'home_intro' => 'Studuj 880 karet z devíti předmětů, procvičuj náhodné otázky a spusť paper drill se stejným počtem otázek a časem jako v přehledu zkoušky.',
-        'source_disclaimer' => 'Studijní formulace vycházejí z kompilátu veřejné části databáze ÚCL. Pro skutečný provoz mají přednost aktuální předpisy, AIP, NOTAM, AFM/POH a instrukce ATS.',
+        'home_intro' => 'Studuj aktuální banku otázek z devíti předmětů, procvičuj náhodné otázky a spusť paper drill se stejným počtem otázek a časem jako v přehledu zkoušky.',
+        'source_disclaimer' => 'První předmět používá přesné znění a možnosti z dodaného oficiálního PDF ÚCL; další předměty se převádějí stejným postupem. Pro skutečný provoz mají přednost aktuální předpisy, AIP, NOTAM, AFM/POH a instrukce ATS.',
         'default_drill_count' => '20',
     ];
 }
