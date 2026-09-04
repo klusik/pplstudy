@@ -6,8 +6,8 @@
  * Module Type: View Module
  *
  * Purpose:
- *   Renders administrator dashboard, user management, question editor, importer,
- *   settings, and System Health pages.
+ *   Renders administrator dashboard, user management, question editor, source
+ *   documents, importer, settings, and System Health pages.
  *
  * Author: Rudolf Klusal
  * License: MIT License for application code. See LICENSE.
@@ -57,6 +57,7 @@ function render_admin_header(string $title, string $active = ''): void
 <a class="<?= $active === 'dashboard' ? 'active' : '' ?>" href="<?= e(study_url('/admin')) ?>">Dashboard</a>
 <a class="<?= $active === 'users' ? 'active' : '' ?>" href="<?= e(study_url('/admin/users')) ?>">Uživatelé</a>
 <a class="<?= $active === 'questions' ? 'active' : '' ?>" href="<?= e(study_url('/admin/questions')) ?>">Otázky</a>
+<a class="<?= $active === 'sources' ? 'active' : '' ?>" href="<?= e(study_url('/admin/sources')) ?>">Zdroje</a>
 <a class="<?= $active === 'import' ? 'active' : '' ?>" href="<?= e(study_url('/admin/import')) ?>">Import</a>
 <a class="<?= $active === 'settings' ? 'active' : '' ?>" href="<?= e(study_url('/admin/settings')) ?>">Nastavení</a>
 <a class="<?= $active === 'diagnostics' ? 'active' : '' ?>" href="<?= e(study_url('/admin/diagnostics')) ?>">System Health</a>
@@ -81,6 +82,22 @@ function render_flash(string $message, string $type = 'success'): void
     }
 }
 
+/** Return a short Czech label for one curation state. */
+function curation_status_label(string $status): string
+{
+    return match ($status) {
+        'verified' => 'ověřeno',
+        'explained' => 'vysvětlení hotovo',
+        default => 'čeká na zpracování',
+    };
+}
+
+/** Return a short Czech label for one wording-fidelity state. */
+function wording_status_label(string $status): string
+{
+    return $status === 'source_exact' ? 'zdrojové znění' : 'studijní znění';
+}
+
 /** Render the admin dashboard. */
 function render_admin_dashboard(array $summary, array $userSummary, array $subjects, array $logs, array $bankMeta): void
 {
@@ -91,7 +108,9 @@ function render_admin_dashboard(array $summary, array $userSummary, array $subje
     <div class="metric"><span>Aktivní karty</span><strong><?= (int) $summary['active_questions'] ?></strong></div>
     <div class="metric"><span>Předměty</span><strong><?= (int) $summary['active_subjects'] ?></strong></div>
     <div class="metric"><span>Přílohové reference</span><strong><?= (int) $summary['attachments'] ?></strong></div>
-    <div class="metric"><span>Sloučené karty</span><strong><?= (int) $summary['merged_cards'] ?></strong></div>
+    <div class="metric"><span>Vysvětlení hotovo</span><strong><?= (int) ($summary['explained_questions'] ?? 0) ?></strong></div>
+    <div class="metric"><span>Zdrojově ověřeno</span><strong><?= (int) ($summary['verified_questions'] ?? 0) ?></strong></div>
+    <div class="metric"><span>Zdrojové znění</span><strong><?= (int) ($summary['source_exact_questions'] ?? 0) ?></strong></div>
     <div class="metric"><span>Aktivní uživatelé</span><strong><?= (int) ($userSummary['active'] ?? 0) ?></strong></div>
 </div>
 <div class="admin-grid two">
@@ -213,8 +232,18 @@ function render_admin_questions(array $subjects, array $pageData, string $query,
     ?>
 <div class="admin-title"><div><span class="eyebrow">Question bank</span><h1>Otázky</h1></div><strong><?= (int) $pageData['total'] ?> karet</strong></div>
 <form class="admin-filter" method="get" action="<?= e(study_url('/admin/questions')) ?>"><input type="search" name="q" value="<?= e($query) ?>" placeholder="Číslo, text nebo příloha"><select name="subject"><option value="">Všechny předměty</option><?php foreach ($subjects as $subject): ?><option value="<?= (int) $subject['id'] ?>"<?= $subjectId === (int) $subject['id'] ? ' selected' : '' ?>><?= e((string) $subject['name']) ?></option><?php endforeach; ?></select><button class="button secondary" type="submit">Filtrovat</button></form>
-<div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>#</th><th>Předmět</th><th>Otázka</th><th>Odpověď</th><th>Příloha</th><th>Stav</th><th></th></tr></thead><tbody>
-<?php foreach ($pageData['rows'] as $row): ?><tr><td><?= (int) $row['sequence_no'] ?></td><td><?= e((string) $row['subject_name']) ?></td><td><?= e(mb_strimwidth((string) $row['prompt'], 0, 110, '…', 'UTF-8')) ?></td><td><?= e(mb_strimwidth((string) $row['answer'], 0, 80, '…', 'UTF-8')) ?></td><td><?= e((string) ($row['attachment_code'] ?? '')) ?></td><td><span class="status-dot <?= !empty($row['active']) ? 'ok' : 'off' ?>"><?= !empty($row['active']) ? 'aktivní' : 'skrytá' ?></span></td><td><a class="text-link" href="<?= e(study_url('/admin/question/' . (int) $row['sequence_no'])) ?>">Upravit</a></td></tr><?php endforeach; ?>
+<div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>#</th><th>Předmět</th><th>Otázka</th><th>Zpracování</th><th>Znění</th><th>Příloha</th><th></th></tr></thead><tbody>
+<?php foreach ($pageData['rows'] as $row): ?>
+<tr>
+    <td><?= (int) $row['sequence_no'] ?></td>
+    <td><?= e((string) $row['subject_name']) ?></td>
+    <td><?= e(mb_strimwidth((string) $row['prompt'], 0, 130, '…', 'UTF-8')) ?></td>
+    <td><span class="status-dot <?= (string) ($row['curation_status'] ?? '') === 'verified' ? 'ok' : ((string) ($row['curation_status'] ?? '') === 'explained' ? '' : 'off') ?>"><?= e(curation_status_label((string) ($row['curation_status'] ?? 'draft'))) ?></span></td>
+    <td><span class="status-dot <?= (string) ($row['wording_status'] ?? '') === 'source_exact' ? 'ok' : 'off' ?>"><?= e(wording_status_label((string) ($row['wording_status'] ?? 'study_wording'))) ?></span></td>
+    <td><?= e((string) ($row['attachment_code'] ?? '')) ?></td>
+    <td><a class="text-link" href="<?= e(study_url('/admin/question/' . (int) $row['sequence_no'])) ?>">Upravit</a></td>
+</tr>
+<?php endforeach; ?>
 </tbody></table></div>
 <nav class="pagination"><?php if ((int) $pageData['page'] > 1): ?><a href="<?= e(study_url('/admin/questions?q=' . rawurlencode($query) . '&subject=' . ($subjectId ?? '') . '&p=' . ((int) $pageData['page'] - 1))) ?>">← Předchozí</a><?php endif; ?><span>Strana <?= (int) $pageData['page'] ?> / <?= (int) $pageData['pages'] ?></span><?php if ((int) $pageData['page'] < (int) $pageData['pages']): ?><a href="<?= e(study_url('/admin/questions?q=' . rawurlencode($query) . '&subject=' . ($subjectId ?? '') . '&p=' . ((int) $pageData['page'] + 1))) ?>">Další →</a><?php endif; ?></nav>
 <?php
@@ -222,31 +251,113 @@ function render_admin_questions(array $subjects, array $pageData, string $query,
 }
 
 /** Render one administrator question edit form. */
-function render_admin_question_edit(array $question, array $subjects, string $message = '', string $error = ''): void
+function render_admin_question_edit(array $question, array $subjects, array $sourceDocuments, string $message = '', string $error = ''): void
 {
+    $sectionBodies = [];
+    foreach (is_array($question['explanation_sections'] ?? null) ? $question['explanation_sections'] : [] as $section) {
+        if (is_array($section)) {
+            $sectionBodies[(string) ($section['heading'] ?? '')] = (string) ($section['body'] ?? '');
+        }
+    }
     render_admin_header('Karta #' . (int) $question['sequence_no'], 'questions');
     ?>
 <div class="admin-title"><div><span class="eyebrow">Karta #<?= (int) $question['sequence_no'] ?></span><h1><?= e(trim((string) ($question['title'] ?? '')) !== '' ? (string) $question['title'] : 'Upravit studijní kartu') ?></h1></div><a class="button secondary" href="<?= e(study_url('/question/' . (int) $question['sequence_no'])) ?>" target="_blank">Náhled karty</a></div>
 <?php render_flash($message); render_flash($error, 'error'); ?>
 <form method="post" class="question-edit-form panel"><?= csrf_field() ?>
-<div class="form-grid two"><label>Předmět<select name="subject_id"><?php foreach ($subjects as $subject): ?><option value="<?= (int) $subject['id'] ?>"<?= (int) $question['subject_id'] === (int) $subject['id'] ? ' selected' : '' ?>><?= e((string) $subject['name']) ?></option><?php endforeach; ?></select></label><label>Volitelný název<input name="title" value="<?= e((string) ($question['title'] ?? '')) ?>"></label></div>
+<div class="form-grid two">
+<label>Předmět<select name="subject_id"><?php foreach ($subjects as $subject): ?><option value="<?= (int) $subject['id'] ?>"<?= (int) $question['subject_id'] === (int) $subject['id'] ? ' selected' : '' ?>><?= e((string) $subject['name']) ?></option><?php endforeach; ?></select></label>
+<label>Volitelný název<input name="title" value="<?= e((string) ($question['title'] ?? '')) ?>"></label>
+</div>
+
+<div class="curation-state-grid">
+<label>Zpracování
+<select name="curation_status">
+<option value="draft"<?= (string) ($question['curation_status'] ?? 'draft') === 'draft' ? ' selected' : '' ?>>Čeká na zpracování</option>
+<option value="explained"<?= (string) ($question['curation_status'] ?? '') === 'explained' ? ' selected' : '' ?>>Vysvětlení hotovo</option>
+<option value="verified"<?= (string) ($question['curation_status'] ?? '') === 'verified' ? ' selected' : '' ?>>Zdrojově ověřeno</option>
+</select>
+</label>
+<label>Znění
+<select name="wording_status">
+<option value="study_wording"<?= (string) ($question['wording_status'] ?? 'study_wording') === 'study_wording' ? ' selected' : '' ?>>Studijní znění</option>
+<option value="source_exact"<?= (string) ($question['wording_status'] ?? '') === 'source_exact' ? ' selected' : '' ?>>Přesné zdrojové znění</option>
+</select>
+</label>
+</div>
+
 <label>Veřejná stopa ÚCL<input name="source_trace" value="<?= e((string) $question['source_trace']) ?>" required></label>
-<label>Kontrolní otázka<textarea name="prompt" rows="5" required><?= e((string) $question['prompt']) ?></textarea></label>
+<div class="form-grid two">
+<label>Zdrojový dokument
+<select name="source_document_key"><option value="">Bez přiřazeného dokumentu</option><?php foreach ($sourceDocuments as $document): $key = (string) ($document['source_key'] ?? ''); ?><option value="<?= e($key) ?>"<?= (string) ($question['source_document_key'] ?? '') === $key ? ' selected' : '' ?>><?= e((string) ($document['title'] ?? $key)) ?><?= !empty($document['local_available']) ? ' · lokálně uložen' : '' ?></option><?php endforeach; ?></select>
+</label>
+<label>Strana ve zdrojovém PDF<input type="number" min="1" max="65535" name="source_document_page" value="<?= e((string) ($question['source_document_page'] ?? '')) ?>"></label>
+</div>
+
+<label>Otázka<textarea name="prompt" rows="5" required><?= e((string) $question['prompt']) ?></textarea></label>
 <label>Správná odpověď<textarea name="answer" rows="4" required><?= e((string) $question['answer']) ?></textarea></label>
 <?php $choices = is_array($question['choices'] ?? null) ? array_values($question['choices']) : []; while (count($choices) < 4) { $choices[] = ''; } ?>
 <fieldset class="choice-edit-fieldset">
-<legend>Studijní možnosti A-D <?= !empty($question['choices_generated']) ? '<span class="status-dot">generované</span>' : '<span class="status-dot ok">upravené</span>' ?></legend>
-<p class="form-help">Správná odpověď musí být přesně jednou z těchto čtyř možností. Uložením karty se sada označí jako ručně upravená.</p>
+<legend>Možnosti A-D <?= !empty($question['choices_generated']) ? '<span class="status-dot">generované</span>' : '<span class="status-dot ok">upravené</span>' ?></legend>
+<p class="form-help">Správná odpověď musí být přesně jednou z těchto čtyř možností. Uložením se sada označí jako ručně upravená.</p>
 <?php foreach (array_slice($choices, 0, 4) as $choiceIndex => $choice): ?>
 <label>Možnost <?= chr(65 + $choiceIndex) ?><textarea name="choice_<?= $choiceIndex + 1 ?>" rows="3" required><?= e((string) $choice) ?></textarea></label>
 <?php endforeach; ?>
 </fieldset>
-<label>Vysvětlení<textarea name="explanation" rows="8" required><?= e((string) $question['explanation']) ?></textarea></label>
+
+<label>Základní vysvětlení<textarea name="explanation" rows="6" required><?= e((string) $question['explanation']) ?></textarea></label>
+<fieldset class="explanation-section-editor">
+<legend>Rozšířené vysvětlení</legend>
+<label>Princip<textarea name="section_principle" rows="5"><?= e((string) ($sectionBodies['Princip'] ?? '')) ?></textarea></label>
+<label>Jak si to zapamatovat<textarea name="section_memory" rows="4"><?= e((string) ($sectionBodies['Jak si to zapamatovat'] ?? '')) ?></textarea></label>
+<label>Provozní souvislost<textarea name="section_practical" rows="5"><?= e((string) ($sectionBodies['Provozní souvislost'] ?? '')) ?></textarea></label>
+<label>Doplňující vysvětlení<textarea name="section_extra" rows="4"><?= e((string) ($sectionBodies['Doplňující vysvětlení'] ?? '')) ?></textarea></label>
+</fieldset>
+
 <label>Pozor / studijní upozornění<textarea name="warning" rows="4"><?= e((string) ($question['warning'] ?? '')) ?></textarea></label>
 <div class="form-grid two"><label>Kód přílohy<input name="attachment_code" value="<?= e((string) ($question['attachment_code'] ?? '')) ?>"></label><label>URL příloh<input name="attachment_url" value="<?= e((string) ($question['attachment_url'] ?? '')) ?>"></label></div>
 <label class="checkbox-row"><input type="checkbox" name="active" value="1"<?= !empty($question['active']) ? ' checked' : '' ?>> Karta je aktivní pro studium</label>
 <div class="form-actions"><a class="button secondary" href="<?= e(study_url('/admin/questions')) ?>">Zpět</a><button class="button primary" type="submit">Uložit změny</button></div>
 </form>
+<?php
+    render_admin_footer();
+}
+
+/** Render source-document manifest and upload controls. */
+function render_admin_sources(array $documents, string $message = '', string $error = ''): void
+{
+    render_admin_header('Zdroje', 'sources');
+    ?>
+<div class="admin-title"><div><span class="eyebrow">Zdrojové dokumenty</span><h1>Zdroje</h1></div></div>
+<?php render_flash($message); render_flash($error, 'error'); ?>
+<section class="panel">
+<p class="muted">Manifest drží oficiální URL a očekávanou verzi dokumentu. Lokální PDF nahraje administrátor a systém ho uloží mimo veřejný document root. Přihlášeným uživatelům se potom otevírá přes chráněnou route.</p>
+<div class="source-admin-list">
+<?php foreach ($documents as $document): ?>
+<article class="source-admin-row">
+    <div class="source-admin-meta">
+        <strong><?= e((string) ($document['title'] ?? $document['source_key'])) ?></strong>
+        <small><?= e((string) ($document['version_label'] ?? '')) ?> · <?= e((string) ($document['source_key'] ?? '')) ?></small>
+        <?php if (!empty($document['local_available'])): ?>
+            <span class="status-dot ok">lokální PDF připraveno</span>
+            <small><?= number_format(((int) ($document['file_size'] ?? 0)) / 1024 / 1024, 2, ',', ' ') ?> MB · SHA-256 <?= e(substr((string) ($document['sha256'] ?? ''), 0, 16)) ?>…</small>
+        <?php else: ?>
+            <span class="status-dot off">čeká na lokální PDF</span>
+        <?php endif; ?>
+    </div>
+    <div class="source-admin-actions">
+        <?php if (!empty($document['official_url'])): ?><a class="button small secondary" target="_blank" rel="noopener noreferrer" href="<?= e((string) $document['official_url']) ?>">Oficiální zdroj</a><?php endif; ?>
+        <?php if (!empty($document['local_available'])): ?><a class="button small secondary" target="_blank" href="<?= e(study_url('/source/' . rawurlencode((string) $document['source_key']))) ?>">Lokální PDF</a><?php endif; ?>
+        <form method="post" enctype="multipart/form-data" class="source-upload-form">
+            <?= csrf_field() ?>
+            <input type="hidden" name="source_key" value="<?= e((string) $document['source_key']) ?>">
+            <input type="file" name="source_pdf" accept="application/pdf,.pdf" required>
+            <button class="button small primary" type="submit"><?= !empty($document['local_available']) ? 'Nahradit PDF' : 'Nahrát PDF' ?></button>
+        </form>
+    </div>
+</article>
+<?php endforeach; ?>
+</div>
+</section>
 <?php
     render_admin_footer();
 }

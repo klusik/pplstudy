@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "questions": [
+    {
+      "sequence_no": 1,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při mezinárodním letu se kontroluje identita letadla, jeho letová způsobilost, provozní záznam letu a oprávnění členů posádky. Jednotlivé dokumenty proto patří do několika různých skupin a všechny musí být při předletové kontrole dohledatelné."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Drž si pořadí: rejstřík → CoA → ARC → palubní deník → doklady posádky. Je to krátký řetězec od identity letadla přes jeho technickou způsobilost až k posádce."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se při přípravě zahraničního letu vyplatí projít palubní dokumentaci jako samostatný checklist. Tím se oddělí technické dokumenty letadla od osobních dokladů posádky a sníží se riziko, že některá položka zůstane na zemi."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 2,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Omezený prostor R je prostor, ve kterém je provoz letadel omezen podle konkrétně publikovaných podmínek. Rozhodující je vždy vertikální a horizontální rozsah, doba aktivace a podmínky vstupu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "P = prohibited, R = restricted, D = danger. U R si spoj písmeno s pravidly vstupu: let je možný tehdy, když pilot splní publikované podmínky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem nestačí znát pouze zakreslenou hranici prostoru. Pilot musí ověřit jeho aktivaci a podmínky v aktuálních leteckých informacích pro plánovanou dobu letu."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 3,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "AIP je základní státní letecká informační publikace pro informace trvalého charakteru a dlouhodobé provozní podmínky. U omezeného prostoru v něm najdeš jeho publikovanou definici a pravidla použití."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "AIP drží stabilní strukturu vzdušného prostoru. NOTAM přináší časově omezené nebo aktuální změny. Při předletové přípravě se oba zdroje skládají dohromady."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování tratě si nejprve ověř publikovaný prostor v AIP a potom jeho aktuální stav v NOTAM. Tím získáš jak základní pravidla, tak informace platné pro konkrétní den a čas."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 4,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 1,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Požadavky označované jako Part-FCL, Part-MED a další příslušné Parts jsou součástí právního rámce EU prostřednictvím příslušných nařízení a jejich příloh. Pro pilota mají praktický dopad přímo na licence, kvalifikace a zdravotní způsobilost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Part-FCL spoj s licencemi a kvalifikacemi, Part-MED se zdravotní způsobilostí. Oba názvy patří do evropského regulatorního rámce EASA."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při dohledávání konkrétního požadavku pracuj s aktuálním konsolidovaným zněním příslušného nařízení. AMC a GM pak pomáhají s přijatelnými způsoby plnění a výkladem požadavků."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 5,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Osvědčení letové způsobilosti potvrzuje schválený status letadla a samo má časově neomezenou platnost při trvajícím splnění požadavků zachování letové způsobilosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "CoA = základní osvědčení letové způsobilosti. ARC = pravidelná kontrola zachování letové způsobilosti. U otázky na dobu platnosti CoA tedy mysli na dlouhodobý dokument podmíněný pokračujícím plněním požadavků."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilot při předletové dokumentaci sleduje nejen existenci CoA, ale i aktuální stav dokumentů continuing airworthiness, protože skutečná možnost provozu závisí na celé dokumentační sadě."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 6,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ARC znamená Airworthiness Review Certificate, tedy osvědčení kontroly letové způsobilosti. Dokument potvrzuje výsledek pravidelného posouzení zachování letové způsobilosti letadla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Review je klíčové slovo: ARC zachycuje kontrolu zachování způsobilosti. CoA je základní osvědčení, ARC je navazující kontrolní dokument."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při kontrole dokumentace letadla se CoA a ARC čtou společně. Každý z nich popisuje jinou část statusu letové způsobilosti a dohromady dávají pilotovi jasnější obraz o použitelnosti letadla."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 7,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Osvědčení letové způsobilosti je navázáno na stát registrace letadla. Právě rejstřík určuje stát, který vykonává příslušnou odpovědnost za registraci a vydání tohoto osvědčení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív registrace, potom CoA. Když vidíš otázku „který stát“, hledej vazbu na rejstřík letadla."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "U letadla provozovaného v jiné zemi než v zemi vlastníka nebo výroby zůstává klíčovým referenčním bodem jeho stát registrace."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 8,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilotní průkaz vydává konkrétní stát. ICAO stanovuje mezinárodní standardy licencování, které vytvářejí společný rámec pro uznávání průkazů mezi smluvními státy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ICAO vytváří společný standard, stát vydává konkrétní průkaz a cílový stát určuje podmínky, za kterých lze jeho práva použít na svém území."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při plánování létání mimo běžný evropský licenční režim je vhodné předem ověřit požadavky cílového státu na validaci, převod nebo další oprávnění."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 9,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 2,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ICAO Annex 1 se věnuje licencování a odborné způsobilosti leteckého personálu. Patří sem standardy pro pilotní průkazy a další kategorie leteckého personálu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Annex 1 = Personnel Licensing. Pro orientaci si drž několik sousedních čísel: Annex 2 pravidla létání, Annex 6 provoz letadel, Annex 11 letové provozní služby."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Annexy ICAO tvoří mezinárodní standardizační rámec. Evropské a národní předpisy na tento rámec navazují konkrétními právními požadavky použitelnými pro piloty a provozovatele."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    },
+    {
+      "sequence_no": 10,
+      "curation_status": "explained",
+      "wording_status": "study_wording",
+      "source_document_key": "subject-01-official-questions",
+      "source_document_page": 3,
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Samotný průkaz PPL je vydáván bez pevné doby expirace. Praktický výkon jeho práv je navázán na další platné požadavky, zejména příslušnou třídní nebo typovou kvalifikaci a zdravotní způsobilost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Licence zůstává, oprávnění k létání se průběžně udržují. Při otázkách na platnost proto vždy rozlišuj samotný průkaz, kvalifikaci a medical."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje celý řetězec oprávnění: licence, příslušná kvalifikace, medical a další podmínky pro konkrétní druh letu. Doba platnosti jednotlivých článků se liší."
+        }
+      ],
+      "source_note": "Vysvětlení je zpracované. Přesné zdrojové znění otázky a všech možností čeká na import přímo dodaného oficiálního PDF."
+    }
+  ]
+}

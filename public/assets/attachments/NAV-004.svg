@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">NAV-004 výřez checklistu</title>
+  <desc id="d">Studijní výřez checklistu obsahující položky gyroskopických přístrojů, zatáčkových přístrojů a jističů.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NAV-004 výřez checklistu</text>
+
+  <rect x="180" y="135" width="640" height="350" rx="12" fill="#fbfcfd" stroke="#17384f" stroke-width="4"/>
+  <text x="215" y="185" font-family="ui-monospace,monospace" font-size="25" font-weight="700" fill="#17384f">INSTRUMENT CHECK</text>
+  <line x1="215" y1="205" x2="785" y2="205" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="225" y="255" font-family="ui-monospace,monospace" font-size="23" fill="#17384f">GYRO INSTRUMENTS ........ CHECK</text>
+  <text x="225" y="315" font-family="ui-monospace,monospace" font-size="23" fill="#17384f">TURNING INSTRUMENTS ..... CHECK</text>
+  <text x="225" y="375" font-family="ui-monospace,monospace" font-size="23" fill="#17384f">CIRCUIT BREAKERS ........ IN</text>
+  <text x="225" y="435" font-family="ui-monospace,monospace" font-size="23" fill="#17384f">COMPASS ................ CHECK</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

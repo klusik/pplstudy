@@ -1,0 +1,3206 @@
+{
+  "schema_version": 1,
+  "subject_id": 8,
+  "questions": [
+    {
+      "subject_id": 8,
+      "source_question_id": 1,
+      "title": "Maximální tloušťka křídla je definována jako vzdálenost mezi spodním a horním povrchem…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „v nejtlustší části křídla“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „v nejtlustší části křídla“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 2,
+      "title": "Trubková ocelová konstrukce s nenosným potahem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „příhradová“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „příhradová“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 3,
+      "title": "Z jakých částí je obvykle složena dřevěná nebo kovová primární konstrukce trupu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „přepážky a podélníky“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „přepážky a podélníky“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 4,
+      "title": "Jaká konfigurace křídla je zobrazena v příloze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vzpěrový hornoplošník“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vzpěrový hornoplošník“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby. Příloha AGK-002 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 5,
+      "title": "Konstrukce z přepážek a podélníků s nosným potahem se nazývá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „poloskořepinová konstrukce“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „poloskořepinová konstrukce“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 6,
+      "title": "Jaký tvar ocasních ploch je znázorněn v příloze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „tvaru T“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tvaru T“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „tvaru T“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla. Příloha AGK-003 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 7,
+      "title": "Jaké jsou hlavní díly ocasních ploch letadla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vodorovné a svislé ocasní plochy“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vodorovné a svislé ocasní plochy“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „vodorovné a svislé ocasní plochy“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 8,
+      "title": "Sendvičová konstrukce se skládá ze dvou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „tenkých vrstev a lehké výplně“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tenkých vrstev a lehké výplně“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 9,
+      "title": "Jaké konstrukční prvky tvoří tvar profilu křídla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „žebra“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „žebra“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 10,
+      "title": "Násobek n popisuje vztah mezi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vztlakem a tíhou“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vztlakem a tíhou“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 11,
+      "title": "Jaké jsou výhody sendvičové konstrukce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „nízká hmotnost, vysoká tuhost, velká stabilita, vysoká pevnost“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „nízká hmotnost, vysoká tuhost, velká stabilita, vysoká pevnost“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 12,
+      "title": "Který z uvedených materiálů je nejpevnější",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „kompozit“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „kompozit“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 13,
+      "title": "Co je třeba učinit, byla-li překročena povolená provozní omezení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „před dalším letem musí být letadlo prohlédnuto kvalifikovaným technikem“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „před dalším letem musí být letadlo prohlédnuto kvalifikovaným technikem“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „před dalším letem musí být letadlo prohlédnuto kvalifikovaným technikem“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 14,
+      "title": "Trhliny v konstrukci letadla mohou být způsobeny",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „tvrdým přistáním nebo nadměrným zatížením“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tvrdým přistáním nebo nadměrným zatížením“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 15,
+      "title": "Jaký druh hydraulických olejů se používá v systémech současných letadel",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „syntetické oleje“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „syntetické oleje“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 16,
+      "title": "Číslo 1 na podvozku označuje",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vidlici“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vidlici“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „vidlici“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla. Příloha AGK-005 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 17,
+      "title": "Konstrukce trupu může být poškozena",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „překročením maximální manévrovací rychlosti v silných poryvech“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „překročením maximální manévrovací rychlosti v silných poryvech“. Konstrukce letadla přenáší aerodynamická, hmotová a provozní zatížení přes nosné prvky tak, aby zůstala zachována pevnost i tvar."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "U konstrukčních otázek si vždy rozliš nosný prvek, tvarovací prvek a potah. U zatížení sleduj, která síla nebo poměr se právě definuje."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Po tvrdém přistání, překročení limitu nebo podezření na poškození se další provoz řídí technickou dokumentací a požadavky údržby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 18,
+      "title": "Číslo 2 na podvozku označuje",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „Pístnici tlumiče“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „Pístnici tlumiče“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „Pístnici tlumiče“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla. Příloha AGK-005 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 19,
+      "title": "Jak je na malých letadlech a motorových kluzácích obvykle řízeno příďové nebo ocasní ko…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pedály“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pedály“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 20,
+      "title": "Kde je instalován brzdový systém brzdící letadlo na zemi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pouze na hlavním podvozku“. Podvozek zajišťuje přenos zatížení na zem, vedení letadla při pojíždění a brzdění; jednotlivé díly mají přesně danou mechanickou funkci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pouze na hlavním podvozku“. Podvozek zajišťuje přenos zatížení na zem, vedení letadla při pojíždění a brzdění; jednotlivé díly mají přesně danou mechanickou funkci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Na podvozku si drž řetězec: tlumič přenáší a tlumí síly, pístnice se zasouvá do tělesa, vidlice drží kolo a nůžky vedou vzájemnou polohu dílů."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletová prohlídka zahrnuje stav pneumatik, značek pro prokluz, tlumiče, brzd a případných úniků."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 21,
+      "title": "Jaká řídící plocha je spojena s příďovým kolem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „směrovka“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „směrovka“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 22,
+      "title": "Co se kontroluje značkou v příloze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „správná poloha pneumatiky vzhledem k ráfku“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „správná poloha pneumatiky vzhledem k ráfku“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „správná poloha pneumatiky vzhledem k ráfku“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla. Příloha AGK-006 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 23,
+      "title": "Kolem kolika os se pohybuje letadlo a jak se tyto osy nazývají",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „3, svislá, příčná, podélná“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „3, svislá, příčná, podélná“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „3, svislá, příčná, podélná“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 24,
+      "title": "Pohyb kolem podélné osy je primárně způsoben",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „křidélky“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „křidélky“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „křidélky“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 25,
+      "title": "Jak jsou řídící plochy na malém pístovém letounu normálně ovládány",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „ručně pomocí táhel a lan“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „ručně pomocí táhel a lan“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 26,
+      "title": "Jaký je primární a sekundární účinek vychýlení směrovky doleva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „primární: bočení doleva, sekundární: klonění doleva“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „primární: bočení doleva, sekundární: klonění doleva“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 27,
+      "title": "Co způsobí přitažení řídící páky k sobě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 28,
+      "title": "Co způsobí přitažení sloupku řízení nebo řídící páky směrem k sobě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „na ocasních plochách působí zvětšená síla směrem dolů a způsobí pohyb přídě směrem nahoru“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 29,
+      "title": "Co se stane za letu, je-li řídící páka posunuta směrem dopředu bez dalších korekcí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rychlost vzroste, úhel klesání vzroste“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rychlost vzroste, úhel klesání vzroste“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „rychlost vzroste, úhel klesání vzroste“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 30,
+      "title": "Uvádí všechny primární řídící plochy letadla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „výškovka, směrovka, křidélka“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „výškovka, směrovka, křidélka“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 31,
+      "title": "Jaký účel mají sekundární prvky řízení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „zlepšit výkonnostní charakteristiky letadla a trvale snižovat síly v řízení“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zlepšit výkonnostní charakteristiky letadla a trvale snižovat síly v řízení“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 32,
+      "title": "Jaký účel mají na zemi nastavitelné vyvažovací plošky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „je to nepohyblivá kovová ploška na řídící ploše, která se nastavuje na zemi pro snížení trvalých sil v řízení při určitém režimu letu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „je to nepohyblivá kovová ploška na řídící ploše, která se nastavuje na zemi pro snížení trvalých sil v řízení při určitém režimu letu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „je to nepohyblivá kovová ploška na řídící ploše, která se nastavuje na zemi pro snížení trvalých sil v řízení při určitém režimu letu“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 33,
+      "title": "Pilot pohne dozadu páčkou nebo kolečkem trimu v pilotní kabině. Co to způsobí na plošce…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „ploška trimu se pohne dolů, výškovka se pohne nahoru“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „ploška trimu se pohne dolů, výškovka se pohne nahoru“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 34,
+      "title": "Kterým směrem se pohybuje ploška trimu při vyvažování letadla na \"těžký na ocas\"",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pohybuje se dolů“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pohybuje se dolů“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 35,
+      "title": "Připevněna",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „v opačném směru“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „v opačném směru“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „v opačném směru“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 36,
+      "title": "Trim se používá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pro odstranění trvalých sil v řízení“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pro odstranění trvalých sil v řízení“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 37,
+      "title": "Co z následujícího jsou prvky sekundárního řízení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „klapky, zařízení na náběžných hranách křídel, spoilery, trimovací plošky“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „klapky, zařízení na náběžných hranách křídel, spoilery, trimovací plošky“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 38,
+      "title": "Co je třeba provést při plnění paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „nepoužívat otevřený oheň, nekouřit a uzemnit letadlo“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „nepoužívat otevřený oheň, nekouřit a uzemnit letadlo“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 39,
+      "title": "Nastřikovací čerpadlo je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pomocné čerpadlo v palivovém systému, které usnadňuje spouštění motoru“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pomocné čerpadlo v palivovém systému, které usnadňuje spouštění motoru“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 40,
+      "title": "K čemu slouží odvětrání nádrže",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „zabraňuje podtlaku způsobenému spotřebou paliva“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zabraňuje podtlaku způsobenému spotřebou paliva“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 41,
+      "title": "Elektrickou energii do sítě letounu dodává: 1. baterie 2. generátor 3. relé 4. jistič",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „1 a 2“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1 a 2“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Napětí = volt, proud = ampér, odpor = ohm, výkon = watt. Zdroj energie si vždy odděl od ochranného prvku, jako je jistič nebo relé."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při poruše dobíjení je rozhodující sledovat napětí a proud podle vybavení letadla, omezit nepotřebné spotřebiče a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 42,
+      "title": "Co je jednotka napětí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „Volt“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „Volt“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „Volt“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 43,
+      "title": "Co je jednotka elektrického výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „Watt“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „Watt“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Napětí = volt, proud = ampér, odpor = ohm, výkon = watt. Zdroj energie si vždy odděl od ochranného prvku, jako je jistič nebo relé."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při poruše dobíjení je rozhodující sledovat napětí a proud podle vybavení letadla, omezit nepotřebné spotřebiče a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 44,
+      "title": "Jaký účel mají vyzařovače statické elektřiny na letadle",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vybíjet za letu statický náboj“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vybíjet za letu statický náboj“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 45,
+      "title": "Co se stane, vysadí-li alternátor za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „nic se nezmění, dokud bude baterie dodávat dostatek energie“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „nic se nezmění, dokud bude baterie dodávat dostatek energie“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Napětí = volt, proud = ampér, odpor = ohm, výkon = watt. Zdroj energie si vždy odděl od ochranného prvku, jako je jistič nebo relé."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při poruše dobíjení je rozhodující sledovat napětí a proud podle vybavení letadla, omezit nepotřebné spotřebiče a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 46,
+      "title": "Elektricky poháněné palubní přístroje, které používají stejnosměrný proud, jsou označeny",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „DC“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „DC“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Napětí = volt, proud = ampér, odpor = ohm, výkon = watt. Zdroj energie si vždy odděl od ochranného prvku, jako je jistič nebo relé."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při poruše dobíjení je rozhodující sledovat napětí a proud podle vybavení letadla, omezit nepotřebné spotřebiče a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 47,
+      "title": "Které zařízení může být ovlivněno vysazením elektrického systému",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rádiové vybavení, navigační vybavení a gyroskopické přístroje“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rádiové vybavení, navigační vybavení a gyroskopické přístroje“. Elektrická soustava používá zdroje, rozvod, ochranné prvky a spotřebiče; baterie může po výpadku generátoru nebo alternátoru dočasně napájet palubní síť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Napětí = volt, proud = ampér, odpor = ohm, výkon = watt. Zdroj energie si vždy odděl od ochranného prvku, jako je jistič nebo relé."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při poruše dobíjení je rozhodující sledovat napětí a proud podle vybavení letadla, omezit nepotřebné spotřebiče a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 48,
+      "title": "Jaké je nejčastější uspořádání válců v motorech malých letadel a motorových kluzáků",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vodorovné“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vodorovné“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 49,
+      "title": "Jaká část pracovního cyklu čtyřdobého zážehového motoru je znázorněna v příloze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „sání“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „sání“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH. Příloha AGK-007 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 50,
+      "title": "Jaká část pracovního cyklu čtyřdobého zážehového motoru je znázorněna v příloze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „stlačení“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „stlačení“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH. Příloha AGK-008 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 51,
+      "title": "Co je pravděpodobně příčinou, běží-li motor neobvykle tvrdě při kontrole magnet",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vadná zapalovací svíčka“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vadná zapalovací svíčka“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 52,
+      "title": "Ve které situaci dochází k největšímu vstřebávání vlhkosti do paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „téměř prázdné nádrže“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „téměř prázdné nádrže“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 53,
+      "title": "Kde se v nádrži shromažďuje zkondenzovaná voda",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „v nejnižší části“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „v nejnižší části“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 54,
+      "title": "Co popisuje oktanové číslo paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „odolnost proti samovznícení“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „odolnost proti samovznícení“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 55,
+      "title": "Jakou barvu má palivo Avgas 100 LL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „modrou“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „modrou“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 56,
+      "title": "Jaký vliv má zapnutí ohřevu karburátoru na chod motoru s pevnou vrtulí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pokles otáček“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pokles otáček“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Při zvyšování výkonu obecně nejprve otáčky, potom plnící tlak; při snižování výkonu opačně. Vždy má přednost postup konkrétního AFM/POH."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nesprávná kombinace otáček a plnícího tlaku může motor zatěžovat mimo doporučenou oblast, proto se sledují limity výrobce."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 57,
+      "title": "Co je hlavním úkolem karburátoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „vytvářet palivovou směs vzduch / palivo“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „vytvářet palivovou směs vzduch / palivo“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 58,
+      "title": "Ve které fázi letu musí být ohřev karburátoru vypnut, i když lze očekávat tvorbu námrazy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „při vzletu“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „při vzletu“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 59,
+      "title": "Při které teplotě vnějšího vzduchu je největší pravděpodobnost tvorby námrazy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „mezi -5 °C a +20 °C“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „mezi -5 °C a +20 °C“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „mezi -5 °C a +20 °C“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 60,
+      "title": "Úkol chladících žeber na válcích motorů chlazených vzduchem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rychlý přenos tepla do okolního proudu vzduchu zvětšením povrchu“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rychlý přenos tepla do okolního proudu vzduchu zvětšením povrchu“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 61,
+      "title": "Teplota hlav válců se měří na",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „kritickém válci“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „kritickém válci“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 62,
+      "title": "Co se stane, ucpe-li se olejový filtr",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „otevře se obtokový ventil a umožní cirkulaci oleje, nečistoty se nefiltrují“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „otevře se obtokový ventil a umožní cirkulaci oleje, nečistoty se nefiltrují“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 63,
+      "title": "Zážehové letecké motory mají",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „dva nezávislé systémy zapalování“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „dva nezávislé systémy zapalování“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 64,
+      "title": "Směs paliva se vzduchem, kde je nadměrné množství paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „bohatá“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „bohatá“. Palivová soustava musí zajistit nepřerušený přívod správného množství paliva a současně umožnit odvzdušnění, kontrolu množství a bezpečné plnění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Palivo sleduj jako cestu: nádrž → odvzdušnění a odběr → čerpadlo → dávkování směsi → motor. U AVGAS 100LL si spoj modrou barvu s označením 100LL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před letem se kontroluje množství, správný druh paliva, vzorek na vodu a nečistoty a bezpečný stav uzávěrů a odvzdušnění."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 65,
+      "title": "Úhel zobrazený šipkou č. 1 znázorňuje",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „úhel nastavení vrtule“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „úhel nastavení vrtule“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „úhel nastavení vrtule“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla. Příloha AGK-011 je v aplikaci dostupná jako lokální studijní podklad přímo u otázky."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 66,
+      "title": "Jak má být provedeno zvýšení výkonu motoru s vrtulí konstantních otáček, není-li v leto…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „1) zvýšit otáčky 2) zvýšit plnící tlak“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1) zvýšit otáčky 2) zvýšit plnící tlak“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Při zvyšování výkonu obecně nejprve otáčky, potom plnící tlak; při snižování výkonu opačně. Vždy má přednost postup konkrétního AFM/POH."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nesprávná kombinace otáček a plnícího tlaku může motor zatěžovat mimo doporučenou oblast, proto se sledují limity výrobce."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 67,
+      "title": "Jak má být provedeno snížení výkonu motoru s vrtulí konstantních otáček, není-li v leto…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „1) snížit plnící tlak 2) snížit otáčky“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „1) snížit plnící tlak 2) snížit otáčky“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Při zvyšování výkonu obecně nejprve otáčky, potom plnící tlak; při snižování výkonu opačně. Vždy má přednost postup konkrétního AFM/POH."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nesprávná kombinace otáček a plnícího tlaku může motor zatěžovat mimo doporučenou oblast, proto se sledují limity výrobce."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 68,
+      "title": "Výkon pístového motoru bez turbokompresoru klesá s rostoucí výškou, protože",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „klesá hustota vzduchu“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „klesá hustota vzduchu“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 69,
+      "title": "Výkon motoru s karburátorem s rostoucí nadmořskou výškou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „klesá“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „klesá“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 70,
+      "title": "Během zkoušky zapalování je přepínač zapalování krátce nastaven do polohy OFF a hned po…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „po přepnutí na OFF se otáčky sníží a po přepnutí na BOTH se otáčky vrátí na původní hodnotu“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „po přepnutí na OFF se otáčky sníží a po přepnutí na BOTH se otáčky vrátí na původní hodnotu“. Vrtule převádí výkon motoru na tah. U vrtule konstantních otáček regulátor mění úhel nastavení listů tak, aby udržel zvolené otáčky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Při zvyšování výkonu obecně nejprve otáčky, potom plnící tlak; při snižování výkonu opačně. Vždy má přednost postup konkrétního AFM/POH."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Nesprávná kombinace otáček a plnícího tlaku může motor zatěžovat mimo doporučenou oblast, proto se sledují limity výrobce."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 71,
+      "title": "Jaké přístroje měří v letadle teplotu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „teploměr oleje, teploměr chladící kapaliny motoru, teploměr hlav válců, teploměr výstupních plynů, teploměr vnějšího vzduchu, teploměr vzduchu v kabině“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „teploměr oleje, teploměr chladící kapaliny motoru, teploměr hlav válců, teploměr výstupních plynů, teploměr vnějšího vzduchu, teploměr vzduchu v kabině“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „teploměr oleje, teploměr chladící kapaliny motoru, teploměr hlav válců, teploměr výstupních plynů, teploměr vnějšího vzduchu, teploměr vzduchu v kabině“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 72,
+      "title": "Množství paliva se v malých letadlech většinou měří pomocí snímače hladiny. Evropské Ce…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „aby ukazatel množství paliva byl k dispozici pro každou nádrž, ukazatel musí být kalibrován tak, aby ukazoval nulu při rovném letu, když je množství zbývajícího paliva v nádrži rovné nevyčerpatelnému zbytku“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „aby ukazatel množství paliva byl k dispozici pro každou nádrž, ukazatel musí být kalibrován tak, aby ukazoval nulu při rovném letu, když je množství zbývajícího paliva v nádrži rovné nevyčerpatelnému zbytku“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 73,
+      "title": "Který z uvedených přístrojů získává údaje měřením tlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „tlakoměr oleje, tlakoměr paliva, ukazatel plnícího tlaku, výškoměr, variometr, rychloměr, ukazatel tlaku sání“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tlakoměr oleje, tlakoměr paliva, ukazatel plnícího tlaku, výškoměr, variometr, rychloměr, ukazatel tlaku sání“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „tlakoměr oleje, tlakoměr paliva, ukazatel plnícího tlaku, výškoměr, variometr, rychloměr, ukazatel tlaku sání“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 74,
+      "title": "Pitot - statický systém",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „měří celkový a statický tlak“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „měří celkový a statický tlak“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 75,
+      "title": "Jaký tlak měří Pitotova trubice",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „celkový tlak“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „celkový tlak“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 76,
+      "title": "QFE je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „barometrický tlak měřený od referenčního bodu, typicky od prahu dráhy“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „barometrický tlak měřený od referenčního bodu, typicky od prahu dráhy“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 77,
+      "title": "QNE je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „výška nad referenční tlakovou hladinou 1013.25 hPa“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „výška nad referenční tlakovou hladinou 1013.25 hPa“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 78,
+      "title": "Účel pomocné stupnice výškoměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „nastavit výškoměr na stanovenou tlakovou hladinu, např. hladinu moře, úroveň letiště, tlakovou hladinu 1013.25 hPa“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „nastavit výškoměr na stanovenou tlakovou hladinu, např. hladinu moře, úroveň letiště, tlakovou hladinu 1013.25 hPa“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 79,
+      "title": "Jak může nesprávně nastavené QNH na výškoměru vést k nesprávné indikaci výškoměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „Je-li nastaven vyšší tlak než správný, indikace je příliš vysoká. To může vést k větší blízkosti země, než bylo zamýšleno“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „Je-li nastaven vyšší tlak než správný, indikace je příliš vysoká. To může vést k větší blízkosti země, než bylo zamýšleno“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 80,
+      "title": "Teplota nižší než standardní může vést",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „k příliš vysoké indikaci výšky“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „k příliš vysoké indikaci výšky“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „k příliš vysoké indikaci výšky“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 81,
+      "title": "Letová hladina je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „tlaková výška“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tlaková výška“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 82,
+      "title": "Skutečná výška je",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „výška nad střední hladinou moře opravená o nestandardní teplotu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „výška nad střední hladinou moře opravená o nestandardní teplotu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „výška nad střední hladinou moře opravená o nestandardní teplotu“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 83,
+      "title": "Za letu ve vzduchu chladnějším než je Mezinárodní standardní atmosféra je indikovaná vý…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „větší než skutečná“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „větší než skutečná“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 84,
+      "title": "Za letu ve vzduchu, jehož teplota je stejná jako dle Mezinárodní standardní atmosféry…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „stejná jako skutečná“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „stejná jako skutečná“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 85,
+      "title": "Který přístroj je výrazně ovlivněn hysterezní chybou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „výškoměr“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „výškoměr“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „výškoměr“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 86,
+      "title": "Měření výšky je založeno na změně",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „statického tlaku“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „statického tlaku“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „statického tlaku“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 87,
+      "title": "Popisuje princip práce variometru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „měření současného statického tlaku a jeho porovnávání se statickým tlakem uvnitř přístroje“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „měření současného statického tlaku a jeho porovnávání se statickým tlakem uvnitř přístroje“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 88,
+      "title": "Variometr měří rozdíl tlaku mezi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „současným statickým tlakem a předcházejícím statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „současným statickým tlakem a předcházejícím statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 89,
+      "title": "Kalibrovaná rychlost (CAS) se rovná",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „indikované rychlosti (IAS) opravené o polohovou chybu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „indikované rychlosti (IAS) opravené o polohovou chybu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „indikované rychlosti (IAS) opravené o polohovou chybu“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 90,
+      "title": "Ve velkých nadmořských výškách má pravá vzdušná rychlost (TAS) tendenci být vyšší než k…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „přidáním 2 % CAS na každých 1000 ft výšky“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „přidáním 2 % CAS na každých 1000 ft výšky“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „přidáním 2 % CAS na každých 1000 ft výšky“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 91,
+      "title": "Letadlo letí při zemi kurzem 180° při teplotě cca 15°C pravou vzdušnou rychlostí 100 kt…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „100 kt“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „100 kt“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „100 kt“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 92,
+      "title": "Který z následujících faktorů může způsobit chybnou indikaci rychlosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „letadlo je pokryto samolepícími fóliemi“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „letadlo je pokryto samolepícími fóliemi“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „letadlo je pokryto samolepícími fóliemi“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 93,
+      "title": "Co z následujícího popisuje princip práce rychloměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „je měřen celkový tlak a porovnáván se statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „je měřen celkový tlak a porovnáván se statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 94,
+      "title": "Jaké hodnoty jsou obvykle na přístrojích vyznačeny červenou barvou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „provozní omezení“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „provozní omezení“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „provozní omezení“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 95,
+      "title": "Podle čeho ukazuje rychloměr rychlost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rozdíl mezi celkovým a statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rozdíl mezi celkovým a statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 96,
+      "title": "Bílý oblouk na rychloměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rozsah rychlostí s vysunutými vztlakovými klapkami“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rozsah rychlostí s vysunutými vztlakovými klapkami“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 97,
+      "title": "Červená čára na rychloměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rychlost, která nesmí být překročena za žádných okolností“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rychlost, která nesmí být překročena za žádných okolností“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 98,
+      "title": "Chyba kompasu způsobená magnetickým polem letadla se nazývá",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „deviace“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „deviace“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 99,
+      "title": "Jaká chyba způsobuje, že se indikace magnetického kompasu liší od směru k magnetickému…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „deviace, zatáčky a chyby při akceleraci letadla“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „deviace, zatáčky a chyby při akceleraci letadla“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 100,
+      "title": "Který z přístrojů je připojen k Pitotově trubici",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „rychloměr“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „rychloměr“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 101,
+      "title": "Které palubní přístroje jsou připojeny ke snímači statického tlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „výškoměr, variometr, rychloměr“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „výškoměr, variometr, rychloměr“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 102,
+      "title": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 270° na kurz 360°. Při při…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „330°“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „330°“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „330°“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 103,
+      "title": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 360°na kurz 270°. Na přibl…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „270°“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „270°“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „270°“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 104,
+      "title": "Pojem statický tlak je definován jako",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „tlak nerozrušeného proudu vzduchu“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „tlak nerozrušeného proudu vzduchu“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 105,
+      "title": "Letadlo na severní polokouli zatáčí nejkratší cestou z kurzu 030° na kurz 180°. Na přib…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „210°“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „210°“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „210°“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 106,
+      "title": "Na čem přímo závisí dynamický tlak",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „na hustotě vzduchu a čtverci rychlosti proudu vzduchu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „na hustotě vzduchu a čtverci rychlosti proudu vzduchu“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „na hustotě vzduchu a čtverci rychlosti proudu vzduchu“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 107,
+      "title": "Co je příčinou decelerační a akcelerační chyby kompasu s přímým čtením",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „inklinace siločar zemského magnetického pole“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „inklinace siločar zemského magnetického pole“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 108,
+      "title": "Jak reaguje rotující setrvačník v prostoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „má tendenci udržet svou polohu v prostoru“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „má tendenci udržet svou polohu v prostoru“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 109,
+      "title": "Setrvačník rotující v prostoru odpovídá na sílu vyvolanou precesním pohybem letadla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pod úhlem 90° na sílu od precesního pohybu“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pod úhlem 90° na sílu od precesního pohybu“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 110,
+      "title": "Náklon zatáčky o 360° trvající 2 minuty závisí na",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „pravé vzdušné rychlosti“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „pravé vzdušné rychlosti“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 111,
+      "title": "Zatáčkoměr se skluzoměrem poskytují informaci o",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „úhlové rychlosti zatáčení a skluzu nebo výkluzu“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „úhlové rychlosti zatáčení a skluzu nebo výkluzu“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 112,
+      "title": "Rychloměr neukazuje. Letoun smí být provozován jen",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „je-li rychloměr znovu plně funkční“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „je-li rychloměr znovu plně funkční“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 113,
+      "title": "Která barva na table nebo přístroji sděluje pilotovi, že asi bude třeba provést opravno…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „oranžová“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „oranžová“. Otázka ověřuje základní technický princip malého letounu a jeho správnou interpretaci v provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si pojem v zadání přímo s výsledkem „oranžová“ a s částí letadla nebo systému, ke které patří."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V praxi se technické limity, zapojení a provozní postupy vždy ověřují v AFM/POH a v dokumentaci konkrétního letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 114,
+      "title": "Jakou barvou je na rychloměru vyznačena oblast zvýšené pozornosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „žlutou“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „žlutou“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 115,
+      "title": "Polohový směrový indikátor (ADI) kombinuje informace poskytované",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „umělým horizontem, směrovým indikátorem a zatáčkoměrem“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „umělým horizontem, směrovým indikátorem a zatáčkoměrem“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 116,
+      "title": "Co znamená zkratka HSI",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „indikátor horizontální situace“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „indikátor horizontální situace“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 117,
+      "title": "Indikátor horizontální situace (HSI) kombinuje informace z",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „směrového gyrokompasu a radionavigačního přijímače VHF“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „směrového gyrokompasu a radionavigačního přijímače VHF“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 118,
+      "title": "Jaký rozdíl výšek ukáže výškoměr, je-li nastavení tlaku změněno z 1000 hPa na 1010 hPa",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „o 80 m více“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „o 80 m více“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 119,
+      "title": "Kdy je třeba nastavit tlak na výškoměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „před každým letem a při navigačním letu“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „před každým letem a při navigačním letu“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 120,
+      "title": "Výškoměr je nastaven na letištní tlak (QFE). Co ukazuje za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „výšku nad letištěm“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „výšku nad letištěm“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 121,
+      "title": "Variometr připojený na příliš velkou vyrovnávací nádobu ukazuje",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „větší hodnoty než skutečné“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „větší hodnoty než skutečné“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 122,
+      "title": "Variometr měří rozdíl mezi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „okamžitým statickým a předcházejícím statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „okamžitým statickým a předcházejícím statickým tlakem“. Pitot-statické přístroje vycházejí z celkového a statického tlaku: rychloměr používá jejich rozdíl, výškoměr statický tlak a variometr změnu statického tlaku v čase."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pitot = celkový tlak. Statický odběr = okolní statický tlak. IAS vzniká z rozdílu obou; výška a vertikální rychlost používají statický tlak."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Chyba nebo ucpání tlakových vedení může ovlivnit více přístrojů současně. Při pochybnostech je třeba porovnávat nezávislé indikace a postupovat podle checklistu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 123,
+      "title": "Pojem inklinace znamená",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „úhel mezi siločárami zemského magnetického pole a horizontální rovinou“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „úhel mezi siločárami zemského magnetického pole a horizontální rovinou“. Magnetické a gyroskopické přístroje používají odlišné fyzikální principy. Kompas reaguje na zemské a palubní magnetické pole, gyroskopické přístroje využívají tuhost a precesi rotujícího setrvačníku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Kompas: deklinace patří Zemi, deviace letadlu, inklinace popisuje sklon magnetických siločar. Gyro: tuhost v prostoru a precese o 90°."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigaci se magnetický kompas pravidelně porovnává s dalšími směrovými údaji a zohledňuje se jeho chování v zatáčkách a při akceleraci."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 124,
+      "title": "Co ukazuje relativní sklonoměr",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „relativní vertikálu“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „relativní vertikálu“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 125,
+      "title": "Kulička relativního sklonoměru je v pravé zatáčce vychýlena vpravo. Jak ji lze přivést…",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „zmenšit náklon, zvětšit úhlovou rychlost zatáčení“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „zmenšit náklon, zvětšit úhlovou rychlost zatáčení“. Primární řízení převádí pohyb pilota na aerodynamickou sílu kolem příslušné osy; trim a další sekundární prvky upravují síly v řízení nebo letové vlastnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná osa = klonění = křidélka. Příčná osa = klopení = výškovka. Svislá osa = bočení = směrovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V letu je důležité rozlišovat okamžitý řídicí zásah od vyvážení trimem. Trim odstraňuje trvalou sílu v řízení po ustálení požadovaného režimu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 126,
+      "title": "Účel vingletů",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „snížení indukovaného odporu“. Winglet omezuje přetékání vzduchu mezi spodní a horní stranou křídla na jeho konci, čímž oslabuje koncový vír a snižuje indukovaný odpor.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „snížení indukovaného odporu“. Winglet omezuje přetékání vzduchu mezi spodní a horní stranou křídla na jeho konci, čímž oslabuje koncový vír a snižuje indukovaný odpor."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Winglet = slabší koncový vír = menší indukovaný odpor."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Účinek je nejvýznamnější v režimech s vyšším součinitelem vztlaku, kde je indukovaný odpor významnou částí celkového odporu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 127,
+      "title": "Jaké motory se většinou požívají v turistických motorových kluzácích (TMG)",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „čtyřválcové čtyřtakty“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „čtyřválcové čtyřtakty“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    },
+    {
+      "subject_id": 8,
+      "source_question_id": 128,
+      "title": "Účel motorového oleje v pístovém motoru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-08-official-questions",
+      "explanation": "Správná odpověď je „chlazení a mazání motoru a ukládání jemných otěrů“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Správná odpověď je „chlazení a mazání motoru a ukládání jemných otěrů“. Pístový letecký motor pracuje jako soustava spalování, zapalování, mazání a chlazení; správná funkce každé části přímo ovlivňuje výkon a spolehlivost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Čtyřdobý cyklus: sání → stlačení → expanze po zapálení → výfuk. Magnety tvoří dva nezávislé zapalovací okruhy a motorový olej maže i odvádí teplo."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Motorové hodnoty se sledují v předepsaných mezích. Neobvyklé otáčky, teploty, tlaky nebo chod motoru se vyhodnocují podle AFM/POH."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.0 ze dne 30.12.2020."
+    }
+  ]
+}

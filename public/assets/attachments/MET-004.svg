@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t d">
+  <title id="t">MET-004 studijní ilustrace oblaku Cirrus</title>
+  <desc id="d">Vysoká jemná vláknitá oblačnost typu Cirrus.</desc>
+  <rect width="720" height="480" fill="#eaf4fb"/>
+  <g fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" opacity="0.98">
+    <path d="M95 155 C200 95 315 150 405 105 C500 58 575 90 655 55"/>
+    <path d="M135 215 C225 165 300 210 390 170 C490 125 565 158 635 130"/>
+    <path d="M180 275 C275 225 360 270 455 230 C525 200 575 215 625 190"/>
+  </g>
+  <g fill="none" stroke="#d9e6ef" stroke-width="4" stroke-linecap="round">
+    <path d="M110 165 C220 100 330 160 420 118"/>
+    <path d="M145 226 C240 175 320 218 405 180"/>
+    <path d="M195 286 C285 238 375 280 470 240"/>
+  </g>
+  <text x="302" y="390" font-family="sans-serif" font-size="29" font-weight="700" fill="#17384f">Cirrus</text>
+  <text x="190" y="430" font-family="sans-serif" font-size="18" fill="#465b6b">Studijní ilustrace přílohy MET-004</text>
+</svg>

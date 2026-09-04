@@ -29,9 +29,11 @@ function quiz_public_question_shape(array $row): array
 {
     $decodedChoices = json_decode((string) ($row['choices_json'] ?? '[]'), true);
     $choices = is_array($decodedChoices) ? array_values(array_map(static fn ($choice): string => trim((string) $choice), $decodedChoices)) : [];
-    if (count($choices) === 4) {
+    if (count($choices) === 4 && (string) ($row['wording_status'] ?? '') !== 'source_exact') {
         shuffle($choices);
     }
+    $decodedSections = json_decode((string) ($row['explanation_sections_json'] ?? '[]'), true);
+    $sections = is_array($decodedSections) ? array_values(array_filter($decodedSections, static fn ($section): bool => is_array($section))) : [];
     return [
         'sequence_no' => (int) $row['sequence_no'],
         'subject_id' => (int) $row['subject_id'],
@@ -43,6 +45,9 @@ function quiz_public_question_shape(array $row): array
         'choices' => $choices,
         'choices_generated' => !empty($row['choices_generated']),
         'explanation' => (string) $row['explanation'],
+        'explanation_sections' => $sections,
+        'curation_status' => (string) ($row['curation_status'] ?? 'draft'),
+        'wording_status' => (string) ($row['wording_status'] ?? 'study_wording'),
         'warning' => (string) ($row['warning'] ?? ''),
         'attachment_code' => (string) ($row['attachment_code'] ?? ''),
         'attachment_url' => (string) ($row['attachment_url'] ?? ''),

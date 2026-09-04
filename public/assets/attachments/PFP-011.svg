@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
+  <title id="t">PFP-011 Výkonnost stoupání</title>
+  <desc id="d">Studijní podklad PFP-011.</desc>
+  <rect width="1000" height="500" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="440" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Výkonnost stoupání</text>
+<rect x="50" y="115" width="300" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="200.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Tlaková výška</text>
+<rect x="350" y="115" width="250" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="475.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">OAT</text>
+<rect x="600" y="115" width="350" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="775.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Max. stoupavost</text>
+<rect x="50" y="165" width="300" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="200.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">10 000 ft</text>
+<rect x="350" y="165" width="250" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="475.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">-20 °C</text>
+<rect x="600" y="165" width="350" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="775.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">390 ft/min</text>
+<rect x="50" y="223" width="300" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="200.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">9 000 ft</text>
+<rect x="350" y="223" width="250" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="475.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">12 °C</text>
+<rect x="600" y="223" width="350" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="775.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">200 ft/min</text>
+<rect x="50" y="281" width="300" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="200.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">6 500 ft</text>
+<rect x="350" y="281" width="250" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="475.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">0 °C</text>
+<rect x="600" y="281" width="350" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="775.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">480 ft/min</text>
+<text x="60" y="381" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Hodnoty jsou připravené pro zdrojové úlohy 59, 64 a 65.</text>
+  <text x="500.0" y="478" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

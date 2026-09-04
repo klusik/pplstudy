@@ -1,0 +1,3231 @@
+{
+  "schema_version": 1,
+  "subject_id": 3,
+  "questions": [
+    {
+      "subject_id": 3,
+      "source_question_id": 1,
+      "title": "Vlhká nestabilní vzduchová hmota nad pohořím",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Vlhký nestabilní vzduch nucený vystupovat po návětrné straně se adiabaticky ochlazuje a kondenzuje. Nestabilita podporuje silný vertikální rozvoj, takže lze očekávat Cb, přeháňky, bouřky a případně kroupy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vlhký nestabilní vzduch nucený vystupovat po návětrné straně se adiabaticky ochlazuje a kondenzuje. Nestabilita podporuje silný vertikální rozvoj, takže lze očekávat Cb, přeháňky, bouřky a případně kroupy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vlhká nestabilní vzduchová hmota nad pohořím“ s publikovanou správnou odpovědí: „zastřené Cb s bouřkami a přeháňkami krup anebo deště“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 2,
+      "title": "Orografická mlha",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Při orografickém výstupu se téměř nasycený vzduch ochlazuje až k rosnému bodu. Pokud kondenzace probíhá přímo u terénu, vzniká orografická mlha.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při orografickém výstupu se téměř nasycený vzduch ochlazuje až k rosnému bodu. Pokud kondenzace probíhá přímo u terénu, vzniká orografická mlha."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Orografická mlha“ s publikovanou správnou odpovědí: „orografická mlha“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 3,
+      "title": "Přerůstání konvektivní oblačnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Přerůstání konvektivní oblačnosti znamená další vertikální vývoj kumulů do stadia, ve kterém už vznikají přeháňky. Je to známka aktivní a dostatečně hluboké konvekce.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přerůstání konvektivní oblačnosti znamená další vertikální vývoj kumulů do stadia, ve kterém už vznikají přeháňky. Je to známka aktivní a dostatečně hluboké konvekce."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Přerůstání konvektivní oblačnosti“ s publikovanou správnou odpovědí: „vertikální rozvoj kumulů až do dešťových přeháněk“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 4,
+      "title": "Složení vzduchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Suchý vzduch tvoří přibližně 78 % dusíku, 21 % kyslíku a asi 1 % ostatních plynů. Vodní pára je proměnlivá složka a v této zkušební otázce není součástí uvedeného základního poměru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Suchý vzduch tvoří přibližně 78 % dusíku, 21 % kyslíku a asi 1 % ostatních plynů. Vodní pára je proměnlivá složka a v této zkušební otázce není součástí uvedeného základního poměru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "78 dusík, 21 kyslík, zbytek přibližně 1."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 5,
+      "title": "Troposféra a meteorologické jevy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Většina vodní páry a téměř všechny běžné meteorologické děje jsou soustředěny v troposféře. Právě v této vrstvě probíhá konvekce, tvorba oblačnosti a většina srážek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Většina vodní páry a téměř všechny běžné meteorologické děje jsou soustředěny v troposféře. Právě v této vrstvě probíhá konvekce, tvorba oblačnosti a většina srážek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Troposféra a meteorologické jevy“ s publikovanou správnou odpovědí: „troposféra“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 6,
+      "title": "Hustota vzduchu v ISA",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Mezinárodní standardní atmosféra používá u hladiny moře hustotu 1,225 kg/m³. Krychle vzduchu o objemu 1 m³ má proto v těchto podmínkách hmotnost 1,225 kg.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mezinárodní standardní atmosféra používá u hladiny moře hustotu 1,225 kg/m³. Krychle vzduchu o objemu 1 m³ má proto v těchto podmínkách hmotnost 1,225 kg."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ISA u MSL: 1 m³ vzduchu ≈ 1,225 kg."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 7,
+      "title": "Teplotní gradient ISA v troposféře",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Standardní teplotní gradient v troposféře je přibližně 6,5 °C na 1000 m, což odpovídá zhruba 2 °C na 1000 ft.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní teplotní gradient v troposféře je přibližně 6,5 °C na 1000 m, což odpovídá zhruba 2 °C na 1000 ft."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ISA: zhruba 2 °C dolů na každých 1000 ft nahoru."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 8,
+      "title": "Střední výška tropopauzy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Standardní tropopauza leží přibližně v 11 000 m. Jde o referenční hodnotu ISA, nikoli pevnou skutečnou výšku tropopauzy v každé meteorologické situaci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní tropopauza leží přibližně v 11 000 m. Jde o referenční hodnotu ISA, nikoli pevnou skutečnou výšku tropopauzy v každé meteorologické situaci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Tropopauza: 11 km."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 9,
+      "title": "Definice tropopauzy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Tropopauza je přechodová vrstva mezi troposférou a stratosférou. Odděluje oblast běžného poklesu teploty v troposféře od odlišného teplotního profilu stratosféry.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Tropopauza je přechodová vrstva mezi troposférou a stratosférou. Odděluje oblast běžného poklesu teploty v troposféře od odlišného teplotního profilu stratosféry."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Definice tropopauzy“ s publikovanou správnou odpovědí: „hraniční vrstva mezi troposférou a stratosférou“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 10,
+      "title": "Jednotka meteorologické teploty",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Evropské letecké meteorologické zprávy udávají teplotu ve stupních Celsia. Stejnou jednotku používají běžně METAR, TAF i další provozní produkty.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Evropské letecké meteorologické zprávy udávají teplotu ve stupních Celsia. Stejnou jednotku používají běžně METAR, TAF i další provozní produkty."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Jednotka meteorologické teploty“ s publikovanou správnou odpovědí: „stupně Celsia (° C)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 11,
+      "title": "Inverzní vrstva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V inverzi teplota s výškou roste. Taková vrstva je velmi stabilní a omezuje vertikální promíchávání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V inverzi teplota s výškou roste. Taková vrstva je velmi stabilní a omezuje vertikální promíchávání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Inverzní vrstva“ s publikovanou správnou odpovědí: „vrstva v atmosféře, kde teplota roste s rostoucí výškou“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 12,
+      "title": "Izotermální vrstva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V izotermální vrstvě se teplota s výškou nemění. Teplotní gradient je tedy přibližně nulový.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V izotermální vrstvě se teplota s výškou nemění. Teplotní gradient je tedy přibližně nulový."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Izotermální vrstva“ s publikovanou správnou odpovědí: „vrstva v atmosféře, kde je teplota s rostoucí výškou konstantní“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 13,
+      "title": "Standardní teplotní gradient",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "ISA používá v troposféře gradient 0,65 °C na 100 m. Je to tatáž hodnota jako přibližně 6,5 °C na 1000 m.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ISA používá v troposféře gradient 0,65 °C na 100 m. Je to tatáž hodnota jako přibližně 6,5 °C na 1000 m."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ISA gradient: 0,65 °C / 100 m."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 14,
+      "title": "Výšková inverze v tlakové výši",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Subsidence v oblasti vysokého tlaku stlačuje sestupující vzduch a adiabaticky jej ohřívá. Tím může vzniknout výšková, neboli subsidenční, inverze.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Subsidence v oblasti vysokého tlaku stlačuje sestupující vzduch a adiabaticky jej ohřívá. Tím může vzniknout výšková, neboli subsidenční, inverze."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Výšková inverze v tlakové výši“ s publikovanou správnou odpovědí: „rozlévající se sestupný proud vzduchu v oblasti vysokého tlaku vzduchu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 15,
+      "title": "Přízemní inverze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Za jasné a klidné noci zemský povrch vyzařuje teplo a ochlazuje nejnižší vrstvu vzduchu. Teplota pak může s výškou od povrchu růst a vznikne přízemní radiační inverze.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Za jasné a klidné noci zemský povrch vyzařuje teplo a ochlazuje nejnižší vrstvu vzduchu. Teplota pak může s výškou od povrchu růst a vznikne přízemní radiační inverze."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Přízemní inverze“ s publikovanou správnou odpovědí: „chladnutím země v noci“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 16,
+      "title": "Tlak ve FL 180",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Ve standardní atmosféře je tlak kolem FL180 přibližně poloviční oproti hladině moře, tedy zhruba 500 hPa.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ve standardní atmosféře je tlak kolem FL180 přibližně poloviční oproti hladině moře, tedy zhruba 500 hPa."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "FL180 ≈ 500 hPa, tedy zhruba polovina tlaku u MSL."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 17,
+      "title": "QFF",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "QFF je tlak stanice redukovaný na střední hladinu moře s využitím skutečné atmosféry. Je určen hlavně pro meteorologické porovnávání tlaku mezi stanicemi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QFF je tlak stanice redukovaný na střední hladinu moře s využitím skutečné atmosféry. Je určen hlavně pro meteorologické porovnávání tlaku mezi stanicemi."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QFF“ s publikovanou správnou odpovědí: „QFF“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 18,
+      "title": "Hustota vzduchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Hustota klesá, když se vzduch ohřívá nebo když klesá jeho tlak. Teplejší vzduch se při stejném tlaku rozpíná a nižší tlak znamená méně hmoty v daném objemu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hustota klesá, když se vzduch ohřívá nebo když klesá jeho tlak. Teplejší vzduch se při stejném tlaku rozpíná a nižší tlak znamená méně hmoty v daném objemu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Hustota vzduchu“ s publikovanou správnou odpovědí: „nárůst teploty, pokles tlaku“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 19,
+      "title": "Standardní tlak na MSL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Standardní tlak na MSL je 1013,25 hPa. Tato hodnota je základem letových hladin a tlakové referenční soustavy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní tlak na MSL je 1013,25 hPa. Tato hodnota je základem letových hladin a tlakové referenční soustavy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Standardní tlak: 1013,25 hPa."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 20,
+      "title": "Tropopauza v stopách",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Výška standardní tropopauzy je přibližně 36 000 ft, což odpovídá asi 11 km.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výška standardní tropopauzy je přibližně 36 000 ft, což odpovídá asi 11 km."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Tropopauza: přibližně 36 000 ft."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 21,
+      "title": "Referenční tlaková hladina výškoměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Barometrický výškoměr převádí statický tlak na výškový údaj vzhledem k tlaku nastavenému v okénku. Jeho nulová/reference tedy závisí na zvolené tlakové hladině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Barometrický výškoměr převádí statický tlak na výškový údaj vzhledem k tlaku nastavenému v okénku. Jeho nulová/reference tedy závisí na zvolené tlakové hladině."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Referenční tlaková hladina výškoměru“ s publikovanou správnou odpovědí: „zvolenou referenční tlakovou hladinou“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 22,
+      "title": "Kontrola výškoměru pomocí QNH",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Po nastavení správného QNH má výškoměr na letišti ukazovat přibližně známou nadmořskou výšku letiště. Tím lze před letem ověřit jeho rozumnou funkci a správnost nastavení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po nastavení správného QNH má výškoměr na letišti ukazovat přibližně známou nadmořskou výšku letiště. Tím lze před letem ověřit jeho rozumnou funkci a správnost nastavení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Kontrola výškoměru pomocí QNH“ s publikovanou správnou odpovědí: „QNH a porovnáním indikace s nadmořskou výškou letiště“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 23,
+      "title": "Výškoměr nastavený na QFE",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "QFE používá tlak letiště jako referenci. Na letišti proto výškoměr ukazuje přibližně nulu a za letu výšku vzhledem k této tlakové úrovni.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QFE používá tlak letiště jako referenci. Na letišti proto výškoměr ukazuje přibližně nulu a za letu výšku vzhledem k této tlakové úrovni."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Výškoměr nastavený na QFE“ s publikovanou správnou odpovědí: „výšku nad úrovní tlaku vztaženého k výšce letiště nad mořem“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Nezaměňuj altitude, height a flight level ani jejich tlakové reference.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 24,
+      "title": "Výškoměr nastavený na QNH",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "QNH redukuje tlak na MSL tak, aby výškoměr indikoval přibližnou nadmořskou výšku. Na letišti má po nastavení QNH ukazovat jeho elevaci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QNH redukuje tlak na MSL tak, aby výškoměr indikoval přibližnou nadmořskou výšku. Na letišti má po nastavení QNH ukazovat jeho elevaci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Výškoměr nastavený na QNH“ s publikovanou správnou odpovědí: „výšku nad střední hladinou moře (MSL)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "Nezaměňuj altitude, height a flight level ani jejich tlakové reference.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 25,
+      "title": "Skutečná výška při nestandardním tlaku a teplotě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Nízké QNH a teplota pod ISA vedou k tomu, že skutečná nadmořská výška je nižší než samotná tlaková hladina naznačuje. Pro zadané hodnoty je zdrojový výsledek 7300 ft.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nízké QNH a teplota pod ISA vedou k tomu, že skutečná nadmořská výška je nižší než samotná tlaková hladina naznačuje. Pro zadané hodnoty je zdrojový výsledek 7300 ft."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Skutečná výška při nestandardním tlaku a teplotě“ s publikovanou správnou odpovědí: „7300 ft“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pro pilota jsou tlak, teplota, hustota a stabilita přímo propojené s výškoměrem, výkonností letadla, skutečnou výškou nad terénem a vývojem oblačnosti. Před letem proto kontroluj QNH, teplotu a očekávaný vertikální profil atmosféry."
+        }
+      ],
+      "warning": "U výškových oprav si vždy odděl vliv tlaku od vlivu teploty. Studená atmosféra znamená, že skutečná výška je nižší než indikovaná při stejné tlakové referenci.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 26,
+      "title": "Vítr na přízemní synoptické mapě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Na přízemní mapě ukazuje hustota izobar velikost tlakového gradientu a jejich průběh pomáhá určit směr proudění kolem tlakových útvarů. Čím těsnější izobary, tím obecně silnější vítr.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na přízemní mapě ukazuje hustota izobar velikost tlakového gradientu a jejich průběh pomáhá určit směr proudění kolem tlakových útvarů. Čím těsnější izobary, tím obecně silnější vítr."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vítr na přízemní synoptické mapě“ s publikovanou správnou odpovědí: „podle zaoblení a vzdálenosti izobar“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 27,
+      "title": "Síla tlakového gradientu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Vítr vzniká primárně působením síly tlakového gradientu, která urychluje vzduch z oblasti vyššího tlaku směrem k nižšímu tlaku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vítr vzniká primárně působením síly tlakového gradientu, která urychluje vzduch z oblasti vyššího tlaku směrem k nižšímu tlaku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Síla tlakového gradientu“ s publikovanou správnou odpovědí: „síla tlakového gradientu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 28,
+      "title": "Vítr nad třecí vrstvou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Nad třecí vrstvou se při přibližné rovnováze tlakového gradientu a Coriolisovy síly proudění orientuje téměř rovnoběžně s izobarami.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nad třecí vrstvou se při přibližné rovnováze tlakového gradientu a Coriolisovy síly proudění orientuje téměř rovnoběžně s izobarami."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vítr nad třecí vrstvou“ s publikovanou správnou odpovědí: „rovnoběžně s izobarami“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 29,
+      "title": "Vliv terénu na tření větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Drsný a členitý povrch zvyšuje mechanické tření a nejvíce zpomaluje přízemní proudění. Horský zalesněný terén proto vítr brzdí výrazněji než hladký oceán nebo poušť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Drsný a členitý povrch zvyšuje mechanické tření a nejvíce zpomaluje přízemní proudění. Horský zalesněný terén proto vítr brzdí výrazněji než hladký oceán nebo poušť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vliv terénu na tření větru“ s publikovanou správnou odpovědí: „horský terén pokrytý vegetací“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 30,
+      "title": "Konvergence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Konvergence znamená sbíhání proudění do jedné oblasti. Vzduch se v přízemní vrstvě nemůže hromadit, proto je následně nucen stoupat.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Konvergence znamená sbíhání proudění do jedné oblasti. Vzduch se v přízemní vrstvě nemůže hromadit, proto je následně nucen stoupat."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "CONvergence = proudy jdou CONvergentně k sobě."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 31,
+      "title": "Divergence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Divergence znamená rozbíhání proudění od jedné oblasti. U země bývá spojena s doplňováním vzduchu sestupem shora.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Divergence znamená rozbíhání proudění od jedné oblasti. U země bývá spojena s doplňováním vzduchu sestupem shora."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "DIvergence = proudy se rozbíhají od sebe."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 32,
+      "title": "Přízemní konvergence a oblačnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Přízemní konvergence nutí vzduch stoupat. Při dostatečné vlhkosti se během výstupu ochladí k nasycení a vzniká oblačnost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přízemní konvergence nutí vzduch stoupat. Při dostatečné vlhkosti se během výstupu ochladí k nasycení a vzniká oblačnost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Přízemní konvergence a oblačnost“ s publikovanou správnou odpovědí: „stoupající vzduch a tvorba oblačnosti“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 33,
+      "title": "Střet vzduchových hmot",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Čelní sbíhání dvou vzduchových hmot je konvergence. Pokračující přítok vzduchu podporuje jeho výstup a tím i tvorbu oblačnosti a srážek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Čelní sbíhání dvou vzduchových hmot je konvergence. Pokračující přítok vzduchu podporuje jeho výstup a tím i tvorbu oblačnosti a srážek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Střet vzduchových hmot“ s publikovanou správnou odpovědí: „konvergence se stoupajícím vzduchem“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 34,
+      "title": "Vzduchové hmoty střední Evropy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Střední Evropu významně ovlivňuje studený polární a teplý subtropický vzduch. Jejich rozhraní je zásadní pro vývoj frontálního počasí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Střední Evropu významně ovlivňuje studený polární a teplý subtropický vzduch. Jejich rozhraní je zásadní pro vývoj frontálního počasí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vzduchové hmoty střední Evropy“ s publikovanou správnou odpovědí: „studený polární a teplý subtropický vzduch“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 35,
+      "title": "Polární fronta",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Rozhraní mezi studeným polárním a teplým subtropickým vzduchem se označuje jako polární fronta.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rozhraní mezi studeným polárním a teplým subtropickým vzduchem se označuje jako polární fronta."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Polární fronta“ s publikovanou správnou odpovědí: „na polární frontě“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 36,
+      "title": "Anabatický vítr",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Anabatický vítr proudí vzhůru po svahu. Typicky vzniká při denním ohřevu svahu a přilehlého vzduchu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Anabatický vítr proudí vzhůru po svahu. Typicky vzniká při denním ohřevu svahu a přilehlého vzduchu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ANA = nahoru po svahu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 37,
+      "title": "Katabatický vítr",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Katabatický vítr proudí dolů po svahu. Často vzniká gravitačním stékáním ochlazeného, hustšího vzduchu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Katabatický vítr proudí dolů po svahu. Často vzniká gravitačním stékáním ochlazeného, hustšího vzduchu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "KATA = dolů po svahu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 38,
+      "title": "Sestupné proudění za pohořím",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Zdrojová otázka označuje sestupující proudění za pohořím jako katabatický vítr. Pro zkoušku drž tuto vazbu přesně podle publikované databáze.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zdrojová otázka označuje sestupující proudění za pohořím jako katabatický vítr. Pro zkoušku drž tuto vazbu přesně podle publikované databáze."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Sestupné proudění za pohořím“ s publikovanou správnou odpovědí: „katabatický vítr“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "Tuto položku se uč přesně podle zdrojové databáze ÚCL, která pro uvedenou formulaci označuje odpověď „katabatický vítr“.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 39,
+      "title": "Vznik fénu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Fén vzniká při proudění přes horskou překážku, typicky ve stabilnější vzduchové hmotě. Na závětrné straně sestupující vzduch adiabaticky otepluje a vysušuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Fén vzniká při proudění přes horskou překážku, typicky ve stabilnější vzduchové hmotě. Na závětrné straně sestupující vzduch adiabaticky otepluje a vysušuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vznik fénu“ s publikovanou správnou odpovědí: „stabilitě, větru vanoucímu proti pohoří“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 40,
+      "title": "Rotorové proudění při fénu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V závětří horského hřebene mohou pod stojatými vlnami vznikat rotory. V jejich blízkosti je proudění silně turbulentní a místy velmi nepravidelné.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V závětří horského hřebene mohou pod stojatými vlnami vznikat rotory. V jejich blízkosti je proudění silně turbulentní a místy velmi nepravidelné."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Rotorové proudění při fénu“ s publikovanou správnou odpovědí: „rotorové proudění“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 41,
+      "title": "Termická turbulence pod Cu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Kumulovitá oblačnost je viditelným projevem termické konvekce. Pod aktivními Cu proto lze očekávat alespoň slabou termickou turbulenci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kumulovitá oblačnost je viditelným projevem termické konvekce. Pod aktivními Cu proto lze očekávat alespoň slabou termickou turbulenci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Termická turbulence pod Cu“ s publikovanou správnou odpovědí: „pod kumulovitou oblačností kvůli termické konvekci“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 42,
+      "title": "Rotorová turbulence v závětří",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Rotorová oblačnost v závětří je praktický indikátor silného mechanického a vlnového proudění. V její blízkosti lze očekávat střední až silnou turbulenci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rotorová oblačnost v závětří je praktický indikátor silného mechanického a vlnového proudění. V její blízkosti lze očekávat střední až silnou turbulenci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Rotorová turbulence v závětří“ s publikovanou správnou odpovědí: „na závětrné straně pohoří, je-li přítomna rotorová oblačnost“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vítr a proudění kolem terénu mají přímý dopad na turbulenci, stoupání a klesání i volbu bezpečné trasy. V horském prostředí počítej s výrazně silnějšími lokálními efekty, než naznačuje samotný přízemní vítr na letišti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 43,
+      "title": "Skupenství vody v atmosféře",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Voda se v atmosféře vyskytuje jako vodní pára, kapalné kapky i pevné ledové částice. Přechody mezi těmito fázemi jsou základem tvorby oblačnosti, srážek i námrazy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Voda se v atmosféře vyskytuje jako vodní pára, kapalné kapky i pevné ledové částice. Přechody mezi těmito fázemi jsou základem tvorby oblačnosti, srážek i námrazy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pára, kapalina, led: všechna tři skupenství."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 44,
+      "title": "Rosný bod při ochlazování",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Při ochlazování vzduchu bez změny jeho obsahu vodní páry zůstává rosný bod přibližně stejný, zatímco relativní vlhkost roste, protože se teplota přibližuje rosnému bodu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při ochlazování vzduchu bez změny jeho obsahu vodní páry zůstává rosný bod přibližně stejný, zatímco relativní vlhkost roste, protože se teplota přibližuje rosnému bodu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Rosný bod při ochlazování“ s publikovanou správnou odpovědí: „teplota rosného bodu zůstává konstantní, relativní vlhkost se zvyšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 45,
+      "title": "Teplota, rosný bod a relativní vlhkost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Při ohřívání vzduchu bez přidání vodní páry se teplota vzdaluje od rosného bodu a relativní vlhkost klesá.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při ohřívání vzduchu bez přidání vodní páry se teplota vzdaluje od rosného bodu a relativní vlhkost klesá."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Teplota, rosný bod a relativní vlhkost“ s publikovanou správnou odpovědí: „rozdíl se zvětšuje, relativní vlhkost se zmenšuje“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 46,
+      "title": "Deficit rosného bodu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Deficit rosného bodu je rozdíl mezi aktuální teplotou vzduchu a teplotou rosného bodu. Malý deficit znamená vzduch blízký nasycení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Deficit rosného bodu je rozdíl mezi aktuální teplotou vzduchu a teplotou rosného bodu. Malý deficit znamená vzduch blízký nasycení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "T − Td = deficit rosného bodu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 47,
+      "title": "Ochlazování a relativní vlhkost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Když se vzduch ochlazuje a množství vodní páry zůstává stejné, teplota se přibližuje rosnému bodu a relativní vlhkost roste.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Když se vzduch ochlazuje a množství vodní páry zůstává stejné, teplota se přibližuje rosnému bodu a relativní vlhkost roste."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Ochlazování a relativní vlhkost“ s publikovanou správnou odpovědí: „zmenšení rozdílu mezi teplotou rosného bodu a vzduchu a nárůst relativní vlhkosti“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 48,
+      "title": "Latentní teplo při kondenzaci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Při kondenzaci se latentní teplo uvolňuje do okolního vzduchu. Tento přísun tepla zpomaluje ochlazování nasyceného stoupajícího vzduchu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při kondenzaci se latentní teplo uvolňuje do okolního vzduchu. Tento přísun tepla zpomaluje ochlazování nasyceného stoupajícího vzduchu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Latentní teplo při kondenzaci“ s publikovanou správnou odpovědí: „vznik oblačnosti způsobený kondenzací“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 49,
+      "title": "Nasycený adiabatický gradient",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Nasycený vzduch se při výstupu ochlazuje pomaleji než suchý, protože kondenzace uvolňuje latentní teplo. Nasycený adiabatický gradient je proto menší.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nasycený vzduch se při výstupu ochlazuje pomaleji než suchý, protože kondenzace uvolňuje latentní teplo. Nasycený adiabatický gradient je proto menší."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Nasycený adiabatický gradient“ s publikovanou správnou odpovědí: „menší než adiabatický teplotní gradient suchého vzduchu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 50,
+      "title": "Suchý adiabatický gradient",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Suchý adiabatický gradient má přibližnou hodnotu 1,0 °C na 100 m. Platí pro nenasycený vzduch při adiabatickém výstupu nebo sestupu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Suchý adiabatický gradient má přibližnou hodnotu 1,0 °C na 100 m. Platí pro nenasycený vzduch při adiabatickém výstupu nebo sestupu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Suchý: 1,0 °C / 100 m."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 51,
+      "title": "Střední nasycený adiabatický gradient",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Nasycený adiabatický gradient je proměnlivý, ale pro zkoušku se používá střední hodnota přibližně 0,6 °C na 100 m.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nasycený adiabatický gradient je proměnlivý, ale pro zkoušku se používá střední hodnota přibližně 0,6 °C na 100 m."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nasycený: přibližně 0,6 °C / 100 m."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 52,
+      "title": "Podmíněná nestabilita",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Podmíněná nestabilita se projeví intenzivně po nasycení stoupajícího vzduchu. Výsledkem mohou být věžovité Cu, přeháňky a bouřky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Podmíněná nestabilita se projeví intenzivně po nasycení stoupajícího vzduchu. Výsledkem mohou být věžovité Cu, přeháňky a bouřky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Podmíněná nestabilita“ s publikovanou správnou odpovědí: „věžovité kumuly, izolované dešťové přeháňky nebo bouřky“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 53,
+      "title": "Podmínky pro advekční mlhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Advekční mlha vzniká při přesunu teplého vlhkého vzduchu nad chladnější povrch, kde se nejnižší vrstva ochladí až k rosnému bodu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Advekční mlha vzniká při přesunu teplého vlhkého vzduchu nad chladnější povrch, kde se nejnižší vrstva ochladí až k rosnému bodu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Podmínky pro advekční mlhu“ s publikovanou správnou odpovědí: „teplý vlhký vzduch se pohybuje nad studeným zemským povrchem“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 54,
+      "title": "Základní druhy oblačnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Základní morfologické skupiny oblačnosti jsou kumulovitá, stratovitá a cirrovitá. Jednotlivé rody oblačnosti z těchto základních tvarů vycházejí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Základní morfologické skupiny oblačnosti jsou kumulovitá, stratovitá a cirrovitá. Jednotlivé rody oblačnosti z těchto základních tvarů vycházejí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Základní druhy oblačnosti“ s publikovanou správnou odpovědí: „kumulovitá ,stratovitá a cirrovitá“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 55,
+      "title": "Oblačnost vysokých vrstev",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Oblaka vysokého patra používají označení cirro-, například Cirrus, Cirrostratus a Cirrocumulus.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Oblaka vysokého patra používají označení cirro-, například Cirrus, Cirrostratus a Cirrocumulus."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vysoké patro: cirro-."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 56,
+      "title": "Altocumulus lenticularis v závětří",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Altocumulus lenticularis vzniká ve stojatém vlnovém proudění za horskou překážkou. Čočkovitý oblak může zůstávat téměř na místě i při silném proudění skrz něj.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Altocumulus lenticularis vzniká ve stojatém vlnovém proudění za horskou překážkou. Čočkovitý oblak může zůstávat téměř na místě i při silném proudění skrz něj."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Altocumulus lenticularis v závětří“ s publikovanou správnou odpovědí: „altokumulus lentikularis“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "Otázka používá přílohu MET-001. Lokální SVG je studijní překreslení stejného principu, nikoli kopie originální přílohy.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 57,
+      "title": "Rozpoznání kumulu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Cumulus má výrazný kupovitý vzhled s relativně plochou základnou a vertikálně členěnými vrcholy. Je typickým výsledkem konvekce.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Cumulus má výrazný kupovitý vzhled s relativně plochou základnou a vertikálně členěnými vrcholy. Je typickým výsledkem konvekce."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Rozpoznání kumulu“ s publikovanou správnou odpovědí: „kumulus“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "Otázka používá přílohu MET-002. Lokální SVG je studijní ilustrace typu oblačnosti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 58,
+      "title": "Rozpoznání cirru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Cirrus tvoří vysoká vláknitá oblaka z ledových krystalků. Typický je jemný, vláknitý nebo péřovitý vzhled.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Cirrus tvoří vysoká vláknitá oblaka z ledových krystalků. Typický je jemný, vláknitý nebo péřovitý vzhled."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Rozpoznání cirru“ s publikovanou správnou odpovědí: „cirus“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "Otázka používá přílohu MET-004. Lokální SVG je studijní ilustrace typu oblačnosti.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 59,
+      "title": "Vrcholky kumulovité oblačnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Inverzní vrstva vytváří stabilní víko, které omezuje další vertikální růst kumulovité oblačnosti. Vrcholky Cu se proto mohou rozlévat pod její základnou.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Inverzní vrstva vytváří stabilní víko, které omezuje další vertikální růst kumulovité oblačnosti. Vrcholky Cu se proto mohou rozlévat pod její základnou."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vrcholky kumulovité oblačnosti“ s publikovanou správnou odpovědí: „přítomnost inverzní vrstvy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 60,
+      "title": "Tendence k tvorbě mlhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Malý rozdíl mezi teplotou a rosným bodem znamená vysokou relativní vlhkost. Další ochlazování vzduchu pak snadno vede k nasycení a vzniku mlhy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Malý rozdíl mezi teplotou a rosným bodem znamená vysokou relativní vlhkost. Další ochlazování vzduchu pak snadno vede k nasycení a vzniku mlhy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Tendence k tvorbě mlhy“ s publikovanou správnou odpovědí: „malý rozdíl mezi teplotou vzduchu a rosného bodu, klesající teplota“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 61,
+      "title": "Podmínky omezující radiační mlhu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Souvislá oblačnost v noci omezuje vyzařování tepla ze zemského povrchu, a tím potlačuje ochlazení potřebné pro vznik radiační mlhy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Souvislá oblačnost v noci omezuje vyzařování tepla ze zemského povrchu, a tím potlačuje ochlazení potřebné pro vznik radiační mlhy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Podmínky omezující radiační mlhu“ s publikovanou správnou odpovědí: „zataženo“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 62,
+      "title": "Vznik advekční mlhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Advekční mlha vzniká, když teplý vlhký vzduch proudí nad chladným povrchem a ochladí se k nasycení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Advekční mlha vzniká, když teplý vlhký vzduch proudí nad chladným povrchem a ochladí se k nasycení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vznik advekční mlhy“ s publikovanou správnou odpovědí: „teplý vlhký vzduch se pohybuje nad studeným zemským povrchem“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 63,
+      "title": "Vznik orografické mlhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Orografická mlha vzniká při nuceném výstupu vlhkého vzduchu přes kopce nebo horský terén, během něhož se vzduch adiabaticky ochlazuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Orografická mlha vzniká při nuceném výstupu vlhkého vzduchu přes kopce nebo horský terén, během něhož se vzduch adiabaticky ochlazuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vznik orografické mlhy“ s publikovanou správnou odpovědí: „teplý vlhký vzduch se pohybuje v horském terénu přes kopce“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 64,
+      "title": "Stoupavé proudy a vznik srážek",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Pro růst srážkových částic je důležitý dostatečný vertikální vývoj a stoupavé proudy, které udrží kapky či ledové částice v oblaku dostatečně dlouho.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro růst srážkových částic je důležitý dostatečný vertikální vývoj a stoupavé proudy, které udrží kapky či ledové částice v oblaku dostatečně dlouho."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Stoupavé proudy a vznik srážek“ s publikovanou správnou odpovědí: „střední až silné stoupavé proudy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 65,
+      "title": "Velikost částic srážek",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Silné stoupavé proudy umožňují částicím srážek déle růst, než překonají vztlak proudění a začnou padat. Proto podporují vznik větších částic.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Silné stoupavé proudy umožňují částicím srážek déle růst, než překonají vztlak proudění a začnou padat. Proto podporují vznik větších částic."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Velikost částic srážek“ s publikovanou správnou odpovědí: „silné stoupavé proudy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 66,
+      "title": "Nimbostratus a trvalý déšť",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Nimbostratus je rozsáhlá vrstevnatá oblačnost typicky spojená s dlouhotrvajícími souvislými srážkami.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nimbostratus je rozsáhlá vrstevnatá oblačnost typicky spojená s dlouhotrvajícími souvislými srážkami."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Nimbostratus a trvalý déšť“ s publikovanou správnou odpovědí: „nimbostratus“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 67,
+      "title": "Cumulonimbus a přeháňky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Cumulonimbus vytváří konvektivní srážky, typicky přeháňky a bouřky s rychle proměnlivou intenzitou.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Cumulonimbus vytváří konvektivní srážky, typicky přeháňky a bouřky s rychle proměnlivou intenzitou."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Cumulonimbus a přeháňky“ s publikovanou správnou odpovědí: „kumulonimbus“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Vlhkost, rosné body, stabilita a typ oblačnosti pomáhají předvídat dohlednost, základnu oblačnosti, srážky a konvekci. Pro VFR je klíčové sledovat trend T/Td a rychlost vývoje oblačnosti, ne pouze okamžitý stav."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 68,
+      "title": "Kontinentální polární vzduch",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Vzduch přicházející v zimě z rozsáhlé pevniny Ruska má polární původ a kontinentální charakter. Bývá studený a relativně suchý.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vzduch přicházející v zimě z rozsáhlé pevniny Ruska má polární původ a kontinentální charakter. Bývá studený a relativně suchý."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Kontinentální polární vzduch“ s publikovanou správnou odpovědí: „kontinentální polární vzduch“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 69,
+      "title": "Určení typu vzduchové hmoty",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Charakter vzduchové hmoty určuje zejména oblast, kde se vytvořila, a trajektorie, po které se následně přesouvá. Cestou se její vlastnosti mohou měnit kontaktem s povrchem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Charakter vzduchové hmoty určuje zejména oblast, kde se vytvořila, a trajektorie, po které se následně přesouvá. Cestou se její vlastnosti mohou měnit kontaktem s povrchem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Určení typu vzduchové hmoty“ s publikovanou správnou odpovědí: „oblastí původu a směrem pohybu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 70,
+      "title": "Symbol studené fronty",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Symbol studené fronty tvoří čára s trojúhelníky na straně směru postupu fronty.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Symbol studené fronty tvoří čára s trojúhelníky na straně směru postupu fronty."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Studená fronta má trojúhelníky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "Otázka používá přílohu MET-005. Lokální SVG zachovává rozlišovací prvky frontálních symbolů.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 71,
+      "title": "Symbol teplé fronty",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Symbol teplé fronty tvoří čára s půlkruhy na straně směru postupu fronty.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Symbol teplé fronty tvoří čára s půlkruhy na straně směru postupu fronty."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Teplá fronta má půlkruhy."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "Otázka používá přílohu MET-005. Lokální SVG zachovává rozlišovací prvky frontálních symbolů.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 72,
+      "title": "Symbol okluze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Okluzní fronta se značí střídajícími se trojúhelníky a půlkruhy na stejné straně čáry.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Okluzní fronta se značí střídajícími se trojúhelníky a půlkruhy na stejné straně čáry."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Okluze kombinuje trojúhelníky a půlkruhy na jedné straně."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "Otázka používá přílohu MET-005. Lokální SVG zachovává rozlišovací prvky frontálních symbolů.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 73,
+      "title": "Oblačnost při teplé frontě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Před teplou frontou se typicky objevuje postupné zahušťování a snižování vrstevnaté oblačnosti, od vysokých cirrovitých oblaků přes střední vrstvy až k Ns a souvislým srážkám.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Před teplou frontou se typicky objevuje postupné zahušťování a snižování vrstevnaté oblačnosti, od vysokých cirrovitých oblaků přes střední vrstvy až k Ns a souvislým srážkám."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Oblačnost při teplé frontě“ s publikovanou správnou odpovědí: „cirus, ztenčující se altostratus a altokumulus, snižující se základna oblačnosti s deštěm, nimbostratus“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 74,
+      "title": "Počasí při studené frontě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Studená fronta podporuje rychlý výstup teplého vzduchu. Typické jsou silně vyvinuté Cu/Cb, přeháňky, bouřky a nárazový vítr, za frontou pak konvektivní přeháňky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Studená fronta podporuje rychlý výstup teplého vzduchu. Typické jsou silně vyvinuté Cu/Cb, přeháňky, bouřky a nárazový vítr, za frontou pak konvektivní přeháňky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Počasí při studené frontě“ s publikovanou správnou odpovědí: „silně vyvinuté kumuly (Cb) s přeháňkami a bouřkami, nárazový vítr a následně kumulovitá oblačnost s izolovanými dešťovými přeháňkami“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 75,
+      "title": "Teplý sektor v létě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V letním teplém sektoru může být dohlednost střední až dobrá a oblačnost roztrhaná. Podmínky závisí na vlhkosti vzduchové hmoty a lokálním promíchávání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V letním teplém sektoru může být dohlednost střední až dobrá a oblačnost roztrhaná. Podmínky závisí na vlhkosti vzduchové hmoty a lokálním promíchávání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Teplý sektor v létě“ s publikovanou správnou odpovědí: „střední až dobrá dohlednost, roztrhaná oblačnost“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 76,
+      "title": "Počasí za studenou frontou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Za studenou frontou přichází chladnější vzduch s lepší dohledností, ale často zůstává konvektivní Cu s přeháňkami deště nebo sněhu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Za studenou frontou přichází chladnější vzduch s lepší dohledností, ale často zůstává konvektivní Cu s přeháňkami deště nebo sněhu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Počasí za studenou frontou“ s publikovanou správnou odpovědí: „dobrá dohlednost, tvorba kumulovité oblačnosti s dešťovými nebo sněhovými přeháňkami“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 77,
+      "title": "Stacionární fronta",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Pokud se rozhraní dvou vzduchových hmot horizontálně prakticky nepohybuje, jde o stacionární frontu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pokud se rozhraní dvou vzduchových hmot horizontálně prakticky nepohybuje, jde o stacionární frontu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Stacionární fronta“ s publikovanou správnou odpovědí: „stacionární fronta“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 78,
+      "title": "Pohyb polární frontální níže",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Polární frontální níže se obvykle pohybuje přibližně ve směru proudění v teplém sektoru, tedy rovnoběžně s jeho izobarami.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Polární frontální níže se obvykle pohybuje přibližně ve směru proudění v teplém sektoru, tedy rovnoběžně s jeho izobarami."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Pohyb polární frontální níže“ s publikovanou správnou odpovědí: „rovnoběžně s izobarami teplého sektoru“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 79,
+      "title": "Tlak při přechodu frontální níže",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Před teplou frontou tlak zpravidla klesá, v teplém sektoru se mění málo a po přechodu studené fronty roste.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Před teplou frontou tlak zpravidla klesá, v teplém sektoru se mění málo a po přechodu studené fronty roste."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Před teplou frontou tlak klesá, za studenou roste."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 80,
+      "title": "Tlak při přechodu studené fronty",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Při přechodu studené fronty tlak často krátce klesne nebo dosáhne minima a následně za frontou výrazněji roste.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při přechodu studené fronty tlak často krátce klesne nebo dosáhne minima a následně za frontou výrazněji roste."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Tlak při přechodu studené fronty“ s publikovanou správnou odpovědí: „krátký pokles, potom nárůst“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 81,
+      "title": "Změna směru větru při přechodu front",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Ve střední Evropě se při běžném přechodu teplé i studené fronty směr větru stáčí po směru hodinových ručiček, tedy veers.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ve střední Evropě se při běžném přechodu teplé i studené fronty směr větru stáčí po směru hodinových ručiček, tedy veers."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Ve střední Evropě při obou přechodech veers, tedy po směru hodin."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 82,
+      "title": "Subtropické oblasti vysokého tlaku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Subtropické pásy vysokého tlaku jsou dlouhodobě výrazné zejména nad oceány kolem 30° severní a jižní šířky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Subtropické pásy vysokého tlaku jsou dlouhodobě výrazné zejména nad oceány kolem 30° severní a jižní šířky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Subtropické oblasti vysokého tlaku“ s publikovanou správnou odpovědí: „nad oceánem v zeměpisných šířkách kolem 30°N/S“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 83,
+      "title": "Letní tlaková výše a oblačnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Letní tlaková výše podporuje subsidenti a stabilitu. Při denním prohřátí se může vytvořit jen roztrhaná kupovitá oblačnost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Letní tlaková výše podporuje subsidenti a stabilitu. Při denním prohřátí se může vytvořit jen roztrhaná kupovitá oblačnost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Letní tlaková výše a oblačnost“ s publikovanou správnou odpovědí: „roztrhaná oblačnost Cu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 84,
+      "title": "Studený vzduch ve výšce a tlaková níže",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Studený vzduch ve výšce zmenšuje tloušťku tlakových vrstev. Výšky tlakových hladin klesají a v horní troposféře se může vytvořit tlaková níže.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Studený vzduch ve výšce zmenšuje tloušťku tlakových vrstev. Výšky tlakových hladin klesají a v horní troposféře se může vytvořit tlaková níže."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Studený vzduch ve výšce a tlaková níže“ s publikovanou správnou odpovědí: „vytvoření tlakové níže v horní troposféře“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 85,
+      "title": "Studený vzduch ve výšce a konvekce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Příliv studeného vzduchu ve výšce zvětšuje vertikální teplotní gradient a destabilizuje atmosféru, což podporuje přeháňky a bouřky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Příliv studeného vzduchu ve výšce zvětšuje vertikální teplotní gradient a destabilizuje atmosféru, což podporuje přeháňky a bouřky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Studený vzduch ve výšce a konvekce“ s publikovanou správnou odpovědí: „přeháňky a bouřky“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 86,
+      "title": "Tloušťka tlakových vrstev ve studeném vzduchu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Studený vzduch má při stejném tlakovém rozdílu menší hypsometrickou tloušťku. Tlakové hladiny jsou proto blíže u sebe a jejich geopotenciální výška klesá.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Studený vzduch má při stejném tlakovém rozdílu menší hypsometrickou tloušťku. Tlakové hladiny jsou proto blíže u sebe a jejich geopotenciální výška klesá."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Tloušťka tlakových vrstev ve studeném vzduchu“ s publikovanou správnou odpovědí: „zmenšení vertikální vzdálenosti, pokles výšky (nízký tlak)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 87,
+      "title": "Brázda nízkého tlaku ve výšce",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Brázda nízkého tlaku ve vyšších hladinách bývá spojena s chladnějším vzduchem a výstupnými pohyby, které podporují Cb, přeháňky a bouřky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Brázda nízkého tlaku ve vyšších hladinách bývá spojena s chladnějším vzduchem a výstupnými pohyby, které podporují Cb, přeháňky a bouřky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Brázda nízkého tlaku ve výšce“ s publikovanou správnou odpovědí: „rozvoj přeháněk a bouřek (Cb)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 88,
+      "title": "Polární fronta ve střední Evropě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Polární fronta odděluje studený polární vzduch od teplejšího subtropického vzduchu a je klíčovým rozhraním pro počasí středních zeměpisných šířek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Polární fronta odděluje studený polární vzduch od teplejšího subtropického vzduchu a je klíčovým rozhraním pro počasí středních zeměpisných šířek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Polární fronta ve střední Evropě“ s publikovanou správnou odpovědí: „polární fronta“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 89,
+      "title": "Letní počasí v tlakové výši",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V letní tlakové výši převládá subsidence, slabý vítr a rozpad rozsáhlejší oblačnosti. Při denním ohřevu se mohou objevit jen ojedinělé Cu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V letní tlakové výši převládá subsidence, slabý vítr a rozpad rozsáhlejší oblačnosti. Při denním ohřevu se mohou objevit jen ojedinělé Cu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Letní počasí v tlakové výši“ s publikovanou správnou odpovědí: „klidné počasí a rozpouštění oblačnosti, málo vysokých Cu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 90,
+      "title": "Letní tlaková výše ve střední Evropě",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Velké vzdálenosti mezi izobarami znamenají slabý tlakový gradient. V létě proto často převládá bezvětří nebo slabé proudění a vznikají místní větrné systémy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Velké vzdálenosti mezi izobarami znamenají slabý tlakový gradient. V létě proto často převládá bezvětří nebo slabé proudění a vznikají místní větrné systémy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Letní tlaková výše ve střední Evropě“ s publikovanou správnou odpovědí: „velké vzdálenosti mezi izobarami, bezvětří a tvorba místních větrných systémů“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 91,
+      "title": "Zimní počasí v tlakové výši",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V zimní tlakové výši může inverze zachytit vlhkost u země. Výsledkem bývají rozsáhlé nízké straty nebo vysoká mlha při velmi slabém větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V zimní tlakové výši může inverze zachytit vlhkost u země. Výsledkem bývají rozsáhlé nízké straty nebo vysoká mlha při velmi slabém větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zimní počasí v tlakové výši“ s publikovanou správnou odpovědí: „bezvětří a velké oblasti s vysokou mlhou“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 92,
+      "title": "Velká vzdálenost izobar",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Velká vzdálenost izobar znamená slabý tlakový gradient, a proto i slabý a proměnlivý vítr. Lokální ohřev a terén pak mohou snadno vytvořit místní cirkulace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Velká vzdálenost izobar znamená slabý tlakový gradient, a proto i slabý a proměnlivý vítr. Lokální ohřev a terén pak mohou snadno vytvořit místní cirkulace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Velká vzdálenost izobar“ s publikovanou správnou odpovědí: „slabý proměnlivý vítr, tvorba místních větrných systémů“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 93,
+      "title": "Návětrná strana při fénu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Na návětrné straně fénové situace vzduch stoupá, ochlazuje se a kondenzuje. Typická je vrstevnatá oblačnost, zakryté hory, špatná dohlednost a souvislé srážky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Na návětrné straně fénové situace vzduch stoupá, ochlazuje se a kondenzuje. Typická je vrstevnatá oblačnost, zakryté hory, špatná dohlednost a souvislé srážky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Návětrná strana při fénu“ s publikovanou správnou odpovědí: „vrstevnatá oblačnost, zastřené hory, špatná dohlednost, střední nebo intenzivní déšť“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 94,
+      "title": "Vítr zesilující průchodem pohořím",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Mistrál je studený silný vítr, který je v údolích a horských průsmycích výrazně urychlován kanalizačním účinkem terénu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Mistrál je studený silný vítr, který je v údolích a horských průsmycích výrazně urychlován kanalizačním účinkem terénu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vítr zesilující průchodem pohořím“ s publikovanou správnou odpovědí: „mistrál“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 95,
+      "title": "Bora",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Bora je studený nárazový katabatický vítr vanoucí z horského vnitrozemí směrem k Jaderskému moři.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bora je studený nárazový katabatický vítr vanoucí z horského vnitrozemí směrem k Jaderskému moři."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Bora“ s publikovanou správnou odpovědí: „bora“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Fronty a tlakové útvary určují velkou část synoptického vývoje počasí. Při plánování sleduj nejen polohu fronty, ale také její rychlost, tlakový trend, změnu větru, dohlednost a počasí před a za frontou."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 96,
+      "title": "Podmínky pro námrazu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Nejvýraznější námraza vzniká v oblacích s podchlazenými kapalnými kapkami, zejména při teplotách blízko nuly až zhruba -12 °C.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nejvýraznější námraza vzniká v oblacích s podchlazenými kapalnými kapkami, zejména při teplotách blízko nuly až zhruba -12 °C."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Největší riziko námrazy: podchlazené kapky kolem 0 až -12 °C."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "Při skutečném letu může být nebezpečná námraza i mimo zkušební rozsah teplot. Pro provoz se řiď aktuálními meteorologickými informacemi a omezeními konkrétního letadla.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 97,
+      "title": "Nejnebezpečnější teploty pro námrazu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Rozsah 0 až -12 °C je zvlášť nebezpečný, protože v něm může být velké množství podchlazené kapalné vody schopné rychle namrzat na draku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rozsah 0 až -12 °C je zvlášť nebezpečný, protože v něm může být velké množství podchlazené kapalné vody schopné rychle namrzat na draku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "0 až -12 °C si drž jako kritické pásmo námrazy."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 98,
+      "title": "Zrnitá námraza",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Zrnitá námraza vzniká hlavně z menších podchlazených kapek, které při nárazu rychle zmrznou a zachytí vzduch. Výsledkem je bělavá, drsnější a porézní vrstva.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zrnitá námraza vzniká hlavně z menších podchlazených kapek, které při nárazu rychle zmrznou a zachytí vzduch. Výsledkem je bělavá, drsnější a porézní vrstva."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Malé kapky rychle zamrznou = zrnitá námraza."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 99,
+      "title": "Ledovka",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Ledovka vzniká z větších podchlazených kapek, které se po nárazu rozlijí a zmrznou až následně. Vytváří hladkou, hustou a často těžkou vrstvu ledu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ledovka vzniká z větších podchlazených kapek, které se po nárazu rozlijí a zmrznou až následně. Vytváří hladkou, hustou a často těžkou vrstvu ledu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Velké kapky se rozlijí = ledovka."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 100,
+      "title": "Silný střih větru u přeháňky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Přeháňka v blízkosti letiště může být spojena s intenzivními sestupnými proudy a nárazovou frontou. V jejich okolí se může velmi rychle měnit směr i rychlost větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přeháňka v blízkosti letiště může být spojena s intenzivními sestupnými proudy a nárazovou frontou. V jejich okolí se může velmi rychle měnit směr i rychlost větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Silný střih větru u přeháňky“ s publikovanou správnou odpovědí: „je-li v blízkosti letiště vidět přeháňka“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "Viditelná přeháňka u letiště je důvod aktivně počítat s nárazovou frontou a windshearem, i když bouřka není přímo nad letištěm.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 101,
+      "title": "Podmínky pro bouřku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Bouřky potřebují vlhkost, zdroj vztlaku a dostatečnou nestabilitu. Teplý vlhký vzduch s podmíněně nestabilním teplotním profilem tyto podmínky splňuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bouřky potřebují vlhkost, zdroj vztlaku a dostatečnou nestabilitu. Teplý vlhký vzduch s podmíněně nestabilním teplotním profilem tyto podmínky splňuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Podmínky pro bouřku“ s publikovanou správnou odpovědí: „teplý vlhký vzduch, podmíněně nestabilní gradient teploty“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 102,
+      "title": "Bouřka z tepla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Bouřka z tepla vzniká při silném ohřevu a vysoké vlhkosti v podmíněně nestabilní atmosféře, která umožní termice vyrůst až do hluboké konvekce.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Bouřka z tepla vzniká při silném ohřevu a vysoké vlhkosti v podmíněně nestabilní atmosféře, která umožní termice vyrůst až do hluboké konvekce."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Bouřka z tepla“ s publikovanou správnou odpovědí: „podmíněně nestabilní atmosféra, vysoká teplota a vysoká relativní vlhkost“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 103,
+      "title": "Rozvinuté stadium bouřky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V rozvinutém, neboli mature, stadiu Cb existují současně silné stoupavé i klesavé proudy a objevují se intenzivní srážky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V rozvinutém, neboli mature, stadiu Cb existují současně silné stoupavé i klesavé proudy a objevují se intenzivní srážky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Mature stage: současně UP i DOWN."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 104,
+      "title": "Kumulové stadium bouřky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V kumulovém stadiu bouřky převládají stoupavé proudy, které budují vertikální strukturu oblaku. Klesavé proudy se významněji rozvinou až později.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V kumulovém stadiu bouřky převládají stoupavé proudy, které budují vertikální strukturu oblaku. Klesavé proudy se významněji rozvinou až později."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Cumulus stage: hlavně UP."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 105,
+      "title": "Úder blesku do letadla",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Blesk může v místě vstupu a výstupu způsobit silné lokální zahřátí a mechanické poškození. Moderní konstrukce vedou proud po povrchu, přesto je nutná následná kontrola.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Blesk může v místě vstupu a výstupu způsobit silné lokální zahřátí a mechanické poškození. Moderní konstrukce vedou proud po povrchu, přesto je nutná následná kontrola."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Úder blesku do letadla“ s publikovanou správnou odpovědí: „přehřátí povrchu a mechanické poškození zasažených částí draku“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 106,
+      "title": "Downburst a windshear",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Intenzivní srážky a bouřky jsou typickým prostředím pro downburst a microburst. U země vytvářejí silné klesání a prudké horizontální změny větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Intenzivní srážky a bouřky jsou typickým prostředím pro downburst a microburst. U země vytvářejí silné klesání a prudké horizontální změny větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Downburst a windshear“ s publikovanou správnou odpovědí: „v blízkosti oblasti intenzivních srážek nebo bouřek“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 107,
+      "title": "Húlava",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Rozlévající se studený sestupný proud z plně rozvinuté bouřky vytváří nárazovou frontu, v otázce označenou jako húlava.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rozlévající se studený sestupný proud z plně rozvinuté bouřky vytváří nárazovou frontu, v otázce označenou jako húlava."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Húlava“ s publikovanou správnou odpovědí: „húlava“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 108,
+      "title": "Vzlet v přízemní inverzi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Přízemní inverze může oddělovat dvě vrstvy s výrazně odlišným větrem. Při stoupání přes tuto vrstvu může náhlá změna protivětru způsobit pokles indikované rychlosti i stoupavosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přízemní inverze může oddělovat dvě vrstvy s výrazně odlišným větrem. Při stoupání přes tuto vrstvu může náhlá změna protivětru způsobit pokles indikované rychlosti i stoupavosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vzlet v přízemní inverzi“ s publikovanou správnou odpovědí: „během stoupání náhlý pokles rychlosti a stoupavosti“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "Při průletu inverzí sleduj současně IAS, vertikální rychlost a trend větru; změna protivětru může být rychlá.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 109,
+      "title": "Windshear v horském údolí",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Silný vítr přes horský hřeben vytváří v závětří vlny, rotory a výrazný střih. Při sestupu do údolí se může směr větru během krátké vertikální vzdálenosti změnit i velmi výrazně.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Silný vítr přes horský hřeben vytváří v závětří vlny, rotory a výrazný střih. Při sestupu do údolí se může směr větru během krátké vertikální vzdálenosti změnit i velmi výrazně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Windshear v horském údolí“ s publikovanou správnou odpovědí: „střih větru při sestupu, směr větru se může měnit až o 180°“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "Horské rotory a střih větru mohou být lokálně velmi silné i při VMC.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 110,
+      "title": "Zákal a teplotní změny",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Zákal tvoří suché částice v ovzduší a jeho dohlednost není svázána s teplotou tak těsně jako u mlhy nebo kouřma založených na vodních kapkách.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zákal tvoří suché částice v ovzduší a jeho dohlednost není svázána s teplotou tak těsně jako u mlhy nebo kouřma založených na vodních kapkách."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zákal a teplotní změny“ s publikovanou správnou odpovědí: „zákal (HZ)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Námraza, bouřky a windshear patří mezi jevy s rychlým dopadem na bezpečnost letu. U malého letadla je vhodná strategie založená na vyhnutí se podmínkám, včasném rozpoznání varovných znaků a zachování dostatečné únikové možnosti."
+        }
+      ],
+      "warning": "Zadání je negované: nejprve si zvýrazni slovo NENÍ/NEPLATÍ.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 111,
+      "title": "Synoptická mapa a fronty",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Synoptická mapa zobrazuje tlakové útvary, izobary a fronty, takže poskytuje celkový obraz přízemní meteorologické situace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Synoptická mapa zobrazuje tlakové útvary, izobary a fronty, takže poskytuje celkový obraz přízemní meteorologické situace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Synoptická mapa a fronty“ s publikovanou správnou odpovědí: „synoptická mapa“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 112,
+      "title": "Synoptická mapa a tlak na MSL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Přízemní synoptická mapa pracuje s naměřeným tlakem redukovaným na hladinu moře a zakresluje tlakové útvary i frontální systémy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přízemní synoptická mapa pracuje s naměřeným tlakem redukovaným na hladinu moře a zakresluje tlakové útvary i frontální systémy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Synoptická mapa a tlak na MSL“ s publikovanou správnou odpovědí: „synoptická mapa“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 113,
+      "title": "Satelitní snímky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Satelitní snímky poskytují plošný obraz oblačnosti a struktury frontálních systémů. Umožňují sledovat rozsah, tvar a pohyb oblačných polí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Satelitní snímky poskytují plošný obraz oblačnosti a struktury frontálních systémů. Umožňují sledovat rozsah, tvar a pohyb oblačných polí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Satelitní snímky“ s publikovanou správnou odpovědí: „přehled o pokrytí oblačností a o frontách“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 114,
+      "title": "Meteorologický radar",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Meteorologický radar zobrazuje odrazy od srážkových částic a je proto vhodným nástrojem pro lokalizaci oblastí srážek a konvektivních buněk.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Meteorologický radar zobrazuje odrazy od srážkových částic a je proto vhodným nástrojem pro lokalizaci oblastí srážek a konvektivních buněk."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Meteorologický radar“ s publikovanou správnou odpovědí: „radarový obraz“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 115,
+      "title": "LLSWC",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "LLSWC shrnuje předpovídané význačné meteorologické jevy v nižších hladinách, například fronty, turbulenci a námrazu. Samotné radarové odrazy jsou produktem meteorologického radaru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "LLSWC shrnuje předpovídané význačné meteorologické jevy v nižších hladinách, například fronty, turbulenci a námrazu. Samotné radarové odrazy jsou produktem meteorologického radaru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „LLSWC“ s publikovanou správnou odpovědí: „radarové odrazy srážek“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 116,
+      "title": "Synoptická mapa",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Synoptická mapa zobrazuje naměřené přízemní tlakové pole redukované na MSL společně s odpovídajícími frontálními systémy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Synoptická mapa zobrazuje naměřené přízemní tlakové pole redukované na MSL společně s odpovídajícími frontálními systémy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Synoptická mapa“ s publikovanou správnou odpovědí: „synoptické mapě“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 117,
+      "title": "METAR: intenzivní déšť",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "V METAR značí RA déšť a prefix + intenzivní, neboli silnou, intenzitu. +RA tedy znamená silný déšť.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V METAR značí RA déšť a prefix + intenzivní, neboli silnou, intenzitu. +RA tedy znamená silný déšť."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "+RA = silný déšť."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 118,
+      "title": "METAR: dešťové přeháňky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "SH je showers a RA je rain. SHRA bez prefixu intenzity znamená dešťové přeháňky střední intenzity.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SH je showers a RA je rain. SHRA bez prefixu intenzity znamená dešťové přeháňky střední intenzity."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SHRA = dešťové přeháňky."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 119,
+      "title": "ATIS versus METAR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "ATIS kombinuje meteorologické údaje s provozními informacemi letiště. Typickým rozdílem proti METAR je informace o dráze v používání nebo převodní hladině.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ATIS kombinuje meteorologické údaje s provozními informacemi letiště. Typickým rozdílem proti METAR je informace o dráze v používání nebo převodní hladině."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „ATIS versus METAR“ s publikovanou správnou odpovědí: „provozní informace, např. vzletová a přistávací dráha v provozu a převodní hladina“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 120,
+      "title": "ATIS za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "ATIS je určen přímo posádkám a poskytuje opakovaně vysílaný soubor aktuálních meteorologických a provozních informací cílového letiště.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ATIS je určen přímo posádkám a poskytuje opakovaně vysílaný soubor aktuálních meteorologických a provozních informací cílového letiště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „ATIS za letu“ s publikovanou správnou odpovědí: „ve zprávě ATIS“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 121,
+      "title": "SIGMET",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "SIGMET je oblastní výstraha na význačné jevy, které mohou ovlivnit bezpečnost letu. Vydává se pro vymezené oblasti FIR/UIR.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SIGMET je oblastní výstraha na význačné jevy, které mohou ovlivnit bezpečnost letu. Vydává se pro vymezené oblasti FIR/UIR."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "SIGMET se vztahuje na FIR/UIR."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 122,
+      "title": "Inverze",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Inverzní vrstva je definována růstem teploty s výškou. Je stabilní a často omezuje vertikální promíchávání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Inverzní vrstva je definována růstem teploty s výškou. Je stabilní a často omezuje vertikální promíchávání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Inverze“ s publikovanou správnou odpovědí: „kde teplota s rostoucí výškou roste“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 123,
+      "title": "Izobary a rychlost větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Velká vzdálenost izobar znamená malý tlakový gradient. Menší síla tlakového gradientu vede obecně k mírnějšímu větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Velká vzdálenost izobar znamená malý tlakový gradient. Menší síla tlakového gradientu vede obecně k mírnějšímu větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Izobary a rychlost větru“ s publikovanou správnou odpovědí: „malý tlakový gradient a mírný vítr“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 124,
+      "title": "Horský vítr",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Horský vítr je noční sestupné proudění ochlazeného vzduchu z horských svahů do údolí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Horský vítr je noční sestupné proudění ochlazeného vzduchu z horských svahů do údolí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Horský vítr“ s publikovanou správnou odpovědí: „vítr vanoucí dolů podél svahu v noci“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 125,
+      "title": "Údolní vítr",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Údolní vítr je denní proudění z údolí vzhůru po svazích, podporované slunečním ohřevem terénu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Údolní vítr je denní proudění z údolí vzhůru po svazích, podporované slunečním ohřevem terénu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Údolní vítr“ s publikovanou správnou odpovědí: „vítr vanoucí nahoru z údolí ve dne“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 126,
+      "title": "Vítr 225/15",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Směr větru se udává jako směr, odkud vítr vane. 225° leží na jihozápadě a druhé číslo udává rychlost 15 kt.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Směr větru se udává jako směr, odkud vítr vane. 225° leží na jihozápadě a druhé číslo udává rychlost 15 kt."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "225° je jihozápad, rychlost 15 kt."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 127,
+      "title": "Teplota ISA do 10 km",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "ISA začíná na MSL při +15 °C a v troposféře klesá přibližně 6,5 °C na kilometr. Ve výšce okolo 10 km tak vychází přibližně -50 °C.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ISA začíná na MSL při +15 °C a v troposféře klesá přibližně 6,5 °C na kilometr. Ve výšce okolo 10 km tak vychází přibližně -50 °C."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "ISA: +15 °C na MSL, kolem 10 km přibližně -50 °C."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a na konci udělej kontrolu řádu výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 128,
+      "title": "Fén v Bavorsku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Při fénu přes Alpy je jižní strana při jižním proudění návětrná s Ns a srážkami, zatímco na severní, závětrné straně se objevují rotory a sestupující vzduch je teplý a suchý.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při fénu přes Alpy je jižní strana při jižním proudění návětrná s Ns a srážkami, zatímco na severní, závětrné straně se objevují rotory a sestupující vzduch je teplý a suchý."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Fén v Bavorsku“ s publikovanou správnou odpovědí: „oblačnost Ns v jižních Alpách, rotorová oblačnost na závětrné straně, teplý a suchý vítr“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    },
+    {
+      "subject_id": 3,
+      "source_question_id": 129,
+      "title": "Zesílení stoupání na svahu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-03-official-questions",
+      "explanation": "Sluneční ohřev svahu vytváří anabatickou složku proudění. Pokud působí na návětrné straně, může se termické a mechanické stoupání sčítat a výsledný výstup zesílit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Sluneční ohřev svahu vytváří anabatickou složku proudění. Pokud působí na návětrné straně, může se termické a mechanické stoupání sčítat a výsledný výstup zesílit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zesílení stoupání na svahu“ s publikovanou správnou odpovědí: „slunečním zářením na návětrné straně“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Předletové rozhodnutí stav na kombinaci více zdrojů: METAR/TAF, mapy, radar, satelit, SIGMET a podle potřeby ATIS. Každý produkt odpovídá na jinou část otázky, takže jejich vzájemné porovnání je hodnotnější než jediný izolovaný údaj."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 29.12.2020."
+    }
+  ]
+}

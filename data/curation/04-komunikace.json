@@ -1,0 +1,2181 @@
+{
+  "schema_version": 1,
+  "subject_id": 4,
+  "questions": [
+    {
+      "subject_id": 4,
+      "source_question_id": 1,
+      "title": "Vysílání naslepo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Vysílání naslepo se použije tehdy, když se nepodaří navázat rádiové spojení a pilot současně nemá jistotu, že pozemní stanice jeho vysílání přijala. Cílem je předat důležitou zprávu i bez potvrzeného obousměrného spojení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vysílání naslepo se použije tehdy, když se nepodaří navázat rádiové spojení a pilot současně nemá jistotu, že pozemní stanice jeho vysílání přijala. Cílem je předat důležitou zprávu i bez potvrzeného obousměrného spojení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vysílání naslepo“ s publikovanou správnou odpovědí: „nelze-li navázat rádiové spojení s příslušnou leteckou stanicí a není jistota, že stanice vysílání přijala“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 2,
+      "title": "Opuštění řídící frekvence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Řídící frekvence je součástí poskytované služby ATS. Letadlo ji během řízeného provozu neopouští svévolně; přeladění proběhne po schválení příslušným stanovištěm, s uvedenou výjimkou po dojezdu na parkovací místo.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Řídící frekvence je součástí poskytované služby ATS. Letadlo ji během řízeného provozu neopouští svévolně; přeladění proběhne po schválení příslušným stanovištěm, s uvedenou výjimkou po dojezdu na parkovací místo."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Opuštění řídící frekvence“ s publikovanou správnou odpovědí: „musí být schváleno“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 3,
+      "title": "Zkratka ABM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "ABM je standardní zkratka pro „na úrovni“. U leteckých zkratek je rozhodující přesný publikovaný význam.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "ABM je standardní zkratka pro „na úrovni“. U leteckých zkratek je rozhodující přesný publikovaný význam."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zkratka ABM“ s publikovanou správnou odpovědí: „ABM“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 4,
+      "title": "Zkratka VFR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "VFR znamená pravidla pro let za viditelnosti. Zkratka popisuje soubor pravidel, podle kterých je let prováděn.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VFR znamená pravidla pro let za viditelnosti. Zkratka popisuje soubor pravidel, podle kterých je let prováděn."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zkratka VFR“ s publikovanou správnou odpovědí: „VFR“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 5,
+      "title": "Zkratka OBST",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "OBST je standardní zkratka pro překážku. Vyskytuje se v leteckých publikacích a mapových údajích.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "OBST je standardní zkratka pro překážku. Vyskytuje se v leteckých publikacích a mapových údajích."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zkratka OBST“ s publikovanou správnou odpovědí: „OBST“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 6,
+      "title": "Letová informační služba FIS",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "FIS je letová informační služba. Poskytuje informace užitečné pro bezpečné a účinné provedení letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "FIS je letová informační služba. Poskytuje informace užitečné pro bezpečné a účinné provedení letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Letová informační služba FIS“ s publikovanou správnou odpovědí: „letová informační služba“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 7,
+      "title": "Letová informační oblast FIR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "FIR je letová informační oblast, tedy vymezený vzdušný prostor, v němž jsou poskytovány letová informační a pohotovostní služba.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "FIR je letová informační oblast, tedy vymezený vzdušný prostor, v němž jsou poskytovány letová informační a pohotovostní služba."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Letová informační oblast FIR“ s publikovanou správnou odpovědí: „letová informační oblast“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 8,
+      "title": "Provozní doba H24",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "H24 označuje nepřetržitou dostupnost služby po 24 hodin denně.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "H24 označuje nepřetržitou dostupnost služby po 24 hodin denně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Provozní doba H24“ s publikovanou správnou odpovědí: „služba 24 hodin denně“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 9,
+      "title": "Provozní doba HX",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "HX označuje provozní dobu bez předem stanovených pevných hodin. Konkrétní dostupnost se proto ověřuje v příslušné publikaci nebo u provozovatele.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "HX označuje provozní dobu bez předem stanovených pevných hodin. Konkrétní dostupnost se proto ověřuje v příslušné publikaci nebo u provozovatele."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Provozní doba HX“ s publikovanou správnou odpovědí: „nestanovený otevírací čas“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Zkratky a provozní označení se v letectví používají pro rychlé a jednoznačné předávání informací. Při přípravě letu je ověřuj v aktuální AIP/VFR příručce a v publikovaných údajích daného letiště nebo služby."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 10,
+      "title": "QFE a nulová indikace na zemi",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "QFE nastaví referenci výškoměru na tlak referenčního bodu letiště. Na tomto referenčním místě proto výškoměr ukazuje přibližně nulu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QFE nastaví referenci výškoměru na tlak referenčního bodu letiště. Na tomto referenčním místě proto výškoměr ukazuje přibližně nulu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QFE a nulová indikace na zemi“ s publikovanou správnou odpovědí: „na QFE“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "Rozlišuj QFE, QNH a standardní tlak 1013.25 hPa podle referenční hladiny.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 11,
+      "title": "QNH a výška vůči MSL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "QNH je tlaková reference vztažená ke střední hladině moře. Výškoměr nastavený na QNH indikuje nadmořskou výšku vůči tlakové hladině MSL.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QNH je tlaková reference vztažená ke střední hladině moře. Výškoměr nastavený na QNH indikuje nadmořskou výšku vůči tlakové hladině MSL."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QNH a výška vůči MSL“ s publikovanou správnou odpovědí: „výšku nad tlakovou hladinou střední hladiny moře“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "Rozlišuj QNH od QFE: QNH pracuje s referencí střední hladiny moře.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 12,
+      "title": "QFE a referenční letiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "QFE používá jako referenci tlak příslušného letištního bodu. Indikace proto vyjadřuje výšku nad touto referenční tlakovou hladinou.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QFE používá jako referenci tlak příslušného letištního bodu. Indikace proto vyjadřuje výšku nad touto referenční tlakovou hladinou."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QFE a referenční letiště“ s publikovanou správnou odpovědí: „výšku nad tlakovou hladinou referenčního bodu letiště“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "Rozlišuj QFE od QNH: QFE pracuje s referencí letiště.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 13,
+      "title": "QDR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "QDR je magnetický směrník od stanice. Klíčové jsou dvě vlastnosti současně: magnetický a FROM.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QDR je magnetický směrník od stanice. Klíčové jsou dvě vlastnosti současně: magnetický a FROM."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QDR“ s publikovanou správnou odpovědí: „magnetický směrník od stanice“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "QDR = magnetic FROM.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 14,
+      "title": "QUJ",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "QUJ je zeměpisný směrník ke stanici. Klíčové jsou dvě vlastnosti současně: zeměpisný a TO.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QUJ je zeměpisný směrník ke stanici. Klíčové jsou dvě vlastnosti současně: zeměpisný a TO."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QUJ“ s publikovanou správnou odpovědí: „zeměpisný směrník ke stanici“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "QUJ = true TO.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 15,
+      "title": "QTE",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "QTE je zeměpisný směrník od stanice. Klíčové jsou dvě vlastnosti současně: zeměpisný a FROM.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "QTE je zeměpisný směrník od stanice. Klíčové jsou dvě vlastnosti současně: zeměpisný a FROM."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „QTE“ s publikovanou správnou odpovědí: „zeměpisný směrník od stanice“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "QTE = true FROM.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 16,
+      "title": "Magnetický směrník od stanice",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Magnetický směrník od stanice se označuje QDR. Je protisměrný k odpovídajícímu magnetickému směru ke stanici.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Magnetický směrník od stanice se označuje QDR. Je protisměrný k odpovídajícímu magnetickému směru ke stanici."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Magnetický směrník od stanice“ s publikovanou správnou odpovědí: „QDR“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "QDR = magnetic FROM.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 17,
+      "title": "Zeměpisný směrník od stanice",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zeměpisný směrník od stanice se označuje QTE. Jde o směr FROM vyjádřený vůči zeměpisnému severu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zeměpisný směrník od stanice se označuje QTE. Jde o směr FROM vyjádřený vůči zeměpisnému severu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zeměpisný směrník od stanice“ s publikovanou správnou odpovědí: „QTE“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "QTE = true FROM.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 18,
+      "title": "Zeměpisný směrník ke stanici",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zeměpisný směrník ke stanici se označuje QUJ. Jde o směr TO vyjádřený vůči zeměpisnému severu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zeměpisný směrník ke stanici se označuje QUJ. Jde o směr TO vyjádřený vůči zeměpisnému severu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zeměpisný směrník ke stanici“ s publikovanou správnou odpovědí: „QUJ“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná tlaková reference a správná interpretace směrníků jsou důležité pro výšku, navigaci a komunikaci s ATS. Před použitím údaje si vždy ujasni referenční hladinu a zda jde o směr TO nebo FROM."
+        }
+      ],
+      "warning": "QUJ = true TO.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 19,
+      "title": "Priorita zpráv o rádiovém zaměřování",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zprávy o rádiovém zaměřování stojí v pořadí priorit nad zprávami pro zajištění bezpečnosti letu. Při obsazení frekvence má vyšší priorita přednost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zprávy o rádiovém zaměřování stojí v pořadí priorit nad zprávami pro zajištění bezpečnosti letu. Při obsazení frekvence má vyšší priorita přednost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Priorita zpráv o rádiovém zaměřování“ s publikovanou správnou odpovědí: „zpráva o rádiovém zaměřování“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Priorita zpráv určuje, který provoz má na obsazené frekvenci přednost. Pilot musí umět rozpoznat tíseň, pilnost, zaměřování, bezpečnostní a provozní zprávy bez zdržení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 20,
+      "title": "Zprávy pro zajištění bezpečnosti letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zpráva potřebná pro řízení letového provozu spadá mezi zprávy pro zajištění bezpečnosti letu. Její účel přímo souvisí s bezpečným vedením provozu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zpráva potřebná pro řízení letového provozu spadá mezi zprávy pro zajištění bezpečnosti letu. Její účel přímo souvisí s bezpečným vedením provozu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zprávy pro zajištění bezpečnosti letu“ s publikovanou správnou odpovědí: „zpráva pro zajištění bezpečnosti letu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Priorita zpráv určuje, který provoz má na obsazené frekvenci přednost. Pilot musí umět rozpoznat tíseň, pilnost, zaměřování, bezpečnostní a provozní zprávy bez zdržení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 21,
+      "title": "Definice tísňové zprávy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Tísňová zpráva se týká vážného a bezprostředního ohrožení letadla nebo osob a situace, která vyžaduje okamžitou pomoc. V radiotelefonii má nejvyšší prioritu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Tísňová zpráva se týká vážného a bezprostředního ohrožení letadla nebo osob a situace, která vyžaduje okamžitou pomoc. V radiotelefonii má nejvyšší prioritu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Definice tísňové zprávy“ s publikovanou správnou odpovědí: „týkající se letadla a cestujících, kteří čelí závažné a bezprostřední hrozbě vyžadující okamžitou pomoc“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Priorita zpráv určuje, který provoz má na obsazené frekvenci přednost. Pilot musí umět rozpoznat tíseň, pilnost, zaměřování, bezpečnostní a provozní zprávy bez zdržení."
+        }
+      ],
+      "warning": "Tíseň má nejvyšší prioritu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 22,
+      "title": "Definice pilnostní zprávy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Pilnostní zpráva se týká bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu. Jde o naléhavou situaci s prioritou nad běžným provozem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilnostní zpráva se týká bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu. Jde o naléhavou situaci s prioritou nad běžným provozem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Definice pilnostní zprávy“ s publikovanou správnou odpovědí: „týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Priorita zpráv určuje, který provoz má na obsazené frekvenci přednost. Pilot musí umět rozpoznat tíseň, pilnost, zaměřování, bezpečnostní a provozní zprávy bez zdržení."
+        }
+      ],
+      "warning": "Pilnost má prioritu nad běžným provozem a pod tísní.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 23,
+      "title": "Zprávy o pravidelnosti letů",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zprávy o pravidelnosti letů řeší provoz a údržbu prostředků důležitých pro bezpečnost nebo pravidelnost provozu letadel. V hierarchii radiotelefonních zpráv patří mezi provozní kategorie s nižší prioritou.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zprávy o pravidelnosti letů řeší provoz a údržbu prostředků důležitých pro bezpečnost nebo pravidelnost provozu letadel. V hierarchii radiotelefonních zpráv patří mezi provozní kategorie s nižší prioritou."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zprávy o pravidelnosti letů“ s publikovanou správnou odpovědí: „týkající se provozu nebo údržby zařízení důležitých pro bezpečnost nebo pravidelnost provozu letadel“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Priorita zpráv určuje, který provoz má na obsazené frekvenci přednost. Pilot musí umět rozpoznat tíseň, pilnost, zaměřování, bezpečnostní a provozní zprávy bez zdržení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 24,
+      "title": "Priorita žádosti o QDM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Žádost o QDM je zpráva o rádiovém zaměřování. V uvedené skupině proto nese vyšší prioritu než běžné provozní a meteorologické informace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Žádost o QDM je zpráva o rádiovém zaměřování. V uvedené skupině proto nese vyšší prioritu než běžné provozní a meteorologické informace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Priorita žádosti o QDM“ s publikovanou správnou odpovědí: „žádám QDM“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Priorita zpráv určuje, který provoz má na obsazené frekvenci přednost. Pilot musí umět rozpoznat tíseň, pilnost, zaměřování, bezpečnostní a provozní zprávy bez zdržení."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 25,
+      "title": "Hláskování HB-YKM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Volací značka se hláskuje standardní hláskovací abecedou: H = Hotel, B = Bravo, Y = Yankee, K = Kilo, M = Mike.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Volací značka se hláskuje standardní hláskovací abecedou: H = Hotel, B = Bravo, Y = Yankee, K = Kilo, M = Mike."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Hláskování HB-YKM“ s publikovanou správnou odpovědí: „Hotel Bravo Yankee Kilo Mike“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 26,
+      "title": "Hláskování OE-JVK",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Volací značka se hláskuje standardní hláskovací abecedou: O = Oscar, E = Echo, J = Juliett, V = Victor, K = Kilo.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Volací značka se hláskuje standardní hláskovací abecedou: O = Oscar, E = Echo, J = Juliett, V = Victor, K = Kilo."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Hláskování OE-JVK“ s publikovanou správnou odpovědí: „Oscar Echo Juliett Victor Kilo“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 27,
+      "title": "Vysílání výšky 4500 ft",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Celé stovky a tisíce ve výškách se podle této publikované frazeologie vysílají skupinově. 4500 ft proto zní „čtyři tisíce pět set“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Celé stovky a tisíce ve výškách se podle této publikované frazeologie vysílají skupinově. 4500 ft proto zní „čtyři tisíce pět set“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vysílání výšky 4500 ft“ s publikovanou správnou odpovědí: „čtyři tisíce pět set“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 28,
+      "title": "Vysílání kurzu 285",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Kurz 285 se v radiotelefonii vysílá po jednotlivých číslicích. Česká standardizovaná výslovnost číslice 8 používá tvar „osum“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kurz 285 se v radiotelefonii vysílá po jednotlivých číslicích. Česká standardizovaná výslovnost číslice 8 používá tvar „osum“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vysílání kurzu 285“ s publikovanou správnou odpovědí: „dva osum pět“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "Zdroj používá českou standardizovanou výslovnost „osum“.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 29,
+      "title": "Vysílání frekvence 119.500 MHz",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při kanálu 119.500 MHz lze koncové nuly vypustit a vyslat „jedna jedna devět čárka pět“. Výsledkem zůstává jednoznačné označení kanálu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při kanálu 119.500 MHz lze koncové nuly vypustit a vyslat „jedna jedna devět čárka pět“. Výsledkem zůstává jednoznačné označení kanálu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vysílání frekvence 119.500 MHz“ s publikovanou správnou odpovědí: „jedna jedna devět čárka pět“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "Zachovej přesné kanálové označení podle publikované frazeologie.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 30,
+      "title": "Směr podle hodinové polohy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Hodinová poloha je slovní relativní směr vůči podélné ose letadla. Směr přímo vpředu se označuje „dvanáct hodin“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hodinová poloha je slovní relativní směr vůči podélné ose letadla. Směr přímo vpředu se označuje „dvanáct hodin“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Směr podle hodinové polohy“ s publikovanou správnou odpovědí: „dvanáct hodin“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 31,
+      "title": "UTC v radiotelefonii",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Letecká radiotelefonie používá UTC jako společnou časovou základnu nezávislou na místním časovém pásmu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Letecká radiotelefonie používá UTC jako společnou časovou základnu nezávislou na místním časovém pásmu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „UTC v radiotelefonii“ s publikovanou správnou odpovědí: „UTC“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 32,
+      "title": "Jednoznačné vysílání času 1620",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Když by mohl být čas zaměněn, vysílají se všechny čtyři číslice jednotlivě. 1620 se proto vyjádří „jedna šest dva nula“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Když by mohl být čas zaměněn, vysílají se všechny čtyři číslice jednotlivě. 1620 se proto vyjádří „jedna šest dva nula“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Jednoznačné vysílání času 1620“ s publikovanou správnou odpovědí: „jedna šest dva nula“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardizované hláskování, čísla a čas snižují riziko přeslechu. V praxi je důležitější jednoznačnost než rychlost vysílání, zvlášť u frekvencí, kurzů, výšek a časových údajů."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 33,
+      "title": "Význam „rozumím“",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "V této české zkušební sadě znamená „rozumím“ potvrzení přijetí celého posledního vysílání. Jde o potvrzení příjmu informace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V této české zkušební sadě znamená „rozumím“ potvrzení přijetí celého posledního vysílání. Jde o potvrzení příjmu informace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Význam „rozumím““ s publikovanou správnou odpovědí: „přijal jsem vše z Vašeho posledního vysílání“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "Uč se význam přesně podle této české zkušební sady.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 34,
+      "title": "Význam „oprava“",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "„Oprava“ oznamuje, že v právě vysílané zprávě byla chyba a bezprostředně následuje správné znění.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "„Oprava“ oznamuje, že v právě vysílané zprávě byla chyba a bezprostředně následuje správné znění."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Význam „oprava““ s publikovanou správnou odpovědí: „v tomto vysílání byla učiněna chyba, správné znění je“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 35,
+      "title": "Význam „schváleno“",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "„Schváleno“ znamená, že požadovaný úkon byl povolen. Fráze vyjadřuje souhlas stanoviště s konkrétním požadavkem.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "„Schváleno“ znamená, že požadovaný úkon byl povolen. Fráze vyjadřuje souhlas stanoviště s konkrétním požadavkem."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Význam „schváleno““ s publikovanou správnou odpovědí: „povolení pro požadovaný úkon je uděleno“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 36,
+      "title": "Kontrola čitelnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Pro kontrolu čitelnosti pilot použije standardní dotaz „jak slyšíte“. Odpověď se následně vyjadřuje stupněm srozumitelnosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro kontrolu čitelnosti pilot použije standardní dotaz „jak slyšíte“. Odpověď se následně vyjadřuje stupněm srozumitelnosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Kontrola čitelnosti“ s publikovanou správnou odpovědí: „jak slyšíte“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 37,
+      "title": "Žádost o průlet řízeným prostorem",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Požadavek pilota se uvádí frází „žádám“. Jednoznačně tak odděluje požadavek od informace nebo potvrzení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Požadavek pilota se uvádí frází „žádám“. Jednoznačně tak odděluje požadavek od informace nebo potvrzení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Žádost o průlet řízeným prostorem“ s publikovanou správnou odpovědí: „žádám“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 38,
+      "title": "Kladná odpověď",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Standardní kladná odpověď v této české frazeologii je „potvrzuji“. Použije se tam, kde je třeba odpovědět souhlasně.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní kladná odpověď v této české frazeologii je „potvrzuji“. Použije se tam, kde je třeba odpovědět souhlasně."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Kladná odpověď“ s publikovanou správnou odpovědí: „potvrzuji“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "Uč se přesnou českou frázi použitou ve zdrojové otázce.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 39,
+      "title": "Záporná odpověď",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Standardní záporná odpověď je „negativ“. Je krátká a jednoznačná i při horší kvalitě spojení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Standardní záporná odpověď je „negativ“. Je krátká a jednoznačná i při horší kvalitě spojení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Záporná odpověď“ s publikovanou správnou odpovědí: „negativ“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "Uč se přesnou českou frázi použitou ve zdrojové otázce.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 40,
+      "title": "Připraven k odletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "„Připraven k odletu“ sděluje věži připravenost k odletu bez použití formulace, která by mohla být zaměněna za povolení ke vzletu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "„Připraven k odletu“ sděluje věži připravenost k odletu bez použití formulace, která by mohla být zaměněna za povolení ke vzletu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Připraven k odletu“ s publikovanou správnou odpovědí: „připraven k odletu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 41,
+      "title": "Oznámení průletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při go-aroundu nebo průletu pilot oznámí „provádím průlet“, aby bylo stanovišti zřejmé, že přistání nebude dokončeno.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při go-aroundu nebo průletu pilot oznámí „provádím průlet“, aby bylo stanovišti zřejmé, že přistání nebude dokončeno."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Oznámení průletu“ s publikovanou správnou odpovědí: „provádím průlet“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Standardní fráze mají pevný provozní význam a zkracují komunikaci. Použij přesnou frázi a otevřenou řeč přidej teprve tam, kde standardní formulace nestačí."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 42,
+      "title": "Volací znak VĚŽ",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stanoviště letištního řízení používá služební označení „věž“. Volací znak kombinuje zeměpisný název a typ služby.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stanoviště letištního řízení používá služební označení „věž“. Volací znak kombinuje zeměpisný název a typ služby."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Volací znak VĚŽ“ s publikovanou správnou odpovědí: „věž“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 43,
+      "title": "Volací znak GROUND",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stanoviště řízení pohybů na zemi používá služební označení „ground“. Označení rozlišuje pozemní řízení od věže.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stanoviště řízení pohybů na zemi používá služební označení „ground“. Označení rozlišuje pozemní řízení od věže."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Volací znak GROUND“ s publikovanou správnou odpovědí: „ground“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 44,
+      "title": "Volací znak INFORMACE",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stanoviště letové informační služby používá služební označení „informace“. Pilot tak podle volacího znaku pozná charakter poskytované služby.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stanoviště letové informační služby používá služební označení „informace“. Pilot tak podle volacího znaku pozná charakter poskytované služby."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Volací znak INFORMACE“ s publikovanou správnou odpovědí: „informace“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 45,
+      "title": "Zkrácení volacího znaku D-EAZF",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zkrácená značka D-EAZF se podle publikovaného pravidla zkrátí na DZF: zachová se první znak a poslední dvě písmena.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zkrácená značka D-EAZF se podle publikovaného pravidla zkrátí na DZF: zachová se první znak a poslední dvě písmena."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Zkrácení volacího znaku D-EAZF“ s publikovanou správnou odpovědí: „DZF“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 46,
+      "title": "Kdy lze použít zkrácený volací znak",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zkrácení volací značky iniciuje pozemní stanice. Pilot začne zkrácenou podobu používat až poté, co jej takto osloví stanoviště.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zkrácení volací značky iniciuje pozemní stanice. Pilot začne zkrácenou podobu používat až poté, co jej takto osloví stanoviště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Kdy lze použít zkrácený volací znak“ s publikovanou správnou odpovědí: „poté, co pozemní stanice použila zkrácenou značku“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "Zkrácení volacího znaku zahajuje pozemní stanice.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 47,
+      "title": "Volací znak při navázání spojení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při prvním navázání spojení se použije úplný volací znak se všemi písmeny nebo číslicemi. Tím se předchází záměně podobných značek.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při prvním navázání spojení se použije úplný volací znak se všemi písmeny nebo číslicemi. Tím se předchází záměně podobných značek."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Volací znak při navázání spojení“ s publikovanou správnou odpovědí: „všechna písmena anebo číslice“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "První kontakt používá úplný volací znak.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 48,
+      "title": "Navázání spojení s Tuřany věž",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při navazování spojení se nejprve vysloví volaná stanice a potom vlastní volací značka: „Tuřany věž OK-ABC“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při navazování spojení se nejprve vysloví volaná stanice a potom vlastní volací značka: „Tuřany věž OK-ABC“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Navázání spojení s Tuřany věž“ s publikovanou správnou odpovědí: „Tuřany věž OK-ABC“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 49,
+      "title": "Potvrzení změny frekvence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při pokynu ke změně frekvence je klíčovým readbackem samotná přidělená frekvence. Zde se potvrzuje „121.275“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při pokynu ke změně frekvence je klíčovým readbackem samotná přidělená frekvence. Zde se potvrzuje „121.275“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Potvrzení změny frekvence“ s publikovanou správnou odpovědí: „121.275“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správná identifikace stanice a letadla chrání před záměnou povolení. Při změně frekvence a zkracování volacího znaku zachovej postup, který iniciuje nebo potvrzuje ATS."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 50,
+      "title": "Srozumitelnost 1",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stupeň srozumitelnosti 1 znamená, že vysílání je nesrozumitelné.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stupeň srozumitelnosti 1 znamená, že vysílání je nesrozumitelné."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Srozumitelnost 1“ s publikovanou správnou odpovědí: „vysílání je nesrozumitelné“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 51,
+      "title": "Srozumitelnost 2",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stupeň srozumitelnosti 2 znamená, že vysílání je srozumitelné pouze chvílemi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stupeň srozumitelnosti 2 znamená, že vysílání je srozumitelné pouze chvílemi."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Srozumitelnost 2“ s publikovanou správnou odpovědí: „vysílání je chvílemi srozumitelné“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 52,
+      "title": "Srozumitelnost 3",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stupeň srozumitelnosti 3 znamená, že vysílání lze pochopit, ale s obtížemi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stupeň srozumitelnosti 3 znamená, že vysílání lze pochopit, ale s obtížemi."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Srozumitelnost 3“ s publikovanou správnou odpovědí: „vysílání je srozumitelné, ale s obtížemi“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 53,
+      "title": "Srozumitelnost 5",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Stupeň srozumitelnosti 5 znamená dokonale srozumitelné vysílání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Stupeň srozumitelnosti 5 znamená dokonale srozumitelné vysílání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Srozumitelnost 5“ s publikovanou správnou odpovědí: „vysílání je dokonale srozumitelné“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 54,
+      "title": "Vítr a readback",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Informace o větru je v této otázkové sadě příkladem informace, která sama o sobě nevyžaduje doslovný readback. Pilot ji přijme a použije pro rozhodování o vzletu nebo přistání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Informace o větru je v této otázkové sadě příkladem informace, která sama o sobě nevyžaduje doslovný readback. Pilot ji přijme a použije pro rozhodování o vzletu nebo přistání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vítr a readback“ s publikovanou správnou odpovědí: „vítr“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "Readback kritických povolení a instrukcí zůstává samostatné pravidlo.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 55,
+      "title": "Informace o provozu a readback",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Informace o provozu je v této otázkové sadě příkladem informace, která sama o sobě nevyžaduje doslovný readback. Jejím účelem je vytvořit situační přehled pilota.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Informace o provozu je v této otázkové sadě příkladem informace, která sama o sobě nevyžaduje doslovný readback. Jejím účelem je vytvořit situační přehled pilota."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Informace o provozu a readback“ s publikovanou správnou odpovědí: „informace o provozu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "Traffic information buduje situační povědomí pilota.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 56,
+      "title": "Úplný readback po vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Readback musí vrátit bezpečnostně kritické části povolení: počáteční výšku, kurz, označení dráhy a povolení ke vzletu. Informace o větru se v publikované správné variantě neopakuje.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Readback musí vrátit bezpečnostně kritické části povolení: počáteční výšku, kurz, označení dráhy a povolení ke vzletu. Informace o větru se v publikované správné variantě neopakuje."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Úplný readback po vzletu“ s publikovanou správnou odpovědí: „DZF po odpoutání stoupat přímo 2500 stop, potom točit doprava kurz 220, dráha 12, vzlet povolen“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "V publikované správné variantě se vrací výška, kurz, dráha a povolení ke vzletu.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 57,
+      "title": "Potvrzení příštího hlášení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Pokyn k příštímu hlášení pilot potvrzuje frází „provedu“, čímž vyjadřuje přijetí pokynu a záměr jej splnit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pokyn k příštímu hlášení pilot potvrzuje frází „provedu“, čímž vyjadřuje přijetí pokynu a záměr jej splnit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Potvrzení příštího hlášení“ s publikovanou správnou odpovědí: „provedu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 58,
+      "title": "Readback squawku a frekvence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "SSR kód a nová frekvence jsou údaje, jejichž správné přijetí musí být stanovišti zřejmé. Proto se vracejí oba: „squawk 4321, 131.325“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SSR kód a nová frekvence jsou údaje, jejichž správné přijetí musí být stanovišti zřejmé. Proto se vracejí oba: „squawk 4321, 131.325“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Readback squawku a frekvence“ s publikovanou správnou odpovědí: „squawk 4321, 131.325“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 59,
+      "title": "Potvrzení informace o vstupu do prostoru D",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Oznámení o vstupu do vzdušného prostoru Delta je informační zpráva. V této sadě se potvrzuje frází „rozumím“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Oznámení o vstupu do vzdušného prostoru Delta je informační zpráva. V této sadě se potvrzuje frází „rozumím“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Potvrzení informace o vstupu do prostoru D“ s publikovanou správnou odpovědí: „rozumím“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Readback tvoří bezpečnostní uzavřenou smyčku: stanoviště slyší, co pilot skutečně přijal, a může chybu okamžitě opravit. Zaměř se na dráhu, hladinu, kurz, QNH, SSR kód a další kritické údaje podle situace."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 60,
+      "title": "FEW v METAR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "FEW v METAR označuje pokrytí 1 až 2 osminy oblohy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "FEW v METAR označuje pokrytí 1 až 2 osminy oblohy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „FEW v METAR“ s publikovanou správnou odpovědí: „1 až 2 osminy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 61,
+      "title": "SCT v METAR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "SCT v METAR označuje pokrytí 3 až 4 osminy oblohy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SCT v METAR označuje pokrytí 3 až 4 osminy oblohy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „SCT v METAR“ s publikovanou správnou odpovědí: „3 až 4 osminy“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 62,
+      "title": "BKN v METAR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "BKN v METAR označuje pokrytí 5 až 7 osmin oblohy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "BKN v METAR označuje pokrytí 5 až 7 osmin oblohy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „BKN v METAR“ s publikovanou správnou odpovědí: „5 až 7 osmin“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 63,
+      "title": "Vysílání dohlednosti 12 km",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Dohlednost 12 km se podle této frazeologie vysílá jako „jedna - nula kilometrů nebo více“. Vyjadřuje horní kódovanou kategorii alespoň 10 km.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dohlednost 12 km se podle této frazeologie vysílá jako „jedna - nula kilometrů nebo více“. Vyjadřuje horní kódovanou kategorii alespoň 10 km."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vysílání dohlednosti 12 km“ s publikovanou správnou odpovědí: „jedna - nula kilometrů nebo více“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "Zdrojová otázka používá kategorii „10 km nebo více“.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 64,
+      "title": "Dohlednost v metrech",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Dohlednost do 5 km se v radiotelefonii této otázkové sady vyjadřuje v metrech.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dohlednost do 5 km se v radiotelefonii této otázkové sady vyjadřuje v metrech."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Dohlednost v metrech“ s publikovanou správnou odpovědí: „do 5 km“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 65,
+      "title": "Dohlednost v kilometrech",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Dohlednost větší než 5 km se v radiotelefonii této otázkové sady vyjadřuje v kilometrech.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Dohlednost větší než 5 km se v radiotelefonii této otázkové sady vyjadřuje v kilometrech."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Dohlednost v kilometrech“ s publikovanou správnou odpovědí: „větší než 5 km“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 66,
+      "title": "VOLMET",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "VOLMET je pravidelné vysílání meteorologických informací určených letadlům za letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VOLMET je pravidelné vysílání meteorologických informací určených letadlům za letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „VOLMET“ s publikovanou správnou odpovědí: „meteorologické informace“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 67,
+      "title": "ATIS přes VOR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Zprávy ATIS lze vysílat i prostřednictvím vhodně vybaveného VOR. Posádka tak získá letištní informaci bez zatěžování hlasové frekvence stanoviště.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zprávy ATIS lze vysílat i prostřednictvím vhodně vybaveného VOR. Posádka tak získá letištní informaci bez zatěžování hlasové frekvence stanoviště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „ATIS přes VOR“ s publikovanou správnou odpovědí: „VOR“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 68,
+      "title": "Meteorologické informace za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "VOLMET umožňuje za navigačního letu získat aktuální meteorologické informace pro vybraná letiště.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VOLMET umožňuje za navigačního letu získat aktuální meteorologické informace pro vybraná letiště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Meteorologické informace za letu“ s publikovanou správnou odpovědí: „VOLMET“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Meteorologické kódy a vysílání VOLMET/ATIS zkracují předání velkého množství informací. Pilot je kombinuje s aktuálním METAR, TAF a provozní informací pro cílové a náhradní letiště."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 69,
+      "title": "SSR 7600",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "SSR kód 7600 signalizuje poruchu nebo ztrátu rádiového spojení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SSR kód 7600 signalizuje poruchu nebo ztrátu rádiového spojení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „SSR 7600“ s publikovanou správnou odpovědí: „7600“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "7600 = ztráta spojení; 7700 = nouze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 70,
+      "title": "Úvod vysílání naslepo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Vysílání naslepo se na začátku jasně označí frází „vysílám na slepo“, aby příjemce rozpoznal režim jednosměrné komunikace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vysílání naslepo se na začátku jasně označí frází „vysílám na slepo“, aby příjemce rozpoznal režim jednosměrné komunikace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Úvod vysílání naslepo“ s publikovanou správnou odpovědí: „vysílám na slepo“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 71,
+      "title": "Frekvence pro vysílání naslepo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při ztrátě obousměrného spojení se vysílání naslepo zahajuje na stávající frekvenci, kde je nejvyšší pravděpodobnost, že jej příslušné stanoviště uslyší.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při ztrátě obousměrného spojení se vysílání naslepo zahajuje na stávající frekvenci, kde je nejvyšší pravděpodobnost, že jej příslušné stanoviště uslyší."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Frekvence pro vysílání naslepo“ s publikovanou správnou odpovědí: „na stávající frekvenci“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 72,
+      "title": "Počet opakování vysílání naslepo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Vysílání naslepo se podle této otázkové sady opakuje dvakrát, aby se zvýšila pravděpodobnost zachycení zprávy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vysílání naslepo se podle této otázkové sady opakuje dvakrát, aby se zvýšila pravděpodobnost zachycení zprávy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Počet opakování vysílání naslepo“ s publikovanou správnou odpovědí: „dvakrát“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 73,
+      "title": "Použití kódu 7600",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Kód 7600 se nastavuje při ztrátě rádiového spojení. Radarové stanoviště tím získá jednoznačný indikátor komunikační závady.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Kód 7600 se nastavuje při ztrátě rádiového spojení. Radarové stanoviště tím získá jednoznačný indikátor komunikační závady."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Použití kódu 7600“ s publikovanou správnou odpovědí: „ztráta spojení“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "7600 = ztráta spojení; 7700 = nouze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 74,
+      "title": "Ztráta spojení ve třídě D",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Při ztrátě spojení ve třídě D pilot pokračuje podle posledního povolení a pravidel VFR, případně prostor co nejkratší cestou opustí. Smyslem je zachovat předvídatelnost letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při ztrátě spojení ve třídě D pilot pokračuje podle posledního povolení a pravidel VFR, případně prostor co nejkratší cestou opustí. Smyslem je zachovat předvídatelnost letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Ztráta spojení ve třídě D“ s publikovanou správnou odpovědí: „je třeba pokračovat v letu podle posledního povolení a podle pravidel VFR nebo tento prostor co nejkratší cestou opustit“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 75,
+      "title": "Vstup do třídy D při ztrátě spojení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Vstup do prostoru třídy D při ztrátě spojení je v této otázce vázán na schválení, které bylo získáno ještě před ztrátou spojení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vstup do prostoru třídy D při ztrátě spojení je v této otázce vázán na schválení, které bylo získáno ještě před ztrátou spojení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Vstup do třídy D při ztrátě spojení“ s publikovanou správnou odpovědí: „před ztrátou spojení to bylo schváleno“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při ztrátě spojení je hlavním cílem zůstat pro ATS co nejpředvídatelnější. Pomáhá správný SSR kód, pokračování podle posledního povolení a stanovený postup pro vysílání naslepo."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 76,
+      "title": "PAN PAN",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Pilnostní provoz se zahajuje trojím „PAN PAN“. Opakování jednoznačně upozorní ostatní stanice na vyšší prioritu zprávy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilnostní provoz se zahajuje trojím „PAN PAN“. Opakování jednoznačně upozorní ostatní stanice na vyšší prioritu zprávy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „PAN PAN“ s publikovanou správnou odpovědí: „pan pan“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilnostní a tísňová komunikace dostává přednost před běžným provozem. Krátká strukturovaná zpráva umožní ATS rychle pochopit stav, polohu, úmysl a požadovanou pomoc."
+        }
+      ],
+      "warning": "Pilnost začíná PAN PAN; tíseň používá MAYDAY.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 77,
+      "title": "Definice pilnostního provozu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Pilnostní zpráva se týká bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu. Vyžaduje přednostní pozornost, ale patří pod tísňový provoz.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilnostní zpráva se týká bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu. Vyžaduje přednostní pozornost, ale patří pod tísňový provoz."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Definice pilnostního provozu“ s publikovanou správnou odpovědí: „zprávy týkající se bezpečnosti letadla, plavidla, vozidla nebo osoby v dohledu“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilnostní a tísňová komunikace dostává přednost před běžným provozem. Krátká strukturovaná zpráva umožní ATS rychle pochopit stav, polohu, úmysl a požadovanou pomoc."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 78,
+      "title": "Definice tísňového provozu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Tísňová zpráva se týká letadla a osob čelících vážnému a bezprostřednímu ohrožení, které vyžaduje okamžitou pomoc.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Tísňová zpráva se týká letadla a osob čelících vážnému a bezprostřednímu ohrožení, které vyžaduje okamžitou pomoc."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Definice tísňového provozu“ s publikovanou správnou odpovědí: „informace týkající se letadla a jeho cestujících, které čelí vážné a bezprostřední hrozbě a vyžaduje okamžitou pomoc“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilnostní a tísňová komunikace dostává přednost před běžným provozem. Krátká strukturovaná zpráva umožní ATS rychle pochopit stav, polohu, úmysl a požadovanou pomoc."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 79,
+      "title": "Úvodní tísňová frekvence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Úvodní tísňové volání se vysílá na právě používané frekvenci. Příslušné stanoviště tam už letadlo očekává a může reagovat okamžitě.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Úvodní tísňové volání se vysílá na právě používané frekvenci. Příslušné stanoviště tam už letadlo očekává a může reagovat okamžitě."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Úvodní tísňová frekvence“ s publikovanou správnou odpovědí: „stávající frekvence“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilnostní a tísňová komunikace dostává přednost před běžným provozem. Krátká strukturovaná zpráva umožní ATS rychle pochopit stav, polohu, úmysl a požadovanou pomoc."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 80,
+      "title": "Obsah pilnostní zprávy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Pilnostní zpráva má popsat povahu problému nebo pozorování, potřebnou podporu, úmysl pilota, polohu, kurz a nadmořskou výšku. Tyto údaje umožní stanovišti situaci rychle pochopit a účinně pomoci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pilnostní zpráva má popsat povahu problému nebo pozorování, potřebnou podporu, úmysl pilota, polohu, kurz a nadmořskou výšku. Tyto údaje umožní stanovišti situaci rychle pochopit a účinně pomoci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Obsah pilnostní zprávy“ s publikovanou správnou odpovědí: „povaha problému nebo pozorování, důležité informace pro podporu, úmysl pilota, informace o poloze, kurz a nadmořská výška“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilnostní a tísňová komunikace dostává přednost před běžným provozem. Krátká strukturovaná zpráva umožní ATS rychle pochopit stav, polohu, úmysl a požadovanou pomoc."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 81,
+      "title": "SSR 7700",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "SSR kód 7700 označuje všeobecný stav nouze a přitahuje pozornost radarového stanoviště.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "SSR kód 7700 označuje všeobecný stav nouze a přitahuje pozornost radarového stanoviště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „SSR 7700“ s publikovanou správnou odpovědí: „7700“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Pilnostní a tísňová komunikace dostává přednost před běžným provozem. Krátká strukturovaná zpráva umožní ATS rychle pochopit stav, polohu, úmysl a požadovanou pomoc."
+        }
+      ],
+      "warning": "7700 = nouze; 7600 = ztráta spojení.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 82,
+      "title": "VHF hlasová frekvence",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "118.75 MHz leží v leteckém VHF hlasovém pásmu a je v uvedených možnostech správnou hlasovou frekvencí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "118.75 MHz leží v leteckém VHF hlasovém pásmu a je v uvedených možnostech správnou hlasovou frekvencí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „VHF hlasová frekvence“ s publikovanou správnou odpovědí: „118.75 MHz“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "VHF spojení je převážně line-of-sight, takže jeho praktický dosah závisí zejména na výšce antén a terénu. Správná práce s frekvencemi a informačními vysíláními je základ kontinuální situační orientace za letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 83,
+      "title": "VHF hlasová komunikace",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "120.50 MHz leží v leteckém VHF hlasovém pásmu; ostatní uvedené hodnoty patří mimo hlasovou část nebo používají nesprávnou jednotku.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "120.50 MHz leží v leteckém VHF hlasovém pásmu; ostatní uvedené hodnoty patří mimo hlasovou část nebo používají nesprávnou jednotku."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „VHF hlasová komunikace“ s publikovanou správnou odpovědí: „120.50 MHz“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "VHF spojení je převážně line-of-sight, takže jeho praktický dosah závisí zejména na výšce antén a terénu. Správná práce s frekvencemi a informačními vysíláními je základ kontinuální situační orientace za letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 84,
+      "title": "Letecké VHF pásmo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Letecká hlasová komunikace v rozsahu 118.000 až 136.975 MHz spadá do pásma VHF, tedy velmi krátkých vln.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Letecká hlasová komunikace v rozsahu 118.000 až 136.975 MHz spadá do pásma VHF, tedy velmi krátkých vln."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Letecké VHF pásmo“ s publikovanou správnou odpovědí: „VHF (velmi krátké vlny)“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "VHF spojení je převážně line-of-sight, takže jeho praktický dosah závisí zejména na výšce antén a terénu. Správná práce s frekvencemi a informačními vysíláními je základ kontinuální situační orientace za letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 85,
+      "title": "Dosah VHF a nadmořská výška",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "VHF se šíří převážně na přímou viditelnost. Vyšší nadmořská výška obvykle zvětšuje rádiový horizont a tím i možný dosah spojení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VHF se šíří převážně na přímou viditelnost. Vyšší nadmořská výška obvykle zvětšuje rádiový horizont a tím i možný dosah spojení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Dosah VHF a nadmořská výška“ s publikovanou správnou odpovědí: „nadmořská výška“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "VHF spojení je převážně line-of-sight, takže jeho praktický dosah závisí zejména na výšce antén a terénu. Správná práce s frekvencemi a informačními vysíláními je základ kontinuální situační orientace za letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 86,
+      "title": "Rychlost elektromagnetických vln",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Elektromagnetické vlny se ve vakuu šíří přibližně rychlostí 300 000 km/s. Pro rádiové výpočty se používá prakticky stejná zaokrouhlená hodnota.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Elektromagnetické vlny se ve vakuu šíří přibližně rychlostí 300 000 km/s. Pro rádiové výpočty se používá prakticky stejná zaokrouhlená hodnota."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Rychlost elektromagnetických vln“ s publikovanou správnou odpovědí: „300 000 km/s“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "VHF spojení je převážně line-of-sight, takže jeho praktický dosah závisí zejména na výšce antén a terénu. Správná práce s frekvencemi a informačními vysíláními je základ kontinuální situační orientace za letu."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    },
+    {
+      "subject_id": 4,
+      "source_question_id": 87,
+      "title": "Platnost zprávy ATIS",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-04-official-questions",
+      "explanation": "Podle této publikované otázkové sady je zpráva ATIS platná 30 minut. Při studiu drž tuto zkušební hodnotu pohromadě s konkrétním zněním otázky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Podle této publikované otázkové sady je zpráva ATIS platná 30 minut. Při studiu drž tuto zkušební hodnotu pohromadě s konkrétním zněním otázky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj si téma „Platnost zprávy ATIS“ s publikovanou správnou odpovědí: „30 minut“."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "VHF spojení je převážně line-of-sight, takže jeho praktický dosah závisí zejména na výšce antén a terénu. Správná práce s frekvencemi a informačními vysíláními je základ kontinuální situační orientace za letu."
+        }
+      ],
+      "warning": "Jde o přesnou zkušební hodnotu publikovanou v tomto zdroji.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.1 ze dne 12.08.2025."
+    }
+  ]
+}

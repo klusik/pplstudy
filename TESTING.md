@@ -11,16 +11,16 @@ php scripts/validate_question_bank.php
 
 Expected bundled question-bank validation:
 
-- question-bank schema version 2
+- question-bank schema version 3
 - 9 subjects
-- 880 questions
-- contiguous sequence 1 through 880
-- 73 cards referencing an attachment code
-- 880 cards with exactly four unique study choices
+- 896 questions
+- contiguous sequence 1 through 896
+- 84 questions referencing an attachment code
+- 896 questions with exactly four unique answer choices
 - each correct answer appears exactly once in its four choices
-- per-subject counts: 91, 57, 129, 86, 98, 56, 101, 128, 134
+- per-subject counts: 97, 58, 129, 87, 99, 60, 101, 128, 137
 
-Application database schema version for 0.3.1 is migration generation 3, ending with `202609030003_user_accounts`.
+Application database schema version for 0.5.0 is migration generation 4, ending with `202609040004_question_curation`.
 
 ## 2. Installer acceptance test
 
@@ -33,7 +33,7 @@ Use a disposable empty MySQL or MariaDB database.
 5. Confirm invalid database credentials keep the installer on step 1.
 6. In step 2 verify passwords shorter than 15 characters are rejected.
 7. Complete installation.
-8. Confirm step 3 reports 880 imported cards and 9 subjects.
+8. Confirm step 3 reports 896 imported questions and 9 subjects.
 9. Confirm the created administrator has role `admin`, `active = 1`, and `must_change_password = 0`.
 10. Reload `/install.php` and confirm the installed-state screen appears.
 11. Confirm `config.php` is protected from direct HTTP access.
@@ -49,7 +49,7 @@ SELECT version FROM schema_migrations ORDER BY version;
 SELECT username, role, active, must_change_password FROM users;
 ```
 
-Expected question count is 880, min/max are 1/880, and migration `202609030003_user_accounts` is present.
+Expected question count is 896, min/max are 1/896, and migration `202609040004_question_curation` is present.
 
 ## 3. Public access boundary
 
@@ -124,10 +124,12 @@ Verify direct HTTP requests continue to protect `data/question-bank.json`, appli
 
 ### Single-card study
 
-- `/study` offers all subjects and whole-bank random mode.
-- random link redirects to a valid `/question/{sequence}`.
+- `/study` offers **Režim otázek** and **Režim učení** for all subjects and individual subjects.
+- random link redirects to a valid `/question/{sequence}?mode=...`.
 - four answer choices are visible immediately.
-- selecting a choice marks the result and reveals the explanation.
+- quiz mode scores the selected choice and then reveals the explanation.
+- learning mode keeps the answer hidden until **Zobrazit správnou odpověď**, then allows **Věděl jsem / Chci zopakovat** self-assessment.
+- questions 1-97 render structured explanation sections and exact source wording.
 - automatic score persists after reload through localStorage.
 - star state persists after reload.
 - previous/next stays inside the same subject.
@@ -221,7 +223,7 @@ Expire or clear the authenticated session while the drill page is open, then req
 - user account schema reports all profile columns present
 - at least one active administrator is reported
 - bundled bank validates
-- imported question count is 880
+- imported question count is 888
 - no pending migrations remain after fresh installation
 
 ## 7. Upgrade test from 0.2.0
@@ -269,7 +271,7 @@ python3 scripts/build_question_bank.py PPL_A_teorie_studijni_kompilat_2026_FINAL
 php scripts/validate_question_bank.php /tmp/question-bank.json
 ```
 
-The generator enforces the known 880-card structure and enriches every card with four deterministic study choices.
+The generator parses the 880-card compilation, then applies source-exact subject replacements for all nine subjects. The final bank contains 896 active questions.
 
 ## System Health metadata-query regression
 
@@ -282,4 +284,129 @@ Regression check:
 3. Confirm `User account schema` reports the actual number of profile columns.
 4. Confirm `Pending migrations` reports either `none` or the exact pending migration filenames.
 5. Run pending migrations if present and reload System Health.
+
+
+
+### Source documents
+
+1. Run migration `202609040004_question_curation`.
+2. Open **Admin > Zdroje**.
+3. Upload a PDF for one manifest entry.
+4. Confirm the row shows local availability, file size, and SHA-256 prefix.
+5. Open the local PDF link while authenticated and confirm inline PDF output.
+6. Sign out and request `/source/{source_key}` directly. Confirm authentication is required.
+7. Confirm direct HTTP access to `data/source-documents/<file>.pdf` is denied.
+8. Replace the PDF and confirm metadata and served content update.
+
+### Source-exact first subject
+
+- Admin question list shows questions 1-97 as `verified` with `source_exact` wording.
+- Subject 1 reports exactly 97 questions.
+- Question 6 is exactly `Co znamená zkratka ARC?`.
+- Question 6 answer choices are exactly the four strings from the supplied official PDF and remain in source order.
+- Question 8 uses the source-marked answer `ve všech státech ICAO`.
+- Questions 32-39 are seven independent source questions rather than one merged study card.
+- Questions 89-92 retain attachment codes ALW-019, ALW-020, ALW-011, and ALW-012.
+- Question 98 is the first question of subject 2 after global renumbering.
+- regenerate the bank with `scripts/build_question_bank.py` and confirm `data/source-exact/01-pravni-predpisy.json` restores all 97 exact source questions before curation is applied.
+
+
+## 0.6.0 source-exact Human Performance regression
+
+- `data/source-exact/02-lidska-vykonnost.json` contains exactly source questions 1..58.
+- Every source-exact Human Performance question has four unique choices and one checked answer.
+- Questions 55 and 56 reference local HPL-002 SVG.
+- Integrated bank contains 887 questions and 155 source-exact verified questions.
+- Subject 3 begins at global sequence 156 after restoring subject-2 source question 9 as its own record.
+## 0.7.0 source-exact Meteorology regression
+
+- `data/source-exact/03-meteorologie.json` contains exactly source questions 1..129.
+- Every Meteorology source question has four unique answer choices in published order and exactly one marked correct answer.
+- All 129 marked answers were cross-checked against the compilation-derived correct result before replacement.
+- Source questions 56, 57, 58, 70, 71, and 72 reference local SVG study assets for MET-001, MET-002, MET-004, and MET-005.
+- Integrated bank contains 887 questions and 284 source-exact verified questions.
+- Subject 3 begins at global sequence 156 and subject 4 begins at global sequence 285.
+- `php scripts/validate_question_bank.php` must report subject counts `97/58/129/86/98/56/101/128/134`.
+- No browser progress-key bump is expected because 0.7.0 preserves the 0.6.0 global sequence.
+
+
+
+## 0.8.0 source-exact Communication regression
+
+- Subject 4 contains exactly 87 source questions, source IDs 1 through 87.
+- Every Communication source question has four unique answer choices in published order and exactly one marked correct answer.
+- Communication source questions 54 and 55 are separate records. Question 54 answers `vítr`; question 55 answers `informace o provozu`.
+- All 87 Communication questions are `source_exact` and `verified` and reference the bundled source document.
+- Integrated bank contains 888 questions and 371 source-exact verified questions.
+- Subject 4 spans global sequence 285-371 and subject 5 begins at global sequence 372.
+- Browser-local progress key is `pplStudyProgressV4`.
+- `data/source-documents/04-komunikace-official.pdf` SHA-256 is `cda0b7d7698ad0e8423df9e043f6183ed37493367fc4371eb2ee265398a73eab`.
+- No database migration is expected for 0.8.0.
+
+## 0.9.0 source-exact Letové zásady regression
+
+Required checks:
+
+- `data/source-exact/05-letove-zasady.json` contains 99 active source questions with source IDs 1-7 and 9-100.
+- Source question 8 is recorded as retired and is absent from the active question list.
+- Every active source question contains exactly four unique choices and exactly one marked correct answer.
+- Source questions 48 and 70 exist as separate records and both preserve their published wording and option order.
+- Subject 5 contains 99 questions and spans global sequence 372-470.
+- Subject 6 begins at global sequence 471.
+- Integrated bank contains 889 questions and 470 source-exact verified questions.
+- `data/source-documents/05-letove-zasady-official.pdf` SHA-256 is `50839b3a314b8627ddd19035bb3b15b29284c0c1ad7e04cd7aa55ded7ab33967`.
+- PFA-003, PFA-008, PFA-009, PFA-010, and PFA-011 local SVG study assets parse as valid XML.
+- Browser-local progress key is `pplStudyProgressV5`.
+- No database migration is expected for 0.9.0.
+
+## 0.10.0 source-exact Provozní postupy regression
+
+Required checks:
+
+- `data/source-exact/06-provozni-postupy.json` contains exactly source questions 1 through 60.
+- Every Provozní postupy source question has exactly four unique answer choices in published order and exactly one marked correct answer.
+- Source questions 33, 34, 35, 36, and 37 exist as five independent wake-turbulence records.
+- Source questions 25 and 26 reference `/public/assets/attachments/OPR-001.svg`.
+- Subject 6 contains 60 questions and spans global sequence 471-530.
+- Subject 7 begins at global sequence 531.
+- Integrated bank contains 893 questions and 530 source-exact verified questions.
+- `data/source-documents/06-provozni-postupy-official.pdf` SHA-256 is `c797b4f5bdde387eeb6778cab4d3dfa76a880ed45263439d92150f268b066f92`.
+- OPR-001 local SVG study asset parses as valid XML.
+- Browser-local progress key is `pplStudyProgressV6`.
+- No database migration is expected for 0.10.0.
+
+## 0.11.0 subject 7 source-exact regression
+
+After deploying 0.11.0:
+
+1. Run `php scripts/validate_question_bank.php data/question-bank.json`.
+2. Confirm the integrated bank contains 893 questions and subject 7 contains exactly 101 questions.
+3. Confirm subject 7 source question IDs are the contiguous range 1 through 101.
+4. Confirm every subject 7 question has four unique choices, exactly one correct choice, `wording_status = source_exact`, and `curation_status = verified`.
+5. Spot-check calculation questions 27-30, 52-72, 79-80, and 90-98 against the supplied official PDF and their explanation sections.
+6. Open attachment questions 26, 31-36, 48-50, 53, 55-72, 77-78, 81-85, and 99-101 and confirm the local study asset renders inline.
+7. Confirm `/source/subject-07-official-questions` is inaccessible to an anonymous visitor and serves the bundled PDF to an authenticated user.
+8. In Admin, import the bundled bank and confirm global question 531 is source question 1 and global question 631 is source question 101.
+9. Confirm global question 632 remains the first question of Obecné znalosti o letadle.
+10. Confirm browser progress continues to use `pplStudyProgressV6`.
+
+No database migration is part of 0.11.0.
+
+## 0.12.0 subjects 8 and 9 source-exact regression
+
+After deploying 0.12.0:
+
+1. Run `php scripts/validate_question_bank.php` and confirm 896 total questions, 896 source-exact questions, and 896 verified questions.
+2. Confirm subject 8 contains source question IDs 1 through 128 and occupies global sequence 632 through 759.
+3. Confirm subject 9 contains source question IDs 1 through 137 and occupies global sequence 760 through 896.
+4. Confirm every subject 8 and 9 question contains exactly four unique choices and exactly one correct choice.
+5. Confirm all subject 8 and 9 questions have `choices_generated = false`, `wording_status = source_exact`, and `curation_status = verified`.
+6. Confirm Navigation source questions 15, 16, and 17 are three independent records.
+7. Confirm Navigation source questions 73 and 76 are two independent records.
+8. Confirm the bundled source PDFs resolve through authenticated source-document routing and their SHA-256 values match `data/source-manifest.json`.
+9. Confirm AGK-002, AGK-003, AGK-005, AGK-006, AGK-007, AGK-008, AGK-011, NAV-002, NAV-004, NAV-014, NAV-017, NAV-019, NAV-022, NAV-024, and NAV-031 render inline for their attachment questions.
+10. Confirm browser-local progress uses `pplStudyProgressV7`.
+11. In Admin, import the bundled bank and confirm the importer reports 896 questions across 9 subjects.
+
+No database migration is part of 0.12.0.
 

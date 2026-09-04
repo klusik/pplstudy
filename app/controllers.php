@@ -30,6 +30,7 @@ require_once __DIR__ . '/controllers/account.php';
 require_once __DIR__ . '/controllers/admin_dashboard.php';
 require_once __DIR__ . '/controllers/admin_users.php';
 require_once __DIR__ . '/controllers/admin_questions.php';
+require_once __DIR__ . '/controllers/admin_sources.php';
 require_once __DIR__ . '/controllers/admin_import.php';
 require_once __DIR__ . '/controllers/admin_settings.php';
 require_once __DIR__ . '/controllers/admin_diagnostics.php';

@@ -1,0 +1,939 @@
+{
+  "schema_version": 1,
+  "subject_id": 2,
+  "source_key": "subject-02-official-questions",
+  "source_title": "Lidská výkonnost – letoun",
+  "source_version": "1.2, 31.03.2022",
+  "source_sha256": "61096d4f69412a0e6d552f911abe9eab8eb0ee88a047fe3ba0fca01a71fbe983",
+  "source_filename": "02-lidska-vykonnost-official.pdf",
+  "questions": [
+    {
+      "source_question_id": 1,
+      "title": "Lidská chyba a letecké nehody",
+      "prompt": "Většina nehod v letectví je způsobena:",
+      "choices": [
+        "technickou závadou",
+        "zeměpisnými vlivy",
+        "lidskou chybou",
+        "meteorologickými vlivy"
+      ],
+      "answer": "lidskou chybou",
+      "correct_choice_index": 2,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "title": "Model švýcarského sýra",
+      "prompt": "Model \"švýcarského sýra\" se používá k vysvětlení:",
+      "choices": [
+        "řetězce chyb",
+        "stavu připravenosti pilota",
+        "postupu pro nouzové přistání",
+        "optimálního řešení problému"
+      ],
+      "answer": "řetězce chyb",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "title": "Podíl kyslíku v atmosféře",
+      "prompt": "Kolik procent kyslíku je v atmosféře v 6000 ft?",
+      "choices": [
+        "12 %",
+        "21 %",
+        "78 %",
+        "18.9 %"
+      ],
+      "answer": "21 %",
+      "correct_choice_index": 1,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "title": "Podíl dusíku v atmosféře",
+      "prompt": "Kolik procent dusíku je v atmosféře?",
+      "choices": [
+        "21 %",
+        "78 %",
+        "1 %",
+        "0.1 %"
+      ],
+      "answer": "78 %",
+      "correct_choice_index": 1,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 5,
+      "title": "Poloviční atmosférický tlak",
+      "prompt": "V přibližně jaké výšce je atmosférický tlak poloviční než při střední hladině moře (1013 hPa)?",
+      "choices": [
+        "5000 ft",
+        "10000 ft",
+        "18000 ft",
+        "22000 ft"
+      ],
+      "answer": "18000 ft",
+      "correct_choice_index": 2,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "title": "Ostatní plyny v atmosféře",
+      "prompt": "Vzduch se skládá z kyslíku, dusíku a ostatních plynů. Jaké je přibližně percentuální složení těch ostatních plynů?",
+      "choices": [
+        "0.1 %",
+        "21 %",
+        "78 %",
+        "1 %"
+      ],
+      "answer": "1 %",
+      "correct_choice_index": 3,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 7,
+      "title": "Oxid uhelnatý a kouření",
+      "prompt": "Otrava kysličníkem uhelnatým může být způsobena:",
+      "choices": [
+        "kouřením",
+        "alkoholem",
+        "nezdravou výživou",
+        "nedostatkem spánku"
+      ],
+      "answer": "kouřením",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 8,
+      "title": "Červený black-out",
+      "prompt": "Co znamená pojem \"červený black out\"?",
+      "choices": [
+        "červené vidění během záporných násobků",
+        "chudokrevnost způsobená zraněním",
+        "porucha barvocitu při východu a západu slunce",
+        "nemoc z dekomprese způsobená ukvapeností"
+      ],
+      "answer": "červené vidění během záporných násobků",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "title": "Oxid uhelnatý a tepelný výměník",
+      "prompt": "Otrava kysličníkem uhelnatým může být způsobena:",
+      "choices": [
+        "zamrznutím Pitot-statického systému",
+        "vysazením generátoru",
+        "palivem nebo hydraulickou kapalinou",
+        "trhlinami v tepelném výměníku"
+      ],
+      "answer": "trhlinami v tepelném výměníku",
+      "correct_choice_index": 3,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "title": "Hyperventilace",
+      "prompt": "Co z následujícího NENÍ projevem hyperventilace?",
+      "choices": [
+        "brnění",
+        "křeče",
+        "cyanóza",
+        "poruchy vědomí"
+      ],
+      "answer": "cyanóza",
+      "correct_choice_index": 2,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "title": "Příznaky výškové nemoci",
+      "prompt": "Který z následujících příznaků může znamenat výškovou nemoc?",
+      "choices": [
+        "zmodrání rtů a konečků prstů",
+        "svalové křeče v horní části těla",
+        "modřiny na celém těle",
+        "bolest kolen a spodní části nohou"
+      ],
+      "answer": "zmodrání rtů a konečků prstů",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 12,
+      "title": "Zrak a výšková nemoc",
+      "prompt": "Který ze smyslů je nejvíce ovlivněn výškovou nemocí?",
+      "choices": [
+        "sluch",
+        "hmat",
+        "zrak",
+        "čich"
+      ],
+      "answer": "zrak",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 13,
+      "title": "Reakce organismu na pokles tlaku",
+      "prompt": "Od jaké nadmořské výšky obvykle lidské tělo reaguje na snižující se tlak vzduchu?",
+      "choices": [
+        "2000 ft",
+        "7000 ft",
+        "10000 ft",
+        "12000 ft"
+      ],
+      "answer": "7000 ft",
+      "correct_choice_index": 1,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "title": "Kompenzace nízkého atmosférického tlaku",
+      "prompt": "Jaká nadmořská výška znamená spodní mez, od které není lidské tělo schopné úplně vyrovnat vliv nízkého atmosférického tlaku?",
+      "choices": [
+        "7000 ft",
+        "5000 ft",
+        "12000 ft",
+        "22000 ft"
+      ],
+      "answer": "12000 ft",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "title": "Červené krvinky",
+      "prompt": "Jakou funkci mají červené krvinky?",
+      "choices": [
+        "přenos kyslíku",
+        "imunitní obrana",
+        "srážlivost krve",
+        "regulace cukru v krvi"
+      ],
+      "answer": "přenos kyslíku",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 16,
+      "title": "Krevní destičky a srážlivost",
+      "prompt": "Co z následujícího je odpovědné za srážlivost krve?",
+      "choices": [
+        "červené krvinky",
+        "bílé krvinky",
+        "krevní destičky",
+        "cévní kapiláry"
+      ],
+      "answer": "krevní destičky",
+      "correct_choice_index": 2,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 17,
+      "title": "Bílé krvinky",
+      "prompt": "Jaká je funkce bílých krvinek?",
+      "choices": [
+        "přenos kyslíku",
+        "imunitní obrana",
+        "srážlivost krve",
+        "regulace cukru v krvi"
+      ],
+      "answer": "imunitní obrana",
+      "correct_choice_index": 1,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "title": "Funkce krevních destiček",
+      "prompt": "Jaká je funkce krevních destiček?",
+      "choices": [
+        "přenos kyslíku",
+        "imunitní obrana",
+        "srážlivost krve",
+        "regulace cukru v krvi"
+      ],
+      "answer": "srážlivost krve",
+      "correct_choice_index": 2,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 19,
+      "title": "Rizikové faktory výškové nemoci",
+      "prompt": "Co z následujícího NENÍ rizikovým faktorem pro nástup výškové nemoci?",
+      "choices": [
+        "darování krve",
+        "kouření",
+        "menstruace",
+        "potápění"
+      ],
+      "answer": "potápění",
+      "correct_choice_index": 3,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "title": "Anemická hypoxie",
+      "prompt": "Anemická hypoxie může být způsobena:",
+      "choices": [
+        "otravou kysličníkem uhelnatým",
+        "velkými nadmořskými výškami",
+        "alkoholem",
+        "nízkým tlakem"
+      ],
+      "answer": "otravou kysličníkem uhelnatým",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "title": "Nepohodlí cestujícího za letu",
+      "prompt": "Jaká je správná reakce, cítí-li se náhle cestující nepohodlně při traťovém letu?",
+      "choices": [
+        "zvýšit teplotu v kabině a poskytnout mu deku",
+        "nemluvit a zvolit větší rychlost letu",
+        "nastavit teplotu kabiny a vyhnout se velkým náklonům",
+        "poskytnout kyslík a vyhnout se nízkým násobkům"
+      ],
+      "answer": "nastavit teplotu kabiny a vyhnout se velkým náklonům",
+      "correct_choice_index": 2,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "title": "Reflex",
+      "prompt": "Jaký je správný výraz pro nedobrovolnou reakci organizmu na podráždění receptoru?",
+      "choices": [
+        "reflex",
+        "redukce",
+        "virulence",
+        "koherence"
+      ],
+      "answer": "reflex",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 23,
+      "title": "Autonomní nervový systém",
+      "prompt": "Jaký je správný název systému, který, kromě jiného, řídí dýchání, trávení a tep srdce?",
+      "choices": [
+        "autonomní nervový systém",
+        "kritický nervový systém",
+        "automatický nervový systém",
+        "plnící nervový systém"
+      ],
+      "answer": "autonomní nervový systém",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "title": "Chyba paralaxy",
+      "prompt": "Co je to chyba paralaxy?",
+      "choices": [
+        "chyba v porozumění při komunikaci mezi piloty",
+        "chybné čtení přístrojů způsobené úhlem pohledu",
+        "nevnímání rychlosti při pojíždění",
+        "dlouhozrakost způsobená stářím, zvláště v noci"
+      ],
+      "answer": "chybné čtení přístrojů způsobené úhlem pohledu",
+      "correct_choice_index": 1,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "title": "Sluneční brýle pilota",
+      "prompt": "Jaká vlastnost je důležitá, když si pilot vybírá sluneční brýle?",
+      "choices": [
+        "zakřivené okraje",
+        "nepolarizované",
+        "nerozbitné",
+        "bez UV filtru"
+      ],
+      "answer": "nepolarizované",
+      "correct_choice_index": 1,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 26,
+      "title": "Barevné vidění",
+      "prompt": "Jaká část oka je odpovědná za barevné vidění?",
+      "choices": [
+        "tyčinky",
+        "čípky",
+        "čočka",
+        "slepá skvrna"
+      ],
+      "answer": "čípky",
+      "correct_choice_index": 1,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 27,
+      "title": "Eustachova trubice",
+      "prompt": "Spojení středního ucha a oblasti nosu a hrdla se nazývá:",
+      "choices": [
+        "ušní bubínek",
+        "Eustachova trubice",
+        "kochlea",
+        "vnitřní ucho"
+      ],
+      "answer": "Eustachova trubice",
+      "correct_choice_index": 1,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "title": "Vyrovnání tlaku ve středním uchu",
+      "prompt": "V jaké situaci NENÍ možné vyrovnat tlak mezi středním uchem a okolím?",
+      "choices": [
+        "při dýchání pouze ústy",
+        "Eustachova trubice je ucpaná",
+        "během mírného a pomalého stoupání",
+        "všechna okna jsou zcela uzavřena"
+      ],
+      "answer": "Eustachova trubice je ucpaná",
+      "correct_choice_index": 1,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "title": "Vestibulární klam po zatáčce",
+      "prompt": "Srovnání náklonu po delší době zatáčení může vést k pocitu:",
+      "choices": [
+        "ustáleného zatáčení stále ve stejném směru",
+        "zahájení klesání",
+        "zatáčení do opačného směru",
+        "zahájení stoupání"
+      ],
+      "answer": "zatáčení do opačného směru",
+      "correct_choice_index": 2,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "title": "Ztráta prostorové orientace",
+      "prompt": "Co z následujícího NEZPŮSOBÍ ztrátu orientace?",
+      "choices": [
+        "let pod vlivem alkoholu",
+        "rovný přímý let konstantní rychlostí",
+        "pohyby hlavou při zatáčení",
+        "turbulence v horizontálním letu"
+      ],
+      "answer": "rovný přímý let konstantní rychlostí",
+      "correct_choice_index": 1,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "title": "Somatogravický klam při zrychlení",
+      "prompt": "Zrychlení během rovného horizontálního letu může vést k pocitu:",
+      "choices": [
+        "klesání",
+        "stoupání",
+        "náklonu",
+        "letu na zádech"
+      ],
+      "answer": "stoupání",
+      "correct_choice_index": 1,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "title": "Somatogravický klam při zpomalení",
+      "prompt": "Zpomalení během rovného horizontálního letu může vést k pocitu:",
+      "choices": [
+        "klesání",
+        "stoupání",
+        "náklonu",
+        "letu na zádech"
+      ],
+      "answer": "klesání",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "title": "Optický klam při dráze do kopce",
+      "prompt": "Jaký optický klam může být způsoben přiblížením na dráhu se sklonem do kopce?",
+      "choices": [
+        "pilot má pocit, že přiblížení je příliš nízké, a proto se k dráze přibližuje nad správným úhlem sestupu",
+        "pilot mí pocit, že přiblížení je příliš rychlé, a proto se k dráze přibližuje nižší než normální přibližovací rychlostí",
+        "pilot má pocit, že přiblížení je příliš vysoké, a proto se k dráze přibližuje níže než pod správným úhlem sestupu",
+        "pilot má pocit, že přiblížení je příliš pomalé, a proto se k dráze přibližuje vyšší než normální přibližovací rychlostí"
+      ],
+      "answer": "pilot má pocit, že přiblížení je příliš vysoké, a proto se k dráze přibližuje níže než pod správným úhlem sestupu",
+      "correct_choice_index": 2,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "title": "Důsledek dráhy se sklonem nahoru",
+      "prompt": "Jaký optický klam může nastat při přiblížení k dráze se sklonem nahoru?",
+      "choices": [
+        "pilot je na přistání dlouhý",
+        "pilot je na přistání krátký",
+        "pilot přistane vedle středové čáry",
+        "tvrdé přistání"
+      ],
+      "answer": "pilot je na přistání dlouhý",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "title": "Coriolisova iluze",
+      "prompt": "K závrati dochází nejčastěji při pohybování hlavou:",
+      "choices": [
+        "ve stoupání",
+        "v klesání",
+        "v přímém horizontálním letu",
+        "v zatáčce"
+      ],
+      "answer": "v zatáčce",
+      "correct_choice_index": 3,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "title": "Šedé vidění",
+      "prompt": "Šedé vidění bývá způsobeno:",
+      "choices": [
+        "hyperventilací",
+        "kladným násobkem",
+        "únavou",
+        "kouřením"
+      ],
+      "answer": "kladným násobkem",
+      "correct_choice_index": 1,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 37,
+      "title": "Interpretace optických podnětů",
+      "prompt": "Optický klam bývá většinou způsoben:",
+      "choices": [
+        "binokulárním viděním",
+        "barvoslepostí",
+        "rychlými pohyby očí",
+        "špatným výkladem mozku"
+      ],
+      "answer": "špatným výkladem mozku",
+      "correct_choice_index": 3,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "title": "Odbourávání alkoholu",
+      "prompt": "Průměrný pokles hladiny alkoholu v krvi dospělé osoby za hodinu je přibližně o:",
+      "choices": [
+        "0,001",
+        "0,0003",
+        "0,003",
+        "0,0001"
+      ],
+      "answer": "0,0001",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "title": "Rizikový faktor diabetu",
+      "prompt": "Co lze považovat za rizikový faktor pro cukrovku (diabetes)?",
+      "choices": [
+        "konzumace zeleniny",
+        "nedostatek spánku",
+        "kouření",
+        "nadváha"
+      ],
+      "answer": "nadváha",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "title": "Dekompresní nemoc a potápění",
+      "prompt": "Rizikovým faktorem pro nemoc z dekomprese je:",
+      "choices": [
+        "100 % kyslík po dekompresi",
+        "kouření",
+        "sportování",
+        "přístrojové potápění před letem"
+      ],
+      "answer": "přístrojové potápění před letem",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "title": "Kapacita krátkodobé paměti",
+      "prompt": "Který výrok o krátkodobé paměti je pravdivý?",
+      "choices": [
+        "může uchovat 5 (±2) položek na 1 až 2 minuty",
+        "může uchovat 10 (±5) položek na 30 až 60 sekund",
+        "může uchovat 3 (±1) položek na 5 až 10 sekund",
+        "může uchovat 7 (±2) položek na 10 až 20 sekund"
+      ],
+      "answer": "může uchovat 7 (±2) položek na 10 až 20 sekund",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "title": "Doba krátkodobé paměti",
+      "prompt": "Na přibližně jakou dobu může krátkodobá paměť uchovat informace?",
+      "choices": [
+        "3 až 7 sekund",
+        "30 až 40 sekund",
+        "10 až 20 sekund",
+        "35 až 50 sekund"
+      ],
+      "answer": "10 až 20 sekund",
+      "correct_choice_index": 2,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "title": "Skrytá chyba",
+      "prompt": "Co je skrytá chyba?",
+      "choices": [
+        "chyba, které se pilot dopustil aktivně a vědomě",
+        "chyba, která má důsledek jen až po přistání",
+        "chyba, která má okamžitý dopad na řízení letadla",
+        "chyba, která po dlouhou dobu zůstane v systému neobjevena"
+      ],
+      "answer": "chyba, která po dlouhou dobu zůstane v systému neobjevena",
+      "correct_choice_index": 3,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "title": "Potvrzovací snaha",
+      "prompt": "Co znamená pojem \"potvrzovací snaha\"?",
+      "choices": [
+        "přednostní hledání argumentů pro podporu vlastního myšlenkového modelu",
+        "snaha o potvrzení každého radiotelefonního hovoru",
+        "smyčka zpětné vazby při uzavřené komunikaci",
+        "kritická kontrola dvojsmyslné situace za letu"
+      ],
+      "answer": "přednostní hledání argumentů pro podporu vlastního myšlenkového modelu",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "title": "Situační povědomí",
+      "prompt": "Nepřetržitý proces sledování současné situace za letu se nazývá:",
+      "choices": [
+        "situační povědomí",
+        "okamžité sledování letu",
+        "situační přemýšlení",
+        "postup předběžné kontroly"
+      ],
+      "answer": "situační povědomí",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "title": "Standardizovaná radiotelefonní frazeologie",
+      "prompt": "S ohledem na komunikační model, jak lze zajistit použití stejného kódu při radiokomunikaci?",
+      "choices": [
+        "přidělením zvláštní frekvence",
+        "použitím radiotelefonní frazeologie",
+        "použitím správné náhlavní soupravy",
+        "použitím radiostanic certifikovaných pro letectví"
+      ],
+      "answer": "použitím radiotelefonní frazeologie",
+      "correct_choice_index": 1,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "title": "Způsoby řízení rizika",
+      "prompt": "Jakými různými způsoby lze správně řešit riziko?",
+      "choices": [
+        "vyhnout se, snížit, převést, přijmout",
+        "vyhnout se, ignorovat, zmírnit, snížit",
+        "ignorovat, přijmout, převést, vyloučit",
+        "vyloučit, vyhnout se, zmírnit, převést"
+      ],
+      "answer": "vyhnout se, snížit, převést, přijmout",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "title": "Skupinová dynamika a riziko",
+      "prompt": "Za jakých okolností je pravděpodobnější přijmutí vyššího rizika?",
+      "choices": [
+        "není-li k dispozici dostatek informací",
+        "kvůli skupinově-dynamickému efektu",
+        "při zkušebních letech kvůli vyšší hladině nervozity",
+        "při plánování letu, je-li předpovídáno výborné počasí"
+      ],
+      "answer": "kvůli skupinově-dynamickému efektu",
+      "correct_choice_index": 1,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "title": "Posun rizika",
+      "prompt": "Co znamená \"posun rizika\"?",
+      "choices": [
+        "náhlá změna směru přistání, má-li dráha sklon do kopce",
+        "seřízení sedačky za letu",
+        "provedení skluzu na krátkém finále",
+        "tendence přijímat vyšší riziko ve skupině"
+      ],
+      "answer": "tendence přijímat vyšší riziko ve skupině",
+      "correct_choice_index": 3,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 50,
+      "title": "Nebezpečné postoje pilota",
+      "prompt": "Jaké nebezpečné přístupy jsou často kombinovány?",
+      "choices": [
+        "sebeuvolnění a předvádění se",
+        "nezranitelnost a sebeuvolnění",
+        "impulzivita a bezstarostnost",
+        "předvádění se a nezranitelnost"
+      ],
+      "answer": "předvádění se a nezranitelnost",
+      "correct_choice_index": 3,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 51,
+      "title": "Předvádění se",
+      "prompt": "Co je znakem přístupu předvádění se?",
+      "choices": [
+        "pečlivá předletová prohlídka",
+        "riskantní letové manévry pro upoutání diváků na zemi",
+        "rychlá odevzdanost se ve složitých a kritických situacích",
+        "důkladné vyhodnocení rizik v předem neznámých situacích"
+      ],
+      "answer": "riskantní letové manévry pro upoutání diváků na zemi",
+      "correct_choice_index": 1,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "title": "Očekávání a lidská chyba",
+      "prompt": "Co může vést k chybám lidského faktoru?",
+      "choices": [
+        "dvojitá kontrola příslušné činnosti",
+        "správné používání seznamu úkonů",
+        "pochybnosti, když se něco zdá nejasné nebo dvojsmyslné",
+        "sklon vidět to, co lze předpokládat"
+      ],
+      "answer": "sklon vidět to, co lze předpokládat",
+      "correct_choice_index": 3,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "title": "Povahové rysy pilota",
+      "prompt": "Jaká je nejlepší kombinace povahových rysů s ohledem na individuální přístup a chování pilota?",
+      "choices": [
+        "introvertní – stabilní",
+        "introvertní – nestabilní",
+        "extrovertní – stabilní",
+        "extrovertní – nestabilní"
+      ],
+      "answer": "extrovertní – stabilní",
+      "correct_choice_index": 2,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "title": "Samolibost a automatizace",
+      "prompt": "Samolibost je rizikem kvůli:",
+      "choices": [
+        "velkému počtu chyb, kterých se lidé normálně dopouštějí",
+        "zvýšené automatizaci v pilotní kabině",
+        "lepší možnosti výcviku pro mladé piloty",
+        "vysoké poruchovosti technických systémů"
+      ],
+      "answer": "zvýšené automatizaci v pilotní kabině",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "title": "Ideální hladina vyburcování",
+      "prompt": "Ve kterém místě diagramu je zobrazena ideální hladina vyburcování? Viz obr. (HPL- 002) P = výkonnost A = vyburcování / stres",
+      "choices": [
+        "bod A",
+        "bod B",
+        "bod C",
+        "bod D"
+      ],
+      "answer": "bod B",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "HPL-002",
+      "attachment_url": "/public/assets/attachments/HPL-002.svg"
+    },
+    {
+      "source_question_id": 56,
+      "title": "Přetížení a výkonnost",
+      "prompt": "Ve kterém místě diagramu se nachází přetížený pilot? Viz obr. (HPL-002) P = výkonnost A = vyburcování / stres",
+      "choices": [
+        "bod A",
+        "bod B",
+        "bod C",
+        "bod D"
+      ],
+      "answer": "bod D",
+      "correct_choice_index": 3,
+      "source_document_page": 12,
+      "attachment_code": "HPL-002",
+      "attachment_url": "/public/assets/attachments/HPL-002.svg"
+    },
+    {
+      "source_question_id": 57,
+      "title": "Stres a kognitivní funkce",
+      "prompt": "Která z následujících vlastností je ovlivněna stresem? 1. pozornost 2. soustředěnost 3. odpovědnost 4. paměť",
+      "choices": [
+        "1",
+        "1, 2, 3",
+        "2, 4",
+        "1, 2, 3, 4"
+      ],
+      "answer": "1, 2, 3, 4",
+      "correct_choice_index": 3,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 58,
+      "title": "Stres",
+      "prompt": "Která odpověď týkající se stresu je správná?",
+      "choices": [
+        "stres a jeho různé příznaky jsou pro bezpečnost letu bezvýznamné",
+        "každý reaguje na stres stejným způsobem",
+        "stres může nastat, i když se zdá, že daný problém nemá řešení",
+        "výcvik a zkušenosti nemají žádný vliv na výskyt stresu"
+      ],
+      "answer": "stres může nastat, i když se zdá, že daný problém nemá řešení",
+      "correct_choice_index": 2,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

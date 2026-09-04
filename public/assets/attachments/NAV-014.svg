@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">NAV-014 navigační log</title>
+  <desc id="d">Studijní navigační log s vyplněnými vstupy a prázdnými poli pro TC/WCA/TH/VAR/MH/MC.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">NAV-014 navigační log</text>
+
+  <rect x="110" y="145" width="780" height="330" fill="#fbfcfd" stroke="#17384f" stroke-width="4"/>
+  <line x1="110" y1="215" x2="890" y2="215" stroke="#17384f" stroke-width="3"/>
+  <line x1="110" y1="315" x2="890" y2="315" stroke="#d4e0e8" stroke-width="3"/>
+  <line x1="240" y1="145" x2="240" y2="475" stroke="#d4e0e8" stroke-width="3"/>
+  <line x1="370" y1="145" x2="370" y2="475" stroke="#d4e0e8" stroke-width="3"/>
+  <line x1="500" y1="145" x2="500" y2="475" stroke="#d4e0e8" stroke-width="3"/>
+  <line x1="630" y1="145" x2="630" y2="475" stroke="#d4e0e8" stroke-width="3"/>
+  <line x1="760" y1="145" x2="760" y2="475" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="175" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">TC</text>
+  <text x="305" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">WCA</text>
+  <text x="435" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">TH</text>
+  <text x="565" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">VAR</text>
+  <text x="695" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">MH</text>
+  <text x="825" y="190" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#17384f">MC</text>
+  <text x="175" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#17384f">179°</text>
+  <text x="305" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#17384f">+6°</text>
+  <text x="435" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#b64a4a">?</text>
+  <text x="565" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#17384f">1°E</text>
+  <text x="695" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#b64a4a">?</text>
+  <text x="825" y="275" text-anchor="middle" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#b64a4a">?</text>
+  <text x="500" y="405" text-anchor="middle" font-family="system-ui,sans-serif" font-size="21" fill="#667b88">Doplň označená pole podle navigačního řetězce.</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

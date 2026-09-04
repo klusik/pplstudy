@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="t d">
+  <title id="t">PFA-008 studijní schéma letových režimů</title>
+  <desc id="d">Studijní schéma s body 1 až 5. Bod 1 je v oblasti záporného vztlaku odpovídající letu na zádech. Bod 5 leží na levé hranici kladné části a označuje minimální rychlost.</desc>
+  <rect width="900" height="540" fill="#fff"/>
+  <g stroke="#111" stroke-width="4" fill="none"><path d="M110 275 H825"/><path d="M110 470 V70"/><path d="M825 275 l-18 -10 m18 10 l-18 10"/><path d="M110 70 l-10 18 m10-18 l10 18"/></g>
+  <text x="745" y="320" font-family="system-ui,sans-serif" font-size="22">rychlost</text>
+  <text x="30" y="85" font-family="system-ui,sans-serif" font-size="22">vztlak / režim</text>
+  <path d="M250 275 C290 160 420 110 720 120" fill="none" stroke="#386c8e" stroke-width="6"/>
+  <path d="M250 275 C320 365 470 410 720 405" fill="none" stroke="#9a4f55" stroke-width="6"/>
+  <g fill="#a11212" stroke="#5f0b0b" stroke-width="2"><circle cx="475" cy="390" r="10"/><circle cx="620" cy="145" r="10"/><circle cx="500" cy="155" r="10"/><circle cx="350" cy="195" r="10"/><circle cx="250" cy="245" r="10"/></g>
+  <g font-family="system-ui,sans-serif" font-size="30" font-weight="700"><text x="490" y="425">1</text><text x="635" y="135">2</text><text x="515" y="145">3</text><text x="365" y="185">4</text><text x="210" y="235">5</text></g>
+  <text x="395" y="470" font-family="system-ui,sans-serif" font-size="20" fill="#9a4f55">oblast záporného vztlaku / let na zádech</text>
+  <text x="165" y="205" font-family="system-ui,sans-serif" font-size="20" fill="#386c8e">hranice nízké rychlosti</text>
+  <text x="300" y="520" font-family="system-ui,sans-serif" font-size="18" fill="#465b6b">Studijní překreslení přílohy PFA-008</text>
+</svg>

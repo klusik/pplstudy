@@ -37,6 +37,7 @@ function study_configuration_defaults(): array
         'public_search_page_size' => 50,
         'quiz_custom_max_questions' => 120,
         'import_max_bytes' => 5 * 1024 * 1024,
+        'source_document_upload_max_bytes' => 30 * 1024 * 1024,
     ];
 }
 

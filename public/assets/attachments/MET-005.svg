@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+  <title id="t">MET-005 studijní přehled frontálních symbolů</title>
+  <desc id="d">Tři symboly: 1 studená fronta s trojúhelníky, 2 teplá fronta s půlkruhy a 3 okluze se střídajícími se trojúhelníky a půlkruhy.</desc>
+  <rect width="900" height="520" fill="#f7fafc"/>
+  <text x="60" y="70" font-family="sans-serif" font-size="30" font-weight="700" fill="#17384f">1</text>
+  <line x1="120" y1="62" x2="780" y2="62" stroke="#386c8e" stroke-width="8"/>
+  <g fill="#386c8e"><path d="M220 62 l32 0 -16 28 z"/><path d="M390 62 l32 0 -16 28 z"/><path d="M560 62 l32 0 -16 28 z"/></g>
+  <text x="120" y="118" font-family="sans-serif" font-size="22" fill="#17384f">studená fronta</text>
+
+  <text x="60" y="220" font-family="sans-serif" font-size="30" font-weight="700" fill="#17384f">2</text>
+  <line x1="120" y1="212" x2="780" y2="212" stroke="#9a4f55" stroke-width="8"/>
+  <g fill="none" stroke="#9a4f55" stroke-width="8"><path d="M210 212 a25 25 0 0 1 50 0"/><path d="M380 212 a25 25 0 0 1 50 0"/><path d="M550 212 a25 25 0 0 1 50 0"/></g>
+  <text x="120" y="268" font-family="sans-serif" font-size="22" fill="#17384f">teplá fronta</text>
+
+  <text x="60" y="370" font-family="sans-serif" font-size="30" font-weight="700" fill="#17384f">3</text>
+  <line x1="120" y1="362" x2="780" y2="362" stroke="#655287" stroke-width="8"/>
+  <g fill="#655287"><path d="M205 362 l32 0 -16 28 z"/><path d="M545 362 l32 0 -16 28 z"/></g>
+  <g fill="none" stroke="#655287" stroke-width="8"><path d="M365 362 a25 25 0 0 1 50 0"/><path d="M705 362 a25 25 0 0 1 50 0"/></g>
+  <text x="120" y="418" font-family="sans-serif" font-size="22" fill="#17384f">okluze</text>
+  <text x="270" y="486" font-family="sans-serif" font-size="18" fill="#465b6b">Studijní překreslení rozlišovacích prvků přílohy MET-005</text>
+</svg>

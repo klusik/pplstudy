@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="t d">
+  <title id="t">AGK-006 značka pneumatiky</title>
+  <desc id="d">Schéma kontrolní značky pro zjištění posunu pneumatiky vůči ráfku.</desc>
+  <rect width="1000" height="620" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="550" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">AGK-006 značka pneumatiky</text>
+
+  <circle cx="500" cy="330" r="185" fill="#2d3338"/>
+  <circle cx="500" cy="330" r="108" fill="#dce8ef" stroke="#17384f" stroke-width="8"/>
+  <circle cx="500" cy="330" r="46" fill="#fff" stroke="#17384f" stroke-width="6"/>
+  <line x1="500" y1="145" x2="500" y2="300" stroke="#f7f7f7" stroke-width="12"/>
+  <line x1="500" y1="300" x2="500" y2="222" stroke="#b64a4a" stroke-width="10"/>
+  <text x="500" y="555" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#17384f">souvislá svědecká značka přes pneumatiku a ráfek</text>
+
+  <text x="500.0" y="602" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

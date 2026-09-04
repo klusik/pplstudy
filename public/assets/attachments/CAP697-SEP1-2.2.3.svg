@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" role="img" aria-labelledby="t d">
+  <title id="t">CAP697 SEP1 2.2.3, studijní výkonová tabulka</title>
+  <desc id="d">Studijní podklad CAP697.</desc>
+  <rect width="1000" height="580" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="520" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">SEP1 2.2.3, studijní výkonová tabulka</text>
+<rect x="50" y="115" width="520" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="310.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Podmínky</text>
+<rect x="570" y="115" width="380" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="760.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Výsledek</text>
+<rect x="50" y="165" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">FL75, ISA, 3400 lb, 23 inHg / 2300 RPM</text>
+<rect x="570" y="165" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">TAS 160 kt; FF 11.9 GPH</text>
+<rect x="50" y="223" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">FL65, ISA+20, 3400 lb, 23 inHg / 2300 RPM</text>
+<rect x="570" y="223" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">IAS 142 kt; FF 11.5 GPH</text>
+<rect x="50" y="281" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">2h43, 6500 ft, ISA-20, 2300 RPM + rezervy</text>
+<rect x="570" y="281" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">50.4 USG</text>
+<rect x="50" y="339" width="520" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="310.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">2h42, 7500 ft, ISA, 2300 RPM + rezervy</text>
+<rect x="570" y="339" width="380" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="760.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">48.4 USG</text>
+<text x="60" y="439" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Studijní výřez obsahuje jen řádky potřebné pro zdrojové otázky 93 až 96.</text>
+  <text x="500.0" y="558" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

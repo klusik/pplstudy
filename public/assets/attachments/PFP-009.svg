@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="t d">
+  <title id="t">PFP-009 Vzletová výkonnost</title>
+  <desc id="d">Studijní podklad PFP-009.</desc>
+  <rect width="1000" height="520" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="460" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Vzletová výkonnost</text>
+<rect x="50" y="115" width="280" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="190.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">OAT / tlaková výška</text>
+<rect x="330" y="115" width="180" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="420.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Hmotnost</text>
+<rect x="510" y="115" width="180" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="600.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Vítr</text>
+<rect x="690" y="115" width="260" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="820.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Délka vzletu</text>
+<rect x="50" y="165" width="280" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="190.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">-20 °C / 5000 ft</text>
+<rect x="330" y="165" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="420.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">750 kg</text>
+<rect x="510" y="165" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="600.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">H/W 10 kt</text>
+<rect x="690" y="165" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">380 m</text>
+<rect x="50" y="223" width="280" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="190.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">ISA / 4000 ft</text>
+<rect x="330" y="223" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="420.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">750 kg</text>
+<rect x="510" y="223" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="600.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">T/W 5 kt</text>
+<rect x="690" y="223" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">900 m</text>
+<rect x="50" y="281" width="280" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="190.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">20 °C / 3500 ft</text>
+<rect x="330" y="281" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="420.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">705 kg</text>
+<rect x="510" y="281" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="600.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">T/W 5 kt</text>
+<rect x="690" y="281" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">880 m</text>
+<text x="60" y="381" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Čti tabulku vždy se všemi korekcemi pro teplotu, výšku, hmotnost a vítr.</text>
+  <text x="500.0" y="498" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

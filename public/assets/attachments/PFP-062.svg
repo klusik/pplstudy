@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
+  <title id="t">PFP-062 ICAO letiště</title>
+  <desc id="d">Čtyři studijní symboly A až D; A představuje civilní letiště se zpevněnou dráhou.</desc>
+  <rect width="1000" height="500" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="440" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Civilní letiště se zpevněnou RWY</text>
+<text x="180" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">A</text>
+<text x="390" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">B</text>
+<text x="600" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">C</text>
+<text x="810" y="145" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#17384f">D</text>
+<circle cx="180" cy="285" r="70" fill="none" stroke="#17384f" stroke-width="4"/>
+<rect x="135" y="275" width="90" height="20" transform="rotate(-20 180 285)" fill="#17384f"/>
+<circle cx="390" cy="285" r="55" fill="none" stroke="#17384f" stroke-width="4"/>
+<path d="M560 320 L600 245 L640 320 Z" fill="none" stroke="#17384f" stroke-width="4"/>
+<rect x="760" y="250" width="100" height="70" fill="none" stroke="#17384f" stroke-width="4"/>
+  <text x="500.0" y="478" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

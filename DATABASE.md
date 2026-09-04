@@ -77,6 +77,9 @@ Important fields:
 - `choices_json` containing four editable answer choices
 - `choices_generated`
 - `explanation`
+- `curation_status`
+- `wording_status`
+- `explanation_sections_json`
 - optional `warning`
 - optional attachment code/URL
 - `attachment_indexed`
@@ -129,3 +132,22 @@ Question `sequence_no` is the stable identity for imported cards. Source compila
 ## Backup before source-bank replacement
 
 For a manually curated production bank, take a database backup before importing a regenerated bank with pruning enabled. The bundled bank is reproducible from JSON, while administrator edits to question rows can be overwritten by a subsequent import.
+
+
+### `source_documents`
+
+Stores metadata for administrator-supplied source PDFs:
+
+- `source_key`
+- `subject_id`
+- `title`
+- `version_label`
+- `publisher`
+- `official_url`
+- `stored_filename`
+- `mime_type`
+- `sha256`
+- `file_size`
+- `uploaded_at`
+
+The file itself lives under `data/source-documents/` and is served only through an authenticated controller route.

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="t d">
+  <title id="t">PFP-053e Hmotnost a těžiště včetně paliva</title>
+  <desc id="d">Studijní podklad PFP-053e.</desc>
+  <rect width="1000" height="560" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="500" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Hmotnost a těžiště včetně paliva</text>
+<rect x="50" y="115" width="260" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="180.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Položka</text>
+<rect x="310" y="115" width="190" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="405.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Hmotnost</text>
+<rect x="500" y="115" width="190" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="595.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Rameno</text>
+<rect x="690" y="115" width="260" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="820.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Moment</text>
+<rect x="50" y="165" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="180.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Prázdné letadlo</text>
+<rect x="310" y="165" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="405.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">620 kg</text>
+<rect x="500" y="165" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="595.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">36.5 cm</text>
+<rect x="690" y="165" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">22 630</text>
+<rect x="50" y="223" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="180.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Posádka a náklad</text>
+<rect x="310" y="223" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="405.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">105 kg</text>
+<rect x="500" y="223" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="595.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">38.0 cm</text>
+<rect x="690" y="223" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">3 990</text>
+<rect x="50" y="281" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="180.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Palivo</text>
+<rect x="310" y="281" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="405.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">21 kg</text>
+<rect x="500" y="281" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="595.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">50.0 cm</text>
+<rect x="690" y="281" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">1 050</text>
+<rect x="50" y="339" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="180.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">Celkem</text>
+<rect x="310" y="339" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="405.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">746 kg</text>
+<rect x="500" y="339" width="190" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="595.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">37.1 cm</text>
+<rect x="690" y="339" width="260" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="820.0" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">27 670</text>
+<text x="60" y="439" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Výsledné CG odečti jako celkový moment / celková hmotnost.</text>
+  <text x="500.0" y="538" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

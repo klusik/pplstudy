@@ -1,0 +1,1563 @@
+{
+  "schema_version": 1,
+  "subject_id": 1,
+  "source_key": "subject-01-official-questions",
+  "source_title": "Právní předpisy v oblasti letectví – letoun",
+  "source_version": "1.0, 29.12.2020",
+  "source_sha256": "96a314e72dd3cc4bf3feef44db9beaa9949ccc9fa97204a02eff85dfa362a788",
+  "source_filename": "01-pravni-predpisy-official.pdf",
+  "questions": [
+    {
+      "source_question_id": 1,
+      "title": "Povinné doklady při mezinárodním letu",
+      "prompt": "Který z následujících dokumentů musí být na palubě při mezinárodním letu?\na) Osvědčení o zápisu do leteckého rejstříku\nb) Osvědčení letové způsobilosti\nc) Osvědčení kontroly letové způsobilosti\nd) EASA Form 1\ne) Palubní deník\nf) Doklady každého člena posádky\ng) Technický deník letadla",
+      "choices": [
+        "a, b, c, e, f",
+        "b, c, d, e, f, g",
+        "d, f, g",
+        "a, b, e, g"
+      ],
+      "answer": "a, b, c, e, f",
+      "correct_choice_index": 0,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 2,
+      "title": "Vymezené vzdušné prostory",
+      "prompt": "Jaký prostor je možno proletět s určitými omezeními?",
+      "choices": [
+        "zakázaný prostor",
+        "omezený prostor",
+        "nebezpečný prostor",
+        "bezletová zóna"
+      ],
+      "answer": "omezený prostor",
+      "correct_choice_index": 1,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 3,
+      "title": "Publikace omezených prostorů",
+      "prompt": "Kde lze nalézt druh omezení pro omezený prostor?",
+      "choices": [
+        "mapa ICAO 1:500000",
+        "AIP",
+        "AIC",
+        "NOTAM"
+      ],
+      "answer": "AIP",
+      "correct_choice_index": 1,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 4,
+      "title": "Právní závaznost pravidel EASA",
+      "prompt": "Jaké je postavení pravidel a postupů vytvořených v EASA, jako např. Part-SFCL, PART-MED?",
+      "choices": [
+        "mají stejné postavení jako Annexy ICAO",
+        "nejsou právně závazné, slouží pouze jako návod",
+        "jsou částí nařízení EU a právně závazné ve všech členských státech EU",
+        "jsou právně závazné pouze po ratifikaci v jednotlivých členských státech EU"
+      ],
+      "answer": "jsou částí nařízení EU a právně závazné ve všech členských státech EU",
+      "correct_choice_index": 2,
+      "source_document_page": 1,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 5,
+      "title": "Platnost osvědčení letové způsobilosti",
+      "prompt": "Jakou dobu platnosti má Osvědčení letové způsobilosti?",
+      "choices": [
+        "6 měsíců",
+        "12 let",
+        "neomezenou",
+        "12 měsíců"
+      ],
+      "answer": "neomezenou",
+      "correct_choice_index": 2,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 6,
+      "title": "ARC",
+      "prompt": "Co znamená zkratka ARC?",
+      "choices": [
+        "Airworthiness Recurring Control = Řízení zachování letové způsobilosti",
+        "Airspace Restriction Criteria = Kritéria omezeného prostoru",
+        "Airworthiness Review Certificate = Osvědčení kontroly letové způsobilosti",
+        "Airspace Rulemaking Committee = Výbor pro tvorbu pravidel vzdušného prostoru"
+      ],
+      "answer": "Airworthiness Review Certificate = Osvědčení kontroly letové způsobilosti",
+      "correct_choice_index": 2,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 7,
+      "title": "Stát vydávající CoA",
+      "prompt": "Osvědčení letové způsobilosti vydává stát:",
+      "choices": [
+        "kde je letadlo zapsáno do leteckého rejstříku",
+        "kde bylo letadlo vyrobeno",
+        "kde sídlí vlastník letadla",
+        "ve kterém se provádí kontrola letové způsobilosti"
+      ],
+      "answer": "kde je letadlo zapsáno do leteckého rejstříku",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 8,
+      "title": "Mezinárodní platnost průkazu ICAO",
+      "prompt": "Průkaz pilot vydaný podle standardů ICAO je platný:",
+      "choices": [
+        "ve všech státech ICAO",
+        "ve státu, kde byl průkaz získán",
+        "ve státu vydání průkazu",
+        "ve státech, které na základě žádosti tento průkaz uznaly"
+      ],
+      "answer": "ve všech státech ICAO",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 9,
+      "title": "ICAO Annex 1",
+      "prompt": "Co je předmětem Anexu 1 ICAO?",
+      "choices": [
+        "způsobilost letových posádek",
+        "provoz letadel",
+        "Letové provozní služby",
+        "pravidla létání"
+      ],
+      "answer": "způsobilost letových posádek",
+      "correct_choice_index": 0,
+      "source_document_page": 2,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 10,
+      "title": "Platnost PPL",
+      "prompt": "Jaká je doba platnosti průkazu soukromého pilota (PPL)?",
+      "choices": [
+        "24 měsíců",
+        "60 měsíců",
+        "neomezená",
+        "48 měsíců"
+      ],
+      "answer": "neomezená",
+      "correct_choice_index": 2,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 11,
+      "title": "Minimální věk pro PPL",
+      "prompt": "V jakém minimálním věku lze získat průkaz soukromého pilota?",
+      "choices": [
+        "16 let",
+        "17 let",
+        "18 let",
+        "21 let"
+      ],
+      "answer": "17 let",
+      "correct_choice_index": 1,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 12,
+      "title": "Noční kvalifikace, základní rozsah",
+      "prompt": "Jaké jsou mimo jiné požadavky na získání kvalifikace pro lety VFR v noci?",
+      "choices": [
+        "nejméně 10 hodin letu v noci, 3 z nich s instruktorem a nejméně 1 navigační let a 5 sólo vzletů a přistání s úplným zastavením",
+        "nejméně 5 hodin letu v noci, 3 z nich s instruktorem a nejméně 1 navigační let a 5 sólo vzletů a přistání s úplným zastavením",
+        "nejméně 5 hodin letu v noci, 4 z nich s instruktorem a 1 hodina navigačního letu a 5 sólo vzletů a přistání s úplným zastavením",
+        "nejméně 5 hodin letu v noci, 3 z nich s instruktorem a nejméně 1 hodina navigačního letu a 10 sólo vzletů a přistání s úplným zastavením"
+      ],
+      "answer": "nejméně 5 hodin letu v noci, 3 z nich s instruktorem a nejméně 1 navigační let a 5 sólo vzletů a přistání s úplným zastavením",
+      "correct_choice_index": 1,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 13,
+      "title": "Class 2 medical po 50. roce",
+      "prompt": "Doba platnosti Osvědčení zdravotní způsobilosti 2. třídy pro 62 letého pilota je:",
+      "choices": [
+        "12 měsíců",
+        "60 měsíců",
+        "48 měsíců",
+        "24 měsíců"
+      ],
+      "answer": "12 měsíců",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 14,
+      "title": "SEP land bez splněné zkušenosti",
+      "prompt": "Jak lze prodloužit platnost třídní kvalifikace SEP land (jednomotorový pístový pozemní letoun), když jste nesplnil požadovanou dobu letu?",
+      "choices": [
+        "přezkoušení odborné způsobilosti s examinátorem",
+        "požadovanou dobu letu je třeba splnit pod dohledem letového instruktora",
+        "ATO může prodloužit kvalifikaci po výcvikovém letu s letovým instruktorem",
+        "podle nalétaných hodin je třeba provést několik výcvikových letů pod dohledem ATO"
+      ],
+      "answer": "přezkoušení odborné způsobilosti s examinátorem",
+      "correct_choice_index": 0,
+      "source_document_page": 3,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 15,
+      "title": "Práva držitele PPL(A)",
+      "prompt": "Práva držitele evropského průkazu soukromého pilota letounů (PPL(A)) jsou:",
+      "choices": [
+        "působit jako velitel letadla při neobchodních letech bez úplaty a přijímat úplatu jako letový instruktor",
+        "působit jako velitel letadla, ale pouze na letadlech s MTOW maximálně 2000 kg lze obdržet úplatu",
+        "působit jako velitel letadla při obchodních a neobchodních letech na jednomotorových letadlech",
+        "působit jako pilot při obchodních letech, kdy jsou na palubě maximálně 4 osoby"
+      ],
+      "answer": "působit jako velitel letadla při neobchodních letech bez úplaty a přijímat úplatu jako letový instruktor",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 16,
+      "title": "Minimální věk pro první samostatný let",
+      "prompt": "Jaký je minimální věk pro první samostatný let v letecké škole?",
+      "choices": [
+        "16 let",
+        "17 let",
+        "18 let",
+        "21 let"
+      ],
+      "answer": "16 let",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 17,
+      "title": "SERA",
+      "prompt": "Co znamená zkratka SERA?",
+      "choices": [
+        "standardizovaná evropská pravidla létání",
+        "selektivní radiovýškoměr",
+        "zvláštní radarové přiblížení",
+        "standardní evropské letecké tratě"
+      ],
+      "answer": "standardizovaná evropská pravidla létání",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 18,
+      "title": "TRA",
+      "prompt": "Co znamená zkratka TRA?",
+      "choices": [
+        "dočasně vyhrazený vzdušný prostor",
+        "oblast odpovídače sekundárního radaru",
+        "dočasná oblast radarových tratí",
+        "koncová oblast"
+      ],
+      "answer": "dočasně vyhrazený vzdušný prostor",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 19,
+      "title": "Vstup do RMZ",
+      "prompt": "Co je třeba provést při vstupu do oblasti s povinným rádiovým spojením (RMZ)?",
+      "choices": [
+        "stále sledovat rádio a je-li to možné, navázat rádiové spojení",
+        "obdržet povolení pro vstup do této oblasti",
+        "odpovídač sekundárního radaru přepnout na mód C a 7000",
+        "obdržet povolení od místního leteckého úřadu"
+      ],
+      "answer": "stále sledovat rádio a je-li to možné, navázat rádiové spojení",
+      "correct_choice_index": 0,
+      "source_document_page": 4,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 20,
+      "title": "Zvláštní let VFR",
+      "prompt": "Jakou podmínku je třeba splnit při zvláštním letu VFR?",
+      "choices": [
+        "viditelnost země",
+        "minimální vzdálenost 2000 m od oblačnosti",
+        "minimální přízemní dohlednost 500 m",
+        "rychlost ne vyšší než 115 kt IAS"
+      ],
+      "answer": "viditelnost země",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 21,
+      "title": "Vstup do TMZ",
+      "prompt": "Co musíte udělat při vstupu do oblasti s povinným odpovídačem sekundárního radaru (TMZ)?",
+      "choices": [
+        "zapnout odpovídač sekundárního radaru a nastavit mód A a C nebo mód S",
+        "zapnout odpovídač sekundárního radaru, nastavit mód A a stisknout tlačítko IDENT",
+        "vyžádat povolení ke vstupu",
+        "před letem podat letový plán"
+      ],
+      "answer": "zapnout odpovídač sekundárního radaru a nastavit mód A a C nebo mód S",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 22,
+      "title": "TMZ",
+      "prompt": "Co znamená oblast označená TMZ?",
+      "choices": [
+        "oblast s povinným odpovídačem sekundárního radaru",
+        "oblast uspořádání letového provozu",
+        "oblast turistických motorových kluzáků",
+        "oblast řízení dopravy"
+      ],
+      "answer": "oblast s povinným odpovídačem sekundárního radaru",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 23,
+      "title": "IFR",
+      "prompt": "Co znamená zkratka IFR?",
+      "choices": [
+        "podmínky pro let podle přístrojů",
+        "pravidla pro let podle přístrojů",
+        "pravidla pro obchodní lety",
+        "pravidla pro lety za špatného počasí"
+      ],
+      "answer": "pravidla pro let podle přístrojů",
+      "correct_choice_index": 1,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 24,
+      "title": "Let podle VFR",
+      "prompt": "Let se nazývá za vidu, když:",
+      "choices": [
+        "let je proveden podle pravidel letu za viditelnosti",
+        "let je proveden v meteorologických podmínkách za viditelnosti",
+        "dohlednost za letu je více než 8 km",
+        "dohlednost za letu je více než 5 km"
+      ],
+      "answer": "let je proveden podle pravidel letu za viditelnosti",
+      "correct_choice_index": 0,
+      "source_document_page": 5,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 25,
+      "title": "VMC",
+      "prompt": "Co znamená zkratka VMC?",
+      "choices": [
+        "meteorologické podmínky pro let za viditelnosti",
+        "vizuální pravidla letu",
+        "měnící se meteorologické podmínky",
+        "podmínky pro let podle přístrojů"
+      ],
+      "answer": "meteorologické podmínky pro let za viditelnosti",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 26,
+      "title": "Protisměrný provoz",
+      "prompt": "Dvoumotorová letadla letí ve stejné výšce na protisměrných tratích. Které z nich se má vyhnout?",
+      "choices": [
+        "obě mají uhnout doprava",
+        "to těžší má stoupat",
+        "obě mají uhnout doleva",
+        "to lehčí má stoupat"
+      ],
+      "answer": "obě mají uhnout doprava",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 27,
+      "title": "Křižující se tratě",
+      "prompt": "Dva letouny letí po křižujících se tratích. Který z nich má uhnout?",
+      "choices": [
+        "letadlo letící zprava doleva má přednost",
+        "letadlo letící zleva doprava má přednost",
+        "obě letadla mají uhnout doprava",
+        "obě letadla mají uhnout doleva"
+      ],
+      "answer": "letadlo letící zprava doleva má přednost",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 28,
+      "title": "Křižující se tratě ve třídě D",
+      "prompt": "Ve třídě vzdušného prostoru třídy D letí Boeing 737 a Cessna 152 po protínajících se tratích. Které z letadel se má vyhnout?",
+      "choices": [
+        "letoun letící zprava doleva má přednost, ten druhý se má vyhnout",
+        "Cessna 152, protože lety IFR a obchodní lety mají přednost",
+        "Boeing 737, protože dopravní letadlo má větší rezervu výkonnosti",
+        "řízení letového provozu (ATC) má rozhodnout, které z letadel se má vyhnout"
+      ],
+      "answer": "letoun letící zprava doleva má přednost, ten druhý se má vyhnout",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 29,
+      "title": "Minimální výšky letu",
+      "prompt": "Která z uvedených možností NENÍ dostatečný důvod pro let pod požadovanou minimální výškou?",
+      "choices": [
+        "špatné meteorologické podmínky v blízkosti letiště",
+        "vzlet nebo přistání na letišti",
+        "odhoz vlečených předmětů na letišti",
+        "přiblížení bez přistání na letišti"
+      ],
+      "answer": "špatné meteorologické podmínky v blízkosti letiště",
+      "correct_choice_index": 0,
+      "source_document_page": 6,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 30,
+      "title": "Vyhýbání při čelním přiblížení",
+      "prompt": "Jednomotorový pístový a turbovrtulový letoun letí proti sobě ve stejné výšce. Který z nich má změnit kurz, aby se vyhnul srážce?",
+      "choices": [
+        "turbovrtulový letoun má dát přednost jednomotorovému pístovému letounu",
+        "obě letadla mají uhnout doprava",
+        "jednomotorový pístový letoun má dát přednost turbovrtulovému letounu",
+        "obě letadla mají uhnout doleva"
+      ],
+      "answer": "obě letadla mají uhnout doprava",
+      "correct_choice_index": 1,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 31,
+      "title": "VFR vzdálenost od oblačnosti",
+      "prompt": "Jaké vzdálenosti od oblačnosti je nutno dodržovat při letu VFR ve třídách vzdušného prostoru C, D a E?",
+      "choices": [
+        "1500 m horizontálně, 1000 ft vertikálně",
+        "1000 m horizontálně, 1500 ft vertikálně",
+        "1000 m horizontálně, 300 m vertikálně",
+        "1500 m horizontálně, 1000 m vertikálně"
+      ],
+      "answer": "1500 m horizontálně, 1000 ft vertikálně",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 32,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Minimální letová dohlednost v 5000 ft MSL ve vzdušném prostoru třídy B pro let VFR je:",
+      "choices": [
+        "5000 m",
+        "8000 m",
+        "3000 m",
+        "1500 m"
+      ],
+      "answer": "5000 m",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 33,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Jaká je minimální letová dohlednost ve vzdušném prostoru třídy C pro letadla letící za VFR v 5000 ft MSL?",
+      "choices": [
+        "5000 m",
+        "8000 m",
+        "3000 m",
+        "1500 m"
+      ],
+      "answer": "5000 m",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 34,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Minimální letová dohlednost ve vzdušném prostoru třídy E pro letadlo letící za VFR ve FL 75 je:",
+      "choices": [
+        "5000 m",
+        "8000 m",
+        "3000 m",
+        "1500 m"
+      ],
+      "answer": "5000 m",
+      "correct_choice_index": 0,
+      "source_document_page": 7,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 35,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Minimální letová dohlednost pro letadlo letící za VFR ve vzdušném prostoru třídy C ve FL 110 je:",
+      "choices": [
+        "8000 m",
+        "5000 m",
+        "3000 m",
+        "1500 m"
+      ],
+      "answer": "8000 m",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 36,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Minimální letová dohlednost pro letadlo letící za VFR ve vzdušném prostoru třídy C ve FL 125 je:",
+      "choices": [
+        "8000 m",
+        "5000 m",
+        "3000 m",
+        "1500 m"
+      ],
+      "answer": "8000 m",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 37,
+      "title": "VFR odstup od oblačnosti ve třídě B",
+      "prompt": "Jaká je minimální vzdálenost od oblačnosti pro let VFR ve třídě vzdušného prostoru B?",
+      "choices": [
+        "horizontálně 1.500 m, vertikálně 300 m",
+        "horizontálně 1.000 m, vertikálně 1.500 ft",
+        "horizontálně 1.000 m, vertikálně 300 m",
+        "horizontálně 1.500 m, vertikálně 1.000 m"
+      ],
+      "answer": "horizontálně 1.500 m, vertikálně 300 m",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 38,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Jaká je minimální dohlednost za letu ve vzdušném prostoru třídy C pod FL 100 pro let za VFR?",
+      "choices": [
+        "8 km",
+        "5 km",
+        "1.5 km",
+        "10 km"
+      ],
+      "answer": "5 km",
+      "correct_choice_index": 1,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 39,
+      "title": "VFR dohlednost a hranice FL100",
+      "prompt": "Jaká je minimální dohlednost za letu ve vzdušném prostoru třídy C ve FL 100 a nad ní pro letadlo letící za VFR?",
+      "choices": [
+        "8 km",
+        "5 km",
+        "1.5 km",
+        "10 km"
+      ],
+      "answer": "8 km",
+      "correct_choice_index": 0,
+      "source_document_page": 8,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 40,
+      "title": "Výška základny význačné oblačnosti",
+      "prompt": "Pojem výška základny nejnižší význačné vrstvy oblačnosti je definován jako:",
+      "choices": [
+        "nadmořská výška základny nejnižší vrstvy oblačnosti pokrývající více než jednu polovinu oblohy pod 20000 ft",
+        "výška nad zemí základny nejnižší vrstvy oblačnosti pokrývající více než jednu polovinu oblohy pod 20000 ft",
+        "výška nad zemí základny nejnižší vrstvy oblačnosti pokrývající více než jednu polovinu oblohy pod 10000 ft",
+        "nadmořská výška základny nejnižší vrstvy oblačnosti pokrývající více než jednu polovinu oblohy pod 10000 ft"
+      ],
+      "answer": "výška nad zemí základny nejnižší vrstvy oblačnosti pokrývající více než jednu polovinu oblohy pod 20000 ft",
+      "correct_choice_index": 1,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 41,
+      "title": "Zakročování, signál „následujte mě“",
+      "prompt": "Jaký je význam následujícího signálu při zakročování vojenským letadlem ve dne? Mávání křídly, normálně vlevo od zakročujícího letadla, následováno mírnou zatáčkou doleva.",
+      "choices": [
+        "vstupujete do omezeného prostoru, okamžitě opusťte tento vzdušný prostor",
+        "následujte mě",
+        "připravte se na bezpečnostní přistání, vstoupil jste do zakázaného prostoru",
+        "jste vzdálen od všech omezených nebo vyhrazených prostorů, můžete pokračovat stávajícím kurzem"
+      ],
+      "answer": "následujte mě",
+      "correct_choice_index": 1,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 42,
+      "title": "Zakročování, povolení pokračovat",
+      "prompt": "Jaký je význam následujícího signálu při zakročování vojenským letadlem ve dne? Náhlá změna kurzu o 90° nebo více a přitažení letadla bez překřižování dráhy letadla, proti kterému je zakročováno.",
+      "choices": [
+        "vstupujete do omezeného prostoru, opusťte okamžitě tento prostor",
+        "připravte se na bezpečnostní přistání, vstoupil jste do zakázaného prostoru",
+        "následujte mě, přivedu Vás na nejbližší vhodné letiště",
+        "můžete pokračovat v letu"
+      ],
+      "answer": "můžete pokračovat v letu",
+      "correct_choice_index": 3,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 43,
+      "title": "Přechod na standardní tlak",
+      "prompt": "Výškoměr má být přestaven z místního QNH na 1013.25 hPa:",
+      "choices": [
+        "ve 4000 ft",
+        "ve výšce rozhodnutí",
+        "ve stoupání nad převodní výšku",
+        "při klesání pod FL 100"
+      ],
+      "answer": "ve stoupání nad převodní výšku",
+      "correct_choice_index": 2,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 44,
+      "title": "Nastavení výškoměru ve FL",
+      "prompt": "Při letu ve FL 80 má být výškoměr nastaven na:",
+      "choices": [
+        "místní QNH",
+        "místní QFE",
+        "1013.25 hPa",
+        "1030.25 hPa"
+      ],
+      "answer": "1013.25 hPa",
+      "correct_choice_index": 2,
+      "source_document_page": 9,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 45,
+      "title": "Účel půlkruhového pravidla",
+      "prompt": "Jaký je účel půlkruhového pravidla?",
+      "choices": [
+        "zabránit srážkám snížením pravděpodobnosti protisměrného provozu ve stejných výškách",
+        "umožnit bezpečné stoupání nebo klesání ve vyčkávacím obrazci",
+        "zabránit srážkám omezením manévrů zatáčení",
+        "létat bez podaného letového plánu ve stanovených zónách publikovaných v AIP"
+      ],
+      "answer": "zabránit srážkám snížením pravděpodobnosti protisměrného provozu ve stejných výškách",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 46,
+      "title": "Módy odpovídače SSR",
+      "prompt": "Jaké jsou možné módy odpovídače sekundárního radaru?",
+      "choices": [
+        "A, C, R",
+        "B, C, V",
+        "B, R, S",
+        "A, C, S"
+      ],
+      "answer": "A, C, S",
+      "correct_choice_index": 3,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 47,
+      "title": "SSR s tlakovou výškou",
+      "prompt": "Odpovídač sekundárního radaru schopný vysílat tlakovou hladinu letu je:",
+      "choices": [
+        "odpovídač módu A",
+        "tlakový dekodér",
+        "odpovídač schválený pro třídu vzdušného prostu B",
+        "odpovídač módu C nebo S"
+      ],
+      "answer": "odpovídač módu C nebo S",
+      "correct_choice_index": 3,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 48,
+      "title": "SSR 7600",
+      "prompt": "Jaký kód odpovídače sekundárného radaru znamená ztrátu spojení?",
+      "choices": [
+        "7000",
+        "2000",
+        "7700",
+        "7600"
+      ],
+      "answer": "7600",
+      "correct_choice_index": 3,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 49,
+      "title": "Porucha rádia, kód odpovídače",
+      "prompt": "Jaký kód odpovídače sekundárního radaru má být nastaven při poruše rádia bez jakéhokoliv dalšího pokynu?",
+      "choices": [
+        "7600",
+        "7500",
+        "7700",
+        "7000"
+      ],
+      "answer": "7600",
+      "correct_choice_index": 0,
+      "source_document_page": 10,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 50,
+      "title": "Nouze, kód odpovídače",
+      "prompt": "Jaký kód odpovídače sekundárního radaru má být nastaven bez vyžádání při stavu nouze?",
+      "choices": [
+        "7600",
+        "7500",
+        "7700",
+        "7000"
+      ],
+      "answer": "7700",
+      "correct_choice_index": 2,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 51,
+      "title": "Řízení letového provozu",
+      "prompt": "Jaká letová provozní služba je odpovědná za bezpečné provedení letů?",
+      "choices": [
+        "řízení letového provozu (ATC)",
+        "letová informační služba (FIS)",
+        "pohotovostní služba (ALR)",
+        "letecká informační služba (AIS)"
+      ],
+      "answer": "řízení letového provozu (ATC)",
+      "correct_choice_index": 0,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 52,
+      "title": "TWR, APP a ACC",
+      "prompt": "Jaké služby poskytují řízení letového provozu?",
+      "choices": [
+        "letová informační služba (FIS) letecká informační služba (AIS) letecká pevná telekomunikační služba (AFS)",
+        "pohotovostní služba (ALR) služba pátrání a záchrany (SAR) letištní služba řízení (TWR)",
+        "přibližovací služba řízení (APP) oblastní služba řízení (ACC) letová informační služba (FIS)",
+        "letištní služba řízení (TWR) přibližovací služba řízení (APP) oblastní služba řízení (ACC)"
+      ],
+      "answer": "letištní služba řízení (TWR) přibližovací služba řízení (APP) oblastní služba řízení (ACC)",
+      "correct_choice_index": 3,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 53,
+      "title": "VFR ve třídě E",
+      "prompt": "Jaká odpověď o rozstupech ve vzdušném prostoru třídy E je správná?",
+      "choices": [
+        "provozu VFR jsou zajištěny rozstupy pouze od provozu IFR",
+        "provozu IFR jsou zajištěny rozstupy pouze od provozu VFR",
+        "provozu VFR nejsou zajištěny rozstupy od žádného provozu",
+        "provozu VFR jsou zajištěny rozstupy od provozu VFR i IFR"
+      ],
+      "answer": "provozu VFR nejsou zajištěny rozstupy od žádného provozu",
+      "correct_choice_index": 2,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 54,
+      "title": "Služby ve FIR",
+      "prompt": "Jaká letové provozní služby lze očekávat v letové informační oblasti (FIR)?",
+      "choices": [
+        "řízení letového provozu (ATC) letová informační služba (FIS)",
+        "letová informační služba (FIS) pohotovostní služba (ALR)",
+        "letecká informační služba (AIS) služba pátrání a záchrany (SAR)",
+        "řízení letového provozu (ATC) letecká informační služba (AIS)"
+      ],
+      "answer": "letová informační služba (FIS) pohotovostní služba (ALR)",
+      "correct_choice_index": 1,
+      "source_document_page": 11,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 55,
+      "title": "Spojení s FIS",
+      "prompt": "Pilot se může spojit s letovou informační službou (FIS):",
+      "choices": [
+        "telefonicky",
+        "internetem",
+        "rádiem",
+        "osobní návštěvou"
+      ],
+      "answer": "rádiem",
+      "correct_choice_index": 2,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 56,
+      "title": "Varování na turbulence v úplavu",
+      "prompt": "Jaká je správná fráze o turbulenci v úplavu označující, že lehké letadlo letí za letadlem vyšší kategorie turbulence v úplavu?",
+      "choices": [
+        "pozor, výstupní plyny za proudovým motorem",
+        "pozor, proud vzduchu za vrtulí",
+        "pozor, turbulence v úplavu",
+        "dávejte pozor na vítr v úplavu"
+      ],
+      "answer": "pozor, turbulence v úplavu",
+      "correct_choice_index": 2,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 57,
+      "title": "Hlášení polohy",
+      "prompt": "Která z následujících možností znamená správné hlášení polohy?",
+      "choices": [
+        "OKABC, \"N\", 2500 ft",
+        "OKABC nad \"N\" v letové hladině 2500 ft",
+        "OKABC prolétávám nad \"N\"",
+        "OKABC nad \"N\" ve 35"
+      ],
+      "answer": "OKABC, \"N\", 2500 ft",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 58,
+      "title": "AIREP",
+      "prompt": "Co znamená zkratka AIREP?",
+      "choices": [
+        "letecká informační zpráva",
+        "hlášení z letadla",
+        "zpráva o požadavcích na letecké přístroje",
+        "zpráva automatické identifikace"
+      ],
+      "answer": "hlášení z letadla",
+      "correct_choice_index": 1,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 59,
+      "title": "AIP část GEN",
+      "prompt": "Jaké informace obsahuje část GEN (všeobecně) Letecké informační příručky (AIP)?",
+      "choices": [
+        "mapové značky, seznam radionavigačních zařízení, časy východu a západu slunce, letištní poplatky, poplatky za služby řízení letového provozu",
+        "letecké výstrahy, vzdušné prostory a tratě, omezené a nebezpečné prostory",
+        "obsah, seznam letišť s příslušnými mapami, přibližovací mapy, mapy pro pojíždění, omezené a nebezpečné prostory",
+        "omezení přístupu na letištích, kontroly cestujících, požadavky na piloty, vzory průkazů a doby jejich platnosti"
+      ],
+      "answer": "mapové značky, seznam radionavigačních zařízení, časy východu a západu slunce, letištní poplatky, poplatky za služby řízení letového provozu",
+      "correct_choice_index": 0,
+      "source_document_page": 12,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 60,
+      "title": "Členění AIP",
+      "prompt": "Jaké jsou části Letecké informační příručky (AIP)?",
+      "choices": [
+        "GEN AGA COM",
+        "GEN COM MET",
+        "GEN MET RAC",
+        "GEN ENR AD"
+      ],
+      "answer": "GEN ENR AD",
+      "correct_choice_index": 3,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 61,
+      "title": "AIP část AD",
+      "prompt": "Jaké informace jsou v části AD Letecké informační příručky (AIP)?",
+      "choices": [
+        "mapové značky, seznam radionavigačních zařízení, časy východu a západu slunce, letištní poplatky, poplatky za služby řízení letového provozu",
+        "letecké výstrahy, prostory a tratě služeb letového provozu, omezené a nebezpečné prostory",
+        "obsah, seznam letišť s příslušnými mapami, přibližovací mapy, mapy pro pojíždění",
+        "omezení přístupu na letiště, kontroly cestujících, požadavky na piloty, vzory průkazů a doby jejich platnosti"
+      ],
+      "answer": "obsah, seznam letišť s příslušnými mapami, přibližovací mapy, mapy pro pojíždění",
+      "correct_choice_index": 2,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 62,
+      "title": "Čtení časů v NOTAM",
+      "prompt": "Následující NOTAM je platný do: A1024/13 A) LOWW B) 1305211200 C) 1305211400 E) STOCKERAU VOR STO 113.00 UNSERVICEABLE.",
+      "choices": [
+        "21/05/2013 14:00 UTC",
+        "21/05/2014 13:00 UTC",
+        "13/05/2013 12:00 UTC",
+        "13/10/2013 00:00 UTC"
+      ],
+      "answer": "21/05/2013 14:00 UTC",
+      "correct_choice_index": 0,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 63,
+      "title": "PIB",
+      "prompt": "Předletový informační bulletin (PIB) je prezentací platných:",
+      "choices": [
+        "informací Letecké informační příručky významných pro provoz připravených před letem",
+        "informací NOTAM významných pro provoz připravených před letem",
+        "informací leteckých informačních oběžníků (AIC) významných pro provoz připravených po letu",
+        "informací ICAO významných pro provoz připravených po letu"
+      ],
+      "answer": "informací NOTAM významných pro provoz připravených před letem",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 64,
+      "title": "Výška letiště nad mořem",
+      "prompt": "Pojem výška letiště nad mořem je definován jako:",
+      "choices": [
+        "nejvyšší bod na odbavovací ploše",
+        "nejvyšší bod přistávací plochy",
+        "nejnižší bod přistávací plochy",
+        "průměrná hodnota nadmořské výšky pohybové plochy"
+      ],
+      "answer": "nejvyšší bod přistávací plochy",
+      "correct_choice_index": 1,
+      "source_document_page": 13,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 65,
+      "title": "Definice vzletové a přistávací dráhy",
+      "prompt": "Pojem vzletová a přistávací dráha je definován jako:",
+      "choices": [
+        "kruhová oblast letiště upravená na přistání a vzlety letadel",
+        "obdélníková plocha na zemi nebo na vodě upravená pro přistání a vzlety letadel",
+        "obdélníková plocha na pozemním letišti upravená pro přistání a vzlety letadel",
+        "obdélníková plocha na pozemním letišti upravená na přistání a vzlety vrtulníků"
+      ],
+      "answer": "obdélníková plocha na pozemním letišti upravená pro přistání a vzlety letadel",
+      "correct_choice_index": 2,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 66,
+      "title": "Vyčkávací bod při pojíždění",
+      "prompt": "Jaký výrok o vyčkávacím bodu při pojíždění je pravdivý?",
+      "choices": [
+        "vyčkávací bod při pojíždění je oblast, kde musí letadlo zastavit, dokud nedostane povolení pokračovat",
+        "vyčkávací bod při pojíždění je bod, ve kterém musí letadlo zastavit, dokud nedostane povolení pokračovat",
+        "vyčkávací bod při pojíždění je navržen, aby označil začátek bezpečnostní oblasti a může být přejet, když bylo vydáno povolení pojíždět",
+        "vyčkávací bod při pojíždění slouží pouze pro provoz IFR, když převažují podmínky pro let podle přístrojů"
+      ],
+      "answer": "vyčkávací bod při pojíždění je bod, ve kterém musí letadlo zastavit, dokud nedostane povolení pokračovat",
+      "correct_choice_index": 1,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 67,
+      "title": "Stav dráhy WET",
+      "prompt": "Co znamená, je-li hlášen stav dráhy \"mokrá\" (wet)?",
+      "choices": [
+        "povrch dráhy je nasycen, ale nejsou tam žádné významné louže nebo stojící voda",
+        "velká část povrchu dráhy je zatopena vodou",
+        "na povrchu dráhy jsou vidět kaluže vody",
+        "na povrchu dráhy není voda ani led nebo sníh"
+      ],
+      "answer": "povrch dráhy je nasycen, ale nejsou tam žádné významné louže nebo stojící voda",
+      "correct_choice_index": 0,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 68,
+      "title": "Stav dráhy DAMP",
+      "prompt": "Co znamená, je-li hlášen stav dráhy \"vlhká\" (damp)?",
+      "choices": [
+        "mokrý povrch, ale nejsou vidět význačné louže",
+        "velká část povrchu je zatopená vodou",
+        "změna barvy povrchu kvůli vlhkosti",
+        "na dráze není voda ani sníh nebo led"
+      ],
+      "answer": "změna barvy povrchu kvůli vlhkosti",
+      "correct_choice_index": 2,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 69,
+      "title": "Water patches",
+      "prompt": "Co znamená, jeli hlášen stav dráhy \"mokré pásy\" (water patches)?",
+      "choices": [
+        "mokrý povrch, ale nejsou vidět kaluže",
+        "velká část povrchu je zatopená vodou",
+        "jsou vidět kaluže stojící vody",
+        "na dráze není voda ani led nebo sníh"
+      ],
+      "answer": "jsou vidět kaluže stojící vody",
+      "correct_choice_index": 2,
+      "source_document_page": 14,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 70,
+      "title": "Označení ukazatele směru větru",
+      "prompt": "Jak může být označen ukazatel směru větru, aby byl lépe vidět?",
+      "choices": [
+        "může být vyroben ze zeleného materiálu",
+        "může být umístěn na vrchol řídící věže",
+        "může být obklopen bílým kruhem",
+        "může být umístěn na velké černé ploše"
+      ],
+      "answer": "může být obklopen bílým kruhem",
+      "correct_choice_index": 2,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 71,
+      "title": "Blikající červené světlo letadlu ve vzduchu",
+      "prompt": "Co znamená signál letadlu na řízeném letišti blikajícím červeným světlem?",
+      "choices": [
+        "vraťte se na přistání, je-li následován signálem stálým zeleným světlem",
+        "dejte přednost jinému letadlu a pokračujte v letu po okruhu",
+        "letiště není bezpečné, nepřistávejte",
+        "přistání povoleno"
+      ],
+      "answer": "letiště není bezpečné, nepřistávejte",
+      "correct_choice_index": 2,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 72,
+      "title": "Blikající zelené světlo letadlu ve vzduchu",
+      "prompt": "Co znamená signál letadlu na řízeném letišti blikajícím zeleným světlem?",
+      "choices": [
+        "vraťte se na přistání, je-li následován signálem stálým zeleným světlem",
+        "dejte přednost jinému letadlu a pokračujte v letu po okruhu",
+        "letiště není bezpečné, nepřistávejte",
+        "přistání povoleno"
+      ],
+      "answer": "vraťte se na přistání, je-li následován signálem stálým zeleným světlem",
+      "correct_choice_index": 0,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 73,
+      "title": "Stálé zelené světlo letadlu ve vzduchu",
+      "prompt": "Co znamená signál letadlu na řízeném letišti stálým zeleným světlem?",
+      "choices": [
+        "vraťte se na přistání, je-li následován signálem stálým zeleným světlem",
+        "dejte přednost jinému letadlu a pokračujte v letu po okruhu",
+        "letiště není bezpečné, nepřistávejte",
+        "přistání povoleno"
+      ],
+      "answer": "přistání povoleno",
+      "correct_choice_index": 3,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 74,
+      "title": "Blikající bílé světlo letadlu na zemi",
+      "prompt": "Co znamená signál letadlu na zemi na řízeném letišti blikajícím bílým světlem?",
+      "choices": [
+        "vzlet povolen",
+        "vraťte se zpět na odbavovací plochu",
+        "opusťte pojížděcí / vzletovou dráhu",
+        "pojíždění schváleno"
+      ],
+      "answer": "vraťte se zpět na odbavovací plochu",
+      "correct_choice_index": 1,
+      "source_document_page": 15,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 75,
+      "title": "Blikající červené světlo letadlu na zemi",
+      "prompt": "Co znamená signál letadlu na zemi na řízeném letišti blikajícím červeným světlem?",
+      "choices": [
+        "vzlet povolen",
+        "vraťte se zpět na odbavovací plochu",
+        "okamžitě pojíždějte mimo dráhu v použití",
+        "pojíždění schváleno"
+      ],
+      "answer": "okamžitě pojíždějte mimo dráhu v použití",
+      "correct_choice_index": 2,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 76,
+      "title": "Blikající zelené světlo letadlu na zemi",
+      "prompt": "Co znamená signál letadlu na zemi na řízeném letišti blikajícím zeleným světlem?",
+      "choices": [
+        "vzlet povolen",
+        "vraťte se zpět na odbavovací plochu",
+        "přistaňte na tomto letišti a pojíždějte na odbavovací lochu",
+        "pojíždění povoleno"
+      ],
+      "answer": "pojíždění povoleno",
+      "correct_choice_index": 3,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 77,
+      "title": "Ukazatel směru přistání",
+      "prompt": "Jaký tvar má ukazatel směru přistání?",
+      "choices": [
+        "L",
+        "přímá šipka",
+        "T",
+        "zalomená šipka"
+      ],
+      "answer": "T",
+      "correct_choice_index": 2,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 78,
+      "title": "Signální čtverec",
+      "prompt": "Jaký je účel signálního čtverce na letišti?",
+      "choices": [
+        "je to osvětlená plocha, na které jsou umístěna vozidla pátrání a záchrany a hasičů",
+        "je to zvlášť označená plocha pro vyzvedávání a shazování předmětů vlečených za letadly",
+        "obsahuje zvláštní symboly označující vizuálně podmínky na letišti pro letící letadla",
+        "letadla pojíždějí na tuto plochu, aby získala světelné signály pro pojíždění a pro povolení vzletu"
+      ],
+      "answer": "obsahuje zvláštní symboly označující vizuálně podmínky na letišti pro letící letadla",
+      "correct_choice_index": 2,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 79,
+      "title": "Potvrzení světelného signálu za letu",
+      "prompt": "Jak pilot potvrzuje přijetí světelných signálů za letu?",
+      "choices": [
+        "zamáváním křídly (ve dne)",
+        "střídavými výchylkami směrovky",
+        "změnami otáček motoru",
+        "rychlými změnami podélného sklonu"
+      ],
+      "answer": "zamáváním křídly (ve dne)",
+      "correct_choice_index": 0,
+      "source_document_page": 16,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 80,
+      "title": "Stálé červené světlo letadlu na zemi",
+      "prompt": "Co znamená stálé červené světlo jako signál letadlu na zemi na řízeném letišti?",
+      "choices": [
+        "opusťte pojížděcí / vzletovou / přistávací dráhu",
+        "vraťte se na odbavovací plochu",
+        "přistaňte na tomto letišti a pokračujte na odbavovací plochu",
+        "zastavte"
+      ],
+      "answer": "zastavte",
+      "correct_choice_index": 3,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 81,
+      "title": "Označení dvou paralelních drah",
+      "prompt": "Jak jsou značeny dvě paralelní dráhy?",
+      "choices": [
+        "levá dráha má příponu \"-1\", pravá \"-2\"",
+        "levá dráha má příponu \"L\", označení pravé dráhy se nemění",
+        "označení levé dráhy se nemění, označení pravé dráhy se zvětší o 1",
+        "levá dráha má příponu \"L\", pravá \"R\""
+      ],
+      "answer": "levá dráha má příponu \"L\", pravá \"R\"",
+      "correct_choice_index": 3,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 82,
+      "title": "Barva dráhového značení",
+      "prompt": "Jaká je barva značení vzletové a přistávací dráhy podle Anexu 14 ICAO?",
+      "choices": [
+        "žlutá",
+        "modrá",
+        "bílá",
+        "zelená"
+      ],
+      "answer": "bílá",
+      "correct_choice_index": 2,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 83,
+      "title": "Značení místa dotyku",
+      "prompt": "Co znamená obrazec podélných pruhů stejných rozměrů rozložený symetricky po obou stranách osy vzletové a přistávací dráhy?",
+      "choices": [
+        "před nimi neprovádějte dotyk se zemí",
+        "za nimi neprovádějte dotyk se zemí",
+        "v tomto bodu je průsečík sestupové osy ILS s povrchem dráhy",
+        "z této polohy lze zahájit rozjezd při vzletu"
+      ],
+      "answer": "před nimi neprovádějte dotyk se zemí",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 84,
+      "title": "Označení paralelních drah 06L/06R",
+      "prompt": "Jaké je správné označení dvou paralelních drah?",
+      "choices": [
+        "06L a 06R",
+        "18 a 18-2",
+        "24 a 25",
+        "26 a 26R"
+      ],
+      "answer": "06L a 06R",
+      "correct_choice_index": 0,
+      "source_document_page": 17,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 85,
+      "title": "PAPI",
+      "prompt": "Co je PAPI (světelná sestupová soustava pro vizuální přiblížení)?",
+      "choices": [
+        "Přístrojové zařízení poskytující informace, které pilotovi pomáhají dosáhnout a udržet správné přiblížení k letišti",
+        "vizuální zařízení poskytující informace, které pilotovi pomáhají dosáhnout a udržet správnou odletovou trať při odletu z letiště",
+        "vizuální zařízení poskytující informace, které pomáhají řídícímu letového provozu na věži dosáhnout a udržet správné přiblížení na letiště",
+        "vizuální zařízení poskytující informace, které pomáhají pilotovi dosáhnout a udržet správnou sestupovou rovinu při přiblížení k letišti"
+      ],
+      "answer": "vizuální zařízení poskytující informace, které pomáhají pilotovi dosáhnout a udržet správnou sestupovou rovinu při přiblížení k letišti",
+      "correct_choice_index": 3,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 86,
+      "title": "Letištní maják ABN",
+      "prompt": "Letištní maják (ABN) je:",
+      "choices": [
+        "rotující maják umístěný na letišti a označující jeho polohu pilotům letadel na zemi",
+        "pevný maják umístěný na letišti a označující jeho polohu pilotům letadel za letu",
+        "rotující maják umístěný na začátku konečného přiblížení a označující jeho polohu pilotům letadel za letu",
+        "rotující maják umístěný na letišti a označující jeho polohu pilotům letadel za letu"
+      ],
+      "answer": "rotující maják umístěný na letišti a označující jeho polohu pilotům letadel za letu",
+      "correct_choice_index": 3,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 87,
+      "title": "Postranní dráhová návěstidla",
+      "prompt": "Jakou barvu mají postranní dráhová návěstidla?",
+      "choices": [
+        "bílou",
+        "červenou",
+        "zelenou",
+        "modrou"
+      ],
+      "answer": "bílou",
+      "correct_choice_index": 0,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 88,
+      "title": "Koncová dráhová návěstidla",
+      "prompt": "Jakou barvu mají koncová návěstidla dráhy?",
+      "choices": [
+        "bílou",
+        "červenou",
+        "zelenou",
+        "modrou"
+      ],
+      "answer": "červenou",
+      "correct_choice_index": 1,
+      "source_document_page": 18,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 89,
+      "title": "Příloha ALW-019, pojezdová dráha A",
+      "prompt": "Co znamená znak v příloze? Viz obr. (ALW-019)",
+      "choices": [
+        "pojezdová dráha A",
+        "část A vzletové a přistávací dráhy",
+        "bod A na pojížděcí dráze",
+        "parkovací místo A"
+      ],
+      "answer": "pojezdová dráha A",
+      "correct_choice_index": 0,
+      "source_document_page": 18,
+      "attachment_code": "ALW-019",
+      "attachment_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/1-Letecky-zakon-a-postupy-ATC-prilohy.zip?cb=4ea10ea9ed465f10f9e465062204ba52"
+    },
+    {
+      "source_question_id": 90,
+      "title": "Příloha ALW-020, použitelná délka dráhy",
+      "prompt": "Co znamená znak v příloze? Viz obr. (ALW-020)",
+      "choices": [
+        "2500 m v daném směru do dosažení odletového bodu vzletové a přistávací dráhy",
+        "2500 m v daném směru do dosažení parkovací plochy",
+        "od této křižovatky je použitelná délka dráhy v daném směru 2500 m",
+        "celková použitelná délka dráhy je v daném směru 2500 m"
+      ],
+      "answer": "od této křižovatky je použitelná délka dráhy v daném směru 2500 m",
+      "correct_choice_index": 2,
+      "source_document_page": 19,
+      "attachment_code": "ALW-020",
+      "attachment_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/1-Letecky-zakon-a-postupy-ATC-prilohy.zip?cb=4ea10ea9ed465f10f9e465062204ba52"
+    },
+    {
+      "source_question_id": 91,
+      "title": "Příloha ALW-011, provoz kluzáků",
+      "prompt": "Co znamená tento znak na letišti? Viz obr. (ALW-011)",
+      "choices": [
+        "pozor, manévrovací plocha je špatná",
+        "po delší dobu je přistání zakázáno",
+        "probíhají lety kluzáků",
+        "po vzletu a před přistáním mají být všechny zatáčky provedeny doprava"
+      ],
+      "answer": "probíhají lety kluzáků",
+      "correct_choice_index": 2,
+      "source_document_page": 19,
+      "attachment_code": "ALW-011",
+      "attachment_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/1-Letecky-zakon-a-postupy-ATC-prilohy.zip?cb=4ea10ea9ed465f10f9e465062204ba52"
+    },
+    {
+      "source_question_id": 92,
+      "title": "Příloha ALW-012, pravé okruhy",
+      "prompt": "Co znamená zobrazená pozemní značka v signální ploše letiště? Viz obr. (ALW-012)",
+      "choices": [
+        "pozor, manévrovací plocha je špatná",
+        "zákaz přistání na delší dobu",
+        "pohyb po zemi omezen na zpevněné povrchy",
+        "po vzletu a před přistáním je třeba provádět všechny zatáčky doprava"
+      ],
+      "answer": "po vzletu a před přistáním je třeba provádět všechny zatáčky doprava",
+      "correct_choice_index": 3,
+      "source_document_page": 19,
+      "attachment_code": "ALW-012",
+      "attachment_url": "https://www.caa.gov.cz/wp-content/uploads/2020/11/1-Letecky-zakon-a-postupy-ATC-prilohy.zip?cb=4ea10ea9ed465f10f9e465062204ba52"
+    },
+    {
+      "source_question_id": 93,
+      "title": "DETRESFA",
+      "prompt": "Co znamená zkratka DETRESFA?",
+      "choices": [
+        "údobí tísně",
+        "údobí pohotovosti",
+        "údobí nejistoty",
+        "údobí záchrany"
+      ],
+      "answer": "údobí tísně",
+      "correct_choice_index": 0,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 94,
+      "title": "Poskytovatelé pátrání a záchrany",
+      "prompt": "Kdo poskytuje služby pátrání a záchrany?",
+      "choices": [
+        "pouze vojenské organizace",
+        "pouze civilní organizace",
+        "jak vojenské, tak civilní organizace",
+        "mezinárodní schválené organizace"
+      ],
+      "answer": "jak vojenské, tak civilní organizace",
+      "correct_choice_index": 2,
+      "source_document_page": 19,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 95,
+      "title": "Potvrzení pozemního SAR signálu",
+      "prompt": "Jak může pilot za letu potvrdit signál pátrání a záchrany na zemi?",
+      "choices": [
+        "zamáváním křídel",
+        "několikerým vysunutím a zasunutím vztlakových klapek",
+        "několikanásobnou oboustrannou výchylkou směrového kormidla",
+        "opakovaným letem po parabolické trajektorii"
+      ],
+      "answer": "zamáváním křídel",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 96,
+      "title": "Kategorie bezpečnostních událostí",
+      "prompt": "Jaké jsou z hlediska zjišťování příčin nehod a incidentů tři kategorie událostí?",
+      "choices": [
+        "incident, vážný incident, nehoda",
+        "příhoda, případ, vážný případ",
+        "příhoda, vážná příhoda, nehoda",
+        "případ, havárie, katastrofa"
+      ],
+      "answer": "incident, vážný incident, nehoda",
+      "correct_choice_index": 0,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    },
+    {
+      "source_question_id": 97,
+      "title": "Účel vyšetřování leteckých nehod",
+      "prompt": "Co je hlavním účelem zjišťování příčin leteckých nehod?",
+      "choices": [
+        "stanovit viníka a navrhnout právní důsledky",
+        "práce pro státního žalobce a následná pomoc při nehodě",
+        "vyjasnit otázky pojištění vzhledem k odškodnění cestujících",
+        "stanovit důvody a zpracovat bezpečnostní doporučení"
+      ],
+      "answer": "stanovit důvody a zpracovat bezpečnostní doporučení",
+      "correct_choice_index": 3,
+      "source_document_page": 20,
+      "attachment_code": "",
+      "attachment_url": ""
+    }
+  ]
+}

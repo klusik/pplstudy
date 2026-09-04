@@ -50,7 +50,8 @@ function public_study(): void
         render_not_found();
         return;
     }
-    header('Location: ' . study_url('/question/' . (int) $question['sequence_no']), true, 302);
+    $mode = (string) ($_GET['mode'] ?? 'quiz') === 'learn' ? 'learn' : 'quiz';
+    header('Location: ' . study_url('/question/' . (int) $question['sequence_no'] . '?mode=' . $mode), true, 302);
     exit;
 }
 
@@ -66,5 +67,6 @@ function public_question(): void
     }
     $previous = question_neighbor_sequence((int) $question['subject_id'], $sequence, 'previous');
     $next = question_neighbor_sequence((int) $question['subject_id'], $sequence, 'next');
-    render_question_card($question, $previous, $next);
+    $mode = (string) ($_GET['mode'] ?? 'quiz') === 'learn' ? 'learn' : 'quiz';
+    render_question_card($question, $previous, $next, $mode);
 }

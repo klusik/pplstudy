@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-labelledby="t d">
+  <title id="t">PFP-051 Výřez letového plánu</title>
+  <desc id="d">Studijní podklad PFP-051.</desc>
+  <rect width="1000" height="420" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="360" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">Výřez letového plánu</text>
+<rect x="50" y="115" width="180" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="140.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Pole</text>
+<rect x="230" y="115" width="300" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="380.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Zápis</text>
+<rect x="530" y="115" width="420" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="740.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Význam</text>
+<rect x="50" y="165" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="140.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">15</text>
+<rect x="230" y="165" width="300" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="380.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">N0100</text>
+<rect x="530" y="165" width="420" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="740.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">100 kt</text>
+<text x="60" y="265" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Písmeno N značí rychlost v uzlech, následují čtyři číslice.</text>
+  <text x="500.0" y="398" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

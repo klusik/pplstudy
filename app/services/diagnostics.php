@@ -57,12 +57,16 @@ function diagnostics_report(): array
     $add('JSON', extension_loaded('json'), extension_loaded('json') ? 'JSON support loaded' : 'JSON support missing');
     $add('mbstring', extension_loaded('mbstring'), extension_loaded('mbstring') ? 'mbstring loaded' : 'mbstring missing');
     $add('Random source', function_exists('random_bytes'), function_exists('random_bytes') ? 'random_bytes available' : 'random_bytes missing');
+    $sourceDir = study_project_root() . '/data/source-documents';
+    $add('Source document storage', is_dir($sourceDir) && is_writable($sourceDir), is_dir($sourceDir) ? (is_writable($sourceDir) ? 'data/source-documents writable' : 'data/source-documents is read-only') : 'data/source-documents missing');
 
     $bankPath = study_project_root() . '/data/question-bank.json';
+    $bundledExpectedQuestions = 0;
     $add('Bundled bank file', is_file($bankPath) && is_readable($bankPath), is_file($bankPath) ? basename($bankPath) . ' present' : 'data/question-bank.json missing');
     if (is_file($bankPath)) {
         try {
             $summary = question_bank_validate_payload(question_bank_load_file($bankPath));
+            $bundledExpectedQuestions = (int) $summary['questions'];
             $add('Bundled bank validation', true, $summary['questions'] . ' questions, ' . $summary['subjects'] . ' subjects, ' . $summary['attachments'] . ' cards referencing attachments');
         } catch (Throwable $exception) {
             $add('Bundled bank validation', false, $exception->getMessage());
@@ -73,7 +77,7 @@ function diagnostics_report(): array
         $pdo = db();
         $pdo->query('SELECT 1');
         $add('Database connection', true, 'Connection successful');
-        foreach (['users', 'subjects', 'questions', 'app_settings', 'admin_logs', 'admin_login_attempts', 'schema_migrations'] as $table) {
+        foreach (['users', 'subjects', 'questions', 'source_documents', 'app_settings', 'admin_logs', 'admin_login_attempts', 'schema_migrations'] as $table) {
             $exists = diagnostics_table_exists($pdo, $table);
             $add('Table ' . $table, $exists, $exists ? 'present' : 'missing');
         }
@@ -91,9 +95,18 @@ function diagnostics_report(): array
             $add('Active user accounts', $activeUsers >= 1, $activeUsers . ' active accounts');
             $add('Active administrators', $activeAdmins >= 1, $activeAdmins . ' active administrators');
         }
+        $curationColumns = ['curation_status', 'wording_status', 'explanation_sections_json', 'source_document_key', 'source_document_page', 'source_verified_at'];
+        $presentCurationColumns = 0;
+        foreach ($curationColumns as $column) {
+            if (diagnostics_column_exists($pdo, 'questions', $column)) {
+                $presentCurationColumns++;
+            }
+        }
+        $add('Question curation schema', $presentCurationColumns === count($curationColumns), $presentCurationColumns . '/' . count($curationColumns) . ' curation columns present');
         $summary = question_bank_summary();
         $add('Imported subjects', $summary['subjects'] === 9, $summary['subjects'] . ' total, expected 9 for bundled bank');
-        $add('Imported questions', $summary['questions'] === 880, $summary['questions'] . ' total, expected 880 for bundled bank');
+        $expectedQuestions = $bundledExpectedQuestions > 0 ? $bundledExpectedQuestions : $summary['questions'];
+        $add('Imported questions', $summary['questions'] === $expectedQuestions, $summary['questions'] . ' total, expected ' . $expectedQuestions . ' for bundled bank');
 
         $migrationPath = study_project_root() . '/database/migrations';
         $pending = pending_migration_files($pdo, $migrationPath);

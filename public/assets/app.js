@@ -19,7 +19,7 @@
 (() => {
     'use strict';
 
-    const PROGRESS_KEY = 'pplStudyProgressV1';
+    const PROGRESS_KEY = 'pplStudyProgressV7';
 
     function readProgress() {
         try {
@@ -100,35 +100,60 @@
         if (!root) return;
         const sequence = Number(root.dataset.sequence);
         const subjectId = Number(root.dataset.subjectId);
+        const mode = root.dataset.studyMode === 'learn' ? 'learn' : 'quiz';
         const panel = root.querySelector('[data-answer-panel]');
         const feedback = root.querySelector('[data-choice-feedback]');
+        const reveal = root.querySelector('[data-reveal-answer]');
         const star = root.querySelector('[data-star]');
         const choices = Array.from(root.querySelectorAll('[data-choice]'));
+        const selfScoreButtons = Array.from(root.querySelectorAll('[data-self-score]'));
         const progress = readProgress();
         let answered = false;
         setStarButton(star, Boolean(progress[String(sequence)]?.starred));
 
-        choices.forEach((button) => {
-            button.addEventListener('click', () => {
+        function revealCorrectAnswer() {
+            choices.forEach((candidate) => {
+                if ('disabled' in candidate && mode === 'quiz') candidate.disabled = true;
+                if (candidate.dataset.correct === '1') candidate.classList.add('correct');
+            });
+            if (panel) panel.hidden = false;
+        }
+
+        if (mode === 'learn') {
+            reveal?.addEventListener('click', () => {
                 if (answered) return;
                 answered = true;
-                const isCorrect = button.dataset.correct === '1';
-                saveAssessment(sequence, subjectId, isCorrect ? 'correct' : 'wrong');
-
-                choices.forEach((candidate) => {
-                    candidate.disabled = true;
-                    if (candidate.dataset.correct === '1') candidate.classList.add('correct');
-                });
-                button.classList.add(isCorrect ? 'selected-correct' : 'selected-wrong');
-
-                if (feedback) {
-                    feedback.hidden = false;
-                    feedback.className = `choice-feedback ${isCorrect ? 'correct' : 'wrong'}`;
-                    feedback.textContent = isCorrect ? 'Správně.' : 'Správná odpověď je zvýrazněná.';
-                }
-                if (panel) panel.hidden = false;
+                revealCorrectAnswer();
+                reveal.disabled = true;
+                reveal.textContent = 'Odpověď zobrazena';
             });
-        });
+            selfScoreButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    const result = button.dataset.selfScore === 'correct' ? 'correct' : 'wrong';
+                    saveAssessment(sequence, subjectId, result);
+                    selfScoreButtons.forEach((candidate) => candidate.classList.remove('selected'));
+                    button.classList.add('selected');
+                });
+            });
+        } else {
+            choices.forEach((button) => {
+                button.addEventListener('click', () => {
+                    if (answered) return;
+                    answered = true;
+                    const isCorrect = button.dataset.correct === '1';
+                    saveAssessment(sequence, subjectId, isCorrect ? 'correct' : 'wrong');
+
+                    revealCorrectAnswer();
+                    button.classList.add(isCorrect ? 'selected-correct' : 'selected-wrong');
+
+                    if (feedback) {
+                        feedback.hidden = false;
+                        feedback.className = `choice-feedback ${isCorrect ? 'correct' : 'wrong'}`;
+                        feedback.textContent = isCorrect ? 'Správně.' : 'Správná odpověď je zvýrazněná.';
+                    }
+                });
+            });
+        }
 
         star?.addEventListener('click', () => setStarButton(star, toggleStar(sequence, subjectId)));
     }
@@ -149,6 +174,29 @@
         button.addEventListener('click', handler);
         parent.appendChild(button);
         return button;
+    }
+
+    function appendExplanation(parent, question) {
+        const sections = Array.isArray(question.explanation_sections) ? question.explanation_sections : [];
+        if (sections.length) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'explanation-sections';
+            sections.forEach((section) => {
+                if (!section || !section.heading || !section.body) return;
+                const block = document.createElement('section');
+                block.className = 'explanation-block';
+                appendText(block, 'h2', '', section.heading);
+                appendText(block, 'p', '', section.body);
+                wrapper.appendChild(block);
+            });
+            parent.appendChild(wrapper);
+            return;
+        }
+        const explanation = document.createElement('div');
+        explanation.className = 'explanation-block';
+        appendText(explanation, 'h2', '', 'Vysvětlení');
+        appendText(explanation, 'p', '', question.explanation || '');
+        parent.appendChild(explanation);
     }
 
     function initializeDrill() {
@@ -263,7 +311,7 @@
                     item.appendChild(summary);
                     appendText(item, 'p', 'review-selected', `Tvoje odpověď: ${entry.selected}`);
                     appendText(item, 'p', 'review-correct', `Správná odpověď: ${entry.question.answer}`);
-                    appendText(item, 'p', 'muted', entry.question.explanation || '');
+                    appendExplanation(item, entry.question);
                     review.appendChild(item);
                 });
                 result.appendChild(review);
@@ -307,6 +355,16 @@
                     attachment.appendChild(link);
                 }
                 card.appendChild(attachment);
+                if (q.attachment_url && /\.(?:svg|png|jpe?g|webp)(?:\?.*)?$/i.test(q.attachment_url)) {
+                    const figure = document.createElement('figure');
+                    figure.className = 'question-attachment';
+                    const image = document.createElement('img');
+                    image.src = q.attachment_url;
+                    image.alt = `Příloha ${q.attachment_code} k otázce`;
+                    image.loading = 'lazy';
+                    figure.appendChild(image);
+                    card.appendChild(figure);
+                }
             }
 
             if (!Array.isArray(q.choices) || q.choices.length !== 4) {
@@ -359,15 +417,11 @@
                     answerPanel.className = 'answer-panel';
                     appendText(answerPanel, 'div', 'study-label success', 'Správná odpověď');
                     appendText(answerPanel, 'p', 'correct-answer', q.answer);
-                    const explanation = document.createElement('div');
-                    explanation.className = 'explanation-block';
-                    appendText(explanation, 'h2', '', 'Proč');
-                    appendText(explanation, 'p', '', q.explanation);
-                    answerPanel.appendChild(explanation);
+                    appendExplanation(answerPanel, q);
                     if (q.warning) {
                         const warning = document.createElement('div');
                         warning.className = 'warning-block';
-                        appendText(warning, 'strong', '', 'Pozor');
+                        appendText(warning, 'strong', '', 'Studijní poznámka');
                         appendText(warning, 'p', '', q.warning);
                         answerPanel.appendChild(warning);
                     }

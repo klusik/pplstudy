@@ -1,0 +1,2531 @@
+{
+  "schema_version": 1,
+  "subject_id": 7,
+  "questions": [
+    {
+      "subject_id": 7,
+      "source_question_id": 1,
+      "title": "Skutečný čas vzletu z neřízeného letiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Po odletu z neřízeného letiště s podaným letovým plánem se skutečný čas vzletu předává službám letového provozu okamžitě po vzletu. Tím ATS pracuje se skutečným časem zahájení letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po odletu z neřízeného letiště s podaným letovým plánem se skutečný čas vzletu předává službám letového provozu okamžitě po vzletu. Tím ATS pracuje se skutečným časem zahájení letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „okamžitě po vzletu“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správné hlášení času a změn letového plánu je důležité pro pohotovostní službu a pro to, aby ATS vědělo, kde letadlo skutečně je."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 2,
+      "title": "Přistání mimo cílové letiště letového plánu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Při přistání na jiném letišti než cílovém podle podaného letového plánu je třeba bez prodlení kontaktovat letovou informační službu, aby bylo správně uzavřeno a aktualizováno sledování letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při přistání na jiném letišti než cílovém podle podaného letového plánu je třeba bez prodlení kontaktovat letovou informační službu, aby bylo správně uzavřeno a aktualizováno sledování letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „letová informační služba (FIS)“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Správné hlášení času a změn letového plánu je důležité pro pohotovostní službu a pro to, aby ATS vědělo, kde letadlo skutečně je."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 3,
+      "title": "Maximální povolená hmotnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Maximální schválená hmotnost je provozní limit. Letadlo se provozuje uvnitř schválené hmotnostní obálky, protože překročení zhoršuje výkonnost a může překročit konstrukční limity.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Maximální schválená hmotnost je provozní limit. Letadlo se provozuje uvnitř schválené hmotnostní obálky, protože překročení zhoršuje výkonnost a může překročit konstrukční limity."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „není povoleno a je zvlášť nebezpečné“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 4,
+      "title": "Poloha těžiště ve schválených mezích",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Těžiště musí po celý let zůstat mezi schválenou přední a zadní mezí. Poloha CG přímo ovlivňuje podélnou stabilitu a dostupnou řídicí rezervu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Těžiště musí po celý let zůstat mezi schválenou přední a zadní mezí. Poloha CG přímo ovlivňuje podélnou stabilitu a dostupnou řídicí rezervu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „mezi jeho přední a zadní mezí“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 5,
+      "title": "Zadní poloha těžiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Posun těžiště dozadu snižuje podélnou stabilitu. Letadlo vyžaduje menší stabilizační moment, ale má menší rezervu proti nestabilnímu chování.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Posun těžiště dozadu snižuje podélnou stabilitu. Letadlo vyžaduje menší stabilizační moment, ale má menší rezervu proti nestabilnímu chování."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „zmenšení stability“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 6,
+      "title": "Řiditelnost a stabilita při správné centráži",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Schválené meze těžiště zajišťují požadovanou stabilitu a řiditelnost ve všech fázích letu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Schválené meze těžiště zajišťují požadovanou stabilitu a řiditelnost ve všech fázích letu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „byla zajištěna jeho stabilita a řiditelnost“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 7,
+      "title": "Důsledky přední polohy těžiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Přední těžiště zvyšuje stabilitu, zvyšuje potřebnou stabilizační sílu a tím i spotřebu, a může zvýšit pádovou rychlost. Správná kombinace je 1, 2, 3.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Přední těžiště zvyšuje stabilitu, zvyšuje potřebnou stabilizační sílu a tím i spotřebu, a může zvýšit pádovou rychlost. Správná kombinace je 1, 2, 3."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „1, 2, 3“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 8,
+      "title": "Základní prázdná hmotnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Základní prázdná hmotnost zahrnuje vlastní letadlo a standardní provozní položky, například nevyčerpatelné palivo, provozní kapaliny a trvale instalované nebo předepsané vybavení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Základní prázdná hmotnost zahrnuje vlastní letadlo a standardní provozní položky, například nevyčerpatelné palivo, provozní kapaliny a trvale instalované nebo předepsané vybavení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „hmotnost letadla plus standardní položky jako nevyčerpatelný zbytek paliva a dalších kapalin, olej v motoru a pomocných agregátech, hasicí přístroje, pyrotechnika, nouzové kyslíkové vybavení, doplňkové elektronické vybavení“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 9,
+      "title": "Stanovení prázdné hmotnosti a těžiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Skutečná prázdná hmotnost a odpovídající poloha těžiště konkrétního letadla se stanovují vážením. Výpočty pak vycházejí z tohoto změřeného základu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Skutečná prázdná hmotnost a odpovídající poloha těžiště konkrétního letadla se stanovují vážením. Výpočty pak vycházejí z tohoto změřeného základu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „vážením“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 10,
+      "title": "Hustota AVGAS 100LL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Pro AVGAS 100LL používá tato otázka hustotu 0,72 kg/l při 15 °C. Hmotnost paliva získáš jako objem krát hustota.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro AVGAS 100LL používá tato otázka hustotu 0,72 kg/l při 15 °C. Hmotnost paliva získáš jako objem krát hustota."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „0.72 kg/l“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 11,
+      "title": "Převod kilogramů na libry",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Převod z kilogramů na libry je kg × 2,205. Opačný převod používá přibližně lb × 0,454.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Převod z kilogramů na libry je kg × 2,205. Opačný převod používá přibližně lb × 0,454."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „kg x 2.205 = lb“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 12,
+      "title": "Upevnění zavazadel a nákladu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Náklad musí být zajištěn proti pohybu. Posun hmoty za letu mění momenty a polohu těžiště a současně může poškodit konstrukci nebo zranit osoby.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Náklad musí být zajištěn proti pohybu. Posun hmoty za letu mění momenty a polohu těžiště a současně může poškodit konstrukci nebo zranit osoby."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „neřiditelné změny podélného sklonu, poškození konstrukce, riziko zranění“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 13,
+      "title": "Upevnění nákladu a poloha těžiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Náklad musí být zajištěn proti pohybu. Posun hmoty za letu mění momenty a polohu těžiště a současně může poškodit konstrukci nebo zranit osoby.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Náklad musí být zajištěn proti pohybu. Posun hmoty za letu mění momenty a polohu těžiště a současně může poškodit konstrukci nebo zranit osoby."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „aby se zabránilo pohybům těžiště“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 14,
+      "title": "Působiště celkové hmotnosti",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Těžiště je bod, ve kterém lze uvažovat působení celkové tíhy letadla. Pro výpočty hmotnosti a vyvážení je to výsledná poloha všech dílčích hmotností a jejich momentů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Těžiště je bod, ve kterém lze uvažovat působení celkové tíhy letadla. Pro výpočty hmotnosti a vyvážení je to výsledná poloha všech dílčích hmotností a jejich momentů."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „těžišti“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 15,
+      "title": "Definice těžiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Těžiště je bod, ve kterém lze uvažovat působení celkové tíhy letadla. Pro výpočty hmotnosti a vyvážení je to výsledná poloha všech dílčích hmotností a jejich momentů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Těžiště je bod, ve kterém lze uvažovat působení celkové tíhy letadla. Pro výpočty hmotnosti a vyvážení je to výsledná poloha všech dílčích hmotností a jejich momentů."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „bod, ve kterém působí celková hmotnost letounu“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 16,
+      "title": "Těžiště jako působiště tíhy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Těžiště je bod, ve kterém lze uvažovat působení celkové tíhy letadla. Pro výpočty hmotnosti a vyvážení je to výsledná poloha všech dílčích hmotností a jejich momentů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Těžiště je bod, ve kterém lze uvažovat působení celkové tíhy letadla. Pro výpočty hmotnosti a vyvážení je to výsledná poloha všech dílčích hmotností a jejich momentů."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „bod, ve kterém působí celková tíha“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 17,
+      "title": "Rovnováha sil v ustáleném letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V nezrychleném ustáleném přímém letu jsou síly v rovnováze: tah se rovná odporu a vztlak se rovná tíze.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V nezrychleném ustáleném přímém letu jsou síly v rovnováze: tah se rovná odporu a vztlak se rovná tíze."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „tah rovná se odporu a vztlak rovná se tíze“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 18,
+      "title": "Počátek při výpočtu hmotnosti a vyvážení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Počátek neboli datum je zvolená referenční rovina nebo bod na podélné ose, od kterého se měří ramena jednotlivých hmotností.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Počátek neboli datum je zvolená referenční rovina nebo bod na podélné ose, od kterého se měří ramena jednotlivých hmotností."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 19,
+      "title": "Moment při výpočtu hmotnosti a vyvážení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Moment je součin hmotnosti a ramena. Součet momentů všech položek je základem pro výpočet výsledného těžiště.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Moment je součin hmotnosti a ramena. Součet momentů všech položek je základem pro výpočet výsledného těžiště."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 20,
+      "title": "Rameno při výpočtu hmotnosti a vyvážení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Rameno je vodorovná vzdálenost mezi referenčním počátkem a těžištěm konkrétní hmotnosti. Znaménko a jednotka ramena musí odpovídat použitému systému.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rameno je vodorovná vzdálenost mezi referenčním počátkem a těžištěm konkrétní hmotnosti. Znaménko a jednotka ramena musí odpovídat použitému systému."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 21,
+      "title": "Vzdálenost těžiště od počátku",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Rameno je vodorovná vzdálenost mezi referenčním počátkem a těžištěm konkrétní hmotnosti. Znaménko a jednotka ramena musí odpovídat použitému systému.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rameno je vodorovná vzdálenost mezi referenčním počátkem a těžištěm konkrétní hmotnosti. Znaménko a jednotka ramena musí odpovídat použitému systému."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 22,
+      "title": "Definice ramena",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Rameno je vodorovná vzdálenost mezi referenčním počátkem a těžištěm konkrétní hmotnosti. Znaménko a jednotka ramena musí odpovídat použitému systému.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rameno je vodorovná vzdálenost mezi referenčním počátkem a těžištěm konkrétní hmotnosti. Znaménko a jednotka ramena musí odpovídat použitému systému."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 23,
+      "title": "Údaje pro hmotnost a vyvážení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Hmotnosti, ramena, limity a obálku těžiště bere pilot z kapitoly Hmotnost a vyvážení letové příručky konkrétního letadla.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Hmotnosti, ramena, limity a obálku těžiště bere pilot z kapitoly Hmotnost a vyvážení letové příručky konkrétního letadla."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 24,
+      "title": "Příprava letadla k vážení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Před vážením se letadlo připraví do předepsaného stavu. V této otázce se vypustí veškeré vyčerpatelné palivo, aby zůstala definovaná základní konfigurace pro vážení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Před vážením se letadlo připraví do předepsaného stavu. V této otázce se vypustí veškeré vyčerpatelné palivo, aby zůstala definovaná základní konfigurace pro vážení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 25,
+      "title": "Kapitola hmotnost a vyvážení",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Základní prázdná hmotnost a údaje o centráži patří do kapitoly Hmotnost a vyvážení letové příručky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Základní prázdná hmotnost a údaje o centráži patří do kapitoly Hmotnost a vyvážení letové příručky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Hmotnost × rameno = moment; součet momentů / celková hmotnost = CG."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 26,
+      "title": "Výpočet polohy těžiště v palcích",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z přílohy PFP-052e vychází poloha těžiště 142 in. Při podobné úloze čti výsledný moment a hmotnost ve stejném systému jednotek a použij CG = celkový moment / celková hmotnost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z přílohy PFP-052e vychází poloha těžiště 142 in. Při podobné úloze čti výsledný moment a hmotnost ve stejném systému jednotek a použij CG = celkový moment / celková hmotnost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „142 in“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 27,
+      "title": "Hmotnost 102 litrů AVGAS 100LL",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "102 l AVGAS 100LL × 0,72 kg/l = 73,44 kg, po zaokrouhlení přibližně 74 kg.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "102 l AVGAS 100LL × 0,72 kg/l = 73,44 kg, po zaokrouhlení přibližně 74 kg."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „74 kg“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 28,
+      "title": "Poloha těžiště po spotřebě paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Po spotřebě paliva odečti jeho hmotnost i moment: 2300 × 95,75 = 220225 lb·in; 170 × 87 = 14790 lb·in. Zbývá 2130 lb a 205435 lb·in, tedy CG ≈ 96,45 in.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po spotřebě paliva odečti jeho hmotnost i moment: 2300 × 95,75 = 220225 lb·in; 170 × 87 = 14790 lb·in. Zbývá 2130 lb a 205435 lb·in, tedy CG ≈ 96,45 in."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „96.45 in“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 29,
+      "title": "Poloha těžiště po přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "30,5 l AVGAS představuje přibližně 21,96 kg. Po odečtení palivového momentu z původního momentu vychází poloha těžiště po přistání přibližně 36,9 cm.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "30,5 l AVGAS představuje přibližně 21,96 kg. Po odečtení palivového momentu z původního momentu vychází poloha těžiště po přistání přibližně 36,9 cm."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „36.9 cm“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 30,
+      "title": "Poloha těžiště po spotřebě 55 litrů",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "55 l AVGAS představuje přibližně 39,6 kg. Po odečtení hmotnosti a momentu spotřebovaného paliva vychází nové těžiště přibližně 24,8 cm.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "55 l AVGAS představuje přibližně 39,6 kg. Po odečtení hmotnosti a momentu spotřebovaného paliva vychází nové těžiště přibližně 24,8 cm."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „24.8 cm“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 31,
+      "title": "Poloha těžiště včetně paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Příloha PFP-053e kombinuje jednotlivé hmotnosti a jejich momenty. Výsledná poloha těžiště včetně paliva je 37,1 cm.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Příloha PFP-053e kombinuje jednotlivé hmotnosti a jejich momenty. Výsledná poloha těžiště včetně paliva je 37,1 cm."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „37.1 cm“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 32,
+      "title": "Centráž z hmotnosti a momentu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V grafu centráže se použije vypočtená hmotnost a celkový moment a jejich průsečík se přiřadí k označenému bodu. Pro tuto úlohu vychází bod 1.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V grafu centráže se použije vypočtená hmotnost a celkový moment a jejich průsečík se přiřadí k označenému bodu. Pro tuto úlohu vychází bod 1."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „1“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 33,
+      "title": "Centráž z hmotnosti a momentu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V grafu centráže se použije vypočtená hmotnost a celkový moment a jejich průsečík se přiřadí k označenému bodu. Pro tuto úlohu vychází bod 3.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V grafu centráže se použije vypočtená hmotnost a celkový moment a jejich průsečík se přiřadí k označenému bodu. Pro tuto úlohu vychází bod 3."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „3“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 34,
+      "title": "Centráž z hmotnosti a momentu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V grafu centráže se použije vypočtená hmotnost a celkový moment a jejich průsečík se přiřadí k označenému bodu. Pro tuto úlohu vychází bod 4.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V grafu centráže se použije vypočtená hmotnost a celkový moment a jejich průsečík se přiřadí k označenému bodu. Pro tuto úlohu vychází bod 4."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „4“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 35,
+      "title": "Poslední stanovená prázdná hmotnost a CG",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z dokumentace se použije naposledy platný záznam o vážení. V příloze PFP-006 je poslední stanovená kombinace 498 kg a 280,59 m podle znění zdrojové otázky.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z dokumentace se použije naposledy platný záznam o vážení. V příloze PFP-006 je poslední stanovená kombinace 498 kg a 280,59 m podle znění zdrojové otázky."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „498 kg, 280.59 m“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Před každým letem se hmotnost a těžiště ověřují podle dokumentace konkrétního letadla. Palivo během letu mění celkovou hmotnost i moment, takže je třeba posoudit celou letovou obálku."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 36,
+      "title": "Vliv konfigurace na vzletovou výkonnost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Větší vysunutí klapek zvyšuje vztlak při malé rychlosti a obvykle zkrátí rozjezd, současně ale přidává odpor. Z porovnaných průběhů v příloze má větší vysunutí klapek letadlo A.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Větší vysunutí klapek zvyšuje vztlak při malé rychlosti a obvykle zkrátí rozjezd, současně ale přidává odpor. Z porovnaných průběhů v příloze má větší vysunutí klapek letadlo A."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „letadlo A má větší vysunutí klapek než letadlo B“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové výpočty vycházejí z POH/AFM a skutečných podmínek letiště. Klapky, vítr, výška, teplota a stav povrchu se posuzují společně."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 37,
+      "title": "Vliv vztlakových klapek na vzlet",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Větší výchylka klapek snižuje rychlost odpoutání a může zkrátit rozjezd, ale zvýšený odpor zhoršuje následnou stoupací výkonnost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Větší výchylka klapek snižuje rychlost odpoutání a může zkrátit rozjezd, ale zvýšený odpor zhoršuje následnou stoupací výkonnost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „větší výchylka klapek zkracuje rozjezd po zemi, snižuje rychlost odpoutání, ale zhoršuje výkonnost při stoupání“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové výpočty vycházejí z POH/AFM a skutečných podmínek letiště. Klapky, vítr, výška, teplota a stav povrchu se posuzují společně."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 38,
+      "title": "Vliv větru na délku vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Zadní vítr snižuje relativní proudění přes křídlo při stejné rychlosti vůči zemi. Pro dosažení potřebné IAS je proto nutná vyšší ground speed a delší rozjezd.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Zadní vítr snižuje relativní proudění přes křídlo při stejné rychlosti vůči zemi. Pro dosažení potřebné IAS je proto nutná vyšší ground speed a delší rozjezd."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „vítr do zad snižuje relativní rychlost na profilu, a tak se délka vzletu zvětší“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové výpočty vycházejí z POH/AFM a skutečných podmínek letiště. Klapky, vítr, výška, teplota a stav povrchu se posuzují společně."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 39,
+      "title": "Zesílení zadního větru po vzletu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Po vzletu do vrstvy se silnějším zadním větrem klesne okamžitá IAS a stoupavost, protože se mění rychlost vzduchu vůči letadlu rychleji než se letadlo stačí dynamicky přizpůsobit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po vzletu do vrstvy se silnějším zadním větrem klesne okamžitá IAS a stoupavost, protože se mění rychlost vzduchu vůči letadlu rychleji než se letadlo stačí dynamicky přizpůsobit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „pokles rychlosti a stoupavosti kvůli zesílení větru do zad“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové výpočty vycházejí z POH/AFM a skutečných podmínek letiště. Klapky, vítr, výška, teplota a stav povrchu se posuzují společně."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 40,
+      "title": "Vliv čelního větru na délku přistání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Silný čelní vítr snižuje ground speed při stejné IAS. Letadlo proto po dotyku rozptyluje menší kinetickou energii vůči zemi a potřebuje kratší dráhu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Silný čelní vítr snižuje ground speed při stejné IAS. Letadlo proto po dotyku rozptyluje menší kinetickou energii vůči zemi a potřebuje kratší dráhu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „silný čelní vítr“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové výpočty vycházejí z POH/AFM a skutečných podmínek letiště. Klapky, vítr, výška, teplota a stav povrchu se posuzují společně."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 41,
+      "title": "Let do známých podmínek námrazy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Letadlo bez schválení a vybavení pro známou námrazu plánuje trať mimo známé podmínky námrazy. Při neúmyslném vstupu je cílem podmínky bez prodlení opustit.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Letadlo bez schválení a vybavení pro známou námrazu plánuje trať mimo známé podmínky námrazy. Při neúmyslném vstupu je cílem podmínky bez prodlení opustit."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „let do známých podmínek námrazy je zakázán a vstoupí-li do takových podmínek neúmyslně, má je neprodleně opustit“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové výpočty vycházejí z POH/AFM a skutečných podmínek letiště. Klapky, vítr, výška, teplota a stav povrchu se posuzují společně."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 42,
+      "title": "Význam rychlosti Vx",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Vx je rychlost pro nejlepší úhel stoupání. Zadanou výšku získáš na nejkratší vodorovné vzdálenosti.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vx je rychlost pro nejlepší úhel stoupání. Zadanou výšku získáš na nejkratší vodorovné vzdálenosti."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vx = největší úhel, Vy = největší stoupavost za čas."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 43,
+      "title": "Definice úhlu sestupu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Úhel sestupu je geometrický úhel mezi horizontální rovinou a trajektorií letu a vyjadřuje se ve stupních.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Úhel sestupu je geometrický úhel mezi horizontální rovinou a trajektorií letu a vyjadřuje se ve stupních."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „úhel mezi horizontální rovinou a trajektorií letu, vyjádřeno ve stupních (°)“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 44,
+      "title": "Definice ustáleného letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Ustálený nezrychlený let znamená rovnováhu sil. Pro přímý horizontální let platí tah = odpor a vztlak = tíha.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Ustálený nezrychlený let znamená rovnováhu sil. Pro přímý horizontální let platí tah = odpor a vztlak = tíha."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „nezrychlený let, kdy čtyři síly, tah - odpor a vztlak - tíha jsou v rovnováze“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 45,
+      "title": "Význam rychlosti Vy",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Vy je rychlost pro nejlepší stoupavost, tedy největší vertikální rychlost stoupání a dosažení výšky za nejkratší čas.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Vy je rychlost pro nejlepší stoupavost, tedy největší vertikální rychlost stoupání a dosažení výšky za nejkratší čas."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vx = největší úhel, Vy = největší stoupavost za čas."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 46,
+      "title": "Význam rychlosti VFE",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "VFE je nejvyšší povolená rychlost s vysunutými vztlakovými klapkami v příslušné konfiguraci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VFE je nejvyšší povolená rychlost s vysunutými vztlakovými klapkami v příslušné konfiguraci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj každou V-rychlost s konkrétní barvou nebo konfigurací, ne pouze s číslem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 47,
+      "title": "Význam rychlosti VS0",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "VS0 je pádová nebo minimální ustálená rychlost v přistávací konfiguraci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "VS0 je pádová nebo minimální ustálená rychlost v přistávací konfiguraci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj každou V-rychlost s konkrétní barvou nebo konfigurací, ne pouze s číslem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 48,
+      "title": "Začátek zeleného oblouku rychloměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Začátek zeleného oblouku označuje VS1, tedy pádovou nebo minimální ustálenou rychlost v určené čistší konfiguraci používané pro normální provoz.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Začátek zeleného oblouku označuje VS1, tedy pádovou nebo minimální ustálenou rychlost v určené čistší konfiguraci používané pro normální provoz."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj každou V-rychlost s konkrétní barvou nebo konfigurací, ne pouze s číslem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 49,
+      "title": "Konec zeleného oblouku rychloměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Konec zeleného oblouku označuje VNO, maximální konstrukční cestovní rychlost pro normální provoz.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Konec zeleného oblouku označuje VNO, maximální konstrukční cestovní rychlost pro normální provoz."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj každou V-rychlost s konkrétní barvou nebo konfigurací, ne pouze s číslem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 50,
+      "title": "Červená značka na rychloměru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Červená značka na konci žlutého oblouku označuje VNE, nepřekročitelnou maximální rychlost.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Červená značka na konci žlutého oblouku označuje VNE, nepřekročitelnou maximální rychlost."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Spoj každou V-rychlost s konkrétní barvou nebo konfigurací, ne pouze s číslem."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 51,
+      "title": "Rychlost pro nejlepší stoupavost",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Pro dosažení požadované výšky za minimální čas se používá Vy, rychlost pro největší vertikální rychlost stoupání.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro dosažení požadované výšky za minimální čas se používá Vy, rychlost pro největší vertikální rychlost stoupání."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Vx = největší úhel, Vy = největší stoupavost za čas."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "V-rychlosti jsou typově a konfiguračně specifické. Při skutečném letu se vždy používají hodnoty a omezení z POH/AFM daného letadla."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 52,
+      "title": "Čelní složka větru pro dráhu 22",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Rozdíl mezi osou RWY 22 a větrem 250° je 30°. Čelní složka je 10 × cos 30° ≈ 8,7 kt, tedy přibližně 9 kt.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rozdíl mezi osou RWY 22 a větrem 250° je 30°. Čelní složka je 10 × cos 30° ≈ 8,7 kt, tedy přibližně 9 kt."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná složka používá cosinus úhlu, boční složka sinus."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 53,
+      "title": "Délka vzletu podle výkonového grafu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Použij výkonový graf PFP-009 v pořadí tlaková výška, teplota, hmotnost a vítr. Po aplikaci všech korekcí vychází délka vzletu 380 m.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Použij výkonový graf PFP-009 v pořadí tlaková výška, teplota, hmotnost a vítr. Po aplikaci všech korekcí vychází délka vzletu 380 m."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „380 m“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 54,
+      "title": "Složky větru pro dráhu 36",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Pro RWY 36 a vítr 240°/12 kt je úhlový rozdíl 120°. Boční složka je přibližně 10,4 kt zleva a podélná složka odpovídá 6 kt zadního větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro RWY 36 a vítr 240°/12 kt je úhlový rozdíl 120°. Boční složka je přibližně 10,4 kt zleva a podélná složka odpovídá 6 kt zadního větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná složka používá cosinus úhlu, boční složka sinus."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 55,
+      "title": "Délka vzletu při zadním větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Použij výkonový graf PFP-009 v pořadí tlaková výška, teplota, hmotnost a vítr. Po aplikaci všech korekcí vychází délka vzletu 900 m.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Použij výkonový graf PFP-009 v pořadí tlaková výška, teplota, hmotnost a vítr. Po aplikaci všech korekcí vychází délka vzletu 900 m."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „900 m“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 56,
+      "title": "Délka vzletu při OAT 20 °C",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Použij výkonový graf PFP-009 v pořadí tlaková výška, teplota, hmotnost a vítr. Po aplikaci všech korekcí vychází délka vzletu 880 m.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Použij výkonový graf PFP-009 v pořadí tlaková výška, teplota, hmotnost a vítr. Po aplikaci všech korekcí vychází délka vzletu 880 m."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „880 m“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 57,
+      "title": "Složky větru pro dráhu 36",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Pro RWY 36 a vítr 240°/12 kt je úhlový rozdíl 120°. Boční složka je přibližně 10,4 kt zleva a podélná složka odpovídá 6 kt zadního větru.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro RWY 36 a vítr 240°/12 kt je úhlový rozdíl 120°. Boční složka je přibližně 10,4 kt zleva a podélná složka odpovídá 6 kt zadního větru."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Podélná složka používá cosinus úhlu, boční složka sinus."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 58,
+      "title": "Spotřeba paliva podle výkonové tabulky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky PFP-012 pro tlakovou výšku 2000 ft, 31 °C a 2400 RPM vychází spotřeba paliva 19,5 l/h.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky PFP-012 pro tlakovou výšku 2000 ft, 31 °C a 2400 RPM vychází spotřeba paliva 19,5 l/h."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „19.5 l/h“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 59,
+      "title": "Rychlost stoupání v 10 000 ft",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V tabulce stoupavosti PFP-011 se protne tlaková výška s teplotou a odečte se dosažitelná rychlost stoupání. Pro zadané podmínky vychází 390 ft/min.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V tabulce stoupavosti PFP-011 se protne tlaková výška s teplotou a odečte se dosažitelná rychlost stoupání. Pro zadané podmínky vychází 390 ft/min."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „390 ft/min“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 60,
+      "title": "Dolet při 65 % výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky doletu PFP-013 se pro zadanou tlakovou výšku, teplotu a výkon odečte 482 NM.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky doletu PFP-013 se pro zadanou tlakovou výšku, teplotu a výkon odečte 482 NM."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „482 NM“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 61,
+      "title": "Dolet při 55 % výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky doletu PFP-013 se pro zadanou tlakovou výšku, teplotu a výkon odečte 500 NM.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky doletu PFP-013 se pro zadanou tlakovou výšku, teplotu a výkon odečte 500 NM."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „500 NM“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 62,
+      "title": "TAS při 65 % výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky PFP-014 se pro zadanou výšku, teplotu a výkon odečte pravá vzdušná rychlost 92 kt.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky PFP-014 se pro zadanou výšku, teplotu a výkon odečte pravá vzdušná rychlost 92 kt."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „92 kt“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 63,
+      "title": "TAS při 75 % výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky PFP-014 se pro zadanou výšku, teplotu a výkon odečte pravá vzdušná rychlost 104 kt.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky PFP-014 se pro zadanou výšku, teplotu a výkon odečte pravá vzdušná rychlost 104 kt."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „104 kt“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 64,
+      "title": "Maximální stoupavost v 9000 ft",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V tabulce stoupavosti PFP-011 se protne tlaková výška s teplotou a odečte se dosažitelná rychlost stoupání. Pro zadané podmínky vychází 200 ft/min.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V tabulce stoupavosti PFP-011 se protne tlaková výška s teplotou a odečte se dosažitelná rychlost stoupání. Pro zadané podmínky vychází 200 ft/min."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „200 ft/min“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 65,
+      "title": "Maximální stoupavost v 6500 ft",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "V tabulce stoupavosti PFP-011 se protne tlaková výška s teplotou a odečte se dosažitelná rychlost stoupání. Pro zadané podmínky vychází 480 ft / min.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "V tabulce stoupavosti PFP-011 se protne tlaková výška s teplotou a odečte se dosažitelná rychlost stoupání. Pro zadané podmínky vychází 480 ft / min."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „480 ft / min“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 66,
+      "title": "TAS a spotřeba při 60 % výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Při traťovém letu se nejprve určí odpovídající tlaková výška a teplota vůči ISA, potom se z výkonové tabulky odečte TAS a spotřeba. Zdrojová tabulka dává 95 kt. 19.6 l/h.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při traťovém letu se nejprve určí odpovídající tlaková výška a teplota vůči ISA, potom se z výkonové tabulky odečte TAS a spotřeba. Zdrojová tabulka dává 95 kt. 19.6 l/h."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „95 kt. 19.6 l/h“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 67,
+      "title": "TAS a spotřeba při 70 % výkonu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Při traťovém letu se nejprve určí odpovídající tlaková výška a teplota vůči ISA, potom se z výkonové tabulky odečte TAS a spotřeba. Zdrojová tabulka dává 110 kt. 23.9 l/h.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při traťovém letu se nejprve určí odpovídající tlaková výška a teplota vůči ISA, potom se z výkonové tabulky odečte TAS a spotřeba. Zdrojová tabulka dává 110 kt. 23.9 l/h."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „110 kt. 23.9 l/h“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 68,
+      "title": "TAS a spotřeba ve FL85",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Pro FL85, OAT -25 °C a 60 % výkonu dává tabulka PFP-014 spotřebu 18,5 l a TAS 85 kt podle znění zdrojové odpovědi.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro FL85, OAT -25 °C a 60 % výkonu dává tabulka PFP-014 spotřebu 18,5 l a TAS 85 kt podle znění zdrojové odpovědi."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „spotřeba paliva: 18.5 l. TAS: 85 kt“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 69,
+      "title": "Rychlost stoupání podle tabulky",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 110 kt.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 110 kt."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „110 kt“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 70,
+      "title": "Palivo pro stoupání FL65 až FL95",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 1 GAL.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 1 GAL."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „1 GAL“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 71,
+      "title": "Vzdálenost při stoupání FL65 až FL95",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 6 NM.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 6 NM."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „6 NM“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 72,
+      "title": "Vzdálenost při stoupání do FL75",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 7 NM.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Graf PFP-023 slouží pro plánování stoupání. Po zadání hmotnosti, výchozí a cílové tlakové výšky a teplot se pro tuto úlohu odečte 7 NM."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „7 NM“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Výkonové tabulky se čtou přesně v pořadí předepsaném výrobcem. Interpolace, jednotky a korekce na vítr nebo teplotu mohou výsledek významně změnit."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 73,
+      "title": "Maximum Elevation Figure",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "MEF udává nejvyšší nadmořskou výšku terénu nebo překážky v daném mapovém poli po přidání bezpečnostní rezervy a zaokrouhlení nahoru podle mapové konvence.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "MEF udává nejvyšší nadmořskou výšku terénu nebo překážky v daném mapovém poli po přidání bezpečnostní rezervy a zaokrouhlení nahoru podle mapové konvence."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „nejvyšší nadmořská výška terénu v oblasti pokrývající 30 minut zeměpisné šířky a délky plus bezpečnostní rezerva, zaokrouhleno na nejbližších vyšších 100 ft“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigační přípravě se mapové údaje kombinují s aktuálním AIP a NOTAM. U vertikálních limitů vždy ověř reference MSL, AGL nebo FL."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 74,
+      "title": "Kontrolní čáry při srovnávací navigaci",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Výrazné čáry protínající plánovanou trať fungují jako kontrolní orientační prvky. Při nejistotě polohy je lze snadno rozpoznat a použít k obnovení situačního povědomí.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Výrazné čáry protínající plánovanou trať fungují jako kontrolní orientační prvky. Při nejistotě polohy je lze snadno rozpoznat a použít k obnovení situačního povědomí."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „slouží jako snadno rozpoznatelná pomůcka při možné ztrátě orientace“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigační přípravě se mapové údaje kombinují s aktuálním AIP a NOTAM. U vertikálních limitů vždy ověř reference MSL, AGL nebo FL."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 75,
+      "title": "Polokruhové pravidlo VFR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Polokruhové pravidlo VFR se vztahuje k magnetické trati. Rozhoduje tedy směr pohybu nad zemí po opravě na magnetickou deklinaci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Polokruhové pravidlo VFR se vztahuje k magnetické trati. Rozhoduje tedy směr pohybu nad zemí po opravě na magnetickou deklinaci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „magnetické trati (MC)“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigační přípravě se mapové údaje kombinují s aktuálním AIP a NOTAM. U vertikálních limitů vždy ověř reference MSL, AGL nebo FL."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 76,
+      "title": "Nejnižší letová hladina VFR",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Nejprve převeď zeměpisnou trať na magnetickou trať pomocí deklinace a potom aplikuj polokruhové pravidlo VFR. Pro zadanou trať vychází nejnižší vhodná hladina FL055.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Nejprve převeď zeměpisnou trať na magnetickou trať pomocí deklinace a potom aplikuj polokruhové pravidlo VFR. Pro zadanou trať vychází nejnižší vhodná hladina FL055."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „FL 055“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigační přípravě se mapové údaje kombinují s aktuálním AIP a NOTAM. U vertikálních limitů vždy ověř reference MSL, AGL nebo FL."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 77,
+      "title": "Horní hranice LO R 16",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z mapového výřezu se čte vertikální rozsah omezeného prostoru a reference MSL/AGL. Pro tuto otázku je horní hranice 1,500 ft MSL.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z mapového výřezu se čte vertikální rozsah omezeného prostoru a reference MSL/AGL. Pro tuto otázku je horní hranice 1,500 ft MSL."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „1,500 ft MSL“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigační přípravě se mapové údaje kombinují s aktuálním AIP a NOTAM. U vertikálních limitů vždy ověř reference MSL, AGL nebo FL."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 78,
+      "title": "Horní hranice LO R 4",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z mapového výřezu se čte vertikální rozsah omezeného prostoru a reference MSL/AGL. Pro tuto otázku je horní hranice 4,500 ft MSL.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z mapového výřezu se čte vertikální rozsah omezeného prostoru a reference MSL/AGL. Pro tuto otázku je horní hranice 4,500 ft MSL."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „4,500 ft MSL“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Při navigační přípravě se mapové údaje kombinují s aktuálním AIP a NOTAM. U vertikálních limitů vždy ověř reference MSL, AGL nebo FL."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 79,
+      "title": "Palivo pro pojíždění a MTOW",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Před vzletem je třeba snížit 1148 kg na MTOW 1145 kg, tedy spotřebovat 3 kg paliva. Při hustotě 0,72 kg/l je to přibližně 4,2 l, takže z nabízených možností odpovídají 4 litry.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Před vzletem je třeba snížit 1148 kg na MTOW 1145 kg, tedy spotřebovat 3 kg paliva. Při hustotě 0,72 kg/l je to přibližně 4,2 l, takže z nabízených možností odpovídají 4 litry."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „4 litry“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 80,
+      "title": "Traťové palivo",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Traťové palivo zde zahrnuje vzlet a stoupání, let po trati a klesání s přiblížením: 12 + 25 + 7 = 44 litrů.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Traťové palivo zde zahrnuje vzlet a stoupání, let po trati a klesání s přiblížením: 12 + 25 + 7 = 44 litrů."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „44 litrů“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 81,
+      "title": "LOKH jako náhradní letiště",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Při volbě náhradního letiště musí zůstat použitelná délka dráhy po započtení NOTAM alespoň rovna požadované délce přistání. Z údajů v příloze tato podmínka splněna není, proto je odpověď „ne“.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při volbě náhradního letiště musí zůstat použitelná délka dráhy po započtení NOTAM alespoň rovna požadované délce přistání. Z údajů v příloze tato podmínka splněna není, proto je odpověď „ne“."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „ne“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 82,
+      "title": "Horní hranice prostoru v NOTAM",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "NOTAM udává horní hranici prostoru jako 9500 ft MSL. Při čtení NOTAM vždy sleduj zároveň jednotku i výškovou referenci.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "NOTAM udává horní hranici prostoru jako 9500 ft MSL. Při čtení NOTAM vždy sleduj zároveň jednotku i výškovou referenci."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „nadmořská výška 9500 ft MSL“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 83,
+      "title": "EOBT v letovém plánu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "EOBT se v letovém plánu uvádí v UTC, aby byla časová reference jednoznačná napříč státy a časovými pásmy.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "EOBT se v letovém plánu uvádí v UTC, aby byla časová reference jednoznačná napříč státy a časovými pásmy."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „koordinovaný světový čas (UTC)“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 84,
+      "title": "Druh letu z letového plánu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z vyplněného letového plánu v příloze vyplývá let VFR v noci. Při čtení formuláře sleduj zejména pole pravidel letu a doplňkové informace.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z vyplněného letového plánu v příloze vyplývá let VFR v noci. Při čtení formuláře sleduj zejména pole pravidel letu a doplňkové informace."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „let v noci podle pravidel letu za vidu“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 85,
+      "title": "Rychlost v letovém plánu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Rychlost ve standardním letovém plánu je kódována jednotkou a čtyřmi číslicemi. Zápis N0100 znamená 100 kt.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Rychlost ve standardním letovém plánu je kódována jednotkou a čtyřmi číslicemi. Zápis N0100 znamená 100 kt."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „100 kt“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 86,
+      "title": "Letový plán pro mezinárodní let",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Pro mezinárodní let se podává letový plán. ATS tím získá standardizované údaje o trase, časech, letadle a vybavení.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Pro mezinárodní let se podává letový plán. ATS tím získá standardizované údaje o trase, časech, letadle a vybavení."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „podat letový plán“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 87,
+      "title": "Podání letového plánu za letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Za letu lze letový plán podat prostřednictvím letové informační služby FIS.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Za letu lze letový plán podat prostřednictvím letové informační služby FIS."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „letové informační službě (FIS)“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 88,
+      "title": "TAS pro maximální dolet při zadním větru",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Při zadním větru lze pro maximální dolet zvolit mírně nižší TAS než v klidném vzduchu, protože vyšší ground speed pomáhá překonat stejnou vzdálenost s menším požadavkem na rychlost vůči vzduchu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při zadním větru lze pro maximální dolet zvolit mírně nižší TAS než v klidném vzduchu, protože vyšší ground speed pomáhá překonat stejnou vzdálenost s menším požadavkem na rychlost vůči vzduchu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „pro maximální dolet je v silném větru do zad mírně nižší“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 89,
+      "title": "TAS při konstantní IAS ve stoupání",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Při konstantní IAS ve stoupání klesá hustota vzduchu, takže stejné dynamické tlakové podmínce odpovídá vyšší TAS. Pravá vzdušná rychlost proto roste.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Při konstantní IAS ve stoupání klesá hustota vzduchu, takže stejné dynamické tlakové podmínce odpovídá vyšší TAS. Pravá vzdušná rychlost proto roste."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „roste“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 90,
+      "title": "Kontrola paliva během letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Za 25 minut se spotřebovalo 80 lb, tedy 3,2 lb/min. Z 120 lb je třeba chránit 70 lb pro alternate a final reserve, takže pro pokračování zbývá 50 lb. 50 / 3,2 ≈ 15,6 min.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Za 25 minut se spotřebovalo 80 lb, tedy 3,2 lb/min. Z 120 lb je třeba chránit 70 lb pro alternate a final reserve, takže pro pokračování zbývá 50 lb. 50 / 3,2 ≈ 15,6 min."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 91,
+      "title": "Palivová kontrola v polovině trati",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Po polovině trati kleslo palivo ze 180 na 100 kg, tedy spotřeba první poloviny je 80 kg. Při stejných podmínkách spotřebuje druhá polovina dalších 80 kg a po přistání zůstane 20 kg.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po polovině trati kleslo palivo ze 180 na 100 kg, tedy spotřeba první poloviny je 80 kg. Při stejných podmínkách spotřebuje druhá polovina dalších 80 kg a po přistání zůstane 20 kg."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 92,
+      "title": "Maximální přijatelná spotřeba paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z 80 USG je 20 USG záloha, pro zbývající 2 h 20 min je tedy k dispozici 60 USG. 60 / 2,333 h ≈ 25,7 USG/h.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z 80 USG je 20 USG záloha, pro zbývající 2 h 20 min je tedy k dispozici 60 USG. 60 / 2,333 h ≈ 25,7 USG/h."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 93,
+      "title": "CAP697: TAS a spotřeba paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky CAP697 SEP1 2.2.3 se pro zadanou výšku, teplotu, hmotnost a nastavení výkonu odečte odpovídající rychlost a spotřeba. Výsledek je TAS = 160 kt FF = 11.9 GPH.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky CAP697 SEP1 2.2.3 se pro zadanou výšku, teplotu, hmotnost a nastavení výkonu odečte odpovídající rychlost a spotřeba. Výsledek je TAS = 160 kt FF = 11.9 GPH."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 94,
+      "title": "CAP697: IAS a spotřeba paliva",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Z tabulky CAP697 SEP1 2.2.3 se pro zadanou výšku, teplotu, hmotnost a nastavení výkonu odečte odpovídající rychlost a spotřeba. Výsledek je IAS = 142 kt FF = 11.5 galonů za hodinu.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Z tabulky CAP697 SEP1 2.2.3 se pro zadanou výšku, teplotu, hmotnost a nastavení výkonu odečte odpovídající rychlost a spotřeba. Výsledek je IAS = 142 kt FF = 11.5 galonů za hodinu."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 95,
+      "title": "CAP697: minimální palivo při zahájení letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Traťový čas se upraví o stoupání a přiblížení, použije se tabulková spotřeba a přidá se 30% záloha traťového paliva plus 2 USG pro pojíždění. Zdrojová úloha dává minimálně 50,4 USG.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Traťový čas se upraví o stoupání a přiblížení, použije se tabulková spotřeba a přidá se 30% záloha traťového paliva plus 2 USG pro pojíždění. Zdrojová úloha dává minimálně 50,4 USG."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 96,
+      "title": "CAP697: minimální palivo při zahájení letu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Postup je stejný jako u předchozí úlohy: tabulková spotřeba pro danou výšku a ISA, časové korekce, 30% záloha a taxi fuel. Výsledek je 48,4 USG.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Postup je stejný jako u předchozí úlohy: tabulková spotřeba pro danou výšku a ISA, časové korekce, 30% záloha a taxi fuel. Výsledek je 48,4 USG."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 97,
+      "title": "Palivo po polovině trati",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Po polovině vzdálenosti bylo spotřebováno 40 USG, takže při stejném tempu bude traťová spotřeba 80 USG. Z 95 USG zůstane při cíli 15 USG, což nestačí na požadovaných 20 USG pro alternate a final reserve.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po polovině vzdálenosti bylo spotřebováno 40 USG, takže při stejném tempu bude traťová spotřeba 80 USG. Z 95 USG zůstane při cíli 15 USG, což nestačí na požadovaných 20 USG pro alternate a final reserve."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 98,
+      "title": "Palivo po polovině trati",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Po polovině vzdálenosti bylo spotřebováno 30 USG, takže odhad traťové spotřeby je 60 USG. Z 90 USG zůstane 30 USG, tedy 10 USG nad 20 USG určenými pro alternate a final reserve.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Po polovině vzdálenosti bylo spotřebováno 30 USG, takže odhad traťové spotřeby je 60 USG. Z 90 USG zůstane 30 USG, tedy 10 USG nad 20 USG určenými pro alternate a final reserve."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Nejdřív odděl palivo, které musí zůstat chráněné jako rezerva, až potom počítej dostupný čas nebo spotřebu."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Palivový plán se průběžně porovnává se skutečnou spotřebou. Pilot sleduje, zda zůstává zachováno palivo pro zamýšlený let, případný alternate a požadované rezervy."
+        }
+      ],
+      "warning": "Před výpočtem sjednoť jednotky a po výpočtu ověř řád výsledku.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 99,
+      "title": "ICAO symbol skupiny neosvětlených překážek",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Příloha PFP-061 zobrazuje čtyři mapové symboly. Skupina neosvětlených překážek je označena symbolem C.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Příloha PFP-061 zobrazuje čtyři mapové symboly. Skupina neosvětlených překážek je označena symbolem C."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „C“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Mapové symboly se používají standardizovaně. Při přípravě letu je důležité rozpoznat jejich význam bez odvozování z okolního textu."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 100,
+      "title": "ICAO symbol civilního letiště se zpevněnou dráhou",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Příloha PFP-062 zobrazuje čtyři mapové symboly. Civilní letiště se zpevněnou dráhou odpovídá symbolu A.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Příloha PFP-062 zobrazuje čtyři mapové symboly. Civilní letiště se zpevněnou dráhou odpovídá symbolu A."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „A“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Mapové symboly se používají standardizovaně. Při přípravě letu je důležité rozpoznat jejich význam bez odvozování z okolního textu."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    },
+    {
+      "subject_id": 7,
+      "source_question_id": 101,
+      "title": "ICAO symbol nadmořské výšky bodu",
+      "curation_status": "verified",
+      "wording_status": "source_exact",
+      "source_document_key": "subject-07-official-questions",
+      "explanation": "Příloha PFP-063 zobrazuje čtyři mapové symboly. Nadmořská výška bodu odpovídá symbolu C.",
+      "explanation_sections": [
+        {
+          "heading": "Princip",
+          "body": "Příloha PFP-063 zobrazuje čtyři mapové symboly. Nadmořská výška bodu odpovídá symbolu C."
+        },
+        {
+          "heading": "Jak si to zapamatovat",
+          "body": "Pro zkoušku si spoj zadání s výsledkem „C“ a s fyzikálním nebo provozním důvodem, který k němu vede."
+        },
+        {
+          "heading": "Provozní souvislost",
+          "body": "Mapové symboly se používají standardizovaně. Při přípravě letu je důležité rozpoznat jejich význam bez odvozování z okolního textu."
+        }
+      ],
+      "warning": "Přílohovou otázku řeš z lokálního studijního podkladu a při skutečném plánování používej aktuální AFM/POH, mapu nebo publikaci odpovídající dané úloze.",
+      "source_note": "Znění otázky, pořadí všech čtyř možností a správná odpověď byly ověřeny proti lokálně uloženému oficiálnímu PDF ÚCL, verze 1.2 ze dne 30.12.2021."
+    }
+  ]
+}

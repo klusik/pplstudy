@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "overlays": [
+    "01-pravni-predpisy.json",
+    "02-lidska-vykonnost.json",
+    "03-meteorologie.json",
+    "04-komunikace.json",
+    "05-letove-zasady.json",
+    "06-provozni-postupy.json",
+    "07-provedeni-planovani.json",
+    "08-obecne-znalosti.json",
+    "09-navigace.json"
+  ]
+}

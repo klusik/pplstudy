@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" role="img" aria-labelledby="t d">
+  <title id="t">PFP-014 TAS a spotřeba v traťovém letu</title>
+  <desc id="d">Studijní podklad PFP-014.</desc>
+  <rect width="1000" height="510" fill="#f7fafc"/>
+  <rect x="30" y="30" width="940" height="450" rx="20" fill="#fff" stroke="#d4e0e8" stroke-width="3"/>
+  <text x="60" y="75" text-anchor="start" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17384f">TAS a spotřeba v traťovém letu</text>
+<rect x="50" y="115" width="360" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="230.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Podmínky</text>
+<rect x="410" y="115" width="160" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="490.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">Výkon</text>
+<rect x="570" y="115" width="180" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="660.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">TAS</text>
+<rect x="750" y="115" width="200" height="50" fill="#eaf2f7" stroke="#b9ccd8"/>
+<text x="850.0" y="148" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#17384f">FF</text>
+<rect x="50" y="165" width="360" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="230.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">6000 ft / 10 °C</text>
+<rect x="410" y="165" width="160" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="490.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">65 %</text>
+<rect x="570" y="165" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="660.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">92 kt</text>
+<rect x="750" y="165" width="200" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="850.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">-</text>
+<rect x="50" y="223" width="360" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="230.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">8000 ft / -2 °C</text>
+<rect x="410" y="223" width="160" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="490.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">75 %</text>
+<rect x="570" y="223" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="660.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">104 kt</text>
+<rect x="750" y="223" width="200" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="850.0" y="259" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">-</text>
+<rect x="50" y="281" width="360" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="230.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">FL85 / -25 °C</text>
+<rect x="410" y="281" width="160" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="490.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">60 %</text>
+<rect x="570" y="281" width="180" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="660.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">85 kt</text>
+<rect x="750" y="281" width="200" height="58" fill="#fff" stroke="#d7e2e9"/>
+<text x="850.0" y="317" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="400" fill="#17384f">18.5 l</text>
+<text x="60" y="381" text-anchor="start" font-family="system-ui,sans-serif" font-size="18" font-weight="400" fill="#17384f">Studijní výřez pro otázky 62, 63 a 68.</text>
+  <text x="500.0" y="488" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#667b88">Studijní překreslení pro PPL Study</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">HPL-002: výkonnost a vyburcování</title>
+<desc id="desc">Křivka výkonnosti podle vyburcování se čtyřmi body A, B, C a D. Body A a B leží na stoupající části, C poblíž maxima a D na sestupné části.</desc>
+<rect width="720" height="420" fill="white"/>
+<g stroke="#111" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M90 340 H650"/>
+  <path d="M90 340 V55"/>
+  <path d="M650 340 l-18 -10 m18 10 l-18 10"/>
+  <path d="M90 55 l-10 18 m10-18 l10 18"/>
+</g>
+<path d="M90 340 C190 205, 280 120, 385 100 C500 78, 590 190, 635 340" fill="none" stroke="#2452a4" stroke-width="5"/>
+<g stroke="#9a6a3d" stroke-width="2" stroke-dasharray="6 5">
+  <path d="M175 340 V222"/>
+  <path d="M325 340 V128"/>
+  <path d="M410 340 V96"/>
+  <path d="M575 340 V242"/>
+</g>
+<g fill="#a11212" stroke="#5f0b0b" stroke-width="2">
+  <circle cx="175" cy="222" r="9"/>
+  <circle cx="325" cy="128" r="9"/>
+  <circle cx="410" cy="96" r="9"/>
+  <circle cx="575" cy="242" r="9"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#111">
+  <text x="145" y="205">A</text>
+  <text x="305" y="105">B</text>
+  <text x="398" y="68">C</text>
+  <text x="590" y="225">D</text>
+  <text x="52" y="72" font-style="italic">P</text>
+  <text x="650" y="382" font-style="italic">A</text>
+</g>
+<text x="80" y="395" font-family="system-ui, sans-serif" font-size="22" font-weight="700" font-style="italic">HPL-002</text>
+</svg>

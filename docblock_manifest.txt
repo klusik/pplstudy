@@ -1,5 +1,5 @@
 PPL Study docblock manifest
-Version: 0.3.1
+Version: 0.12.0
 
 All application PHP modules, setup utilities, JavaScript, CSS, and offline parser files contain a leading documentation block describing purpose and ownership.
 
@@ -25,6 +25,7 @@ Services:
 - app/services/admin_logs.php
 - app/services/users.php
 - app/services/question_bank.php
+- app/services/source_documents.php
 - app/services/quiz.php
 - app/services/importer.php
 - app/services/diagnostics.php
@@ -42,6 +43,7 @@ Controllers:
 - app/controllers/admin_dashboard.php
 - app/controllers/admin_users.php
 - app/controllers/admin_questions.php
+- app/controllers/admin_sources.php
 - app/controllers/admin_import.php
 - app/controllers/admin_settings.php
 - app/controllers/admin_diagnostics.php
@@ -57,6 +59,7 @@ Database and setup:
 - database/migrations/202609030001_initial_schema.php
 - database/migrations/202609030002_question_choices.php
 - database/migrations/202609030003_user_accounts.php
+- database/migrations/202609040004_question_curation.php
 - install.php
 - reset.php
 - config.example.php
@@ -66,6 +69,7 @@ Assets and scripts:
 - public/assets/app.js
 - scripts/build_question_bank.py
 - scripts/generate_study_choices.py
+- scripts/apply_curation.py
 - scripts/validate_question_bank.php
 - scripts/check_syntax.sh
 - scripts/deploy.ps1

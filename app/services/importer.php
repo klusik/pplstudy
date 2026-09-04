@@ -52,8 +52,9 @@ function question_bank_load_file(string $path): array
 /** Validate the complete import payload and return compact statistics. */
 function question_bank_validate_payload(array $payload): array
 {
-    if ((int) ($payload['schema_version'] ?? 0) !== 2) {
-        throw new RuntimeException('Unsupported question-bank schema_version. Expected 2.');
+    $schemaVersion = (int) ($payload['schema_version'] ?? 0);
+    if (!in_array($schemaVersion, [2, 3], true)) {
+        throw new RuntimeException('Unsupported question-bank schema_version. Expected 2 or 3.');
     }
     $subjects = $payload['subjects'] ?? null;
     $questions = $payload['questions'] ?? null;
@@ -139,6 +140,29 @@ function question_bank_validate_payload(array $payload): array
         if (!empty($question['choices_generated'])) {
             $generatedChoicesCount++;
         }
+
+        if ($schemaVersion >= 3) {
+            $curationStatus = (string) ($question['curation_status'] ?? 'draft');
+            $wordingStatus = (string) ($question['wording_status'] ?? 'study_wording');
+            if (!in_array($curationStatus, ['draft', 'explained', 'verified'], true)) {
+                throw new RuntimeException('Question ' . $sequence . ' has an invalid curation_status.');
+            }
+            if (!in_array($wordingStatus, ['study_wording', 'source_exact'], true)) {
+                throw new RuntimeException('Question ' . $sequence . ' has an invalid wording_status.');
+            }
+            if ($curationStatus === 'verified' && $wordingStatus !== 'source_exact') {
+                throw new RuntimeException('Question ' . $sequence . ' can be verified only with source_exact wording.');
+            }
+            $sections = $question['explanation_sections'] ?? [];
+            if (!is_array($sections)) {
+                throw new RuntimeException('Question ' . $sequence . ' explanation_sections must be an array.');
+            }
+            foreach ($sections as $sectionIndex => $section) {
+                if (!is_array($section) || trim((string) ($section['heading'] ?? '')) === '' || trim((string) ($section['body'] ?? '')) === '') {
+                    throw new RuntimeException('Question ' . $sequence . ' has an invalid explanation section at position ' . ($sectionIndex + 1) . '.');
+                }
+            }
+        }
     }
 
     foreach ($expectedBySubject as $subjectId => $expected) {
@@ -158,6 +182,9 @@ function question_bank_validate_payload(array $payload): array
         'questions' => count($questions),
         'attachments' => $attachmentCount,
         'generated_choices' => $generatedChoicesCount,
+        'explained' => count(array_filter($questions, static fn (array $question): bool => in_array((string) ($question['curation_status'] ?? 'draft'), ['explained', 'verified'], true))),
+        'verified' => count(array_filter($questions, static fn (array $question): bool => (string) ($question['curation_status'] ?? 'draft') === 'verified')),
+        'source_exact' => count(array_filter($questions, static fn (array $question): bool => (string) ($question['wording_status'] ?? 'study_wording') === 'source_exact')),
         'counts_by_subject' => $countsBySubject,
         'bank' => is_array($payload['bank'] ?? null) ? $payload['bank'] : [],
     ];
@@ -194,7 +221,7 @@ function question_bank_import(array $payload, bool $pruneMissing = true, ?PDO $p
             ]);
         }
 
-        $questionStmt = $pdo->prepare('INSERT INTO questions (sequence_no, subject_id, title, source_trace, source_question_ids_json, merged, prompt, answer, choices_json, choices_generated, explanation, warning, attachment_code, attachment_url, attachment_indexed, source_page, active, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?) ON DUPLICATE KEY UPDATE subject_id = VALUES(subject_id), title = VALUES(title), source_trace = VALUES(source_trace), source_question_ids_json = VALUES(source_question_ids_json), merged = VALUES(merged), prompt = VALUES(prompt), answer = VALUES(answer), choices_json = VALUES(choices_json), choices_generated = VALUES(choices_generated), explanation = VALUES(explanation), warning = VALUES(warning), attachment_code = VALUES(attachment_code), attachment_url = VALUES(attachment_url), attachment_indexed = VALUES(attachment_indexed), source_page = VALUES(source_page), active = 1, updated_at = VALUES(updated_at)');
+        $questionStmt = $pdo->prepare('INSERT INTO questions (sequence_no, subject_id, title, source_trace, source_question_ids_json, merged, prompt, answer, choices_json, choices_generated, curation_status, wording_status, explanation, explanation_sections_json, warning, attachment_code, attachment_url, attachment_indexed, source_page, source_document_key, source_document_page, source_verified_at, active, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?) ON DUPLICATE KEY UPDATE subject_id = VALUES(subject_id), title = VALUES(title), source_trace = VALUES(source_trace), source_question_ids_json = VALUES(source_question_ids_json), merged = VALUES(merged), prompt = VALUES(prompt), answer = VALUES(answer), choices_json = VALUES(choices_json), choices_generated = VALUES(choices_generated), curation_status = VALUES(curation_status), wording_status = VALUES(wording_status), explanation = VALUES(explanation), explanation_sections_json = VALUES(explanation_sections_json), warning = VALUES(warning), attachment_code = VALUES(attachment_code), attachment_url = VALUES(attachment_url), attachment_indexed = VALUES(attachment_indexed), source_page = VALUES(source_page), source_document_key = VALUES(source_document_key), source_document_page = VALUES(source_document_page), source_verified_at = VALUES(source_verified_at), active = 1, updated_at = VALUES(updated_at)');
         $sequences = [];
         foreach ($payload['questions'] as $question) {
             $now = now_sql();
@@ -211,12 +238,18 @@ function question_bank_import(array $payload, bool $pruneMissing = true, ?PDO $p
                 (string) $question['answer'],
                 json_encode(array_values(array_map(static fn ($choice): string => trim((string) $choice), $question['choices'])), JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
                 !empty($question['choices_generated']) ? 1 : 0,
+                in_array((string) ($question['curation_status'] ?? 'draft'), ['draft', 'explained', 'verified'], true) ? (string) ($question['curation_status'] ?? 'draft') : 'draft',
+                in_array((string) ($question['wording_status'] ?? 'study_wording'), ['study_wording', 'source_exact'], true) ? (string) ($question['wording_status'] ?? 'study_wording') : 'study_wording',
                 (string) $question['explanation'],
+                json_encode(is_array($question['explanation_sections'] ?? null) ? array_values($question['explanation_sections']) : [], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
                 trim((string) ($question['warning'] ?? '')) !== '' ? (string) $question['warning'] : null,
                 trim((string) ($question['attachment_code'] ?? '')) !== '' ? (string) $question['attachment_code'] : null,
                 trim((string) ($question['attachment_url'] ?? '')) !== '' ? (string) $question['attachment_url'] : null,
                 !empty($question['attachment_indexed']) ? 1 : 0,
-                isset($question['source_page']) ? (int) $question['source_page'] : null,
+                isset($question['source_page']) && $question['source_page'] !== null ? (int) $question['source_page'] : null,
+                trim((string) ($question['source_document_key'] ?? '')) !== '' ? (string) $question['source_document_key'] : null,
+                isset($question['source_document_page']) && $question['source_document_page'] !== null ? (int) $question['source_document_page'] : null,
+                (string) ($question['curation_status'] ?? '') === 'verified' && (string) ($question['wording_status'] ?? '') === 'source_exact' ? $now : null,
                 $now,
                 $now,
             ]);
