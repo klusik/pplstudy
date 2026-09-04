@@ -183,7 +183,7 @@ function password_change_required(): bool
 function remember_user_return_to(?string $path = null): void
 {
     $path ??= study_request_path();
-    if ($path === '/login' || $path === '/logout' || $path === '/account/password') {
+    if ($path === '/login' || $path === '/logout' || $path === '/account/password' || $path === '/install.php') {
         return;
     }
     $query = trim((string) ($_SERVER['QUERY_STRING'] ?? ''));
@@ -203,7 +203,36 @@ function consume_user_return_to(string $fallback = '/'): string
     if ($target === '' || !str_starts_with($target, '/') || str_starts_with($target, '//')) {
         return $fallback;
     }
-    return $target;
+
+    $parts = parse_url($target);
+    if ($parts === false || isset($parts['scheme']) || isset($parts['host'])) {
+        return $fallback;
+    }
+    $path = '/' . trim((string) ($parts['path'] ?? '/'), '/');
+    $path = $path === '/' ? '/' : rtrim($path, '/');
+
+    $basePath = study_base_path();
+    if ($basePath !== '' && ($path === $basePath || str_starts_with($path, $basePath . '/'))) {
+        $path = substr($path, strlen($basePath));
+        $path = '/' . trim($path, '/');
+    }
+
+    $scriptDirectory = study_script_directory();
+    if ($scriptDirectory !== '' && ($path === $scriptDirectory || str_starts_with($path, $scriptDirectory . '/'))) {
+        $path = substr($path, strlen($scriptDirectory));
+        $path = '/' . trim($path, '/');
+        if ($basePath !== '' && ($path === $basePath || str_starts_with($path, $basePath . '/'))) {
+            $path = substr($path, strlen($basePath));
+            $path = '/' . trim($path, '/');
+        }
+    }
+
+    if (in_array($path, ['/login', '/logout', '/account/password', '/install.php'], true)) {
+        return $fallback;
+    }
+
+    $query = isset($parts['query']) && (string) $parts['query'] !== '' ? '?' . (string) $parts['query'] : '';
+    return ($path === '' ? '/' : $path) . $query;
 }
 
 /** Require an authenticated user with a completed permanent password. */

@@ -20,7 +20,7 @@ Expected bundled question-bank validation:
 - each correct answer appears exactly once in its four choices
 - per-subject counts: 97, 58, 129, 87, 99, 60, 101, 128, 137
 
-Application database schema version for 0.1.0 is migration generation 4, ending with `202609040004_question_curation`.
+Application database schema version for 0.1.1 is migration generation 4, ending with `202609040004_question_curation`.
 
 ## 2. Installer acceptance test
 
@@ -365,7 +365,7 @@ Required checks:
 
 ## Subject 7 source-exact regression
 
-For the 0.1.0 release candidate:
+For the 0.1.1 release candidate:
 
 1. Run `php scripts/validate_question_bank.php data/question-bank.json`.
 2. Confirm the integrated bank contains 896 questions and subject 7 contains exactly 101 questions.
@@ -382,7 +382,7 @@ The fresh installation applies all four migrations.
 
 ## Subjects 8 and 9 source-exact regression
 
-For the 0.1.0 release candidate:
+For the 0.1.1 release candidate:
 
 1. Run `php scripts/validate_question_bank.php` and confirm 896 total questions, 896 source-exact questions, and 896 verified questions.
 2. Confirm subject 8 contains source question IDs 1 through 128 and occupies global sequence 632 through 759.
@@ -398,3 +398,21 @@ For the 0.1.0 release candidate:
 
 The fresh installation applies all four migrations.
 
+
+## 11. Shared-hosting routing and canonical URL regression
+
+Use a deployment whose `config.php` contains:
+
+```php
+'base_url' => 'https://ppl.klusik.cz',
+```
+
+Verify these cases:
+
+1. With the public request `/admin` and a hosting-provided `SCRIPT_NAME` such as `/subdom/ppl/index.php`, generated links and redirects remain under `https://ppl.klusik.cz/...`.
+2. A leaked request path such as `/subdom/ppl/admin` is normalized to `/admin` and canonicalized to `https://ppl.klusik.cz/admin`.
+3. A leaked installer URL such as `/subdom/ppl/install.php` redirects to `https://ppl.klusik.cz/install.php` when `config.php` exists.
+4. Opening the locked installer uses the configured `base_url` for the **Open admin** link.
+5. On a fresh installation, `installer_default_base_url()` derives the public path from `REQUEST_URI`; an internal `SCRIPT_NAME` must not add `/subdom/...` to the proposed base URL.
+6. Repeat with a legitimate subdirectory configuration such as `https://example.test/study`; `/study/admin` must resolve as `/admin` without being treated as an internal-path leak.
+7. Seed `$_SESSION['user_return_to']` with `/subdom/ppl/admin?x=1`; consuming it must produce `/admin?x=1`. Seed it with `/subdom/ppl/install.php`; consuming it must return the safe fallback instead of the installer.

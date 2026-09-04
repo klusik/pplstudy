@@ -1,5 +1,25 @@
 # Patch Notes
 
+## 0.1.1 - 2026-09-04
+
+### Fixed
+
+- Made `config.php` `base_url` authoritative for application-generated and canonical URLs on shared hosting.
+- Prevented WEDOS-style internal `SCRIPT_NAME` paths such as `/subdom/ppl` from leaking into installer and application redirects.
+- Canonicalize requests that arrive with a leaked hosting-internal prefix back to the configured public URL while preserving the application route and query string.
+- Changed fresh-installer base URL detection to derive the public path from browser-visible `REQUEST_URI` instead of hosting-internal `SCRIPT_NAME`.
+- The locked installer now uses configured `base_url` for its canonical installer location and **Open admin** link.
+- Tightened base-path stripping to require a complete path-segment match.
+- Normalized previously stored post-login return targets so stale `/subdom/ppl/...` session paths cannot reintroduce the hosting alias; installer/login targets fall back safely.
+
+### Database
+
+- No database migration. Application schema remains generation 4.
+
+### Deployment
+
+- Overlay the affected files on 0.1.0. Preserve the existing `config.php`.
+
 ## 0.1.0 - 2026-09-04
 
 First public release of PPL Study. Earlier development milestones were commits, not published versions; their accumulated work is represented by this single release.

@@ -53,15 +53,57 @@ function study_config(): array
     return $config;
 }
 
-/** Redirect an uninstalled request to the root installer. */
+/** Return the request-visible path component without query-string data. */
+function study_request_uri_path(): string
+{
+    $path = (string) parse_url((string) ($_SERVER['REQUEST_URI'] ?? '/'), PHP_URL_PATH);
+    $path = '/' . ltrim(str_replace('\\', '/', $path), '/');
+    return $path === '' ? '/' : $path;
+}
+
+/** Return the normalized directory portion reported by SCRIPT_NAME. */
+function study_script_directory(): string
+{
+    $script = '/' . ltrim(str_replace('\\', '/', (string) ($_SERVER['SCRIPT_NAME'] ?? '/')), '/');
+    $directory = rtrim(dirname($script), '/.');
+    if ($directory === '' || $directory === '/') {
+        return '';
+    }
+    if (str_ends_with($directory, '/public')) {
+        $directory = rtrim(substr($directory, 0, -7), '/');
+    }
+    return $directory === '/' ? '' : $directory;
+}
+
+/**
+ * Return the script directory only when it is actually visible in the browser
+ * request path. Shared hosts can expose an internal SCRIPT_NAME such as
+ * /subdom/ppl/index.php while the public application lives at /.
+ */
+function study_visible_script_base_path(): string
+{
+    $directory = study_script_directory();
+    if ($directory === '') {
+        return '';
+    }
+
+    $requestPath = study_request_uri_path();
+    if ($requestPath === $directory || str_starts_with($requestPath, $directory . '/')) {
+        return $directory;
+    }
+    return '';
+}
+
+/** Redirect an uninstalled request to the public installer URL. */
 function study_redirect_to_installer(): never
 {
-    $script = str_replace('\\', '/', (string) ($_SERVER['SCRIPT_NAME'] ?? '/'));
-    $base = rtrim(dirname($script), '/.');
-    if (str_ends_with($base, '/public')) {
-        $base = substr($base, 0, -7);
+    if (study_has_config()) {
+        header('Location: ' . study_url('/install.php'), true, 302);
+        exit;
     }
-    header('Location: ' . ($base !== '' ? $base : '') . '/install.php', true, 302);
+
+    $basePath = study_visible_script_base_path();
+    header('Location: ' . ($basePath !== '' ? $basePath : '') . '/install.php', true, 302);
     exit;
 }
 

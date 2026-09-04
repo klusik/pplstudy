@@ -130,3 +130,11 @@ Admin:
 - `data/source-manifest.json`: stable source keys, official URLs, version labels, local filenames, and SHA-256 hashes.
 - `public/assets/attachments/*.svg`: local project-owned study redraws used by source attachment questions.
 - `scripts/apply_curation.py`: exact-subject replacement, restoration of merged source questions, global renumbering, and final curation overlay application.
+
+## Shared-hosting URL ownership
+
+- `app/bootstrap/configuration.php`: configured base URL, browser-visible request path, internal `SCRIPT_NAME` directory normalization, installer redirect target.
+- `app/bootstrap/routing.php`: application-relative route parsing and shared-hosting internal-path normalization.
+- `app/bootstrap/request.php`: canonical redirect when a hosting-internal path prefix leaks into the browser URL.
+- `app/security.php`: sanitizes saved post-login return targets so historical internal hosting prefixes cannot survive authentication redirects.
+- `install.php`: request-visible base URL detection and installed-state canonicalization using configured `base_url`.
