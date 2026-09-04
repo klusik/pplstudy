@@ -88,7 +88,7 @@ Admin:
 | `data/source-exact/` | exact source-question replacements keyed by subject and official source question |
 | `public/assets/attachments/` | locally bundled study diagrams used by attachment questions, including HPL, MET, PFA, OPR, PFP, and CAP697 study redraws |
 | `data/source-manifest.json` | stable source-document metadata |
-| `data/source-documents/` | protected verified source PDFs, including project-owner-supplied bundled sources |
+| `data/source-documents/` | protected administrator-associated source PDFs; PDF files are not versioned or released |
 | `data/README.md` | provenance and data licensing boundary |
 | `database/migrations/*.php` | deterministic schema changes |
 

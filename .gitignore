@@ -10,8 +10,10 @@
 *.log
 *.tmp
 
-# Generated deployment packages
-/deploy/*.zip
+# Generated deployment output and local source PDFs
+/deploy/*
+!/deploy/.gitkeep
+/data/source-documents/*.pdf
 
 # Python tooling artifacts
 __pycache__/

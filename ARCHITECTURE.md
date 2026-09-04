@@ -98,8 +98,8 @@ Do not infer question-bank compatibility solely from application version. Valida
 The current bundled bank is represented by these hard invariants:
 
 - 9 subjects
-- 889 current questions
-- sequence numbers form the exact contiguous range 1..889
+- 896 current questions
+- sequence numbers form the exact contiguous range 1..896
 - subjects 1 through 6 contain all 97, 58, 129, 87, 99, and 60 active published source questions with exact wording and answer order; Letové zásady source question 8 is recorded as retired
 - each question belongs to one declared subject
 - each subject count equals `expected_cards`
@@ -134,7 +134,7 @@ Authentication uses one shared session model for learners and administrators.
 - login failures are recorded in the legacy `admin_login_attempts` throttle table
 - `reset.php` is outside normal authentication and requires the random `setup_key` from `config.php`
 
-The application preserves compatibility with the pre-0.3.0 administrator schema long enough for an existing administrator to sign in and run migration `202609030003_user_accounts` from System Health.
+The authentication layer tolerates the legacy administrator schema while migration 202609030003_user_accounts is pending, allowing System Health to complete the schema.
 
 ## 7. Import transaction boundary
 
@@ -212,13 +212,13 @@ Hand-curated content lives in `data/curation/*.json`. Active overlays are explic
 
 `data/source-manifest.json` identifies source PDFs by stable `source_key`. Administrator-supplied PDFs are stored in `data/source-documents/`, a path denied to direct HTTP access. The application serves a local PDF only through `/source/{source_key}` after user authentication.
 
-Production never downloads a source PDF automatically. Directly supplied verified PDFs for all nine subjects are bundled under `data/source-documents/`; later source revisions can be associated with manifest entries through the administrator workflow.
+Production never downloads a source PDF automatically. Source PDFs stay outside version control and release packages; administrators can associate locally supplied documents with manifest entries through the protected workflow.
 
 ## 13. Subject 7 exact-source layer
 
 `data/source-exact/07-provedeni-planovani.json` replaces the compact subject-7 compilation cards with all 101 published source questions from the supplied official PDF. `data/curation/07-provedeni-planovani.json` adds the project explanation layer by stable source-question ID.
 
-The replacement preserves the subject cardinality at 101 questions, so global sequence numbers and the browser progress namespace do not move in 0.11.0. Attachment-dependent questions reference local study redraws under `public/assets/attachments/`, while the supplied PDF remains protected under `data/source-documents/07-provedeni-planovani-official.pdf`.
+The replacement preserves the subject cardinality at 101 questions. Attachment-dependent questions reference local study redraws under public/assets/attachments/; an optional locally supplied PDF can be associated through the protected source-document workflow.
 
 ## 14. Subjects 8 and 9 exact-source completion
 
@@ -231,7 +231,7 @@ The Navigation replacement expands two compact compilation records back to their
 
 After the subject 9 replacement, the integrated bank contains 896 active questions and exactly matches the active-source cardinality recorded by the compilation. Every active question has `wording_status = source_exact` and `curation_status = verified`.
 
-The directly supplied PDFs are stored as `data/source-documents/08-obecne-znalosti-official.pdf` and `data/source-documents/09-navigace-official.pdf`. Attachment-dependent questions use local project-owned study redraws under `public/assets/attachments/`.
+Source PDFs remain outside the repository and release package. Attachment-dependent questions use local project-owned study redraws under public/assets/attachments/.
 
-Because subject 9 sequence mapping changes when compact merged cards are split, client-local learning progress uses the `pplStudyProgressV7` namespace from 0.12.0 onward.
+Client-local learning progress uses the pplStudyProgressV7 namespace in the first release.
 
