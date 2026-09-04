@@ -21,7 +21,7 @@ Before public redistribution, the project owner remains responsible for confirmi
 
 ## Source documents
 
-`source-manifest.json` records stable source keys and official source URLs. The project owner directly supplied the official PDFs for all nine subjects. The corresponding files under `data/source-documents/` are bundled as verified local sources and carry SHA-256 metadata in the manifest. Additional source PDFs can still be associated through **Admin > Zdroje** when a later source version is introduced.
+`source-manifest.json` records stable source keys and official source URLs. Official source PDFs are retained outside the repository and release package. An administrator can associate a locally supplied PDF through **Admin > Zdroje**; the manifest retains stable source keys, official URLs, expected filenames, version labels, and known SHA-256 metadata.
 
 ## Source-exact replacements
 

@@ -1,17 +1,7 @@
 # Protected source documents
 
-Verified source PDFs are stored in this directory.
+This directory is reserved for source PDFs associated by an administrator.
 
-The directory is denied to direct HTTP access by `.htaccess`. PPL Study serves
-a local source document only through an authenticated route.
+PDFs are deliberately excluded from version control and release packages. Keep original source files outside the deployed project. When a source document is needed in an installation, associate a locally supplied PDF with its entry from `data/source-manifest.json` through **Admin > Zdroje**.
 
-The project owner directly supplied the official PDFs for all nine subjects.
-The files `01-pravni-predpisy-official.pdf` through
-`09-navigace-official.pdf` are bundled and referenced by their source-exact
-question sets. `data/source-manifest.json` stores the expected local filename
-and SHA-256 digest for each supplied source.
-
-Additional source PDFs can be associated with entries from
-`data/source-manifest.json` through **Admin > Zdroje**. An administrator upload
-for the same source key replaces the local file used by the authenticated source
-route.
+Direct HTTP access is denied by `.htaccess`. PPL Study serves an associated local document only through an authenticated route. The manifest retains stable source keys, official URLs, expected filenames, version labels, and known SHA-256 metadata without requiring a PDF to be bundled.
