@@ -35,6 +35,8 @@ Normal request:
 
 The public quiz API uses the same routing and service layer and returns JSON instead of HTML.
 
+Public URL generation is configuration-led: `config.php` `base_url` defines the canonical origin and public base path. `SCRIPT_NAME` is treated only as a request-normalization hint because shared hosts may expose internal aliases such as `/subdom/ppl`. If such an internal prefix leaks into `REQUEST_URI`, the request is canonicalized back to the configured public URL. Installer detection uses the browser-visible request path.
+
 ## 3. Module boundaries
 
 ### Bootstrap and core

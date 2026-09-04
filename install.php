@@ -62,7 +62,7 @@ function installer_secret(int $bytes = 32): string
     return bin2hex(random_bytes($bytes));
 }
 
-/** Detect the current absolute base URL from the installer request. */
+/** Detect the current absolute base URL from the browser-visible installer request. */
 function installer_default_base_url(): string
 {
     $forwardedProto = strtolower(trim(explode(',', (string) ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? ''))[0]));
@@ -72,9 +72,35 @@ function installer_default_base_url(): string
         || strtolower((string) ($_SERVER['HTTP_X_FORWARDED_SSL'] ?? '')) === 'on';
     $scheme = $https ? 'https' : 'http';
     $host = (string) ($_SERVER['HTTP_HOST'] ?? 'localhost');
-    $script = str_replace('\\', '/', (string) ($_SERVER['SCRIPT_NAME'] ?? '/install.php'));
-    $dir = rtrim(str_replace('/install.php', '', $script), '/');
+
+    $requestPath = (string) parse_url((string) ($_SERVER['REQUEST_URI'] ?? '/install.php'), PHP_URL_PATH);
+    $requestPath = '/' . ltrim(str_replace('\\', '/', $requestPath), '/');
+    $dir = '';
+    if (preg_match('#/install\.php$#i', $requestPath) === 1) {
+        $dir = rtrim(dirname($requestPath), '/.');
+    } else {
+        $dir = \PplStudy\Core\study_visible_script_base_path();
+    }
+    if ($dir === '/') {
+        $dir = '';
+    }
+
     return rtrim($scheme . '://' . $host . $dir, '/');
+}
+
+/** Return configured base_url for an installed deployment, with request detection as fallback. */
+function installer_existing_base_url(string $configFile): string
+{
+    if (is_file($configFile) && is_readable($configFile)) {
+        $loaded = require $configFile;
+        $base = is_array($loaded) ? rtrim((string) ($loaded['base_url'] ?? ''), '/') : '';
+        $parts = $base !== '' ? parse_url($base) : false;
+        if (is_array($parts) && in_array(strtolower((string) ($parts['scheme'] ?? '')), ['http', 'https'], true)
+            && (string) ($parts['host'] ?? '') !== '') {
+            return $base;
+        }
+    }
+    return installer_default_base_url();
 }
 
 /** Build the installer PDO DSN. */
@@ -148,7 +174,18 @@ function installer_checks(string $root): array
 }
 
 if (is_file($configFile) || is_file($lockFile)) {
-    $base = installer_default_base_url();
+    $base = installer_existing_base_url($configFile);
+    if (is_file($configFile)) {
+        $configuredPath = (string) parse_url($base, PHP_URL_PATH);
+        $canonicalInstallerPath = rtrim('/' . trim($configuredPath, '/'), '/');
+        $canonicalInstallerPath = ($canonicalInstallerPath !== '' ? $canonicalInstallerPath : '') . '/install.php';
+        $currentInstallerPath = (string) parse_url((string) ($_SERVER['REQUEST_URI'] ?? '/install.php'), PHP_URL_PATH);
+        $currentInstallerPath = '/' . ltrim(str_replace('\\', '/', $currentInstallerPath), '/');
+        if ($currentInstallerPath !== $canonicalInstallerPath) {
+            header('Location: ' . $base . '/install.php', true, 307);
+            exit;
+        }
+    }
     ?><!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PPL Study Installer</title><style><?= installer_css() ?></style></head><body><main class="card"><span class="eyebrow">PPL Study</span><h1>Installation complete</h1><p>This deployment is configured and the installer is locked for regular operation.</p><a class="button" href="<?= installer_e($base . '/admin') ?>">Open admin</a></main></body></html><?php
     exit;
 }

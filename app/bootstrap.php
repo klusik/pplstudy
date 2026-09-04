@@ -27,7 +27,7 @@ declare(strict_types=1);
 
 namespace PplStudy\Core;
 
-const APP_VERSION = '0.1.0';
+const APP_VERSION = '0.1.1';
 const APP_SCHEMA_VERSION = 4;
 
 require_once __DIR__ . '/bootstrap/configuration.php';

@@ -24,14 +24,46 @@ declare(strict_types=1);
 
 namespace PplStudy\Core;
 
+/** Return true when an internal hosting directory leaked into the browser path. */
+function study_request_has_internal_path_prefix(): bool
+{
+    $scriptDirectory = study_script_directory();
+    if ($scriptDirectory === '' || $scriptDirectory === study_base_path()) {
+        return false;
+    }
+
+    $uriPath = study_request_uri_path();
+    $basePath = study_base_path();
+    if ($basePath !== '' && ($uriPath === $basePath || str_starts_with($uriPath, $basePath . '/'))) {
+        return false;
+    }
+    return $uriPath === $scriptDirectory || str_starts_with($uriPath, $scriptDirectory . '/');
+}
+
 /** Return the normalized application-relative request path. */
 function study_request_path(): string
 {
-    $uriPath = (string) parse_url((string) ($_SERVER['REQUEST_URI'] ?? '/'), PHP_URL_PATH);
+    $uriPath = study_request_uri_path();
     $basePath = study_base_path();
-    if ($basePath !== '' && str_starts_with($uriPath, $basePath)) {
+    if ($basePath !== '' && ($uriPath === $basePath || str_starts_with($uriPath, $basePath . '/'))) {
         $uriPath = substr($uriPath, strlen($basePath));
+    } else {
+        /*
+         * WEDOS and similar shared hosts may report or leak an internal
+         * deployment prefix such as /subdom/ppl. Strip that prefix only as a
+         * request-normalization fallback; generated URLs still come solely
+         * from config.php base_url.
+         */
+        $scriptDirectory = study_script_directory();
+        if ($scriptDirectory !== ''
+            && ($uriPath === $scriptDirectory || str_starts_with($uriPath, $scriptDirectory . '/'))) {
+            $uriPath = substr($uriPath, strlen($scriptDirectory));
+            if ($basePath !== '' && ($uriPath === $basePath || str_starts_with($uriPath, $basePath . '/'))) {
+                $uriPath = substr($uriPath, strlen($basePath));
+            }
+        }
     }
+
     $uriPath = '/' . trim($uriPath, '/');
     return $uriPath === '/' ? '/' : rtrim($uriPath, '/');
 }

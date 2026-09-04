@@ -2,13 +2,13 @@
 
 A framework-free PHP 8.1+ study application for the Czech PPL(A) theoretical syllabus. It provides an invitation-only learning environment with source-exact four-choice study cards, automatic scoring, drills, search, browser-local progress, learner profiles, and administrator management.
 
-**Current version:** 0.1.0
+**Current version:** 0.1.1
 
 **Deployment target:** ordinary PHP shared hosting with MySQL or MariaDB. The runtime uses native PHP, PDO, JavaScript, and Apache routing.
 
 ## First release
 
-Version 0.1.0 is the first public release. Earlier development milestones were commits, not published versions.
+Version 0.1.0 was the first public release. Version 0.1.1 hardens public URL handling on shared hosting.
 
 The release includes:
 
@@ -63,6 +63,11 @@ Offline question-bank regeneration additionally requires Python 3.10+ and Popple
 
 `config.php` contains deployment secrets and is generated locally. Never commit or overwrite it during deployment. `reset.php` requires the deployment-specific `setup_key` for emergency administrator recovery.
 
+
+### Shared-hosting URL handling
+
+`config.php` `base_url` is authoritative for generated application URLs and canonical redirects. The runtime deliberately ignores hosting-internal filesystem/web aliases such as WEDOS `/subdom/...` prefixes when they are not part of the configured public URL. Installer URL detection uses the browser-visible `REQUEST_URI`, not `SCRIPT_NAME`, because shared hosts may rewrite `SCRIPT_NAME` to an internal deployment path.
+
 ## Main routes
 
 | Route | Access and function |
@@ -111,7 +116,7 @@ On Unix-like systems:
 bash deploy.sh
 ```
 
-The package is named `PPL-Study-0.1.0-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
+The package is named `PPL-Study-0.1.1-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
 
 Before release, run:
 
