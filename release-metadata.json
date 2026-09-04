@@ -1,0 +1,53 @@
+{
+  "project": "PPL Study",
+  "current_version": "0.3.1",
+  "releases": {
+    "0.1.0": {
+      "released_at": "2026-09-03T20:55:00+02:00",
+      "tag": "v0.1.0",
+      "question_bank_schema": 1,
+      "question_bank_compilation": "3.0",
+      "study_cards": 880,
+      "subjects": 9
+    },
+    "0.1.1": {
+      "released_at": "2026-09-03T22:03:00+02:00",
+      "tag": "v0.1.1",
+      "question_bank_schema": 1,
+      "question_bank_compilation": "3.0",
+      "study_cards": 880,
+      "subjects": 9,
+      "changes": "Positive, direct user-facing copy across public pages and setup utilities."
+    },
+    "0.2.0": {
+      "released_at": "2026-09-03T22:30:00+02:00",
+      "tag": "v0.2.0",
+      "question_bank_schema": 2,
+      "question_bank_compilation": "3.0",
+      "study_cards": 880,
+      "subjects": 9,
+      "study_choices_per_card": 4,
+      "changes": "Four-choice study workflow, automatic scoring, editable generated distractors, schema migration, and rebuilt Windows deploy tooling."
+    },
+    "0.3.0": {
+      "released_at": "2026-09-03T23:20:00+02:00",
+      "tag": "v0.3.0",
+      "question_bank_schema": 2,
+      "application_schema": 3,
+      "question_bank_compilation": "3.0",
+      "study_cards": 880,
+      "subjects": 9,
+      "changes": "Invitation-only learner profiles, shared authentication, strict one-time temporary login, mandatory permanent-password setup, protected study content, and administrator user management."
+    },
+    "0.3.1": {
+      "released_at": "2026-09-04T09:33:00+02:00",
+      "tag": "v0.3.1",
+      "question_bank_schema": 2,
+      "application_schema": 3,
+      "question_bank_compilation": "3.0",
+      "study_cards": 880,
+      "subjects": 9,
+      "changes": "System Health database metadata inspection now uses native-prepared information_schema queries compatible with MySQL/MariaDB."
+    }
+  }
+}

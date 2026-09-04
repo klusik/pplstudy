@@ -1,0 +1,73 @@
+PPL Study docblock manifest
+Version: 0.3.1
+
+All application PHP modules, setup utilities, JavaScript, CSS, and offline parser files contain a leading documentation block describing purpose and ownership.
+
+Core and bootstrap:
+- index.php
+- public/index.php
+- app/early_runtime.php
+- app/bootstrap.php
+- app/bootstrap/configuration.php
+- app/bootstrap/session.php
+- app/bootstrap/request.php
+- app/bootstrap/routing.php
+- app/bootstrap/dispatch.php
+- app/configuration_defaults.php
+- app/helpers.php
+- app/database.php
+- app/security.php
+- app/migrations.php
+
+Services:
+- app/services.php
+- app/services/app_settings.php
+- app/services/admin_logs.php
+- app/services/users.php
+- app/services/question_bank.php
+- app/services/quiz.php
+- app/services/importer.php
+- app/services/diagnostics.php
+
+Controllers:
+- app/controllers.php
+- app/controllers/public_home.php
+- app/controllers/public_study.php
+- app/controllers/public_drill.php
+- app/controllers/public_search.php
+- app/controllers/public_about.php
+- app/controllers/api_quiz.php
+- app/controllers/admin_auth.php
+- app/controllers/account.php
+- app/controllers/admin_dashboard.php
+- app/controllers/admin_users.php
+- app/controllers/admin_questions.php
+- app/controllers/admin_import.php
+- app/controllers/admin_settings.php
+- app/controllers/admin_diagnostics.php
+
+Views:
+- app/views.php
+- app/views/layout.php
+- app/views/account.php
+- app/views/public.php
+- app/views/admin.php
+
+Database and setup:
+- database/migrations/202609030001_initial_schema.php
+- database/migrations/202609030002_question_choices.php
+- database/migrations/202609030003_user_accounts.php
+- install.php
+- reset.php
+- config.example.php
+
+Assets and scripts:
+- public/assets/app.css
+- public/assets/app.js
+- scripts/build_question_bank.py
+- scripts/generate_study_choices.py
+- scripts/validate_question_bank.php
+- scripts/check_syntax.sh
+- scripts/deploy.ps1
+- deploy.bat
+- deploy.sh

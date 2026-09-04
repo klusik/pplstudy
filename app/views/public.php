@@ -1,0 +1,333 @@
+<?php
+
+/**
+ * Project: PPL Study
+ * File: app/views/public.php
+ * Module Type: View Module
+ *
+ * Purpose:
+ *   Renders public dashboard, study-card, drill, search, and source-information
+ *   pages using data prepared by services and controllers.
+ *
+ * Author: Rudolf Klusal
+ * License: MIT License for application code. See LICENSE.
+ *
+ * Notes:
+ *   - Public study uses four editable answer choices with automatic scoring.
+ *   - The source-derived answer remains the scoring authority.
+ *   - Keep comments and docstrings intact when modifying this file.
+ */
+
+declare(strict_types=1);
+
+namespace PplStudy\Views;
+
+use function PplStudy\Core\e;
+use function PplStudy\Core\is_authenticated;
+use function PplStudy\Core\password_change_required;
+use function PplStudy\Core\study_url;
+use function PplStudy\Services\app_setting;
+
+/** Render the public subject dashboard. */
+function render_home(array $subjects, array $counts, array $summary): void
+{
+    $authenticated = is_authenticated();
+    $readyForStudy = $authenticated && !password_change_required();
+    render_header(app_setting('site_name'), '', 'home');
+    ?>
+<section class="hero">
+    <div class="hero-copy">
+        <span class="eyebrow">PPL(A) teorie 2026</span>
+        <h1>Dynamické studium PPL(A) teorie.</h1>
+        <p><?= e(app_setting('home_intro')) ?></p>
+        <div class="hero-actions">
+            <?php if ($readyForStudy): ?>
+                <a class="button primary" href="<?= e(study_url('/study')) ?>">Pokračovat ve studiu</a>
+                <a class="button secondary" href="<?= e(study_url('/drill')) ?>">Spustit drill</a>
+            <?php elseif ($authenticated): ?>
+                <a class="button primary" href="<?= e(study_url('/account/password')) ?>">Nastavit stálé heslo</a>
+            <?php else: ?>
+                <a class="button primary" href="<?= e(study_url('/login')) ?>">Přihlásit ke studiu</a>
+            <?php endif; ?>
+        </div>
+    </div>
+    <div class="hero-stats" aria-label="Souhrn databáze">
+        <div><strong><?= (int) $summary['active_questions'] ?></strong><span>studijních karet</span></div>
+        <div><strong><?= (int) $summary['active_subjects'] ?></strong><span>předmětů</span></div>
+        <div><strong><?= (int) $summary['attachments'] ?></strong><span>karet s přílohou</span></div>
+        <div><strong>75 %</strong><span>hranice paperu</span></div>
+    </div>
+</section>
+
+<section class="section-heading">
+    <div><span class="eyebrow">Předměty</span><h2>Přehled studijních oblastí</h2></div>
+    <p>Každý předmět má vlastní banku karet, počet zkouškových otázek a čas paperu podle kompilátu.</p>
+</section>
+<div class="subject-grid">
+<?php foreach ($subjects as $subject):
+    $id = (int) $subject['id'];
+    $count = (int) ($counts[$id] ?? 0);
+    ?>
+    <article class="subject-card" data-subject-card data-subject-id="<?= $id ?>" data-question-count="<?= $count ?>">
+        <div class="subject-number"><?= $id ?></div>
+        <div class="subject-body">
+            <h3><?= e((string) $subject['name']) ?></h3>
+            <p><?= e((string) ($subject['description'] ?? '')) ?></p>
+            <div class="subject-meta">
+                <span><?= $count ?> karet</span>
+                <span><?= (int) $subject['exam_question_count'] ?> otázek</span>
+                <span><?= (int) $subject['exam_time_minutes'] ?> min</span>
+            </div>
+            <?php if ($readyForStudy): ?>
+                <div class="subject-progress" aria-live="polite">
+                    <div class="progress-track"><span data-progress-bar></span></div>
+                    <small data-progress-label>Progress začne první vyhodnocenou kartou.</small>
+                </div>
+                <div class="card-actions">
+                    <a class="button small primary" href="<?= e(study_url('/study?subject=' . $id)) ?>">Náhodná karta</a>
+                    <a class="button small secondary" href="<?= e(study_url('/drill?subject=' . $id . '&mode=paper')) ?>">Paper drill</a>
+                </div>
+            <?php endif; ?>
+        </div>
+    </article>
+<?php endforeach; ?>
+</div>
+
+<section class="notice-panel">
+    <strong>Studijní přístup</strong>
+    <p><?= $readyForStudy
+        ? 'Přihlášený účet zpřístupňuje jednotlivé karty, čtyři možnosti odpovědi, drill a vyhledávání.'
+        : 'Dashboard ukazuje rozsah studijní banky. Jednotlivé karty, odpovědi, drill a vyhledávání se otevřou po přihlášení.' ?></p>
+</section>
+<?php
+    render_footer();
+}
+
+/** Render the study setup page. */
+function render_study_setup(array $subjects): void
+{
+    render_header('Studium', '', 'study');
+    render_page_title('Studijní režim', 'Jedna karta, jedna znalost', 'Vyber předmět. Systém otevře náhodnou kartu; potom můžeš pokračovat další náhodnou nebo sousední kartou.');
+    ?>
+<div class="mode-grid">
+    <article class="panel">
+        <h2>Náhodná karta ze všech předmětů</h2>
+        <p>Dobré pro průběžné opakování napříč celou bankou.</p>
+        <a class="button primary" href="<?= e(study_url('/study?subject=all')) ?>">Vybrat náhodně</a>
+    </article>
+    <article class="panel">
+        <h2>Konkrétní předmět</h2>
+        <div class="subject-link-list">
+            <?php foreach ($subjects as $subject): ?>
+                <a href="<?= e(study_url('/study?subject=' . (int) $subject['id'])) ?>"><span><?= (int) $subject['id'] ?>.</span><?= e((string) $subject['name']) ?></a>
+            <?php endforeach; ?>
+        </div>
+    </article>
+</div>
+<?php
+    render_footer();
+}
+
+/** Render one revealable study card. */
+function render_question_card(array $question, ?int $previous, ?int $next): void
+{
+    $sequence = (int) $question['sequence_no'];
+    $subjectId = (int) $question['subject_id'];
+    $displayTitle = trim((string) ($question['title'] ?? '')) !== '' ? (string) $question['title'] : 'Karta ' . str_pad((string) $sequence, 3, '0', STR_PAD_LEFT);
+    $choices = is_array($question['choices'] ?? null) ? array_values($question['choices']) : [];
+    if (count($choices) === 4) {
+        shuffle($choices);
+    }
+    render_header($displayTitle, (string) $question['prompt'], 'study');
+    ?>
+<section class="question-page" data-question-page data-sequence="<?= $sequence ?>" data-subject-id="<?= $subjectId ?>">
+    <div class="question-toolbar">
+        <div>
+            <span class="eyebrow"><?= e((string) $question['subject_name']) ?></span>
+            <h1><?= e($displayTitle) ?></h1>
+        </div>
+        <div class="question-index">#<?= str_pad((string) $sequence, 3, '0', STR_PAD_LEFT) ?></div>
+    </div>
+
+    <article class="study-card">
+        <div class="study-label">Kontrolní otázka</div>
+        <p class="question-prompt"><?= nl2br(e((string) $question['prompt'])) ?></p>
+        <?php if (!empty($question['attachment_code']) && !empty($question['attachment_url'])): ?>
+            <div class="attachment-prompt"><strong>Příloha <?= e((string) $question['attachment_code']) ?></strong><a class="text-link" target="_blank" rel="noopener noreferrer" href="<?= e((string) $question['attachment_url']) ?>">Otevřít podklad k otázce</a></div>
+        <?php endif; ?>
+        <?php if (count($choices) === 4): ?>
+            <div class="choice-list" data-choice-list>
+                <?php foreach ($choices as $choiceIndex => $choice): ?>
+                    <button class="choice-button" type="button" data-choice data-correct="<?= trim((string) $choice) === trim((string) $question['answer']) ? '1' : '0' ?>">
+                        <span class="choice-letter"><?= chr(65 + $choiceIndex) ?></span>
+                        <span class="choice-text"><?= e((string) $choice) ?></span>
+                    </button>
+                <?php endforeach; ?>
+            </div>
+            <div class="choice-feedback" data-choice-feedback hidden></div>
+        <?php else: ?>
+            <div class="notice-panel compact"><strong>Možnosti odpovědi se připravují</strong><p>Tato karta zatím nemá kompletní čtyřčlennou sadu odpovědí.</p></div>
+        <?php endif; ?>
+
+        <div class="answer-panel" data-answer-panel hidden>
+            <div class="study-label success">Správná odpověď</div>
+            <p class="correct-answer"><?= nl2br(e((string) $question['answer'])) ?></p>
+            <div class="explanation-block">
+                <h2>Proč</h2>
+                <p><?= nl2br(e((string) $question['explanation'])) ?></p>
+            </div>
+            <?php if (trim((string) ($question['warning'] ?? '')) !== ''): ?>
+                <div class="warning-block"><strong>Pozor</strong><p><?= nl2br(e((string) $question['warning'])) ?></p></div>
+            <?php endif; ?>
+            <div class="self-score">
+                <button class="button ghost" type="button" data-star>☆ Označit</button>
+            </div>
+        </div>
+    </article>
+
+    <aside class="source-card">
+        <div><span>Veřejná stopa ÚCL</span><strong><?= e((string) $question['source_trace']) ?></strong></div>
+        <div><span>Strana kompilátu</span><strong><?= (int) ($question['source_page'] ?? 0) ?></strong></div>
+        <?php if (!empty($question['attachment_code'])): ?>
+            <div><span>Příloha</span><strong><?= e((string) $question['attachment_code']) ?></strong></div>
+            <?php if (!empty($question['attachment_url'])): ?><a class="text-link" target="_blank" rel="noopener noreferrer" href="<?= e((string) $question['attachment_url']) ?>">Otevřít oficiální ZIP příloh ÚCL</a><?php endif; ?>
+        <?php endif; ?>
+        <?php if (!empty($question['subject_official_pdf_url'])): ?><a class="text-link" target="_blank" rel="noopener noreferrer" href="<?= e((string) $question['subject_official_pdf_url']) ?>">Oficiální PDF otázek ÚCL pro předmět</a><?php endif; ?>
+    </aside>
+
+    <nav class="question-nav">
+        <div><?php if ($previous !== null): ?><a class="button secondary" href="<?= e(study_url('/question/' . $previous)) ?>">← Předchozí</a><?php endif; ?></div>
+        <a class="button primary" href="<?= e(study_url('/study?subject=' . $subjectId)) ?>">Jiná náhodná</a>
+        <div><?php if ($next !== null): ?><a class="button secondary" href="<?= e(study_url('/question/' . $next)) ?>">Další →</a><?php endif; ?></div>
+    </nav>
+</section>
+<?php
+    render_footer();
+}
+
+/** Render the browser-driven drill shell. */
+function render_drill(array $subjects, ?int $selectedSubject, string $mode, int $defaultCount): void
+{
+    render_header('Drill', '', 'drill');
+    render_page_title('Procvičování', 'Drill a paper režim', 'Vyber odpověď z nabídky. Systém ji vyhodnotí, uloží průběžný progress a v paper režimu dodrží počet otázek i čas předmětu.');
+    ?>
+<section class="drill-shell" data-drill-root data-api-url="<?= e(study_url('/api/quiz')) ?>">
+    <form class="drill-config" data-drill-form>
+        <label>Předmět
+            <select name="subject" data-drill-subject>
+                <option value="all"<?= $selectedSubject === null ? ' selected' : '' ?>>Všechny předměty</option>
+                <?php foreach ($subjects as $subject): ?>
+                    <option value="<?= (int) $subject['id'] ?>"<?= $selectedSubject === (int) $subject['id'] ? ' selected' : '' ?> data-paper-count="<?= (int) $subject['exam_question_count'] ?>" data-paper-time="<?= (int) $subject['exam_time_minutes'] ?>"><?= (int) $subject['id'] ?>. <?= e((string) $subject['name']) ?></option>
+                <?php endforeach; ?>
+            </select>
+        </label>
+        <label>Režim
+            <select name="mode" data-drill-mode>
+                <option value="custom"<?= $mode === 'custom' ? ' selected' : '' ?>>Vlastní náhodný drill</option>
+                <option value="paper"<?= $mode === 'paper' ? ' selected' : '' ?>>Paper drill</option>
+            </select>
+        </label>
+        <label data-count-field>Počet otázek
+            <input type="number" name="count" min="1" max="120" value="<?= $defaultCount ?>">
+        </label>
+        <button class="button primary" type="submit">Spustit</button>
+        <p class="form-help" data-paper-hint>Paper drill je dostupný pro jeden konkrétní předmět.</p>
+    </form>
+
+    <div class="drill-stage" data-drill-stage hidden>
+        <div class="drill-status">
+            <span data-drill-position>1 / 1</span>
+            <strong data-drill-title>Drill</strong>
+            <span class="timer" data-drill-timer hidden>00:00</span>
+        </div>
+        <div class="progress-track large"><span data-drill-progress></span></div>
+        <article class="study-card drill-card" data-drill-card></article>
+    </div>
+
+    <div class="drill-result" data-drill-result hidden></div>
+</section>
+<section class="notice-panel compact">
+    <strong>Rozsah drillu</strong>
+    <p>Drill pracuje s 880 studijními kartami. Každá karta má čtyři studijní možnosti a automatické vyhodnocení podle správného výsledku v kompilátu.</p>
+</section>
+<?php
+    render_footer();
+}
+
+/** Render public search form and results. */
+function render_search(array $subjects, string $query, ?int $subjectId, array $results): void
+{
+    render_header('Hledat', '', 'search');
+    render_page_title('Vyhledávání', 'Najdi kartu podle pojmu, čísla nebo přílohy', 'Hledá se v otázce, odpovědi, vysvětlení, varování, stopě ÚCL i kódu přílohy.');
+    ?>
+<form class="search-form" method="get" action="<?= e(study_url('/search')) ?>">
+    <input type="search" name="q" value="<?= e($query) ?>" maxlength="160" placeholder="např. QNH, wake turbulence, 7600, PFP-013">
+    <select name="subject">
+        <option value="">Všechny předměty</option>
+        <?php foreach ($subjects as $subject): ?><option value="<?= (int) $subject['id'] ?>"<?= $subjectId === (int) $subject['id'] ? ' selected' : '' ?>><?= e((string) $subject['name']) ?></option><?php endforeach; ?>
+    </select>
+    <button class="button primary" type="submit">Hledat</button>
+</form>
+<?php if ($query !== '' || $subjectId !== null): ?>
+    <div class="search-summary">Nalezeno <?= count($results) ?> výsledků v aktuálním limitu.</div>
+    <div class="search-results">
+        <?php foreach ($results as $row): ?>
+            <a class="search-result" href="<?= e(study_url('/question/' . (int) $row['sequence_no'])) ?>">
+                <span class="result-number">#<?= str_pad((string) $row['sequence_no'], 3, '0', STR_PAD_LEFT) ?></span>
+                <div><strong><?= e(trim((string) ($row['title'] ?? '')) !== '' ? (string) $row['title'] : (string) $row['prompt']) ?></strong><small><?= e((string) $row['subject_name']) ?> · <?= e((string) $row['source_trace']) ?></small></div>
+            </a>
+        <?php endforeach; ?>
+    </div>
+<?php endif; ?>
+<?php
+    render_footer();
+}
+
+/** Render source provenance, exam structure, and methodology information. */
+function render_about(array $subjects): void
+{
+    render_header('O zdroji', '', 'about');
+    render_page_title('Zdroj a metodika', 'Obsah a struktura databáze', 'Web převádí dodaný studijní kompilát do dynamické databáze pro studium, vyhledávání a procvičování.');
+    ?>
+<div class="content-grid">
+    <article class="prose panel">
+        <h2>Rozsah banky</h2>
+        <p>Bundled databáze obsahuje 880 studijních karet v 9 předmětech. Kompilát uvádí 896 aktivních zveřejněných položek veřejné části ÚCL a jednu položku označenou jako vyřazenou; 16 zjevných duplicit nebo ekvivalentních variant je sloučeno do studijních karet.</p>
+        <p>Každá karta obsahuje studijní otázku, čtyři možnosti, správný výsledek a vysvětlení. Sady možností lze průběžně zpřesňovat v administraci.</p>
+        <h2>Aktuálnost</h2>
+        <p><?= e(app_setting('source_disclaimer')) ?></p>
+        <p><a class="text-link" href="https://www.caa.gov.cz/zkusebni-otazky-pro-zkousky-teoretickych-znalosti-ppl-lapl/" target="_blank" rel="noopener noreferrer">Aktuální stránka ÚCL se zkušebními otázkami PPL/LAPL</a></p>
+    </article>
+    <article class="panel">
+        <h2>Struktura paperů</h2>
+        <div class="exam-table-wrap">
+            <table class="exam-table">
+                <thead><tr><th>Předmět</th><th>Otázek</th><th>Čas</th><th>Karet</th></tr></thead>
+                <tbody>
+                <?php $totalQ = $totalTime = $totalCards = 0; foreach ($subjects as $subject):
+                    $totalQ += (int) $subject['exam_question_count'];
+                    $totalTime += (int) $subject['exam_time_minutes'];
+                    $totalCards += (int) $subject['expected_cards'];
+                    ?>
+                    <tr><td><?= e((string) $subject['name']) ?></td><td><?= (int) $subject['exam_question_count'] ?></td><td><?= (int) $subject['exam_time_minutes'] ?> min</td><td><?= (int) $subject['expected_cards'] ?></td></tr>
+                <?php endforeach; ?>
+                </tbody>
+                <tfoot><tr><th>Celkem</th><th><?= $totalQ ?></th><th><?= $totalTime ?> min</th><th><?= $totalCards ?></th></tr></tfoot>
+            </table>
+        </div>
+        <p class="small-note">Hranice úspěchu uvedená v kompilátu je nejméně 75 % v každém examination paper.</p>
+    </article>
+</div>
+<?php
+    render_footer();
+}
+
+/** Render a plain public 404 page. */
+function render_not_found(): void
+{
+    http_response_code(404);
+    render_header('Přehled studia');
+    render_page_title('404', 'Pokračuj přes přehled studia', 'Hlavní navigace tě dovede ke kartám, drillu a vyhledávání.');
+    echo '<p><a class="button primary" href="' . e(study_url('/')) . '">Zpět na přehled</a></p>';
+    render_footer();
+}

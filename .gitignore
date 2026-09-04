@@ -1,0 +1,31 @@
+# Local application configuration and secrets
+/config.php
+/.env
+/.env.*
+!/.env.example
+
+# Runtime-generated state
+/cache/*
+!/cache/.gitkeep
+*.log
+*.tmp
+
+# Generated deployment packages
+/deploy/*.zip
+
+# Python tooling artifacts
+__pycache__/
+*.py[cod]
+
+# Test and coverage output
+/.phpunit.cache/
+/coverage/
+
+# Editor and operating-system metadata
+/.idea/
+/.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
