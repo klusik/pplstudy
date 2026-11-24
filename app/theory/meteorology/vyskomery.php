@@ -82,7 +82,7 @@ return [
 'paras' => [
 'Barometrický výškoměr měří statický tlak vzduchu. Tlak převádí na výšku pomocí vztahu odvozeného z ISA (standardní atmosféry z kapitoly 1). Na stupnici tlaku nastavíš referenci v hPa. Změnou tohoto nastavení se změní indikovaný údaj, ale nikoli fyzická poloha letadla. Samotný výškoměr nezná skutečnou teplotu celého sloupce vzduchu ani terén.',
 'Než začneme počítat, rozlišme výšky. MSL (Mean Sea Level) je střední hladina moře. AMSL (Above Mean Sea Level) označuje výšku vztaženou k MSL. AGL (Above Ground Level) je výška nad terénem přímo pod letadlem. Elevace je nadmořská výška bodu na zemském povrchu, například referenčního místa letiště. Indikovaná výška je údaj na výškoměru při aktuálním nastavení; skutečná nadmořská výška je geometrická výška nad MSL a může se od indikace lišit.',
-'QNH, QFE a STD dávají odlišné reference. Při správném QNH má výškoměr na referenčním místě letiště ukazovat přibližně publikovanou elevaci; při QFE přibližně nulu vůči příslušné referenci. QFF je meteorologická redukce tlaku pro analýzu počasí, nikoli nastavení používané místo QNH. STD je standardní nastavení 1013,25 hPa (doplňkově 29,92 inHg). Co přesně ukáže při STD a proč, vysvětluje následující oddíl.'
+'QNH, QFE a STD dávají odlišné reference. Při správném QNH má výškoměr na referenčním místě letiště ukazovat přibližně publikovanou elevaci; při QFE přibližně nulu vůči příslušné referenci. QFF je meteorologická redukce tlaku pro analýzu počasí, nikoli nastavení používané místo QNH. STD je standardní nastavení 1013,25 hPa (doplňkově 29,92 inHg). Termín QNE označuje hodnotu indikovanou při standardním nastavení na příslušném referenčním místě. Co přesně ukáže při STD a proč, vysvětluje následující oddíl.'
 ],
 'figure' => 'altimeter',
 'table' => [
@@ -260,7 +260,7 @@ DA [ft] ≈ PA [ft] + 120 ft/°C × (OAT − TISA)',
 ],
 [
 'question' => 'Letiště 457 m / 1 500 ft má QNH 1003 hPa. Jakou PA přibližně použiješ?',
-'answer' => 'Při zaokrouhlení STD na 1013 hPa je rozdíl 10 hPa. PA ≈ 539 m / 1 770 ft; letadlo zůstává na zemi.'
+'answer' => 'Při zaokrouhlení STD na 1013 hPa je rozdíl 10 hPa. PA ≈ 539,5 m / 1 770 ft; letadlo zůstává na zemi.'
 ],
 [
 'question' => 'V jaké výšce se počítá TISA pro DA a co je OAT?',
