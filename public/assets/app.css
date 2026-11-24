@@ -497,3 +497,8 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(22,100,151,.
 @media(max-width:580px) {
     .theory-memory-grid,.theory-reference-grid { grid-template-columns:minmax(0,1fr); }
 }
+
+.theory-example-steps { margin:14px 0 0; padding-left:1.5rem; }
+.theory-example-steps > li { padding:9px 0 9px 5px; border-top:1px solid var(--line); }
+.theory-example-steps > li::marker { color:var(--blue); font-weight:800; }
+.theory-example-steps > li > p { margin:5px 0 0; }

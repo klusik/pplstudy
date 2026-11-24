@@ -113,7 +113,7 @@ function render_theory_section(array $section, int $index): void
         <?php if (isset($section['code'])): ?><pre class="theory-weather-code"><code><?= e($section['code']) ?></code></pre><?php endif; ?>
         <?php if (isset($section['figure'])): render_theory_figure($section['figure']); endif; ?>
         <?php if (isset($section['table'])): render_theory_table($section['table']); endif; ?>
-        <?php if (isset($section['example'])): ?><aside class="theory-callout theory-example"><span>Praktický příklad</span><h3><?= e($section['example']['title']) ?></h3><p><?= e($section['example']['text']) ?></p></aside><?php endif; ?>
+        <?php if (isset($section['example'])): ?><aside class="theory-callout theory-example"><span>Praktický příklad</span><h3><?= e($section['example']['title']) ?></h3><p><?= e($section['example']['text']) ?></p><?php if (!empty($section['example']['steps'])): ?><ol class="theory-example-steps"><?php foreach ($section['example']['steps'] as $step): ?><li><strong><?= e($step['label']) ?></strong><p><?= e($step['detail']) ?></p></li><?php endforeach; ?></ol><?php endif; ?></aside><?php endif; ?>
         <?php if (isset($section['note'])): ?><aside class="theory-callout theory-note"><span>Pozor / provozní souvislost</span><p><?= e($section['note']) ?></p></aside><?php endif; ?>
     </section>
     <?php

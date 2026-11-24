@@ -84,6 +84,10 @@ function theory_course(string $slug): ?array
 function theory_sources(): array
 {
     return [
+        'faa-pa-da' => ['FAA · Safety of Flight: Effects of Density Altitude', 'https://www.faa.gov/air_traffic/publications/atpubs/AIM_html/chap7_section_6.html', 'Rozlišení hustotní, tlakové a skutečné výšky; důsledky pro výkon.'],
+        'nws-pa-da' => ['NOAA/NWS · Pressure Altitude & Density Altitude', 'https://www.weather.gov/media/zhu/ZHU_Training_Page/winds/pressure_winds/Temp_Density_Pressure.pdf', 'Definice PA, výpočet z QNH a orientační pravidlo 120 ft/°C.'],
+        'rlp-units' => ['AIP ČR · GEN 2.1 Měřicí jednotky', 'https://aim.rlp.cz/eaip/html/eAIP/LK-GEN-2.1-cz-CZ.html', 'Jednotky používané v českých leteckých publikacích a provozu.'],
+        'rlp-altimeter' => ['VFR příručka ČR · Postupy pro nastavení výškoměru', 'https://aim.rlp.cz/vfrmanual/', 'Aktuální převodní výška, hladina, výjimky a postupy.'],
         'nist-units' => ['NIST · Guide to the SI, Appendix B: Conversion Factors', 'https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors', 'Přesný převod mezinárodní stopy na metry (1 ft = 0,3048 m) a pravidla zaokrouhlování.'],
         'easa-syllabus' => ['EASA – Easy Access Rules for Aircrew, AMC1 FCL.210; FCL.215', 'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=5', 'Osnova teoretických znalostí PPL(A); evropský rámec.'],
         'faa-weather' => ['FAA – Aviation Weather Handbook (FAA-H-8083-28B, 2026)', 'https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook', 'Učební příručka fyziky počasí a leteckých rizik; americké provozní postupy zde nejsou přebírány jako evropské.'],
@@ -155,6 +159,7 @@ function theory_figures(): array
         'briefing' => ['Postup předletové meteorologické přípravy', 'Od synoptiky přes výstrahy, pozorování a předpovědi k posouzení letadla, trasy a rozhodnutí.'],
         'isa-reference' => ['ISA: referenční hodnoty', 'Standardní tlak, teplota a hustota na hladině moře; teplota se s výškou snižuje o 0,65 °C na 100 m, přibližně 2 °C na 1 000 ft.'],
         'density-particles' => ['Teplota a hustota při stejném tlaku', 'Ve stejném objemu teplejšího vzduchu je při stejném tlaku méně hmoty. Schéma částic je kvalitativní.'],
+        'pressure-altitude' => ['Tlaková výška při standardním nastavení', 'Na stejném letišti při QNH 1003 hPa ukáže výškoměr elevaci 457 m / 1 500 ft. Při STD 1013,25 hPa ukáže vyšší tlakovou výšku asi 539 m / 1 770 ft; letadlo zůstává na místě.'],
         'pressure-error' => ['Tlaková chyba výškoměru', 'Modelový přechod z QNH 1013 na 993 hPa se stejnou indikací; tlaková plocha klesá a odhad rozdílu výšky je 165 m nebo 540 ft, nikoli univerzální skutečná korekce.'],
         'cold-error' => ['Teplotní chyba výškoměru', 'V chladném vzduchu jsou stejné tlakové hladiny níže; letadlo při stejné indikaci letí geometricky níže.'],
         'density-altitude' => ['Hustotní výška v horkém dni', 'Letiště 457 m / 1500 ft, QNH 1003 hPa a OAT 30 °C; tlaková výška 539 m / 1770 ft a orientační DA 1216 m / 3990 ft.'],
