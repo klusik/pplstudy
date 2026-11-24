@@ -35,6 +35,7 @@ return [
 ],
 'sources' => [
 'metoffice-foehn',
+'bora-study',
 'caa-mountain',
 'nws-pressure',
 'faa-weather'

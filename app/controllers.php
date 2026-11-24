@@ -35,3 +35,4 @@ require_once __DIR__ . '/controllers/admin_import.php';
 require_once __DIR__ . '/controllers/admin_settings.php';
 require_once __DIR__ . '/controllers/admin_diagnostics.php';
 require_once __DIR__ . '/controllers/admin_updates.php';
+require_once __DIR__ . '/controllers/public_theory.php';

@@ -28,6 +28,7 @@ use function PplStudy\Core\password_change_required;
 use function PplStudy\Core\study_url;
 use function PplStudy\Services\app_setting;
 use function PplStudy\Services\source_document_by_key;
+use function PplStudy\Services\theory_slug_for_subject;
 
 /** Render the public subject dashboard. */
 function render_home(array $subjects, array $counts, array $summary): void
@@ -87,6 +88,7 @@ function render_home(array $subjects, array $counts, array $summary): void
                 <div class="card-actions">
                     <a class="button small primary" href="<?= e(study_url('/study?subject=' . $id)) ?>">Náhodná karta</a>
                     <a class="button small secondary" href="<?= e(study_url('/drill?subject=' . $id . '&mode=paper')) ?>">Paper drill</a>
+                    <?php if (($theorySlug = theory_slug_for_subject($id)) !== null): ?><a class="button small secondary theory-button" href="<?= e(theory_url($theorySlug)) ?>">Učebnice</a><?php endif; ?>
                 </div>
             <?php endif; ?>
         </div>
@@ -133,6 +135,7 @@ function render_study_setup(array $subjects): void
             <span class="study-subject-actions">
                 <a class="button small secondary" href="<?= e(study_url('/study?subject=' . (int) $subject['id'] . '&mode=quiz')) ?>">Otázka</a>
                 <a class="button small secondary" href="<?= e(study_url('/study?subject=' . (int) $subject['id'] . '&mode=learn')) ?>">Učení</a>
+                <?php if (($theorySlug = theory_slug_for_subject((int) $subject['id'])) !== null): ?><a class="button small secondary theory-button" href="<?= e(theory_url($theorySlug)) ?>">Učebnice · výklad</a><?php endif; ?>
             </span>
         </div>
         <?php endforeach; ?>

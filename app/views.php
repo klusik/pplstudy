@@ -24,3 +24,4 @@ require_once __DIR__ . '/views/account.php';
 require_once __DIR__ . '/views/public.php';
 require_once __DIR__ . '/views/admin.php';
 require_once __DIR__ . '/views/admin_updates.php';
+require_once __DIR__ . '/views/theory.php';

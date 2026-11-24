@@ -98,7 +98,7 @@ return [
 [
 '7. Rozhodnutí',
 'go / změna / no-go, časové hranice a osobní minima',
-'Kdy se otočím, odkloním nebo nepole­tím?'
+'Kdy se otočím, odkloním nebo nepoletím?'
 ]
 ]
 ]
