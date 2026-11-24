@@ -38,6 +38,38 @@ return [
 'metoffice-pressure',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Směr větru',
+'value' => '225°/15 kt = z jihozápadu',
+'note' => 'Uvádí se odkud vane. U METAR/TAF jde zpravidla o zeměpisný sever.',
+'overview' => false
+],
+[
+'label' => 'Převod rychlosti',
+'value' => '1 kt = 1 NM/h ≈ 0,514 m/s ≈ 1,688 ft/s',
+'note' => '1 NM = 1 852 m (≈ 6 076 ft). Uzel je běžnou leteckou jednotkou.',
+'overview' => true
+],
+[
+'label' => 'Složky větru',
+'value' => 'Včelní = V × cos Δ · Vboční = V × sin Δ',
+'note' => 'Úhel mezi směrem větru a osou dráhy musí vycházet ze stejné severní reference; výsledek má jednotku vstupu.',
+'overview' => true
+],
+[
+'label' => 'Vertikální rychlost',
+'value' => '1 m/s ≈ 197 ft/min',
+'note' => '500 ft/min = 2,54 m/s; 1 000 ft/min = 5,08 m/s. Pozor na jednotky variometru.',
+'overview' => true
+],
+[
+'label' => 'Izobary a proudění',
+'value' => 'Husté izobary = větší gradient',
+'note' => 'Na severní polokouli v níži proti hodinám a dovnitř; ve výši po hodinách a ven.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Proč vzduch proudí',
@@ -59,12 +91,12 @@ return [
 'heading' => 'Měření směru a letecké použití',
 'paras' => [
 'Meteorologický směr větru udává směr, odkud vítr vane: 090° je východní, 180° jižní, 270° západní. V METAR/TAF a předpovědích je směr zpravidla vztažen ke skutečnému severu. Hlášení pro bezprostřední provoz na dráze může používat magnetický směr podle místních postupů. Při výpočtu složek větru sjednoť referenci dráhy a větru; runway designátor je navíc zaokrouhlený magnetický směr, ne přesný azimut.',
-'Vítr ve výšce se používá pro výpočet korekce kurzu a ground speed, zatímco přízemní vítr rozhoduje o volbě dráhy a složkách větru pro vzlet a přistání. Nárazy a proměnlivost směru mohou být důležitější než samotná střední rychlost. Zápis 225/15 znamená vítr z jihozápadu 15 kt, nikoli směr, kam vane. 1 kt = 1 NM/h ≈ 0,514 m/s.'
+'Vítr ve výšce se používá pro výpočet korekce kurzu a ground speed, zatímco přízemní vítr rozhoduje o volbě dráhy a složkách větru pro vzlet a přistání. Nárazy a proměnlivost směru mohou být důležitější než samotná střední rychlost. Zápis 225/15 znamená vítr z jihozápadu 15 kt, nikoli směr, kam vane. 1 kt = 1 NM/h ≈ 0,514 m/s (1,688 ft/s). 1 NM = 1 852 m (≈ 6 076 ft). Pro vertikální rychlost: 1 m/s ≈ 197 ft/min, 500 ft/min = 2,54 m/s.'
 ],
 'formula' => 'Čelní složka = V × cos Δ    |    boční složka = V × sin Δ',
 'example' => [
 'title' => 'Dráha 270°, vítr 240°/16 kt (stejná reference)',
-'text' => 'Úhel 30°. Čelní složka 16 × cos 30° ≈ 13,9 kt, boční 16 × sin 30° = 8 kt zleva. Při nárazech 25 kt by boční složka při stejném směru dosáhla 12,5 kt. Porovnej s limity a osobní rezervou.'
+'text' => 'Úhel 30°. Čelní složka 16 × cos 30° ≈ 13,9 kt, boční 16 × sin 30° = 8 kt zleva. Při nárazech 25 kt by boční složka při stejném směru dosáhla 12,5 kt. V SI: 16 kt ≈ 8,2 m/s, čelní složka ≈ 7,2 m/s, boční ≈ 4,1 m/s; při nárazu 25 kt je boční složka 12,5 kt (≈ 6,4 m/s). Porovnej s limity a osobní rezervou.'
 ]
 ],
 [

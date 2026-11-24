@@ -30,6 +30,32 @@ return [
 'nws-fog',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Suchá adiabata (DALR)',
+'value' => '0,98 °C/100 m ≈ 3 °C/1 000 ft',
+'note' => 'Zkouškově 1 °C/100 m; jde o nenasycenou částici, nikoli okolní atmosféru.',
+'overview' => true
+],
+[
+'label' => 'Nasycená adiabata (SALR)',
+'value' => '≈ 0,6 °C/100 m ≈ 1,8 °C/1 000 ft',
+'note' => 'Zkoušková hodnota. Skutečný gradient je proměnný; 0,4–0,7 °C/100 m odpovídá asi 1,2–2,1 °C/1 000 ft.',
+'overview' => true
+],
+[
+'label' => 'Rosný bod a spread',
+'value' => 'T − Td',
+'note' => 'Při ochlazování a stejném obsahu páry spread klesá, RH roste; T = Td při nasycení.',
+'overview' => false
+],
+[
+'label' => 'Odhad základny termických Cu',
+'value' => '≈ 122 m/°C ≈ 400 ft/°C',
+'note' => 'Výška nad zdrojovou vrstvou (AGL při přízemní vrstvě), nikoliv AMSL. Pro rychlý metrický odhad 120 m/°C.',
+'overview' => true
+]
+],
 'sections' => [
 [
 'heading' => 'Tři skupenství a změny skupenství',
@@ -93,7 +119,7 @@ return [
 [
 'heading' => 'Adiabatické ochlazování a ohřívání',
 'paras' => [
-'Pohybující se vzduchová částice si při přibližně adiabatickém ději nevyměňuje teplo s okolím. Při výstupu do nižšího tlaku expanduje a koná práci, čímž klesá její teplota. Při sestupu je stlačována a ohřívá se. Nenasycená částice se ochlazuje asi o 9,8 °C/km. Nasycená částice typicky o 4–7 °C/km, přičemž přesná hodnota závisí na tlaku, teplotě a množství kondenzující vody. Pro otázky ÚCL se používá přibližně 1 °C/100 m a 0,6 °C/100 m.',
+'Pohybující se vzduchová částice si při přibližně adiabatickém ději nevyměňuje teplo s okolím. Při výstupu do nižšího tlaku expanduje a koná práci, čímž klesá její teplota. Při sestupu je stlačována a ohřívá se. Nenasycená částice se ochlazuje asi o 0,98 °C/100 m (9,8 °C/km), tedy 2,99 °C/1 000 ft. Nasycená částice typicky o 0,4–0,7 °C/100 m (4–7 °C/km; přibližně 1,2–2,1 °C/1 000 ft), přičemž přesná hodnota závisí na tlaku, teplotě a množství kondenzující vody. Pro otázky ÚCL se používá přibližně 1 °C/100 m (3 °C/1 000 ft) a 0,6 °C/100 m (1,8 °C/1 000 ft).',
 'Je zásadní nezaměňovat adiabatické gradienty částice s gradientem okolí a s ISA. Částice může mít v určité výšce úplně jinou teplotu než okolní vzduch; právě rozdíl určuje vztlak a stabilitu.'
 ],
 'figure' => 'lapse',
@@ -106,17 +132,17 @@ return [
 'rows' => [
 [
 'DALR (suchá adiabata)',
-'9,8 °C/km ≈ 1 °C/100 m',
+'0,98 °C/100 m ≈ 3 °C/1 000 ft (zkouška 1 °C/100 m)',
 'Nenasycená vystupující částice'
 ],
 [
 'SALR/MALR (nasycená adiabata)',
-'proměnný, pro zkoušku ≈ 6 °C/km',
+'proměnný, pro zkoušku ≈ 0,6 °C/100 m ≈ 1,8 °C/1 000 ft',
 'Nasycená vystupující částice'
 ],
 [
 'ISA',
-'6,5 °C/km',
+'0,65 °C/100 m ≈ 2 °C/1 000 ft',
 'Modelový profil okolí'
 ],
 [
@@ -130,12 +156,13 @@ return [
 [
 'heading' => 'Výška kondenzace a odhad základny',
 'paras' => [
-'Při suchém výstupu teplota klesá přibližně 3 °C/1 000 ft a rosný bod zhruba 0,5 °C/1 000 ft; jejich rozdíl se zmenšuje. Hladina, kde se zvedaná částice poprvé nasytí, se označuje LCL (lifting condensation level). Pro dobře promíchanou přízemní vrstvu lze orientačně odhadnout základnu termických kumulů pomocí 400 ft na 1 °C spreadu. Neplatí spolehlivě pro vrstevnaté oblaky, fronty, odlišné zdrojové vrstvy nebo orografii.'
+'Při suchém výstupu teplota klesá přibližně 0,98 °C/100 m (3 °C/1 000 ft) a rosný bod zhruba 0,16 °C/100 m (0,5 °C/1 000 ft); jejich rozdíl se zmenšuje. Hladina, kde se zvedaná částice poprvé nasytí, se označuje LCL (lifting condensation level). Pro dobře promíchanou přízemní vrstvu lze orientačně odhadnout základnu termických kumulů pomocí přibližně 122 m / 400 ft na 1 °C spreadu. Neplatí spolehlivě pro vrstevnaté oblaky, fronty, odlišné zdrojové vrstvy nebo orografii.'
 ],
-'formula' => 'Základna termických Cu ≈ (T − Td) × 400 ft AGL',
+'formula' => 'H AGL [m] ≈ (T − Td) × 122 m/°C
+H AGL [ft] ≈ (T − Td) × 400 ft/°C',
 'example' => [
 'title' => 'T = 22 °C, Td = 12 °C',
-'text' => 'Spread 10 °C, orientační základna 4 000 ft AGL nad místem původu částice. Při elevaci 1 200 ft by to bylo asi 5 200 ft AMSL. Skutečnou základnu ověř pozorováním a předpovědí.'
+'text' => 'Spread 10 °C: 10 × 122 ≈ 1 220 m (10 × 400 = 4 000 ft) AGL nad místem původu částice. Při elevaci 366 m / 1 200 ft by to bylo asi 1 585 m / 5 200 ft AMSL. Skutečnou základnu ověř pozorováním a předpovědí.'
 ],
 'note' => 'Vysoká relativní vlhkost v přízemí neříká nic jistého o vlhkosti ve výšce. Vertikální profil je důležitý pro odhad vývoje oblačnosti.'
 ]
@@ -151,7 +178,7 @@ return [
 ],
 [
 'question' => 'Při T 18 °C a Td 15 °C odhadni základnu termických Cu.',
-'answer' => 'Spread 3 °C × 400 ≈ 1 200 ft AGL; pouze orientační.'
+'answer' => 'Spread 3 °C: 3 × 122 ≈ 366 m AGL nebo 3 × 400 = 1 200 ft AGL; pouze orientační.'
 ]
 ]
 ];

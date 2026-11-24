@@ -36,7 +36,40 @@ return [
 'easa-syllabus',
 'faa-weather',
 'nws-education',
-'nws-gradient'
+'nws-gradient',
+'nist-units'
+],
+'memory' => [
+[
+'label' => 'Standardní tlak ISA',
+'value' => '1013,25 hPa',
+'note' => 'Doplňkově 29,92 inHg; na evropských zprávách a při výkladu používáme přednostně hPa.',
+'overview' => true
+],
+[
+'label' => 'Standardní teplota a hustota',
+'value' => '+15 °C · 1,225 kg/m³',
+'note' => 'Hodnoty v MSL pro suchou ISA.',
+'overview' => true
+],
+[
+'label' => 'Pokles teploty v ISA',
+'value' => '0,65 °C/100 m ≈ 2 °C/1 000 ft',
+'note' => 'Přesný převod 1,9812 °C/1 000 ft; paměťová pomůcka 2. ISA není skutečný profil ani adiabata.',
+'overview' => true
+],
+[
+'label' => 'Tropopauza ISA',
+'value' => '11 000 m ≈ 36 089 ft',
+'note' => 'Zkouškově přibližně 11 km / 36 000 ft; teplota −56,5 °C.',
+'overview' => true
+],
+[
+'label' => 'Převod výšek',
+'value' => '1 ft = 0,3048 m',
+'note' => '1 m ≈ 3,28084 ft; 1 000 ft = 304,8 m, přibližně 305 m. 100 m ≈ 328 ft. Násobení třemi je jen velmi hrubý odhad.',
+'overview' => true
+]
 ],
 'sections' => [
 [
@@ -50,7 +83,7 @@ return [
 [
 'heading' => 'ISA: mezinárodní standardní atmosféra',
 'paras' => [
-'ISA (International Standard Atmosphere) je referenční model, nikoliv předpověď. Umožňuje porovnávat výkonnost letadel a kalibrovat barometrické přístroje. Na střední hladině moře (MSL) má definované hodnoty. Do 11 km předpokládá lineární pokles teploty o 6,5 °C/km, přibližně 2 °C/1 000 ft. Nad touto hranicí je v první části modelové stratosféry teplota konstantní. V reálné atmosféře může být profil úplně jiný.'
+'ISA (International Standard Atmosphere) je referenční model, nikoliv předpověď. Umožňuje porovnávat výkonnost letadel a kalibrovat barometrické přístroje. Na střední hladině moře (MSL) má definované hodnoty. Do 11 km (11 000 m ≈ 36 089 ft) předpokládá lineární pokles teploty o 0,65 °C/100 m neboli 6,5 °C/km. To je 1,9812 °C/1 000 ft, pro rychlý odhad 2 °C/1 000 ft. Nad touto hranicí je v první části modelové stratosféry teplota konstantní. V reálné atmosféře může být profil úplně jiný.'
 ],
 'table' => [
 'headers' => [
@@ -60,7 +93,7 @@ return [
 'rows' => [
 [
 'Tlak v MSL',
-'1013,25 hPa = 29,92 inHg'
+'1013,25 hPa (doplňkově 29,92 inHg)'
 ],
 [
 'Teplota v MSL',
@@ -72,22 +105,22 @@ return [
 ],
 [
 'Vertikální teplotní gradient',
-'0,65 °C/100 m'
+'0,65 °C/100 m = 6,5 °C/km ≈ 1,98 °C/1 000 ft'
 ],
 [
-'5 000 ft',
+'1 524 m / 5 000 ft',
 'přibližně +5 °C'
 ],
 [
-'10 000 ft',
+'3 048 m / 10 000 ft',
 'přibližně −5 °C'
 ],
 [
-'FL180',
+'FL180 (tlaková výška 18 000 ft ≈ 5 486 m)',
 'tlak přibližně 500 hPa'
 ],
 [
-'10 000 m',
+'10 000 m ≈ 32 808 ft',
 '−50 °C'
 ],
 [
@@ -97,36 +130,36 @@ return [
 ]
 ],
 'example' => [
-'title' => 'Odchylka ISA ve výšce 5 000 ft',
-'text' => 'ISA: 15 − 2 × 5 ≈ +5 °C. Změříš-li OAT +17 °C, jde o ISA +12 °C. Na této hodnotě závisí zejména hustotní výška a výkon.'
+'title' => 'Odchylka ISA ve výšce 1 524 m / 5 000 ft',
+'text' => 'Metricky: 15 − 0,65 × 15,24 ≈ +5,1 °C. Ve stopách: 15 − 2 × 5 ≈ +5 °C. Změříš-li OAT +17 °C, jde o ISA +12 °C. Na této hodnotě závisí zejména hustotní výška a výkon.'
 ]
 ],
 [
 'heading' => 'Tlak, hustota a výkon',
 'paras' => [
-'Tlak je síla na jednotku plochy; 1 hPa = 100 Pa. S výškou ubývá hmotnost sloupce vzduchu nad místem, takže tlak klesá. Pokles není lineární: u země se tlak na jednotku výšky mění rychleji než vysoko, protože vzduch je hustší. Pro suchý vzduch platí stavová rovnice p = ρ R T, tedy ρ = p/(R T), kde R ≈ 287 J/(kg·K) a T musí být v kelvinech.',
+'Tlak je síla na jednotku plochy; 1 hPa = 100 Pa. Výškoměr v hPa a výškoměr v metrech či stopách popisují stejné fyzikální podmínky; jednotka stupnice výšky je nezávislá na jednotce nastavení tlaku. S výškou ubývá hmotnost sloupce vzduchu nad místem, takže tlak klesá. Pokles není lineární: u země se tlak na jednotku výšky mění rychleji než vysoko, protože vzduch je hustší. Pro suchý vzduch platí stavová rovnice p = ρ R T, tedy ρ = p/(R T), kde R ≈ 287 J/(kg·K) a T musí být v kelvinech.',
 'Při stejném tlaku má teplejší vzduch nižší hustotu; při stejné teplotě ji snižuje nižší tlak. Vlhký vzduch je při stejném tlaku a teplotě také o něco méně hustý než suchý. Pro stejnou IAS je ve vzduchu o menší hustotě vyšší TAS, a při stejné hmotnosti a konfiguraci se obvykle prodlužuje vzlet a zhoršuje stoupání. U atmosférického pístového motoru klesá dostupný výkon; vrtule pracuje v řidším prostředí. Skutečná čísla se berou z AFM/POH, ne z pouhé teplotní poučky.'
 ],
-'formula' => 'ρ = p / (287,05 × T[K])',
+'formula' => 'ρ [kg/m³] = (100 × p[hPa]) / (287,05 × T[K])',
 'example' => [
 'title' => 'Stejný tlak, jiná teplota',
-'text' => 'Při 101 325 Pa a 288,15 K vychází 1,225 kg/m³. Při +35 °C (308,15 K) je to asi 1,146 kg/m³, tedy přibližně o 6,5 % méně. Neznamená to automaticky právě 6,5% prodloužení vzletu.'
+'text' => 'Při 1013,25 hPa (101 325 Pa) a 288,15 K vychází 1,225 kg/m³. Při +35 °C (308,15 K) je to asi 1,146 kg/m³, tedy přibližně o 6,5 % méně. Neznamená to automaticky právě 6,5% prodloužení vzletu.'
 ]
 ],
 [
 'heading' => 'Skutečný teplotní profil a inverze',
 'paras' => [
 'Teplotní gradient okolí (ELR) určí měření nebo vertikální předpovědní profil. Normální pokles teploty s výškou není totéž co ISA ani adiabatický gradient pohybující se částice. Při izotermii je teplota s výškou stejná; při inverzi roste. Obě situace tlumí běžnou konvekci.',
-'Přízemní radiační inverze vzniká zejména za jasné noci, kdy zemský povrch vyzařuje teplo a ochlazuje vzduch těsně nad ním. Subsidenční inverze se může vytvořit ve výši přibližně 5 000 ft v tlakové výši: sestupující vzduch se stlačuje a ohřívá nad chladnější spodní vrstvou. Inverze může zadržet kouř, mlhu a nízkou oblačnost a současně omezit výšku kumulů. Hranice inverze bývá místem změny větru; samotná inverze však neznamená automaticky silný střih.'
+'Přízemní radiační inverze vzniká zejména za jasné noci, kdy zemský povrch vyzařuje teplo a ochlazuje vzduch těsně nad ním. Subsidenční inverze se může vytvořit ve výši přibližně 1 500 m / 5 000 ft v tlakové výši: sestupující vzduch se stlačuje a ohřívá nad chladnější spodní vrstvou. Inverze může zadržet kouř, mlhu a nízkou oblačnost a současně omezit výšku kumulů. Hranice inverze bývá místem změny větru; samotná inverze však neznamená automaticky silný střih.'
 ],
 'figure' => 'inversion',
-'note' => 'Ve zkoušce se 36 000 ft používá jako zaokrouhlení modelové tropopauzy. Nememoruj jej jako pevnou výšku skutečné tropopauzy.'
+'note' => 'Ve zkoušce se 11 000 m / 36 000 ft používá jako zaokrouhlení modelové tropopauzy. Nememoruj jej jako pevnou výšku skutečné tropopauzy.'
 ]
 ],
 'checks' => [
 [
-'question' => 'Jaká je v ISA teplota v 8 000 ft?',
-'answer' => '15 − 2 × 8 ≈ −1 °C.'
+'question' => 'Jaká je v ISA teplota v 8 000 ft (≈ 2 438 m)?',
+'answer' => 'Metricky: 15 − 0,65 × 24,384 ≈ −0,85 °C. Ve stopách: 15 − 2 × 8 ≈ −1 °C.'
 ],
 [
 'question' => 'Proč v létě na vysokém letišti nestačí řídit se nadmořskou výškou?',

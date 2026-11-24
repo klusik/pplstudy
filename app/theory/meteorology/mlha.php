@@ -33,12 +33,38 @@ return [
 'chmi-briefing',
 'wmo-levels'
 ],
+'memory' => [
+[
+'label' => 'Mlha FG',
+'value' => 'Dohlednost < 1 000 m (≈ 3 281 ft)',
+'note' => 'Horizontální dohlednost, nikoli výška základny. Pozor na lokální a mělkou mlhu.',
+'overview' => true
+],
+[
+'label' => 'Kouřmo BR',
+'value' => '1 000–5 000 m (≈ 3 281–16 404 ft)',
+'note' => 'Při dekódování zachovávej metry jako provozní jednotku.',
+'overview' => false
+],
+[
+'label' => 'Radiační mlha',
+'value' => 'Jasná noc + vlhkost + slabý vítr',
+'note' => 'Malý rozdíl T − Td je varování, ne spolehlivá předpověď času vzniku.',
+'overview' => false
+],
+[
+'label' => 'Advekční / orografická',
+'value' => 'Teplý vlhký vzduch nad chladem / výstup po svahu',
+'note' => 'U obou mechanismů ochlazování k nasycení.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Dohlednost není totéž co základna',
 'paras' => [
 'Meteorologická dohlednost popisuje rozpoznatelnost vzdálených objektů v atmosféře; v letištních zprávách se běžně používá převládající dohlednost. Letová dohlednost je to, co pilot vidí z kokpitu ve směru letu. RVR (Runway Visual Range) je dráhová dohlednost odvozená pro podmínky na konkrétní dráze a nelze ji zaměnit s běžnou vodorovnou dohledností.',
-'Mlha FG je tvořena vodními kapkami nebo ledovými částicemi u země, které snižují dohlednost typicky pod 1 km. Kouřmo BR je zvlhčená dohlednost v rozsahu zpravidla 1 až 5 km. Zákal HZ je převážně rozptyl světla na suchých jemných částicích; není tak přímo závislý na dosažení rosného bodu jako mlha. Rozlišuj také kouř FU, prach DU a písek SA. Kód MIFG (mělká mlha), BCFG (chuchvalce mlhy), PRFG (částečná mlha) může upozornit na místní významné omezení, i když převládající dohlednost v METAR vypadá přijatelně.'
+'Mlha FG je tvořena vodními kapkami nebo ledovými částicemi u země, které snižují dohlednost typicky pod 1 000 m (≈ 3 281 ft). Kouřmo BR je zvlhčená dohlednost v rozsahu zpravidla 1 000 až 5 000 m (≈ 3 281 až 16 404 ft). U dohlednosti a RVR je v českých zprávách rozhodující metrický údaj; stopy jsou pouze doplňkový převod. Zákal HZ je převážně rozptyl světla na suchých jemných částicích; není tak přímo závislý na dosažení rosného bodu jako mlha. Rozlišuj také kouř FU, prach DU a písek SA. Kód MIFG (mělká mlha), BCFG (chuchvalce mlhy), PRFG (částečná mlha) může upozornit na místní významné omezení, i když převládající dohlednost v METAR vypadá přijatelně.'
 ],
 'table' => [
 'headers' => [

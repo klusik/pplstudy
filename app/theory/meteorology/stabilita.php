@@ -42,12 +42,32 @@ return [
 'nws-cape',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Srovnání gradientů',
+'value' => 'Γm ≈ 0,6 °C/100 m (1,8 °C/1 000 ft) · Γd ≈ 0,98 °C/100 m (3 °C/1 000 ft)',
+'note' => 'Jde o zjednodušené částicové gradienty, nikoli gradient prostředí. Pro stabilitu porovnej skutečný profil s oběma.',
+'overview' => false
+],
+[
+'label' => 'Stabilní / podmíněně nestabilní / nestabilní',
+'value' => 'Γe < Γm · Γm < Γe < Γd · Γe > Γd',
+'note' => 'V nasyceném vzduchu je rozhodující menší nasycená adiabata.',
+'overview' => false
+],
+[
+'label' => 'Konvekce a inverze',
+'value' => 'Teplejší částice stoupá; inverze výstup brzdí',
+'note' => 'Při stejném tlaku rozhoduje rozdíl hustot; vlhkost také hraje roli.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Archimédův princip v atmosféře',
 'paras' => [
 'Představ si vzduchovou částici, kterou zdvihne termika, fronta nebo horský svah. Tlak v ní se přizpůsobuje okolí a její teplota se mění přibližně adiabaticky. Je-li ve stejné výšce teplejší než okolí (přesněji má-li menší hustotu, s ohledem i na vodní páru), působí na ni kladný vztlak. Je-li chladnější, má tendenci k návratu dolů. Stabilita popisuje reakci atmosféry na takové vychýlení, nikoli to, zda právě svítí slunce.',
-'Označme Γ jako kladnou velikost poklesu teploty s výškou. Skutečný gradient okolí Γe porovnávej s gradientem nenasycené částice Γd ≈ 9,8 °C/km a nasycené Γm, pro zjednodušení 6 °C/km. Rovnost znamená neutrální stav pro příslušný typ částice.'
+'Označme Γ jako kladnou velikost poklesu teploty s výškou. Skutečný gradient okolí Γe porovnávej s gradientem nenasycené částice Γd ≈ 0,98 °C/100 m (9,8 °C/km ≈ 3 °C/1 000 ft) a nasycené Γm, pro zjednodušení 0,6 °C/100 m (6 °C/km ≈ 1,8 °C/1 000 ft). Rovnost znamená neutrální stav pro příslušný typ částice.'
 ],
 'figure' => 'stability',
 'table' => [
@@ -88,7 +108,7 @@ return [
 ],
 'example' => [
 'title' => 'Dva teplotní profily',
-'text' => 'Přízemí 20 °C. Po výstupu o 1 km má nenasycená částice přibližně 10 °C. Je-li okolí 15 °C, je částice chladnější a výstup tlumen. Pokud má okolí 8 °C, částice je teplejší a má kladný vztlak. Nasycená částice s gradientem 6 °C/km by měla 14 °C.'
+'text' => 'Přízemí 20 °C. Po výstupu o 1 000 m (≈ 3 281 ft) má nenasycená částice přibližně 10 °C. Je-li okolí 15 °C, je částice chladnější a výstup tlumen. Pokud má okolí 8 °C, částice je teplejší a má kladný vztlak. Nasycená částice s gradientem 0,6 °C/100 m (≈ 1,8 °C/1 000 ft) by měla 14 °C.'
 ]
 ],
 [
@@ -106,13 +126,13 @@ return [
 ],
 'example' => [
 'title' => 'Ranní inverze',
-'text' => 'Ráno 6 °C na letišti, 10 °C v 1 000 ft AGL, pak pokles. Inverze může držet mlhu v údolí, i když nad vrstvou svítí slunce. Očekávaný odpolední rozpad inverze může zároveň přinést růst Cu a turbulentnější vzduch.'
+'text' => 'Ráno 6 °C na letišti, 10 °C v 305 m / 1 000 ft AGL, pak pokles. Inverze může držet mlhu v údolí, i když nad vrstvou svítí slunce. Očekávaný odpolední rozpad inverze může zároveň přinést růst Cu a turbulentnější vzduch.'
 ]
 ]
 ],
 'checks' => [
 [
-'question' => 'Je okolní gradient 8 °C/km při nasycené adiabatě 6 °C/km absolutně nestabilní?',
+'question' => 'Je okolní gradient 0,8 °C/100 m (≈ 2,44 °C/1 000 ft) při nasycené adiabatě 0,6 °C/100 m (≈ 1,83 °C/1 000 ft) absolutně nestabilní?',
 'answer' => 'Ne. Je mezi nasyceným a suchým gradientem, tedy podmíněně nestabilní.'
 ],
 [
