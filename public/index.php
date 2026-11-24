@@ -21,5 +21,8 @@ declare(strict_types=1);
 require_once dirname(__DIR__) . '/app/early_runtime.php';
 \PplStudy\EarlyRuntime\register_emergency_handler();
 
+require_once dirname(__DIR__) . '/app/update_gate.php';
+\PplStudy\Update\enter_gate(dirname(__DIR__));
+
 require_once dirname(__DIR__) . '/app/bootstrap.php';
 \PplStudy\Core\study_run();

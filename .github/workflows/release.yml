@@ -1,0 +1,96 @@
+# Project: PPL Study
+# Author: Rudolf Klusal
+name: Verify and publish PPL Study
+
+on:
+  push:
+    branches: [main, develop, 'feature/**', 'release/**']
+  pull_request:
+    branches: [develop, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ppl-study-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      mariadb:
+        image: mariadb:10.11
+        env:
+          MARIADB_ROOT_PASSWORD: ppl-ci-root-only
+          MARIADB_DATABASE: ppl_study_ci
+          MARIADB_USER: ppl_ci
+          MARIADB_PASSWORD: ppl-ci-only
+        ports:
+          - 3307:3306
+        options: >-
+          --health-cmd="healthcheck.sh --connect --innodb_initialized"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=20
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP 8.1 runtime
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: curl, zip, mbstring, pdo_mysql
+          coverage: none
+      - name: Syntax and question bank
+        run: bash scripts/check_syntax.sh
+      - name: Build and exercise the exact release package
+        run: |
+          version="$(python3 -c 'import json; print(json.load(open("release-metadata.json"))["current_version"])')"
+          package="dist/PPL-Study-$version-deploy.zip"
+          python3 scripts/build_update_package.py "$package"
+          php scripts/test_updater.php "$package"
+          python3 scripts/test_updater_http.py "$package"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ppl-study-release
+          path: dist/PPL-Study-*-deploy.zip
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: ppl-study-release
+          path: dist
+      - name: Publish new stable version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(python3 -c 'import json; print(json.load(open("release-metadata.json"))["current_version"])')"
+          tag="v_$version"
+          package="dist/PPL-Study-$version-deploy.zip"
+          test -f "$package"
+          if git rev-parse --verify "refs/tags/$tag" >/dev/null 2>&1; then
+            test "$(git rev-list -n 1 "$tag")" = "$GITHUB_SHA" || {
+              echo "Existing release tag points to another commit; increment the version." >&2
+              exit 1
+            }
+          fi
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; not replacing immutable published assets."
+            exit 0
+          fi
+          python3 -c 'import sys; from pathlib import Path; p=Path("PATCH_NOTES.md").read_text(encoding="utf-8"); start=p.index("## "+sys.argv[1]+" "); print(p[start:].split("\n## ",1)[0])' "$version" > dist/notes.md
+          gh release create "$tag" "$package" --target "$GITHUB_SHA" --title "PPL Study $version" --notes-file dist/notes.md --latest

@@ -99,6 +99,7 @@ function study_resolve_page(): string
         '/admin/import' => 'admin_import',
         '/admin/settings' => 'admin_settings',
         '/admin/diagnostics' => 'admin_diagnostics',
+        '/admin/updates' => 'admin_updates',
     ];
     if (isset($static[$path])) {
         return $static[$path];

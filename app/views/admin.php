@@ -61,6 +61,7 @@ function render_admin_header(string $title, string $active = ''): void
 <a class="<?= $active === 'import' ? 'active' : '' ?>" href="<?= e(study_url('/admin/import')) ?>">Import</a>
 <a class="<?= $active === 'settings' ? 'active' : '' ?>" href="<?= e(study_url('/admin/settings')) ?>">Nastavení</a>
 <a class="<?= $active === 'diagnostics' ? 'active' : '' ?>" href="<?= e(study_url('/admin/diagnostics')) ?>">System Health</a>
+<a class="<?= $active === 'updates' ? 'active' : '' ?>" href="<?= e(study_url('/admin/updates')) ?>">Aktualizace</a>
 <a href="<?= e(study_url('/')) ?>">Web</a>
 <a href="<?= e(study_url('/account')) ?>">Můj účet</a>
 <form method="post" action="<?= e(study_url('/admin/logout')) ?>"><?= csrf_field() ?><button type="submit" class="nav-button">Odhlásit</button></form>

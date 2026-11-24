@@ -15,6 +15,7 @@
 | File | Ownership |
 | --- | --- |
 | `app/early_runtime.php` | last-resort exception and fatal boundary |
+| `app/update_gate.php` | shared request gate, exclusive activation and rollback |
 | `app/bootstrap.php` | application assembly and version constants |
 | `app/bootstrap/configuration.php` | config loading, base URL/path helpers |
 | `app/bootstrap/session.php` | session cookie/runtime setup |
@@ -39,6 +40,7 @@
 | `app/services/admin_logs.php` | bounded admin audit events |
 | `app/services/users.php` | learner/admin account creation, roles, activation, password lifecycle |
 | `app/services/diagnostics.php` | read-only System Health model |
+| `app/services/updater.php` | public GitHub release validation, managed staging and activation |
 
 `app/services.php` only loads service modules.
 
@@ -64,6 +66,7 @@ Admin:
 - `app/controllers/admin_import.php`
 - `app/controllers/admin_settings.php`
 - `app/controllers/admin_diagnostics.php`
+- `app/controllers/admin_updates.php`
 
 `app/controllers.php` only loads controller modules.
 
@@ -138,3 +141,5 @@ Admin:
 - `app/bootstrap/request.php`: canonical redirect when a hosting-internal path prefix leaks into the browser URL.
 - `app/security.php`: sanitizes saved post-login return targets so historical internal hosting prefixes cannot survive authentication redirects.
 - `install.php`: request-visible base URL detection and installed-state canonicalization using configured `base_url`.
+
+Updater presentation: `app/views/admin_updates.php`. Release build and regression tooling: `scripts/build_update_package.py`, `scripts/test_updater.php`, `.github/workflows/release.yml`.

@@ -2,13 +2,13 @@
 
 A framework-free PHP 8.1+ study application for the Czech PPL(A) theoretical syllabus. It provides an invitation-only learning environment with source-exact four-choice study cards, automatic scoring, drills, search, browser-local progress, learner profiles, and administrator management.
 
-**Current version:** 0.1.1
+**Current version:** 0.2.0
 
 **Deployment target:** ordinary PHP shared hosting with MySQL or MariaDB. The runtime uses native PHP, PDO, JavaScript, and Apache routing.
 
 ## First release
 
-Version 0.1.0 was the first public release. Version 0.1.1 hardens public URL handling on shared hosting.
+Version 0.1.0 was the first application release. Version 0.1.1 hardens public URL handling on shared hosting. Version 0.2.0 adds administrator-triggered verified updates from the public GitHub repository.
 
 The release includes:
 
@@ -89,6 +89,7 @@ Offline question-bank regeneration additionally requires Python 3.10+ and Popple
 | `/admin/import` | bundled or uploaded JSON import |
 | `/admin/settings` | application settings |
 | `/admin/diagnostics` | System Health and migrations |
+| `/admin/updates` | administrator-only stable release checks and forced reinstall |
 
 ## Question-bank maintenance
 
@@ -116,7 +117,7 @@ On Unix-like systems:
 bash deploy.sh
 ```
 
-The package is named `PPL-Study-0.1.1-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
+The legacy local package is named `PPL-Study-0.2.0-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
 
 Before release, run:
 
@@ -126,6 +127,82 @@ php scripts/validate_question_bank.php
 ```
 
 Then complete the fresh-install and administrator acceptance cases in `TESTING.md` against a disposable MySQL or MariaDB database.
+
+## Web updater (0.2.0 and newer)
+
+The administrator navigation includes **Aktualizace** at `/admin/updates`.
+Guests and learners cannot invoke it. No GitHub account, personal access token,
+SSH, cron, Composer or shell execution is needed on the hosting server.
+The public repository is fixed to `klusik/pplstudy`.
+
+### Initial deployment
+
+An existing 0.1.x installation must receive the complete
+`PPL-Study-0.2.0-deploy.zip` asset from GitHub Releases once, by FTP or the
+hosting file manager. Back up the site and database first. Extract and overlay
+the package without deleting the existing installation, `config.php`,
+`cache/`, uploaded source PDFs or the database. Do not rerun the installer.
+Generation 4 remains unchanged. PHP needs cURL, ZipArchive, verified outbound
+HTTPS, and permission to write cache and replace the managed application files.
+Confirm **Admin > Aktualizace** and the displayed version after deployment.
+
+### Normal use
+
+1. Sign in as an administrator with permanent password setup complete.
+2. Open **Aktualizace** and select **Zkontrolovat aktualizace**.
+3. Select **Nainstalovat novou verzi**, or **Vynutit aktualizaci / opravit soubory**
+   to revalidate the latest stable release even when the installed version matches.
+4. The POST action rechecks the release ID, version and SHA-256. It downloads
+   the canonical public release asset, checks the GitHub-provided byte count
+   and digest, and checks each staged file against the package manifest.
+5. Downloads and staging do not block other normal application requests.
+   A short exclusive maintenance period (HTTP 503 for competing requests)
+   protects backup and activation. If another request is still using the
+   application at activation, retry the operation rather than forcing it.
+6. The updater records the outcome in the administrator audit log and redirects
+   to the new runtime. Identical files do not need to be rewritten, including
+   in forced mode; altered/missing managed files are repaired.
+
+The 0.2.0 updater only overlays the verified managed inventory. It does not
+delete unlisted files, allow downgrade, install arbitrary commits, or
+automatically run on visits. It refuses a different application schema or
+added, removed or altered migration files. Schema-changing releases still
+require a backed-up manual deployment followed by the existing migration
+runner; this avoids unsafe code rollback after nontransactional MySQL DDL.
+The bundled JSON may be refreshed, but no live question-bank import is run.
+Existing users, administrator edits, database settings, local configuration,
+uploaded source PDFs and browser progress are not replaced.
+
+### Recovery
+
+Before publishing any file the updater stores verified originals under
+`cache/ppl-update/backup/` and writes `cache/ppl-update/activation.json`.
+Each replacement uses a verified sibling temporary file and atomic rename.
+An interrupted activation is rolled back under the exclusive request gate
+on a subsequent dynamic request. Reload after the maintenance response.
+The last successful backup is retained until the next update attempt.
+If recovery cannot verify original bytes, it deliberately fails closed.
+Using FTP, stop update attempts and restore the matching originals from the
+backup inventory (remove only files marked originally absent), or restore
+a known complete release from a separate backup. Check the restored bytes
+and PHP runtime before removing the activation journal. Do not remove the
+journal simply to bypass maintenance mode.
+
+### Publishing a release
+
+GitHub Actions builds and tests a managed distribution package on feature,
+develop, release and main branches. A successful push to main publishes
+`v_<major>.<minor>.<patch>` with its `PPL-Study-<version>-deploy.zip` asset
+using the workflow's repository token. Existing published releases are not
+overwritten. The server does not need that token. For a local clean checkout:
+
+```bash
+python3 scripts/build_update_package.py dist/PPL-Study-0.2.0-deploy.zip
+php scripts/test_updater.php dist/PPL-Study-0.2.0-deploy.zip
+```
+
+Use the published distribution ZIP, not the automatic GitHub source archive,
+for the first deployment and web updates.
 
 ## Architecture and licensing
 

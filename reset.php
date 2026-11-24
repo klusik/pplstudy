@@ -28,6 +28,8 @@
 declare(strict_types=1);
 
 $root = __DIR__;
+require_once $root . '/app/update_gate.php';
+\PplStudy\Update\enter_gate($root);
 $configPath = $root . '/config.php';
 if (!is_file($configPath)) {
     http_response_code(503);

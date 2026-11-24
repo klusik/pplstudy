@@ -23,7 +23,7 @@ Normal request:
 
 1. Apache serves an existing static file directly or rewrites the URL to root `index.php`.
 2. Root `index.php` delegates to `public/index.php`.
-3. `public/index.php` loads `app/early_runtime.php` and registers the emergency error boundary.
+3. `public/index.php` loads `app/early_runtime.php`, registers the emergency error boundary and enters the shared updater request gate before assembling the application.
 4. `app/bootstrap.php` loads runtime modules in a deterministic order.
 5. Missing `config.php` redirects to `install.php`.
 6. `app/bootstrap/session.php` starts the configured application session.
@@ -55,6 +55,7 @@ Services own reusable domain behavior:
 - settings
 - audit log
 - diagnostics
+- verified public stable-release discovery, staging and activation
 
 Controllers must not duplicate SQL that belongs to these services.
 
@@ -237,3 +238,7 @@ Source PDFs remain outside the repository and release package. Attachment-depend
 
 Client-local learning progress uses the pplStudyProgressV7 namespace in the first release.
 
+
+## Administrator updater boundary
+
+`app/update_gate.php` owns the early shared request lock, exclusive activation and interrupted-file rollback. `app/services/updater.php` owns the public GitHub release/asset contract, strict managed paths, archive and file verification, staging, backup and publication. The admin controller owns authorization and CSRF; the view renders explicit actions only. Network staging is separate from the exclusive activation period. Schema-changing packages and changed migration inventories are rejected; the existing database and local source documents remain independent. Keep the early gate protocol backward-compatible between releases.
