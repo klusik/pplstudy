@@ -78,7 +78,7 @@ namespace {
             check(!managed_path($unsafe), 'Unsafe path accepted: ' . $unsafe);
         }
         check(managed_path('app/bootstrap.php'), 'Expected runtime path rejected');
-        check(allowed_download_url('https://api.github.com/repos/klusik/pplstudy/releases/assets/123', true), 'Canonical API rejected');
+        check(allowed_download_url('https://api.github.com/repos/klusik/pplstudy/releases/latest', true), 'Canonical API rejected');
         check(allowed_download_url('https://release-assets.githubusercontent.com/example?signature=123', false), 'Expected redirect rejected');
         foreach (['http://release-assets.githubusercontent.com/example', 'https://evil.example/a',
             'https://release-assets.githubusercontent.com.evil.example/a', 'https://user@release-assets.githubusercontent.com/a',
@@ -89,8 +89,14 @@ namespace {
         $release = ['tag_name' => 'v_' . $version, 'draft' => false, 'prerelease' => false, 'assets' => [[
             'name' => 'PPL-Study-' . $version . '-deploy.zip', 'id' => 123, 'size' => filesize($archive),
             'state' => 'uploaded', 'digest' => 'sha256:' . file_digest($archive),
+            'browser_download_url' => 'https://github.com/klusik/pplstudy/releases/download/v_' . $version . '/PPL-Study-' . $version . '-deploy.zip',
         ]]];
         check(parse_release($release)['sha256'] === file_digest($archive), 'Release digest mismatch');
+        check(allowed_download_url($release['assets'][0]['browser_download_url'], false), 'Canonical public asset rejected');
+        $bad = $release;
+        $bad['assets'][0]['browser_download_url'] = 'https://github.com/other/repo/releases/download/v_' . $version . '/PPL-Study-' . $version . '-deploy.zip';
+        rejected(static fn () => parse_release($bad), 'foreign asset URL');
+        check(!allowed_download_url('https://github.com/klusik/pplstudy/releases/download/v_0.2.0/PPL-Study-0.3.0-deploy.zip', false), 'Mismatched version accepted');
         $bad = $release;
         $bad['draft'] = true;
         rejected(static fn () => parse_release($bad), 'draft release');

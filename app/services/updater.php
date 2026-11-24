@@ -6,7 +6,7 @@
  * Module Type: Administrator Update Service
  *
  * Purpose:
- *   Discover stable releases from the fixed private GitHub repository, verify
+ *   Discover stable releases from the fixed public GitHub repository, verify
  *   the exact release asset, stage a bounded managed-file inventory, and publish
  *   it under the early runtime gate with a durable rollback journal.
  *
@@ -22,7 +22,6 @@ use RuntimeException;
 use ZipArchive;
 use const PplStudy\Core\APP_SCHEMA_VERSION;
 use const PplStudy\Core\APP_VERSION;
-use function PplStudy\Core\study_config;
 use function PplStudy\Core\study_limit;
 use function PplStudy\Core\study_project_root;
 
@@ -32,9 +31,6 @@ const REPOSITORY_API = 'https://api.github.com/repos/klusik/pplstudy';
 function readiness(): array
 {
     $problems = [];
-    if (trim((string) (study_config()['github_update_token'] ?? '')) === '') {
-        $problems[] = 'V config.php chybí github_update_token (GitHub Contents: Read-only pro klusik/pplstudy).';
-    }
     if (!extension_loaded('curl') || !class_exists(ZipArchive::class)) {
         $problems[] = 'PHP vyžaduje rozšíření cURL a ZipArchive.';
     }
@@ -49,16 +45,6 @@ function readiness(): array
     return $problems;
 }
 
-/** Return a validated repository token from deployment-local config. */
-function github_token(): string
-{
-    $token = trim((string) (study_config()['github_update_token'] ?? ''));
-    if ($token === '' || strlen($token) > 512 || preg_match('/\A[A-Za-z0-9_-]+\z/D', $token) !== 1) {
-        throw new RuntimeException('Chybí platný GitHub token v konfiguraci.');
-    }
-    return $token;
-}
-
 /** Restrict outbound HTTPS to the repository API and GitHub's asset storage. */
 function allowed_download_url(string $url, bool $api): bool
 {
@@ -71,13 +57,17 @@ function allowed_download_url(string $url, bool $api): bool
     $host = strtolower((string) ($parts['host'] ?? ''));
     if ($api) {
         return $host === 'api.github.com'
-            && preg_match('~\A/repos/klusik/pplstudy/releases/(?:latest|assets/[1-9][0-9]*)\z~D', (string) ($parts['path'] ?? '')) === 1
+            && ($parts['path'] ?? null) === '/repos/klusik/pplstudy/releases/latest'
             && !isset($parts['query']);
+    }
+    if ($host === 'github.com') {
+        return !isset($parts['query'])
+            && preg_match('~\A/klusik/pplstudy/releases/download/v_?([0-9]+\.[0-9]+\.[0-9]+)/PPL-Study-\1-deploy\.zip\z~D', (string) ($parts['path'] ?? '')) === 1;
     }
     return in_array($host, ['release-assets.githubusercontent.com', 'objects.githubusercontent.com', 'github-releases.githubusercontent.com'], true);
 }
 
-/** Fetch one bounded response; never forward credentials to a redirect target. */
+/** Fetch one bounded public HTTPS response without repository credentials. */
 function github_request(string $url, $output, int $limit, bool $asset, bool $api): array
 {
     if (!allowed_download_url($url, $api)) {
@@ -92,11 +82,10 @@ function github_request(string $url, $output, int $limit, bool $asset, bool $api
     $bytes = 0;
     $headers = ['Accept: ' . ($asset ? 'application/octet-stream' : 'application/vnd.github+json')];
     if ($api) {
-        $headers[] = 'Authorization: Bearer ' . github_token();
         $headers[] = 'X-GitHub-Api-Version: 2022-11-28';
     }
     try {
-        curl_setopt_array($curl, [
+        $configured = curl_setopt_array($curl, [
             CURLOPT_HTTPHEADER => $headers,
             CURLOPT_USERAGENT => 'PPL-Study-Updater/' . APP_VERSION,
             CURLOPT_FOLLOWLOCATION => false,
@@ -124,6 +113,9 @@ function github_request(string $url, $output, int $limit, bool $asset, bool $api
                 return $written;
             },
         ]);
+        if (!$configured) {
+            throw new RuntimeException('Nelze bezpečně nakonfigurovat HTTPS přenos.');
+        }
         $success = curl_exec($curl);
         $status = (int) curl_getinfo($curl, CURLINFO_RESPONSE_CODE);
         if ($success === false) {
@@ -156,6 +148,10 @@ function parse_release(array $release): array
     $digest = $asset['digest'] ?? null;
     $id = $asset['id'] ?? null;
     $size = $asset['size'] ?? null;
+    $url = 'https://github.com/klusik/pplstudy/releases/download/' . $tag . '/' . $name;
+    if (($asset['browser_download_url'] ?? null) !== $url || !allowed_download_url($url, false)) {
+        throw new RuntimeException('Release neobsahuje kanonickou adresu distribučního balíčku.');
+    }
     if (!is_int($id) || $id <= 0 || !is_int($size) || $size <= 0
         || $size > study_limit('update_archive_max_bytes')
         || ($asset['state'] ?? null) !== 'uploaded'
@@ -163,10 +159,10 @@ function parse_release(array $release): array
         throw new RuntimeException('Release asset nemá ověřitelnou identitu, velikost a SHA-256.');
     }
 
-    return ['version' => $version, 'tag' => $tag, 'asset_id' => $id, 'size' => $size, 'sha256' => $hash[1]];
+    return ['version' => $version, 'tag' => $tag, 'asset_id' => $id, 'size' => $size, 'sha256' => $hash[1], 'url' => $url];
 }
 
-/** Read the newest stable release using the authenticated GitHub API. */
+/** Read the newest stable release using the public GitHub API. */
 function latest_release(): array
 {
     $problems = readiness();
@@ -180,7 +176,10 @@ function latest_release(): array
     try {
         $response = github_request(REPOSITORY_API . '/releases/latest', $stream, study_limit('update_metadata_max_bytes'), false, true);
         if ($response['status'] !== 200) {
-            throw new RuntimeException('GitHub release není dostupný (HTTP ' . $response['status'] . '). Ověřte token a oprávnění.');
+            if (in_array($response['status'], [403, 429], true)) {
+                throw new RuntimeException('GitHub omezil požadavky. Zkuste kontrolu později.');
+            }
+            throw new RuntimeException('Veřejný GitHub release není dostupný (HTTP ' . $response['status'] . ').');
         }
         rewind($stream);
         $data = json_decode(stream_get_contents($stream), true, 32, JSON_THROW_ON_ERROR);
@@ -201,9 +200,9 @@ function download_release(array $release, string $archive): void
         throw new RuntimeException('Nelze vytvořit dočasný ZIP.');
     }
     try {
-        $url = REPOSITORY_API . '/releases/assets/' . $release['asset_id'];
-        $response = github_request($url, $stream, $release['size'], true, true);
-        if (in_array($response['status'], [301, 302, 303, 307, 308], true)) {
+        $url = $release['url'];
+        $response = github_request($url, $stream, $release['size'], true, false);
+        for ($redirect = 0; $redirect < 2 && in_array($response['status'], [301, 302, 303, 307, 308], true); $redirect++) {
             if (!ftruncate($stream, 0) || !rewind($stream)) {
                 throw new RuntimeException('Nelze připravit přesměrované stažení.');
             }

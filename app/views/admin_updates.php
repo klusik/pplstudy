@@ -33,7 +33,7 @@ function render_admin_updates(array $problems, ?array $release, string $message,
     <h2>Stav aktualizací</h2>
     <dl class="definition-list">
         <div><dt>Nainstalovaná verze</dt><dd><?= e(APP_VERSION) ?></dd></div>
-        <div><dt>Zdroj</dt><dd>klusik/pplstudy · stabilní GitHub Releases</dd></div>
+        <div><dt>Zdroj</dt><dd>klusik/pplstudy · veřejné stabilní GitHub Releases</dd></div>
         <?php if ($release !== null): ?>
         <div><dt>Dostupná verze</dt><dd><?= e($release['version']) ?></dd></div>
         <div><dt>Velikost balíčku</dt><dd><?= e(number_format($release['size'] / 1048576, 2, ',', ' ')) ?> MiB</dd></div>
@@ -42,7 +42,7 @@ function render_admin_updates(array $problems, ?array $release, string $message,
     </dl>
     <?php if ($problems !== []): ?>
         <div class="flash error"><strong>Updater zatím není připraven.</strong><ul><?php foreach ($problems as $problem): ?><li><?= e($problem) ?></li><?php endforeach; ?></ul></div>
-        <p>Token se nastavuje pouze v lokálním config.php. Nikdy jej nevkládejte do repozitáře.</p>
+        <p>Pro veřejný repozitář není potřeba žádný GitHub token. Ověřte dostupnost PHP rozšíření a oprávnění souborů.</p>
     <?php else: ?>
         <form method="post" action="<?= e(study_url('/admin/updates')) ?>">
             <?= csrf_field() ?>
