@@ -31,6 +31,7 @@ use function PplStudy\Controllers\admin_settings;
 use function PplStudy\Controllers\admin_user_edit;
 use function PplStudy\Controllers\admin_user_new;
 use function PplStudy\Controllers\admin_users;
+use function PplStudy\Controllers\admin_updates;
 use function PplStudy\Controllers\api_quiz;
 use function PplStudy\Controllers\public_about;
 use function PplStudy\Controllers\public_drill;
@@ -69,6 +70,7 @@ function study_dispatch_page(string $page): void
         'admin_import' => admin_import(...),
         'admin_settings' => admin_settings(...),
         'admin_diagnostics' => admin_diagnostics(...),
+        'admin_updates' => admin_updates(...),
     ];
     if (!isset($routes[$page])) {
         render_not_found();

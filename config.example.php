@@ -28,6 +28,9 @@ return [
     'session_name' => 'ppl_study_session',
     'csrf_secret' => 'replace-with-a-long-random-secret',
     'setup_key' => 'replace-with-a-separate-long-random-recovery-key',
+    // Optional fine-grained token: only klusik/pplstudy, Contents: Read-only.
+    // Never commit the real token or place it in a URL.
+    'github_update_token' => '',
     'runtime_limits' => [
         // Optional deployment overrides. Defaults live in app/configuration_defaults.php.
     ],

@@ -38,6 +38,11 @@ function study_configuration_defaults(): array
         'quiz_custom_max_questions' => 120,
         'import_max_bytes' => 5 * 1024 * 1024,
         'source_document_upload_max_bytes' => 30 * 1024 * 1024,
+        'update_http_timeout_seconds' => 12,
+        'update_metadata_max_bytes' => 1024 * 1024,
+        'update_archive_max_bytes' => 25 * 1024 * 1024,
+        'update_expanded_max_bytes' => 80 * 1024 * 1024,
+        'update_max_files' => 1000,
     ];
 }
 

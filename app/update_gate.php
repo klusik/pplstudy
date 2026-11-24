@@ -244,6 +244,10 @@ function acquire_exclusive_gate(): void
 {
     $handle = $GLOBALS['ppl_update_gate_handle'] ?? null;
     if (!is_resource($handle) || !flock($handle, LOCK_EX | LOCK_NB)) {
+        // A failed shared-to-exclusive conversion may release the shared lock.
+        if (!is_resource($handle) || !flock($handle, LOCK_SH | LOCK_NB)) {
+            maintenance_response();
+        }
         throw new RuntimeException('Web právě zpracovává jiný požadavek. Zkuste aktualizaci znovu.');
     }
 }
