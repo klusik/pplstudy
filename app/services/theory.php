@@ -185,5 +185,10 @@ function theory_figures(): array
         'carb-icing' => ['Námraza ve Venturiho trubici', 'Při poklesu tlaku a odpařování paliva se směs ochlazuje; led v nejužším místě omezuje průtok. Jde o schematický princip, nikoli schéma konkrétního karburátoru.'],
         'storm-hazards' => ['Nebezpečí uvnitř i mimo Cb', 'Bouřkový oblak může mít silné vertikální proudy, kroupy, blesky a výtok sahající mimo viditelný oblak.'],
         'shear-turbulence' => ['Střih větru a mechanická turbulence', 'Rychlejší proudění ve vyšší vrstvě a vířivé proudy za překážkami; střih a turbulence jsou příbuzné, ale odlišné jevy.'],
+        'weather-info-types' => ['Čtyři typy meteorologické informace', 'Pozorování popisuje stav, analýza jej propojuje, předpověď odhaduje vývoj a výstraha vymezuje nebezpečí.'],
+        'metar-anatomy' => ['METAR: jak číst jednotlivé skupiny', 'Modelové skupiny METAR s překladem. Základny jsou kódované ve stovkách stop, převod na metry je doplňkový, QNH v hPa.'],
+        'metar-units' => ['METAR: vodorovná a svislá vzdálenost', 'Dohlednost a RVR v metrech, základny a vertikální dohlednost ve stovkách stop; obě jednotky v dekódování.'],
+        'taf-timeline' => ['TAF: čtení časových skupin', 'Ilustrace časové osy modelového TAF od 24. dne ve 12 UTC do 25. dne ve 12 UTC, s TEMPO, BECMG, PROB30 TEMPO a FM.'],
+        'sigmet-volume' => ['Výstražná oblast ve třech rozměrech', 'Modelová plocha v rámci FIR a příklad výstrahy mezi FL050 a FL100. Metrické převody představují tlakovou výšku, nikoli skutečnou AMSL.'],
     ];
 }

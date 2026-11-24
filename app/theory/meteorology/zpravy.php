@@ -81,6 +81,7 @@ return [
 'sections' => [
 [
 'heading' => 'Druhy meteorologických informací',
+'figure' => 'weather-info-types',
 'paras' => [
 'Pozorování popisuje naměřené nebo pozorované počasí v daném místě a čase. Analýza skládá více pozorování do mapy. Předpověď vyjadřuje očekávaný budoucí stav, ne jistotu. Výstražné informace upozorňují na konkrétní nebezpečné jevy. V ČR je hlavním poskytovatelem leteckých meteorologických produktů ČHMÚ; ŘLP ČR zajišťuje přístup k leteckým informacím a integrovanému briefingu. Využívej platné AIP a VFR příručku, ne jen jednu aplikaci.',
 'Čas meteorologických produktů je běžně UTC (Z). V ČR je místní čas v zimě UTC+1 a v létě UTC+2. Některé webové radarové či družicové produkty mohou uvádět občanský čas. Vždy kontroluj datum a jednotky v legendě. Nezaměňuj datum vydání s časem platnosti.'
@@ -142,6 +143,7 @@ return [
 ],
 [
 'heading' => 'METAR: anatomie zprávy',
+'figure' => 'metar-anatomy',
 'paras' => [
 'METAR je rutinní letištní zpráva. SPECI je mimořádné pozorování, které se vydává při příslušných změnách podmínek podle provozních pravidel. Každý údaj má přesné jednotky. V českém METAR/TAF je dohlednost v metrech, vítr typicky v uzlech, teplota v °C, QNH v hPa a základna oblačnosti ve stovkách stop (100 ft = 30,48 m). V USA se například používají statute miles a inHg; inHg zde uvádíme jen doplňkově. Vždy čti původní jednotky kódu a neměň je při předávání zprávy.'
 ],
@@ -198,6 +200,7 @@ return [
 ],
 [
 'heading' => 'Kódy dohlednosti, jevů a oblačnosti',
+'figure' => 'metar-units',
 'paras' => [
 'Zápis 9999 znamená převládající dohlednost nejméně 10 000 m (≈ 32 808 ft). Hodnota 0000 znamená méně než 50 m (≈ 164 ft). CAVOK se používá při dohlednosti nejméně 10 km (≈ 32 808 ft), bez provozně význačné oblačnosti (zejména žádný oblak pod 1 524 m / 5 000 ft nebo nejvyšší minimální sektorovou výškou, je-li vyšší, a žádný CB/TCU) a bez význačného počasí. CAVOK neznamená bezoblačnou oblohu, nulový vítr ani automaticky VFR na celé trase.',
 'Prefix − označuje slabý jev, + silný; nepřítomnost prefixu zpravidla mírnou intenzitu, pokud je intenzita pro jev použitelná. SH je přeháňka, TS bouřka, FZ namrzající, VC v blízkém okolí. Před teplotou M znamená minus; například M03/M05 je −3/−5 °C. Vítr 00000KT znamená bezvětří, VRB03KT proměnlivý směr 3 kt. AUTO upozorňuje na automatické měření a COR na opravenou zprávu. NSC označuje absenci význačné oblačnosti; NCD je u automatického pozorování stav, kdy nebyla detekována oblačnost.'
@@ -249,6 +252,7 @@ return [
 ],
 [
 'heading' => 'TAF: vývoj podmínek v čase',
+'figure' => 'taf-timeline',
 'paras' => [
 'TAF je letištní předpověď, nikoli předpověď celého FIR. První časová skupina je vydání, následuje období platnosti den/hodina. Základní skupina předpovídá převládající podmínky od začátku platnosti. FM mění převládající podmínky od určeného času. BECMG určuje postupný přechod v daném časovém okně; nejpozději na jeho konci platí nový stav. TEMPO představuje dočasná kolísání (jednotlivě zpravidla méně než hodinu a celkem méně než polovinu uvedené doby). PROB30/40 udává pravděpodobnost jevu, někdy v kombinaci s TEMPO. TAF AMD nahrazuje předchozí předpověď upravenou verzí; TAF COR opravuje chybu.',
 'Při čtení sestav časovou osu pro plánovaný přílet i rezervu. Skupiny nezrušené změnou mohou dále platit podle struktury TAF. NSW znamená, že se neočekává význačné počasí; nemusí znamenat jasnou oblohu. Zápis 2424 označuje konec 24. dne, tj. půlnoc na 25. den.'
@@ -293,6 +297,7 @@ FM250800 21008KT 9999 SCT020=',
 ],
 [
 'heading' => 'SIGMET, AIRMET, oblastní předpovědi a ATIS',
+'figure' => 'sigmet-volume',
 'paras' => [
 'SIGMET vymezuje nebezpečný jev, oblast (FIR/UIR nebo její část), čas platnosti, vertikální rozsah a případně pohyb a intenzitu. Může se týkat například význačných bouřek, silné turbulence, silné námrazy, horských vln nebo vulkanického popela. Neznamená, že ostatní území je zaručeně bezpečné. Sleduj vydání, změny i rušení informace. AIRMET a oblastní předpovědi doplňují nízkoletové informace podle regionálních postupů; konkrétní dostupnost a formát ověř v aktuálním AIP.',
 'ATIS kombinuje meteorologické údaje a informace o provozu letiště: například dráhu v používání, druh přiblížení, převodní hladinu nebo důležité provozní podmínky. Má identifikační písmeno. VOLMET nebo příslušné ATS/FIS poskytují meteorologické informace za letu. Pro FIR Praha používej aktuální zveřejněné kmitočty a služby. Běžný METAR sám o sobě neoznamuje, která dráha je právě v provozu.'
