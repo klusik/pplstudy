@@ -6,7 +6,7 @@ DirectoryIndex index.php
     RewriteEngine On
 
     # Never expose implementation, source data, migrations, cache, or scripts.
-    RewriteRule ^(?:app|database|data|scripts|cache)(?:/|$) - [F,L,NC]
+    RewriteRule ^(?:app|database|data|scripts|cache|\.git|\.github)(?:/|$) - [F,L,NC]
 
     # Existing public assets and utility entry points are served directly.
     RewriteCond %{REQUEST_FILENAME} -f [OR]
@@ -21,7 +21,7 @@ DirectoryIndex index.php
     Require all denied
 </FilesMatch>
 
-<FilesMatch "\.(?:md|sql|log|ini|lock|sh|bat|ps1)$">
+<FilesMatch "\.(?:md|sql|log|ini|lock|sh|bat|ps1|tmp|py|zip)$|^update-manifest\.json$">
     Require all denied
 </FilesMatch>
 

@@ -28,6 +28,8 @@
 declare(strict_types=1);
 
 $root = __DIR__;
+require_once $root . '/app/update_gate.php';
+\PplStudy\Update\enter_gate($root);
 $configFile = $root . '/config.php';
 $lockFile = $root . '/cache/installed.lock';
 

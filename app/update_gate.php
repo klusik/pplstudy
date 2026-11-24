@@ -92,7 +92,12 @@ function publish_file(string $source, string $target, string $digest, int $mode)
         }
         clearstatcache(true, $target);
         if (function_exists('opcache_invalidate') && str_ends_with($target, '.php')) {
-            @opcache_invalidate($target, true);
+            $invalidated = @opcache_invalidate($target, true);
+            if (!$invalidated && filter_var(ini_get('opcache.enable'), FILTER_VALIDATE_BOOLEAN)
+                && !filter_var(ini_get('opcache.validate_timestamps'), FILTER_VALIDATE_BOOLEAN)
+                && PHP_SAPI !== 'cli') {
+                throw new RuntimeException('Nelze obnovit OPcache pro aktualizovaný PHP soubor.');
+            }
         }
     } finally {
         if (is_file($temporary)) {
@@ -214,17 +219,33 @@ function enter_gate(string $root): void
     if (!is_file($root . '/config.php')) {
         return;
     }
-    if (is_link($root . '/cache') || is_link($root . '/cache/ppl-update.lock')) {
+    $cache = $root . '/cache';
+    if (is_link($cache) || is_link($cache . '/ppl-update.lock')
+        || is_link(work_directory($root)) || is_link(journal_path($root))) {
         maintenance_response();
     }
-    $handle = @fopen($root . '/cache/ppl-update.lock', 'c+b');
+    if (!is_dir($cache) && !@mkdir($cache, 0700) && !is_dir($cache)) {
+        maintenance_response();
+    }
+    // Protect the private workspace even when mod_rewrite is unavailable.
+    $protection = $cache . '/.htaccess';
+    if (is_link($protection)) {
+        maintenance_response();
+    }
+    if (!is_file($protection)) {
+        $written = @file_put_contents($protection, "Require all denied\n", LOCK_EX);
+        if ($written === false || !is_file($protection)) {
+            maintenance_response();
+        }
+    }
+    $handle = @fopen($cache . '/ppl-update.lock', 'c+b');
     if ($handle === false || !flock($handle, LOCK_SH | LOCK_NB)) {
         maintenance_response();
     }
     $GLOBALS['ppl_update_gate_handle'] = $handle;
 
-    if (is_file(journal_path($root))) {
-        if (!flock($handle, LOCK_EX | LOCK_NB)) {
+    if (file_exists(journal_path($root))) {
+        if (!is_file(journal_path($root)) || !flock($handle, LOCK_EX | LOCK_NB)) {
             maintenance_response();
         }
         try {

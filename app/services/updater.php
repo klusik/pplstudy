@@ -411,10 +411,21 @@ function install_release(array $release): int
     }
     $root = study_project_root();
     $work = work_directory($root);
-    acquire_exclusive_gate();
+    $jobPath = $root . '/cache/ppl-update-job.lock';
+    if (is_link($jobPath)) {
+        throw new RuntimeException('Nebezpečný zámek aktualizace.');
+    }
+    $job = @fopen($jobPath, 'c+b');
+    if ($job === false || !flock($job, LOCK_EX | LOCK_NB)) {
+        if (is_resource($job)) {
+            fclose($job);
+        }
+        throw new RuntimeException('Jiný administrátor již připravuje aktualizaci.');
+    }
+    $exclusive = false;
     try {
-        if (is_file(journal_path($root))) {
-            recover_activation($root);
+        if (file_exists(journal_path($root))) {
+            throw new RuntimeException('Nejdříve je nutné dokončit obnovu předchozí aktualizace.');
         }
         remove_workspace($work);
         if (!mkdir($work, 0700) || file_put_contents($work . '/.htaccess', "Require all denied\n") === false
@@ -424,7 +435,15 @@ function install_release(array $release): int
         $archive = $work . '/release.zip';
         download_release($release, $archive);
         $files = stage_archive($archive, $work . '/stage', $release['version']);
+        // Network transfer and decompression hold only a shared request gate.
+        // Stop other application requests only for backup and live activation.
+        acquire_exclusive_gate();
+        $exclusive = true;
         verify_migrations_unchanged($root, $files);
+        $metadata = json_decode(file_get_contents($root . '/release-metadata.json'), true, 32, JSON_THROW_ON_ERROR);
+        if (($metadata['current_version'] ?? null) !== APP_VERSION) {
+            throw new RuntimeException('Nainstalovaná verze se mezitím změnila. Obnovte stránku.');
+        }
         $journal = prepare_activation($root, $work . '/backup', $files);
         write_journal($root, $journal);
         try {
@@ -449,6 +468,13 @@ function install_release(array $release): int
         // replaces it only after confirming no unfinished activation exists.
         return count($journal);
     } finally {
-        release_gate();
+        // The request still has loaded the previous PHP generation. Keep its
+        // runtime gate until request shutdown rather than racing another update.
+        if ($exclusive && is_file(journal_path($root))) {
+            // A failed recovery must never serve another mixed runtime request.
+            maintenance_response();
+        }
+        flock($job, LOCK_UN);
+        fclose($job);
     }
 }
