@@ -20,7 +20,7 @@ Expected bundled question-bank validation:
 - each correct answer appears exactly once in its four choices
 - per-subject counts: 97, 58, 129, 87, 99, 60, 101, 128, 137
 
-Application database schema version for 0.1.1 is migration generation 4, ending with `202609040004_question_curation`.
+Application database schema version for 0.2.0 is migration generation 4, ending with `202609040004_question_curation`.
 
 ## 2. Installer acceptance test
 
@@ -416,3 +416,14 @@ Verify these cases:
 5. On a fresh installation, `installer_default_base_url()` derives the public path from `REQUEST_URI`; an internal `SCRIPT_NAME` must not add `/subdom/...` to the proposed base URL.
 6. Repeat with a legitimate subdirectory configuration such as `https://example.test/study`; `/study/admin` must resolve as `/admin` without being treated as an internal-path leak.
 7. Seed `$_SESSION['user_return_to']` with `/subdom/ppl/admin?x=1`; consuming it must produce `/admin?x=1`. Seed it with `/subdom/ppl/install.php`; consuming it must return the safe fallback instead of the installer.
+
+## Administrator web updater
+
+Automated package and recovery checks (PHP 8.1 with curl and zip):
+
+```bash
+python3 scripts/build_update_package.py dist/PPL-Study-0.2.0-deploy.zip
+php scripts/test_updater.php dist/PPL-Study-0.2.0-deploy.zip
+```
+
+On a disposable installation, verify signed-out and learner requests to /admin/updates redirect, admin GET displays the page, invalid CSRF POST is rejected, and valid admin POST checks the public release. Install or force-reinstall a stable verified same-schema asset; a modified managed file is restored and database records, local config and uploaded PDFs stay unchanged. A concurrent dynamic request receives HTTP 503 only during exclusive activation. Interrupt activation and verify the next dynamic request restores all original files before serving the application again. Check the admin log and installed version after success. Test an unwritable cache/target, missing PHP extension, failed download and invalid archive without making live changes. Schema-changing and older packages must be refused. See README for manual FTP recovery.

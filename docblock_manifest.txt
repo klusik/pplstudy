@@ -1,5 +1,5 @@
 PPL Study docblock manifest
-Version: 0.1.0
+Version: 0.2.0
 
 All application PHP modules, setup utilities, JavaScript, CSS, and offline parser files contain a leading documentation block describing purpose and ownership.
 
@@ -7,6 +7,7 @@ Core and bootstrap:
 - index.php
 - public/index.php
 - app/early_runtime.php
+- app/update_gate.php
 - app/bootstrap.php
 - app/bootstrap/configuration.php
 - app/bootstrap/session.php
@@ -29,6 +30,7 @@ Services:
 - app/services/quiz.php
 - app/services/importer.php
 - app/services/diagnostics.php
+- app/services/updater.php
 
 Controllers:
 - app/controllers.php
@@ -47,6 +49,7 @@ Controllers:
 - app/controllers/admin_import.php
 - app/controllers/admin_settings.php
 - app/controllers/admin_diagnostics.php
+- app/controllers/admin_updates.php
 
 Views:
 - app/views.php
@@ -54,6 +57,7 @@ Views:
 - app/views/account.php
 - app/views/public.php
 - app/views/admin.php
+- app/views/admin_updates.php
 
 Database and setup:
 - database/migrations/202609030001_initial_schema.php
@@ -75,3 +79,7 @@ Assets and scripts:
 - scripts/deploy.ps1
 - deploy.bat
 - deploy.sh
+
+Updater release tools:
+- scripts/build_update_package.py
+- scripts/test_updater.php

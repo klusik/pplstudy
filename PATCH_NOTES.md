@@ -1,5 +1,26 @@
 # Patch Notes
 
+## 0.2.0 - 2026-11-24
+
+### Added
+
+- Administrator-only **Aktualizace** page for checking and installing stable GitHub releases, including forced same-version repair.
+- Anonymous HTTPS download from the public `klusik/pplstudy` repository, pinned release identity, provider SHA-256, bounded archive staging and verified per-file inventory.
+- Separate update-job lock and exclusive activation gate, verified original backups, atomic file replacement and automatic recovery of interrupted activation.
+- GitHub Actions checks PHP 8.1 syntax, question-bank invariants, package integrity and updater regressions, then publishes a versioned ZIP on main.
+
+### Database
+
+- No database migration. Application schema remains generation 4; question-bank schema and compilation are unchanged.
+- The updater does not import or overwrite live questions, accounts, source PDFs or local configuration.
+
+### Deployment
+
+- Existing 0.1.x installations require one complete FTP/hosting-file-manager overlay of the 0.2.0 distribution ZIP. Preserve `config.php`, runtime cache and uploaded documents.
+- The web updater requires PHP cURL and ZipArchive, outbound HTTPS, and writable managed files/cache.
+- The first updater supports same-schema stable releases only; downgrade, arbitrary commits, unlisted-file deletion and automated visitor updates are not included.
+
+
 ## 0.1.1 - 2026-09-04
 
 ### Fixed
