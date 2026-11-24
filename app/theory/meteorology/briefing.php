@@ -125,6 +125,7 @@ return [
 ],
 [
 'heading' => 'Scénář A: zimní tlaková výše',
+'figure' => 'winter-valley',
 'paras' => [
 'Modelová situace: malé letiště v údolí má ráno teplotu +1 °C a rosný bod 0 °C, vítr slabý. V regionu se vyskytuje nízká inverze, výše na kopcích je slunečno. V předpovědi pro dobu návratu je přetrvávající nízká oblačnost a lokální mlha. Právě vysoký tlak a bezvětří jsou v tomto případě příčinou problému, nikoli argumentem pro odlet.',
 'Zhodnoť spread, noční vývoj, rozpad inverze v regionální předpovědi, skutečnou základnu a dohlednost na cestě. Pokud není bezpečný odlet i návrat, vyčkej nebo zruš let. Slunce na kopci ani pohled nad inverzi není důkaz, že v údolí zůstane vizuální přístup.'
@@ -136,6 +137,7 @@ return [
 ],
 [
 'heading' => 'Scénář B: letní odpolední konvekce',
+'figure' => 'summer-convection',
 'paras' => [
 'Modelová situace: ráno CAVOK a 25 °C, během odpoledne předpověď TCU/CB a přeháněk, vysoká vlhkost a výšková brázda. Radar v době plánování ještě nic výrazného neukazuje. Dopoledne je možné stabilnější okno, ale bouřky se mohou vytvořit rychle přímo na trase nebo u cílového letiště.',
 'Posuď čas, pravděpodobnost a pohyb konvekce, sleduj trend a výstrahy. Radar bez odrazů znamená pouze absenci detekovaných srážek v daném čase, ne absenci budoucí bouřky. Nastav předem konzervativní hranice návratu. Není-li jasná cesta mimo konvekci, let odlož; v okolí přeháňky na letišti zvaž také střih a výtokový vítr.'
@@ -143,6 +145,7 @@ return [
 ],
 [
 'heading' => 'Scénář C: základna oblačnosti a terén',
+'figure' => 'terrain-ceiling',
 'paras' => [
 'Modelové letiště v elevaci 396 m / 1 300 ft AMSL hlásí BKN020 (610 m / 2 000 ft nad letištěm). Základna je tedy přibližně 1 006 m / 3 300 ft AMSL. Na trase leží hřeben 823 m / 2 700 ft AMSL. Mezi vrcholem a letištní odhadovanou základnou zbývá jen 183 m / 600 ft, navíc skutečný terén a oblačnost se mohou měnit. To není automaticky použitelná rezerva pro VFR, zejména při požadovaných vzdálenostech od oblačnosti, stoupání terénu, turbulenci nebo nepřesnosti výšky.',
 'Pro bezpečný plán musí existovat trasa se skutečnou rezervou, případně nižší alternativní terén, při zachování pravidel pro VMC a minimální výšky. Neodvozuj lokální AGL nad celou krajinou pouze z BKN na odletovém letišti.'
@@ -152,6 +155,7 @@ H AMSL [ft] ≈ elevace [ft AMSL] + základna [ft AGL]'
 ],
 [
 'heading' => 'Scénář D: teplý den a krátká dráha',
+'figure' => 'hot-runway',
 'paras' => [
 'Modelová situace: travnaté letiště v 457 m / 1 500 ft AMSL, QNH 1003 hPa, OAT +30 °C. Orientační DA z kapitoly o výškoměru je kolem 1 220 m / 4 000 ft. Boční vítr v nárazech, mokrá tráva nebo stoupající terén za dráhou dále komplikují výkon. Nejde jen o délku rozjezdu, ale o celou potřebnou vzdálenost a schopnost překonat překážky.',
 'Použij příslušné výkonové tabulky konkrétního AFM/POH, skutečnou hmotnost, stav dráhy, vítr, teplotu a publikovanou délku. Nepoužívej odhad DA jako náhradu výkonového výpočtu. Pokud výsledky nemají přijatelnou rezervu, sniž hmotnost v rámci limitů, zvol jiné letiště/čas nebo nelétej.'
@@ -159,6 +163,7 @@ H AMSL [ft] ≈ elevace [ft AMSL] + základna [ft AGL]'
 ],
 [
 'heading' => 'Rozhodnutí a další studium',
+'figure' => 'go-no-go',
 'paras' => [
 'Při rozhodování je důležité odolat tlaku na pokračování: cestující, časový plán nebo už investované palivo nejsou meteorologické argumenty. Dobrá praxe je určit dopředu čas a místo pro další kontrolu a podmínky, při nichž plán změníš. Za letu ověřuj, že předpověď stále odpovídá pozorování; použij aktuální informace dostupné přes ATS/FIS a neodkládej bezpečné rozhodnutí.',
 'Uč se nejprve principy a poté banku otázek. Zkoušej si bez nápovědy vysvětlit, proč je odpověď správná, a proč ostatní možnosti neplatí. Učebnice mapuje 129 zveřejněných meteorologických otázek v lokální bance, ale ÚCL uvádí, že zveřejněná banka představuje jen část skutečných zkouškových otázek. Samotná znalost zveřejněné sady není záruka úspěchu.'

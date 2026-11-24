@@ -190,5 +190,10 @@ function theory_figures(): array
         'metar-units' => ['METAR: vodorovná a svislá vzdálenost', 'Dohlednost a RVR v metrech, základny a vertikální dohlednost ve stovkách stop; obě jednotky v dekódování.'],
         'taf-timeline' => ['TAF: čtení časových skupin', 'Ilustrace časové osy modelového TAF od 24. dne ve 12 UTC do 25. dne ve 12 UTC, s TEMPO, BECMG, PROB30 TEMPO a FM.'],
         'sigmet-volume' => ['Výstražná oblast ve třech rozměrech', 'Modelová plocha v rámci FIR a příklad výstrahy mezi FL050 a FL100. Metrické převody představují tlakovou výšku, nikoli skutečnou AMSL.'],
+        'winter-valley' => ['Zimní inverze v údolí', 'Pod inverzí může přetrvávat mlha na letišti, i když je na kopcích slunečno.'],
+        'summer-convection' => ['Změna konvekce během dne', 'Modelový vývoj od ranního CAVOK po odpolední vývoj TCU/CB a srážek. Při plánování rozhoduje také čas návratu.'],
+        'terrain-ceiling' => ['Základna oblačnosti versus hřeben', 'Letiště 396 m / 1300 ft AMSL hlásí BKN020. Odhad základny 1006 m / 3300 ft AMSL; hřeben 823 m / 2700 ft AMSL, mezera 183 m / 600 ft.'],
+        'hot-runway' => ['Horký den, krátká dráha a překážka', 'Modelové letiště s vysokou hustotní výškou; výkonnost musí pokrýt rozjezd, vzletovou vzdálenost i stoupání nad překážky. Není v měřítku.'],
+        'go-no-go' => ['Rozhodování GO / NO-GO', 'Průběžně ověřuj souvislou bezpečnou cestu, rezervy a alternativy; pokud není bezpečnost prokazatelná, změň plán nebo let odlož.'],
     ];
 }
