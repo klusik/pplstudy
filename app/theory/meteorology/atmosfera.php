@@ -55,7 +55,7 @@ return [
 [
 'label' => 'Pokles teploty v ISA',
 'value' => '0,65 °C/100 m ≈ 2 °C/1 000 ft',
-'note' => 'Přesný převod 1,9812 °C/1 000 ft; paměťová pomůcka 2. ISA není skutečný profil ani adiabata.',
+'note' => 'Z 0,65 °C/100 m vychází 1,9812 °C/1 000 ft; paměťová pomůcka 2 °C/1 000 ft. ISA není skutečný profil ani adiabata.',
 'overview' => true
 ],
 [

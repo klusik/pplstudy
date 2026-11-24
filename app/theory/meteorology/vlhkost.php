@@ -34,7 +34,7 @@ return [
 [
 'label' => 'Suchá adiabata (DALR)',
 'value' => '0,98 °C/100 m ≈ 3 °C/1 000 ft',
-'note' => 'Zkouškově 1 °C/100 m; jde o nenasycenou částici, nikoli okolní atmosféru.',
+'note' => 'Zkouškově 1 °C/100 m (přibližně 3 °C/1 000 ft); jde o nenasycenou částici, nikoli okolní atmosféru.',
 'overview' => true
 ],
 [
@@ -52,7 +52,7 @@ return [
 [
 'label' => 'Odhad základny termických Cu',
 'value' => '≈ 122 m/°C ≈ 400 ft/°C',
-'note' => 'Výška nad zdrojovou vrstvou (AGL při přízemní vrstvě), nikoliv AMSL. Pro rychlý metrický odhad 120 m/°C.',
+'note' => 'Výška nad zdrojovou vrstvou (AGL při přízemní vrstvě), nikoliv AMSL. Pro rychlý odhad 120 m/°C ≈ 394 ft/°C, obvykle zaokrouhleno na 400 ft/°C.',
 'overview' => true
 ]
 ],

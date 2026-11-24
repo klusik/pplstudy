@@ -20,7 +20,7 @@ Expected bundled question-bank validation:
 - each correct answer appears exactly once in its four choices
 - per-subject counts: 97, 58, 129, 87, 99, 60, 101, 128, 137
 
-Application database schema version for 0.3.0 is migration generation 4, ending with `202609040004_question_curation`.
+Application database schema version for 0.3.1 is migration generation 4, ending with `202609040004_question_curation`.
 
 ## 2. Installer acceptance test
 
@@ -430,4 +430,8 @@ On a disposable installation, verify signed-out and learner requests to /admin/u
 
 ## Theory textbook regression (0.3.0+)
 
-Run `php scripts/test_theory.php dist/PPL-Study-0.3.0-deploy.zip` after building the managed package. It verifies all 129 local source IDs, registered chapters, structured tables and assets. The existing disposable MariaDB HTTP test also checks guest and pending-password redirects, authenticated access, all 14 chapters, the single subject button, query-string fallback, invalid chapter rejection, SVG XML and the original learning card.
+Run `php scripts/test_theory.php dist/PPL-Study-0.3.1-deploy.zip` after building the managed package. It verifies all 129 local source IDs, registered chapters, structured tables and assets. The existing disposable MariaDB HTTP test also checks guest and pending-password redirects, authenticated access, all 14 chapters, the single subject button, query-string fallback, invalid chapter rejection, SVG XML and the original learning card.
+
+### Meteorology revision (0.3.1)
+
+The theory package check validates 14 chapters, 62 illustrated sections, 61 unique SVG assets, 58 memory aids (26 selected for the quick reference), 25 glossary entries, earlier-chapter prerequisites, and the PA-before-DA order. HTTP regression verifies the new anchors, worked-example steps, image links, glossary and memory aids in the existing authenticated course. The official source JSON and application schema must remain unchanged. Use AIP GEN 2.1 for reporting units and the aircraft AFM/POH for actual performance.

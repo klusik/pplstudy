@@ -1,5 +1,22 @@
 # Patch Notes
 
+## 0.3.1 - 2026-11-24
+
+### Improved
+
+- Reviewed all 14 meteorology chapters and added 58 prominent memory aids, including a linked 26-item quick reference for examination revision.
+- Added consistent metric and foot equivalents in the explanatory text, tables, worked examples, checks and numeric illustrations; hPa remains the primary pressure unit. Native METAR/TAF/FL codes are preserved, and Czech AIP reporting units are distinguished from mathematical or published rounded conversions.
+- Defined pressure altitude (PA) before density altitude (DA), explained reference heights, OAT and TISA, and split related computations into explicit steps in metres and feet. Clarified the difference between indicated and true height and the assumptions behind approximate pressure and cold-temperature corrections.
+- Expanded the original vector illustration set from 23 to 61; all 62 teaching sections now contain an illustration. Added full-size image links, improved dual-unit axes and corrected diagram geometry.
+- Added a linked glossary of 25 terminology entries and chapter prerequisites. Clarified definitions at first use, including the difference between METAR height above aerodrome and Czech SWL altitude AMSL.
+- Extended regression tests to require complete illustration and memory-aid coverage, ordered concepts, calculation examples, glossary and prerequisite integrity, and HTTP rendering.
+
+### Database and deployment
+
+- Application schema remains generation 4. The 896 source-exact questions, 129 meteorology source IDs, existing migrations and updater are unchanged.
+- Update directly from version 0.3.0 using Admin > Aktualizace. No manual FTP overlay, database import or migration is needed.
+
+
 ## 0.3.0 - 2026-11-24
 
 ### Added
