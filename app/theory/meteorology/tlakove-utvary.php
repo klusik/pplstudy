@@ -42,6 +42,26 @@ return [
 'nws-cape',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Níže / výše',
+'value' => 'L: konvergence a výstup · H: divergence a sestup',
+'note' => 'Přízemní idealizace. Výše v zimě nevylučuje mlhu ani nízkou oblačnost.',
+'overview' => false
+],
+[
+'label' => 'Tlakové hladiny',
+'value' => '850 hPa / 500 hPa',
+'note' => 'Tlaková plocha nemá pevnou geometrickou výšku. Ve studeném sloupci leží plochy blíže u sebe.',
+'overview' => false
+],
+[
+'label' => 'Tloušťka vrstvy',
+'value' => 'Δz [ft] = Δz [m] / 0,3048',
+'note' => 'Hypsometrická rovnice při R a g v SI dává metry; následně lze výsledek převést na stopy.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Cyklona, anticyklona, brázda a hřeben',
@@ -53,6 +73,7 @@ return [
 ],
 [
 'heading' => 'Jak se liší tlaková výše v létě a zimě',
+'figure' => 'high-season',
 'paras' => [
 'V létě může převládat slunečné počasí, slabý přízemní vítr, místní brízy a roztroušené Cu. Výška základen závisí na vlhkosti; při silném oslunění může být výrazná termika. Přetrvávající vysoké teploty zvyšují hustotní výšku a snižují výkonnost malého letadla. Stagnující vzduch může také hromadit zákal. Na okraji výše nebo pod výškovou níží se konvekce může rozvíjet i při relativně vysokém tlaku u země.',
 'V zimě dlouhá noc a nízké sluneční záření napomáhají udržování inverzí. Slabé proudění zadržuje vlhkost a znečištění v přízemní vrstvě; rozsáhlé oblasti mlhy nebo nízkého St mohou přetrvávat mnoho hodin či dní. Nad inverzí může být teplo a jasno, ale pro VFR odlet a návrat rozhoduje počasí pod ní.'
@@ -85,14 +106,15 @@ return [
 [
 'heading' => 'Tlakové plochy ve výšce',
 'paras' => [
-'Přízemní synoptická mapa ukazuje tlak redukovaný na střední hladinu moře. Výškové mapy (např. 850 nebo 500 hPa) zobrazují obvykle geopotenciální výšku, tedy kde se nachází určitá tlaková plocha. Neříkají, že na této ploše je různý tlak: tlak je stejný z definice. V chladnějším vzduchu je menší geometrická tloušťka vrstvy mezi dvěma tlakovými hladinami. Proto studený příliv ve vyšší troposféře snižuje výšku tlakových ploch a může souviset s brázdou nebo výškovou níží.',
+'Přízemní synoptická mapa ukazuje tlak redukovaný na střední hladinu moře. Výškové mapy (např. 850 nebo 500 hPa) zobrazují obvykle geopotenciální výšku (výšku zohledňující změnu tíže s výškou), tedy kde se nachází určitá tlaková plocha. Neříkají, že na této ploše je různý tlak: tlak je stejný z definice. V chladnějším vzduchu je menší geometrická tloušťka vrstvy mezi dvěma tlakovými hladinami, což je tentýž fyzikální princip jako teplotní chyba výškoměru z kapitoly 2. Proto studený příliv ve vyšší troposféře snižuje výšku tlakových ploch a může souviset s brázdou nebo výškovou níží.',
 'Přísun chladného vzduchu nad teplejší a vlhčí přízemní vrstvu často zvětšuje skutečný teplotní gradient. Pokud je k dispozici vlhkost a zdvih, vznikají přeháňky nebo bouřky i bez dobře vyvinuté přízemní fronty. Výšková brázda může podporovat vertikální proudění a organizovat konvekci. Samotný pokles geopotenciální výšky neurčuje přesně přízemní tlak; sleduj mapy obou vrstev.'
 ],
 'figure' => 'thickness',
-'formula' => 'Δz ≈ (R × T̄ᵥ / g) × ln(p₁/p₂)',
+'formula' => 'Δz [m] ≈ (R × T̄ᵥ / g) × ln(p₁/p₂)
+Δz [ft] = Δz [m] / 0,3048 (R a g v SI; oba tlaky ve stejných jednotkách, např. hPa)',
 'example' => [
 'title' => 'Tlakové hladiny 1000 a 500 hPa',
-'text' => 'Pro střední virtuální teplotu vrstvy 270 K vychází tloušťka přibližně 5 480 m; při 250 K asi 5 070 m. Chladnější sloupec je přibližně o 410 m tenčí. Jde o zjednodušený hypsometrický výpočet.'
+'text' => 'R je měrná plynová konstanta suchého vzduchu (≈ 287,05 J/(kg·K)), g tíhové zrychlení (≈ 9,81 m/s²), T̄ᵥ střední virtuální teplota vrstvy v K (teplota suchého vzduchu se stejnou hustotou při daném tlaku), p₁ a p₂ spodní a horní tlak, ln přirozený logaritmus. Pro střední virtuální teplotu vrstvy 270 K vychází tloušťka přibližně 5 480 m (17 980 ft); při 250 K asi 5 070 m (16 630 ft). Chladnější sloupec je přibližně o 410 m (1 350 ft) tenčí. Jde o zjednodušený hypsometrický výpočet.'
 ]
 ],
 [

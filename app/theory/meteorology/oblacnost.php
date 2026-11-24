@@ -38,11 +38,43 @@ return [
 'wmo-classification',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Nízké oblaky (mírné šířky)',
+'value' => '0–2 000 m ≈ 0–6 560 ft',
+'note' => 'St, Sc a obvykle základny Cu a Cb.',
+'overview' => true
+],
+[
+'label' => 'Střední oblaky',
+'value' => '2–7 km ≈ 6 560–22 970 ft',
+'note' => 'Ac, As, Ns; rozsahy jsou přibližné a překrývají se.',
+'overview' => false
+],
+[
+'label' => 'Vysoké oblaky',
+'value' => '5–13 km ≈ 16 400–42 650 ft',
+'note' => 'Ci, Cc, Cs. WMO používá orientační výšková pásma; zaokrouhlení v metrech a stopách se může lišit.',
+'overview' => false
+],
+[
+'label' => 'Ceiling a pokrytí',
+'value' => 'FEW 1–2/8 · SCT 3–4/8 · BKN 5–7/8 · OVC 8/8',
+'note' => 'Ceiling je nejnižší BKN/OVC nebo vertikální dohlednost VV při zakrytém nebi.',
+'overview' => true
+],
+[
+'label' => 'Základna v METAR/TAF',
+'value' => '100 ft = 30,48 m',
+'note' => 'BKN015 = 1 500 ft ≈ 457 m nad letištěm. Kódy se nepřevádějí.',
+'overview' => true
+]
+],
 'sections' => [
 [
 'heading' => 'Deset rodů oblaků',
 'paras' => [
-'Mezinárodní klasifikace WMO rozlišuje deset rodů. Názvy napovídají: cirro- označuje převážně vysokou oblačnost, alto- střední, stratus vrstvy, cumulus kupy a nimbus srážkový charakter. V mírném pásu se nízká hladina orientačně pohybuje od země do 2 km, střední 2–7 km, vysoká 5–13 km. Rozsahy se překrývají a mění se se zeměpisnou šířkou; nejde o pevné hranice. Cu a Cb často začínají nízko, ale rostou do vyšších hladin; Ns může zasahovat do více hladin.'
+'Mezinárodní klasifikace WMO (World Meteorological Organization, Světová meteorologická organizace) rozlišuje deset rodů. Názvy napovídají: cirro- označuje převážně vysokou oblačnost, alto- střední, stratus vrstvy, cumulus kupy a nimbus srážkový charakter. V mírném pásu se nízká hladina orientačně pohybuje od země do 2 km (≈ 6 560 ft), střední 2–7 km (≈ 6 560–22 970 ft), vysoká 5–13 km (≈ 16 400–42 650 ft). Stopy jsou zde zaokrouhleným převodem metrických intervalů; WMO uvádí také samostatně zaokrouhlené orientační hranice ve stopách: nízká 0–6 500 ft, střední 6 500–23 000 ft, vysoká 16 500–45 000 ft. Nejde o přesné matematické ekvivalenty ani o ostré hranice; zde v hlavních tabulkách převádíme metrické hodnoty konzistentně. Rozsahy se překrývají a mění se se zeměpisnou šířkou; nejde o pevné hranice. Cu a Cb často začínají nízko, ale rostou do vyšších hladin; Ns může zasahovat do více hladin.'
 ],
 'figure' => 'clouds',
 'table' => [
@@ -107,6 +139,7 @@ return [
 ],
 [
 'heading' => 'Jak rozpoznat oblak za letu',
+'figure' => 'cloud-recognition',
 'paras' => [
 'Ci je obvykle vláknitý a má průsvitné okraje. Cu má ostré oblé okraje v teplejší kapalné části a přibližně vodorovnou základnu. Ac lenticularis je hladká čočka, která může téměř stát na místě i při silném větru. Pozorování čočky na závětří svědčí o horské vlně, ne o bezpečném místě pro let. Pokud je oblak zakryt další vrstvou, jeho přesný druh může být ze země nebo z kokpitu nerozpoznatelný.',
 'U Cb se horní část zpravidla vlákní a rozprostírá do kovadliny. TCU je výrazný věžovitý Cu, který může přerůst v Cb; již v této fázi očekávej nepříznivé proudění. Nezaměňuj hladkou lentikulární oblačnost s klidným vzduchem v jejím okolí.'
@@ -115,8 +148,9 @@ return [
 ],
 [
 'heading' => 'Pokrytí, základna a vrchol oblačnosti',
+'figure' => 'ceiling',
 'paras' => [
-'Pokrytí se udává v osminách (oktas). FEW a SCT mohou mít nízkou základnu, i když netvoří ceiling. Ceiling je nejnižší relevantní vrstva BKN nebo OVC, případně vertikální dohlednost při zakrytém nebi. Při plánování VFR však rozhodují i jednotlivé oblaky, požadovaná vzdálenost od nich, skutečná dohlednost za letu a odstup od terénu, ne jen ceiling. METAR uvádí základny v stovkách stop nad letištěm (AGL vzhledem k referenci letiště). Mapy mohou používat AMSL, FL nebo jiné označení, proto čti legendu.'
+'Pokrytí se udává v osminách (oktas). FEW (Few) a SCT (Scattered) mohou mít nízkou základnu, i když netvoří ceiling. Ceiling je nejnižší relevantní vrstva BKN (Broken) nebo OVC (Overcast), případně vertikální dohlednost při zakrytém nebi. Při plánování VFR (Visual Flight Rules, let podle pravidel za viditelnosti) však rozhodují i jednotlivé oblaky, požadovaná vzdálenost od nich, skutečná dohlednost za letu a odstup od terénu, ne jen ceiling. METAR uvádí základny ve stovkách stop (100 ft = 30,48 m) nad letištěm (AGL vzhledem k referenci letiště). Mapy mohou používat AMSL, FL nebo jiné označení, proto čti legendu.'
 ],
 'table' => [
 'headers' => [
@@ -128,33 +162,34 @@ return [
 [
 'FEW',
 '1–2/8',
-'FEW020 = málo oblaků, základna 2 000 ft'
+'FEW020 = málo oblaků, základna 610 m / 2 000 ft'
 ],
 [
 'SCT',
 '3–4/8',
-'SCT025 = rozptýlená ve 2 500 ft'
+'SCT025 = rozptýlená v 762 m / 2 500 ft'
 ],
 [
 'BKN',
 '5–7/8',
-'BKN015 = ceiling 1 500 ft, pokud není nižší BKN/OVC/VV'
+'BKN015 = ceiling 457 m / 1 500 ft, pokud není nižší BKN/OVC/VV'
 ],
 [
 'OVC',
 '8/8',
-'OVC008 = zataženo v 800 ft'
+'OVC008 = zataženo v 244 m / 800 ft'
 ],
 [
 'VV',
 'vertikální dohlednost',
-'VV003 = 300 ft vertikální dohlednosti'
+'VV003 = 91 m / 300 ft vertikální dohlednosti'
 ]
 ]
 ]
 ],
 [
 'heading' => 'Mechanismy srážek',
+'figure' => 'precipitation-growth',
 'paras' => [
 'Kondenzace vytváří drobné kapky; aby z nich byly srážky, musí růst. V teplém oblaku se větší kapičky srážejí s menšími a slučují (koalescence). Ve smíšeném oblaku mohou ledové krystalky růst na úkor přechlazených kapek (Bergeronův–Findeisenův proces), spojovat se do vloček nebo namrzat při zachytávání kapek. Částice padají, pokud jejich pádová rychlost překoná stoupání vzduchu, a při průchodu různými teplotními vrstvami mohou tát či znovu mrznout.',
 'Silné stoupavé proudy pomáhají růstu velkých kapek a krup; v otázkách 64 a 65 je tento mechanismus zdůrazněn. V přírodě ale vznikají i mrholení, déšť nebo sněžení ve vrstevnaté oblačnosti s poměrně slabým zdvihem. Ns typicky dává souvislé srážky; Cu congestus nebo Cb spíše krátké, proměnlivě intenzivní přeháňky. Virga jsou srážky, které se před dopadem odpaří nebo vysublimují; ochlazení vzduchu pod nimi může podporovat downdraft.'
@@ -216,8 +251,8 @@ return [
 'answer' => 'Nimbostratus (Ns).'
 ],
 [
-'question' => 'BKN012 při elevaci 1 500 ft: kolik přibližně AMSL činí základna?',
-'answer' => '1 200 ft nad letištěm + 1 500 ft = 2 700 ft AMSL.'
+'question' => 'BKN012 při elevaci 457 m / 1 500 ft: kolik přibližně AMSL činí základna?',
+'answer' => '366 m nad letištěm + 457 m ≈ 823 m AMSL; 1 200 ft + 1 500 ft = 2 700 ft AMSL.'
 ],
 [
 'question' => 'Co může signalizovat virga pod vysokou konvektivní oblačností?',

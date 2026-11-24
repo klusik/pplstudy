@@ -1,5 +1,5 @@
 PPL Study docblock manifest
-Version: 0.3.0
+Version: 0.3.1
 
 All application PHP modules, setup utilities, JavaScript, CSS, and offline parser files contain a leading documentation block describing purpose and ownership.
 

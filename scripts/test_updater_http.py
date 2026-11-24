@@ -189,12 +189,22 @@ def exercise_theory(root, learner, pending):
     status, headers, html = request(learner, course)
     require(status == 200 and "129/129" in html and "Letecká meteorologie" in html, "Course overview missing")
     require("no-store" in headers.get("Cache-Control", ""), "Theory cache policy missing")
+    require('id="tahak"' in html and 'id="slovnik"' in html and "0,65 °C/100 m" in html
+            and "1 000 ft" in html , "Quick reference / glossary missing")
     chapters = list(dict.fromkeys(re.findall(r'\?chapter=([a-z0-9-]+)', html)))
     require(len(chapters) == 14, "Chapter navigation incomplete")
     for chapter in chapters:
         status, _, html = request(learner, course + "?chapter=" + chapter)
         require(status == 200 and 'class="theory-article"' in html and "<details>" in html
                 and "Doporučené zdroje kapitoly" in html, "Chapter unavailable: " + chapter)
+        require('id="pomucky"' in html and "Zapamatuj si" in html and 'class="theory-memory-card"' in html
+                and 'class="theory-figure-link"' in html and 'class="theory-prerequisites"' in html,
+                "Missing illustrated memory aids or prerequisites: " + chapter)
+        if chapter == "vyskomery":
+            require(html.index("Tlaková výška (pressure altitude, PA)") < html.index("Hustotní výška (density altitude, DA)")
+                    and 'class="theory-example-steps"' in html and "539,5 m" in html and "3 990 ft" in html
+                    and "36,6 m/°C" in html and "120 ft/°C" in html,
+                    "PA / DA explanation or dual-unit example missing")
     for route in ("/study/theory/neexistuje", course + "?chapter=neexistuje", course + "?chapter[]=atmosfera"):
         require(request(learner, route)[0] == 404, "Unregistered route accepted: " + route)
     require(request(learner, "/?page=theory&course=meteorologie&chapter=atmosfera")[0] == 200, "Fallback route broken")

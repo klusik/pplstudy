@@ -40,6 +40,32 @@ return [
 'caa-mountain',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Životní cyklus',
+'value' => 'Vývoj: ↑ · zralá buňka: ↑↓ · rozpad: ↓',
+'note' => 'Stoupavé a sestupné proudy jsou současně typické pro rozvinuté stadium.',
+'overview' => false
+],
+[
+'label' => 'Microburst',
+'value' => 'Horizontální rozměr < 4 km (≈ 13 123 ft; 2,16 NM)',
+'note' => 'Měřítko je definice, nikoli bezpečná vzdálenost od bouřky.',
+'overview' => false
+],
+[
+'label' => 'Střih větru',
+'value' => 'Změna vektoru větru na krátké vzdálenosti',
+'note' => 'Pozor zejména při vzletu a přistání. Přechod z protivětru na zadní vítr může prudce snížit IAS.',
+'overview' => false
+],
+[
+'label' => 'Vertikální proudění',
+'value' => '10 m/s ≈ 1 969 ft/min',
+'note' => 'Pouhý převod jednotek; proudy v bouřce mohou přesáhnout možnosti letadla.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Vznik bouřky a životní cyklus',
@@ -75,22 +101,24 @@ return [
 ],
 [
 'heading' => 'Rizika v bouřce i mimo oblak',
+'figure' => 'storm-hazards',
 'paras' => [
 'Silná turbulence může způsobit velké změny zatížení a rychlosti. Kroupy mohou poškodit náběžné hrany, vrtuli, čelní sklo a další části, mohou se dostat i mimo viditelnou základnu oblaku. Blesk může tepelně či mechanicky poškodit konstrukci, elektrické systémy nebo elektroniku; může způsobit i dočasné oslnění. Námraza, srážky, ztráta dohlednosti, silné vertikální proudy a tlakové odchylky se mohou kombinovat.',
-'Cb může být ukryt v vrstevnaté oblačnosti (embedded); v noci jej nemusíš vůbec vidět. Ani let pod kovadlinou nebo pod dešťovou clonou není bezpečný způsob obcházení. Nepokoušej se prolétat bouřkovou linií nebo úzkou mezerou jen podle zobrazení na displeji. Družice, radar a výstrahy ukazují jen část situace a mají zpoždění. Při významném riziku vol trasu s velkým odstupem nebo let odlož.'
+'Cb (kumulonimbus) může být ukryt v vrstevnaté oblačnosti (embedded); v noci jej nemusíš vůbec vidět. Ani let pod kovadlinou nebo pod dešťovou clonou není bezpečný způsob obcházení. Nepokoušej se prolétat bouřkovou linií nebo úzkou mezerou jen podle zobrazení na displeji. Družice, radar a výstrahy ukazují jen část situace a mají zpoždění. Při významném riziku vol trasu s velkým odstupem nebo let odlož.'
 ],
 'note' => 'Pro běžný výcvikový VFR let nepřijímej průlet bouřkovou oblastí jako plán. Pokud bezpečná alternativa není jednoznačně dostupná, nelétej.'
 ],
 [
 'heading' => 'Húlava, downburst a microburst',
 'paras' => [
-'Srážky a odpařování mohou ochladit vzduch uvnitř a pod bouřkou. Hustší vzduch sestupuje, po dosažení země se rozlévá do stran. Čelo tohoto výtoku je gust front (nárazová fronta), v českém učebním kontextu húlava. Může se šířit před deštěm a přinášet skokovou změnu větru, tlakový skok a pokles teploty. Downburst je intenzivní sestupný proud s výrazným rozbíhavým výtokem u země; microburst je jeho lokální forma s horizontálním měřítkem menším než asi 4 km. Může být mokrý nebo suchý (virga, prach).',
-'Při průletu přes výtok se zpočátku může zvýšit IAS při narůstajícím protivětru, poté působí silný downdraft a na druhé straně změna na zadní vítr způsobí ztrátu IAS a výkonové rezervy. Zvlášť u země nemusí být výška ani motorový výkon dostatečný pro vyrovnání situace. Rozhodující je včasná prevence: vyčkat, odklonit se nebo přerušit přiblížení podle výcviku a publikovaných postupů.'
+'Srážky a odpařování mohou ochladit vzduch uvnitř a pod bouřkou. Hustší vzduch sestupuje, po dosažení země se rozlévá do stran. Čelo tohoto výtoku je gust front (nárazová fronta), v českém učebním kontextu húlava. Může se šířit před deštěm a přinášet skokovou změnu větru, tlakový skok a pokles teploty. Downburst je intenzivní sestupný proud s výrazným rozbíhavým výtokem u země; microburst je jeho lokální forma s horizontálním měřítkem menším než asi 4 km (≈ 13 123 ft, 2,16 NM); tato hodnota není bezpečným odstupem od bouřky. Může být mokrý nebo suchý (virga, prach).',
+'Při průletu přes výtok se zpočátku může zvýšit IAS při narůstajícím protivětru, poté působí silný downdraft (sestupný proud) a na druhé straně změna na zadní vítr způsobí ztrátu IAS a výkonové rezervy. Zvlášť u země nemusí být výška ani motorový výkon dostatečný pro vyrovnání situace. Rozhodující je včasná prevence: vyčkat, odklonit se nebo přerušit přiblížení podle výcviku a publikovaných postupů.'
 ],
 'figure' => 'microburst'
 ],
 [
 'heading' => 'Střih větru a druhy turbulence',
+'figure' => 'shear-turbulence',
 'paras' => [
 'Wind shear je prostorová změna vektoru větru (směru nebo rychlosti) na krátké vzdálenosti, horizontální nebo vertikální. Náraz je změna v čase na místě měření. Turbulence znamená nepravidelné vířivé proudění. Je-li vítr různý ve dvou sousedních vrstvách, mohou na jejich rozhraní vznikat turbulentní víry. Střih nemusí být viditelný ani doprovázen mraky.',
 'Při vzletu přes přízemní inverzi se může letadlo dostat z klidné vrstvy do výrazně odlišného větru. Náhlý přechod z protivětru na menší protivítr či zadní vítr může snížit IAS a stoupavost; opačná změna může IAS zvýšit. U letiště v údolí za silného příčného větru se mohou vyskytovat rotory a prudké změny směru, někdy téměř o 180°. Pozoruj kouř, pohyb oblaků, virgu a okolní přeháňky, ale jejich absence střih nevylučuje.'

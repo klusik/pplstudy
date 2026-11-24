@@ -38,9 +38,30 @@ return [
 'metoffice-weather',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Teplá fronta',
+'value' => 'Ci → Cs → As → Ns',
+'note' => 'Pozvolný výstup, zpravidla postupné zhoršování dohlednosti a dlouhotrvající srážky. Pořadí je typické, nikoli zaručené.',
+'overview' => false
+],
+[
+'label' => 'Studená fronta',
+'value' => 'Strmější zdvih · Cu/TCU/Cb · přeháňky',
+'note' => 'Za frontou se může vyjasňovat, ale konvekce a nárazy mohou pokračovat.',
+'overview' => false
+],
+[
+'label' => 'Frontální symboly',
+'value' => '▲ studená · půlkruhy teplá',
+'note' => 'Symboly na čáře ukazují směr postupu; okluze kombinuje oba typy, stacionární fronta je má na opačných stranách.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Odkud přichází vzduch',
+'figure' => 'airmass-matrix',
 'paras' => [
 'Vzduchová hmota získává vlastnosti během pobytu nad rozsáhlou oblastí s podobným povrchem. Geografický původ charakterizuje především teplotu a vlhkost; při pohybu se hmota modifikuje výměnou tepla a vody s povrchem. Kontinentální polární vzduch přitékající v zimě z východu může být velmi chladný a relativně suchý. Po průchodu nad teplejší nebo vlhčí oblastí se jeho charakter mění.',
 'Střední Evropu významně ovlivňuje střídání polárního a teplejšího subtropického vzduchu a západní cirkulace nad severním Atlantikem. Polární fronta je rozsáhlá přechodová oblast mezi teplejším a studenějším vzduchem ve středních šířkách, v níž často vznikají frontální níže. Fronta není ostrá svislá stěna; je to šikmá trojrozměrná přechodová zóna.'
@@ -134,6 +155,7 @@ return [
 ],
 [
 'heading' => 'Přechod typické polární frontální níže',
+'figure' => 'frontal-timeline',
 'paras' => [
 'Modelová níže středních šířek postupuje přibližně s výškovým řídicím prouděním, v testové poučce ve směru izobar teplého sektoru. Při obvyklém průchodu jižně od středu níže na severní polokouli (typická situace pro střední Evropu) vítr při teplé i studené frontě často stáčí po směru hodinových ručiček (veering). Nejde o univerzální zákon: záleží na dráze středu níže a lokální topografii.'
 ],
