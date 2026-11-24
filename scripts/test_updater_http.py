@@ -16,6 +16,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -72,7 +73,7 @@ def login(username):
 
 
 def seed(root):
-    """Create only the isolated CI schema and test accounts."""
+    """Create the isolated CI schema, bank and test accounts."""
     config = {
         "database": {"host": "127.0.0.1", "port": 3307, "name": "ppl_study_ci",
                      "user": "ppl_ci", "password": "ppl-ci-only", "charset": "utf8mb4"},
@@ -90,6 +91,7 @@ def seed(root):
 require 'app/bootstrap.php';
 \PplStudy\Core\run_migrations();
 $pdo = \PplStudy\Core\db();
+\PplStudy\Services\import_bundled_question_bank(true, $pdo);
 $stmt = $pdo->prepare('INSERT INTO users (username,display_name,password_hash,role,must_change_password,active,created_at,updated_at) VALUES (?,?,?,?,?,1,NOW(),NOW())');
 foreach ([['admin-ci','admin',0],['learner-ci','user',0],['pending-ci','admin',1]] as $user) {
     $stmt->execute([$user[0],$user[0],password_hash($argv[1],PASSWORD_DEFAULT),$user[1],$user[2]]);
@@ -172,6 +174,42 @@ def exercise(root):
     print("Updater HTTP authorization, CSRF, maintenance and recovery checks passed.")
 
 
+def exercise_theory(root):
+    """Verify the textbook as served to an actual authenticated learner."""
+    course = "/study/theory/meteorologie"
+    guest = browser()
+    status, headers, _ = request(guest, course)
+    require(status == 302 and headers.get("Location") == BASE + "/login", "Guest reached theory")
+    pending, _ = login("pending-ci")
+    status, headers, _ = request(pending, course)
+    require(status == 302 and headers.get("Location") == BASE + "/account/password", "Pending account reached theory")
+    learner, _ = login("learner-ci")
+    status, _, html = request(learner, "/study")
+    require(status == 200 and html.count('class="button small secondary theory-button"') == 1
+            and course in html, "Study picker must offer exactly one course")
+    status, headers, html = request(learner, course)
+    require(status == 200 and "129/129" in html and "Letecká meteorologie" in html, "Course overview missing")
+    require("no-store" in headers.get("Cache-Control", ""), "Theory cache policy missing")
+    chapters = list(dict.fromkeys(re.findall(r'\?chapter=([a-z0-9-]+)', html)))
+    require(len(chapters) == 14, "Chapter navigation incomplete")
+    for chapter in chapters:
+        status, _, html = request(learner, course + "?chapter=" + chapter)
+        require(status == 200 and 'class="theory-article"' in html and "<details>" in html
+                and "Doporučené zdroje kapitoly" in html, "Chapter unavailable: " + chapter)
+    for route in ("/study/theory/neexistuje", course + "?chapter=neexistuje", course + "?chapter[]=atmosfera"):
+        require(request(learner, route)[0] == 404, "Unregistered route accepted: " + route)
+    require(request(learner, "/?page=theory&course=meteorologie&chapter=atmosfera")[0] == 200, "Fallback route broken")
+    require(request(learner, course, {"action": "edit"})[0] == 405, "Theory must be read-only")
+    status, headers, _ = request(learner, "/study?subject=3&mode=learn")
+    require(status == 302, "Original learning route broken")
+    status, _, html = request(learner, headers["Location"].removeprefix(BASE))
+    require(status == 200 and course in html and 'data-study-mode="learn"' in html, "Original learning card broken")
+    for image in (root / "public/assets/theory/meteorology").glob("*.svg"):
+        document = ET.parse(image).getroot()
+        require(document.tag == "{http://www.w3.org/2000/svg}svg", "Invalid SVG: " + image.name)
+    print("Theory HTTP authorization, 14 chapter routes, study navigation, fallback and SVG checks passed.")
+
+
 def main():
     """Deploy the locally built CI artifact into a disposable web root."""
     archive = Path(sys.argv[1]).resolve()
@@ -194,6 +232,7 @@ def main():
                 else:
                     raise RuntimeError("PHP fixture did not start")
                 exercise(root)
+                exercise_theory(root)
             except Exception:
                 log.seek(0)
                 print(log.read().decode(errors="replace"), file=sys.stderr)

@@ -20,7 +20,7 @@ Expected bundled question-bank validation:
 - each correct answer appears exactly once in its four choices
 - per-subject counts: 97, 58, 129, 87, 99, 60, 101, 128, 137
 
-Application database schema version for 0.2.0 is migration generation 4, ending with `202609040004_question_curation`.
+Application database schema version for 0.3.0 is migration generation 4, ending with `202609040004_question_curation`.
 
 ## 2. Installer acceptance test
 
@@ -427,3 +427,7 @@ php scripts/test_updater.php dist/PPL-Study-0.2.0-deploy.zip
 ```
 
 On a disposable installation, verify signed-out and learner requests to /admin/updates redirect, admin GET displays the page, invalid CSRF POST is rejected, and valid admin POST checks the public release. Install or force-reinstall a stable verified same-schema asset; a modified managed file is restored and database records, local config and uploaded PDFs stay unchanged. A concurrent dynamic request receives HTTP 503 only during exclusive activation. Interrupt activation and verify the next dynamic request restores all original files before serving the application again. Check the admin log and installed version after success. Test an unwritable cache/target, missing PHP extension, failed download and invalid archive without making live changes. Schema-changing and older packages must be refused. See README for manual FTP recovery.
+
+## Theory textbook regression (0.3.0+)
+
+Run `php scripts/test_theory.php dist/PPL-Study-0.3.0-deploy.zip` after building the managed package. It verifies all 129 local source IDs, registered chapters, structured tables and assets. The existing disposable MariaDB HTTP test also checks guest and pending-password redirects, authenticated access, all 14 chapters, the single subject button, query-string fallback, invalid chapter rejection, SVG XML and the original learning card.

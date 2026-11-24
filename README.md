@@ -2,13 +2,13 @@
 
 A framework-free PHP 8.1+ study application for the Czech PPL(A) theoretical syllabus. It provides an invitation-only learning environment with source-exact four-choice study cards, automatic scoring, drills, search, browser-local progress, learner profiles, and administrator management.
 
-**Current version:** 0.2.0
+**Current version:** 0.3.0
 
 **Deployment target:** ordinary PHP shared hosting with MySQL or MariaDB. The runtime uses native PHP, PDO, JavaScript, and Apache routing.
 
 ## First release
 
-Version 0.1.0 was the first application release. Version 0.1.1 hardens public URL handling on shared hosting. Version 0.2.0 adds administrator-triggered verified updates from the public GitHub repository.
+Version 0.1.0 was the first application release. Version 0.1.1 hardens public URL handling on shared hosting. Version 0.2.0 adds administrator-triggered verified updates from the public GitHub repository. Version 0.3.0 adds the first comprehensive Czech theory textbook: aviation meteorology.
 
 The release includes:
 
@@ -27,6 +27,12 @@ The release includes:
 The subject dashboard and source-information page are public. Study-card content is available only to active authenticated accounts that have completed permanent-password setup.
 
 Administrators create all accounts. A temporary password authorizes one successful login and then forces permanent-password setup. Administrators can manage roles, activation, display names, and password resets. The application prevents the current administrator from demoting or disabling their own account and preserves at least one active administrator.
+
+## Theory textbooks
+
+Select **Studium > Meteorologie > Učebnice · výklad**. The meteorology course has 14 chapters, 23 original illustrations, chapter-level bibliography, worked examples and self-check questions. Coverage is mapped to all 129 source question IDs; the course does not claim to cover unpublished examination questions. The original textbook content is versioned in `app/theory/meteorology/`, registered by `app/services/theory.php`, and served by an authenticated, read-only controller. It does not modify the database or import question content. Existing 0.2.0 installations can install 0.3.0 via the web updater.
+
+Consult the [ÚCL question bank terms](https://www.caa.gov.cz/zkusebni-otazky-pro-zkousky-teoretickych-znalosti-ppl-lapl/) before using the source questions for training or creating study materials; the page requires informing the copyright holder and written permission for commercial use. The project-owned explanatory text and diagrams are separate from the existing question bank.
 
 ## Question and source model
 
@@ -78,6 +84,7 @@ Offline question-bank regeneration additionally requires Python 3.10+ and Popple
 | `/account` | authenticated profile |
 | `/account/password` | required first-login setup and password change |
 | `/study` | authenticated study setup |
+| `/study/theory/meteorologie` | authenticated meteorology textbook and chapter navigation |
 | `/question/{sequence}` | authenticated learning or quiz card |
 | `/drill` | authenticated custom or timed paper drill |
 | `/search` | authenticated question-bank search |
@@ -117,7 +124,7 @@ On Unix-like systems:
 bash deploy.sh
 ```
 
-The legacy local package is named `PPL-Study-0.2.0-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
+The legacy local package is named `PPL-Study-0.3.0-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
 
 Before release, run:
 
@@ -197,8 +204,8 @@ using the workflow's repository token. Existing published releases are not
 overwritten. The server does not need that token. For a local clean checkout:
 
 ```bash
-python3 scripts/build_update_package.py dist/PPL-Study-0.2.0-deploy.zip
-php scripts/test_updater.php dist/PPL-Study-0.2.0-deploy.zip
+python3 scripts/build_update_package.py dist/PPL-Study-0.3.0-deploy.zip
+php scripts/test_updater.php dist/PPL-Study-0.3.0-deploy.zip
 ```
 
 Use the published distribution ZIP, not the automatic GitHub source archive,
