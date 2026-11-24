@@ -89,6 +89,7 @@ return [
 ],
 [
 'heading' => 'Měření směru a letecké použití',
+'figure' => 'wind-components',
 'paras' => [
 'Meteorologický směr větru udává směr, odkud vítr vane: 090° je východní, 180° jižní, 270° západní. V METAR/TAF a předpovědích je směr zpravidla vztažen ke skutečnému severu. Hlášení pro bezprostřední provoz na dráze může používat magnetický směr podle místních postupů. Při výpočtu složek větru sjednoť referenci dráhy a větru; runway designátor je navíc zaokrouhlený magnetický směr, ne přesný azimut.',
 'Vítr ve výšce se používá pro výpočet korekce kurzu a ground speed, zatímco přízemní vítr rozhoduje o volbě dráhy a složkách větru pro vzlet a přistání. Nárazy a proměnlivost směru mohou být důležitější než samotná střední rychlost. Zápis 225/15 znamená vítr z jihozápadu 15 kt, nikoli směr, kam vane. 1 kt = 1 NM/h ≈ 0,514 m/s (1,688 ft/s). 1 NM = 1 852 m (≈ 6 076 ft). Pro vertikální rychlost: 1 m/s ≈ 197 ft/min, 500 ft/min = 2,54 m/s.'

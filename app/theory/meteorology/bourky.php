@@ -101,6 +101,7 @@ return [
 ],
 [
 'heading' => 'Rizika v bouřce i mimo oblak',
+'figure' => 'storm-hazards',
 'paras' => [
 'Silná turbulence může způsobit velké změny zatížení a rychlosti. Kroupy mohou poškodit náběžné hrany, vrtuli, čelní sklo a další části, mohou se dostat i mimo viditelnou základnu oblaku. Blesk může tepelně či mechanicky poškodit konstrukci, elektrické systémy nebo elektroniku; může způsobit i dočasné oslnění. Námraza, srážky, ztráta dohlednosti, silné vertikální proudy a tlakové odchylky se mohou kombinovat.',
 'Cb může být ukryt v vrstevnaté oblačnosti (embedded); v noci jej nemusíš vůbec vidět. Ani let pod kovadlinou nebo pod dešťovou clonou není bezpečný způsob obcházení. Nepokoušej se prolétat bouřkovou linií nebo úzkou mezerou jen podle zobrazení na displeji. Družice, radar a výstrahy ukazují jen část situace a mají zpoždění. Při významném riziku vol trasu s velkým odstupem nebo let odlož.'
@@ -117,6 +118,7 @@ return [
 ],
 [
 'heading' => 'Střih větru a druhy turbulence',
+'figure' => 'shear-turbulence',
 'paras' => [
 'Wind shear je prostorová změna vektoru větru (směru nebo rychlosti) na krátké vzdálenosti, horizontální nebo vertikální. Náraz je změna v čase na místě měření. Turbulence znamená nepravidelné vířivé proudění. Je-li vítr různý ve dvou sousedních vrstvách, mohou na jejich rozhraní vznikat turbulentní víry. Střih nemusí být viditelný ani doprovázen mraky.',
 'Při vzletu přes přízemní inverzi se může letadlo dostat z klidné vrstvy do výrazně odlišného větru. Náhlý přechod z protivětru na menší protivítr či zadní vítr může snížit IAS a stoupavost; opačná změna může IAS zvýšit. U letiště v údolí za silného příčného větru se mohou vyskytovat rotory a prudké změny směru, někdy téměř o 180°. Pozoruj kouř, pohyb oblaků, virgu a okolní přeháňky, ale jejich absence střih nevylučuje.'

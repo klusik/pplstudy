@@ -169,5 +169,16 @@ function theory_figures(): array
         'visibility' => ['Dohlednost, RVR a ceiling', 'Schéma rozlišuje převládající dohlednost, výhled z kokpitu, RVR podél dráhy a výšku základny oblačnosti.'],
         'fog-advection-slope' => ['Dvě odlišné cesty k nasycení', 'Vlhký vzduch je ochlazen nad studeným povrchem nebo při nuceném výstupu po svahu.'],
         'visibility-decision' => ['Zhoršující se dohlednost na trase', 'Modelová cesta k terénu zakrytému oblačností a mlhou. Bezpečné rozhodnutí o odklonu musí nastat před ztrátou rezervy.'],
+        'wind-components' => ['Rozklad protivětru a boční složky', 'Pro úhel 30° mezi osou dráhy a směrem větru 16 kt vychází čelní složka 13,9 kt (7,2 m/s) a boční 8 kt (4,1 m/s).'],
+        'airmass-matrix' => ['Vzduchové hmoty podle místa původu', 'Maritimní a kontinentální polární či tropická hmota se liší zejména teplotou a vlhkostí. Nejde o zeměpisnou mapu.'],
+        'frontal-timeline' => ['Průběh tlaku a počasí při přechodu níže', 'Modelové pořadí: pokles tlaku před teplou frontou, přibližně ustálený tlak v teplém sektoru, růst za studenou frontou.'],
+        'high-season' => ['Tlaková výše v létě a v zimě', 'Letní výše může přinášet termiku a vysokou hustotní výšku; zimní výše může uzavřít vlhkost pod inverzí.'],
+        'foehn-temperature' => ['Fén a teplotní výpočet', 'Vzduch stoupá o 1000 m nenasycený a dalších 1000 m nasycený, po ztrátě kondenzátu sestupuje o 2000 m. Přibližné teploty 15, 5, −1 a 19 °C.'],
+        'regional-winds' => ['Místní zesílení mistrálu a bóry', 'Mistrál je usměrňován údolím Rhôny směrem k moři; bóra může prudce sestupovat z pevniny a hor k Jadranu.'],
+        'ice-types' => ['Tři typy ledu na profilu křídla', 'Schematické porovnání drsné zrnité, čiré a nepravidelné smíšené námrazy na náběžné hraně.'],
+        'iced-airfoil' => ['Vliv ledu na proudění a vztlak', 'Led mění tvar náběžné hrany, podporuje odtržení proudění, zvyšuje odpor a obvykle snižuje maximální vztlak. Nákres je kvalitativní.'],
+        'carb-icing' => ['Námraza ve Venturiho trubici', 'Při poklesu tlaku a odpařování paliva se směs ochlazuje; led v nejužším místě omezuje průtok. Jde o schematický princip, nikoli schéma konkrétního karburátoru.'],
+        'storm-hazards' => ['Nebezpečí uvnitř i mimo Cb', 'Bouřkový oblak může mít silné vertikální proudy, kroupy, blesky a výtok sahající mimo viditelný oblak.'],
+        'shear-turbulence' => ['Střih větru a mechanická turbulence', 'Rychlejší proudění ve vyšší vrstvě a vířivé proudy za překážkami; střih a turbulence jsou příbuzné, ale odlišné jevy.'],
     ];
 }

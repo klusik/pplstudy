@@ -73,6 +73,7 @@ return [
 ],
 [
 'heading' => 'Jak se liší tlaková výše v létě a zimě',
+'figure' => 'high-season',
 'paras' => [
 'V létě může převládat slunečné počasí, slabý přízemní vítr, místní brízy a roztroušené Cu. Výška základen závisí na vlhkosti; při silném oslunění může být výrazná termika. Přetrvávající vysoké teploty zvyšují hustotní výšku a snižují výkonnost malého letadla. Stagnující vzduch může také hromadit zákal. Na okraji výše nebo pod výškovou níží se konvekce může rozvíjet i při relativně vysokém tlaku u země.',
 'V zimě dlouhá noc a nízké sluneční záření napomáhají udržování inverzí. Slabé proudění zadržuje vlhkost a znečištění v přízemní vrstvě; rozsáhlé oblasti mlhy nebo nízkého St mohou přetrvávat mnoho hodin či dní. Nad inverzí může být teplo a jasno, ale pro VFR odlet a návrat rozhoduje počasí pod ní.'
