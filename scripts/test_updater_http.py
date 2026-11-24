@@ -172,18 +172,17 @@ def exercise(root):
     status, _, html = request(admin, "/admin/updates")
     require(status == 200 and "Aktualizace aplikace" in html, "Web did not recover")
     print("Updater HTTP authorization, CSRF, maintenance and recovery checks passed.")
+    return learner, pending
 
 
-def exercise_theory(root):
+def exercise_theory(root, learner, pending):
     """Verify the textbook as served to an actual authenticated learner."""
     course = "/study/theory/meteorologie"
     guest = browser()
     status, headers, _ = request(guest, course)
     require(status == 302 and headers.get("Location") == BASE + "/login", "Guest reached theory")
-    pending, _ = login("pending-ci")
     status, headers, _ = request(pending, course)
     require(status == 302 and headers.get("Location") == BASE + "/account/password", "Pending account reached theory")
-    learner, _ = login("learner-ci")
     status, _, html = request(learner, "/study")
     require(status == 200 and html.count('class="button small secondary theory-button"') == 1
             and course in html, "Study picker must offer exactly one course")
@@ -231,8 +230,8 @@ def main():
                         time.sleep(0.1)
                 else:
                     raise RuntimeError("PHP fixture did not start")
-                exercise(root)
-                exercise_theory(root)
+                learner, pending = exercise(root)
+                exercise_theory(root, learner, pending)
             except Exception:
                 log.seek(0)
                 print(log.read().decode(errors="replace"), file=sys.stderr)
