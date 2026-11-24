@@ -61,7 +61,7 @@ return [
 ],
 [
 'label' => 'CAVOK',
-'value' => '≥ 10 km · žádný oblak pod 1 524 m / 5 000 ft nebo vyšší MSA',
+'value' => '≥ 10 km (≈ 32 808 ft) · žádný oblak pod 1 524 m / 5 000 ft nebo vyšší MSA',
 'note' => 'Současně bez CB/TCU a význačného počasí. Je to letištní údaj, nikoliv potvrzení bezpečné trasy.',
 'overview' => true
 ],

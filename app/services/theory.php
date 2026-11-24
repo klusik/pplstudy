@@ -28,6 +28,7 @@ function theory_registry(): array
             'description' => 'Ucelený český výklad, názorná schémata, výpočty, dekódování meteorologických zpráv, praktické situace a kontrolní otázky.',
             'source_version' => 'ÚCL, Meteorologie – letoun, verze 1.1 (29. 12. 2020)',
             'source_count' => 129,
+            'quick_reference' => true,
             'exam_url' => 'https://www.caa.gov.cz/zkusebni-otazky-pro-zkousky-teoretickych-znalosti-ppl-lapl/',
             'chapter_files' => [
                 'atmosfera' => 'atmosfera.php',
@@ -83,6 +84,7 @@ function theory_course(string $slug): ?array
 function theory_sources(): array
 {
     return [
+        'nist-units' => ['NIST · Guide to the SI, Appendix B: Conversion Factors', 'https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors', 'Přesný převod mezinárodní stopy na metry (1 ft = 0,3048 m) a pravidla zaokrouhlování.'],
         'easa-syllabus' => ['EASA – Easy Access Rules for Aircrew, AMC1 FCL.210; FCL.215', 'https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-aircrew-regulation-eu-no?kw=LAPL&page=5', 'Osnova teoretických znalostí PPL(A); evropský rámec.'],
         'faa-weather' => ['FAA – Aviation Weather Handbook (FAA-H-8083-28B, 2026)', 'https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28b-aviation-weather-handbook', 'Učební příručka fyziky počasí a leteckých rizik; americké provozní postupy zde nejsou přebírány jako evropské.'],
         'faa-handbooks' => ['FAA – Pilot’s Handbook of Aeronautical Knowledge a další příručky', 'https://www.faa.gov/regulations_policies/handbooks_manuals/aviation', 'Referenční výklad atmosféry, výškoměrů a výkonu.'],
@@ -128,11 +130,11 @@ function theory_sources(): array
 function theory_figures(): array
 {
     return [
-        'atmosphere' => ['Teplotní profil ISA v troposféře a spodní stratosféře', 'Svislá osa výšky, vodorovná teploty, pokles z 15 na −56,5 °C do 11 km a poté izotermie.'],
+        'atmosphere' => ['Teplotní profil ISA v troposféře a spodní stratosféře', 'Svislá osa výšky, vodorovná teploty, pokles z 15 na −56,5 °C do 11 km (36 089 ft) a poté izotermie; stupnice v km a ft.'],
         'inversion' => ['Normální pokles, izotermie a inverze', 'Tři teplotní profily: pokles, stálá teplota a růst teploty s výškou.'],
         'altimeter' => ['Tři referenční tlakové hladiny', 'Schéma letadla nad letištěm s referencemi QNH, QFE a STD.'],
         'humidity' => ['Ochlazování vzduchu při stálém rosném bodu', 'Teplota se přibližuje rosnému bodu a relativní vlhkost roste k nasycení.'],
-        'lapse' => ['Porovnání teplotních gradientů', 'Suchá adiabata klesá rychleji než ISA a modelová nasycená adiabata.'],
+        'lapse' => ['Porovnání teplotních gradientů', 'Suchá adiabata přibližně 0,98 °C/100 m (3 °C/1 000 ft), ISA 0,65 (2) a modelová nasycená adiabata 0,6 (1,8); výšková osa v km a ft.'],
         'stability' => ['Vztlak vzduchové částice', 'Ve stabilní vrstvě je vychýlená částice chladnější než okolí, v nestabilní teplejší.'],
         'clouds' => ['Deset rodů oblaků a jejich obvyklé hladiny', 'Vysoké Ci, Cs, Cc; střední Ac, As, Ns; nízké St, Sc, Cu a Cb s vertikálním rozvojem.'],
         'fog' => ['Tři základní mechanismy mlhy', 'Radiační ochlazování země, vlhký vzduch nad chladným povrchem a výstup po svahu.'],

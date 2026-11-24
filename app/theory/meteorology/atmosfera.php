@@ -150,7 +150,7 @@ return [
 'heading' => 'Skutečný teplotní profil a inverze',
 'paras' => [
 'Teplotní gradient okolí (ELR) určí měření nebo vertikální předpovědní profil. Normální pokles teploty s výškou není totéž co ISA ani adiabatický gradient pohybující se částice. Při izotermii je teplota s výškou stejná; při inverzi roste. Obě situace tlumí běžnou konvekci.',
-'Přízemní radiační inverze vzniká zejména za jasné noci, kdy zemský povrch vyzařuje teplo a ochlazuje vzduch těsně nad ním. Subsidenční inverze se může vytvořit ve výši přibližně 1 500 m / 5 000 ft v tlakové výši: sestupující vzduch se stlačuje a ohřívá nad chladnější spodní vrstvou. Inverze může zadržet kouř, mlhu a nízkou oblačnost a současně omezit výšku kumulů. Hranice inverze bývá místem změny větru; samotná inverze však neznamená automaticky silný střih.'
+'Přízemní radiační inverze vzniká zejména za jasné noci, kdy zemský povrch vyzařuje teplo a ochlazuje vzduch těsně nad ním. Subsidenční inverze se může vytvořit ve výši přibližně 1 500 m (asi 5 000 ft) v tlakové výši: sestupující vzduch se stlačuje a ohřívá nad chladnější spodní vrstvou. Inverze může zadržet kouř, mlhu a nízkou oblačnost a současně omezit výšku kumulů. Hranice inverze bývá místem změny větru; samotná inverze však neznamená automaticky silný střih.'
 ],
 'figure' => 'inversion',
 'note' => 'Ve zkoušce se 11 000 m / 36 000 ft používá jako zaokrouhlení modelové tropopauzy. Nememoruj jej jako pevnou výšku skutečné tropopauzy.'
