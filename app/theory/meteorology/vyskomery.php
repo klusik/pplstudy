@@ -100,6 +100,7 @@ return [
 ],
 [
 'heading' => 'Tlaková odchylka: high to low',
+'figure' => 'pressure-error',
 'paras' => [
 'Letíš-li při nezměněném nastavení z vyššího tlaku do nižšího, skutečná výška klesá vzhledem k indikované. Výškoměr ukazuje více, než by ukazoval při aktualizovaném QNH. U země odpovídá změna 1 hPa přibližně 8,2 m / 27 ft (v jednoduchých testových úlohách se někdy používá 9,1 m / 30 ft na hPa). Je to lokální aproximace, ne univerzální fyzikální konstanta. Před odletem porovnej výškoměr nastavený na QNH s publikovanou elevací na známém místě; přípustnou odchylku ověř podle předpisu a dokumentace.'
 ],
@@ -112,6 +113,7 @@ Hind [ft] ≈ Htlak [ft] + (QNH[hPa] − 1013,25) × 27',
 ],
 [
 'heading' => 'Teplotní odchylka: hot to cold',
+'figure' => 'cold-error',
 'paras' => [
 'V chladném vzduchovém sloupci leží tlakové hladiny blíže u sebe. Při stejném indikovaném údaji se tak letadlo nachází geometricky níže než ve standardní nebo teplejší atmosféře. Jednoduché pravidlo pro odhad korekce v chladném vzduchu je asi 4 m na každých 1 000 m nebo 4 ft na každých 1 000 ft výšky nad referenčním místem a každý °C odchylky pod ISA (0,4 %/°C). Pro provozní postupy je nutné použít příslušné tabulky, referenční elevaci, skutečný profil a pravidla pro korekci; jediná OAT ve FL sama o sobě celý profil neurčuje.'
 ],
@@ -123,6 +125,7 @@ Hind [ft] ≈ Htlak [ft] + (QNH[hPa] − 1013,25) × 27',
 ],
 [
 'heading' => 'Hustotní výška (density altitude)',
+'figure' => 'density-altitude',
 'paras' => [
 'Hustotní výška je výška v ISA, při níž by vzduch měl stejnou hustotu jako právě v daných podmínkách. Neříká, kolik je letadlo nad zemí. Pro orientační výpočet nejprve zjisti tlakovou výšku letiště, potom použij OAT a teplotu ISA pro tuto výšku. Zjednodušená pomůcka kolem běžných GA podmínek je tlaková výška plus zhruba 36,6 m (120 ft) na každý °C nad ISA; přesnou výkonnost odečti z POH. Vlhkost a specifika motoru mohou odhad dále změnit.'
 ],

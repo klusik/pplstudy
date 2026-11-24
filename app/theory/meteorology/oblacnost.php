@@ -139,6 +139,7 @@ return [
 ],
 [
 'heading' => 'Jak rozpoznat oblak za letu',
+'figure' => 'cloud-recognition',
 'paras' => [
 'Ci je obvykle vláknitý a má průsvitné okraje. Cu má ostré oblé okraje v teplejší kapalné části a přibližně vodorovnou základnu. Ac lenticularis je hladká čočka, která může téměř stát na místě i při silném větru. Pozorování čočky na závětří svědčí o horské vlně, ne o bezpečném místě pro let. Pokud je oblak zakryt další vrstvou, jeho přesný druh může být ze země nebo z kokpitu nerozpoznatelný.',
 'U Cb se horní část zpravidla vlákní a rozprostírá do kovadliny. TCU je výrazný věžovitý Cu, který může přerůst v Cb; již v této fázi očekávej nepříznivé proudění. Nezaměňuj hladkou lentikulární oblačnost s klidným vzduchem v jejím okolí.'
@@ -147,6 +148,7 @@ return [
 ],
 [
 'heading' => 'Pokrytí, základna a vrchol oblačnosti',
+'figure' => 'ceiling',
 'paras' => [
 'Pokrytí se udává v osminách (oktas). FEW a SCT mohou mít nízkou základnu, i když netvoří ceiling. Ceiling je nejnižší relevantní vrstva BKN nebo OVC, případně vertikální dohlednost při zakrytém nebi. Při plánování VFR však rozhodují i jednotlivé oblaky, požadovaná vzdálenost od nich, skutečná dohlednost za letu a odstup od terénu, ne jen ceiling. METAR uvádí základny ve stovkách stop (100 ft = 30,48 m) nad letištěm (AGL vzhledem k referenci letiště). Mapy mohou používat AMSL, FL nebo jiné označení, proto čti legendu.'
 ],
@@ -187,6 +189,7 @@ return [
 ],
 [
 'heading' => 'Mechanismy srážek',
+'figure' => 'precipitation-growth',
 'paras' => [
 'Kondenzace vytváří drobné kapky; aby z nich byly srážky, musí růst. V teplém oblaku se větší kapičky srážejí s menšími a slučují (koalescence). Ve smíšeném oblaku mohou ledové krystalky růst na úkor přechlazených kapek (Bergeronův–Findeisenův proces), spojovat se do vloček nebo namrzat při zachytávání kapek. Částice padají, pokud jejich pádová rychlost překoná stoupání vzduchu, a při průchodu různými teplotními vrstvami mohou tát či znovu mrznout.',
 'Silné stoupavé proudy pomáhají růstu velkých kapek a krup; v otázkách 64 a 65 je tento mechanismus zdůrazněn. V přírodě ale vznikají i mrholení, déšť nebo sněžení ve vrstevnaté oblačnosti s poměrně slabým zdvihem. Ns typicky dává souvislé srážky; Cu congestus nebo Cb spíše krátké, proměnlivě intenzivní přeháňky. Virga jsou srážky, které se před dopadem odpaří nebo vysublimují; ochlazení vzduchu pod nimi může podporovat downdraft.'

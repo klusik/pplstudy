@@ -59,6 +59,7 @@ return [
 'sections' => [
 [
 'heading' => 'Tři skupenství a změny skupenství',
+'figure' => 'water-phase',
 'paras' => [
 'Voda se v atmosféře vyskytuje jako vodní pára (plyn, neviditelná), kapalné kapičky a pevné ledové částice. Oblak není vodní pára; je tvořen kapičkami, ledem nebo obojím. Přeměny skupenství přenášejí energii: při vypařování a tání se teplo spotřebovává, při kondenzaci a mrznutí uvolňuje. Sublimace znamená přechod z ledu přímo do páry, desublimace opačný přechod.',
 'Latentní teplo kondenzace je zásadní pro konvekci. Když se stoupající nasycený vzduch ochlazuje a voda kondenzuje, uvolněné teplo částečně kompenzuje ochlazování expanzí. Proto se nasycený vzduch při výstupu zpravidla ochlazuje pomaleji než nenasycený.'
@@ -155,6 +156,7 @@ return [
 ],
 [
 'heading' => 'Výška kondenzace a odhad základny',
+'figure' => 'cloud-base-lcl',
 'paras' => [
 'Při suchém výstupu teplota klesá přibližně 0,98 °C/100 m (3 °C/1 000 ft) a rosný bod zhruba 0,16 °C/100 m (0,5 °C/1 000 ft); jejich rozdíl se zmenšuje. Hladina, kde se zvedaná částice poprvé nasytí, se označuje LCL (lifting condensation level). Pro dobře promíchanou přízemní vrstvu lze orientačně odhadnout základnu termických kumulů pomocí přibližně 122 m / 400 ft na 1 °C spreadu. Neplatí spolehlivě pro vrstevnaté oblaky, fronty, odlišné zdrojové vrstvy nebo orografii.'
 ],

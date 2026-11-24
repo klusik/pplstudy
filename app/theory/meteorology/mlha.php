@@ -62,6 +62,7 @@ return [
 'sections' => [
 [
 'heading' => 'Dohlednost není totéž co základna',
+'figure' => 'visibility',
 'paras' => [
 'Meteorologická dohlednost popisuje rozpoznatelnost vzdálených objektů v atmosféře; v letištních zprávách se běžně používá převládající dohlednost. Letová dohlednost je to, co pilot vidí z kokpitu ve směru letu. RVR (Runway Visual Range) je dráhová dohlednost odvozená pro podmínky na konkrétní dráze a nelze ji zaměnit s běžnou vodorovnou dohledností.',
 'Mlha FG je tvořena vodními kapkami nebo ledovými částicemi u země, které snižují dohlednost typicky pod 1 000 m (≈ 3 281 ft). Kouřmo BR je zvlhčená dohlednost v rozsahu zpravidla 1 000 až 5 000 m (≈ 3 281 až 16 404 ft). U dohlednosti a RVR je v českých zprávách rozhodující metrický údaj; stopy jsou pouze doplňkový převod. Zákal HZ je převážně rozptyl světla na suchých jemných částicích; není tak přímo závislý na dosažení rosného bodu jako mlha. Rozlišuj také kouř FU, prach DU a písek SA. Kód MIFG (mělká mlha), BCFG (chuchvalce mlhy), PRFG (částečná mlha) může upozornit na místní významné omezení, i když převládající dohlednost v METAR vypadá přijatelně.'
@@ -120,6 +121,7 @@ return [
 ],
 [
 'heading' => 'Advekční, orografická a další mlhy',
+'figure' => 'fog-advection-slope',
 'paras' => [
 'Advekční mlha vzniká přesunem vlhkého vzduchu nad chladnější povrch (např. moře nebo studená zasněžená pevnina). Vzduch je ochlazován při horizontálním pohybu; na rozdíl od radiační mlhy může přetrvat i během dne a vyžaduje vhodné proudění. Orografická mlha vzniká, když vlhký vzduch vystupuje po svahu a ochlazuje se expanzí až k nasycení. Mrak zakrývající hřeben je z hlediska pilota mlha na terénu.',
 'Frontální/srážková mlha se může vytvořit odpařováním srážek do chladné vrstvy. Vypařovací mlha (steam fog) vzniká například při proudění studeného vzduchu nad relativně teplou vodou; vodní pára z hladiny přispívá k nasycení. Namrzající mlha při teplotách pod bodem mrazu obsahuje přechlazenou kapalinu; na povrchu letadla může vytvářet led.'
@@ -161,6 +163,7 @@ return [
 ],
 [
 'heading' => 'VFR rozhodnutí při zhoršování dohlednosti',
+'figure' => 'visibility-decision',
 'paras' => [
 'Před letem posuď pozorování i předpovědi v době odletu, návratu a na alternativách. Porovnávej časové tendence METAR/SPECI, TAF, regionální předpověď, webkamery a topografii; letištní měření není reprezentativní pro každé údolí. Podmínky VMC závisejí na prostoru, výšce, denní/noční době a příslušných pravidlech. Vlastní minima mohou být přísnější, zvláště při výcviku a v neznámém terénu.',
 'Pokud se základna snižuje a ztrácíš vizuální kontakt s terénem či bezpečnou rezervu, rozhodnutí o návratu nebo odklonu musí přijít dřív, než se uzavře možnost bezpečně pokračovat. Nespoléhej na to, že se dohlednost o pár kilometrů dále zlepší, protože předpověď to říká. Při neúmyslném vstupu do IMC použij nacvičené postupy, přístroje a pomoc ATS; praktický postup patří do výcviku.'

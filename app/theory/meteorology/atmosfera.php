@@ -82,6 +82,7 @@ return [
 ],
 [
 'heading' => 'ISA: mezinárodní standardní atmosféra',
+'figure' => 'isa-reference',
 'paras' => [
 'ISA (International Standard Atmosphere) je referenční model, nikoliv předpověď. Umožňuje porovnávat výkonnost letadel a kalibrovat barometrické přístroje. Na střední hladině moře (MSL) má definované hodnoty. Do 11 km (11 000 m ≈ 36 089 ft) předpokládá lineární pokles teploty o 0,65 °C/100 m neboli 6,5 °C/km. To je 1,9812 °C/1 000 ft, pro rychlý odhad 2 °C/1 000 ft. Nad touto hranicí je v první části modelové stratosféry teplota konstantní. V reálné atmosféře může být profil úplně jiný.'
 ],
@@ -136,6 +137,7 @@ return [
 ],
 [
 'heading' => 'Tlak, hustota a výkon',
+'figure' => 'density-particles',
 'paras' => [
 'Tlak je síla na jednotku plochy; 1 hPa = 100 Pa. Výškoměr v hPa a výškoměr v metrech či stopách popisují stejné fyzikální podmínky; jednotka stupnice výšky je nezávislá na jednotce nastavení tlaku. S výškou ubývá hmotnost sloupce vzduchu nad místem, takže tlak klesá. Pokles není lineární: u země se tlak na jednotku výšky mění rychleji než vysoko, protože vzduch je hustší. Pro suchý vzduch platí stavová rovnice p = ρ R T, tedy ρ = p/(R T), kde R ≈ 287 J/(kg·K) a T musí být v kelvinech.',
 'Při stejném tlaku má teplejší vzduch nižší hustotu; při stejné teplotě ji snižuje nižší tlak. Vlhký vzduch je při stejném tlaku a teplotě také o něco méně hustý než suchý. Pro stejnou IAS je ve vzduchu o menší hustotě vyšší TAS, a při stejné hmotnosti a konfiguraci se obvykle prodlužuje vzlet a zhoršuje stoupání. U atmosférického pístového motoru klesá dostupný výkon; vrtule pracuje v řidším prostředí. Skutečná čísla se berou z AFM/POH, ne z pouhé teplotní poučky.'
