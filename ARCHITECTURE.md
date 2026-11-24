@@ -242,3 +242,7 @@ Client-local learning progress uses the pplStudyProgressV7 namespace in the firs
 ## Administrator updater boundary
 
 `app/update_gate.php` owns the early shared request lock, exclusive activation and interrupted-file rollback. `app/services/updater.php` owns the public GitHub release/asset contract, strict managed paths, archive and file verification, staging, backup and publication. The admin controller owns authorization and CSRF; the view renders explicit actions only. Network staging is separate from the exclusive activation period. Schema-changing packages and changed migration inventories are rejected; the existing database and local source documents remain independent. Keep the early gate protocol backward-compatible between releases.
+
+## Theory courses
+
+Theory is version-controlled, structured, original teaching content, independent from the imported question-bank database. The registry maps a registered course to a subject ID and fixed chapter files. Routes accept known slugs only; the controller requires a completed learner login and renders an active subject. Views escape all chapter text and reference local illustration assets. Chapter source IDs describe thematic coverage, not global card sequence numbers or answer keys. New courses can follow this structure without schema changes. The 0.2.0 managed-package path rules already admit these PHP and SVG files.

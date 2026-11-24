@@ -28,6 +28,7 @@ use function PplStudy\Core\password_change_required;
 use function PplStudy\Core\study_url;
 use function PplStudy\Services\app_setting;
 use function PplStudy\Services\source_document_by_key;
+use function PplStudy\Services\theory_slug_for_subject;
 
 /** Render the public subject dashboard. */
 function render_home(array $subjects, array $counts, array $summary): void
@@ -87,6 +88,7 @@ function render_home(array $subjects, array $counts, array $summary): void
                 <div class="card-actions">
                     <a class="button small primary" href="<?= e(study_url('/study?subject=' . $id)) ?>">Náhodná karta</a>
                     <a class="button small secondary" href="<?= e(study_url('/drill?subject=' . $id . '&mode=paper')) ?>">Paper drill</a>
+                    <?php if (($theorySlug = theory_slug_for_subject($id)) !== null): ?><a class="button small secondary theory-button" href="<?= e(theory_url($theorySlug)) ?>">Učebnice</a><?php endif; ?>
                 </div>
             <?php endif; ?>
         </div>
@@ -108,7 +110,7 @@ function render_home(array $subjects, array $counts, array $summary): void
 function render_study_setup(array $subjects): void
 {
     render_header('Studium', '', 'study');
-    render_page_title('Studijní režimy', 'Otázky a učení', 'Vyber způsob práce a předmět. Režim otázek vyhodnocuje zvolenou možnost. Režim učení odkryje správnou odpověď až na požádání a nechá vlastní sebehodnocení.');
+    render_page_title('Studijní režimy', 'Otázky a učení', 'Vyber způsob práce a předmět. U dostupných učebnic začni výkladem a pak přejdi k procvičování. Režim otázek vyhodnocuje zvolenou možnost. Režim učení odkryje správnou odpověď až na požádání a nechá vlastní sebehodnocení.');
     ?>
 <div class="mode-grid">
     <article class="panel mode-card">
@@ -133,6 +135,7 @@ function render_study_setup(array $subjects): void
             <span class="study-subject-actions">
                 <a class="button small secondary" href="<?= e(study_url('/study?subject=' . (int) $subject['id'] . '&mode=quiz')) ?>">Otázka</a>
                 <a class="button small secondary" href="<?= e(study_url('/study?subject=' . (int) $subject['id'] . '&mode=learn')) ?>">Učení</a>
+                <?php if (($theorySlug = theory_slug_for_subject((int) $subject['id'])) !== null): ?><a class="button small secondary theory-button" href="<?= e(theory_url($theorySlug)) ?>">Učebnice · výklad</a><?php endif; ?>
             </span>
         </div>
         <?php endforeach; ?>
@@ -169,7 +172,7 @@ function render_question_card(array $question, ?int $previous, ?int $next, strin
                 <?php if ((string) ($question['curation_status'] ?? '') === 'verified'): ?><span class="status-dot ok">zdrojově ověřeno</span><?php elseif ((string) ($question['curation_status'] ?? '') === 'explained'): ?><span class="status-dot">vysvětlení hotovo</span><?php endif; ?>
             </div>
         </div>
-        <div class="question-index">#<?= str_pad((string) $sequence, 3, '0', STR_PAD_LEFT) ?></div>
+        <div class="question-index">#<?= str_pad((string) $sequence, 3, '0', STR_PAD_LEFT) ?><?php if (($theorySlug = theory_slug_for_subject($subjectId)) !== null): ?><br><a class="button small secondary theory-button" href="<?= e(theory_url($theorySlug)) ?>">Učebnice</a><?php endif; ?></div>
     </div>
 
     <article class="study-card">

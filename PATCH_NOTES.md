@@ -1,5 +1,19 @@
 # Patch Notes
 
+## 0.3.0 - 2026-11-24
+
+### Added
+
+- Czech PPL(A) meteorology textbook, covering the topics of all 129 published meteorology questions in the existing bank, with 14 chapters, 23 original SVG diagrams, worked examples, tables, self-check exercises and chapter-level sources.
+- Reusable authenticated theory-course registry and reading layout; a textbook button on the study picker, meteorology dashboard card and meteorology question pages. Other subjects retain their existing modes.
+- Links to current Czech meteorological products and operational guidance; explicit distinction between study approximations and actual operational limits.
+- Automated coverage, package asset, route, access-control and existing-learning-mode regression checks.
+
+### Database and deployment
+
+- Application schema remains generation 4; the question-bank contents and schema are unchanged. Existing 0.2.0 installations can use the web updater. No migration, import, installer rerun or FTP overlay is needed.
+
+
 ## 0.2.0 - 2026-11-24
 
 ### Added

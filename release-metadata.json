@@ -1,6 +1,6 @@
 {
   "project": "PPL Study",
-  "current_version": "0.2.0",
+  "current_version": "0.3.0",
   "releases": {
     "0.1.0": {
       "status": "released",
@@ -73,6 +73,30 @@
         9
       ],
       "changes": "Administrator-only stable GitHub release updates, forced same-version repair, verified public downloads, recovery journal, and CI release packaging."
+    },
+    "0.3.0": {
+      "status": "released",
+      "released_at": "2026-11-24",
+      "tag": "v_0.3.0",
+      "application_schema": 4,
+      "question_bank_schema": 3,
+      "question_bank_compilation": "3.0",
+      "study_cards": 896,
+      "subjects": 9,
+      "curated_explanations": 896,
+      "source_exact_questions": 896,
+      "source_exact_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "changes": "Czech aviation meteorology textbook with 14 chapters, original diagrams, recall exercises, source references and authenticated course navigation."
     }
   }
 }

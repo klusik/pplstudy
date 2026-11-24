@@ -39,6 +39,7 @@ use function PplStudy\Controllers\public_home;
 use function PplStudy\Controllers\public_question;
 use function PplStudy\Controllers\public_search;
 use function PplStudy\Controllers\public_study;
+use function PplStudy\Controllers\public_theory;
 use function PplStudy\Controllers\source_document_view;
 use function PplStudy\Controllers\user_login;
 use function PplStudy\Controllers\user_logout;
@@ -54,6 +55,7 @@ function study_dispatch_page(string $page): void
         'account_profile' => account_profile(...),
         'account_password' => account_password(...),
         'study' => public_study(...),
+        'theory' => public_theory(...),
         'question' => public_question(...),
         'drill' => public_drill(...),
         'search' => public_search(...),

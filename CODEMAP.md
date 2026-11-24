@@ -143,3 +143,14 @@ Admin:
 - `install.php`: request-visible base URL detection and installed-state canonicalization using configured `base_url`.
 
 Updater presentation: `app/views/admin_updates.php`. Release build and regression tooling: `scripts/build_update_package.py`, `scripts/test_updater.php`, `.github/workflows/release.yml`.
+
+## Theory textbooks (0.3.0+)
+
+| File | Ownership |
+| --- | --- |
+| `app/services/theory.php` | explicit course/subject registry, chapter loading, sources and figure metadata |
+| `app/controllers/public_theory.php` | authenticated read-only course route and validation |
+| `app/views/theory.php` | escaped course overview, chapter layout, tables, exercises and links |
+| `app/theory/meteorology/*.php` | original Czech chapter content and source-ID mapping |
+| `public/assets/theory/meteorology/*.svg` | project-owned explanatory diagrams |
+| `scripts/test_theory.php` | coverage and release-package completeness |

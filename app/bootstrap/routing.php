@@ -104,6 +104,10 @@ function study_resolve_page(): string
     if (isset($static[$path])) {
         return $static[$path];
     }
+    if (preg_match('#^/study/theory/([a-z0-9-]{1,60})$#', $path, $match) === 1) {
+        $_GET['course'] = $match[1];
+        return 'theory';
+    }
     if (preg_match('#^/source/([a-z0-9_-]{1,120})$#', $path, $match) === 1) {
         $_GET['source_key'] = $match[1];
         return 'source_document_view';

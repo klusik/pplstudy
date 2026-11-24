@@ -50,6 +50,7 @@ jobs:
           package="dist/PPL-Study-$version-deploy.zip"
           python3 scripts/build_update_package.py "$package"
           php scripts/test_updater.php "$package"
+          php scripts/test_theory.php "$package"
           python3 scripts/test_updater_http.py "$package"
       - uses: actions/upload-artifact@v4
         with:
