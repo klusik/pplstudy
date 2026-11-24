@@ -40,6 +40,8 @@ return [
 'taf-guide',
 'chmi-aviation',
 'chmi-swl',
+'chmi-swl-legend',
+'rlp-units',
 'chmi-taf',
 'chmi-metar',
 'chmi-sigmet',
@@ -145,7 +147,7 @@ return [
 'heading' => 'METAR: anatomie zprávy',
 'figure' => 'metar-anatomy',
 'paras' => [
-'METAR je rutinní letištní zpráva. SPECI je mimořádné pozorování, které se vydává při příslušných změnách podmínek podle provozních pravidel. Každý údaj má přesné jednotky. V českém METAR/TAF je dohlednost v metrech, vítr typicky v uzlech, teplota v °C, QNH v hPa a základna oblačnosti ve stovkách stop (100 ft = 30,48 m). V USA se například používají statute miles a inHg; inHg zde uvádíme jen doplňkově. Vždy čti původní jednotky kódu a neměň je při předávání zprávy.'
+'METAR (Meteorological Aerodrome Report) je rutinní letištní zpráva. SPECI je mimořádné pozorování, které se vydává při příslušných změnách podmínek podle provozních pravidel. Každý údaj má přesné jednotky. V českém METAR/TAF je dohlednost v metrech, vítr typicky v uzlech, teplota v °C, QNH v hPa a základna oblačnosti ve stovkách stop (100 ft = 30,48 m). V USA se například používají statute miles a inHg; inHg zde uvádíme jen doplňkově. Vždy čti původní jednotky kódu a neměň je při předávání zprávy.'
 ],
 'code' => 'METAR LKPR 241230Z 24012G22KT 210V280 7000 -SHRA SCT018 BKN032 09/06 Q1008 NOSIG=',
 'table' => [
@@ -202,7 +204,7 @@ return [
 'heading' => 'Kódy dohlednosti, jevů a oblačnosti',
 'figure' => 'metar-units',
 'paras' => [
-'Zápis 9999 znamená převládající dohlednost nejméně 10 000 m (≈ 32 808 ft). Hodnota 0000 znamená méně než 50 m (≈ 164 ft). CAVOK se používá při dohlednosti nejméně 10 km (≈ 32 808 ft), bez provozně význačné oblačnosti (zejména žádný oblak pod 1 524 m / 5 000 ft nebo nejvyšší minimální sektorovou výškou, je-li vyšší, a žádný CB/TCU) a bez význačného počasí. CAVOK neznamená bezoblačnou oblohu, nulový vítr ani automaticky VFR na celé trase.',
+'Zápis 9999 znamená převládající dohlednost nejméně 10 000 m (≈ 32 808 ft). Hodnota 0000 znamená méně než 50 m (≈ 164 ft). CAVOK (Ceiling And Visibility OK) se používá při dohlednosti nejméně 10 km (≈ 32 808 ft), bez provozně význačné oblačnosti (zejména žádný oblak pod 1 524 m / 5 000 ft nebo nejvyšší minimální sektorovou výškou (MSA, Minimum Sector Altitude), je-li vyšší, a žádný CB/TCU) a bez význačného počasí. CAVOK neznamená bezoblačnou oblohu, nulový vítr ani automaticky VFR na celé trase.',
 'Prefix − označuje slabý jev, + silný; nepřítomnost prefixu zpravidla mírnou intenzitu, pokud je intenzita pro jev použitelná. SH je přeháňka, TS bouřka, FZ namrzající, VC v blízkém okolí. Před teplotou M znamená minus; například M03/M05 je −3/−5 °C. Vítr 00000KT znamená bezvětří, VRB03KT proměnlivý směr 3 kt. AUTO upozorňuje na automatické měření a COR na opravenou zprávu. NSC označuje absenci význačné oblačnosti; NCD je u automatického pozorování stav, kdy nebyla detekována oblačnost.'
 ],
 'table' => [
@@ -254,7 +256,7 @@ return [
 'heading' => 'TAF: vývoj podmínek v čase',
 'figure' => 'taf-timeline',
 'paras' => [
-'TAF je letištní předpověď, nikoli předpověď celého FIR. První časová skupina je vydání, následuje období platnosti den/hodina. Základní skupina předpovídá převládající podmínky od začátku platnosti. FM mění převládající podmínky od určeného času. BECMG určuje postupný přechod v daném časovém okně; nejpozději na jeho konci platí nový stav. TEMPO představuje dočasná kolísání (jednotlivě zpravidla méně než hodinu a celkem méně než polovinu uvedené doby). PROB30/40 udává pravděpodobnost jevu, někdy v kombinaci s TEMPO. TAF AMD nahrazuje předchozí předpověď upravenou verzí; TAF COR opravuje chybu.',
+'TAF (Terminal Aerodrome Forecast) je letištní předpověď, nikoli předpověď celého FIR (Flight Information Region, letové informační oblasti). První časová skupina je vydání, následuje období platnosti den/hodina. Základní skupina předpovídá převládající podmínky od začátku platnosti. FM mění převládající podmínky od určeného času. BECMG určuje postupný přechod v daném časovém okně; nejpozději na jeho konci platí nový stav. TEMPO představuje dočasná kolísání (jednotlivě zpravidla méně než hodinu a celkem méně než polovinu uvedené doby). PROB30/40 udává pravděpodobnost jevu, někdy v kombinaci s TEMPO. TAF AMD nahrazuje předchozí předpověď upravenou verzí; TAF COR opravuje chybu.',
 'Při čtení sestav časovou osu pro plánovaný přílet i rezervu. Skupiny nezrušené změnou mohou dále platit podle struktury TAF. NSW znamená, že se neočekává význačné počasí; nemusí znamenat jasnou oblohu. Zápis 2424 označuje konec 24. dne, tj. půlnoc na 25. den.'
 ],
 'code' => 'TAF LKPR 241100Z 2412/2512 24010KT 9999 SCT025
@@ -299,15 +301,15 @@ FM250800 21008KT 9999 SCT020=',
 'heading' => 'SIGMET, AIRMET, oblastní předpovědi a ATIS',
 'figure' => 'sigmet-volume',
 'paras' => [
-'SIGMET vymezuje nebezpečný jev, oblast (FIR/UIR nebo její část), čas platnosti, vertikální rozsah a případně pohyb a intenzitu. Může se týkat například význačných bouřek, silné turbulence, silné námrazy, horských vln nebo vulkanického popela. Neznamená, že ostatní území je zaručeně bezpečné. Sleduj vydání, změny i rušení informace. AIRMET a oblastní předpovědi doplňují nízkoletové informace podle regionálních postupů; konkrétní dostupnost a formát ověř v aktuálním AIP.',
-'ATIS kombinuje meteorologické údaje a informace o provozu letiště: například dráhu v používání, druh přiblížení, převodní hladinu nebo důležité provozní podmínky. Má identifikační písmeno. VOLMET nebo příslušné ATS/FIS poskytují meteorologické informace za letu. Pro FIR Praha používej aktuální zveřejněné kmitočty a služby. Běžný METAR sám o sobě neoznamuje, která dráha je právě v provozu.'
+'SIGMET (Significant Meteorological Information, informace o význačných nebezpečných jevech na trati) vymezuje jev, oblast (FIR/UIR, horní letová informační oblast, nebo její část), čas platnosti, vertikální rozsah a případně pohyb a intenzitu. Může se týkat například význačných bouřek, silné turbulence, silné námrazy, horských vln nebo vulkanického popela. Neznamená, že ostatní území je zaručeně bezpečné. Sleduj vydání, změny i rušení informace. AIRMET (výstražná informace pro provoz v nízkých hladinách) a oblastní předpovědi doplňují nízkoletové informace podle regionálních postupů; konkrétní dostupnost a formát ověř v aktuálním AIP.',
+'ATIS (Automatic Terminal Information Service, automatická informační služba) kombinuje meteorologické údaje a informace o provozu letiště: například dráhu v používání, druh přiblížení, převodní hladinu nebo důležité provozní podmínky. Má identifikační písmeno. VOLMET (vysílání meteorologických informací pro letadla za letu) nebo příslušné ATS/FIS (Flight Information Service, letová informační služba) poskytují meteorologické informace za letu. Pro FIR Praha používej aktuální zveřejněné kmitočty a služby. Běžný METAR sám o sobě neoznamuje, která dráha je právě v provozu.'
 ],
 'note' => 'Rozsah výstrahy je třeba interpretovat ve třech rozměrech. Pokud SIGMET neplatí v plánované hladině, stejně prověř vertikální proudění, pohyb oblasti a bezpečnou rezervu.'
 ],
 [
 'heading' => 'Mapy a dálkový průzkum',
 'paras' => [
-'Synoptická mapa obsahuje izobary (tlak redukovaný na MSL), středy tlakových útvarů a frontální analýzu. Sleduj rozdíl tlaku, polohu front a jejich předpokládaný pohyb. Výškové mapy ukazují například vítr, teplotu a geopotenciální výšky. ČHMÚ publikuje SWL mapu pro nízké hladiny mezi zemí a FL100 (10 000 ft ≈ 3 048 m tlakové výšky); v legendě uvádí základny a vrcholy oblačnosti, nulovou izotermu, nebezpečné jevy, dohlednost, fronty i tlakové útvary. Výška na SWL není automaticky AGL.',
+'Synoptická mapa obsahuje izobary (tlak redukovaný na MSL), středy tlakových útvarů a frontální analýzu. Sleduj rozdíl tlaku, polohu front a jejich předpokládaný pohyb. Výškové mapy ukazují například vítr, teplotu a geopotenciální výšky. ČHMÚ publikuje SWL (Low-Level Significant Weather Chart, mapa význačného počasí) pro nízké hladiny mezi zemí a FL100 (10 000 ft ≈ 3 048 m tlakové výšky); v legendě uvádí základny a vrcholy oblačnosti, nulovou izotermu, nebezpečné jevy, dohlednost, fronty i tlakové útvary. Česká SWL podle dokumentace ČHMÚ používá nadmořskou výšku ve stovkách stop (hft AMSL), vítr v kt a dohlednost v km. To je zásadní rozdíl proti základně v METAR (výška nad letištěm). Například hodnota 030 na SWL znamená 3 000 ft AMSL (≈ 914 m), ne 3 000 ft nad terénem. SFC označuje zemský povrch, XXX výšku nad FL100. Vždy ověř aktuální legendu.',
 'Radarový obraz je odvozen z odrazu elektromagnetického signálu od částic. Zobrazuje oblasti srážek, nikoliv všechny oblaky a nikoli přímo námrazu či turbulenci. Stínění intenzivními srážkami, vzdálenost od radaru a výška svazku mohou skrývat nízké nebo vzdálené jevy. Družicové snímky ve viditelném spektru ukazují oblačnost ve dne, infračervené snímky poskytují informace o teplotě vyzařujících povrchů a oblačnosti i v noci. Vysoká studená oblačnost může být konvektivní i neškodný Ci, nízká mlha může být v některých produktech těžko rozpoznatelná.'
 ],
 'figure' => 'products',

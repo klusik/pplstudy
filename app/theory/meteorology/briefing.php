@@ -75,7 +75,7 @@ return [
 [
 'heading' => 'Postup od velkého měřítka k letišti',
 'paras' => [
-'Začni požadavky letu: čas odletu, plánovaný návrat nebo ETA, délka letu a rezerva, plánovaná výška, nejvyšší terén, možnosti odklonu, typ letadla, vybavení a zkušenosti pilota. Poté si vytvoř meteorologický obraz od rozsáhlých systémů k lokálním podmínkám. Aktuální pozorování a předpověď se vzájemně doplňují; nespoléhej na jediný produkt.'
+'Začni požadavky letu: čas odletu, plánovaný návrat nebo ETA (Estimated Time of Arrival, předpokládaný čas příletu), délka letu a rezerva, plánovaná výška, nejvyšší terén, možnosti odklonu, typ letadla, vybavení a zkušenosti pilota. Poté si vytvoř meteorologický obraz od rozsáhlých systémů k lokálním podmínkám. Aktuální pozorování a předpověď se vzájemně doplňují; nespoléhej na jediný produkt.'
 ],
 'figure' => 'briefing',
 'table' => [

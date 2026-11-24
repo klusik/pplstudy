@@ -51,8 +51,9 @@ function render_theory_figure(string $key): void
     }
     ?>
     <figure class="theory-figure">
-        <img src="<?= e(study_url('/public/assets/theory/meteorology/' . $key . '.svg?v=' . APP_VERSION)) ?>" alt="<?= e($figure[1]) ?>" loading="lazy" width="800" height="360">
-        <figcaption><?= e($figure[0]) ?>. Autorské schematické znázornění, není v měřítku.</figcaption>
+        <?php $figureUrl = study_url('/public/assets/theory/meteorology/' . $key . '.svg?v=' . APP_VERSION); ?>
+        <a class="theory-figure-link" href="<?= e($figureUrl) ?>" target="_blank" rel="noopener" aria-label="<?= e('Otevřít schéma ve větší velikosti: ' . $figure[0]) ?>"><img src="<?= e($figureUrl) ?>" alt="<?= e($figure[1]) ?>" loading="lazy" width="800" height="360"></a>
+        <figcaption><?= e($figure[0]) ?>. Autorské schematické znázornění, není v měřítku. <a href="<?= e($figureUrl) ?>" target="_blank" rel="noopener">Zvětšit schéma ↗</a></figcaption>
     </figure>
     <?php
 }
@@ -92,7 +93,7 @@ function render_theory_quick_reference(string $slug, array $chapters): void
     ?>
     <section class="panel theory-quick-reference" id="tahak" aria-labelledby="theory-quick-title">
         <span class="eyebrow">Opakování před zkouškou</span><h2 id="theory-quick-title">Meteorologické pomůcky a převody</h2>
-        <p>Výšky a vertikální vzdálenosti uvádíme v metrech i stopách (ft), tlak přednostně v hPa. V českém provozu se dohlednost a RVR hlásí v metrech, METAR/TAF uvádí základny ve stovkách stop a FL zůstává v původní podobě. Doplňkové převody slouží k pochopení, ne ke změně hlášených hodnot. Při praktickém letu respektuj platná pravidla, jednotky přístrojů a AFM/POH.</p>
+        <p>Výšky a vertikální vzdálenosti uvádíme v metrech i stopách (ft), tlak přednostně v hPa. V českém provozu se dohlednost a RVR hlásí v metrech, METAR/TAF uvádí základny ve stovkách stop a FL zůstává v původní podobě. Podle AIP ČR GEN 2.1 se výška letadla za letu hlásí ve stopách a vertikální rychlost ve ft/min; metrické přístroje na některých letadlech nemění toto pravidlo. Doplňkové převody slouží k pochopení, ne ke změně hlášených hodnot. Při praktickém letu respektuj platná pravidla, jednotky přístrojů a AFM/POH.</p>
         <div class="theory-reference-grid">
             <?php foreach ($selected as [$chapterKey, $item]): ?>
                 <a class="theory-reference-item" href="<?= e(theory_url($slug, $chapterKey)) ?>#pomucky"><span><?= e($item['label']) ?></span><strong><?= e($item['value']) ?></strong><small><?= e($item['note']) ?></small></a>
@@ -187,6 +188,11 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
             <?php endforeach; ?>
         </div>
         <?php if (!empty($course['quick_reference'])): render_theory_quick_reference($slug, $chapters); endif; ?>
+        <?php if (!empty($course['glossary'])): ?>
+            <section class="panel theory-glossary" id="slovnik"><span class="eyebrow">Terminologie</span><h2>Slovník pojmů a zkratek</h2><p>Používej jej při čtení kapitol; odkazy vedou na podrobný výklad příslušného pojmu.</p>
+                <dl><?php foreach ($course['glossary'] as $entry): ?><div><dt><a href="<?= e(theory_url($slug, $entry['chapter'])) ?>"><?= e($entry['term']) ?></a></dt><dd><?= e($entry['definition']) ?></dd></div><?php endforeach; ?></dl>
+            </section>
+        <?php endif; ?>
         <section class="panel theory-bibliography"><h2>Zdroje a metodika</h2><p>Autorský výklad využívá níže uvedené odborné zdroje, osnovu EASA a rozsah témat v lokální bance. Studijní texty nejsou oficiální učebnicí ani aktuálním letovým briefingem. Pro let platí aktuální předpisy, AIP, NOTAM, AFM/POH a pokyny instruktora a ATS. Zdroje z USA a Spojeného království slouží k výkladu meteorologie, ne k přenosu jejich místních provozních pravidel do ČR.</p>
         <p><a href="<?= e($course['exam_url']) ?>" target="_blank" rel="noopener noreferrer">ÚCL – zveřejněné zkušební otázky PPL/LAPL</a> (včetně podmínek použití).</p>
         <?php render_theory_sources(array_merge(...array_column($chapters, 'sources'))); ?></section>
@@ -198,6 +204,11 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
             </aside>
             <article class="theory-article">
                 <nav class="theory-section-nav" aria-label="Obsah kapitoly"><h2>V této kapitole</h2><ol><?php if (!empty($chapter['memory'])): ?><li><a href="#pomucky">Zapamatuj si</a></li><?php endif; ?><?php foreach ($chapter['sections'] as $i => $section): ?><li><a href="#sekce-<?= $i + 1 ?>"><?= e($section['heading']) ?></a></li><?php endforeach; ?><li><a href="#kontrola">Ověř si znalosti</a></li></ol></nav>
+                <?php $prerequisites = $course['prerequisites'][$chapterSlug] ?? []; ?>
+                <?php if ($prerequisites !== [] || !empty($course['glossary'])): ?><aside class="theory-prerequisites"><h2>Co je dobré znát předem</h2>
+                    <?php if ($prerequisites !== []): ?><p>Výklad navazuje na tyto kapitoly:</p><ul><?php foreach ($prerequisites as $previousSlug): ?><li><a href="<?= e(theory_url($slug, $previousSlug)) ?>"><?= e($chapters[$previousSlug]['title']) ?></a></li><?php endforeach; ?></ul><?php endif; ?>
+                    <?php if (!empty($course['glossary'])): ?><a href="<?= e(theory_url($slug)) ?>#slovnik">Slovník pojmů a zkratek</a><?php endif; ?>
+                </aside><?php endif; ?>
                 <?php render_theory_memory($chapter['memory'] ?? []); ?>
                 <?php foreach ($chapter['sections'] as $i => $section): render_theory_section($section, $i + 1); endforeach; ?>
                 <section id="kontrola" class="theory-section theory-checks"><span class="eyebrow">Aktivní vybavování znalostí</span><h2>Ověř si znalosti</h2><p>Odpověď si nejdříve zkus vysvětlit vlastními slovy. Potom ji odkryj a porovnej.</p>

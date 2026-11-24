@@ -74,7 +74,7 @@ return [
 [
 'heading' => 'Deset rodů oblaků',
 'paras' => [
-'Mezinárodní klasifikace WMO rozlišuje deset rodů. Názvy napovídají: cirro- označuje převážně vysokou oblačnost, alto- střední, stratus vrstvy, cumulus kupy a nimbus srážkový charakter. V mírném pásu se nízká hladina orientačně pohybuje od země do 2 km (≈ 6 560 ft), střední 2–7 km (≈ 6 560–22 970 ft), vysoká 5–13 km (≈ 16 400–42 650 ft). Stopy jsou zde zaokrouhleným převodem metrických intervalů; WMO může publikovat odlišně zaokrouhlené hranice. Rozsahy se překrývají a mění se se zeměpisnou šířkou; nejde o pevné hranice. Cu a Cb často začínají nízko, ale rostou do vyšších hladin; Ns může zasahovat do více hladin.'
+'Mezinárodní klasifikace WMO (World Meteorological Organization, Světová meteorologická organizace) rozlišuje deset rodů. Názvy napovídají: cirro- označuje převážně vysokou oblačnost, alto- střední, stratus vrstvy, cumulus kupy a nimbus srážkový charakter. V mírném pásu se nízká hladina orientačně pohybuje od země do 2 km (≈ 6 560 ft), střední 2–7 km (≈ 6 560–22 970 ft), vysoká 5–13 km (≈ 16 400–42 650 ft). Stopy jsou zde zaokrouhleným převodem metrických intervalů; WMO uvádí také samostatně zaokrouhlené orientační hranice ve stopách: nízká 0–6 500 ft, střední 6 500–23 000 ft, vysoká 16 500–45 000 ft. Nejde o přesné matematické ekvivalenty ani o ostré hranice; zde v hlavních tabulkách převádíme metrické hodnoty konzistentně. Rozsahy se překrývají a mění se se zeměpisnou šířkou; nejde o pevné hranice. Cu a Cb často začínají nízko, ale rostou do vyšších hladin; Ns může zasahovat do více hladin.'
 ],
 'figure' => 'clouds',
 'table' => [
@@ -150,7 +150,7 @@ return [
 'heading' => 'Pokrytí, základna a vrchol oblačnosti',
 'figure' => 'ceiling',
 'paras' => [
-'Pokrytí se udává v osminách (oktas). FEW a SCT mohou mít nízkou základnu, i když netvoří ceiling. Ceiling je nejnižší relevantní vrstva BKN nebo OVC, případně vertikální dohlednost při zakrytém nebi. Při plánování VFR však rozhodují i jednotlivé oblaky, požadovaná vzdálenost od nich, skutečná dohlednost za letu a odstup od terénu, ne jen ceiling. METAR uvádí základny ve stovkách stop (100 ft = 30,48 m) nad letištěm (AGL vzhledem k referenci letiště). Mapy mohou používat AMSL, FL nebo jiné označení, proto čti legendu.'
+'Pokrytí se udává v osminách (oktas). FEW (Few) a SCT (Scattered) mohou mít nízkou základnu, i když netvoří ceiling. Ceiling je nejnižší relevantní vrstva BKN (Broken) nebo OVC (Overcast), případně vertikální dohlednost při zakrytém nebi. Při plánování VFR (Visual Flight Rules, let podle pravidel za viditelnosti) však rozhodují i jednotlivé oblaky, požadovaná vzdálenost od nich, skutečná dohlednost za letu a odstup od terénu, ne jen ceiling. METAR uvádí základny ve stovkách stop (100 ft = 30,48 m) nad letištěm (AGL vzhledem k referenci letiště). Mapy mohou používat AMSL, FL nebo jiné označení, proto čti legendu.'
 ],
 'table' => [
 'headers' => [

@@ -107,14 +107,14 @@ return [
 [
 'heading' => 'Relativní vlhkost, rosný bod a deficit',
 'paras' => [
-'Relativní vlhkost RH je poměr skutečného tlaku vodní páry e a tlaku nasycené vodní páry eₛ při dané teplotě. Teplejší vzduch má vyšší tlak nasycené páry. Nejde doslova o schopnost vzduchu něco ‚udržet‘ jako houba, ale o termodynamickou rovnováhu. Při ochlazování bez významné změny obsahu páry roste RH; při ohřívání klesá.',
+'Relativní vlhkost RH (Relative Humidity) je procentní vyjádření poměru skutečného tlaku vodní páry e a tlaku nasycené vodní páry eₛ při dané teplotě. Teplejší vzduch má vyšší tlak nasycené páry. Nejde doslova o schopnost vzduchu něco ‚udržet‘ jako houba, ale o termodynamickou rovnováhu. Při ochlazování bez významné změny obsahu páry roste RH; při ohřívání klesá.',
 'Rosný bod Td je teplota, na niž je třeba vzduch ochladit při přibližně konstantním tlaku a obsahu vodní páry, aby dosáhl nasycení. Rozdíl T − Td je deficit rosného bodu (dew-point spread). Malý spread znamená vyšší relativní vlhkost, ale sám neurčuje dohlednost ani vznik mlhy. Rosný bod při změně teploty za jinak stejných podmínek zůstává přibližně stálý; při výstupu nebo přísunu vlhkosti se však může měnit.'
 ],
 'formula' => 'RH = 100 × e / eₛ(T) [%]    |    deficit = T − Td',
 'figure' => 'humidity',
 'example' => [
 'title' => 'METAR 16/14 vs 24/14',
-'text' => 'V obou případech je Td 14 °C. Spread 2 °C v prvním případě znamená blízkost nasycení; spread 10 °C ve druhém výrazně nižší RH. Pokud se v noci první vzduch ochladí na 14 °C a další podmínky dovolí, může vzniknout mlha.'
+'text' => 'V letištním pozorování METAR (jeho úplné dekódování je v kapitole 13) jsou čísla T/Td uvedena v °C. V obou případech je Td 14 °C. Spread 2 °C v prvním případě znamená blízkost nasycení; spread 10 °C ve druhém výrazně nižší RH. Pokud se v noci první vzduch ochladí na 14 °C a další podmínky dovolí, může vzniknout mlha.'
 ]
 ],
 [
@@ -158,7 +158,7 @@ return [
 'heading' => 'Výška kondenzace a odhad základny',
 'figure' => 'cloud-base-lcl',
 'paras' => [
-'Při suchém výstupu teplota klesá přibližně 0,98 °C/100 m (3 °C/1 000 ft) a rosný bod zhruba 0,16 °C/100 m (0,5 °C/1 000 ft); jejich rozdíl se zmenšuje. Hladina, kde se zvedaná částice poprvé nasytí, se označuje LCL (lifting condensation level). Pro dobře promíchanou přízemní vrstvu lze orientačně odhadnout základnu termických kumulů pomocí přibližně 122 m / 400 ft na 1 °C spreadu. Neplatí spolehlivě pro vrstevnaté oblaky, fronty, odlišné zdrojové vrstvy nebo orografii.'
+'Při suchém výstupu teplota klesá přibližně 0,98 °C/100 m (3 °C/1 000 ft) a rosný bod zhruba 0,16 °C/100 m (0,5 °C/1 000 ft); jejich rozdíl se zmenšuje. Hladina, kde se zvedaná částice poprvé nasytí, se označuje LCL (lifting condensation level). Rozdíl gradientů je přibližně 0,98 − 0,16 = 0,82 °C/100 m (3 − 0,5 = 2,5 °C/1 000 ft). Na zmenšení rozdílu T − Td o 1 °C tedy potřebujeme přibližně 100/0,82 = 122 m, respektive 1 000/2,5 = 400 ft výstupu. Proto pro dobře promíchanou přízemní vrstvu odhadujeme základnu termických kumulů pomocí 122 m / 400 ft na každý °C spreadu. Neplatí spolehlivě pro vrstevnaté oblaky, fronty, odlišné zdrojové vrstvy nebo orografii.'
 ],
 'formula' => 'H AGL [m] ≈ (T − Td) × 122 m/°C
 H AGL [ft] ≈ (T − Td) × 400 ft/°C',

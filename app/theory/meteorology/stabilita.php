@@ -104,8 +104,8 @@ return [
 'heading' => 'Konvekce, termika a vznik Cu',
 'figure' => 'thermal',
 'paras' => [
-'Zemský povrch přijímá sluneční záření nerovnoměrně; suché pole, asfalt nebo osluněný svah se může ohřát více než les či voda. Vzduch nad ním se ohřívá, stává se lehčím a vytváří stoupavé termické proudy. Po dosažení LCL se objeví Cu. Náhradou za stoupající vzduch vznikají okolní klesavé proudy. Za sucha může být termika bezoblačná, tedy i za zdánlivě klidné modré oblohy.',
-'Slabé Cu humilis s plochými základnami typicky ukazují omezený vertikální rozvoj. Cu mediocris a congestus (v meteorologických zprávách TCU) představují rostoucí konvekci. Jestliže částice získá dostatečnou energii a nepřekonatelnou inverzi nepotká, může se vyvinout Cb. Přerůstání konvektivní oblačnosti v testu označuje právě tento vertikální vývoj až k přeháňkám. Přes den se základna i aktivita mění, večer často slábnou.'
+'Zemský povrch přijímá sluneční záření nerovnoměrně; suché pole, asfalt nebo osluněný svah se může ohřát více než les či voda. Vzduch nad ním se ohřívá, stává se lehčím a vytváří stoupavé termické proudy. Po dosažení LCL (hladiny kondenzace vysvětlené v kapitole 3) se může objevit Cu, tedy kumulus, kupovitý oblak. Náhradou za stoupající vzduch vznikají okolní klesavé proudy. Za sucha může být termika bezoblačná, tedy i za zdánlivě klidné modré oblohy.',
+'Slabé Cu humilis s plochými základnami typicky ukazují omezený vertikální rozvoj. Cu mediocris a výrazně věžovitý Cu congestus (v meteorologických zprávách TCU, Towering Cumulus) představují rostoucí konvekci. Jestliže částice získá dostatečnou energii a nepřekonatelnou inverzi nepotká, může se vyvinout Cb (Cumulonimbus, bouřkový oblak). Přerůstání konvektivní oblačnosti v testu označuje právě tento vertikální vývoj až k přeháňkám. Přes den se základna i aktivita mění, večer často slábnou.'
 ],
 'example' => [
 'title' => 'Dva teplotní profily',
@@ -116,8 +116,8 @@ return [
 'heading' => 'Podmíněná nestabilita, CAPE a CIN',
 'figure' => 'cape-cin',
 'paras' => [
-'Při podmíněné nestabilitě se nenasycená částice sama neudrží ve stoupání, ale po dostatečném nuceném zdvihu a kondenzaci může být teplejší než okolí. LFC je hladina volné konvekce, EL hladina rovnováhy. CAPE (Convective Available Potential Energy, J/kg) představuje dostupnou energii vztlaku; CIN je energetická bariéra, kterou musí částice překonat. Velká CAPE bez spouštěče neznamená jistou bouřku. Nízká CAPE také nevylučuje nebezpečné organizované bouřky s dalšími mechanismy zdvihu.',
-'Spouštěčem mohou být oslunění, konvergence větru, fronta, výšková brázda nebo překonávání pohoří. Přísun chladnějšího vzduchu ve vyšších hladinách zvyšuje teplotní rozdíl a často konvekci podporuje. Vlhká nestabilní hmota vystupující po návětrném svahu může vytvářet Cb a intenzivní srážky, případně skryté Cb v jiné oblačnosti. Stabilní vlhká hmota při stejném zdvihu spíše tvoří vrstevnatou oblačnost.'
+'Při podmíněné nestabilitě se nenasycená částice sama neudrží ve stoupání, ale po dostatečném nuceném zdvihu a kondenzaci může být teplejší než okolí. LFC (Level of Free Convection) je hladina, od které může mít částice kladný vztlak a pokračovat ve volném výstupu; EL (Equilibrium Level) je hladina rovnováhy, kde kladný vztlak končí. CAPE (Convective Available Potential Energy, J/kg) představuje dostupnou energii vztlaku; CIN (Convective Inhibition, v J/kg) je energetická bariéra, kterou musí částice překonat. Velká CAPE bez spouštěče neznamená jistou bouřku. Nízká CAPE také nevylučuje nebezpečné organizované bouřky s dalšími mechanismy zdvihu.',
+'Spouštěčem mohou být oslunění, konvergence (sbíhání) větru, fronta (rozhraní vzduchových hmot), výšková brázda (protáhlá oblast nižší geopotenciální výšky tlakové plochy) nebo překonávání pohoří. Tyto jevy rozebírají kapitoly 7–10. Přísun chladnějšího vzduchu ve vyšších hladinách zvyšuje teplotní rozdíl a často konvekci podporuje. Vlhká nestabilní hmota vystupující po návětrném svahu může vytvářet Cb a intenzivní srážky, případně skryté Cb v jiné oblačnosti. Stabilní vlhká hmota při stejném zdvihu spíše tvoří vrstevnatou oblačnost.'
 ],
 'note' => 'Cu nebo dokonce bezoblačná termika může být turbulentní. Cb ani TCU není bezpečné prolétávat. Sleduj změnu tvaru a rozsahu oblačnosti, radar a výstrahy; růst může být rychlý.'
 ],

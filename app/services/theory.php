@@ -29,6 +29,202 @@ function theory_registry(): array
             'source_version' => 'ÚCL, Meteorologie – letoun, verze 1.1 (29. 12. 2020)',
             'source_count' => 129,
             'quick_reference' => true,
+            'prerequisites' => [
+'atmosfera' => [
+
+],
+'vyskomery' => [
+'atmosfera'
+],
+'vlhkost' => [
+'atmosfera',
+'vyskomery'
+],
+'stabilita' => [
+'atmosfera',
+'vlhkost'
+],
+'oblacnost' => [
+'vlhkost',
+'stabilita'
+],
+'mlha' => [
+'vyskomery',
+'vlhkost',
+'oblacnost'
+],
+'vitr' => [
+'atmosfera',
+'vyskomery'
+],
+'fronty' => [
+'stabilita',
+'oblacnost',
+'vitr'
+],
+'tlakove-utvary' => [
+'vyskomery',
+'vitr',
+'fronty'
+],
+'hory' => [
+'vlhkost',
+'stabilita',
+'vitr'
+],
+'namraza' => [
+'atmosfera',
+'vlhkost',
+'oblacnost'
+],
+'bourky' => [
+'stabilita',
+'oblacnost',
+'vitr',
+'hory'
+],
+'zpravy' => [
+'vyskomery',
+'oblacnost',
+'mlha',
+'fronty',
+'bourky'
+],
+'briefing' => [
+'vyskomery',
+'mlha',
+'namraza',
+'bourky',
+'zpravy'
+]
+],
+            'glossary' => [
+[
+'term' => 'MSL / AMSL / AGL',
+'definition' => 'Střední hladina moře / nad střední hladinou moře / nad terénem. Pozor na referenci, nikoli jen jednotku.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'Elevace, altitude, height',
+'definition' => 'Elevace je nadmořská výška místa na zemi. Altitude odkazuje k MSL; height k určené referenci, např. terénu.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'ISA / TISA',
+'definition' => 'Mezinárodní standardní atmosféra / teplota v ISA pro konkrétní výšku. Při výpočtu DA použij TISA v PA.',
+'chapter' => 'atmosfera'
+],
+[
+'term' => 'OAT',
+'definition' => 'Outside Air Temperature, skutečná venkovní teplota v °C.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'QNH / QFE / QFF / STD',
+'definition' => 'QNH je nastavení výškoměru pro indikaci nadmořské výšky, QFE tlak na referenci letiště či prahu, QFF meteorologická redukce na MSL, STD 1013,25 hPa.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'PA',
+'definition' => 'Pressure Altitude: tlaková výška, odečet při STD. Není skutečnou nadmořskou výškou.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'DA',
+'definition' => 'Density Altitude: hustotní výška, tedy výška ISA odpovídající skutečné hustotě vzduchu; určuje výkonové podmínky.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'FL',
+'definition' => 'Flight Level: tlaková výška ve stovkách stop při standardním nastavení.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'IAS / TAS / GS',
+'definition' => 'Indikovaná vzdušná rychlost / skutečná rychlost vůči vzduchu / rychlost vůči zemi.',
+'chapter' => 'atmosfera'
+],
+[
+'term' => 'AFM / POH',
+'definition' => 'Letová příručka letadla / provozní příručka pilota. Rozhodující zdroj výkonových tabulek, omezení a postupů konkrétního stroje.',
+'chapter' => 'vyskomery'
+],
+[
+'term' => 'T / Td / RH / spread',
+'definition' => 'Teplota vzduchu / teplota rosného bodu / relativní vlhkost / rozdíl T − Td.',
+'chapter' => 'vlhkost'
+],
+[
+'term' => 'DALR / SALR / MALR / ELR',
+'definition' => 'Suchý adiabatický gradient / nasycený nebo vlhký adiabatický gradient / skutečný gradient okolí.',
+'chapter' => 'vlhkost'
+],
+[
+'term' => 'LCL / LFC / EL',
+'definition' => 'Hladina kondenzace při výstupu / hladina volné konvekce / hladina rovnováhy.',
+'chapter' => 'stabilita'
+],
+[
+'term' => 'CAPE / CIN',
+'definition' => 'Dostupná konvekční energie / energie bránící počátečnímu výstupu, v J/kg.',
+'chapter' => 'stabilita'
+],
+[
+'term' => 'Cu / Cb / TCU',
+'definition' => 'Cumulus / cumulonimbus / věžovitý cumulus v meteorologickém kódování. Ostatní rody jsou v kapitole 5.',
+'chapter' => 'oblacnost'
+],
+[
+'term' => 'FEW / SCT / BKN / OVC / VV',
+'definition' => '1–2 / 3–4 / 5–7 / 8 osmin pokrytí; VV je vertikální dohlednost při zakrytém nebi.',
+'chapter' => 'oblacnost'
+],
+[
+'term' => 'VFR / VMC / IMC',
+'definition' => 'Pravidla pro let za viditelnosti / meteorologické podmínky pro let za viditelnosti / přístrojové meteorologické podmínky.',
+'chapter' => 'mlha'
+],
+[
+'term' => 'RVR / ceiling',
+'definition' => 'Dráhová dohlednost / nejnižší relevantní základna BKN, OVC nebo údaj vertikální dohlednosti při zakrytém nebi.',
+'chapter' => 'mlha'
+],
+[
+'term' => 'CAVOK',
+'definition' => 'Dohlednost nejméně 10 km, žádná provozně význačná oblačnost a význačné počasí. Přesná kritéria v kapitole 13.',
+'chapter' => 'zpravy'
+],
+[
+'term' => 'METAR / SPECI / TAF',
+'definition' => 'Rutinní / mimořádné letištní pozorování / letištní předpověď.',
+'chapter' => 'zpravy'
+],
+[
+'term' => 'SWL / SIGMET / AIRMET / GAMET',
+'definition' => 'Mapa význačného počasí v nízkých hladinách / výstražné informace pro letové oblasti / oblastní předpověď pro nízké hladiny.',
+'chapter' => 'zpravy'
+],
+[
+'term' => 'ATIS / VOLMET',
+'definition' => 'Automatické letištní provozní a meteorologické informace / vysílání meteorologických informací pro letadla za letu.',
+'chapter' => 'zpravy'
+],
+[
+'term' => 'ATS / FIS / FIR / UIR',
+'definition' => 'Letové provozní služby / letová informační služba / letová informační oblast / horní letová informační oblast.',
+'chapter' => 'zpravy'
+],
+[
+'term' => 'UTC / ETA',
+'definition' => 'Světový koordinovaný čas / předpokládaný čas příletu.',
+'chapter' => 'briefing'
+],
+[
+'term' => 'NM / kt / ft/min',
+'definition' => 'Námořní míle (1 852 m) / uzel (1 NM/h) / stopy za minutu. 1 m/s ≈ 197 ft/min.',
+'chapter' => 'vitr'
+]
+],
             'exam_url' => 'https://www.caa.gov.cz/zkusebni-otazky-pro-zkousky-teoretickych-znalosti-ppl-lapl/',
             'chapter_files' => [
                 'atmosfera' => 'atmosfera.php',
@@ -121,6 +317,7 @@ function theory_sources(): array
         'taf-guide' => ['Met Office – How to decode a TAF', 'https://docs.mavis.metoffice.gov.uk/guidance/taf-decode/', 'Platnost, změnové skupiny a pravděpodobnost.'],
         'chmi-aviation' => ['ČHMÚ – Letecká meteorologie', 'https://www.chmi.cz/letectvi', 'Rozcestník aktuálních českých meteorologických produktů.'],
         'chmi-briefing' => ['ČHMÚ – Jak udělat předletovou přípravu?', 'https://www.chmi.cz/-/jak-udelat-predletovou-pripravu-', 'Postup vyhodnocení pozorování, předpovědí a rizik.'],
+        'chmi-swl-legend' => ['ČHMÚ · Dokumentace SWL mapy (2025)', 'https://www.chmi.cz/documents/42501/2779619/SWL_mapa_dokument_2025.pdf/?download=true&t=1762851249192&version=1.0', 'Výšky hft AMSL, vítr kt, dohlednost km, značení SFC a XXX.'],
         'chmi-swl' => ['ČHMÚ – SWL mapa pro ČR', 'https://www.chmi.cz/letectvi/predpovedi-pro-letani/swl-mapa', 'Předpověď význačného počasí do FL100, legenda a jednotky.'],
         'chmi-taf' => ['ČHMÚ – TAF', 'https://www.chmi.cz/letectvi/textove-predpovedi-pro-letani/predpovedi-taf', 'Letištní předpovědi.'],
         'chmi-metar' => ['ČHMÚ – METAR/SPECI', 'https://en.chmi.cz/web/chmi.cz/letectvi/aktualni-pocasi-pro-letani/zpravy-metar-speci', 'Aktuální letištní pozorování.'],

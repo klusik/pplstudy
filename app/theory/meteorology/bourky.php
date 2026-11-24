@@ -104,7 +104,7 @@ return [
 'figure' => 'storm-hazards',
 'paras' => [
 'Silná turbulence může způsobit velké změny zatížení a rychlosti. Kroupy mohou poškodit náběžné hrany, vrtuli, čelní sklo a další části, mohou se dostat i mimo viditelnou základnu oblaku. Blesk může tepelně či mechanicky poškodit konstrukci, elektrické systémy nebo elektroniku; může způsobit i dočasné oslnění. Námraza, srážky, ztráta dohlednosti, silné vertikální proudy a tlakové odchylky se mohou kombinovat.',
-'Cb může být ukryt v vrstevnaté oblačnosti (embedded); v noci jej nemusíš vůbec vidět. Ani let pod kovadlinou nebo pod dešťovou clonou není bezpečný způsob obcházení. Nepokoušej se prolétat bouřkovou linií nebo úzkou mezerou jen podle zobrazení na displeji. Družice, radar a výstrahy ukazují jen část situace a mají zpoždění. Při významném riziku vol trasu s velkým odstupem nebo let odlož.'
+'Cb (kumulonimbus) může být ukryt v vrstevnaté oblačnosti (embedded); v noci jej nemusíš vůbec vidět. Ani let pod kovadlinou nebo pod dešťovou clonou není bezpečný způsob obcházení. Nepokoušej se prolétat bouřkovou linií nebo úzkou mezerou jen podle zobrazení na displeji. Družice, radar a výstrahy ukazují jen část situace a mají zpoždění. Při významném riziku vol trasu s velkým odstupem nebo let odlož.'
 ],
 'note' => 'Pro běžný výcvikový VFR let nepřijímej průlet bouřkovou oblastí jako plán. Pokud bezpečná alternativa není jednoznačně dostupná, nelétej.'
 ],
@@ -112,7 +112,7 @@ return [
 'heading' => 'Húlava, downburst a microburst',
 'paras' => [
 'Srážky a odpařování mohou ochladit vzduch uvnitř a pod bouřkou. Hustší vzduch sestupuje, po dosažení země se rozlévá do stran. Čelo tohoto výtoku je gust front (nárazová fronta), v českém učebním kontextu húlava. Může se šířit před deštěm a přinášet skokovou změnu větru, tlakový skok a pokles teploty. Downburst je intenzivní sestupný proud s výrazným rozbíhavým výtokem u země; microburst je jeho lokální forma s horizontálním měřítkem menším než asi 4 km (≈ 13 123 ft, 2,16 NM); tato hodnota není bezpečným odstupem od bouřky. Může být mokrý nebo suchý (virga, prach).',
-'Při průletu přes výtok se zpočátku může zvýšit IAS při narůstajícím protivětru, poté působí silný downdraft a na druhé straně změna na zadní vítr způsobí ztrátu IAS a výkonové rezervy. Zvlášť u země nemusí být výška ani motorový výkon dostatečný pro vyrovnání situace. Rozhodující je včasná prevence: vyčkat, odklonit se nebo přerušit přiblížení podle výcviku a publikovaných postupů.'
+'Při průletu přes výtok se zpočátku může zvýšit IAS při narůstajícím protivětru, poté působí silný downdraft (sestupný proud) a na druhé straně změna na zadní vítr způsobí ztrátu IAS a výkonové rezervy. Zvlášť u země nemusí být výška ani motorový výkon dostatečný pro vyrovnání situace. Rozhodující je včasná prevence: vyčkat, odklonit se nebo přerušit přiblížení podle výcviku a publikovaných postupů.'
 ],
 'figure' => 'microburst'
 ],

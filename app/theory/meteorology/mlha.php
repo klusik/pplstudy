@@ -165,8 +165,8 @@ return [
 'heading' => 'VFR rozhodnutí při zhoršování dohlednosti',
 'figure' => 'visibility-decision',
 'paras' => [
-'Před letem posuď pozorování i předpovědi v době odletu, návratu a na alternativách. Porovnávej časové tendence METAR/SPECI, TAF, regionální předpověď, webkamery a topografii; letištní měření není reprezentativní pro každé údolí. Podmínky VMC závisejí na prostoru, výšce, denní/noční době a příslušných pravidlech. Vlastní minima mohou být přísnější, zvláště při výcviku a v neznámém terénu.',
-'Pokud se základna snižuje a ztrácíš vizuální kontakt s terénem či bezpečnou rezervu, rozhodnutí o návratu nebo odklonu musí přijít dřív, než se uzavře možnost bezpečně pokračovat. Nespoléhej na to, že se dohlednost o pár kilometrů dále zlepší, protože předpověď to říká. Při neúmyslném vstupu do IMC použij nacvičené postupy, přístroje a pomoc ATS; praktický postup patří do výcviku.'
+'Před letem posuď pozorování i předpovědi v době odletu, návratu a na alternativách. Porovnávej časové tendence letištních pozorování METAR a mimořádných zpráv SPECI, letištní předpovědi TAF (podrobně kapitola 13), regionální předpověď, webkamery a topografii; letištní měření není reprezentativní pro každé údolí. Meteorologické podmínky pro let za viditelnosti (VMC, Visual Meteorological Conditions) závisejí na prostoru, výšce, denní/noční době a příslušných pravidlech. Vlastní minima mohou být přísnější, zvláště při výcviku a v neznámém terénu.',
+'Pokud se základna snižuje a ztrácíš vizuální kontakt s terénem či bezpečnou rezervu, rozhodnutí o návratu nebo odklonu musí přijít dřív, než se uzavře možnost bezpečně pokračovat. Nespoléhej na to, že se dohlednost o pár kilometrů dále zlepší, protože předpověď to říká. Při neúmyslném vstupu do IMC (Instrument Meteorological Conditions, podmínek pod příslušnými minimy VMC) použij nacvičené postupy, přístroje a pomoc ATS (Air Traffic Services, letové provozní služby); praktický postup patří do výcviku.'
 ],
 'note' => 'Pěkný METAR na jednom letišti není povolení k celému VFR letu. Nejdůležitější je souvislá bezpečná trasa v čase a prostoru.'
 ]

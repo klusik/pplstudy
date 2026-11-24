@@ -502,3 +502,16 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(22,100,151,.
 .theory-example-steps > li { padding:9px 0 9px 5px; border-top:1px solid var(--line); }
 .theory-example-steps > li::marker { color:var(--blue); font-weight:800; }
 .theory-example-steps > li > p { margin:5px 0 0; }
+
+.theory-figure-link { display:block; cursor:zoom-in; }
+.theory-figure figcaption a { color:var(--blue); font-weight:650; white-space:nowrap; }
+.theory-prerequisites { padding:14px 17px; border:1px solid var(--line); border-radius:10px; background:var(--sky); margin:0 0 23px; font-size:.9rem; }
+.theory-prerequisites h2 { font-size:1.03rem; margin:0 0 8px; }
+.theory-prerequisites p { margin:6px 0; }
+.theory-prerequisites ul { margin:5px 0 10px; padding-left:1.2rem; }
+.theory-prerequisites a,.theory-glossary a { color:var(--blue); font-weight:650; }
+.theory-glossary { margin-top:25px; scroll-margin-top:100px; }
+.theory-glossary dl { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,275px),1fr)); gap:12px; margin:15px 0 0; }
+.theory-glossary dl > div { padding:13px; border:1px solid var(--line); border-radius:8px; background:#f8fbfd; }
+.theory-glossary dt { font-weight:750; }
+.theory-glossary dd { margin:7px 0 0; font-size:.9rem; color:var(--ink-soft); }

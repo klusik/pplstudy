@@ -56,7 +56,7 @@ return [
 'heading' => 'Podmínky vzniku námrazy',
 'paras' => [
 'Kapalná voda může zůstat přechlazená i pod 0 °C. Když taková kapka dopadne na vhodně chladný povrch letadla, může částečně nebo zcela zmrznout. Množství kapalné vody, velikost kapek, teplota, rychlost letadla a tvar povrchu ovlivňují rychlost a místo usazování ledu. Největší pravděpodobnost výrazné námrazy bývá v mnoha běžných oblačných situacích kolem 0 až −12 °C, což je rozsah zdůrazněný v bance. Námraza je však možná i mimo něj, včetně podstatně nižších teplot a za určitých okolností při kladné OAT na studeném povrchu.',
-'Nulová izoterma je hladina, kde je okolní teplota 0 °C; její výšku čti s referencí a v metrech i stopách (např. 1 500 m ≈ 4 921 ft AMSL), může jich být i několik při inverzi. Samotná záporná teplota v suchém vzduchu není totéž co námraza. Mrak, mrznoucí srážky nebo namrzající mlha představují konkrétní zdroj vody. Velké přechlazené kapky (SLD), například FZRA/FZDZ, mohou stékat za chráněné části draku.'
+'Nulová izoterma je hladina, kde je okolní teplota 0 °C; její výšku čti s referencí a v metrech i stopách (např. 1 500 m ≈ 4 921 ft AMSL), může jich být i několik při inverzi. Samotná záporná teplota v suchém vzduchu není totéž co námraza. Mrak, mrznoucí srážky nebo namrzající mlha představují konkrétní zdroj vody. Velké přechlazené kapky (SLD, Supercooled Large Droplets), například mrznoucí déšť FZRA nebo mrznoucí mrholení FZDZ, mohou stékat za chráněné části draku.'
 ],
 'figure' => 'icing'
 ],
@@ -110,7 +110,7 @@ return [
 'figure' => 'carb-icing',
 'paras' => [
 'Karburátorový motor je ohrožen i za kladných teplot: tlakový pokles ve Venturiho trubici a odpařování paliva mohou výrazně ochladit směs. Při vhodné vlhkosti se tvoří led v sání, zužuje průtok a snižuje výkon. Při nízkém výkonu během sestupu a přiblížení může být riziko výrazné. U motoru s pevnou vrtulí se může projevit poklesem RPM; u stavitelné vrtule může být první změnou pokles plnicího tlaku, případně nepravidelný chod.',
-'Vstřikování paliva odstraňuje klasický karburátor jako zdroj tohoto mechanismu, ale ne všechna rizika námrazy sání, například na filtru či vstupu. Použití carb heat, alternate air a pitot heat se řídí checklistem konkrétního letadla. Nikdy nepředpokládej stejný postup pro karburátorovou a vstřikovací verzi stejného typu.'
+'Vstřikování paliva odstraňuje klasický karburátor jako zdroj tohoto mechanismu, ale ne všechna rizika námrazy sání, například na filtru či vstupu. Použití carb heat (ohřev vzduchu pro karburátor), alternate air (alternativní vstup vzduchu) a pitot heat (vyhřívání pitotovy trubice) se řídí checklistem konkrétního letadla. Nikdy nepředpokládej stejný postup pro karburátorovou a vstřikovací verzi stejného typu.'
 ],
 'example' => [
 'title' => 'C172 a teplota +12 °C ve vlhkém vzduchu',
