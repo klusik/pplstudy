@@ -40,6 +40,26 @@ return [
 'nws-pressure',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Fén: suchá a nasycená větev',
+'value' => '≈ 1 / 0,6 °C na 100 m · ≈ 3 / 1,8 °C na 1 000 ft',
+'note' => 'Při nasyceném výstupu se vzduch obvykle ochlazuje pomaleji než při suchém sestupu ohřívá.',
+'overview' => false
+],
+[
+'label' => 'Lenticularis a rotory',
+'value' => 'Ac lenticularis = varování před horskou vlnou',
+'note' => 'Hladký vzhled oblaku není důkazem bezpečných podmínek; závětří může obsahovat silnou turbulenci a sestupné proudy.',
+'overview' => false
+],
+[
+'label' => 'Stoupavost a klesavé proudy',
+'value' => '5 m/s ≈ 984 ft/min',
+'note' => 'Posuzuj, zda schopnost stoupání a úniková trasa stačí. Číslo je příklad převodu, nikoli hranice bezpečnosti.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Návětří, závětří a vynucený výstup',
@@ -66,7 +86,7 @@ return [
 ],
 'example' => [
 'title' => 'Zjednodušený termodynamický fén',
-'text' => 'Vzduch při 15 °C stoupá první 1 km nenasycený → asi 5 °C. Další 1 km nasycený při 6 °C/km → −1 °C. Po ztrátě části kondenzátu sestupuje 2 km suchou adiabatou → asi +19 °C ve stejné výšce jako na návětří. Výsledek je ilustrační, skutečný fén závisí i na dynamice.'
+'text' => 'Vzduch při 15 °C stoupá prvních 1 000 m (≈ 3 281 ft) nenasycený při zaokrouhleném gradientu 1 °C/100 m (≈ 3 °C/1 000 ft) → asi 5 °C. Dalších 1 000 m (≈ 3 281 ft) nasycený při 0,6 °C/100 m (≈ 1,8 °C/1 000 ft) → −1 °C. Po ztrátě části kondenzátu sestupuje 2 000 m (≈ 6 562 ft) suchou adiabatou → asi +19 °C ve stejné výšce jako na návětří. Výsledek je ilustrační, skutečný fén závisí i na dynamice.'
 ]
 ],
 [

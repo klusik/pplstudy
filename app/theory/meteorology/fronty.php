@@ -38,6 +38,26 @@ return [
 'metoffice-weather',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Teplá fronta',
+'value' => 'Ci → Cs → As → Ns',
+'note' => 'Pozvolný výstup, zpravidla postupné zhoršování dohlednosti a dlouhotrvající srážky. Pořadí je typické, nikoli zaručené.',
+'overview' => false
+],
+[
+'label' => 'Studená fronta',
+'value' => 'Strmější zdvih · Cu/TCU/Cb · přeháňky',
+'note' => 'Za frontou se může vyjasňovat, ale konvekce a nárazy mohou pokračovat.',
+'overview' => false
+],
+[
+'label' => 'Frontální symboly',
+'value' => '▲ studená · půlkruhy teplá',
+'note' => 'Symboly na čáře ukazují směr postupu; okluze kombinuje oba typy, stacionární fronta je má na opačných stranách.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Odkud přichází vzduch',

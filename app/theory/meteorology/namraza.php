@@ -25,12 +25,38 @@ return [
 'caa-winter',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Zkouškový rozsah rizika námrazy',
+'value' => '0 až −12 °C',
+'note' => 'Časté rizikové podmínky s přechlazenou kapalnou vodou, ne absolutní hranice. Námraza je možná i mimo rozsah.',
+'overview' => true
+],
+[
+'label' => 'Nulová izoterma',
+'value' => '0 °C',
+'note' => 'Zjišťuj její výšku v m i ft, ale nezaměňuj ji za hranici výskytu kapalné vody.',
+'overview' => false
+],
+[
+'label' => 'Karburátorová námraza',
+'value' => 'Riziko i při kladné OAT',
+'note' => 'Ochlazení v sání; carb heat či alternate air používej podle AFM/POH konkrétního stroje.',
+'overview' => false
+],
+[
+'label' => 'Druh námrazy',
+'value' => 'Malé kapky: rime · velké kapky: clear/glaze',
+'note' => 'Tvar a velikost nánosu ovlivňuje aerodynamiku; nečekej na určitý typ ledu před rozhodnutím.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Podmínky vzniku námrazy',
 'paras' => [
 'Kapalná voda může zůstat přechlazená i pod 0 °C. Když taková kapka dopadne na vhodně chladný povrch letadla, může částečně nebo zcela zmrznout. Množství kapalné vody, velikost kapek, teplota, rychlost letadla a tvar povrchu ovlivňují rychlost a místo usazování ledu. Největší pravděpodobnost výrazné námrazy bývá v mnoha běžných oblačných situacích kolem 0 až −12 °C, což je rozsah zdůrazněný v bance. Námraza je však možná i mimo něj, včetně podstatně nižších teplot a za určitých okolností při kladné OAT na studeném povrchu.',
-'Nulová izoterma je hladina, kde je okolní teplota 0 °C; může jich být i několik při inverzi. Samotná záporná teplota v suchém vzduchu není totéž co námraza. Mrak, mrznoucí srážky nebo namrzající mlha představují konkrétní zdroj vody. Velké přechlazené kapky (SLD), například FZRA/FZDZ, mohou stékat za chráněné části draku.'
+'Nulová izoterma je hladina, kde je okolní teplota 0 °C; její výšku čti s referencí a v metrech i stopách (např. 1 500 m ≈ 4 921 ft AMSL), může jich být i několik při inverzi. Samotná záporná teplota v suchém vzduchu není totéž co námraza. Mrak, mrznoucí srážky nebo namrzající mlha představují konkrétní zdroj vody. Velké přechlazené kapky (SLD), například FZRA/FZDZ, mohou stékat za chráněné části draku.'
 ],
 'figure' => 'icing'
 ],

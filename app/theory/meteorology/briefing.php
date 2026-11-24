@@ -51,6 +51,26 @@ return [
 'easa-ops',
 'caa-mountain'
 ],
+'memory' => [
+[
+'label' => 'Přepočet základny',
+'value' => 'H AMSL = elevace AMSL + H AGL',
+'note' => 'Sčítej hodnoty v jedné jednotce (m nebo ft), nikoli m s ft. Základna na letišti není plošná garance pro trasu.',
+'overview' => true
+],
+[
+'label' => 'Tlaková výška, DA a výkon',
+'value' => 'hPa + m/ft + °C',
+'note' => 'Při výkonovém výpočtu použij tabulky konkrétního AFM/POH. Ověř jednotky, konfiguraci a rezervu.',
+'overview' => false
+],
+[
+'label' => 'Rozhodovací pomůcka',
+'value' => 'Trasa + čas + počasí + rezerva',
+'note' => 'Ověř alternativy, únikové trasy a osobní minima; předpověď není záruka.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Postup od velkého měřítka k letišti',
@@ -124,15 +144,16 @@ return [
 [
 'heading' => 'Scénář C: základna oblačnosti a terén',
 'paras' => [
-'Modelové letiště v elevaci 1 300 ft AMSL hlásí BKN020. Základna je tedy přibližně 3 300 ft AMSL. Na trase leží hřeben 2 700 ft AMSL. Mezi vrcholem a letištní odhadovanou základnou zbývá jen 600 ft, navíc skutečný terén a oblačnost se mohou měnit. To není automaticky použitelná rezerva pro VFR, zejména při požadovaných vzdálenostech od oblačnosti, stoupání terénu, turbulenci nebo nepřesnosti výšky.',
+'Modelové letiště v elevaci 396 m / 1 300 ft AMSL hlásí BKN020 (610 m / 2 000 ft nad letištěm). Základna je tedy přibližně 1 006 m / 3 300 ft AMSL. Na trase leží hřeben 823 m / 2 700 ft AMSL. Mezi vrcholem a letištní odhadovanou základnou zbývá jen 183 m / 600 ft, navíc skutečný terén a oblačnost se mohou měnit. To není automaticky použitelná rezerva pro VFR, zejména při požadovaných vzdálenostech od oblačnosti, stoupání terénu, turbulenci nebo nepřesnosti výšky.',
 'Pro bezpečný plán musí existovat trasa se skutečnou rezervou, případně nižší alternativní terén, při zachování pravidel pro VMC a minimální výšky. Neodvozuj lokální AGL nad celou krajinou pouze z BKN na odletovém letišti.'
 ],
-'formula' => 'Základna AMSL ≈ elevace referenčního letiště + hlášená základna [ft AGL]'
+'formula' => 'H AMSL [m] ≈ elevace [m AMSL] + základna [m AGL]
+H AMSL [ft] ≈ elevace [ft AMSL] + základna [ft AGL]'
 ],
 [
 'heading' => 'Scénář D: teplý den a krátká dráha',
 'paras' => [
-'Modelová situace: travnaté letiště v 1 500 ft AMSL, QNH 1003, OAT +30 °C. Orientační DA z kapitoly o výškoměru je kolem 4 000 ft. Boční vítr v nárazech, mokrá tráva nebo stoupající terén za dráhou dále komplikují výkon. Nejde jen o délku rozjezdu, ale o celou potřebnou vzdálenost a schopnost překonat překážky.',
+'Modelová situace: travnaté letiště v 457 m / 1 500 ft AMSL, QNH 1003 hPa, OAT +30 °C. Orientační DA z kapitoly o výškoměru je kolem 1 220 m / 4 000 ft. Boční vítr v nárazech, mokrá tráva nebo stoupající terén za dráhou dále komplikují výkon. Nejde jen o délku rozjezdu, ale o celou potřebnou vzdálenost a schopnost překonat překážky.',
 'Použij příslušné výkonové tabulky konkrétního AFM/POH, skutečnou hmotnost, stav dráhy, vítr, teplotu a publikovanou délku. Nepoužívej odhad DA jako náhradu výkonového výpočtu. Pokud výsledky nemají přijatelnou rezervu, sniž hmotnost v rámci limitů, zvol jiné letiště/čas nebo nelétej.'
 ]
 ],
@@ -151,7 +172,7 @@ return [
 'answer' => 'Radar především zobrazuje detekované srážky v určitém čase; SWL je předpověď význačného počasí v nízkých hladinách.'
 ],
 [
-'question' => 'Letiště hlásí SCT008, bez BKN/OVC. Je nízká oblačnost irelevantní?',
+'question' => 'Letiště hlásí SCT008 (244 m / 800 ft AGL), bez BKN/OVC. Je nízká oblačnost irelevantní?',
 'answer' => 'Ne. Nízké jednotlivé oblaky mohou omezit VFR trasu, rozhled a dodržení vzdáleností.'
 ],
 [

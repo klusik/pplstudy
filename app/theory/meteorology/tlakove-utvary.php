@@ -42,6 +42,26 @@ return [
 'nws-cape',
 'faa-weather'
 ],
+'memory' => [
+[
+'label' => 'Níže / výše',
+'value' => 'L: konvergence a výstup · H: divergence a sestup',
+'note' => 'Přízemní idealizace. Výše v zimě nevylučuje mlhu ani nízkou oblačnost.',
+'overview' => false
+],
+[
+'label' => 'Tlakové hladiny',
+'value' => '850 hPa / 500 hPa',
+'note' => 'Tlaková plocha nemá pevnou geometrickou výšku. Ve studeném sloupci leží plochy blíže u sebe.',
+'overview' => false
+],
+[
+'label' => 'Tloušťka vrstvy',
+'value' => 'Δz [ft] = Δz [m] / 0,3048',
+'note' => 'Hypsometrická rovnice při R a g v SI dává metry; následně lze výsledek převést na stopy.',
+'overview' => false
+]
+],
 'sections' => [
 [
 'heading' => 'Cyklona, anticyklona, brázda a hřeben',
@@ -89,10 +109,11 @@ return [
 'Přísun chladného vzduchu nad teplejší a vlhčí přízemní vrstvu často zvětšuje skutečný teplotní gradient. Pokud je k dispozici vlhkost a zdvih, vznikají přeháňky nebo bouřky i bez dobře vyvinuté přízemní fronty. Výšková brázda může podporovat vertikální proudění a organizovat konvekci. Samotný pokles geopotenciální výšky neurčuje přesně přízemní tlak; sleduj mapy obou vrstev.'
 ],
 'figure' => 'thickness',
-'formula' => 'Δz ≈ (R × T̄ᵥ / g) × ln(p₁/p₂)',
+'formula' => 'Δz [m] ≈ (R × T̄ᵥ / g) × ln(p₁/p₂)
+Δz [ft] = Δz [m] / 0,3048 (R a g v SI; oba tlaky ve stejných jednotkách, např. hPa)',
 'example' => [
 'title' => 'Tlakové hladiny 1000 a 500 hPa',
-'text' => 'Pro střední virtuální teplotu vrstvy 270 K vychází tloušťka přibližně 5 480 m; při 250 K asi 5 070 m. Chladnější sloupec je přibližně o 410 m tenčí. Jde o zjednodušený hypsometrický výpočet.'
+'text' => 'Pro střední virtuální teplotu vrstvy 270 K vychází tloušťka přibližně 5 480 m (17 980 ft); při 250 K asi 5 070 m (16 630 ft). Chladnější sloupec je přibližně o 410 m (1 350 ft) tenčí. Jde o zjednodušený hypsometrický výpočet.'
 ]
 ],
 [
