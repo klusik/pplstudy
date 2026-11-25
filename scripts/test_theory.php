@@ -14,11 +14,14 @@ use function PplStudy\Services\theory_course;
 use function PplStudy\Services\theory_figures;
 use function PplStudy\Services\theory_slug_for_subject;
 use function PplStudy\Services\theory_sources;
+use function PplStudy\Services\theory_labs;
+use function PplStudy\Services\theory_labs_for_section;
 
 if (PHP_SAPI !== 'cli' || $argc !== 2) {
     exit(1);
 }
 require dirname(__DIR__) . '/app/services/theory.php';
+require dirname(__DIR__) . '/app/services/theory_labs.php';
 
 /** Assert a course invariant independently of the PHP assertion configuration. */
 function check_theory(bool $condition, string $message): void
@@ -52,6 +55,15 @@ $words = 0;
 $memoryCount = 0;
 $overviewCount = 0;
 $stepCount = 0;
+$labIds = [];
+$labRegistry = theory_labs();
+$labSource = '';
+foreach (['lab-engine.js', 'lab-physics.js', 'lab-weather.js', 'labs.css'] as $asset) {
+    $bytes = $zip->getFromName('public/assets/theory/meteorology/' . $asset);
+    check_theory(is_string($bytes) && strlen($bytes) > 100, 'Missing laboratory asset: ' . $asset);
+    if (str_ends_with($asset, '.js')) { $labSource .= $bytes; }
+}
+check_theory($zip->locateName('app/services/theory_labs.php') !== false, 'Missing laboratory registry in ZIP');
 $chapterOrder = array_keys($course['chapters']);
 check_theory(count($course['glossary']) === 25, 'Glossary incomplete');
 foreach ($course['glossary'] as $entry) {
@@ -78,7 +90,17 @@ foreach ($course['chapters'] as $slug => $chapter) {
         check_theory(isset($sources[$id]) && str_starts_with($sources[$id][1], 'https://'), 'Unknown source: ' . $id);
         $usedSources[$id] = true;
     }
+    $chapterLabCount = 0;
+    $chapterFigures = [];
     foreach ($chapter['sections'] as $section) {
+        $figure = $section['figure'] ?? '';
+        $chapterFigures[$figure] = true;
+        foreach (theory_labs_for_section($slug, $figure) as $lab) {
+            check_theory(is_string($lab) && preg_match('/^[a-z][a-z0-9-]+$/D', $lab) === 1 && !isset($labIds[$lab]), 'Invalid or duplicate laboratory ID');
+            check_theory(str_contains($labSource, "add('" . $lab . "',"), 'Unregistered JavaScript laboratory: ' . $lab);
+            $labIds[$lab] = true;
+            $chapterLabCount++;
+        }
         check_theory(trim($section['heading']) !== '' && count($section['paras']) > 0, 'Empty section');
         foreach ($section['paras'] as $paragraph) {
             check_theory(is_string($paragraph) && trim($paragraph) !== '', 'Empty paragraph');
@@ -107,11 +129,17 @@ foreach ($course['chapters'] as $slug => $chapter) {
         }
         $sections++;
     }
+    check_theory($chapterLabCount >= 3, 'Insufficient laboratories in ' . $slug);
+    foreach (array_keys($labRegistry[$slug] ?? []) as $figure) {
+        check_theory(isset($chapterFigures[$figure]), 'Orphan laboratory placement: ' . $slug . '/' . $figure);
+    }
     foreach ($chapter['checks'] as $check) {
         check_theory(trim($check['question']) !== '' && trim($check['answer']) !== '', 'Empty recall exercise');
         $checks++;
     }
 }
+check_theory(count($labIds) === 57 && count($labRegistry) === count($course['chapters']), 'Laboratory coverage mismatch');
+printf("Laboratories: %d unique applets in all chapters.\n", count($labIds));
 $actual = array_keys($covered);
 sort($actual);
 check_theory($actual === $expected && count($actual) === $course['source_count'], 'Meteorology bank coverage incomplete');
