@@ -1,6 +1,6 @@
 {
   "project": "PPL Study",
-  "current_version": "0.3.1",
+  "current_version": "0.3.2",
   "releases": {
     "0.1.0": {
       "status": "released",
@@ -121,6 +121,30 @@
         9
       ],
       "changes": "Meteorology textbook revision: 58 memory aids, metric and foot units, pressure altitude before density altitude, linked prerequisites and glossary, and 61 original diagrams across all 62 sections."
+    },
+    "0.3.2": {
+      "status": "released",
+      "released_at": "2026-11-25",
+      "tag": "v_0.3.2",
+      "application_schema": 4,
+      "question_bank_schema": 3,
+      "question_bank_compilation": "3.0",
+      "study_cards": 896,
+      "subjects": 9,
+      "curated_explanations": 896,
+      "source_exact_questions": 896,
+      "source_exact_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "changes": "57 interactive meteorology laboratories across all 14 chapters with live calculations, SVG diagrams, native controls and model regression tests."
     }
   }
 }

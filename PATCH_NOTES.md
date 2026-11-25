@@ -1,5 +1,19 @@
 # Patch Notes
 
+## 0.3.2 - 2026-11-25
+
+### Added
+
+- 57 independent interactive meteorology laboratories across all 14 chapters, embedded alongside existing explanations, examples and illustrations. Native sliders and selects, live numeric results, responsive SVGs, reset controls and keyboard access.
+- Hands-on exercises include ISA and pressure/density altitude, humidity and condensation, parcel stability and CAPE/CIN, cloud genera and ceiling, pressure systems, wind vectors, fronts, fog, icing, thunderstorms, mountain weather, weather reports and briefing scenarios.
+- Physical calculations are distinguished from schematic or fictional examples. Flight decisions remain subject to actual weather, applicable rules and aircraft AFM/POH; the laboratories are not flight planning tools.
+- Versioned chapter-only JavaScript and CSS; no external libraries, network requests, storage or runtime dependencies. Original text and diagrams remain usable without JavaScript.
+- Model boundary/reference tests, independent control/reset contract tests, chapter coverage, packaged asset checks and authenticated HTTP route checks.
+
+### Database and deployment
+
+- Application schema 4, question bank and migrations unchanged. Install via Admin > Aktualizace from 0.3.1; no database import or FTP overlay required.
+
 ## 0.3.1 - 2026-11-24
 
 ### Improved

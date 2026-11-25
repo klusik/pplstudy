@@ -435,3 +435,7 @@ Run `php scripts/test_theory.php dist/PPL-Study-0.3.1-deploy.zip` after building
 ### Meteorology revision (0.3.1)
 
 The theory package check validates 14 chapters, 62 illustrated sections, 61 unique SVG assets, 58 memory aids (26 selected for the quick reference), 25 glossary entries, earlier-chapter prerequisites, and the PA-before-DA order. HTTP regression verifies the new anchors, worked-example steps, image links, glossary and memory aids in the existing authenticated course. The official source JSON and application schema must remain unchanged. Use AIP GEN 2.1 for reporting units and the aircraft AFM/POH for actual performance.
+
+## Interactive meteorology laboratories (0.3.2)
+
+Run `node scripts/test_meteorology_labs.js` with Node.js (no package installation). Fast checks run this test if Node is installed; CI requires it. `scripts/test_theory.php` verifies IDs, coverage and ZIP assets; HTTP acceptance checks all 14 authenticated chapter pages, placeholder counts and asset links. Manual browser acceptance: change range/select controls using mouse, touch or keyboard, verify readouts and SVG, reset to initial values, and confirm each card is independent. At mobile widths confirm controls remain usable without horizontal overflow. Disable JavaScript and confirm the original material remains accessible. Models are not operational flight calculations.
