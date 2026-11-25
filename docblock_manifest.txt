@@ -1,5 +1,5 @@
 PPL Study docblock manifest
-Version: 0.3.1
+Version: 0.3.2
 
 All application PHP modules, setup utilities, JavaScript, CSS, and offline parser files contain a leading documentation block describing purpose and ownership.
 
@@ -32,6 +32,7 @@ Services:
 - app/services/diagnostics.php
 - app/services/updater.php
 - app/services/theory.php
+- app/services/theory_labs.php
 
 Controllers:
 - app/controllers.php
@@ -90,4 +91,9 @@ Updater release tools:
 Theory content and tests:
 - app/theory/meteorology/*.php
 - public/assets/theory/meteorology/*.svg
+- public/assets/theory/meteorology/lab-engine.js
+- public/assets/theory/meteorology/lab-physics.js
+- public/assets/theory/meteorology/lab-weather.js
+- public/assets/theory/meteorology/labs.css
+- scripts/test_meteorology_labs.js
 - scripts/test_theory.php

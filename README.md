@@ -2,13 +2,13 @@
 
 A framework-free PHP 8.1+ study application for the Czech PPL(A) theoretical syllabus. It provides an invitation-only learning environment with source-exact four-choice study cards, automatic scoring, drills, search, browser-local progress, learner profiles, and administrator management.
 
-**Current version:** 0.3.1
+**Current version:** 0.3.2
 
 **Deployment target:** ordinary PHP shared hosting with MySQL or MariaDB. The runtime uses native PHP, PDO, JavaScript, and Apache routing.
 
 ## First release
 
-Version 0.1.0 was the first application release. Version 0.1.1 hardens public URL handling on shared hosting. Version 0.2.0 adds administrator-triggered verified updates from the public GitHub repository. Version 0.3.0 adds the first comprehensive Czech theory textbook: aviation meteorology. Version 0.3.1 expands the illustrations and memory aids, clarifies dependencies between concepts and supplies metric and foot equivalents.
+Version 0.1.0 was the first application release. Version 0.1.1 hardens public URL handling on shared hosting. Version 0.2.0 adds administrator-triggered verified updates from the public GitHub repository. Version 0.3.0 adds the first comprehensive Czech theory textbook: aviation meteorology. Version 0.3.1 expands the illustrations and memory aids, clarifies dependencies between concepts and supplies metric and foot equivalents. Version 0.3.2 adds 57 interactive meteorology laboratories with native controls and live SVG diagrams.
 
 The release includes:
 
@@ -30,7 +30,7 @@ Administrators create all accounts. A temporary password authorizes one successf
 
 ## Theory textbooks
 
-Select **Studium > Meteorologie > Učebnice · výklad**. The meteorology course has 14 chapters, 62 illustrated sections, 61 original illustrations, 58 memory aids, a 26-item quick reference, a glossary, chapter prerequisites, chapter-level bibliography, step-by-step worked examples and self-check questions. Heights and gradients are taught in metres and feet; hPa remains primary and operational codes remain unchanged. Coverage is mapped to all 129 source question IDs; the course does not claim to cover unpublished examination questions. The original textbook content is versioned in `app/theory/meteorology/`, registered by `app/services/theory.php`, and served by an authenticated, read-only controller. It does not modify the database or import question content. Existing 0.2.0 or 0.3.0 installations can install 0.3.1 via the web updater.
+Select **Studium > Meteorologie > Učebnice · výklad**. The meteorology course has 14 chapters, 62 illustrated sections, 61 original illustrations, 58 memory aids, a 26-item quick reference, a glossary, chapter prerequisites, chapter-level bibliography, step-by-step worked examples and self-check questions. Heights and gradients are taught in metres and feet; hPa remains primary and operational codes remain unchanged. Coverage is mapped to all 129 source question IDs; the course does not claim to cover unpublished examination questions. The original textbook content is versioned in `app/theory/meteorology/`, registered by `app/services/theory.php`, and served by an authenticated, read-only controller. It does not modify the database or import question content. All 14 chapters now include 57 section-local interactive laboratories; these run in the browser without dependencies, external requests, or changes to the question bank. Models are educational, not operational flight tools. Existing 0.2.0 or newer installations can install 0.3.2 via the web updater.
 
 Consult the [ÚCL question bank terms](https://www.caa.gov.cz/zkusebni-otazky-pro-zkousky-teoretickych-znalosti-ppl-lapl/) before using the source questions for training or creating study materials; the page requires informing the copyright holder and written permission for commercial use. The project-owned explanatory text and diagrams are separate from the existing question bank.
 
@@ -124,7 +124,7 @@ On Unix-like systems:
 bash deploy.sh
 ```
 
-The legacy local package is named `PPL-Study-0.3.1-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
+The legacy local package is named `PPL-Study-0.3.2-deploy.zip`. Packaging excludes local credentials, runtime cache, generated deployment output, Git metadata, tooling caches, and source PDFs.
 
 Before release, run:
 
@@ -204,8 +204,8 @@ using the workflow's repository token. Existing published releases are not
 overwritten. The server does not need that token. For a local clean checkout:
 
 ```bash
-python3 scripts/build_update_package.py dist/PPL-Study-0.3.1-deploy.zip
-php scripts/test_updater.php dist/PPL-Study-0.3.1-deploy.zip
+python3 scripts/build_update_package.py dist/PPL-Study-0.3.2-deploy.zip
+php scripts/test_updater.php dist/PPL-Study-0.3.2-deploy.zip
 ```
 
 Use the published distribution ZIP, not the automatic GitHub source archive,

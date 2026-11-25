@@ -191,8 +191,10 @@ def exercise_theory(root, learner, pending):
     require("no-store" in headers.get("Cache-Control", ""), "Theory cache policy missing")
     require('id="tahak"' in html and 'id="slovnik"' in html and "0,65 °C/100 m" in html
             and "1 000 ft" in html , "Quick reference / glossary missing")
+    require('interaktivních laboratoří' in html and 'lab-engine.js' not in html, "Overview laboratory count or asset scoping missing")
     chapters = list(dict.fromkeys(re.findall(r'\?chapter=([a-z0-9-]+)', html)))
     require(len(chapters) == 14, "Chapter navigation incomplete")
+    lab_ids = []
     for chapter in chapters:
         status, _, html = request(learner, course + "?chapter=" + chapter)
         require(status == 200 and 'class="theory-article"' in html and "<details>" in html
@@ -200,11 +202,19 @@ def exercise_theory(root, learner, pending):
         require('id="pomucky"' in html and "Zapamatuj si" in html and 'class="theory-memory-card"' in html
                 and 'class="theory-figure-link"' in html and 'class="theory-prerequisites"' in html,
                 "Missing illustrated memory aids or prerequisites: " + chapter)
+        ids = re.findall(r'data-meteorology-applet="([a-z0-9-]+)"', html)
+        require(len(ids) >= 3 and len(set(ids)) == len(ids), "Missing or duplicate laboratory placeholders: " + chapter)
+        lab_ids.extend(ids)
+        require(all(asset in html for asset in ("lab-engine.js", "lab-physics.js", "lab-weather.js", "labs.css")), "Missing laboratory asset links: " + chapter)
         if chapter == "vyskomery":
             require(html.index("Tlaková výška (pressure altitude, PA)") < html.index("Hustotní výška (density altitude, DA)")
                     and 'class="theory-example-steps"' in html and "539,5 m" in html and "3 990 ft" in html
                     and "36,6 m/°C" in html and "120 ft/°C" in html,
                     "PA / DA explanation or dual-unit example missing")
+    require(len(lab_ids) == 57 and len(set(lab_ids)) == 57, "Incomplete laboratory HTTP coverage")
+    # The fixture uses PHP index.php as router even for static files; Apache serves these directly.
+    for asset in ("lab-engine.js", "lab-physics.js", "lab-weather.js", "labs.css"):
+        require((root / "public/assets/theory/meteorology" / asset).is_file(), "Laboratory asset missing from deployed package: " + asset)
     for route in ("/study/theory/neexistuje", course + "?chapter=neexistuje", course + "?chapter[]=atmosfera"):
         require(request(learner, route)[0] == 404, "Unregistered route accepted: " + route)
     require(request(learner, "/?page=theory&course=meteorologie&chapter=atmosfera")[0] == 200, "Fallback route broken")
@@ -212,7 +222,7 @@ def exercise_theory(root, learner, pending):
     status, headers, _ = request(learner, "/study?subject=3&mode=learn")
     require(status == 302, "Original learning route broken")
     status, _, html = request(learner, headers["Location"].removeprefix(BASE))
-    require(status == 200 and course in html and 'data-study-mode="learn"' in html, "Original learning card broken")
+    require(status == 200 and course in html and 'data-study-mode="learn"' in html and "lab-engine.js" not in html, "Original learning card broken or laboratory assets leaked")
     for image in (root / "public/assets/theory/meteorology").glob("*.svg"):
         document = ET.parse(image).getroot()
         require(document.tag == "{http://www.w3.org/2000/svg}svg", "Invalid SVG: " + image.name)

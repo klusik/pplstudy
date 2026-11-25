@@ -154,3 +154,11 @@ Updater presentation: `app/views/admin_updates.php`. Release build and regressio
 | `app/theory/meteorology/*.php` | original Czech chapter content and source-ID mapping |
 | `public/assets/theory/meteorology/*.svg` | project-owned explanatory diagrams |
 | `scripts/test_theory.php` | coverage and release-package completeness |
+
+### Interactive meteorology laboratories
+
+- `app/services/theory_labs.php`: explicit chapter/figure-to-laboratory placement registry.
+- `public/assets/theory/meteorology/lab-engine.js`: shared physical helpers, SVG primitives and independent native controls.
+- `public/assets/theory/meteorology/lab-physics.js`, `lab-weather.js`: educational models, with CommonJS exports for dependency-free tests.
+- `public/assets/theory/meteorology/labs.css`: scoped responsive layout loaded only on meteorology chapter pages.
+- `scripts/test_meteorology_labs.js`: registration, pairwise boundary, numerical reference and isolated control/reset contract checks.
