@@ -29,3 +29,4 @@ require_once __DIR__ . '/services/importer.php';
 require_once __DIR__ . '/services/diagnostics.php';
 require_once __DIR__ . '/services/updater.php';
 require_once __DIR__ . '/services/theory.php';
+require_once __DIR__ . '/services/theory_labs.php';

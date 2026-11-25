@@ -19,6 +19,8 @@ use function PplStudy\Core\e;
 use function PplStudy\Core\study_url;
 use function PplStudy\Services\theory_figures;
 use function PplStudy\Services\theory_sources;
+use function PplStudy\Services\theory_labs_for_section;
+use function PplStudy\Services\theory_lab_count;
 
 /** Build the canonical link for a registered course and optional chapter. */
 function theory_url(string $slug, string $chapter = ''): string
@@ -104,7 +106,7 @@ function render_theory_quick_reference(string $slug, array $chapters): void
 }
 
 /** Render a structured explanation section without accepting arbitrary HTML. */
-function render_theory_section(array $section, int $index): void
+function render_theory_section(array $section, int $index, array $applets = []): void
 {
     ?>
     <section class="theory-section" id="sekce-<?= $index ?>">
@@ -114,6 +116,7 @@ function render_theory_section(array $section, int $index): void
         <?php if (isset($section['code'])): ?><pre class="theory-weather-code"><code><?= e($section['code']) ?></code></pre><?php endif; ?>
         <?php if (isset($section['figure'])): render_theory_figure($section['figure']); endif; ?>
         <?php if (isset($section['table'])): render_theory_table($section['table']); endif; ?>
+        <?php foreach ($applets as $applet): ?><div class="meteo-lab" data-meteorology-applet="<?= e($applet) ?>" hidden></div><?php endforeach; ?>
         <?php if (isset($section['example'])): ?><aside class="theory-callout theory-example"><span>Praktický příklad</span><h3><?= e($section['example']['title']) ?></h3><p><?= e($section['example']['text']) ?></p><?php if (!empty($section['example']['steps'])): ?><ol class="theory-example-steps"><?php foreach ($section['example']['steps'] as $step): ?><li><strong><?= e($step['label']) ?></strong><p><?= e($step['detail']) ?></p></li><?php endforeach; ?></ol><?php endif; ?></aside><?php endif; ?>
         <?php if (isset($section['note'])): ?><aside class="theory-callout theory-note"><span>Pozor / provozní souvislost</span><p><?= e($section['note']) ?></p></aside><?php endif; ?>
     </section>
@@ -144,7 +147,9 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
     $sourceQuestions = [];
     $checkCount = 0;
     $figureCount = [];
-    foreach ($chapters as $item) {
+    $appletCount = 0;
+    foreach ($chapters as $key => $item) {
+        if ($slug === 'meteorologie') { $appletCount += theory_lab_count($key); }
         $sourceQuestions = array_merge($sourceQuestions, $item['questions']);
         $checkCount += count($item['checks']);
         foreach ($item['sections'] as $section) {
@@ -154,7 +159,8 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
         }
     }
     $sourceQuestions = array_unique($sourceQuestions);
-    render_header($chapter ? $chapter['title'] : $course['title'], $course['description'], 'study');
+    $meteorologyLabs = $slug === 'meteorologie' && $chapter !== null;
+    render_header($chapter ? $chapter['title'] : $course['title'], $course['description'], 'study', $meteorologyLabs);
     ?>
     <nav class="theory-breadcrumb" aria-label="Drobečková navigace">
         <a href="<?= e(study_url('/study')) ?>">Studium</a><span>/</span>
@@ -173,6 +179,7 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
                 <div><strong><?= count($sourceQuestions) ?>/<?= (int) $course['source_count'] ?></strong><span>témata zveřejněných otázek pokryta</span></div>
                 <div><strong><?= count($figureCount) ?></strong><span>originálních schémat</span></div>
                 <div><strong><?= $checkCount ?></strong><span>kontrolních otázek</span></div>
+                <?php if ($appletCount > 0): ?><div><strong><?= $appletCount ?></strong><span>interaktivních laboratoří</span></div><?php endif; ?>
             </div>
         </section>
         <section class="theory-intro panel"><h2>Jak studovat</h2><p>Postupuj od základních fyzikálních pojmů přes vznik počasí až po praktický briefing. Po každé kapitole zkus odpovědět na kontrolní otázky bez nápovědy a procvič si příslušná témata v původním režimu otázek. Nezaměňuj orientační výpočty s provozními limity. Učebnice má vlastní text a schémata; odkazy na otázky pouze určují rozsah výuky.</p><p><strong>Podklad:</strong> <?= e($course['source_version']) ?>. ÚCL zveřejňuje jen část celkové zkouškové banky, proto nejde o garanci úplného pokrytí neveřejných otázek.</p></section>
@@ -182,7 +189,7 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
                 <article class="theory-chapter-card">
                     <span class="theory-chapter-index"><?= str_pad((string) $position, 2, '0', STR_PAD_LEFT) ?></span>
                     <div><h3><a href="<?= e(theory_url($slug, $chapterKey)) ?>"><?= e($item['title']) ?></a></h3>
-                    <p><?= e($item['lead']) ?></p><small><?= count($item['sections']) ?> oddílů · <?= count($item['checks']) ?> kontrolních otázek</small></div>
+                    <p><?= e($item['lead']) ?></p><small><?= count($item['sections']) ?> oddílů · <?= count($item['checks']) ?> kontrolních otázek<?php if ($slug === 'meteorologie' && theory_lab_count($chapterKey) > 0): ?> · <?= theory_lab_count($chapterKey) ?> interaktivních laboratoří<?php endif; ?></small></div>
                     <a class="button secondary small" href="<?= e(theory_url($slug, $chapterKey)) ?>">Otevřít kapitolu</a>
                 </article>
             <?php endforeach; ?>
@@ -210,7 +217,11 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
                     <?php if (!empty($course['glossary'])): ?><a href="<?= e(theory_url($slug)) ?>#slovnik">Slovník pojmů a zkratek</a><?php endif; ?>
                 </aside><?php endif; ?>
                 <?php render_theory_memory($chapter['memory'] ?? []); ?>
-                <?php foreach ($chapter['sections'] as $i => $section): render_theory_section($section, $i + 1); endforeach; ?>
+                <?php if ($meteorologyLabs): ?><noscript><p>Interaktivní laboratoře vyžadují JavaScript. Původní texty, schémata a příklady zůstávají dostupné.</p></noscript><?php endif; ?>
+                <?php foreach ($chapter['sections'] as $i => $section):
+                    $applets = $meteorologyLabs ? theory_labs_for_section($chapterSlug, $section['figure'] ?? '') : [];
+                    render_theory_section($section, $i + 1, $applets);
+                endforeach; ?>
                 <section id="kontrola" class="theory-section theory-checks"><span class="eyebrow">Aktivní vybavování znalostí</span><h2>Ověř si znalosti</h2><p>Odpověď si nejdříve zkus vysvětlit vlastními slovy. Potom ji odkryj a porovnej.</p>
                     <?php foreach ($chapter['checks'] as $i => $check): ?><details><summary><?= $i + 1 ?>. <?= e($check['question']) ?></summary><p><?= e($check['answer']) ?></p></details><?php endforeach; ?>
                 </section>
@@ -226,5 +237,5 @@ function render_theory_course(array $course, string $chapterSlug = ''): void
         </div>
     <?php endif; ?>
     <?php
-    render_footer();
+    render_footer($meteorologyLabs);
 }

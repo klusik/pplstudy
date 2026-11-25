@@ -31,7 +31,7 @@ use function PplStudy\Core\study_url;
 use function PplStudy\Services\app_setting;
 
 /** Render the shared public document header. */
-function render_header(string $title, string $description = '', string $active = ''): void
+function render_header(string $title, string $description = '', string $active = '', bool $meteorologyLabs = false): void
 {
     $siteName = app_setting('site_name');
     $fullTitle = $title === '' || $title === $siteName ? $siteName : $title . ' | ' . $siteName;
@@ -50,6 +50,7 @@ function render_header(string $title, string $description = '', string $active =
     <meta name="theme-color" content="#10253f">
     <title><?= e($fullTitle) ?></title>
     <link rel="stylesheet" href="<?= e(study_url('/public/assets/app.css?v=' . $assetVersion)) ?>">
+    <?php if ($meteorologyLabs): ?><link rel="stylesheet" href="<?= e(study_url('/public/assets/theory/meteorology/labs.css?v=' . $assetVersion)) ?>"><?php endif; ?>
 </head>
 <body>
 <header class="site-header">
@@ -82,7 +83,7 @@ function render_header(string $title, string $description = '', string $active =
 }
 
 /** Render the shared public footer and JavaScript entry point. */
-function render_footer(): void
+function render_footer(bool $meteorologyLabs = false): void
 {
     $assetVersion = rawurlencode(APP_VERSION);
     ?>
@@ -97,6 +98,11 @@ function render_footer(): void
     </div>
 </footer>
 <script src="<?= e(study_url('/public/assets/app.js?v=' . $assetVersion)) ?>" defer></script>
+<?php if ($meteorologyLabs): ?>
+    <?php foreach (['lab-engine.js', 'lab-physics.js', 'lab-weather.js'] as $asset): ?>
+        <script src="<?= e(study_url('/public/assets/theory/meteorology/' . $asset . '?v=' . $assetVersion)) ?>" defer></script>
+    <?php endforeach; ?>
+<?php endif; ?>
 </body>
 </html>
 <?php
